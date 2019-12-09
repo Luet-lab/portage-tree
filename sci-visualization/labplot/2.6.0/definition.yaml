@@ -3,6 +3,21 @@ conflicts: []
 name: labplot
 requires:
 - 
+  category: app-arch
+  name: lz4
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: sci-libs
+  name: gsl
+  
+  version: "1.15"
+- 
   category: sci-libs
   name: fftw
   
@@ -27,21 +42,6 @@ requires:
   name: netcdf
   
   version: ""
-- 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: sci-libs
-  name: gsl
-  
-  version: "1.15"
 use_flags:
 - cantor
 - fftw

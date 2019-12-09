@@ -2,19 +2,19 @@ category: sys-boot
 conflicts:
 - 
   category: sys-boot
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
-  name: grub-static
+  name: grub
   
   version: ""
 name: grub
 requires:
 - 
-  category: app-arch
-  name: xz-utils
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -23,8 +23,13 @@ requires:
   
   version: 5.2-r5
 - 
-  category: sys-devel
-  name: gettext
+  category: media-libs
+  name: libsdl
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -38,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -55,11 +60,6 @@ requires:
 - 
   category: sys-fs
   name: fuse
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
   
   version: ""
 use_flags:

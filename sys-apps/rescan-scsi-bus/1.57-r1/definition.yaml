@@ -3,6 +3,16 @@ conflicts: []
 name: rescan-scsi-bus
 requires:
 - 
+  category: virtual
+  name: modutils
+  
+  version: ""
+- 
+  category: app-shells
+  name: bash
+  
+  version: ""
+- 
   category: sys-apps
   name: sg3_utils
   
@@ -15,16 +25,6 @@ requires:
 - 
   category: app-admin
   name: killproc
-  
-  version: ""
-- 
-  category: virtual
-  name: modutils
-  
-  version: ""
-- 
-  category: app-shells
-  name: bash
   
   version: ""
 version: 1.57-r1

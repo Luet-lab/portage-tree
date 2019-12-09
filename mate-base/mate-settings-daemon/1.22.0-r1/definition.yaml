@@ -3,10 +3,25 @@ conflicts: []
 name: mate-settings-daemon
 requires:
 - 
-  category: mate-base
-  name: mate-desktop
+  category: sys-auth
+  name: polkit
   
-  version: 1.21.1
+  version: "0.97"
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: 0.9.15
+- 
+  category: dev-libs
+  name: nss
+  
+  version: 3.11.2
+- 
+  category: gnome-base
+  name: dconf
+  
+  version: 0.13.4
 - 
   category: media-libs
   name: fontconfig
@@ -14,7 +29,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libXxf86misc
   
   version: ""
 - 
@@ -29,24 +44,29 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXi
+  name: libxklavier
+  
+  version: "5.2"
+- 
+  category: media-libs
+  name: libcanberra
   
   version: ""
 - 
   category: dev-libs
-  name: nss
+  name: glib
   
-  version: 3.11.2
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.74"
+  version: "2.50"
 - 
   category: mate-base
   name: libmatekbd
   
   version: 1.17.0
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
 - 
   category: x11-libs
   name: cairo
@@ -63,28 +83,8 @@ requires:
   
   version: "1.10"
 - 
-  category: media-sound
-  name: pulseaudio
-  
-  version: 0.9.15
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: gnome-base
-  name: dconf
-  
-  version: 0.13.4
-- 
   category: x11-libs
   name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXxf86misc
   
   version: ""
 - 
@@ -93,28 +93,28 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.1.2
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: x11-libs
-  name: libxklavier
-  
-  version: "5.2"
-- 
   category: x11-libs
   name: libnotify
   
   version: "0.7"
 - 
-  category: media-libs
-  name: libcanberra
+  category: sys-apps
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.74"
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.21.1
+- 
+  category: x11-libs
+  name: libXi
   
   version: ""
 use_flags:

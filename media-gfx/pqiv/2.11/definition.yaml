@@ -3,6 +3,21 @@ conflicts: []
 name: pqiv
 requires:
 - 
+  category: x11-libs
+  name: cairo
+  
+  version: "1.6"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: app-arch
+  name: libarchive
+  
+  version: ""
+- 
   category: app-text
   name: libspectre
   
@@ -13,10 +28,15 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: dev-libs
+  name: glib
   
-  version: "1.6"
+  version: "2.32"
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
 - 
   category: media-video
   name: libav
@@ -30,26 +50,6 @@ requires:
 - 
   category: app-text
   name: poppler
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.32"
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: app-arch
-  name: libarchive
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
   
   version: ""
 use_flags:

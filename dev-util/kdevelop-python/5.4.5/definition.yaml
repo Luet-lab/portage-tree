@@ -3,18 +3,28 @@ conflicts: []
 name: kdevelop-python
 requires:
 - 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: ki18n
+  name: kcoreaddons
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kio
+  name: ktexteditor
   
   version: 5.60.0
 - 
   category: kde-frameworks
   name: knewstuff
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kxmlgui
   
   version: 5.60.0
 - 
@@ -29,17 +39,22 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kconfig
+  name: kcompletion
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kcoreaddons
+  name: kitemmodels
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: ktexteditor
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: threadweaver
   
   version: 5.60.0
 - 
@@ -49,12 +64,7 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kxmlgui
+  name: ki18n
   
   version: 5.60.0
 - 
@@ -64,22 +74,12 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: threadweaver
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kcompletion
+  name: kconfig
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kitemmodels
+  name: kio
   
   version: 5.60.0
 use_flags:

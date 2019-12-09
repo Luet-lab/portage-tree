@@ -3,11 +3,6 @@ conflicts: []
 name: pam_ssh_agent_auth
 requires:
 - 
-  category: virtual
-  name: ssh
-  
-  version: ""
-- 
   category: sys-libs
   name: pam
   
@@ -15,6 +10,11 @@ requires:
 - 
   category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  name: ssh
   
   version: ""
 use_flags:

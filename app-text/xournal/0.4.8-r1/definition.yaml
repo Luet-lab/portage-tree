@@ -3,18 +3,23 @@ conflicts: []
 name: xournal
 requires:
 - 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
   category: app-text
-  name: poppler
+  name: ghostscript-gpl
   
   version: ""
 - 
-  category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
+  category: gnome-base
+  name: libgnomecanvas
   
   version: ""
 - 
@@ -38,18 +43,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
   category: app-text
-  name: ghostscript-gpl
+  name: poppler
+  
+  version: ""
+- 
+  category: dev-libs
+  name: atk
   
   version: ""
 - 
@@ -58,8 +58,8 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  name: libgnomecanvas
+  category: media-libs
+  name: freetype
   
   version: ""
 use_flags:

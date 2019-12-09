@@ -4,6 +4,11 @@ name: openstack-meta
 requires:
 - 
   category: sys-cluster
+  name: cinder
+  
+  version: 15.0.0
+- 
+  category: sys-cluster
   name: nova
   
   version: 20.0.1
@@ -37,11 +42,6 @@ requires:
   name: glance
   
   version: 19.0.0
-- 
-  category: sys-cluster
-  name: cinder
-  
-  version: 15.0.0
 use_flags:
 - cinder
 - glance

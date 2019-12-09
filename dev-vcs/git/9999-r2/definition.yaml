@@ -3,18 +3,8 @@ conflicts: []
 name: git
 requires:
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -23,18 +13,13 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
+  name: libwww-perl
   
   version: ""
 - 
@@ -44,22 +29,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
+  name: TermReadKey
   
   version: ""
 - 
@@ -69,42 +39,7 @@ requires:
   version: ""
 - 
   category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
+  name: perl
   
   version: ""
 - 
@@ -118,10 +53,35 @@ requires:
   
   version: ""
 - 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
   category: dev-vcs
   name: cvsps
   
   version: "2.1"
+- 
+  category: dev-perl
+  name: HTML-Tree
+  
+  version: ""
 - 
   category: dev-libs
   name: libpcre
@@ -129,12 +89,52 @@ requires:
   version: ""
 - 
   category: dev-lang
-  name: perl
+  name: tk
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
   category: dev-libs
-  name: expat
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
   
   version: ""
 use_flags:

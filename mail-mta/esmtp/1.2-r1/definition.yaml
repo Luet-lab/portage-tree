@@ -2,7 +2,7 @@ category: mail-mta
 conflicts:
 - 
   category: mail-mta
-  name: exim
+  name: postfix
   
   version: ""
 - 
@@ -12,27 +12,7 @@ conflicts:
   version: ""
 - 
   category: mail-mta
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  name: msmtp
-  
-  version: ""
-- 
-  category: mail-mta
   name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  name: sendmail
   
   version: ""
 - 
@@ -47,24 +27,44 @@ mailer
   version: ""
 - 
   category: mail-mta
-  name: postfix
+  name: qmail-ldap
   
   version: ""
 - 
   category: mail-mta
-  name: qmail-ldap
+  name: opensmtpd
+  
+  version: ""
+- 
+  category: mail-mta
+  name: msmtp
+  
+  version: ""
+- 
+  category: mail-mta
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  name: exim
   
   version: ""
 name: esmtp
 requires:
 - 
   category: dev-libs
-  name: openssl
+  name: libressl
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: openssl
   
   version: ""
 - 

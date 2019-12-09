@@ -8,18 +8,18 @@ requires:
   
   version: 0.1.1
 - 
-  category: sys-libs
-  name: libieee1284[static-libs(+)]
+  category: dev-embedded
+  name: libftdi
   
-  version: ""
+  version: "0.16"
 - 
   category: dev-libs
-  name: glib
+  name: libzip
   
-  version: 2.32.0
+  version: "0.8"
 - 
-  category: sys-libs
-  name: libieee1284
+  category: dev-cpp
+  name: glibmm
   
   version: ""
 - 
@@ -28,10 +28,10 @@ requires:
   
   version: 3.0.0
 - 
-  category: dev-embedded
-  name: libftdi
+  category: sys-libs
+  name: libieee1284
   
-  version: "0.16"
+  version: ""
 - 
   category: virtual
   name: libusb
@@ -43,10 +43,15 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libserialport-0.1.1[static-libs(+)]
+  category: sys-libs
+  name: libieee1284[static-libs(+)]
   
   version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: 2.32.0
 - 
   category: virtual
   name: jre
@@ -54,12 +59,7 @@ requires:
   version: "1.4"
 - 
   category: dev-libs
-  name: libzip
-  
-  version: "0.8"
-- 
-  category: dev-cpp
-  name: glibmm
+  name: libserialport-0.1.1[static-libs(+)]
   
   version: ""
 use_flags:

@@ -3,8 +3,18 @@ conflicts: []
 name: qtmultimedia
 requires:
 - 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: 5.13.2
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
   category: media-libs
-  name: alsa-lib
+  name: gstreamer
   
   version: ""
 - 
@@ -19,9 +29,9 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtgui-5.13.2[gles2=]
+  name: qtgui
   
-  version: ""
+  version: 5.13.2
 - 
   category: dev-qt
   name: qtopengl
@@ -29,12 +39,12 @@ requires:
   version: 5.13.2
 - 
   category: dev-qt
-  name: qtnetwork
+  name: qtcore
   
   version: 5.13.2
 - 
   category: media-libs
-  name: gstreamer
+  name: alsa-lib
   
   version: ""
 - 
@@ -43,15 +53,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtdeclarative
+  category: media-libs
+  name: openal
   
-  version: 5.13.2
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.13.2
+  version: ""
 - 
   category: dev-qt
   name: qtwidgets-5.13.2[gles2=]
@@ -59,19 +64,14 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtcore
+  name: qtgui-5.13.2[gles2=]
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdeclarative
   
   version: 5.13.2
-- 
-  category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
 use_flags:
 - alsa
 - gles2

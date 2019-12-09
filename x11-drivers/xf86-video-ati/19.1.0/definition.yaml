@@ -3,11 +3,6 @@ conflicts: []
 name: xf86-video-ati
 requires:
 - 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
   category: virtual
   name: libudev
   
@@ -22,6 +17,11 @@ requires:
   name: libpciaccess
   
   version: 0.8.0
+- 
+  category: x11-base
+  name: xorg-server
+  
+  version: ""
 use_flags:
 - udev
 version: 19.1.0

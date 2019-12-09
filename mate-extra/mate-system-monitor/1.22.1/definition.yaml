@@ -3,35 +3,10 @@ conflicts: []
 name: mate-system-monitor
 requires:
 - 
-  category: dev-libs
-  name: libxml2
-  
-  version: "2"
-- 
-  category: sys-auth
-  name: elogind
+  category: virtual
+  name: libintl
   
   version: ""
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: dev-cpp
-  name: glibmm
-  
-  version: "2.26"
-- 
-  category: dev-cpp
-  name: gtkmm
-  
-  version: "3.8"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
 - 
   category: dev-libs
   name: libsigc++
@@ -43,20 +18,40 @@ requires:
   
   version: "2.35"
 - 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
   category: x11-libs
   name: cairo
   
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libwnck
+  
+  version: "3.0"
+- 
+  category: sys-auth
+  name: elogind
   
   version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-auth
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: dev-cpp
+  name: gtkmm
+  
+  version: "3.8"
 - 
   category: gnome-base
   name: libgtop
@@ -68,15 +63,20 @@ requires:
   
   version: "3.22"
 - 
-  category: x11-libs
-  name: libwnck
+  category: dev-cpp
+  name: glibmm
   
-  version: "3.0"
+  version: "2.26"
 - 
-  category: sys-apps
-  name: systemd
+  category: x11-libs
+  name: gdk-pixbuf
   
   version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: "2"
 use_flags:
 - elogind
 - systemd

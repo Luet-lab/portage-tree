@@ -4,19 +4,14 @@ name: mc
 requires:
 - 
   category: x11-libs
-  name: libXau
+  name: libICE
   
   version: ""
 - 
   category: x11-libs
-  name: libXdmcp
+  name: libXau
   
   version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: 2.26.0
 - 
   category: sys-libs
   name: gpm
@@ -28,28 +23,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
   category: net-fs
   name: samba
-  
-  version: ""
-- 
-  category: net-libs
-  name: libssh2
   
   version: ""
 - 
@@ -58,6 +33,26 @@ requires:
   
   version: "2"
 - 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: 2.26.0
+- 
+  category: net-libs
+  name: libssh2
+  
+  version: ""
+- 
   category: sys-libs
   name: ncurses
   
@@ -65,6 +60,11 @@ requires:
 - 
   category: app-text
   name: aspell
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXdmcp
   
   version: ""
 use_flags:

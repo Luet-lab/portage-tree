@@ -3,6 +3,11 @@ conflicts: []
 name: wmnd
 requires:
 - 
+  category: net-analyzer
+  name: net-snmp
+  
+  version: 5.2.1
+- 
   category: x11-libs
   name: libX11
   
@@ -22,11 +27,6 @@ requires:
   name: libXpm
   
   version: ""
-- 
-  category: net-analyzer
-  name: net-snmp
-  
-  version: 5.2.1
 use_flags:
 - snmp
 version: 0.4.17-r1

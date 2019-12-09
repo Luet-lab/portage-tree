@@ -4,17 +4,27 @@ name: neovim
 requires:
 - 
   category: dev-libs
-  name: unibilium
-  
-  version: 2.0.0
-- 
-  category: app-eselect
-  name: eselect-vi
+  name: libtermkey
   
   version: ""
 - 
   category: dev-libs
+  name: unibilium
+  
+  version: 2.0.0
+- 
+  category: dev-libs
+  name: libvterm
+  
+  version: "0.1"
+- 
+  category: dev-libs
   name: msgpack
+  
+  version: ""
+- 
+  category: dev-lua
+  name: lpeg[luajit=]
   
   version: ""
 - 
@@ -25,6 +35,21 @@ requires:
 - 
   category: dev-lang
   name: lua
+  
+  version: ""
+- 
+  category: dev-lua
+  name: LuaBitOp
+  
+  version: ""
+- 
+  category: app-eselect
+  name: eselect-vi
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libuv
   
   version: ""
 - 
@@ -40,31 +65,6 @@ requires:
 - 
   category: dev-lang
   name: luajit
-  
-  version: ""
-- 
-  category: dev-lua
-  name: LuaBitOp
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libtermkey
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libuv
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libvterm
-  
-  version: "0.1"
-- 
-  category: dev-lua
-  name: lpeg[luajit=]
   
   version: ""
 use_flags:

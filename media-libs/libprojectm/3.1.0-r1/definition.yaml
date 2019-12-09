@@ -3,18 +3,13 @@ conflicts: []
 name: libprojectm
 requires:
 - 
-  category: media-libs
-  name: mesa[X(+)]
+  category: dev-qt
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
   name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtopengl
   
   version: ""
 - 
@@ -43,13 +38,18 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtcore
+  category: media-libs
+  name: mesa[X(+)]
   
   version: ""
 - 
   category: dev-qt
   name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtopengl
   
   version: ""
 use_flags:

@@ -4,19 +4,9 @@ name: buildbot
 requires:
 - 
   category: dev-python
-  name: idna
+  name: pyjwt
   
   version: ""
-- 
-  category: dev-python
-  name: sqlalchemy
-  
-  version: "0.8"
-- 
-  category: dev-python
-  name: sqlalchemy-migrate
-  
-  version: "0.9"
 - 
   category: dev-util
   name: buildbot-worker
@@ -24,7 +14,7 @@ requires:
   version: "9999"
 - 
   category: dev-python
-  name: txrequests
+  name: idna
   
   version: ""
 - 
@@ -39,19 +29,19 @@ requires:
   version: 0.16.0
 - 
   category: dev-python
+  name: python-dateutil
+  
+  version: "1.5"
+- 
+  category: dev-python
   name: txaio
   
   version: 2.2.2
 - 
   category: dev-python
-  name: pyjwt
+  name: zope-interface
   
-  version: ""
-- 
-  category: dev-python
-  name: pyopenssl
-  
-  version: 16.0.0
+  version: 4.1.1
 - 
   category: dev-python
   name: future
@@ -59,14 +49,29 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: python-dateutil
+  name: sqlalchemy-migrate
   
-  version: "1.5"
+  version: "0.9"
 - 
   category: dev-python
-  name: zope-interface
+  name: txrequests
   
-  version: 4.1.1
+  version: ""
+- 
+  category: dev-python
+  name: sqlalchemy
+  
+  version: "0.8"
+- 
+  category: dev-python
+  name: twisted
+  
+  version: 17.9.0
+- 
+  category: dev-python
+  name: pyopenssl
+  
+  version: 16.0.0
 - 
   category: dev-python
   name: service_identity
@@ -77,11 +82,6 @@ requires:
   name: jinja
   
   version: "2.1"
-- 
-  category: dev-python
-  name: twisted
-  
-  version: 17.9.0
 use_flags:
 - crypt
 - doc

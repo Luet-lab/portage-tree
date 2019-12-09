@@ -3,13 +3,8 @@ conflicts: []
 name: cfengine
 requires:
 - 
-  category: sys-libs
-  name: db
-  
-  version: "4"
-- 
-  category: dev-db
-  name: postgresql
+  category: virtual
+  name: mysql
   
   version: ""
 - 
@@ -23,25 +18,25 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  name: libvirt
+  category: dev-libs
+  name: openssl
   
-  version: ""
+  version: 0.9.7
 - 
-  category: virtual
-  name: mysql
+  category: sys-libs
+  name: db
   
-  version: ""
+  version: "4"
 - 
   category: dev-db
   name: tokyocabinet
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: app-emulation
+  name: libvirt
   
-  version: 0.9.7
+  version: ""
 - 
   category: dev-libs
   name: libpcre
@@ -50,6 +45,11 @@ requires:
 - 
   category: net-libs
   name: libnsl
+  
+  version: ""
+- 
+  category: dev-db
+  name: postgresql
   
   version: ""
 use_flags:

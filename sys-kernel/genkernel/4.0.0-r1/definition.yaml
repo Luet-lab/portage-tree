@@ -3,18 +3,8 @@ conflicts: []
 name: genkernel
 requires:
 - 
-  category: app-portage
-  name: elt-patches
-  
-  version: ""
-- 
-  category: sys-devel
-  name: autoconf
-  
-  version: ""
-- 
-  category: sys-devel
-  name: autoconf-archive
+  category: sys-kernel
+  name: linux-firmware
   
   version: ""
 - 
@@ -33,8 +23,28 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  name: pax-utils
+  
+  version: 1.2.2
+- 
+  category: app-portage
+  name: elt-patches
+  
+  version: ""
+- 
   category: sys-apps
   name: sandbox
+  
+  version: ""
+- 
+  category: sys-devel
+  name: autoconf
+  
+  version: ""
+- 
+  category: sys-devel
+  name: autoconf-archive
   
   version: ""
 - 
@@ -42,16 +52,6 @@ requires:
   name: pkgconfig
   
   version: ""
-- 
-  category: sys-kernel
-  name: linux-firmware
-  
-  version: ""
-- 
-  category: app-misc
-  name: pax-utils
-  
-  version: 1.2.2
 use_flags:
 - ibm
 - +firmware

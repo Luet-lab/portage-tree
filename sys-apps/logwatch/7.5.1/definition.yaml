@@ -4,12 +4,12 @@ name: logwatch
 requires:
 - 
   category: virtual
-  name: mailx
+  name: mta
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: virtual
+  name: mailx
   
   version: ""
 - 
@@ -19,17 +19,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Tie-IxHash
-  
-  version: ""
-- 
-  category: virtual
-  name: mta
+  name: Date-Manip
   
   version: ""
 - 
   category: dev-perl
-  name: Date-Manip
+  name: Tie-IxHash
   
   version: ""
 - 
@@ -38,13 +33,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: Sys-MemInfo
+  category: virtual
+  name: cron
   
   version: ""
 - 
-  category: virtual
-  name: cron
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Sys-MemInfo
   
   version: ""
 use_flags:

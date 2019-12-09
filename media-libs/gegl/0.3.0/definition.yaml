@@ -3,6 +3,36 @@ conflicts: []
 name: gegl
 requires:
 - 
+  category: media-libs
+  name: lcms
+  
+  version: "2.2"
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.36"
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: dev-libs
+  name: gobject-introspection
+  
+  version: "1.32"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: ""
+- 
   category: virtual
   name: jpeg
   
@@ -13,10 +43,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  name: librsvg
+  category: sci-libs
+  name: umfpack
   
-  version: "2.14"
+  version: ""
 - 
   category: dev-libs
   name: json-glib
@@ -28,58 +58,8 @@ requires:
   
   version: 0.1.12
 - 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  name: libopenraw
-  
-  version: 0.0.9
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: "2.18"
-- 
-  category: media-libs
-  name: lcms
-  
-  version: "2.2"
-- 
-  category: media-libs
-  name: lensfun
-  
-  version: 0.2.5
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-libs
-  name: openexr
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: ""
-- 
-  category: sci-libs
-  name: umfpack
   
   version: ""
 - 
@@ -93,20 +73,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: media-video
+  name: ffmpeg
   
-  version: "2.36"
+  version: ""
 - 
-  category: dev-libs
-  name: gobject-introspection
+  category: media-libs
+  name: lensfun
   
-  version: "1.32"
+  version: 0.2.5
 - 
   category: media-libs
   name: libsdl
   
   version: ""
+- 
+  category: gnome-base
+  name: librsvg
+  
+  version: "2.14"
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: "2.18"
+- 
+  category: media-libs
+  name: openexr
+  
+  version: ""
+- 
+  category: media-libs
+  name: libopenraw
+  
+  version: 0.0.9
 use_flags:
 - cairo
 - cpu_flags_x86_mmx

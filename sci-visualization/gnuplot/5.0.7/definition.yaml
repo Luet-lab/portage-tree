@@ -3,13 +3,23 @@ conflicts: []
 name: gnuplot
 requires:
 - 
-  category: media-libs
-  name: gd
+  category: x11-libs
+  name: cairo
   
-  version: 2.0.35-r3
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
 - 
   category: dev-qt
-  name: qtprintsupport
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 
@@ -18,13 +28,48 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: svgalib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: media-libs
+  name: gd
+  
+  version: 2.0.35-r3
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: ""
+- 
   category: sci-libs
   name: libcerf
   
   version: ""
 - 
+  category: x11-libs
+  name: wxGTK
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXaw
+  
+  version: ""
+- 
   category: media-libs
-  name: svgalib
+  name: libggi
   
   version: ""
 - 
@@ -44,37 +89,7 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: x11-libs
-  name: wxGTK
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  name: libggi
+  name: qtprintsupport
   
   version: ""
 - 
@@ -89,22 +104,7 @@ requires:
   version: 2008-r2
 - 
   category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXaw
+  name: qtwidgets
   
   version: ""
 use_flags:

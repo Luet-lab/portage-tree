@@ -3,38 +3,8 @@ conflicts: []
 name: collectd
 requires:
 - 
-  category: sys-cluster
-  name: ganglia
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: ""
-- 
-  category: sys-fs
-  name: owfs
-  
-  version: "3.1"
-- 
-  category: app-emulation
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libltdl
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
-  
-  version: ""
-- 
-  category: virtual
-  name: udev
   
   version: ""
 - 
@@ -43,33 +13,13 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libmnl
+  category: dev-libs
+  name: libxml2
   
   version: ""
 - 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: app-emulation
-  name: libvirt
-  
-  version: ""
-- 
-  category: virtual
-  name: logger
-  
-  version: ""
-- 
-  category: sys-libs
-  name: openipmi
-  
-  version: 2.0.16-r1
-- 
-  category: dev-db
-  name: mysql-connector-c
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
@@ -78,88 +28,23 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: hiredis
+  category: sci-libs
+  name: libsigrok
   
-  version: ""
+  version: "0.4"
 - 
-  category: sys-apps
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libatasmart
-  
-  version: ""
-- 
-  category: net-libs
-  name: librouteros
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libstatgrab
+  category: virtual
+  name: logger
   
   version: ""
 - 
   category: sys-fs
-  name: xfsprogs
+  name: lvm2
   
   version: ""
 - 
-  category: net-libs
-  name: rabbitmq-c
-  
-  version: ""
-- 
-  category: sci-geosciences
-  name: gpsd
-  
-  version: ""
-- 
-  category: net-firewall
-  name: iptables
-  
-  version: 1.4.13
-- 
-  category: dev-libs
-  name: libmemcached
-  
-  version: ""
-- 
-  category: dev-db
-  name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: www-servers
-  name: varnish
-  
-  version: ""
-- 
-  category: dev-libs
-  name: yajl
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: app-misc
-  name: mosquitto
-  
-  version: ""
-- 
-  category: net-libs
-  name: libesmtp
+  category: x11-libs
+  name: libnotify
   
   version: ""
 - 
@@ -168,13 +53,83 @@ requires:
   
   version: 2.7.2-r2
 - 
-  category: sci-libs
-  name: libsigrok
+  category: dev-libs
+  name: glib
   
-  version: "0.4"
+  version: ""
+- 
+  category: dev-libs
+  name: libatasmart
+  
+  version: ""
+- 
+  category: app-emulation
+  name: libvirt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf-c
+  
+  version: 1.2.1-r1
+- 
+  category: app-emulation
+  name: xen-tools
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: dev-libs
+  name: libltdl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmemcached
+  
+  version: ""
+- 
+  category: net-libs
+  name: liboping
+  
+  version: ""
+- 
+  category: net-libs
+  name: librouteros
+  
+  version: ""
 - 
   category: sys-fs
-  name: lvm2
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: dev-db
+  name: oracle-instantclient-basic
+  
+  version: ""
+- 
+  category: net-analyzer
+  name: rrdtool
+  
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
   
   version: ""
 - 
@@ -184,32 +139,42 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: protobuf-c
+  name: mongo-c-driver
   
-  version: 1.2.1-r1
+  version: 1.8.2
 - 
-  category: net-libs
-  name: libmicrohttpd
+  category: sci-geosciences
+  name: gpsd
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-collectd
+  category: app-misc
+  name: mosquitto
+  
+  version: ""
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-libs
+  name: libesmtp
   
   version: ""
 - 
   category: dev-libs
-  name: libxml2
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: net-libs
+  name: rabbitmq-c
   
   version: ""
 - 
   category: dev-db
   name: libdbi
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
   
   version: ""
 - 
@@ -219,7 +184,57 @@ requires:
   version: ""
 - 
   category: net-libs
-  name: liboping
+  name: libmnl
+  
+  version: ""
+- 
+  category: sys-fs
+  name: owfs
+  
+  version: "3.1"
+- 
+  category: dev-libs
+  name: hiredis
+  
+  version: ""
+- 
+  category: www-servers
+  name: varnish
+  
+  version: ""
+- 
+  category: net-libs
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: sys-cluster
+  name: ganglia
+  
+  version: ""
+- 
+  category: sys-libs
+  name: openipmi
+  
+  version: 2.0.16-r1
+- 
+  category: net-firewall
+  name: iptables
+  
+  version: 1.4.13
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
+  category: virtual
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: yajl
   
   version: ""
 - 
@@ -228,25 +243,10 @@ requires:
   
   version: 0.9.0.99
 - 
-  category: dev-libs
-  name: libgcrypt
+  category: sec-policy
+  name: selinux-collectd
   
   version: ""
-- 
-  category: net-analyzer
-  name: rrdtool
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: mongo-c-driver
-  
-  version: 1.8.2
 use_flags:
 - contrib
 - debug

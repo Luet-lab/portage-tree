@@ -3,8 +3,13 @@ conflicts: []
 name: rspamd
 requires:
 - 
+  category: dev-util
+  name: ragel
+  
+  version: ""
+- 
   category: dev-libs
-  name: jemalloc
+  name: libsodium
   
   version: ""
 - 
@@ -19,12 +24,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libev
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnsl
+  name: icu
   
   version: ""
 - 
@@ -38,13 +38,38 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: luajit
+  category: dev-libs
+  name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
   category: dev-libs
   name: libpcre2[jit=]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libev
+  
+  version: ""
+- 
+  category: net-libs
+  name: libnsl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: dev-lang
+  name: luajit
   
   version: ""
 - 
@@ -55,31 +80,6 @@ requires:
 - 
   category: dev-libs
   name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: dev-util
-  name: ragel
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libsodium
   
   version: ""
 use_flags:

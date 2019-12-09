@@ -4,12 +4,12 @@ name: mate-control-center
 requires:
 - 
   category: x11-libs
-  name: libXrender
+  name: gdk-pixbuf
   
   version: ""
 - 
-  category: x11-apps
-  name: xmodmap
+  category: x11-libs
+  name: libXext
   
   version: ""
 - 
@@ -18,63 +18,28 @@ requires:
   
   version: "1.5"
 - 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.73"
-- 
-  category: mate-base
-  name: libmatekbd
-  
-  version: 1.17.0
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxklavier
-  
-  version: "4"
-- 
-  category: mate-base
-  name: mate-settings-daemon
-  
-  version: 1.21.2
-- 
-  category: gnome-base
-  name: librsvg
-  
-  version: "2.0"
-- 
-  category: media-libs
-  name: fontconfig
-  
-  version: "1"
-- 
   category: media-libs
   name: freetype
   
   version: ""
 - 
-  category: media-libs
-  name: libcanberra
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXxf86misc
   
   version: ""
 - 
   category: virtual
   name: libintl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
   
   version: ""
 - 
@@ -84,7 +49,22 @@ requires:
   version: 0.13.4
 - 
   category: x11-libs
-  name: cairo
+  name: libXrender
+  
+  version: ""
+- 
+  category: mate-base
+  name: libmatekbd
+  
+  version: 1.17.0
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: "1"
+- 
+  category: media-libs
+  name: libcanberra
   
   version: ""
 - 
@@ -94,7 +74,17 @@ requires:
   version: "3.22"
 - 
   category: x11-libs
-  name: libX11
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  name: atk
   
   version: ""
 - 
@@ -103,18 +93,63 @@ requires:
   
   version: "2.50"
 - 
+  category: x11-wm
+  name: marco
+  
+  version: 1.17.0
+- 
+  category: dev-libs
+  name: libappindicator
+  
+  version: ""
+- 
+  category: gnome-base
+  name: librsvg
+  
+  version: "2.0"
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: "1"
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: mate-base
+  name: caja
+  
+  version: 1.20.0
+- 
   category: mate-base
   name: mate-menus
   
   version: 1.21.0
 - 
   category: x11-libs
-  name: libXrandr
+  name: libxklavier
+  
+  version: "4"
+- 
+  category: x11-libs
+  name: pango
   
   version: ""
 - 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.73"
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.21.2
+- 
   category: x11-libs
-  name: libXxf86misc
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -123,50 +158,15 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libappindicator
-  
-  version: ""
-- 
   category: mate-base
-  name: mate-desktop
+  name: mate-settings-daemon
   
   version: 1.21.2
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: "1"
-- 
-  category: x11-libs
-  name: gdk-pixbuf
+  category: x11-apps
+  name: xmodmap
   
   version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: x11-wm
-  name: marco
-  
-  version: 1.17.0
-- 
-  category: mate-base
-  name: caja
-  
-  version: 1.20.0
 use_flags:
 - accountsservice
 - appindicator

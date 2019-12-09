@@ -3,6 +3,16 @@ conflicts: []
 name: ext4magic
 requires:
 - 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: "5.04"
+- 
   category: sys-apps
   name: util-linux
   
@@ -17,16 +27,6 @@ requires:
   name: zlib
   
   version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
-  
-  version: "5.04"
 use_flags:
 - debug
 - +expert-mode

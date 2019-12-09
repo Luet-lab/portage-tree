@@ -13,30 +13,15 @@ requires:
   
   version: 2.12.23-r6
 - 
-  category: sec-policy
-  name: selinux-cups
+  category: net-dns
+  name: avahi
   
-  version: ""
+  version: 0.6.31-r2
 - 
   category: app-text
   name: libpaper
   
   version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sys-apps
-  name: xinetd
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
 - 
   category: sys-libs
   name: zlib
@@ -54,12 +39,22 @@ requires:
   version: 1.6.18-r1
 - 
   category: virtual
-  name: libusb
+  name: krb5
+  
+  version: 0-r1
+- 
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
-  category: x11-misc
-  name: xdg-utils
+  category: acct-group
+  name: lp
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-cups
   
   version: ""
 - 
@@ -73,13 +68,18 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: virtual
+  name: libusb
   
   version: ""
 - 
-  category: acct-group
-  name: lp
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
   
   version: ""
 use_flags:

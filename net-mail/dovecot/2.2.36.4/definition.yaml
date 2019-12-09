@@ -8,18 +8,63 @@ conflicts:
 name: dovecot
 requires:
 - 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: app-arch
+  name: lz4
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
   category: sys-libs
   name: libcap
   
   version: ""
 - 
-  category: dev-cpp
-  name: clucene
+  category: net-nds
+  name: openldap
   
-  version: "2.3"
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
 - 
   category: sys-libs
-  name: pam
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -33,43 +78,18 @@ requires:
   
   version: ""
 - 
-  category: net-mail
-  name: mailbase
+  category: dev-cpp
+  name: clucene
   
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
-  
-  version: ""
+  version: "2.3"
 - 
   category: dev-db
   name: mysql-connector-c
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-dovecot
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
@@ -78,18 +98,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: icu
   
   version: ""
 - 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
+  category: net-mail
+  name: mailbase
   
   version: ""
 - 
@@ -98,23 +113,8 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  name: openssl
   
   version: ""
 use_flags:

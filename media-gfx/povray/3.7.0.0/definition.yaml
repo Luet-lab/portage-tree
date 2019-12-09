@@ -3,18 +3,23 @@ conflicts: []
 name: povray
 requires:
 - 
+  category: dev-libs
+  name: boost
+  
+  version: 1.50.0
+- 
   category: media-libs
   name: libpng
   
   version: ""
 - 
-  category: media-libs
-  name: ilmbase
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: media-libs
-  name: tiff
+  category: virtual
+  name: jpeg
   
   version: ""
 - 
@@ -24,27 +29,22 @@ requires:
   version: ""
 - 
   category: media-libs
+  name: ilmbase
+  
+  version: ""
+- 
+  category: media-libs
   name: openexr
   
   version: ""
 - 
   category: media-libs
+  name: tiff
+  
+  version: ""
+- 
+  category: media-libs
   name: libsdl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: boost
-  
-  version: 1.50.0
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
   
   version: ""
 use_flags:

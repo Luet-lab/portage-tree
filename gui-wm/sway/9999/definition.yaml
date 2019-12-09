@@ -3,65 +3,25 @@ conflicts: []
 name: sway
 requires:
 - 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
   category: dev-libs
-  name: wayland
+  name: json-c
   
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: gui-apps
-  name: swaybg
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "239"
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
+  version: "0.13"
 - 
   category: x11-libs
   name: pango
   
   version: ""
 - 
-  category: dev-libs
-  name: json-c
+  category: sys-auth
+  name: elogind
   
-  version: "0.13"
+  version: "239"
 - 
-  category: dev-libs
-  name: libinput
+  category: x11-libs
+  name: cairo
   
-  version: 1.6.0
+  version: ""
 - 
   category: gui-apps
   name: swayidle
@@ -83,10 +43,50 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  name: elogind
+  category: dev-libs
+  name: libinput
+  
+  version: 1.6.0
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: gui-apps
+  name: swaybg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
   
   version: "239"
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
 use_flags:
 - elogind
 - fish-completion

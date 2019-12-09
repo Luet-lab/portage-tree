@@ -3,10 +3,35 @@ conflicts: []
 name: mate-power-manager
 requires:
 - 
-  category: sys-apps
-  name: dbus
+  category: sys-power
+  name: upower
   
-  version: "1"
+  version: 0.9.23
+- 
+  category: mate-extra
+  name: mate-polkit
+  
+  version: "1.6"
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.70"
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: media-libs
+  name: libcanberra
+  
+  version: "0.10"
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: "2.11"
 - 
   category: x11-libs
   name: cairo
@@ -15,6 +40,31 @@ requires:
 - 
   category: x11-libs
   name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: "1"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-auth
+  name: elogind
   
   version: ""
 - 
@@ -28,20 +78,10 @@ requires:
   
   version: "3"
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: sys-auth
-  name: elogind
+  name: consolekit
   
-  version: ""
-- 
-  category: media-libs
-  name: libcanberra
-  
-  version: "0.10"
+  version: 0.9.2
 - 
   category: x11-apps
   name: xrandr
@@ -62,46 +102,6 @@ requires:
   name: pango
   
   version: ""
-- 
-  category: sys-auth
-  name: consolekit
-  
-  version: 0.9.2
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.70"
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: sys-power
-  name: upower
-  
-  version: 0.9.23
-- 
-  category: mate-extra
-  name: mate-polkit
-  
-  version: "1.6"
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: "2.11"
 use_flags:
 - +applet
 - elogind

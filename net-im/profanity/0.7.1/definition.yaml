@@ -3,13 +3,18 @@ conflicts: []
 name: profanity
 requires:
 - 
-  category: dev-libs
-  name: glib
+  category: app-crypt
+  name: gpgme
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: net-libs
+  name: libsignal-protocol-c
+  
+  version: ""
+- 
+  category: net-libs
+  name: libotr
   
   version: ""
 - 
@@ -23,38 +28,13 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libotr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
   category: x11-libs
   name: libX11
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
   category: dev-libs
   name: expat
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libstrophe
   
   version: ""
 - 
@@ -68,8 +48,28 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libsignal-protocol-c
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libstrophe
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 use_flags:

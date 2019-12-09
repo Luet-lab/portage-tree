@@ -3,13 +3,13 @@ conflicts: []
 name: keepassxc
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-qt
+  name: qtconcurrent
   
   version: ""
 - 
-  category: x11-libs
-  name: libXtst
+  category: dev-qt
+  name: qtsvg
   
   version: ""
 - 
@@ -19,27 +19,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libgcrypt
+  name: libsodium
+  
+  version: 1.0.12
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
   category: sys-auth
   name: ykpers
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
   
   version: ""
 - 
@@ -49,12 +39,7 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: media-gfx
-  name: qrencode
+  name: qtwidgets
   
   version: ""
 - 
@@ -68,10 +53,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libsodium
+  category: app-crypt
+  name: argon2
   
-  version: 1.0.12
+  version: ""
 - 
   category: dev-qt
   name: qtcore
@@ -79,12 +64,7 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
+  name: qtdbus
   
   version: ""
 - 
@@ -93,8 +73,28 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: argon2
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXtst
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: media-gfx
+  name: qrencode
   
   version: ""
 use_flags:

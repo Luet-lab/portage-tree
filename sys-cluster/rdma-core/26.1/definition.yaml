@@ -2,7 +2,7 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
-  name: libcxgb4
+  name: libocrdma
   
   version: ""
 - 
@@ -12,7 +12,7 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: ibacm
+  name: libibmad
   
   version: ""
 - 
@@ -22,12 +22,7 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libcxgb3
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: librdmacm
+  name: libcxgb4
   
   version: ""
 - 
@@ -37,22 +32,7 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libocrdma
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libnes
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibverbs
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmlx4
+  name: libmlx5
   
   version: ""
 - 
@@ -62,7 +42,12 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libibmad
+  name: libibverbs
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: librdmacm
   
   version: ""
 - 
@@ -72,19 +57,34 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libmlx5
+  name: libcxgb3
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libnes
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: ibacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libmlx4
   
   version: ""
 name: rdma-core
 requires:
 - 
-  category: sys-apps
-  name: systemd
+  category: dev-libs
+  name: libnl
   
   version: ""
 - 
-  category: virtual
-  name: libudev
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -93,8 +93,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libnl
+  category: virtual
+  name: libudev
   
   version: ""
 use_flags:

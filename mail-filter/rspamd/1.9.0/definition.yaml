@@ -3,18 +3,18 @@ conflicts: []
 name: rspamd
 requires:
 - 
+  category: media-libs
+  name: gd
+  
+  version: ""
+- 
   category: dev-db
   name: sqlite
   
   version: ""
 - 
-  category: net-libs
-  name: libnsl
-  
-  version: ""
-- 
   category: dev-libs
-  name: jemalloc
+  name: icu
   
   version: ""
 - 
@@ -24,27 +24,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: hyperscan
-  
-  version: ""
-- 
-  category: media-libs
-  name: gd
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit=]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
+  name: libpcre[jit=]
   
   version: ""
 - 
   category: dev-libs
   name: libevent
+  
+  version: ""
+- 
+  category: net-libs
+  name: libnsl
   
   version: ""
 - 
@@ -54,12 +44,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-util
-  name: ragel
+  name: jemalloc
   
   version: ""
 - 
@@ -74,7 +59,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre[jit=]
+  name: libpcre2[jit=]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-util
+  name: ragel
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hyperscan
   
   version: ""
 use_flags:

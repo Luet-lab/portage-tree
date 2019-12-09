@@ -3,18 +3,13 @@ conflicts: []
 name: alacritty
 requires:
 - 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
@@ -28,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: opengl
+  category: x11-libs
+  name: libxcb
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -43,8 +38,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXcursor
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 use_flags:

@@ -8,8 +8,23 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: sec-policy
-  name: selinux-dovecot
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
   
   version: ""
 - 
@@ -19,7 +34,7 @@ requires:
   version: ""
 - 
   category: virtual
-  name: libiconv
+  name: krb5
   
   version: ""
 - 
@@ -28,48 +43,8 @@ requires:
   
   version: "2.3"
 - 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: acct-user
-  name: dovenull
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -78,28 +53,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: acct-group
-  name: mail
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -114,7 +79,17 @@ requires:
   version: ""
 - 
   category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -123,8 +98,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: icu
+  category: acct-group
+  name: dovecot
   
   version: ""
 - 
@@ -139,17 +114,42 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: dovecot
-  
-  version: ""
-- 
-  category: acct-group
   name: dovenull
   
   version: ""
 - 
   category: acct-user
   name: dovecot
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: acct-user
+  name: dovenull
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
   
   version: ""
 use_flags:

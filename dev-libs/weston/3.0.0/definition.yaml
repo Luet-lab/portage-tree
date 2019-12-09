@@ -3,13 +3,18 @@ conflicts: []
 name: weston
 requires:
 - 
-  category: sys-libs
-  name: libunwind
+  category: dev-libs
+  name: libinput
+  
+  version: 0.8.0
+- 
+  category: media-libs
+  name: libpng
   
   version: ""
 - 
-  category: net-misc
-  name: freerdp-1.1.0_beta1_p20130710
+  category: x11-misc
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -18,28 +23,43 @@ requires:
   
   version: "1.9"
 - 
+  category: x11-base
+  name: xorg-server
+  
+  version: ""
+- 
   category: virtual
   name: jpeg
   
   version: ""
 - 
-  category: virtual
-  name: udev
+  category: sys-apps
+  name: dbus
   
-  version: "136"
+  version: "1.6"
 - 
-  category: media-libs
-  name: mesa
+  category: dev-libs
+  name: wayland
+  
+  version: 1.12.0
+- 
+  category: sys-libs
+  name: libunwind
   
   version: ""
 - 
   category: x11-libs
-  name: libXcursor
+  name: libdrm
   
-  version: ""
+  version: 2.4.30
+- 
+  category: sys-libs
+  name: mtdev
+  
+  version: 1.1.0
 - 
   category: media-libs
-  name: libpng
+  name: lcms
   
   version: ""
 - 
@@ -48,50 +68,30 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
-  
-  version: 1.11.3
-- 
-  category: x11-libs
-  name: libdrm
-  
-  version: 2.4.30
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1.6"
-- 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libinput
-  
-  version: 0.8.0
-- 
   category: media-libs
-  name: lcms
+  name: mesa
   
   version: ""
 - 
-  category: sys-libs
-  name: mtdev
+  category: net-misc
+  name: freerdp-1.1.0_beta1_p20130710
   
-  version: 1.1.0
+  version: ""
 - 
   category: sys-apps
   name: systemd
   
   version: "209"
 - 
-  category: x11-misc
-  name: colord
+  category: x11-libs
+  name: libX11
   
-  version: 0.1.27
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: 1.11.3
 - 
   category: x11-libs
   name: pango
@@ -103,40 +103,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: wayland-protocols
-  
-  version: "1.8"
-- 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: 0.25.2
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
   category: x11-libs
   name: cairo
   
   version: ""
 - 
   category: dev-libs
-  name: wayland
+  name: wayland-protocols
   
-  version: 1.12.0
+  version: "1.8"
 - 
   category: x11-libs
   name: libxkbcommon
   
   version: 0.5.0
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: 0.25.2
+- 
+  category: virtual
+  name: udev
+  
+  version: "136"
+- 
+  category: x11-misc
+  name: colord
+  
+  version: 0.1.27
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
 use_flags:
 - colord
 - dbus

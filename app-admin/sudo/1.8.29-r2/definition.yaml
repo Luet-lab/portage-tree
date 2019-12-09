@@ -4,37 +4,17 @@ name: sudo
 requires:
 - 
   category: dev-libs
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-sudo
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
+  name: cyrus-sasl
   
   version: ""
 - 
   category: net-nds
   name: openldap
   
-  version: 2.1.30-r1
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: editor
-  
   version: ""
 - 
   category: sys-auth
-  name: pambase
+  name: sssd
   
   version: ""
 - 
@@ -43,18 +23,23 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  name: skey
-  
-  version: 1.1.5-r1
-- 
-  category: sys-auth
-  name: sssd
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: virtual
+  name: mta
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -63,23 +48,38 @@ requires:
   
   version: "3"
 - 
-  category: virtual
-  name: mta
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-sudo
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pambase
   
   version: ""
 - 
   category: net-nds
   name: openldap
   
-  version: ""
+  version: 2.1.30-r1
 - 
-  category: dev-lang
-  name: perl
+  category: sys-auth
+  name: skey
+  
+  version: 1.1.5-r1
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
-  category: dev-libs
-  name: cyrus-sasl
+  category: virtual
+  name: editor
   
   version: ""
 use_flags:

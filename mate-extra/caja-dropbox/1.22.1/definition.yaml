@@ -3,13 +3,13 @@ conflicts: []
 name: caja-dropbox
 requires:
 - 
-  category: dev-libs
-  name: atk
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
@@ -19,17 +19,12 @@ requires:
   version: "3.22"
 - 
   category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
   name: pango
   
   version: ""
 - 
-  category: net-misc
-  name: dropbox
+  category: dev-libs
+  name: atk
   
   version: ""
 - 
@@ -43,23 +38,28 @@ requires:
   
   version: ""
 - 
-  category: mate-base
-  name: caja
-  
-  version: 1.19.1
-- 
   category: media-libs
   name: fontconfig
   
   version: ""
 - 
+  category: mate-base
+  name: caja
+  
+  version: 1.19.1
+- 
   category: x11-libs
-  name: cairo
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libXinerama
+  
+  version: ""
+- 
+  category: net-misc
+  name: dropbox
   
   version: ""
 use_flags:

@@ -3,13 +3,8 @@ conflicts: []
 name: mta
 requires:
 - 
-  category: "|| (\tmail-mta"
-mailer
-  
-  version: ""
-- 
   category: mail-mta
-  name: ssmtp
+  name: esmtp
   
   version: ""
 - 
@@ -24,12 +19,12 @@ mailer
   version: ""
 - 
   category: mail-mta
-  name: courier
+  name: ssmtp
   
   version: ""
 - 
   category: mail-mta
-  name: esmtp
+  name: courier
   
   version: ""
 - 
@@ -50,6 +45,11 @@ mailer
 - 
   category: mail-mta
   name: opensmtpd )
+  
+  version: ""
+- 
+  category: "|| (\tmail-mta"
+mailer
   
   version: ""
 version: 1-r1

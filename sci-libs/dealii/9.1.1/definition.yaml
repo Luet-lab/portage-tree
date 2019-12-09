@@ -3,58 +3,8 @@ conflicts: []
 name: dealii
 requires:
 - 
-  category: virtual
-  name: lapack
-  
-  version: ""
-- 
-  category: sci-libs
-  name: parmetis
-  
-  version: "4"
-- 
-  category: sci-mathematics
-  name: petsc[mpi=]
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-util
-  name: nvidia-cuda-sdk
-  
-  version: ""
-- 
-  category: sci-libs
-  name: gmsh
-  
-  version: ""
-- 
-  category: sci-libs
-  name: p4est
-  
-  version: ""
-- 
-  category: sci-mathematics
-  name: slepc[mpi=]
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: tbb
-  
-  version: ""
-- 
-  category: sci-libs
-  name: arpack[mpi=]
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: muParser
+  category: media-libs
+  name: assimp
   
   version: ""
 - 
@@ -63,8 +13,23 @@ requires:
   
   version: ""
 - 
+  category: dev-cpp
+  name: tbb
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: sci-libs
-  name: hdf5[mpi=]
+  name: gsl
+  
+  version: ""
+- 
+  category: virtual
+  name: lapack
   
   version: ""
 - 
@@ -74,17 +39,52 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: nanoflann
-  
-  version: ""
-- 
-  category: sci-libs
   name: opencascade
   
   version: ""
 - 
+  category: sci-mathematics
+  name: petsc[mpi=]
+  
+  version: ""
+- 
   category: sci-libs
-  name: scalapack
+  name: trilinos
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sci-libs
+  name: gmsh
+  
+  version: ""
+- 
+  category: sci-libs
+  name: hdf5[mpi=]
+  
+  version: ""
+- 
+  category: sci-libs
+  name: parmetis
+  
+  version: "4"
+- 
+  category: dev-cpp
+  name: muParser
+  
+  version: ""
+- 
+  category: sci-libs
+  name: nanoflann
+  
+  version: ""
+- 
+  category: sci-mathematics
+  name: slepc[mpi=]
   
   version: ""
 - 
@@ -99,7 +99,27 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: gsl
+  name: arpack[mpi=]
+  
+  version: ""
+- 
+  category: dev-util
+  name: nvidia-cuda-sdk
+  
+  version: ""
+- 
+  category: sci-libs
+  name: p4est
+  
+  version: ""
+- 
+  category: sci-libs
+  name: scalapack
+  
+  version: ""
+- 
+  category: sci-libs
+  name: umfpack
   
   version: ""
 - 
@@ -112,26 +132,6 @@ requires:
   name: symengine
   
   version: "0.4"
-- 
-  category: sci-libs
-  name: trilinos
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: assimp
-  
-  version: ""
-- 
-  category: sci-libs
-  name: umfpack
-  
-  version: ""
 use_flags:
 - adolc
 - assimp

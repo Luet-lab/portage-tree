@@ -3,78 +3,8 @@ conflicts: []
 name: mixxx
 requires:
 - 
-  category: media-libs
-  name: libmad
-  
-  version: ""
-- 
-  category: media-sound
-  name: wavpack
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtscript
-  
-  version: ""
-- 
-  category: media-libs
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  name: portmidi
-  
-  version: ""
-- 
-  category: media-libs
-  name: taglib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hidapi
-  
-  version: ""
-- 
-  category: "(\tmedia-libs"
-  name: opusfile
-  
-  version: ""
-- 
-  category: media-libs
-  name: libshout
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
+  name: qtsql
   
   version: ""
 - 
@@ -88,13 +18,23 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtconcurrent
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: portaudio
+  
+  version: 19_pre
+- 
+  category: media-libs
+  name: libmp4v2
   
   version: ""
 - 
   category: dev-qt
-  name: qtsql
+  name: qtopengl
   
   version: ""
 - 
@@ -113,6 +53,101 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: libsndfile
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: "(\tmedia-libs"
+  name: opusfile
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: media-libs
+  name: portmidi
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hidapi
+  
+  version: ""
+- 
+  category: sys-power
+  name: upower
+  
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: media-sound
+  name: wavpack
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmad
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtscript
+  
+  version: ""
+- 
   category: dev-qt
   name: qtx11extras
   
@@ -123,8 +158,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: vamp-plugin-sdk
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -139,57 +174,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libmp4v2
+  name: lilv
   
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsndfile
-  
-  version: ""
-- 
-  category: virtual
-  name: libusb
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  name: portaudio
-  
-  version: 19_pre
+  version: 0.24.2-r3
 - 
   category: dev-db
   name: sqlite
   
   version: ""
 - 
-  category: dev-libs
-  name: protobuf
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
+  category: media-libs
+  name: flac
   
   version: ""
 - 
@@ -198,15 +193,20 @@ requires:
   
   version: "1.5"
 - 
-  category: sys-power
-  name: upower
+  category: media-libs
+  name: taglib
   
   version: ""
 - 
   category: media-libs
-  name: lilv
+  name: vamp-plugin-sdk
   
-  version: 0.24.2-r3
+  version: ""
+- 
+  category: media-libs
+  name: libshout
+  
+  version: ""
 use_flags:
 - aac
 - doc

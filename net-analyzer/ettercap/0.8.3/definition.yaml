@@ -3,58 +3,8 @@ conflicts: []
 name: ettercap
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: 2.2.2
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: 0.8.1
-- 
-  category: dev-libs
-  name: atk
-  
-  version: 1.2.4
-- 
-  category: x11-libs
-  name: pango
-  
-  version: 1.2.3
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnet
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -68,25 +18,75 @@ requires:
   
   version: 7.26.0
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: glib
   
-  version: ""
+  version: 2.2.2
+- 
+  category: x11-libs
+  name: pango
+  
+  version: 1.2.3
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: "5.3"
 - 
   category: dev-libs
   name: geoip
   
   version: ""
 - 
+  category: dev-libs
+  name: atk
+  
+  version: 1.2.4
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: 0.8.1
+- 
   category: x11-libs
   name: gtk+
   
   version: 2.2.2
 - 
-  category: sys-libs
-  name: ncurses
+  category: dev-libs
+  name: libbsd
   
-  version: "5.3"
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-libs
+  name: libnet
+  
+  version: ""
 use_flags:
 - doc
 - geoip

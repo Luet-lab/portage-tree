@@ -8,6 +8,11 @@ conflicts:
 name: pcmanfm-qt
 requires:
 - 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
   category: virtual
   name: eject
   
@@ -24,7 +29,7 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtwidgets
+  name: qtdbus
   
   version: ""
 - 
@@ -38,18 +43,8 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
   category: dev-libs
   name: glib
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
   
   version: ""
 - 
@@ -58,8 +53,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
   
   version: ""
 version: 0.14.1-r1

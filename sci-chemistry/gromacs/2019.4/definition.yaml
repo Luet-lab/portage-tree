@@ -3,18 +3,13 @@ conflicts: []
 name: gromacs
 requires:
 - 
-  category: virtual
-  name: opencl
-  
-  version: ""
-- 
   category: sci-libs
   name: fftw
   
   version: ""
 - 
-  category: sys-apps
-  name: hwloc
+  category: sci-libs
+  name: lmfit
   
   version: ""
 - 
@@ -23,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: mpi
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -43,23 +38,28 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: mpi
+  
+  version: ""
+- 
   category: dev-util
   name: nvidia-cuda-toolkit
   
   version: 6.5.14
 - 
   category: virtual
+  name: opencl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: hwloc
+  
+  version: ""
+- 
+  category: virtual
   name: lapack
-  
-  version: ""
-- 
-  category: sci-libs
-  name: lmfit
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
   
   version: ""
 use_flags:

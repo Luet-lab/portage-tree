@@ -4,22 +4,7 @@ name: gromacs
 requires:
 - 
   category: virtual
-  name: mpi
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: sys-apps
-  name: hwloc
-  
-  version: "2"
-- 
-  category: virtual
-  name: lapack
+  name: blas
   
   version: ""
 - 
@@ -28,15 +13,10 @@ requires:
   
   version: 4.2.9-r1
 - 
-  category: virtual
-  name: opencl
+  category: sys-apps
+  name: hwloc
   
-  version: ""
-- 
-  category: sci-libs
-  name: fftw
-  
-  version: ""
+  version: "2"
 - 
   category: sci-libs
   name: mkl
@@ -49,12 +29,32 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libICE
   
   version: ""
 - 
   category: virtual
-  name: blas
+  name: opencl
+  
+  version: ""
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
+  category: virtual
+  name: lapack
+  
+  version: ""
+- 
+  category: virtual
+  name: mpi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
   
   version: ""
 use_flags:

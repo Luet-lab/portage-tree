@@ -4,7 +4,22 @@ name: pambase
 requires:
 - 
   category: sys-auth
-  name: pam_passwdqc
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pam_mktemp
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pam_krb5
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pam_ssh
   
   version: ""
 - 
@@ -24,27 +39,12 @@ requires:
   version: ""
 - 
   category: sys-auth
-  name: pam_krb5
-  
-  version: ""
-- 
-  category: sys-auth
-  name: pam_ssh
+  name: pam_passwdqc
   
   version: ""
 - 
   category: sys-auth
   name: consolekit
-  
-  version: ""
-- 
-  category: sys-auth
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-auth
-  name: pam_mktemp
   
   version: ""
 use_flags:

@@ -8,13 +8,18 @@ conflicts:
 name: lxqt-powermanagement
 requires:
 - 
+  category: dev-libs
+  name: libqtxdg
+  
+  version: 3.3.1
+- 
   category: dev-qt
-  name: qtgui
+  name: qtsvg
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: kde-frameworks
+  name: solid
   
   version: ""
 - 
@@ -28,11 +33,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libqtxdg
-  
-  version: 3.3.1
-- 
   category: dev-qt
   name: qtcore
   
@@ -44,7 +44,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtsvg
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
   
   version: ""
 - 
@@ -55,11 +60,6 @@ requires:
 - 
   category: kde-frameworks
   name: kidletime
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: solid
   
   version: ""
 version: 0.14.1

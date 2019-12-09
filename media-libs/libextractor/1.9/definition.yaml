@@ -8,13 +8,8 @@ conflicts:
 name: libextractor
 requires:
 - 
-  category: app-text
-  name: iso-codes
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -23,18 +18,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
   category: media-libs
-  name: libsmf
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmpeg2
+  name: gstreamer
   
   version: ""
 - 
@@ -43,38 +28,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libogg
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmp4v2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
+  name: tiff
   
   version: ""
 - 
@@ -89,27 +49,12 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libapparmor
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
+  name: flac
   
   version: ""
 - 
   category: media-libs
-  name: giflib
-  
-  version: ""
-- 
-  category: gnome-extra
-  name: libgsf
+  name: libmpeg2
   
   version: ""
 - 
@@ -123,6 +68,31 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: libapparmor
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmp4v2
+  
+  version: ""
+- 
+  category: media-libs
+  name: libogg
+  
+  version: ""
+- 
   category: app-arch
   name: bzip2
   
@@ -133,8 +103,38 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
   category: media-libs
-  name: tiff
+  name: giflib
+  
+  version: ""
+- 
+  category: gnome-extra
+  name: libgsf
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsmf
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-base
   
   version: ""
 use_flags:

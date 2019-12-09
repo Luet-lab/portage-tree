@@ -3,13 +3,28 @@ conflicts: []
 name: qtwebengine
 requires:
 - 
-  category: x11-libs
-  name: libXrandr
+  category: media-libs
+  name: mesa[egl,X(+)]
   
   version: ""
 - 
+  category: dev-qt
+  name: designer
+  
+  version: 5.12.3
+- 
   category: media-video
   name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -18,23 +33,43 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: re2
-  
-  version: ""
-- 
   category: media-libs
   name: lcms
   
   version: ""
 - 
-  category: x11-libs
-  name: libdrm
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
-  category: x11-libs
-  name: libXcursor
+  category: dev-qt
+  name: qtdeclarative
+  
+  version: 5.12.3
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvpx
+  
+  version: "1.5"
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
+  
+  version: "60.2"
+- 
+  category: dev-libs
+  name: libxslt
   
   version: ""
 - 
@@ -44,17 +79,92 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXi
+  name: libXScrnSaver
   
   version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtpositioning
+  
+  version: 5.12.3
+- 
+  category: app-arch
+  name: snappy
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libdrm
+  
+  version: ""
+- 
+  category: media-libs
+  name: opus
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nss
   
   version: ""
 - 
   category: dev-qt
   name: qtwebchannel
+  
+  version: 5.12.3
+- 
+  category: media-libs
+  name: libwebp
+  
+  version: ""
+- 
+  category: media-libs
+  name: harfbuzz
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
   
   version: 5.12.3
 - 
@@ -64,77 +174,22 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: mesa[egl,X(+)]
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: media-libs
   name: freetype
   
   version: ""
 - 
-  category: media-libs
-  name: libvpx
+  category: dev-qt
+  name: qtprintsupport
   
-  version: "1.5"
-- 
-  category: media-libs
-  name: opus
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: sys-apps
-  name: pciutils
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nss
-  
-  version: ""
+  version: 5.12.3
 - 
   category: dev-libs
   name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: re2
   
   version: ""
 - 
@@ -144,32 +199,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxslt
-  
-  version: ""
-- 
-  category: media-libs
   name: libjpeg-turbo
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: dev-qt
-  name: designer
-  
-  version: 5.12.3
-- 
-  category: dev-libs
-  name: glib
   
   version: ""
 - 
@@ -184,22 +214,12 @@ requires:
   version: 5.12.3
 - 
   category: dev-qt
-  name: qtdeclarative
+  name: qtgui
   
   version: 5.12.3
 - 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -208,40 +228,20 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtpositioning
-  
-  version: 5.12.3
-- 
-  category: app-arch
-  name: snappy
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
   category: sys-apps
-  name: dbus
+  name: pciutils
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: x11-libs
+  name: libXext
   
   version: ""
 - 
-  category: dev-qt
-  name: qtgui
+  category: x11-libs
+  name: libXrender
   
-  version: 5.12.3
-- 
-  category: dev-libs
-  name: icu
-  
-  version: "60.2"
+  version: ""
 use_flags:
 - alsa
 - bindist

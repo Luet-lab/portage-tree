@@ -3,13 +3,13 @@ conflicts: []
 name: profanity
 requires:
 - 
-  category: x11-libs
-  name: libX11
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
@@ -18,28 +18,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libnotify
-  
-  version: ""
-- 
-  category: net-libs
-  name: libotr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
   category: app-crypt
   name: gpgme
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: x11-libs
+  name: libnotify
   
   version: ""
 - 
@@ -53,13 +38,28 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: net-libs
+  name: libotr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 use_flags:

@@ -4,11 +4,6 @@ name: libprojectm
 requires:
 - 
   category: media-libs
-  name: glm
-  
-  version: ""
-- 
-  category: media-libs
   name: mesa[X(+)]
   
   version: ""
@@ -19,9 +14,14 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtwidgets
+  name: qtopengl
   
   version: ""
+- 
+  category: media-libs
+  name: libsdl2
+  
+  version: 2.0.5
 - 
   category: sys-libs
   name: zlib
@@ -33,13 +33,18 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: glm
+  
+  version: ""
+- 
   category: dev-qt
   name: qtcore
   
   version: ""
 - 
   category: dev-qt
-  name: qtopengl
+  name: qtwidgets
   
   version: ""
 - 
@@ -47,11 +52,6 @@ requires:
   name: pulseaudio
   
   version: ""
-- 
-  category: media-libs
-  name: libsdl2
-  
-  version: 2.0.5
 use_flags:
 - gles2
 - qt5

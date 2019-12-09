@@ -8,28 +8,13 @@ conflicts:
 name: kcm-fcitx
 requires:
 - 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
   category: kde-frameworks
   name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: ki18n
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kio
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcoreaddons
   
   version: ""
 - 
@@ -38,15 +23,20 @@ requires:
   
   version: ""
 - 
+  category: kde-frameworks
+  name: kwidgetsaddons
+  
+  version: ""
+- 
   category: app-i18n
   name: fcitx
   
   version: 4.2.9
 - 
-  category: dev-qt
-  name: qtcore
+  category: app-i18n
+  name: fcitx-qt5
   
-  version: ""
+  version: "1.1"
 - 
   category: dev-qt
   name: qtwidgets
@@ -59,22 +49,27 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kitemviews
+  name: kio
   
   version: ""
 - 
   category: kde-frameworks
-  name: kwidgetsaddons
+  name: kitemviews
   
   version: ""
 - 
-  category: app-i18n
-  name: fcitx-qt5
+  category: x11-libs
+  name: libxkbfile
   
-  version: "1.1"
+  version: ""
 - 
   category: dev-qt
   name: qtgui
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kcoreaddons
   
   version: ""
 - 
@@ -88,8 +83,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxkbfile
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: ki18n
   
   version: ""
 use_flags:

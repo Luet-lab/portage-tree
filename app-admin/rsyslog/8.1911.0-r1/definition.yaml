@@ -3,70 +3,80 @@ conflicts: []
 name: rsyslog
 requires:
 - 
-  category: net-libs
-  name: rabbitmq-c
-  
-  version: 0.3.0
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: 7.35.0
-- 
-  category: dev-db
-  name: postgresql
-  
-  version: 8.4.20
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "234"
-- 
-  category: net-libs
-  name: czmq
-  
-  version: 3.0.2
-- 
-  category: dev-libs
-  name: libestr
-  
-  version: 0.1.9
-- 
   category: sys-libs
   name: zlib
   
   version: 1.2.5
 - 
   category: dev-libs
-  name: libgcrypt
+  name: mongo-c-driver
   
-  version: 1.5.3
+  version: 1.1.10
 - 
-  category: virtual
-  name: krb5
+  category: dev-libs
+  name: xxhash
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: net-libs
+  name: czmq
+  
+  version: 3.0.2
+- 
+  category: dev-db
+  name: libdbi
+  
+  version: 0.8.3
+- 
+  category: dev-libs
+  name: libmaxminddb
   
   version: ""
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hiredis
+  
+  version: 0.11.0
+- 
+  category: dev-libs
+  name: liblogging
+  
+  version: 1.0.1
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23
+- 
+  category: dev-db
+  name: postgresql
+  
+  version: 8.4.20
+- 
+  category: net-libs
+  name: rabbitmq-c
+  
+  version: 0.3.0
+- 
+  category: net-misc
+  name: curl
+  
+  version: 7.35.0
 - 
   category: dev-libs
   name: jemalloc
   
   version: 3.3.1
 - 
-  category: dev-db
-  name: mysql-connector-c
+  category: dev-libs
+  name: librdkafka
   
-  version: ""
+  version: 0.9.0.99
 - 
   category: dev-libs
   name: liblognorm
@@ -78,6 +88,36 @@ requires:
   
   version: 1.2.17
 - 
+  category: dev-libs
+  name: libestr
+  
+  version: 0.1.9
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: 1.5.3
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: 0.9.8y
+- 
   category: net-analyzer
   name: net-snmp
   
@@ -88,60 +128,20 @@ requires:
   
   version: 0.99.8
 - 
-  category: dev-libs
-  name: librdkafka
-  
-  version: 0.9.0.99
-- 
-  category: dev-libs
-  name: libmaxminddb
-  
-  version: ""
-- 
-  category: dev-libs
-  name: liblogging
-  
-  version: 1.0.1
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: mongo-c-driver
-  
-  version: 1.1.10
-- 
   category: net-libs
   name: libnet
   
   version: 1.1.6
 - 
   category: dev-libs
-  name: hiredis
-  
-  version: 0.11.0
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: 0.9.8y
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.23
-- 
-  category: dev-db
-  name: libdbi
-  
-  version: 0.8.3
-- 
-  category: dev-libs
-  name: xxhash
+  name: libressl
   
   version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "234"
 use_flags:
 - curl
 - dbi

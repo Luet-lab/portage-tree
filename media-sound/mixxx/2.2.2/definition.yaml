@@ -4,67 +4,27 @@ name: mixxx
 requires:
 - 
   category: media-libs
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
   name: libsoundtouch
   
   version: "1.5"
+- 
+  category: media-libs
+  name: rubberband
+  
+  version: ""
 - 
   category: media-libs
   name: taglib
   
   version: ""
 - 
-  category: sys-power
-  name: upower
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmad
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsql
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  name: portmidi
-  
-  version: ""
-- 
-  category: sci-libs
-  name: fftw
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmp4v2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
+  category: virtual
+  name: libusb
   
   version: ""
 - 
@@ -74,27 +34,22 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtxml
+  name: qtsql
   
   version: ""
 - 
   category: dev-qt
-  name: qtx11extras
+  name: qtxml
   
   version: ""
 - 
   category: media-libs
-  name: flac
+  name: faad2
   
   version: ""
 - 
   category: media-libs
-  name: libogg
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hidapi
+  name: libmp4v2
   
   version: ""
 - 
@@ -102,6 +57,31 @@ requires:
   name: portaudio
   
   version: 19_pre
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtopengl
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
 - 
   category: media-libs
   name: vamp-plugin-sdk
@@ -113,13 +93,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  name: libshout
+  category: "(\tmedia-libs"
+  name: opusfile
   
   version: ""
 - 
@@ -133,23 +108,18 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtconcurrent
+  category: media-libs
+  name: chromaprint
   
   version: ""
 - 
   category: media-libs
-  name: rubberband
+  name: libid3tag
   
   version: ""
 - 
-  category: virtual
-  name: libusb
-  
-  version: ""
-- 
-  category: media-libs
-  name: faad2
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -158,33 +128,18 @@ requires:
   
   version: 0.24.2-r3
 - 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: media-libs
-  name: chromaprint
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsndfile
-  
-  version: ""
-- 
   category: dev-libs
   name: protobuf
   
   version: ""
 - 
   category: dev-qt
-  name: qtopengl
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  name: portmidi
   
   version: ""
 - 
@@ -199,12 +154,57 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libid3tag
+  name: libogg
   
   version: ""
 - 
-  category: "(\tmedia-libs"
-  name: opusfile
+  category: sys-power
+  name: upower
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmad
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  name: libshout
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hidapi
   
   version: ""
 use_flags:

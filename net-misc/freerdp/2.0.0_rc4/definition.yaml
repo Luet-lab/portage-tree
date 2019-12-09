@@ -3,28 +3,38 @@ conflicts: []
 name: freerdp
 requires:
 - 
-  category: media-video
-  name: ffmpeg
+  category: x11-libs
+  name: libXv
   
   version: ""
 - 
   category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
+  name: gst-plugins-base
   
   version: ""
 - 
   category: media-libs
-  name: openh264
+  name: alsa-lib
   
   version: ""
 - 
-  category: x11-libs
-  name: libXdamage
+  category: net-print
+  name: cups
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -34,12 +44,27 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXtst
+  
+  version: ""
+- 
+  category: x11-libs
   name: libxkbfile
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
@@ -54,52 +79,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: libXdamage
   
   version: ""
 - 
-  category: x11-libs
-  name: libXinerama
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXtst
+  category: media-video
+  name: ffmpeg
   
   version: ""
 - 
@@ -108,23 +98,33 @@ requires:
   
   version: ""
 - 
-  category: net-print
-  name: cups
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
   category: x11-libs
   name: libXrender
   
   version: ""
 - 
+  category: x11-libs
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
   category: sys-apps
   name: systemd
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -138,28 +138,28 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
   category: sys-apps
   name: pcsc-lite
   
   version: ""
 - 
-  category: x11-libs
-  name: libXv
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
   category: media-libs
-  name: alsa-lib
+  name: gstreamer
   
   version: ""
 - 
-  category: dev-libs
-  name: dbus-glib
+  category: media-libs
+  name: openh264
   
   version: ""
 use_flags:

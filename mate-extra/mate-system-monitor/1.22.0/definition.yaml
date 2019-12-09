@@ -4,9 +4,34 @@ name: mate-system-monitor
 requires:
 - 
   category: x11-libs
-  name: cairo
+  name: gdk-pixbuf
   
   version: ""
+- 
+  category: dev-cpp
+  name: glibmm
+  
+  version: "2.26"
+- 
+  category: gnome-base
+  name: librsvg
+  
+  version: "2.35"
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
 - 
   category: x11-libs
   name: libwnck
@@ -23,33 +48,23 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: glibmm
+  category: sys-auth
+  name: polkit
   
-  version: "2.26"
+  version: "0.97"
 - 
   category: dev-cpp
   name: gtkmm
   
   version: "3.8"
 - 
-  category: gnome-base
-  name: libgtop
-  
-  version: 2.23.1
-- 
   category: dev-libs
-  name: glib
+  name: libxml2
   
-  version: "2.50"
-- 
-  category: gnome-base
-  name: librsvg
-  
-  version: "2.35"
+  version: "2"
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: cairo
   
   version: ""
 - 
@@ -58,25 +73,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libxml2
+  category: gnome-base
+  name: libgtop
   
-  version: "2"
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
+  version: 2.23.1
 use_flags:
 - elogind
 - systemd

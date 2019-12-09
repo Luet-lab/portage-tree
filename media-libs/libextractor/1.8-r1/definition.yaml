@@ -8,18 +8,13 @@ conflicts:
 name: libextractor
 requires:
 - 
-  category: virtual
-  name: libiconv
+  category: media-gfx
+  name: exiv2
   
   version: ""
 - 
-  category: media-libs
-  name: giflib
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
+  category: sys-libs
+  name: libapparmor
   
   version: ""
 - 
@@ -28,8 +23,43 @@ requires:
   
   version: ""
 - 
-  category: media-gfx
-  name: exiv2
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: app-arch
+  name: libarchive
+  
+  version: ""
+- 
+  category: media-libs
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  name: tiff
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-devel
+  name: libtool
+  
+  version: ""
+- 
+  category: virtual
+  name: ffmpeg
   
   version: ""
 - 
@@ -38,13 +68,28 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: jpeg
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-base
   
   version: ""
 - 
   category: sys-apps
   name: file
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsmf
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmpeg2
   
   version: ""
 - 
@@ -59,32 +104,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: flac
-  
-  version: ""
-- 
-  category: app-arch
-  name: libarchive
-  
-  version: ""
-- 
-  category: gnome-extra
-  name: libgsf
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: sys-devel
-  name: libtool
+  name: giflib
   
   version: ""
 - 
@@ -93,38 +113,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libapparmor
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
   category: virtual
   name: libintl
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsmf
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmpeg2
-  
-  version: ""
-- 
   category: virtual
-  name: ffmpeg
+  name: jpeg
   
   version: ""
 - 
@@ -133,8 +128,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: tiff
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: gnome-extra
+  name: libgsf
   
   version: ""
 use_flags:

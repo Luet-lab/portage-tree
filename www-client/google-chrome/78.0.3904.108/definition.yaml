@@ -3,8 +3,18 @@ conflicts: []
 name: google-chrome
 requires:
 - 
-  category: dev-libs
-  name: expat
+  category: x11-libs
+  name: libX11
+  
+  version: 1.5.0
+- 
+  category: x11-libs
+  name: libXtst
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
@@ -14,12 +24,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
+  name: libXcomposite
   
   version: ""
 - 
@@ -28,23 +33,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
   category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: net-print
-  name: cups
+  name: nspr
   
   version: ""
 - 
@@ -54,37 +49,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXrandr
+  name: libXi
   
   version: ""
 - 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: app-accessibility
-  name: at-spi2-atk
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -94,37 +64,27 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXext
+  name: libxcb
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nss
+  
+  version: "3.26"
+- 
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
   category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: app-misc
-  name: ca-certificates
+  name: libXdamage
   
   version: ""
 - 
   category: x11-libs
-  name: libX11
-  
-  version: 1.5.0
-- 
-  category: x11-libs
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-chromium
+  name: libXrender
   
   version: ""
 - 
@@ -134,32 +94,72 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-chromium
+  
+  version: ""
+- 
+  category: dev-libs
+  name: atk
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
   name: pango
+  
+  version: ""
+- 
+  category: app-misc
+  name: ca-certificates
+  
+  version: ""
+- 
+  category: net-print
+  name: cups
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: app-accessibility
+  name: at-spi2-atk
   
   version: ""
 - 
   category: dev-libs
   name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nspr
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nss
-  
-  version: "3.26"
-- 
-  category: x11-libs
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXtst
   
   version: ""
 use_flags:

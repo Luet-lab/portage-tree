@@ -22,10 +22,14 @@ requires:
 - category: "$BUILD_LAYER_CATEGORY"
   version:  "$BUILD_LAYER_VERSION"
   name:     "$BUILD_LAYER_NAME"
-- category: "layer"
-  version:  ">=0.1"
-  name:     "sabayon-overlay"
 EOF
+
+if [ "${PORTAGE_ARTIFACTS}" == "true" ]; then
+cat <<EOF >> $basedir/build.yaml
+includes:
+- /usr/portage/packages/.*
+EOF
+fi
 echo "Generated build definition for $PACKAGE_NAME-$PACKAGE_VERSION ($PACKAGE_CATEGORY)"
 }
 

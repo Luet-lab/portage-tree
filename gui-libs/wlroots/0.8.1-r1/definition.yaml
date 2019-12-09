@@ -9,27 +9,7 @@ requires:
   version: 1.17.0
 - 
   category: x11-libs
-  name: libdrm
-  
-  version: ""
-- 
-  category: x11-libs
   name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "237"
-- 
-  category: virtual
-  name: libudev
   
   version: ""
 - 
@@ -38,18 +18,18 @@ requires:
   
   version: "237"
 - 
-  category: net-misc
-  name: freerdp
+  category: x11-libs
+  name: xcb-util-wm
   
   version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "237"
 - 
   category: x11-libs
   name: libxcb
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
   
   version: ""
 - 
@@ -58,13 +38,28 @@ requires:
   
   version: 1.9.0
 - 
-  category: media-libs
-  name: mesa
+  category: x11-libs
+  name: libdrm
   
   version: ""
 - 
-  category: x11-libs
-  name: xcb-util-wm
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: net-misc
+  name: freerdp
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: mesa
   
   version: ""
 - 
@@ -75,6 +70,11 @@ requires:
 - 
   category: x11-libs
   name: xcb-util-image
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
   
   version: ""
 use_flags:

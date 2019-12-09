@@ -3,8 +3,23 @@ conflicts: []
 name: fcitx-libpinyin
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
   category: dev-qt
   name: qtcore
+  
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtwidgets
   
   version: "5.7"
 - 
@@ -33,28 +48,13 @@ requires:
   
   version: 2.1.0
 - 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: "5.7"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
   category: sys-apps
   name: dbus
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 

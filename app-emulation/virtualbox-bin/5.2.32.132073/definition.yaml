@@ -13,8 +13,8 @@ conflicts:
 name: virtualbox-bin
 requires:
 - 
-  category: x11-libs
-  name: libXcursor
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -24,7 +24,32 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXmu
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXft
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 - 
@@ -38,63 +63,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
-  
-  version: ""
-- 
   category: media-libs
   name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXt
-  
-  version: ""
-- 
-  category: app-emulation
-  name: virtualbox-modules
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
   
   version: ""
 - 
@@ -104,17 +74,52 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXfixes
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXdmcp
+  
+  version: ""
+- 
+  category: app-emulation
+  name: virtualbox-modules
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
   
   version: ""
 - 
   category: dev-libs
-  name: expat
+  name: libxml2
   
   version: ""
 - 
@@ -125,11 +130,6 @@ requires:
 - 
   category: x11-libs
   name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdmcp
   
   version: ""
 use_flags:

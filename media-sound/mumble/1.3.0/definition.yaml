@@ -4,7 +4,32 @@ name: mumble
 requires:
 - 
   category: dev-qt
-  name: qtgui
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: sys-apps
+  name: lsb-release
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: app-misc
+  name: g15daemon
   
   version: ""
 - 
@@ -15,6 +40,41 @@ requires:
 - 
   category: dev-qt
   name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  name: speexdsp
+  
+  version: ""
+- 
+  category: media-libs
+  name: speex
+  
+  version: 1.2.0
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: media-libs
+  name: portaudio
+  
+  version: ""
+- 
+  category: net-dns
+  name: avahi
   
   version: ""
 - 
@@ -33,53 +93,8 @@ requires:
   
   version: 2.2.0
 - 
-  category: sys-apps
-  name: lsb-release
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: media-libs
-  name: speex
-  
-  version: 1.2.0
-- 
-  category: media-libs
-  name: speexdsp
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: app-misc
-  name: g15daemon
-  
-  version: ""
-- 
-  category: virtual
-  name: jack
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -88,8 +103,8 @@ requires:
   
   version: 1.0.1
 - 
-  category: dev-qt
-  name: qtsvg
+  category: media-sound
+  name: pulseaudio
   
   version: ""
 - 
@@ -98,33 +113,18 @@ requires:
   
   version: 0.8.0
 - 
-  category: media-libs
-  name: portaudio
+  category: dev-qt
+  name: qtnetwork
   
   version: ""
-- 
-  category: media-libs
-  name: libsndfile
-  
-  version: 1.0.20
 - 
   category: media-libs
   name: alsa-lib
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsql
+  category: virtual
+  name: jack
   
   version: ""
 use_flags:

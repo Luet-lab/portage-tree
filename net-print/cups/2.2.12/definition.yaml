@@ -8,13 +8,13 @@ conflicts:
 name: cups
 requires:
 - 
-  category: virtual
-  name: libusb
+  category: sys-apps
+  name: attr
   
   version: ""
 - 
-  category: sys-apps
-  name: xinetd
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
@@ -22,6 +22,31 @@ requires:
   name: avahi
   
   version: 0.6.31-r2
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
+  
+  version: ""
 - 
   category: acct-group
   name: lp
@@ -33,50 +58,20 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-cups
-  
-  version: ""
-- 
   category: sys-apps
   name: acl
   
   version: ""
 - 
   category: sys-apps
-  name: attr
+  name: dbus
   
-  version: ""
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
+  version: 1.6.18-r1
 - 
   category: net-libs
   name: gnutls
   
   version: 2.12.23-r6
-- 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
 - 
   category: app-text
   name: libpaper
@@ -87,6 +82,11 @@ requires:
   name: krb5
   
   version: 0-r1
+- 
+  category: sec-policy
+  name: selinux-cups
+  
+  version: ""
 use_flags:
 - acl
 - dbus

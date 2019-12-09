@@ -4,12 +4,17 @@ name: deluge
 requires:
 - 
   category: dev-python
-  name: chardet
+  name: setproctitle
   
   version: ""
 - 
   category: dev-python
-  name: pillow
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-python
+  name: mako
   
   version: ""
 - 
@@ -19,22 +24,17 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: twisted
+  name: zope-interface
   
-  version: 17.1.0
+  version: 4.4.2
 - 
-  category: x11-libs
-  name: libnotify
+  category: dev-python
+  name: pygame
   
   version: ""
 - 
-  category: dev-python
-  name: pyxdg
-  
-  version: ""
-- 
-  category: dev-python
-  name: setproctitle
+  category: gnome-base
+  name: librsvg
   
   version: ""
 - 
@@ -43,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: pygame
+  category: x11-libs
+  name: libnotify
   
   version: ""
 - 
@@ -54,17 +54,7 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: rencode
-  
-  version: ""
-- 
-  category: dev-python
-  name: zope-interface
-  
-  version: 4.4.2
-- 
-  category: dev-python
-  name: mako
+  name: chardet
   
   version: ""
 - 
@@ -79,14 +69,24 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pygobject
+  name: pyxdg
   
   version: ""
 - 
-  category: gnome-base
-  name: librsvg
+  category: dev-python
+  name: rencode
   
   version: ""
+- 
+  category: dev-python
+  name: pillow
+  
+  version: ""
+- 
+  category: dev-python
+  name: twisted
+  
+  version: 17.1.0
 use_flags:
 - console
 - geoip

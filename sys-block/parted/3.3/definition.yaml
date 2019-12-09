@@ -4,11 +4,6 @@ name: parted
 requires:
 - 
   category: sys-libs
-  name: readline
-  
-  version: "5.2"
-- 
-  category: sys-libs
   name: ncurses
   
   version: 5.7-r7
@@ -32,6 +27,11 @@ requires:
   name: lvm2
   
   version: 2.02.45
+- 
+  category: sys-libs
+  name: readline
+  
+  version: "5.2"
 use_flags:
 - +debug
 - device-mapper
