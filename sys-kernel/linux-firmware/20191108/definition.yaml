@@ -1,8 +1,38 @@
 category: sys-kernel
 conflicts:
 - 
+  category: media-tv
+  name: linuxtv-dvb-firmware[dvb_cards_cx231xx]
+  
+  version: ""
+- 
+  category: media-tv
+  name: linuxtv-dvb-firmware[dvb_cards_usb-dib0700]
+  
+  version: ""
+- 
   category: sys-firmware
-  name: alsa-firmware[alsa_cards_ca0132]
+  name: amd-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl3160-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl7265-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: alsa-firmware[alsa_cards_korg1212]
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: radeon-ucode
   
   version: ""
 - 
@@ -12,7 +42,42 @@ conflicts:
   version: ""
 - 
   category: sys-firmware
-  name: iwl2030-ucode
+  name: iwl1000-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl3945-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl4965-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl6030-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl3160-7260-bt-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: alsa-firmware[alsa_cards_ca0132]
+  
+  version: ""
+- 
+  category: net-wireless
+  name: rt2860-firmware
+  
+  version: ""
+- 
+  category: sys-block
+  name: qla-fc-firmware
   
   version: ""
 - 
@@ -21,8 +86,18 @@ conflicts:
   
   version: ""
 - 
+  category: sys-firmware
+  name: alsa-firmware[alsa_cards_maestro3]
+  
+  version: ""
+- 
   category: media-tv
-  name: linuxtv-dvb-firmware[dvb_cards_cx231xx]
+  name: linuxtv-dvb-firmware[dvb_cards_cx23885]
+  
+  version: ""
+- 
+  category: net-dialup
+  name: ueagle4-atm
   
   version: ""
 - 
@@ -32,7 +107,52 @@ conflicts:
   version: ""
 - 
   category: sys-firmware
-  name: radeon-ucode
+  name: iwl6050-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: rt61-firmware
+  
+  version: ""
+- 
+  category: net-wireless
+  name: rt73-firmware
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl2030-ucode
+  
+  version: ""
+- 
+  category: net-wireless
+  name: rt2870-firmware
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl2000-ucode
+  
+  version: ""
+- 
+  category: media-tv
+  name: cx18-firmware
+  
+  version: ""
+- 
+  category: net-wireless
+  name: libertas-firmware
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl5000-ucode
+  
+  version: ""
+- 
+  category: sys-firmware
+  name: iwl6000-ucode
   
   version: ""
 - 
@@ -52,62 +172,7 @@ conflicts:
   version: ""
 - 
   category: net-wireless
-  name: libertas-firmware
-  
-  version: ""
-- 
-  category: sys-block
-  name: qla-fc-firmware
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl6050-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: alsa-firmware[alsa_cards_maestro3]
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl1000-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl2000-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl3945-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl4965-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl5000-ucode
-  
-  version: ""
-- 
-  category: media-tv
-  name: linuxtv-dvb-firmware[dvb_cards_cx23885]
-  
-  version: ""
-- 
-  category: media-tv
-  name: linuxtv-dvb-firmware[dvb_cards_usb-dib0700]
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl6030-ucode
+  name: i2400m-fw
   
   version: ""
 - 
@@ -117,72 +182,7 @@ conflicts:
   version: ""
 - 
   category: sys-firmware
-  name: iwl7265-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl3160-7260-bt-ucode
-  
-  version: ""
-- 
-  category: media-tv
-  name: cx18-firmware
-  
-  version: ""
-- 
-  category: net-dialup
-  name: ueagle4-atm
-  
-  version: ""
-- 
-  category: net-wireless
-  name: i2400m-fw
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: rt61-firmware
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: amd-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl3160-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
   name: alsa-firmware[alsa_cards_sb16]
-  
-  version: ""
-- 
-  category: net-wireless
-  name: rt73-firmware
-  
-  version: ""
-- 
-  category: net-wireless
-  name: rt2860-firmware
-  
-  version: ""
-- 
-  category: net-wireless
-  name: rt2870-firmware
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: iwl6000-ucode
-  
-  version: ""
-- 
-  category: sys-firmware
-  name: alsa-firmware[alsa_cards_korg1212]
   
   version: ""
 name: linux-firmware

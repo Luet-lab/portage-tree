@@ -3,6 +3,16 @@ conflicts: []
 name: gnuplot
 requires:
 - 
+  category: dev-tex
+  name: pgf
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
   category: sci-libs
   name: libcerf
   
@@ -13,8 +23,23 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: gd
+  
+  version: 2.0.35-r3
+- 
+  category: virtual
+  name: latex-base
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
   category: x11-libs
-  name: wxGTK
+  name: gtk+
   
   version: ""
 - 
@@ -28,8 +53,13 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
   category: media-libs
-  name: libggi
+  name: libcaca
   
   version: ""
 - 
@@ -53,43 +83,13 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
+  category: sys-libs
+  name: readline
   
   version: ""
 - 
   category: media-libs
-  name: gd
-  
-  version: 2.0.35-r3
-- 
-  category: virtual
-  name: latex-base
-  
-  version: ""
-- 
-  category: dev-tex
-  name: pgf
+  name: libggi
   
   version: ""
 - 
@@ -98,13 +98,13 @@ requires:
   
   version: 2008-r2
 - 
-  category: media-libs
-  name: libcaca
+  category: x11-libs
+  name: wxGTK
   
   version: ""
 - 
-  category: sys-libs
-  name: readline
+  category: x11-libs
+  name: pango
   
   version: ""
 use_flags:

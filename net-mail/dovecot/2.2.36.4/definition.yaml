@@ -8,8 +8,8 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: app-text
-  name: libexttextcat
+  category: dev-db
+  name: sqlite
   
   version: ""
 - 
@@ -18,13 +18,13 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: bzip2
+  category: net-mail
+  name: mailbase
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -38,18 +38,13 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
+  category: app-text
+  name: libexttextcat
   
   version: ""
 - 
@@ -58,30 +53,15 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: app-arch
+  name: xz-utils
   
   version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
 - 
   category: dev-db
   name: mysql-connector-c
@@ -93,28 +73,48 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: dev-libs
-  name: icu
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailbase
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
   category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
   
   version: ""
 use_flags:

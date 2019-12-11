@@ -3,8 +3,8 @@ conflicts: []
 name: imapsync
 requires:
 - 
-  category: virtual
-  name: perl-MIME-Base64
+  category: dev-perl
+  name: Mail-IMAPClient
   
   version: ""
 - 
@@ -19,12 +19,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: IO-Tee
+  name: File-Copy-Recursive
   
   version: ""
 - 
   category: dev-perl
-  name: Mail-IMAPClient
+  name: IO-Socket-SSL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: IO-Tee
   
   version: ""
 - 
@@ -38,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: File-Copy-Recursive
-  
-  version: ""
-- 
-  category: dev-perl
-  name: IO-Socket-SSL
+  category: virtual
+  name: perl-MIME-Base64
   
   version: ""
 version: 1.592-r1

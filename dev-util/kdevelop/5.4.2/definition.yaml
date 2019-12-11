@@ -13,13 +13,13 @@ conflicts:
 name: kdevelop
 requires:
 - 
-  category: dev-util
-  name: astyle
+  category: dev-libs
+  name: apr
   
-  version: "3.1"
+  version: ""
 - 
-  category: app-editors
-  name: okteta
+  category: dev-libs
+  name: apr-util
   
   version: ""
 - 
@@ -27,16 +27,6 @@ requires:
   name: qtwebkit
   
   version: 5.212.0_pre20180120
-- 
-  category: dev-util
-  name: ninja
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
 - 
   category: sys-devel
   name: gdb
@@ -48,25 +38,35 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: clang
-  
-  version: 3.8.0
-- 
   category: dev-util
   name: kdevelop-pg-qt
   
   version: ""
 - 
-  category: dev-libs
-  name: apr
+  category: app-editors
+  name: okteta
   
   version: ""
 - 
-  category: dev-libs
-  name: apr-util
+  category: dev-vcs
+  name: subversion
   
   version: ""
+- 
+  category: dev-util
+  name: ninja
+  
+  version: ""
+- 
+  category: dev-util
+  name: astyle
+  
+  version: "3.1"
+- 
+  category: sys-devel
+  name: clang
+  
+  version: 3.8.0
 use_flags:
 - +gdbui
 - hex

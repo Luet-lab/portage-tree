@@ -3,18 +3,13 @@ conflicts: []
 name: xournal
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: gnome-base
-  name: libgnomecanvas
-  
-  version: ""
-- 
   category: media-libs
-  name: fontconfig
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -24,12 +19,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: app-text
-  name: ghostscript-gpl
+  name: pango
   
   version: ""
 - 
@@ -43,13 +33,23 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: gnome-base
+  name: libgnomecanvas
+  
+  version: ""
+- 
+  category: app-text
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
@@ -59,7 +59,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: gtk+
   
   version: ""
 use_flags:

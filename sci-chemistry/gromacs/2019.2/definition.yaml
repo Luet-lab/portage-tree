@@ -3,8 +3,28 @@ conflicts: []
 name: gromacs
 requires:
 - 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
   category: sys-apps
   name: hwloc
+  
+  version: ""
+- 
+  category: sci-libs
+  name: mkl
+  
+  version: ""
+- 
+  category: virtual
+  name: opencl
   
   version: ""
 - 
@@ -18,28 +38,8 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: mkl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
   category: virtual
-  name: blas
-  
-  version: ""
-- 
-  category: dev-util
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.14
-- 
-  category: sci-libs
-  name: fftw
+  name: mpi
   
   version: ""
 - 
@@ -54,14 +54,14 @@ requires:
   version: ""
 - 
   category: virtual
-  name: opencl
+  name: blas
   
   version: ""
 - 
-  category: virtual
-  name: mpi
+  category: dev-util
+  name: nvidia-cuda-toolkit
   
-  version: ""
+  version: 6.5.14
 use_flags:
 - X
 - blas

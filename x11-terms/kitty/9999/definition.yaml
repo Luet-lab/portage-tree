@@ -3,18 +3,8 @@ conflicts: []
 name: kitty
 requires:
 - 
-  category: media-libs
-  name: harfbuzz
-  
-  version: 1.5.0
-- 
-  category: media-libs
-  name: libcanberra
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -28,8 +18,28 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  name: harfbuzz
+  
+  version: 1.5.0
+- 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
   category: x11-libs
-  name: libXi
+  name: libXrandr
   
   version: ""
 - 
@@ -43,23 +53,8 @@ requires:
   
   version: "1.17"
 - 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
   category: x11-libs
   name: libxcb
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
   
   version: ""
 - 
@@ -74,12 +69,17 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
   name: libxkbcommon[X]
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: sys-apps
+  name: dbus
   
   version: ""
 use_flags:

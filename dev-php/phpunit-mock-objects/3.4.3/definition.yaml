@@ -1,27 +1,17 @@
 category: dev-php
 conflicts:
 - 
-  category: '>=dev-php'
-  name: Text_Template
-  
-  version: "2.0"
-- 
   category: <dev-php
   name: phpunit
   
   version: 5.4.0
-name: phpunit-mock-objects
-requires:
 - 
-  category: dev-php
-  name: fedora-autoloader
-  
-  version: ""
-- 
-  category: dev-php
+  category: '>=dev-php'
   name: Text_Template
   
-  version: "1.2"
+  version: "2.0"
+name: phpunit-mock-objects
+requires:
 - 
   category: dev-php
   name: doctrine-instantiator
@@ -37,6 +27,16 @@ requires:
   name: php
   
   version: "5.6"
+- 
+  category: dev-php
+  name: fedora-autoloader
+  
+  version: ""
+- 
+  category: dev-php
+  name: Text_Template
+  
+  version: "1.2"
 use_flags:
 - ""
 version: 3.4.3

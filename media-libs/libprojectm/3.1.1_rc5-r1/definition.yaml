@@ -3,23 +3,8 @@ conflicts: []
 name: libprojectm
 requires:
 - 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
   category: media-libs
-  name: libsdl2
-  
-  version: 2.0.5
-- 
-  category: media-libs
-  name: glm
+  name: mesa[X(+)]
   
   version: ""
 - 
@@ -38,6 +23,11 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
   category: sys-libs
   name: zlib
   
@@ -48,8 +38,18 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
   category: media-libs
-  name: mesa[X(+)]
+  name: libsdl2
+  
+  version: 2.0.5
+- 
+  category: media-libs
+  name: glm
   
   version: ""
 use_flags:

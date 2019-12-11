@@ -3,6 +3,11 @@ conflicts: []
 name: nbd
 requires:
 - 
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.0
+- 
   category: dev-libs
   name: libnl
   
@@ -17,11 +22,6 @@ requires:
   name: glib
   
   version: 2.26.0
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.0
 use_flags:
 - debug
 - gnutls

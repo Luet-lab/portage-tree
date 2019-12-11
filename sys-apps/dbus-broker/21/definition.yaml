@@ -3,6 +3,16 @@ conflicts: []
 name: dbus-broker
 requires:
 - 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-process
+  name: audit
+  
+  version: "2.7"
+- 
   category: sys-libs
   name: libcap-ng
   
@@ -22,16 +32,6 @@ requires:
   name: libselinux
   
   version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-process
-  name: audit
-  
-  version: "2.7"
 use_flags:
 - audit
 - doc

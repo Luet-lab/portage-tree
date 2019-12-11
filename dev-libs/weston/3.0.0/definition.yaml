@@ -3,10 +3,50 @@ conflicts: []
 name: weston
 requires:
 - 
-  category: dev-libs
-  name: libinput
+  category: virtual
+  name: jpeg
   
-  version: 0.8.0
+  version: ""
+- 
+  category: net-misc
+  name: freerdp-1.1.0_beta1_p20130710
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pambase
+  
+  version: ""
+- 
+  category: x11-base
+  name: xorg-server
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libdrm
+  
+  version: 2.4.30
+- 
+  category: virtual
+  name: udev
+  
+  version: "136"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: 0.25.2
 - 
   category: media-libs
   name: libpng
@@ -23,88 +63,8 @@ requires:
   
   version: "1.9"
 - 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1.6"
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.12.0
-- 
-  category: sys-libs
-  name: libunwind
-  
-  version: ""
-- 
   category: x11-libs
-  name: libdrm
-  
-  version: 2.4.30
-- 
-  category: sys-libs
-  name: mtdev
-  
-  version: 1.1.0
-- 
-  category: media-libs
-  name: lcms
-  
-  version: ""
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: net-misc
-  name: freerdp-1.1.0_beta1_p20130710
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "209"
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: 1.11.3
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: sys-auth
-  name: pambase
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
+  name: libXcursor
   
   version: ""
 - 
@@ -119,22 +79,62 @@ requires:
   version: 0.5.0
 - 
   category: x11-libs
-  name: pixman
+  name: cairo
   
-  version: 0.25.2
-- 
-  category: virtual
-  name: udev
-  
-  version: "136"
+  version: ""
 - 
   category: x11-misc
   name: colord
   
   version: 0.1.27
 - 
+  category: sys-apps
+  name: systemd
+  
+  version: "209"
+- 
   category: x11-libs
-  name: libXcursor
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 0.8.0
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: sys-libs
+  name: libunwind
+  
+  version: ""
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.12.0
+- 
+  category: media-libs
+  name: libwebp
+  
+  version: ""
+- 
+  category: sys-libs
+  name: mtdev
+  
+  version: 1.1.0
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: "1.6"
+- 
+  category: media-libs
+  name: mesa
   
   version: ""
 use_flags:

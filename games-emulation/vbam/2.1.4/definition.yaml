@@ -4,14 +4,19 @@ name: vbam
 requires:
 - 
   category: virtual
-  name: libintl
+  name: glu
   
   version: ""
 - 
-  category: media-libs
-  name: libpng
+  category: app-misc
+  name: lirc
   
-  version: "1.4"
+  version: ""
+- 
+  category: x11-libs
+  name: wxGTK
+  
+  version: ""
 - 
   category: media-libs
   name: libsdl2
@@ -28,23 +33,13 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  name: lirc
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsfml
-  
-  version: "2.0"
-- 
-  category: virtual
-  name: glu
-  
-  version: ""
-- 
   category: media-video
   name: ffmpeg-3*
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -53,10 +48,15 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: wxGTK
+  category: media-libs
+  name: libpng
   
-  version: ""
+  version: "1.4"
+- 
+  category: media-libs
+  name: libsfml
+  
+  version: "2.0"
 use_flags:
 - ffmpeg
 - link

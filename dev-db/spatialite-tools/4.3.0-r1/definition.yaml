@@ -3,6 +3,16 @@ conflicts: []
 name: spatialite-tools
 requires:
 - 
+  category: sci-libs
+  name: geos
+  
+  version: ""
+- 
+  category: sci-libs
+  name: proj
+  
+  version: ""
+- 
   category: dev-db
   name: sqlite
   
@@ -13,23 +23,13 @@ requires:
   
   version: 3.0.1
 - 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
   category: sci-geosciences
   name: readosm
   
   version: ""
 - 
-  category: sci-libs
-  name: geos
-  
-  version: ""
-- 
   category: sys-libs
-  name: ncurses
+  name: readline
   
   version: ""
 - 
@@ -38,13 +38,13 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: proj
+  category: dev-libs
+  name: libxml2
   
   version: ""
 - 
   category: sys-libs
-  name: readline
+  name: ncurses
   
   version: ""
 use_flags:

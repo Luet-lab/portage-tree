@@ -3,28 +3,48 @@ conflicts: []
 name: handbrake
 requires:
 - 
-  category: media-libs
-  name: libvorbis
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-base
+  name: libass
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-a52dec
+  category: media-sound
+  name: lame
   
   version: ""
 - 
   category: media-libs
-  name: fdk-aac
+  name: gst-plugins-ugly
   
   version: ""
 - 
   category: dev-libs
-  name: libxml2
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgudev
+  
+  version: ""
+- 
+  category: media-libs
+  name: x265
+  
+  version: "3.2"
+- 
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -34,132 +54,22 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: dav1d
-  
-  version: 0.5.1
-- 
-  category: media-libs
-  name: opus
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-ugly
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-gdkpixbuf
-  
-  version: ""
-- 
-  category: dev-libs
-  name: jansson
-  
-  version: ""
-- 
-  category: media-libs
-  name: libdvdnav
-  
-  version: ""
-- 
-  category: media-libs
-  name: x264
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-bad
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: ""
-- 
-  category: media-libs
-  name: libbluray
-  
-  version: "1.0"
-- 
-  category: media-libs
   name: libtheora
   
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: media-libs
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  name: libass
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvpx
-  
-  version: "1.8"
-- 
-  category: media-libs
-  name: nv-codec-headers
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: "12.2"
-- 
-  category: dev-libs
-  name: glib
+  name: gst-plugins-base
   
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: gtk+
   
-  version: ""
+  version: "3.10"
 - 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: 4.2.1
-- 
-  category: media-libs
-  name: x265
-  
-  version: "3.2"
-- 
-  category: media-libs
-  name: libdvdread
+  category: dev-libs
+  name: jansson
   
   version: ""
 - 
@@ -169,22 +79,82 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: gstreamer
+  name: opus
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
   category: media-plugins
-  name: gst-plugins-x264
+  name: gst-plugins-gdkpixbuf
   
   version: ""
 - 
-  category: dev-libs
-  name: dbus-glib
+  category: media-libs
+  name: dav1d
+  
+  version: 0.5.1
+- 
+  category: media-libs
+  name: libvorbis
   
   version: ""
 - 
-  category: media-sound
-  name: lame
+  category: media-plugins
+  name: gst-plugins-a52dec
+  
+  version: ""
+- 
+  category: media-libs
+  name: speex
+  
+  version: ""
+- 
+  category: media-libs
+  name: libdvdnav
+  
+  version: ""
+- 
+  category: media-libs
+  name: nv-codec-headers
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvpx
+  
+  version: "1.8"
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-bad
   
   version: ""
 - 
@@ -193,13 +163,43 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: dev-libs
+  name: libxml2
   
-  version: "3.10"
+  version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: media-libs
+  name: libbluray
+  
+  version: "1.0"
+- 
+  category: media-libs
+  name: libdvdread
+  
+  version: ""
+- 
+  category: media-libs
+  name: x264
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: "12.2"
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: 4.2.1
+- 
+  category: media-plugins
+  name: gst-plugins-x264
+  
+  version: ""
+- 
+  category: media-libs
+  name: fdk-aac
   
   version: ""
 use_flags:

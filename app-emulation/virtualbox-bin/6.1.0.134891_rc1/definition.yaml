@@ -1,40 +1,30 @@
 category: app-emulation
 conflicts:
 - 
-  category: app-emulation
-  name: virtualbox-additions
-  
-  version: ""
-- 
   category: '!app-emulation'
   name: virtualbox
   
   version: ""
+- 
+  category: app-emulation
+  name: virtualbox-additions
+  
+  version: ""
 name: virtualbox-bin
 requires:
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXau
-  
-  version: ""
 - 
   category: app-emulation
   name: virtualbox-modules
   
   version: ""
 - 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
   category: x11-libs
-  name: libXext
+  name: libXfixes
   
   version: ""
 - 
@@ -44,27 +34,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
+  name: libXinerama
   
   version: ""
 - 
   category: x11-libs
-  name: libXt
+  name: libXau
   
   version: ""
 - 
   category: x11-libs
-  name: libICE
+  name: libSM
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: x11-libs
+  name: libXdmcp
   
   version: ""
 - 
@@ -83,43 +68,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -129,7 +79,57 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXmu
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 use_flags:

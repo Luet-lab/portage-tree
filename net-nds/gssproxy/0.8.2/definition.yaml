@@ -3,6 +3,16 @@ conflicts: []
 name: gssproxy
 requires:
 - 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-gssproxy
+  
+  version: ""
+- 
   category: dev-libs
   name: libverto
   
@@ -15,16 +25,6 @@ requires:
 - 
   category: virtual
   name: krb5
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-gssproxy
   
   version: ""
 use_flags:

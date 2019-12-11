@@ -3,30 +3,15 @@ conflicts: []
 name: mate-user-share
 requires:
 - 
-  category: media-libs
-  name: libcanberra
+  category: mate-base
+  name: caja
   
-  version: ""
+  version: 1.17.1
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libnotify
   
-  version: "2"
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: www-apache
-  name: mod_dnssd
-  
-  version: "0.6"
+  version: "0.7"
 - 
   category: dev-libs
   name: dbus-glib
@@ -38,6 +23,26 @@ requires:
   
   version: "2.50"
 - 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: 1.1.1
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: "2"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
   category: x11-libs
   name: libX11
   
@@ -48,25 +53,20 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libnotify
+  category: virtual
+  name: libintl
   
-  version: "0.7"
+  version: ""
+- 
+  category: www-apache
+  name: mod_dnssd
+  
+  version: "0.6"
 - 
   category: www-servers
   name: apache
   
   version: "2.2"
-- 
-  category: mate-base
-  name: caja
-  
-  version: 1.17.1
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.1.1
 use_flags:
 - X
 version: 1.22.1

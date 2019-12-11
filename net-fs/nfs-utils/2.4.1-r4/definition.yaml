@@ -6,20 +6,40 @@ conflicts:
   
   version: ""
 - 
-  category: net-libs
-  name: libnfsidmap
-  
-  version: ""
-- 
   category: <sys-apps
   name: openrc
   
   version: 0.13.9
+- 
+  category: net-libs
+  name: libnfsidmap
+  
+  version: ""
 name: nfs-utils
 requires:
 - 
   category: dev-libs
-  name: libxml2
+  name: libevent
+  
+  version: ""
+- 
+  category: sys-apps
+  name: keyutils
+  
+  version: 1.5.9
+- 
+  category: net-libs
+  name: libtirpc
+  
+  version: 0.2.4-r1
+- 
+  category: app-crypt
+  name: mit-krb5
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-rpc
   
   version: ""
 - 
@@ -28,28 +48,8 @@ requires:
   
   version: 0.2.4
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-rpcbind
-  
-  version: ""
-- 
-  category: net-libs
-  name: libtirpc
-  
-  version: ""
-- 
   category: sys-libs
-  name: libcap
+  name: e2fsprogs-libs
   
   version: ""
 - 
@@ -63,38 +63,38 @@ requires:
   
   version: "3.3"
 - 
+  category: net-libs
+  name: libtirpc
+  
+  version: ""
+- 
   category: net-nds
   name: openldap
   
   version: ""
 - 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
   category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: net-libs
-  name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: sec-policy
-  name: selinux-rpc
-  
-  version: ""
-- 
-  category: sys-libs
-  name: e2fsprogs-libs
+  name: libxml2
   
   version: ""
 - 
   category: sys-apps
-  name: keyutils
+  name: tcp-wrappers
   
-  version: 1.5.9
+  version: ""
 - 
-  category: app-crypt
-  name: mit-krb5
+  category: sec-policy
+  name: selinux-rpcbind
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
   
   version: ""
 use_flags:

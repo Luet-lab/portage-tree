@@ -3,6 +3,31 @@ conflicts: []
 name: dealii
 requires:
 - 
+  category: sci-libs
+  name: scalapack
+  
+  version: ""
+- 
+  category: sci-libs
+  name: umfpack
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: tbb
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
+  
+  version: ""
+- 
+  category: sci-libs
+  name: arpack[mpi=]
+  
+  version: ""
+- 
   category: media-libs
   name: assimp
   
@@ -13,48 +38,13 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: tbb
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: sci-libs
-  name: gsl
-  
-  version: ""
-- 
-  category: virtual
-  name: lapack
-  
-  version: ""
-- 
-  category: virtual
-  name: mpi
-  
-  version: ""
-- 
-  category: sci-libs
-  name: opencascade
+  name: p4est
   
   version: ""
 - 
   category: sci-mathematics
   name: petsc[mpi=]
-  
-  version: ""
-- 
-  category: sci-libs
-  name: trilinos
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
   
   version: ""
 - 
@@ -79,7 +69,7 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: nanoflann
+  name: gsl
   
   version: ""
 - 
@@ -88,18 +78,28 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: boost
+  category: sci-libs
+  name: symengine
+  
+  version: "0.4"
+- 
+  category: sci-libs
+  name: trilinos
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
   category: sci-libs
   name: adolc
-  
-  version: ""
-- 
-  category: sci-libs
-  name: arpack[mpi=]
   
   version: ""
 - 
@@ -109,29 +109,29 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: p4est
-  
-  version: ""
-- 
-  category: sci-libs
-  name: scalapack
-  
-  version: ""
-- 
-  category: sci-libs
-  name: umfpack
-  
-  version: ""
-- 
-  category: sci-libs
   name: sundials
   
   version: ""
 - 
-  category: sci-libs
-  name: symengine
+  category: virtual
+  name: lapack
   
-  version: "0.4"
+  version: ""
+- 
+  category: virtual
+  name: mpi
+  
+  version: ""
+- 
+  category: sci-libs
+  name: nanoflann
+  
+  version: ""
+- 
+  category: sci-libs
+  name: opencascade
+  
+  version: ""
 use_flags:
 - adolc
 - assimp

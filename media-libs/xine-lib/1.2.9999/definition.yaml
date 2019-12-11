@@ -3,28 +3,18 @@ conflicts: []
 name: xine-lib
 requires:
 - 
-  category: virtual
-  name: jack
+  category: media-libs
+  name: libogg
   
   version: ""
 - 
   category: media-libs
-  name: libmad
+  name: freetype
   
   version: ""
 - 
-  category: net-fs
-  name: samba
-  
-  version: ""
-- 
-  category: media-sound
-  name: wavpack
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
+  category: media-libs
+  name: aalib
   
   version: ""
 - 
@@ -33,18 +23,38 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libogg
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxdg-basedir
+  category: virtual
+  name: opengl
   
   version: ""
 - 
   category: media-libs
-  name: libdvdnav
+  name: libsdl
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmad
+  
+  version: ""
+- 
+  category: media-sound
+  name: musepack-tools
+  
+  version: "444"
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -58,6 +68,46 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: imagemagick-tools
+  
+  version: ""
+- 
+  category: media-sound
+  name: wavpack
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmng
+  
+  version: ""
+- 
+  category: virtual
+  name: glu
+  
+  version: ""
+- 
+  category: media-libs
+  name: libv4l
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libcdio
+  
+  version: ""
+- 
+  category: media-libs
+  name: libdvdnav
+  
+  version: ""
+- 
   category: media-libs
   name: libdca
   
@@ -68,68 +118,28 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: jack
+  
+  version: ""
+- 
   category: x11-libs
-  name: libXinerama
+  name: libXv
   
   version: ""
 - 
-  category: media-libs
-  name: speex
+  category: x11-libs
+  name: libvdpau
   
   version: ""
 - 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
+  category: virtual
+  name: libintl
   
   version: ""
 - 
   category: dev-libs
-  name: libcdio
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: virtual
-  name: imagemagick-tools
-  
-  version: ""
-- 
-  category: media-libs
-  name: libcaca
-  
-  version: ""
-- 
-  category: virtual
-  name: glu
-  
-  version: ""
-- 
-  category: media-video
-  name: vcdimager
-  
-  version: 0.7.23
-- 
-  category: x11-libs
-  name: libvdpau
+  name: libxdg-basedir
   
   version: ""
 - 
@@ -143,13 +153,13 @@ requires:
   
   version: ""
 - 
-  category: media-sound
-  name: musepack-tools
+  category: media-libs
+  name: speex
   
-  version: "444"
+  version: ""
 - 
-  category: media-sound
-  name: pulseaudio
+  category: media-libs
+  name: libvpx
   
   version: ""
 - 
@@ -159,22 +169,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libsdl
-  
-  version: ""
-- 
-  category: media-libs
-  name: libv4l
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: media-libs
-  name: aalib
+  name: alsa-lib
   
   version: ""
 - 
@@ -188,25 +183,15 @@ requires:
   
   version: ""
 - 
-  category: media-video
-  name: libav
+  category: media-libs
+  name: libcaca
   
   version: ""
 - 
   category: media-libs
-  name: libmodplug
+  name: libbluray
   
-  version: 0.8.8.1
-- 
-  category: x11-libs
-  name: libva
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvpx
-  
-  version: ""
+  version: 0.2.1
 - 
   category: media-libs
   name: libpostproc
@@ -219,37 +204,52 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXv
+  name: libXvMC
   
   version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libbluray
-  
-  version: 0.2.1
 - 
   category: virtual
   name: jpeg
   
   version: ""
 - 
-  category: media-libs
-  name: libmng
+  category: media-video
+  name: vcdimager
   
-  version: ""
+  version: 0.7.23
 - 
-  category: virtual
-  name: opengl
+  category: x11-libs
+  name: libxcb
   
   version: ""
 - 
   category: x11-libs
-  name: libXvMC
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libva
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmodplug
+  
+  version: 0.8.8.1
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: net-fs
+  name: samba
   
   version: ""
 use_flags:

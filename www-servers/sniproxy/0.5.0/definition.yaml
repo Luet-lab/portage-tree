@@ -3,11 +3,6 @@ conflicts: []
 name: sniproxy
 requires:
 - 
-  category: net-libs
-  name: udns
-  
-  version: ""
-- 
   category: dev-libs
   name: libev
   
@@ -17,6 +12,11 @@ requires:
   name: libpcre
   
   version: "3"
+- 
+  category: net-libs
+  name: udns
+  
+  version: ""
 use_flags:
 - +dns
 - +largefile

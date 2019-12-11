@@ -3,6 +3,21 @@ conflicts: []
 name: bitlbee
 requires:
 - 
+  category: virtual
+  name: logger
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.16"
+- 
   category: net-im
   name: pidgin
   
@@ -18,6 +33,11 @@ requires:
   
   version: "4"
 - 
+  category: net-libs
+  name: gnutls
+  
+  version: ""
+- 
   category: dev-libs
   name: nss
   
@@ -29,27 +49,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
-  
-  version: "2.16"
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
-- 
-  category: dev-libs
   name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: logger
-  
-  version: ""
-- 
-  category: sys-apps
-  name: xinetd
   
   version: ""
 use_flags:

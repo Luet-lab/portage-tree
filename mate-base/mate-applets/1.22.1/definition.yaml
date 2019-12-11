@@ -8,25 +8,10 @@ conflicts:
 name: mate-applets
 requires:
 - 
-  category: net-wireless
-  name: wireless-tools
+  category: sys-auth
+  name: polkit
   
-  version: 28_pre9
-- 
-  category: x11-libs
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: x11-libs
-  name: libwnck
-  
-  version: "3.0"
+  version: "0.97"
 - 
   category: mate-base
   name: mate-settings-daemon
@@ -34,29 +19,24 @@ requires:
   version: "1.6"
 - 
   category: dev-libs
-  name: atk
+  name: dbus-glib
   
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: gnome-base
-  name: libgtop
-  
-  version: 2.12.0
+  version: "0.74"
 - 
   category: dev-libs
   name: libxml2
   
   version: "2.5"
 - 
-  category: x11-libs
-  name: gdk-pixbuf
+  category: mate-base
+  name: mate-panel
   
-  version: ""
+  version: 1.17.0
+- 
+  category: x11-libs
+  name: libwnck
+  
+  version: "3.0"
 - 
   category: x11-libs
   name: libX11
@@ -64,24 +44,29 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libmateweather
+  name: atk
   
-  version: 1.17.0
+  version: ""
 - 
-  category: mate-base
-  name: mate-panel
+  category: gnome-base
+  name: libgtop
   
-  version: 1.17.0
+  version: 2.12.0
+- 
+  category: gnome-extra
+  name: gucharmap
+  
+  version: "3.0"
 - 
   category: sys-power
   name: cpupower
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: net-wireless
+  name: wireless-tools
   
-  version: "3.22"
+  version: 28_pre9
 - 
   category: x11-libs
   name: pango
@@ -93,10 +78,20 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  name: polkit
+  category: x11-libs
+  name: gtk+
   
-  version: "0.97"
+  version: "3.22"
+- 
+  category: x11-libs
+  name: gtksourceview
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
 - 
   category: sys-power
   name: upower
@@ -104,19 +99,24 @@ requires:
   version: 0.9.23
 - 
   category: dev-libs
-  name: dbus-glib
+  name: glib
   
-  version: "0.74"
+  version: "2.50"
 - 
-  category: gnome-extra
-  name: gucharmap
+  category: dev-libs
+  name: libmateweather
   
-  version: "3.0"
+  version: 1.17.0
 - 
   category: sys-apps
   name: dbus
   
   version: 1.1.2
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
 use_flags:
 - X
 - ipv6

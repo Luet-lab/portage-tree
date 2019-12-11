@@ -3,6 +3,16 @@ conflicts: []
 name: centerim
 requires:
 - 
+  category: net-im
+  name: pidgin
+  
+  version: 2.7.0
+- 
+  category: dev-libs
+  name: glib
+  
+  version: 2.16.0
+- 
   category: dev-libs
   name: libsigc++
   
@@ -17,16 +27,6 @@ requires:
   name: ncurses
   
   version: "5.2"
-- 
-  category: net-im
-  name: pidgin
-  
-  version: 2.7.0
-- 
-  category: dev-libs
-  name: glib
-  
-  version: 2.16.0
 use_flags:
 - debug
 - nls

@@ -3,6 +3,11 @@ conflicts: []
 name: gromacs
 requires:
 - 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
   category: virtual
   name: blas
   
@@ -13,13 +18,18 @@ requires:
   
   version: 4.2.9-r1
 - 
+  category: virtual
+  name: opencl
+  
+  version: ""
+- 
   category: sys-apps
   name: hwloc
   
   version: "2"
 - 
-  category: sci-libs
-  name: mkl
+  category: virtual
+  name: mpi
   
   version: ""
 - 
@@ -29,12 +39,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: virtual
-  name: opencl
+  name: libSM
   
   version: ""
 - 
@@ -48,13 +53,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: mpi
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
+  category: sci-libs
+  name: mkl
   
   version: ""
 use_flags:

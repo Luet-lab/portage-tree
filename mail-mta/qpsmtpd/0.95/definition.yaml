@@ -3,13 +3,23 @@ conflicts: []
 name: qpsmtpd
 requires:
 - 
+  category: dev-perl
+  name: Danga-Socket
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Sys-Syslog
+  
+  version: ""
+- 
   category: virtual
   name: perl-MIME-Base64
   
   version: ""
 - 
   category: dev-perl
-  name: IPC-Shareable
+  name: MailTools
   
   version: ""
 - 
@@ -23,8 +33,13 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: perl-Sys-Syslog
+  category: dev-perl
+  name: UNIVERSAL-isa
+  
+  version: ""
+- 
+  category: dev-perl
+  name: IO-Socket-INET6
   
   version: ""
 - 
@@ -44,22 +59,7 @@ requires:
   version: 0.690.0
 - 
   category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Danga-Socket
-  
-  version: ""
-- 
-  category: dev-perl
-  name: UNIVERSAL-isa
-  
-  version: ""
-- 
-  category: dev-perl
-  name: IO-Socket-INET6
+  name: IPC-Shareable
   
   version: ""
 use_flags:

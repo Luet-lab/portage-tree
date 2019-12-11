@@ -8,10 +8,15 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: dev-libs
+  name: glib
   
-  version: ""
+  version: 2.2.2
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: "5.3"
 - 
   category: net-misc
   name: curl
@@ -19,22 +24,7 @@ requires:
   version: 7.26.0
 - 
   category: dev-libs
-  name: glib
-  
-  version: 2.2.2
-- 
-  category: x11-libs
-  name: pango
-  
-  version: 1.2.3
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: "5.3"
-- 
-  category: dev-libs
-  name: geoip
+  name: libpcre
   
   version: ""
 - 
@@ -42,6 +32,11 @@ requires:
   name: atk
   
   version: 1.2.4
+- 
+  category: dev-libs
+  name: libbsd
+  
+  version: ""
 - 
   category: media-libs
   name: freetype
@@ -52,6 +47,16 @@ requires:
   name: gdk-pixbuf
   
   version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: 2.2.2
+- 
+  category: x11-libs
+  name: pango
+  
+  version: 1.2.3
 - 
   category: dev-libs
   name: openssl
@@ -64,27 +69,22 @@ requires:
   version: ""
 - 
   category: net-libs
-  name: libpcap
-  
-  version: 0.8.1
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: 2.2.2
-- 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
+  name: libnet
   
   version: ""
 - 
   category: net-libs
-  name: libnet
+  name: libpcap
+  
+  version: 0.8.1
+- 
+  category: dev-libs
+  name: geoip
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
   
   version: ""
 use_flags:

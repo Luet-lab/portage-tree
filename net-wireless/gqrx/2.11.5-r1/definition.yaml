@@ -3,13 +3,28 @@ conflicts: []
 name: gqrx
 requires:
 - 
+  category: dev-libs
+  name: boost
+  
+  version: ""
+- 
   category: dev-qt
-  name: qtwidgets
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 
   category: media-sound
   name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  name: portaudio
   
   version: ""
 - 
@@ -23,16 +38,6 @@ requires:
   
   version: 0.1.0
 - 
-  category: dev-libs
-  name: boost
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
   category: dev-qt
   name: qtnetwork
   
@@ -43,13 +48,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: portaudio
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtcore
+  name: qtwidgets
   
   version: ""
 use_flags:

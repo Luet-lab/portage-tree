@@ -3,33 +3,18 @@ conflicts: []
 name: handbrake
 requires:
 - 
-  category: dev-libs
-  name: jansson
-  
-  version: ""
-- 
-  category: media-libs
-  name: libass
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-x264
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
   category: media-libs
   name: a52dec
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsamplerate
   
   version: ""
 - 
@@ -43,128 +28,23 @@ requires:
   
   version: "4.1"
 - 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
   category: media-plugins
   name: gst-plugins-libav
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
   category: media-libs
-  name: libsamplerate
+  name: libbluray
   
-  version: ""
-- 
-  category: media-libs
-  name: libvpx
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: media-libs
-  name: x264
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-bad
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-a52dec
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: media-libs
-  name: nv-codec-headers
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-ugly
-  
-  version: ""
-- 
-  category: media-libs
-  name: x265
-  
-  version: "2.9"
-- 
-  category: media-libs
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  name: libdvdread
-  
-  version: ""
-- 
-  category: media-libs
-  name: libtheora
-  
-  version: ""
-- 
-  category: media-libs
-  name: opus
-  
-  version: ""
+  version: "1.0"
 - 
   category: media-video
   name: libav
   
   version: "12.2"
 - 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libdvdnav
+  category: media-plugins
+  name: gst-plugins-x264
   
   version: ""
 - 
@@ -179,14 +59,134 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libbluray
+  name: libvorbis
   
-  version: "1.0"
+  version: ""
+- 
+  category: media-libs
+  name: libvpx
+  
+  version: ""
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-libs
+  name: speex
+  
+  version: ""
+- 
+  category: media-libs
+  name: opus
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-ugly
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-base
+  
+  version: ""
 - 
   category: x11-libs
   name: gtk+
   
   version: "3.10"
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  name: x265
+  
+  version: "2.9"
+- 
+  category: dev-libs
+  name: jansson
+  
+  version: ""
+- 
+  category: media-libs
+  name: libtheora
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-a52dec
+  
+  version: ""
+- 
+  category: media-libs
+  name: libass
+  
+  version: ""
+- 
+  category: media-libs
+  name: x264
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-bad
+  
+  version: ""
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgudev
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: ""
+- 
+  category: media-libs
+  name: libdvdnav
+  
+  version: ""
+- 
+  category: media-libs
+  name: libdvdread
+  
+  version: ""
+- 
+  category: media-libs
+  name: nv-codec-headers
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
 use_flags:
 - +fdk
 - gstreamer

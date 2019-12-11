@@ -3,6 +3,11 @@ conflicts: []
 name: qpdf
 requires:
 - 
+  category: net-libs
+  name: gnutls
+  
+  version: ""
+- 
   category: sys-libs
   name: zlib
   
@@ -17,11 +22,6 @@ requires:
   name: perl
   
   version: "5.8"
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
 use_flags:
 - doc
 - examples

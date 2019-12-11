@@ -3,28 +3,23 @@ conflicts: []
 name: mate-media
 requires:
 - 
-  category: mate-base
-  name: mate-panel
-  
-  version: 1.17.0
-- 
   category: media-libs
   name: libcanberra
   
   version: "0.13"
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: virtual
-  name: libintl
+  name: cairo
   
   version: ""
 - 
   category: x11-libs
   name: pango
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -39,6 +34,11 @@ requires:
   version: ""
 - 
   category: mate-base
+  name: mate-panel
+  
+  version: 1.17.0
+- 
+  category: mate-base
   name: mate-desktop
   
   version: 1.17.0
@@ -49,9 +49,9 @@ requires:
   version: 1.10.0
 - 
   category: x11-libs
-  name: cairo
+  name: gtk+
   
-  version: ""
+  version: "3.22"
 use_flags:
 - ""
 version: 1.22.1

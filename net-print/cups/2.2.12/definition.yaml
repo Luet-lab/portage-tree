@@ -8,13 +8,33 @@ conflicts:
 name: cups
 requires:
 - 
-  category: sys-apps
-  name: attr
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-cups
+  
+  version: ""
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: x11-misc
+  name: xdg-utils
   
   version: ""
 - 
@@ -23,13 +43,8 @@ requires:
   
   version: 0.6.31-r2
 - 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-apps
-  name: systemd
+  category: acct-group
+  name: lp
   
   version: ""
 - 
@@ -38,23 +53,23 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
   category: sys-apps
-  name: xinetd
+  name: attr
   
   version: ""
 - 
-  category: acct-group
-  name: lp
+  category: virtual
+  name: krb5
   
-  version: ""
+  version: 0-r1
 - 
   category: sys-libs
-  name: zlib
+  name: pam
+  
+  version: ""
+- 
+  category: app-text
+  name: libpaper
   
   version: ""
 - 
@@ -68,23 +83,8 @@ requires:
   
   version: 1.6.18-r1
 - 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
-  category: app-text
-  name: libpaper
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sec-policy
-  name: selinux-cups
+  category: sys-apps
+  name: xinetd
   
   version: ""
 use_flags:

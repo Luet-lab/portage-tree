@@ -8,23 +8,18 @@ conflicts:
 name: lxqt-config
 requires:
 - 
+  category: dev-libs
+  name: libqtxdg
+  
+  version: 3.3.1
+- 
   category: dev-qt
   name: qtdbus
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
+  name: libXcursor
   
   version: ""
 - 
@@ -33,28 +28,13 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: x11-drivers
+  name: xf86-input-libinput
   
   version: ""
 - 
-  category: lxqt-base
-  name: liblxqt
-  
-  version: ""
-- 
-  category: kde-plasma
-  name: libkscreen
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -68,18 +48,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXcursor
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 
-  category: dev-libs
-  name: libqtxdg
-  
-  version: 3.3.1
-- 
   category: dev-qt
-  name: qtgui
+  name: qtwidgets
   
   version: ""
 - 
@@ -98,13 +73,38 @@ requires:
   
   version: ""
 - 
-  category: x11-drivers
-  name: xf86-input-libinput
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: kde-plasma
+  name: libkscreen
   
   version: ""
 - 
   category: x11-libs
   name: libXext
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: lxqt-base
+  name: liblxqt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
   
   version: ""
 use_flags:

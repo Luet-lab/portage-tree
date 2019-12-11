@@ -8,8 +8,23 @@ conflicts:
 name: iproute2
 requires:
 - 
+  category: net-firewall
+  name: iptables
+  
+  version: 1.4.20
+- 
+  category: dev-libs
+  name: libbsd
+  
+  version: ""
+- 
   category: net-libs
   name: libmnl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -17,11 +32,6 @@ requires:
   name: libelf
   
   version: ""
-- 
-  category: net-firewall
-  name: iptables
-  
-  version: 1.4.20
 - 
   category: sys-libs
   name: db
@@ -35,16 +45,6 @@ requires:
 - 
   category: sys-libs
   name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
   
   version: ""
 use_flags:

@@ -3,13 +3,18 @@ conflicts: []
 name: git
 requires:
 - 
-  category: virtual
-  name: libiconv
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
@@ -18,13 +23,28 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-perl
+  name: MediaWiki-API
   
   version: ""
 - 
@@ -43,48 +63,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
   category: net-misc
   name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
   
   version: ""
 - 
@@ -93,18 +73,8 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
+  category: app-text
+  name: highlight
   
   version: ""
 - 
@@ -113,8 +83,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -128,13 +98,43 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 use_flags:

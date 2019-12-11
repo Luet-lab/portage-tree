@@ -3,25 +3,15 @@ conflicts: []
 name: fcitx-libpinyin
 requires:
 - 
-  category: dev-libs
-  name: glib
+  category: virtual
+  name: libintl
   
   version: ""
 - 
-  category: dev-qt
-  name: qtcore
+  category: app-i18n
+  name: fcitx-qt5
   
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: "5.7"
+  version: "1.1"
 - 
   category: dev-qt
   name: qtgui
@@ -34,7 +24,7 @@ requires:
   version: "5.7"
 - 
   category: dev-qt
-  name: qtwebengine
+  name: qtwidgets
   
   version: "5.7"
 - 
@@ -53,15 +43,25 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libintl
+  category: dev-qt
+  name: qtwebengine
+  
+  version: "5.7"
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: app-i18n
-  name: fcitx-qt5
+  category: dev-qt
+  name: qtcore
   
-  version: "1.1"
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: "5.7"
 use_flags:
 - dictionary-manager
 version: 0.5.3

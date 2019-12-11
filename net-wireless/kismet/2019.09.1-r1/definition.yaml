@@ -3,13 +3,28 @@ conflicts: []
 name: kismet
 requires:
 - 
-  category: net-misc
-  name: networkmanager
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: virtual
-  name: libusb
+  category: dev-libs
+  name: elfutils
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
   
   version: ""
 - 
@@ -19,32 +34,17 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  name: protobuf-c
-  
-  version: ""
-- 
-  category: dev-python
-  name: pyserial
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-kismet
-  
-  version: ""
-- 
-  category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: net-libs
-  name: libpcap
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: dev-python
+  name: protobuf-python
   
   version: ""
 - 
@@ -63,33 +63,33 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  name: networkmanager
+  
+  version: ""
+- 
+  category: net-libs
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf-c
+  
+  version: ""
+- 
   category: dev-libs
   name: protobuf
   
   version: ""
 - 
   category: dev-python
-  name: protobuf-python
+  name: pyserial
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: elfutils
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: net-libs
-  name: libmicrohttpd
+  category: sec-policy
+  name: selinux-kismet
   
   version: ""
 use_flags:

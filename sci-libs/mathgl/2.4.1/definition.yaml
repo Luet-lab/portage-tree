@@ -3,18 +3,13 @@ conflicts: []
 name: mathgl
 requires:
 - 
-  category: x11-libs
-  name: fltk
-  
-  version: ""
-- 
   category: dev-python
   name: numpy
   
   version: ""
 - 
   category: dev-qt
-  name: qtgui
+  name: qtcore
   
   version: ""
 - 
@@ -28,8 +23,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freeglut
+  category: sci-libs
+  name: gsl
+  
+  version: "2"
+- 
+  category: sci-libs
+  name: hdf5-1.8[mpi=]
   
   version: ""
 - 
@@ -43,31 +43,6 @@ requires:
   
   version: 3.4.0
 - 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: sci-libs
-  name: hdf
-  
-  version: ""
-- 
-  category: sci-libs
-  name: hdf5-1.8[mpi=]
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
   category: sys-cluster
   name: openmpi
   
@@ -78,18 +53,28 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
   category: media-libs
   name: giflib
   
   version: ""
 - 
   category: sci-libs
-  name: gsl
+  name: hdf
   
-  version: "2"
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
 - 
   category: dev-qt
-  name: qtcore
+  name: qtwidgets
   
   version: ""
 - 
@@ -100,6 +85,21 @@ requires:
 - 
   category: x11-libs
   name: wxGTK
+  
+  version: ""
+- 
+  category: x11-libs
+  name: fltk
+  
+  version: ""
+- 
+  category: media-libs
+  name: freeglut
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
   
   version: ""
 use_flags:

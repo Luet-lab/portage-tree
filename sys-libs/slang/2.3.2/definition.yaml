@@ -3,6 +3,16 @@ conflicts: []
 name: slang
 requires:
 - 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-libs
+  name: oniguruma
+  
+  version: 5.9.5
+- 
   category: dev-libs
   name: libpcre
   
@@ -22,16 +32,6 @@ requires:
   name: zlib
   
   version: 1.2.8-r1
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
-  name: oniguruma
-  
-  version: 5.9.5
 use_flags:
 - cjk
 - pcre

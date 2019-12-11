@@ -3,11 +3,6 @@ conflicts: []
 name: pambase
 requires:
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: sys-libs
   name: libcap
   
@@ -18,8 +13,13 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  name: pam_passwdqc
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
@@ -48,8 +48,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: sys-auth
+  name: pam_passwdqc
   
   version: ""
 use_flags:

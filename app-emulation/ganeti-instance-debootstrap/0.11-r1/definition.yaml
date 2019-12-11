@@ -3,6 +3,21 @@ conflicts: []
 name: ganeti-instance-debootstrap
 requires:
 - 
+  category: app-arch
+  name: dump
+  
+  version: ""
+- 
+  category: app-emulation
+  name: ganeti
+  
+  version: ""
+- 
+  category: dev-util
+  name: debootstrap
+  
+  version: ""
+- 
   category: sys-apps
   name: coreutils
   
@@ -20,21 +35,6 @@ requires:
 - 
   category: app-arch
   name: dpkg
-  
-  version: ""
-- 
-  category: app-arch
-  name: dump
-  
-  version: ""
-- 
-  category: app-emulation
-  name: ganeti
-  
-  version: ""
-- 
-  category: dev-util
-  name: debootstrap
   
   version: ""
 use_flags:

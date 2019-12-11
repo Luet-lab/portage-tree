@@ -3,25 +3,20 @@ conflicts: []
 name: zathura
 requires:
 - 
-  category: sys-apps
-  name: file
+  category: x11-libs
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-libs
-  name: libseccomp
-  
-  version: ""
+  version: "3.22"
 - 
   category: dev-db
   name: sqlite
   
   version: 3.5.9
 - 
-  category: app-text
-  name: texlive-core
+  category: dev-libs
+  name: girara
   
-  version: ""
+  version: 0.3.2
 - 
   category: dev-libs
   name: glib
@@ -34,17 +29,22 @@ requires:
   version: 0.19.8
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: dev-libs
-  name: girara
-  
-  version: 0.3.2
-- 
-  category: x11-libs
   name: cairo[X]
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libseccomp
+  
+  version: ""
+- 
+  category: app-text
+  name: texlive-core
   
   version: ""
 use_flags:

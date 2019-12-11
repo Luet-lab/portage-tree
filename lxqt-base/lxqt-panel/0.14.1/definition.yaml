@@ -8,38 +8,8 @@ conflicts:
 name: lxqt-panel
 requires:
 - 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libdbusmenu-qt[qt5(+)]
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtx11extras
+  name: qtxml
   
   version: ""
 - 
@@ -54,22 +24,17 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: x11-libs
   name: libxkbcommon
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libqtxdg
-  
-  version: 3.3.1
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
   
   version: ""
 - 
@@ -77,6 +42,31 @@ requires:
   name: solid
   
   version: ""
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libqtxdg
+  
+  version: 3.3.1
 - 
   category: sys-apps
   name: lm-sensors
@@ -88,35 +78,25 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: libXdamage
+  
+  version: ""
+- 
   category: media-libs
   name: alsa-lib
   
   version: ""
 - 
-  category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: lxde-base
-  name: lxmenu-data
-  
-  version: 0.1.5
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtxml
-  
-  version: ""
-- 
   category: lxqt-base
-  name: libsysstat
+  name: lxqt-globalkeys
   
-  version: 0.4.1
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
 - 
   category: media-sound
   name: pavucontrol-qt
@@ -128,23 +108,43 @@ requires:
   
   version: ""
 - 
-  category: lxqt-base
-  name: lxqt-globalkeys
+  category: dev-libs
+  name: libdbusmenu-qt[qt5(+)]
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libstatgrab
+  category: dev-qt
+  name: qtwidgets
   
   version: ""
 - 
   category: media-sound
   name: pulseaudio
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util
+  
+  version: ""
+- 
+  category: lxde-base
+  name: lxmenu-data
+  
+  version: 0.1.5
+- 
+  category: lxqt-base
+  name: libsysstat
+  
+  version: 0.4.1
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
   
   version: ""
 use_flags:

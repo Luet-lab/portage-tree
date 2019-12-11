@@ -3,8 +3,23 @@ conflicts: []
 name: openttd
 requires:
 - 
+  category: dev-libs
+  name: icu-layoutex
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu-le-hb
+  
+  version: ""
+- 
   category: media-libs
-  name: libpng
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -28,18 +43,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu-layoutex
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu-le-hb
+  category: media-libs
+  name: libpng
   
   version: ""
 - 
@@ -47,11 +52,6 @@ requires:
   name: icu
   
   version: "58.1"
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
 use_flags:
 - aplaymidi
 - debug

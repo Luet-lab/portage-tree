@@ -9,34 +9,9 @@ name: policycoreutils
 requires:
 - 
   category: sys-libs
-  name: libselinux
-  
-  version: "3.0"
-- 
-  category: sys-libs
-  name: libcap-ng
-  
-  version: ""
-- 
-  category: dev-python
-  name: ipy
-  
-  version: ""
-- 
-  category: app-misc
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-libs
   name: libcap
   
   version: 1.10-r10
-- 
-  category: sys-libs
-  name: libsemanage
-  
-  version: "3.0"
 - 
   category: dev-libs
   name: dbus-glib
@@ -49,17 +24,22 @@ requires:
   version: 1.5.1
 - 
   category: sys-libs
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: sys-libs
   name: libsepol
   
   version: "3.0"
 - 
-  category: app-admin
-  name: setools
-  
-  version: 4.2.0
-- 
   category: sys-devel
   name: gettext
+  
+  version: ""
+- 
+  category: dev-python
+  name: ipy
   
   version: ""
 - 
@@ -67,6 +47,26 @@ requires:
   name: pam
   
   version: ""
+- 
+  category: app-misc
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libsemanage
+  
+  version: "3.0"
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: "3.0"
+- 
+  category: app-admin
+  name: setools
+  
+  version: 4.2.0
 - 
   category: sys-apps
   name: dbus

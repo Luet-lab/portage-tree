@@ -4,7 +4,17 @@ name: visp_tracker
 requires:
 - 
   category: dev-ros
-  name: dynamic_reconfigure
+  name: nodelet
+  
+  version: ""
+- 
+  category: dev-ros
+  name: resource_retriever
+  
+  version: ""
+- 
+  category: dev-python
+  name: numpy
   
   version: ""
 - 
@@ -13,8 +23,8 @@ requires:
   
   version: ""
 - 
-  category: dev-ros
-  name: image_transport
+  category: sci-libs
+  name: ViSP
   
   version: ""
 - 
@@ -24,32 +34,12 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: resource_retriever
+  name: geometry_msgs
   
   version: ""
 - 
   category: dev-ros
-  name: sensor_msgs
-  
-  version: ""
-- 
-  category: dev-ros
-  name: nodelet
-  
-  version: ""
-- 
-  category: dev-ros
-  name: roscpp
-  
-  version: ""
-- 
-  category: dev-python
-  name: numpy
-  
-  version: ""
-- 
-  category: sci-libs
-  name: ViSP
+  name: tf
   
   version: ""
 - 
@@ -64,12 +54,22 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: geometry_msgs
+  name: image_transport
   
   version: ""
 - 
   category: dev-ros
-  name: tf
+  name: roscpp
+  
+  version: ""
+- 
+  category: dev-ros
+  name: sensor_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  name: dynamic_reconfigure
   
   version: ""
 use_flags:

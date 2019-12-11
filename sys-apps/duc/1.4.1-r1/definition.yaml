@@ -3,13 +3,13 @@ conflicts: []
 name: duc
 requires:
 - 
-  category: x11-libs
-  name: libX11
+  category: dev-db
+  name: sqlite
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: dev-db
+  name: tokyocabinet
   
   version: ""
 - 
@@ -20,11 +20,6 @@ requires:
 - 
   category: x11-libs
   name: cairo[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango[X]
   
   version: ""
 - 
@@ -43,13 +38,18 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
-  category: dev-db
-  name: tokyocabinet
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango[X]
   
   version: ""
 use_flags:

@@ -8,8 +8,43 @@ conflicts:
 name: graphicsmagick
 requires:
 - 
-  category: x11-libs
-  name: libSM
+  category: app-text
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: media-libs
+  name: libwmf
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: media-libs
+  name: jbigkit
+  
+  version: ""
+- 
+  category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
+  name: tiff
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: "2"
+- 
+  category: media-libs
+  name: libwebp
   
   version: ""
 - 
@@ -18,8 +53,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: ghostscript-gpl
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
   
   version: ""
 - 
@@ -29,7 +69,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: lcms
+  name: libfpx
   
   version: ""
 - 
@@ -38,8 +78,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: tiff
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -52,56 +102,6 @@ requires:
   name: libXext
   
   version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libfpx
-  
-  version: ""
-- 
-  category: media-libs
-  name: jbigkit
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  name: libwmf
-  
-  version: ""
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: "2"
 use_flags:
 - bzip2
 - cxx

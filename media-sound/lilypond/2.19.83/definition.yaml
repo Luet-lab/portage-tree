@@ -3,6 +3,16 @@ conflicts: []
 name: lilypond
 requires:
 - 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-text
+  name: ghostscript-gpl
+  
+  version: "8.15"
+- 
   category: dev-scheme
   name: guile
   
@@ -10,6 +20,11 @@ requires:
 - 
   category: media-fonts
   name: tex-gyre
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
@@ -23,11 +38,6 @@ requires:
   
   version: 1.12.3
 - 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
   category: dev-scheme
   name: guile
   
@@ -37,16 +47,6 @@ requires:
   name: guile
   
   version: "2.0"
-- 
-  category: app-text
-  name: ghostscript-gpl
-  
-  version: "8.15"
-- 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
 use_flags:
 - debug
 - emacs

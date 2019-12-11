@@ -4,12 +4,17 @@ name: xournal
 requires:
 - 
   category: media-libs
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
   category: x11-libs
-  name: gtk+
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
   
   version: ""
 - 
@@ -24,7 +29,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: atk
+  name: glib
   
   version: ""
 - 
@@ -33,8 +38,18 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: dev-libs
+  name: atk
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -44,22 +59,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  name: gtk+
   
   version: ""
 use_flags:

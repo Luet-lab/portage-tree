@@ -1,6 +1,11 @@
 category: net-fs
 conflicts:
 - 
+  category: <sys-apps
+  name: openrc
+  
+  version: 0.13.9
+- 
   category: net-libs
   name: libnfsidmap
   
@@ -10,16 +15,11 @@ conflicts:
   name: portmap
   
   version: ""
-- 
-  category: <sys-apps
-  name: openrc
-  
-  version: 0.13.9
 name: nfs-utils
 requires:
 - 
-  category: sys-apps
-  name: util-linux
+  category: sys-libs
+  name: e2fsprogs-libs
   
   version: ""
 - 
@@ -28,8 +28,13 @@ requires:
   
   version: 1.5.9
 - 
-  category: sys-fs
-  name: lvm2
+  category: net-libs
+  name: libtirpc
+  
+  version: 0.2.4-r1
+- 
+  category: app-crypt
+  name: mit-krb5
   
   version: ""
 - 
@@ -38,23 +43,13 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
-  
-  version: "3.3"
-- 
   category: dev-libs
-  name: libevent
+  name: libxml2
   
   version: ""
 - 
   category: net-libs
   name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: dev-libs
-  name: libxml2
   
   version: ""
 - 
@@ -63,28 +58,8 @@ requires:
   
   version: 0.2.4
 - 
-  category: sys-libs
-  name: e2fsprogs-libs
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: app-crypt
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-rpc
-  
-  version: ""
-- 
-  category: net-libs
-  name: libtirpc
+  category: sys-fs
+  name: lvm2
   
   version: ""
 - 
@@ -95,6 +70,31 @@ requires:
 - 
   category: net-nds
   name: openldap
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-rpc
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: "3.3"
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libevent
   
   version: ""
 use_flags:

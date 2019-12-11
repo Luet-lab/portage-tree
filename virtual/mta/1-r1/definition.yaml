@@ -3,18 +3,8 @@ conflicts: []
 name: mta
 requires:
 - 
-  category: mail-mta
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  name: msmtp
+  category: "|| (\tmail-mta"
+mailer
   
   version: ""
 - 
@@ -29,11 +19,6 @@ requires:
   version: ""
 - 
   category: mail-mta
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
   name: netqmail
   
   version: ""
@@ -44,12 +29,27 @@ requires:
   version: ""
 - 
   category: mail-mta
-  name: opensmtpd )
+  name: sendmail
   
   version: ""
 - 
-  category: "|| (\tmail-mta"
-mailer
+  category: mail-mta
+  name: msmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  name: opensmtpd )
   
   version: ""
 version: 1-r1

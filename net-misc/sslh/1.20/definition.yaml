@@ -3,16 +3,6 @@ conflicts: []
 name: sslh
 requires:
 - 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: sys-apps
   name: tcp-wrappers
   
@@ -22,6 +12,16 @@ requires:
   name: libconfig
   
   version: "1.5"
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
 use_flags:
 - caps
 - pcre

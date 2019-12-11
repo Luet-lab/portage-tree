@@ -3,28 +3,33 @@ conflicts: []
 name: xfce4-xkb-plugin
 requires:
 - 
+  category: gnome-base
+  name: librsvg
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: xfce-base
+  name: garcon
+  
+  version: ""
+- 
   category: xfce-base
   name: libxfce4ui
   
   version: "4.12"
 - 
   category: xfce-base
-  name: xfconf
+  name: libxfce4util
   
-  version: 4.12.1
+  version: "4.12"
 - 
   category: x11-apps
   name: setxkbmap
-  
-  version: ""
-- 
-  category: xfce-base
-  name: xfce4-settings
-  
-  version: "4.11"
-- 
-  category: gnome-base
-  name: librsvg
   
   version: ""
 - 
@@ -38,30 +43,25 @@ requires:
   
   version: ""
 - 
-  category: xfce-base
-  name: libxfce4util
-  
-  version: "4.12"
-- 
-  category: xfce-base
-  name: xfce4-panel
-  
-  version: "4.12"
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
   category: x11-libs
   name: libxklavier
   
   version: "5.4"
 - 
   category: xfce-base
-  name: garcon
+  name: xfce4-panel
   
-  version: ""
+  version: "4.12"
+- 
+  category: xfce-base
+  name: xfconf
+  
+  version: 4.12.1
+- 
+  category: xfce-base
+  name: xfce4-settings
+  
+  version: "4.11"
 use_flags:
 - ""
 version: 0.8.1

@@ -8,38 +8,38 @@ conflicts:
 name: dovecot
 requires:
 - 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
   category: dev-libs
-  name: libsodium
+  name: openssl
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-dovecot
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
   category: sys-libs
-  name: pam
+  name: libcap
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: dev-cpp
+  name: clucene
   
-  version: ""
+  version: "2.3"
 - 
-  category: dev-libs
-  name: libressl
+  category: app-arch
+  name: lz4
   
   version: ""
 - 
@@ -53,23 +53,38 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: xz-utils
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
   category: dev-db
-  name: mysql-connector-c
+  name: sqlite
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
   
   version: ""
 - 
@@ -83,18 +98,8 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
-- 
-  category: acct-group
-  name: mail
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -108,28 +113,23 @@ requires:
   
   version: ""
 - 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
   category: app-arch
   name: bzip2
   
   version: ""
 - 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  category: virtual
+  name: krb5
   
   version: ""
 use_flags:

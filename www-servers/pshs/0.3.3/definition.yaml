@@ -3,6 +3,16 @@ conflicts: []
 name: pshs
 requires:
 - 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: media-gfx
+  name: qrencode
+  
+  version: ""
+- 
   category: dev-libs
   name: libevent
   
@@ -27,16 +37,6 @@ requires:
   name: libevent
   
   version: "2"
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: media-gfx
-  name: qrencode
-  
-  version: ""
 use_flags:
 - libressl
 - +magic

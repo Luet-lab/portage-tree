@@ -2,32 +2,7 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
-  name: libmlx4
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: infiniband-diags
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibumad
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libcxgb3
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibmad
+  name: libnes
   
   version: ""
 - 
@@ -37,12 +12,12 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libnes
+  name: libcxgb4
   
   version: ""
 - 
   category: sys-fabric
-  name: libcxgb4
+  name: libibumad
   
   version: ""
 - 
@@ -53,6 +28,21 @@ conflicts:
 - 
   category: sys-fabric
   name: libibverbs
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibmad
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libcxgb3
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: librdmacm
   
   version: ""
 - 
@@ -72,16 +62,21 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
+  name: libmlx4
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: infiniband-diags
+  
+  version: ""
+- 
+  category: sys-fabric
   name: libmlx5
   
   version: ""
 name: rdma-core
 requires:
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
 - 
   category: dev-libs
   name: libnl
@@ -90,6 +85,11 @@ requires:
 - 
   category: sys-apps
   name: systemd
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
   
   version: ""
 - 

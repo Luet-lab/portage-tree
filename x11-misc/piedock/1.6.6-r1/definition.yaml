@@ -4,7 +4,12 @@ name: piedock
 requires:
 - 
   category: x11-libs
-  name: libXft
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXmu
   
   version: ""
 - 
@@ -13,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gdk-pixbuf
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -29,12 +34,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
+  name: libXft
   
   version: ""
 - 
@@ -43,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: x11-libs
+  name: gdk-pixbuf
   
   version: ""
 use_flags:

@@ -8,6 +8,11 @@ conflicts:
 name: iproute2
 requires:
 - 
+  category: virtual
+  name: libelf
+  
+  version: ""
+- 
   category: net-firewall
   name: iptables
   
@@ -18,8 +23,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libselinux
+  category: net-dialup
+  name: linux-atm
   
   version: ""
 - 
@@ -38,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libelf
-  
-  version: ""
-- 
-  category: net-dialup
-  name: linux-atm
+  category: sys-libs
+  name: libselinux
   
   version: ""
 use_flags:

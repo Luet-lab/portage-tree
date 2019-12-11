@@ -3,6 +3,16 @@ conflicts: []
 name: xpad
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.38"
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
   category: x11-libs
   name: libSM
   
@@ -17,16 +27,6 @@ requires:
   name: gtk+
   
   version: "2.12"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.38"
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
 use_flags:
 - ""
 version: "4.2"

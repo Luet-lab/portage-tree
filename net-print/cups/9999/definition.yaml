@@ -8,15 +8,30 @@ conflicts:
 name: cups
 requires:
 - 
-  category: net-libs
-  name: gnutls
+  category: sys-apps
+  name: attr
   
-  version: 2.12.23-r6
+  version: ""
 - 
-  category: net-dns
-  name: avahi
+  category: sys-apps
+  name: dbus
   
-  version: 0.6.31-r2
+  version: 1.6.18-r1
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
+  
+  version: ""
+- 
+  category: acct-group
+  name: lp
+  
+  version: ""
 - 
   category: app-text
   name: libpaper
@@ -29,27 +44,7 @@ requires:
   version: ""
 - 
   category: sys-apps
-  name: attr
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: acct-group
-  name: lp
+  name: acl
   
   version: ""
 - 
@@ -58,13 +53,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: acl
+  category: net-libs
+  name: gnutls
   
-  version: ""
+  version: 2.12.23-r6
 - 
-  category: sys-libs
-  name: pam
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -73,15 +68,20 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: krb5
+  
+  version: 0-r1
+- 
   category: x11-misc
   name: xdg-utils
   
   version: ""
 - 
-  category: sys-apps
-  name: xinetd
+  category: net-dns
+  name: avahi
   
-  version: ""
+  version: 0.6.31-r2
 use_flags:
 - acl
 - dbus

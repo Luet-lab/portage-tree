@@ -3,18 +3,23 @@ conflicts: []
 name: wlroots
 requires:
 - 
-  category: sys-auth
-  name: elogind
+  category: dev-libs
+  name: wayland
   
-  version: "237"
+  version: 1.17.0
 - 
   category: x11-libs
-  name: xcb-util-wm
+  name: libxcb
   
   version: ""
 - 
-  category: net-misc
-  name: freerdp
+  category: x11-base
+  name: xorg-server
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util-image
   
   version: ""
 - 
@@ -29,6 +34,21 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: xcb-util-wm
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "237"
+- 
+  category: x11-libs
   name: libdrm
   
   version: ""
@@ -38,23 +58,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: pixman
+  category: sys-auth
+  name: elogind
   
-  version: ""
+  version: "237"
 - 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util-image
+  category: net-misc
+  name: freerdp
   
   version: ""
 - 
@@ -63,18 +73,8 @@ requires:
   
   version: 1.9.0
 - 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "237"
-- 
-  category: x11-libs
-  name: libxcb
+  category: virtual
+  name: libudev
   
   version: ""
 use_flags:

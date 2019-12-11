@@ -3,26 +3,6 @@ conflicts: []
 name: qtwayland
 requires:
 - 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: 0.2.0
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.6.0
-- 
   category: dev-qt
   name: qtcore
   
@@ -42,6 +22,26 @@ requires:
   name: mesa
   
   version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: 0.2.0
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.6.0
 use_flags:
 - +libinput
 - xcomposite

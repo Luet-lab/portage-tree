@@ -13,38 +13,13 @@ conflicts:
 name: policycoreutils
 requires:
 - 
-  category: app-admin
-  name: setools
-  
-  version: 4.2.0
-- 
   category: sys-libs
-  name: libsemanage
+  name: libcap
   
-  version: "2.9"
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: "2.9"
+  version: 1.10-r10
 - 
   category: sys-libs
   name: libcap-ng
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
   
   version: ""
 - 
@@ -54,22 +29,27 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: libcap
-  
-  version: 1.10-r10
-- 
-  category: sys-libs
   name: libsepol
   
   version: "2.9"
 - 
-  category: dev-python
-  name: ipy
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: sys-libs
+  name: libselinux
+  
+  version: "2.9"
+- 
+  category: app-admin
+  name: setools
+  
+  version: 4.2.0
+- 
+  category: dev-python
+  name: ipy
   
   version: ""
 - 
@@ -77,6 +57,26 @@ requires:
   name: audit
   
   version: 1.5.1
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libsemanage
+  
+  version: "2.9"
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: ""
 use_flags:
 - audit
 - pam

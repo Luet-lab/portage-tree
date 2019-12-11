@@ -8,16 +8,6 @@ conflicts:
 name: gitolite-gentoo
 requires:
 - 
-  category: virtual
-  name: perl-File-Temp
-  
-  version: ""
-- 
-  category: dev-perl
-  name: JSON
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
   
@@ -33,6 +23,16 @@ requires:
   
   version: 1.6.6
 - 
+  category: dev-perl
+  name: Net-SSH-AuthorizedKeysFile
+  
+  version: "0.17"
+- 
+  category: virtual
+  name: perl-File-Temp
+  
+  version: ""
+- 
   category: app-vim
   name: gitolite-syntax
   
@@ -44,9 +44,9 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Net-SSH-AuthorizedKeysFile
+  name: JSON
   
-  version: "0.17"
+  version: ""
 use_flags:
 - selinux
 - tools

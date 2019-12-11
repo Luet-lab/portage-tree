@@ -4,24 +4,19 @@ name: buildbot
 requires:
 - 
   category: dev-python
-  name: autobahn
+  name: sqlalchemy-migrate
   
-  version: 0.16.0
+  version: "0.9"
+- 
+  category: dev-python
+  name: future
+  
+  version: ""
 - 
   category: dev-python
   name: txaio
   
   version: 2.2.2
-- 
-  category: dev-python
-  name: zope-interface
-  
-  version: 4.1.1
-- 
-  category: dev-python
-  name: idna
-  
-  version: ""
 - 
   category: dev-python
   name: jinja
@@ -34,39 +29,14 @@ requires:
   version: 17.9.0
 - 
   category: dev-python
-  name: sqlalchemy-migrate
+  name: python-dateutil
   
-  version: "0.9"
-- 
-  category: dev-python
-  name: sqlalchemy
-  
-  version: "0.8"
+  version: "1.5"
 - 
   category: dev-python
   name: pyjwt
   
   version: ""
-- 
-  category: dev-util
-  name: buildbot-worker
-  
-  version: 1.3.0
-- 
-  category: dev-python
-  name: pyopenssl
-  
-  version: 16.0.0
-- 
-  category: dev-python
-  name: future
-  
-  version: ""
-- 
-  category: dev-python
-  name: python-dateutil
-  
-  version: "1.5"
 - 
   category: dev-python
   name: service_identity
@@ -74,14 +44,44 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: txrequests
+  name: zope-interface
   
-  version: ""
+  version: 4.1.1
+- 
+  category: dev-util
+  name: buildbot-worker
+  
+  version: 1.3.0
 - 
   category: dev-python
   name: docker-py
   
   version: 2.2.0
+- 
+  category: dev-python
+  name: autobahn
+  
+  version: 0.16.0
+- 
+  category: dev-python
+  name: sqlalchemy
+  
+  version: "0.8"
+- 
+  category: dev-python
+  name: pyopenssl
+  
+  version: 16.0.0
+- 
+  category: dev-python
+  name: idna
+  
+  version: ""
+- 
+  category: dev-python
+  name: txrequests
+  
+  version: ""
 use_flags:
 - crypt
 - doc

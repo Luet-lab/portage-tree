@@ -3,6 +3,11 @@ conflicts: []
 name: libva-intel-media-driver
 requires:
 - 
+  category: x11-libs
+  name: libpciaccess
+  
+  version: 0.13.1-r1
+- 
   category: media-libs
   name: gmmlib
   
@@ -12,11 +17,6 @@ requires:
   name: libva
   
   version: 2.4.0
-- 
-  category: x11-libs
-  name: libpciaccess
-  
-  version: 0.13.1-r1
 use_flags:
 - ""
 version: 18.4.1

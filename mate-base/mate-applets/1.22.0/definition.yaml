@@ -9,29 +9,54 @@ name: mate-applets
 requires:
 - 
   category: dev-libs
-  name: libmateweather
+  name: atk
   
-  version: 1.17.0
+  version: ""
 - 
-  category: gnome-extra
-  name: gucharmap
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libwnck
   
   version: "3.0"
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.74"
-- 
-  category: dev-python
-  name: pygobject
+  name: pango
   
   version: ""
+- 
+  category: sys-auth
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: sys-power
+  name: upower
+  
+  version: 0.9.23
+- 
+  category: x11-libs
+  name: gtksourceview
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: "2.5"
 - 
   category: mate-base
   name: mate-panel
@@ -49,44 +74,9 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libnotify
+  name: gtk+
   
-  version: "0.7"
-- 
-  category: sys-power
-  name: upower
-  
-  version: 0.9.23
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: "2.5"
-- 
-  category: net-wireless
-  name: wireless-tools
-  
-  version: 28_pre9
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
+  version: "3.22"
 - 
   category: virtual
   name: libintl
@@ -99,7 +89,22 @@ requires:
   version: "1.6"
 - 
   category: dev-libs
-  name: atk
+  name: dbus-glib
+  
+  version: "0.74"
+- 
+  category: net-wireless
+  name: wireless-tools
+  
+  version: 28_pre9
+- 
+  category: dev-libs
+  name: libmateweather
+  
+  version: 1.17.0
+- 
+  category: dev-python
+  name: pygobject
   
   version: ""
 - 
@@ -108,20 +113,15 @@ requires:
   
   version: 2.12.0
 - 
-  category: x11-libs
-  name: libwnck
+  category: gnome-extra
+  name: gucharmap
   
   version: "3.0"
 - 
   category: x11-libs
-  name: pango
+  name: libnotify
   
-  version: ""
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
+  version: "0.7"
 use_flags:
 - X
 - ipv6

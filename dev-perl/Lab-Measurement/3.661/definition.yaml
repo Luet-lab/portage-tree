@@ -4,79 +4,14 @@ name: Lab-Measurement
 requires:
 - 
   category: virtual
-  name: perl-Math-Complex
+  name: perl-Time-HiRes
   
   version: ""
 - 
-  category: virtual
-  name: perl-parent
+  category: sci-visualization
+  name: gnuplot
   
   version: ""
-- 
-  category: dev-perl
-  name: USB-TMC
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-Data-Dumper
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Exception-Class
-  
-  version: 1.0.0
-- 
-  category: dev-perl
-  name: Time-Monotonic
-  
-  version: ""
-- 
-  category: dev-perl
-  name: YAML-LibYAML
-  
-  version: 0.410.0
-- 
-  category: virtual
-  name: perl-Carp
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Hook-LexWrap
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-File-Spec
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-Module-Load
-  
-  version: 0.260.0
-- 
-  category: virtual
-  name: perl-Thread-Semaphore
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Try-Tiny
-  
-  version: 0.220.0
-- 
-  category: dev-perl
-  name: namespace-autoclean
-  
-  version: 0.200.0
 - 
   category: dev-perl
   name: Class-Method-Modifiers
@@ -89,12 +24,27 @@ requires:
   version: 0.310.0
 - 
   category: virtual
-  name: perl-Time-Piece
+  name: perl-Exporter
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-IO
   
   version: ""
 - 
   category: dev-perl
-  name: Lab-VXI11
+  name: TermReadKey
+  
+  version: 2.300.0
+- 
+  category: dev-perl
+  name: Try-Tiny
+  
+  version: 0.220.0
+- 
+  category: virtual
+  name: perl-autodie
   
   version: ""
 - 
@@ -109,19 +59,9 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: List-MoreUtils
+  name: MooseX-Params-Validate
   
-  version: ""
-- 
-  category: virtual
-  name: perl-Scalar-List-Utils
-  
-  version: ""
-- 
-  category: dev-perl
-  name: PDL-Graphics-Gnuplot
-  
-  version: ""
+  version: 0.180.0
 - 
   category: dev-perl
   name: Role-Tiny
@@ -133,38 +73,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: perl-Storable
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-Exporter
+  category: dev-perl
+  name: Hook-LexWrap
   
   version: ""
 - 
   category: dev-perl
-  name: Moose
+  name: IO-Socket-Timeout
   
-  version: 2.121.300
+  version: 0.320.0
 - 
   category: dev-perl
-  name: TermReadKey
-  
-  version: 2.300.0
-- 
-  category: virtual
-  name: perl-Time-HiRes
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-autodie
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Class-ISA
+  name: MooseX-StrictConstructor
   
   version: ""
 - 
@@ -173,13 +93,53 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: MooseX-Params-Validate
+  category: virtual
+  name: perl-parent
   
-  version: 0.180.0
+  version: ""
 - 
   category: dev-perl
-  name: MooseX-StrictConstructor
+  name: USB-TMC
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Class-ISA
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-File-Spec
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Math-Complex
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Storable
+  
+  version: ""
+- 
+  category: dev-perl
+  name: YAML-LibYAML
+  
+  version: 0.410.0
+- 
+  category: dev-perl
+  name: Exception-Class
+  
+  version: 1.0.0
+- 
+  category: virtual
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: dev-perl
+  name: List-MoreUtils
   
   version: ""
 - 
@@ -188,20 +148,60 @@ requires:
   
   version: 2.7.0
 - 
-  category: sci-visualization
-  name: gnuplot
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-IO
+  category: dev-perl
+  name: Time-Monotonic
   
   version: ""
 - 
   category: dev-perl
-  name: IO-Socket-Timeout
+  name: Lab-VXI11
   
-  version: 0.320.0
+  version: ""
+- 
+  category: virtual
+  name: perl-Time-Piece
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Data-Dumper
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Scalar-List-Utils
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Module-Load
+  
+  version: 0.260.0
+- 
+  category: dev-perl
+  name: Moose
+  
+  version: 2.121.300
+- 
+  category: dev-perl
+  name: PDL-Graphics-Gnuplot
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Carp
+  
+  version: ""
+- 
+  category: virtual
+  name: perl-Thread-Semaphore
+  
+  version: ""
+- 
+  category: dev-perl
+  name: namespace-autoclean
+  
+  version: 0.200.0
 use_flags:
 - test
 version: "3.661"

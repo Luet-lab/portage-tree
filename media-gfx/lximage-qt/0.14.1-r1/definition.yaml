@@ -8,11 +8,6 @@ conflicts:
 name: lximage-qt
 requires:
 - 
-  category: media-libs
-  name: libexif
-  
-  version: ""
-- 
   category: dev-qt
   name: qtcore
   
@@ -23,8 +18,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
   category: dev-qt
-  name: qtx11extras
+  name: qtprintsupport
   
   version: ""
 - 
@@ -34,22 +34,17 @@ requires:
   version: 0.12.0
 - 
   category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtprintsupport
-  
-  version: ""
-- 
-  category: dev-qt
   name: qtsvg
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: media-libs
+  name: libexif
   
   version: ""
 - 
@@ -59,12 +54,17 @@ requires:
   version: ""
 - 
   category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
   name: qtnetwork
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 

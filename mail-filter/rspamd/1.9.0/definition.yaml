@@ -3,43 +3,13 @@ conflicts: []
 name: rspamd
 requires:
 - 
-  category: media-libs
-  name: gd
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-libs
   name: icu
   
   version: ""
 - 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
   category: dev-libs
-  name: libpcre[jit=]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnsl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  name: hyperscan
   
   version: ""
 - 
@@ -54,17 +24,27 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
   name: libpcre2[jit=]
   
   version: ""
 - 
   category: dev-libs
+  name: libpcre[jit=]
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
   name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libevent
   
   version: ""
 - 
@@ -74,7 +54,27 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: hyperscan
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libnsl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: media-libs
+  name: gd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 use_flags:

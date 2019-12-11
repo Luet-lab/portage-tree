@@ -3,6 +3,11 @@ conflicts: []
 name: pianobar
 requires:
 - 
+  category: media-video
+  name: ffmpeg
+  
+  version: "3.1"
+- 
   category: media-libs
   name: libao
   
@@ -27,11 +32,6 @@ requires:
   name: libav
   
   version: "12"
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: "3.1"
 use_flags:
 - libav
 - static-libs

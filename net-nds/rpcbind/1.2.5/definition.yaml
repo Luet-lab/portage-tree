@@ -3,11 +3,6 @@ conflicts: []
 name: rpcbind
 requires:
 - 
-  category: sec-policy
-  name: selinux-rpcbind
-  
-  version: ""
-- 
   category: net-libs
   name: libtirpc
   
@@ -20,6 +15,11 @@ requires:
 - 
   category: sys-apps
   name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-rpcbind
   
   version: ""
 use_flags:

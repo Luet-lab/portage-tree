@@ -3,6 +3,16 @@ conflicts: []
 name: lirc
 requires:
 - 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: app-misc
+  name: inputlircd
+  
+  version: ""
+- 
   category: media-libs
   name: portaudio
   
@@ -18,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -38,18 +48,8 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: virtual
   name: libusb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
   
   version: ""
 - 
@@ -58,8 +58,8 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  name: inputlircd
+  category: x11-libs
+  name: libX11
   
   version: ""
 use_flags:

@@ -8,8 +8,23 @@ conflicts:
 name: openoffice-bin
 requires:
 - 
-  category: app-arch
-  name: unzip
+  category: dev-lang
+  name: perl
+  
+  version: "5.0"
+- 
+  category: sys-libs
+  name: ncurses-compat
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXaw
   
   version: ""
 - 
@@ -19,34 +34,19 @@ requires:
   version: ""
 - 
   category: app-arch
-  name: zip
+  name: unzip
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: app-arch
+  name: zip
   
-  version: "5.0"
+  version: ""
 - 
   category: media-libs
   name: freetype
   
   version: 2.1.10-r2
-- 
-  category: sys-libs
-  name: ncurses-compat
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXaw
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
 use_flags:
 - gnome
 - java

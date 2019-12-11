@@ -3,6 +3,16 @@ conflicts: []
 name: mate-terminal
 requires:
 - 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  name: vte
+  
+  version: "0.46"
+- 
   category: dev-libs
   name: glib
   
@@ -14,19 +24,14 @@ requires:
   version: 0.13.4
 - 
   category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
   name: libSM
   
   version: ""
 - 
   category: x11-libs
-  name: vte
+  name: libX11
   
-  version: "0.46"
+  version: ""
 - 
   category: mate-base
   name: mate-desktop
@@ -39,17 +44,12 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
   name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
   
   version: ""
 - 

@@ -3,13 +3,18 @@ conflicts: []
 name: alacritty
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
   category: x11-libs
-  name: libXcursor
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
   
   version: ""
 - 
@@ -23,21 +28,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
   category: virtual
   name: opengl
   
@@ -45,6 +35,16 @@ requires:
 - 
   category: media-libs
   name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 use_flags:

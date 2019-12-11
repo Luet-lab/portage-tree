@@ -3,13 +3,13 @@ conflicts: []
 name: mozc
 requires:
 - 
-  category: dev-qt
-  name: qtcore
+  category: app-i18n
+  name: fcitx
   
   version: ""
 - 
   category: dev-qt
-  name: qtwidgets
+  name: qtcore
   
   version: ""
 - 
@@ -24,7 +24,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
+  name: pango
   
   version: ""
 - 
@@ -33,8 +33,8 @@ requires:
   
   version: 3.0.0
 - 
-  category: app-i18n
-  name: fcitx
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -43,13 +43,13 @@ requires:
   
   version: ""
 - 
-  category: app-i18n
-  name: zinnia-tomoe
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 
   category: x11-libs
-  name: libxcb
+  name: gtk+
   
   version: ""
 - 
@@ -58,13 +58,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtgui
+  name: qtwidgets
   
   version: ""
 - 
@@ -78,8 +73,13 @@ requires:
   
   version: ""
 - 
+  category: app-i18n
+  name: zinnia-tomoe
+  
+  version: ""
+- 
   category: x11-libs
-  name: pango
+  name: libxcb
   
   version: ""
 use_flags:
