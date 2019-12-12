@@ -8,8 +8,58 @@ conflicts:
 name: wine-vanilla
 requires:
 - 
+  category: net-fs
+  name: samba[netapi(+),]
+  
+  version: ""
+- 
   category: media-libs
-  name: vulkan-loader
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  name: libv4l
+  
+  version: ""
+- 
+  category: app-emulation
+  name: vkd3d
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-wine
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-gecko
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: media-libs
+  name: openal
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-desktop-common
   
   version: ""
 - 
@@ -18,13 +68,133 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: net-print
+  name: cups
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: media-libs
+  name: vulkan-loader
+  
+  version: ""
+- 
+  category: games-emulation
+  name: dosbox
+  
+  version: 0.74_p20160629
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-gfx
+  name: sane-backends
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: 2.0.0
+- 
+  category: virtual
+  name: opencl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: XML-Simple
+  
+  version: ""
+- 
+  category: sys-fs
+  name: udisks
+  
+  version: ""
+- 
+  category: dev-db
+  name: unixODBC
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxslt
+  
+  version: ""
+- 
   category: sys-auth
   name: rtkit
   
   version: ""
 - 
+  category: media-sound
+  name: gsm
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
   category: media-libs
-  name: fontconfig
+  name: libsdl2
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-mono
   
   version: ""
 - 
@@ -38,98 +208,8 @@ requires:
   
   version: 1.5.0
 - 
-  category: media-gfx
-  name: sane-backends
-  
-  version: ""
-- 
-  category: sys-fs
-  name: udisks
-  
-  version: ""
-- 
-  category: net-print
-  name: cups
-  
-  version: ""
-- 
-  category: dev-db
-  name: unixODBC
-  
-  version: ""
-- 
   category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libgphoto2
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: virtual
-  name: opencl
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-gecko
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
+  name: glu
   
   version: ""
 - 
@@ -138,13 +218,8 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
-- 
-  category: virtual
-  name: glu
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -152,51 +227,6 @@ requires:
   name: mesa
   
   version: "13"
-- 
-  category: dev-perl
-  name: XML-Simple
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-wine
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-desktop-common
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-mono
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: net-libs
-  name: libcapi
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: 2.0.0
 - 
   category: app-eselect
   name: eselect-wine
@@ -208,43 +238,13 @@ requires:
   
   version: 3.0.25
 - 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: games-emulation
-  name: dosbox
-  
-  version: 0.74_p20160629
-- 
-  category: x11-libs
-  name: libXfixes
+  category: net-libs
+  name: libcapi
   
   version: ""
 - 
   category: media-libs
-  name: libsdl2
-  
-  version: ""
-- 
-  category: media-libs
-  name: libv4l
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxslt
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
+  name: fontconfig
   
   version: ""
 - 
@@ -253,23 +253,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: app-emulation
-  name: vkd3d
-  
-  version: ""
-- 
   category: media-sound
-  name: gsm
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
+  name: pulseaudio
   
   version: ""
 - 
@@ -278,8 +263,23 @@ requires:
   
   version: "5.2"
 - 
-  category: net-fs
-  name: samba[netapi(+),]
+  category: media-libs
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  name: libgphoto2
   
   version: ""
 use_flags:

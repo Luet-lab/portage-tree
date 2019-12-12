@@ -8,133 +8,18 @@ conflicts:
 name: wine-vanilla
 requires:
 - 
-  category: media-sound
-  name: pulseaudio
+  category: net-libs
+  name: gnutls
   
   version: ""
 - 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: virtual
-  name: glu
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: 2.0.0
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxslt
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-desktop-common
+  category: dev-perl
+  name: XML-Simple
   
   version: ""
 - 
   category: sys-fs
   name: udisks
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-wine
-  
-  version: ""
-- 
-  category: net-libs
-  name: libcapi
-  
-  version: ""
-- 
-  category: virtual
-  name: opencl
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: net-fs
-  name: samba
-  
-  version: 3.0.25
-- 
-  category: net-print
-  name: cups
-  
-  version: ""
-- 
-  category: app-emulation
-  name: faudio
   
   version: ""
 - 
@@ -144,7 +29,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: fontconfig
+  name: libsdl2
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: media-libs
+  name: openal
   
   version: ""
 - 
@@ -153,13 +48,38 @@ requires:
   
   version: 0.74_p20160629
 - 
-  category: dev-db
-  name: unixODBC
+  category: virtual
+  name: opengl
   
   version: ""
 - 
-  category: net-libs
-  name: libpcap
+  category: media-gfx
+  name: sane-backends
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-sound
+  name: gsm
+  
+  version: ""
+- 
+  category: app-emulation
+  name: vkd3d
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-desktop-common
   
   version: ""
 - 
@@ -168,8 +88,138 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: media-libs
+  name: vulkan-loader
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: 2.0.0
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: virtual
+  name: glu
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: dev-db
+  name: unixODBC
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxslt
+  
+  version: ""
+- 
   category: app-emulation
-  name: vkd3d
+  name: faudio
+  
+  version: ""
+- 
+  category: media-libs
+  name: libv4l
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: net-libs
+  name: libcapi
+  
+  version: ""
+- 
+  category: net-fs
+  name: samba
+  
+  version: 3.0.25
+- 
+  category: virtual
+  name: opencl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: sys-auth
+  name: rtkit
+  
+  version: ""
+- 
+  category: media-libs
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-mono
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: media-libs
+  name: gstreamer
   
   version: ""
 - 
@@ -183,33 +233,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: "5.2"
-- 
   category: media-libs
-  name: libsdl2
+  name: libpng
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: media-libs
-  name: lcms
-  
-  version: ""
-- 
-  category: media-libs
-  name: libv4l
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcomposite
+  category: net-print
+  name: cups
   
   version: ""
 - 
@@ -218,63 +248,13 @@ requires:
   
   version: "0.3"
 - 
-  category: sys-auth
-  name: rtkit
+  category: sec-policy
+  name: selinux-wine
   
   version: ""
 - 
-  category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: media-libs
-  name: mesa
-  
-  version: "13"
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: XML-Simple
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-mono
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: media-sound
-  name: gsm
-  
-  version: ""
-- 
-  category: media-gfx
-  name: sane-backends
-  
-  version: ""
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
-- 
-  category: media-libs
-  name: vulkan-loader
+  category: x11-libs
+  name: libXext
   
   version: ""
 - 
@@ -284,7 +264,27 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libgphoto2
+  name: mesa
+  
+  version: "13"
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXinerama
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
   
   version: ""
 use_flags:

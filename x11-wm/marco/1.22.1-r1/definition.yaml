@@ -9,22 +9,7 @@ name: marco
 requires:
 - 
   category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXpresent
+  name: libXrandr
   
   version: ""
 - 
@@ -39,9 +24,9 @@ requires:
   version: "3.22"
 - 
   category: x11-libs
-  name: libXcomposite
+  name: libX11
   
-  version: "0.3"
+  version: ""
 - 
   category: x11-libs
   name: libXext
@@ -49,42 +34,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: mate-base
-  name: mate-desktop
-  
-  version: 1.20.0
-- 
-  category: x11-libs
   name: gdk-pixbuf
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: gnome-base
-  name: libgtop
-  
-  version: "2"
-- 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
+  name: libXrender
   
   version: ""
 - 
@@ -99,9 +54,24 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: atk
+  name: glib
+  
+  version: "2.50"
+- 
+  category: gnome-base
+  name: libgtop
+  
+  version: "2"
+- 
+  category: media-libs
+  name: libcanberra
   
   version: ""
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.20.0
 - 
   category: x11-libs
   name: cairo
@@ -114,7 +84,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXcomposite
+  
+  version: "0.3"
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
@@ -123,8 +98,33 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libcanberra
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXpresent
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: atk
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
   
   version: ""
 use_flags:

@@ -4,17 +4,37 @@ name: git
 requires:
 - 
   category: dev-perl
-  name: MailTools
+  name: HTML-Tree
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
-  category: app-crypt
-  name: libsecret
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 - 
@@ -24,22 +44,52 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: expat
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: Error
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -53,18 +103,13 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
+  name: libpcre
   
   version: ""
 - 
@@ -78,63 +123,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: MediaWiki-API
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
+  name: subversion
   
   version: ""
 use_flags:
@@ -155,7 +155,7 @@ use_flags:
 - +pcre-jit
 - perforce
 - +perl
-- ppcsha1
+- +ppcsha1
 - tk
 - +threads
 - +webdav

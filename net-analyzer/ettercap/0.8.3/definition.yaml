@@ -3,8 +3,8 @@ conflicts: []
 name: ettercap
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: geoip
   
   version: ""
 - 
@@ -12,31 +12,6 @@ requires:
   name: glib
   
   version: 2.2.2
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: "5.3"
-- 
-  category: net-misc
-  name: curl
-  
-  version: 7.26.0
-- 
-  category: dev-libs
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  name: atk
-  
-  version: 1.2.4
-- 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
 - 
   category: media-libs
   name: freetype
@@ -49,17 +24,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: 2.2.2
-- 
-  category: x11-libs
   name: pango
   
   version: 1.2.3
 - 
   category: dev-libs
-  name: openssl
+  name: libpcre
   
   version: ""
 - 
@@ -73,20 +43,50 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: 2.2.2
+- 
+  category: net-misc
+  name: curl
+  
+  version: 7.26.0
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libbsd
+  
+  version: ""
+- 
   category: net-libs
   name: libpcap
   
   version: 0.8.1
 - 
   category: dev-libs
-  name: geoip
+  name: atk
   
-  version: ""
+  version: 1.2.4
 - 
-  category: x11-libs
-  name: cairo
+  category: sys-libs
+  name: ncurses
   
-  version: ""
+  version: "5.3"
 use_flags:
 - doc
 - geoip

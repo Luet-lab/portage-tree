@@ -8,48 +8,33 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-libs
-  name: icu
-  
-  version: ""
-- 
-  category: acct-group
-  name: dovecot
-  
-  version: ""
-- 
   category: app-arch
   name: bzip2
   
   version: ""
 - 
-  category: acct-group
-  name: mail
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
-  category: dev-cpp
-  name: clucene
+  category: dev-db
+  name: mysql-connector-c
   
-  version: "2.3"
+  version: ""
+- 
+  category: acct-user
+  name: dovenull
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
 - 
   category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
+  name: openssl
   
   version: ""
 - 
@@ -63,8 +48,8 @@ requires:
   
   version: ""
 - 
-  category: acct-user
-  name: dovenull
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -73,58 +58,13 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
+  category: app-arch
+  name: lz4
   
   version: ""
 - 
   category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: acct-user
-  name: dovecot
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailbase
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-db
-  name: mysql-connector-c
+  name: krb5
   
   version: ""
 - 
@@ -133,8 +73,63 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: acct-group
+  name: dovecot
+  
+  version: ""
+- 
+  category: acct-user
+  name: dovecot
+  
+  version: ""
+- 
+  category: net-mail
+  name: mailbase
+  
+  version: ""
+- 
   category: sec-policy
   name: selinux-dovecot
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
   
   version: ""
 - 
@@ -143,13 +138,18 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
+  category: dev-libs
+  name: libsodium
   
   version: ""
 - 
-  category: app-arch
-  name: lz4
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 use_flags:

@@ -3,58 +3,13 @@ conflicts: []
 name: git
 requires:
 - 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: dev-perl
-  name: HTML-Tree
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MediaWiki-API
-  
-  version: ""
-- 
   category: dev-lang
   name: perl
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -63,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-perl
+  name: libwww-perl
   
   version: ""
 - 
@@ -73,13 +28,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: Authen-SASL
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
   
   version: ""
 - 
@@ -89,7 +49,27 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: HTML-Tree
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -98,13 +78,23 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -114,12 +104,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre
+  name: openssl
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
@@ -128,13 +118,23 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
+  category: dev-perl
+  name: Authen-SASL
   
-  version: "2.1"
+  version: ""
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
+  
+  version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: MediaWiki-API
   
   version: ""
 use_flags:
@@ -155,7 +155,7 @@ use_flags:
 - +pcre-jit
 - +perl
 - +python
-- ppcsha1
+- +ppcsha1
 - tk
 - +threads
 - +webdav

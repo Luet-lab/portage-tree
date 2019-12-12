@@ -3,21 +3,6 @@ conflicts: []
 name: pianobar
 requires:
 - 
-  category: media-video
-  name: ffmpeg
-  
-  version: "3.1"
-- 
-  category: media-libs
-  name: libao
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
   category: dev-libs
   name: libgcrypt
   
@@ -32,6 +17,21 @@ requires:
   name: libav
   
   version: "12"
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: "3.1"
+- 
+  category: media-libs
+  name: libao
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
 use_flags:
 - libav
 - static-libs

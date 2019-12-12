@@ -3,6 +3,21 @@ conflicts: []
 name: pithos
 requires:
 - 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.14"
+- 
   category: x11-libs
   name: libnotify
   
@@ -13,38 +28,13 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: pylast
-  
-  version: ""
-- 
-  category: dev-libs
-  name: appstream-glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.14"
-- 
-  category: x11-themes
-  name: gnome-icon-theme-symbolic
-  
-  version: ""
-- 
   category: dev-libs
   name: keybinder
   
   version: ""
 - 
   category: dev-python
-  name: dbus-python
+  name: pylast
   
   version: ""
 - 
@@ -58,8 +48,18 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-meta
+  category: x11-themes
+  name: gnome-icon-theme-symbolic
+  
+  version: ""
+- 
+  category: dev-python
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-libs
+  name: appstream-glib
   
   version: ""
 use_flags:

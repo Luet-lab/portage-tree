@@ -13,48 +13,8 @@ requires:
   
   version: 2.2.0
 - 
-  category: app-misc
-  name: g15daemon
-  
-  version: ""
-- 
-  category: virtual
-  name: jack
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: 1.0.0b
-- 
-  category: media-libs
-  name: opus
-  
-  version: 1.0.1
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
+  category: sys-apps
+  name: lsb-release
   
   version: ""
 - 
@@ -63,13 +23,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: portaudio
+  category: dev-libs
+  name: openssl
+  
+  version: 1.0.0b
+- 
+  category: dev-qt
+  name: qtdbus
   
   version: ""
 - 
-  category: dev-qt
-  name: qtcore
+  category: app-misc
+  name: g15daemon
   
   version: ""
 - 
@@ -79,19 +44,14 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-qt
   name: qtsvg
   
   version: ""
 - 
-  category: media-libs
-  name: libsndfile
+  category: dev-qt
+  name: qtwidgets
   
-  version: 1.0.20
+  version: ""
 - 
   category: media-libs
   name: speex
@@ -103,8 +63,48 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: lsb-release
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: virtual
+  name: jack
+  
+  version: ""
+- 
+  category: media-libs
+  name: opus
+  
+  version: 1.0.1
+- 
+  category: net-dns
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsql
   
   version: ""
 - 
@@ -113,8 +113,13 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtdbus
+  category: media-libs
+  name: portaudio
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
   
   version: ""
 - 
@@ -122,11 +127,6 @@ requires:
   name: speech-dispatcher
   
   version: 0.8.0
-- 
-  category: net-dns
-  name: avahi
-  
-  version: ""
 use_flags:
 - +alsa
 - +dbus

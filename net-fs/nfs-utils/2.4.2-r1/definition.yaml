@@ -1,11 +1,6 @@
 category: net-fs
 conflicts:
 - 
-  category: <sys-apps
-  name: openrc
-  
-  version: 0.13.9
-- 
   category: net-libs
   name: libnfsidmap
   
@@ -15,18 +10,13 @@ conflicts:
   name: portmap
   
   version: ""
+- 
+  category: <sys-apps
+  name: openrc
+  
+  version: 0.13.9
 name: nfs-utils
 requires:
-- 
-  category: sys-libs
-  name: e2fsprogs-libs
-  
-  version: ""
-- 
-  category: sys-apps
-  name: keyutils
-  
-  version: 1.5.9
 - 
   category: net-libs
   name: libtirpc
@@ -53,23 +43,13 @@ requires:
   
   version: ""
 - 
-  category: net-nds
-  name: rpcbind
+  category: dev-db
+  name: sqlite
   
-  version: 0.2.4
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
+  version: "3.3"
 - 
   category: sys-apps
   name: tcp-wrappers
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
   
   version: ""
 - 
@@ -78,10 +58,15 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: net-nds
+  name: openldap
   
-  version: "3.3"
+  version: ""
+- 
+  category: sys-libs
+  name: e2fsprogs-libs
+  
+  version: ""
 - 
   category: sys-libs
   name: libcap
@@ -97,6 +82,21 @@ requires:
   name: libevent
   
   version: ""
+- 
+  category: sys-apps
+  name: keyutils
+  
+  version: 1.5.9
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: net-nds
+  name: rpcbind
+  
+  version: 0.2.4
 use_flags:
 - caps
 - ipv6

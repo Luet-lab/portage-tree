@@ -3,30 +3,45 @@ conflicts: []
 name: weston
 requires:
 - 
-  category: dev-libs
-  name: wayland-protocols
-  
-  version: "1.18"
-- 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: 0.5.0
-- 
   category: x11-libs
   name: pixman
   
   version: 0.25.2
 - 
-  category: sys-apps
-  name: dbus
+  category: media-libs
+  name: mesa
   
-  version: "1.6"
+  version: "17.1"
+- 
+  category: sys-auth
+  name: pambase
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: media-libs
+  name: libwebp
+  
+  version: ""
+- 
+  category: virtual
+  name: udev
+  
+  version: "136"
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
 - 
   category: x11-base
   name: xorg-server
@@ -34,84 +49,19 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: cairo
+  name: libdrm
   
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
+  version: 2.4.68
 - 
   category: media-video
   name: pipewire
   
   version: "0.2"
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: net-misc
-  name: freerdp
-  
-  version: 2.0.0_rc2
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: "1.9"
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: 1.11.3
-- 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: sys-libs
-  name: mtdev
-  
-  version: 1.1.0
-- 
-  category: x11-misc
-  name: colord
-  
-  version: 0.1.27
-- 
   category: sys-apps
-  name: systemd
+  name: dbus
   
-  version: "209"
-- 
-  category: virtual
-  name: udev
-  
-  version: "136"
-- 
-  category: sys-auth
-  name: pambase
-  
-  version: ""
+  version: "1.6"
 - 
   category: x11-libs
   name: libXcursor
@@ -123,35 +73,85 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: mtdev
+  
+  version: 1.1.0
+- 
   category: x11-libs
-  name: libdrm
-  
-  version: 2.4.68
-- 
-  category: media-libs
-  name: mesa
-  
-  version: "17.1"
-- 
-  category: media-libs
-  name: gstreamer
+  name: pango
   
   version: ""
 - 
   category: dev-libs
-  name: libinput
+  name: wayland-protocols
   
-  version: 0.8.0
+  version: "1.18"
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-misc
+  name: colord
+  
+  version: 0.1.27
+- 
+  category: media-libs
+  name: mesa
+  
+  version: ""
+- 
+  category: net-misc
+  name: freerdp
+  
+  version: 2.0.0_rc2
+- 
+  category: media-libs
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
 - 
   category: media-libs
   name: lcms
   
   version: ""
 - 
-  category: media-libs
-  name: gst-plugins-base
+  category: x11-misc
+  name: xkeyboard-config
   
   version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "209"
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 0.8.0
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: "1.9"
 use_flags:
 - colord
 - +desktop

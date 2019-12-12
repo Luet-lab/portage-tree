@@ -2,67 +2,7 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
-  name: libibmad
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmthca
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmlx5
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibumad
-  
-  version: ""
-- 
-  category: sys-fabric
   name: ibacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmlx4
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libnes
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: infiniband-diags
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibverbs
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: srptools
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libocrdma
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: infinipath-psm
   
   version: ""
 - 
@@ -75,16 +15,71 @@ conflicts:
   name: libcxgb4
   
   version: ""
-name: rdma-core
-requires:
 - 
-  category: dev-libs
-  name: libnl
+  category: sys-fabric
+  name: libmlx4
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: sys-fabric
+  name: libmlx5
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: infiniband-diags
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: librdmacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libmthca
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibmad
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: srptools
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libnes
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibverbs
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibumad
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libocrdma
+  
+  version: ""
+name: rdma-core
+requires:
+- 
+  category: virtual
+  name: libudev
   
   version: ""
 - 
@@ -93,8 +88,13 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libudev
+  category: dev-libs
+  name: libnl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
   
   version: ""
 use_flags:

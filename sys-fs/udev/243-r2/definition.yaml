@@ -1,13 +1,23 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-fs
+  name: lvm2
+  
+  version: 2.02.103
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
   category: <sec-policy
   name: selinux-base
   
   version: 2.20120725-r10
 - 
   category: sys-apps
-  name: systemd
+  name: gentoo-systemd-integration
   
   version: ""
 - 
@@ -15,58 +25,8 @@ conflicts:
   name: glibc
   
   version: "2.11"
-- 
-  category: <sys-fs
-  name: lvm2
-  
-  version: 2.02.103
-- 
-  category: sys-apps
-  name: gentoo-systemd-integration
-  
-  version: ""
 name: udev
 requires:
-- 
-  category: sys-apps
-  name: kmod
-  
-  version: "16"
-- 
-  category: acct-group
-  name: tape
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: acct-group
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  name: disk
-  
-  version: ""
-- 
-  category: acct-group
-  name: kvm
-  
-  version: ""
-- 
-  category: acct-group
-  name: video
-  
-  version: ""
-- 
-  category: sys-apps
-  name: acl
-  
-  version: ""
 - 
   category: acct-group
   name: tty
@@ -79,7 +39,7 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: render
+  name: lp
   
   version: ""
 - 
@@ -89,17 +49,57 @@ requires:
   version: "2.30"
 - 
   category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  name: acl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: kmod
+  
+  version: "16"
+- 
+  category: acct-group
+  name: disk
+  
+  version: ""
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
+- 
+  category: acct-group
+  name: video
+  
+  version: ""
+- 
+  category: acct-group
+  name: render
+  
+  version: ""
+- 
+  category: sys-libs
   name: libselinux
   
   version: 2.1.9
 - 
   category: acct-group
-  name: kmem
+  name: audio
   
   version: ""
 - 
   category: acct-group
-  name: audio
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  name: kmem
   
   version: ""
 - 
@@ -109,7 +109,7 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: lp
+  name: kvm
   
   version: ""
 use_flags:

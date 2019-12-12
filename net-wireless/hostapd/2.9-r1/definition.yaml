@@ -3,6 +3,21 @@ conflicts: []
 name: hostapd
 requires:
 - 
+  category: dev-db
+  name: sqlite
+  
+  version: "3"
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libtommath
+  
+  version: ""
+- 
   category: dev-libs
   name: openssl
   
@@ -20,21 +35,6 @@ requires:
 - 
   category: net-libs
   name: libnfnetlink
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: "3"
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libtommath
   
   version: ""
 use_flags:

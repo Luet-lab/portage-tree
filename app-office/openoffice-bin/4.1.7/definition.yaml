@@ -8,18 +8,18 @@ conflicts:
 name: openoffice-bin
 requires:
 - 
-  category: dev-lang
-  name: perl
-  
-  version: "5.0"
-- 
   category: sys-libs
-  name: ncurses-compat
+  name: glibc
   
   version: ""
 - 
-  category: x11-libs
-  name: libXinerama
+  category: media-libs
+  name: freetype
+  
+  version: 2.1.10-r2
+- 
+  category: sys-libs
+  name: ncurses-compat
   
   version: ""
 - 
@@ -28,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: glibc
+  category: x11-libs
+  name: libXinerama
   
   version: ""
 - 
@@ -43,10 +43,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: dev-lang
+  name: perl
   
-  version: 2.1.10-r2
+  version: "5.0"
 use_flags:
 - gnome
 - java

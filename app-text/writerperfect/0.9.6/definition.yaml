@@ -3,28 +3,23 @@ conflicts: []
 name: writerperfect
 requires:
 - 
+  category: media-libs
+  name: libcdr
+  
+  version: "0.1"
+- 
   category: app-text
-  name: libwpg
+  name: libmwaw
   
   version: "0.3"
 - 
   category: media-libs
-  name: libzmf
+  name: libpagemaker
   
   version: ""
 - 
-  category: dev-libs
-  name: librevenge
-  
-  version: 0.0.1
-- 
   category: app-text
-  name: libmspub
-  
-  version: "0.1"
-- 
-  category: media-libs
-  name: libpagemaker
+  name: libqxp
   
   version: ""
 - 
@@ -34,27 +29,22 @@ requires:
   version: "0.1"
 - 
   category: app-text
-  name: libqxp
-  
-  version: ""
-- 
-  category: app-text
-  name: libwpd
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvisio
+  name: libmspub
   
   version: "0.1"
 - 
   category: app-text
-  name: libwps
+  name: libodfgen
   
-  version: "0.4"
+  version: "0.1"
 - 
-  category: gnome-extra
-  name: libgsf
+  category: dev-libs
+  name: librevenge
+  
+  version: 0.0.1
+- 
+  category: media-libs
+  name: libeot
   
   version: ""
 - 
@@ -63,10 +53,20 @@ requires:
   
   version: "0.1"
 - 
+  category: media-libs
+  name: libvisio
+  
+  version: "0.1"
+- 
   category: app-text
-  name: libmwaw
+  name: libwpg
   
   version: "0.3"
+- 
+  category: media-libs
+  name: libzmf
+  
+  version: ""
 - 
   category: app-text
   name: libebook
@@ -83,20 +83,20 @@ requires:
   
   version: "0.1"
 - 
-  category: app-text
-  name: libodfgen
-  
-  version: "0.1"
-- 
-  category: media-libs
-  name: libeot
+  category: gnome-extra
+  name: libgsf
   
   version: ""
 - 
-  category: media-libs
-  name: libcdr
+  category: app-text
+  name: libwpd
   
-  version: "0.1"
+  version: ""
+- 
+  category: app-text
+  name: libwps
+  
+  version: "0.4"
 use_flags:
 - abiword
 - +cdr

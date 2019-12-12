@@ -8,8 +8,13 @@ conflicts:
 name: freeorion
 requires:
 - 
-  category: virtual
-  name: opengl
+  category: media-libs
+  name: libvorbis
+  
+  version: 1.1.2
+- 
+  category: sci-physics
+  name: bullet
   
   version: ""
 - 
@@ -24,12 +29,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: openal
+  name: libsdl2
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: media-libs
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
   
   version: ""
 - 
@@ -37,26 +47,6 @@ requires:
   name: boost
   
   version: "1.56"
-- 
-  category: media-libs
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl2
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: 1.1.2
-- 
-  category: sci-physics
-  name: bullet
-  
-  version: ""
 - 
   category: media-libs
   name: libogg
@@ -69,7 +59,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libsdl2[X,opengl,video]
+  name: openal
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  name: glew
   
   version: ""
 use_flags:

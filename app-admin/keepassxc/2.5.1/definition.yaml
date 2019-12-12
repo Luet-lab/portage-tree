@@ -3,18 +3,43 @@ conflicts: []
 name: keepassxc
 requires:
 - 
+  category: app-crypt
+  name: argon2
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: quazip
+  
+  version: ""
+- 
   category: dev-libs
   name: libsodium
   
   version: 1.0.12
 - 
   category: dev-qt
-  name: qtsvg
+  name: qtconcurrent
   
   version: ""
 - 
   category: dev-qt
   name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  name: readline
   
   version: ""
 - 
@@ -24,17 +49,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: libXi
   
   version: ""
 - 
   category: sys-auth
   name: ykpers
-  
-  version: ""
-- 
-  category: app-crypt
-  name: argon2
   
   version: ""
 - 
@@ -44,12 +64,17 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtconcurrent
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
   name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
   
   version: ""
 - 
@@ -64,37 +89,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXtst
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: sys-libs
-  name: readline
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: dev-libs
-  name: quazip
+  name: libXtst
   
   version: ""
 use_flags:

@@ -3,6 +3,11 @@ conflicts: []
 name: centerim
 requires:
 - 
+  category: sys-libs
+  name: ncurses
+  
+  version: "5.2"
+- 
   category: net-im
   name: pidgin
   
@@ -22,11 +27,6 @@ requires:
   name: gettext
   
   version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: "5.2"
 use_flags:
 - debug
 - nls

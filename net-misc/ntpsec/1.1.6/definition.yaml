@@ -2,31 +2,16 @@ category: net-misc
 conflicts:
 - 
   category: net-misc
-  name: ntp
+  name: openntpd
   
   version: ""
 - 
   category: net-misc
-  name: openntpd
+  name: ntp
   
   version: ""
 name: ntpsec
 requires:
-- 
-  category: media-fonts
-  name: liberation-fonts
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
 - 
   category: sys-libs
   name: libseccomp
@@ -38,13 +23,28 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
   category: dev-python
   name: psutil
   
   version: ""
 - 
   category: dev-libs
+  name: libbsd
+  
+  version: ""
+- 
+  category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: media-fonts
+  name: liberation-fonts
   
   version: ""
 use_flags:

@@ -8,13 +8,18 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-db
-  name: sqlite
+  category: sec-policy
+  name: selinux-dovecot
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
   
   version: ""
 - 
@@ -24,37 +29,17 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: libcap
+  name: pam
   
   version: ""
 - 
-  category: app-arch
-  name: lz4
+  category: virtual
+  name: krb5
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-dovecot
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
@@ -68,18 +53,28 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
   category: sys-libs
-  name: pam
+  name: libcap
   
   version: ""
 - 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
+  category: app-text
+  name: libexttextcat
   
   version: ""
 - 
@@ -88,8 +83,23 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  name: lz4
+  
+  version: ""
+- 
   category: dev-libs
   name: libressl
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -99,7 +109,7 @@ requires:
   version: ""
 - 
   category: virtual
-  name: krb5
+  name: libiconv
   
   version: ""
 - 
@@ -107,16 +117,6 @@ requires:
   name: clucene
   
   version: "2.3"
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
-  
-  version: ""
 use_flags:
 - kerberos
 - ldap

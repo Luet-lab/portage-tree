@@ -3,8 +3,18 @@ conflicts: []
 name: polybar
 requires:
 - 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmpdclient
+  
+  version: ""
+- 
   category: x11-libs
-  name: xcb-util-wm
+  name: cairo
   
   version: ""
 - 
@@ -19,6 +29,11 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: xcb-util-wm
+  
+  version: ""
+- 
+  category: x11-libs
   name: xcb-util-xrm
   
   version: ""
@@ -28,18 +43,8 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
   category: dev-libs
   name: jsoncpp
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmpdclient
   
   version: ""
 - 
@@ -50,11 +55,6 @@ requires:
 - 
   category: x11-base
   name: xcb-proto
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
   
   version: ""
 - 

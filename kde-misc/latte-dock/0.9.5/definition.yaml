@@ -3,13 +3,23 @@ conflicts: []
 name: latte-dock
 requires:
 - 
-  category: dev-qt
-  name: qtx11extras
+  category: kde-frameworks
+  name: kconfig
   
-  version: 5.12.3
+  version: 5.64.0
 - 
   category: kde-frameworks
-  name: karchive
+  name: kcoreaddons
+  
+  version: 5.64.0
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kdbusaddons
   
   version: 5.64.0
 - 
@@ -19,67 +29,7 @@ requires:
   version: 5.64.0
 - 
   category: kde-frameworks
-  name: knewstuff
-  
-  version: 5.64.0
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcoreaddons
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kdeclarative
-  
-  version: 5.64.0
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtdeclarative
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kiconthemes
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kwindowsystem
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kactivities
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kcrash
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
   name: ki18n
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kpackage
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  name: kxmlgui
   
   version: 5.64.0
 - 
@@ -88,13 +38,18 @@ requires:
   
   version: ""
 - 
+  category: kde-frameworks
+  name: kxmlgui
+  
+  version: 5.64.0
+- 
   category: dev-qt
-  name: qtgui
+  name: qtdbus
   
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kglobalaccel
+  name: kactivities
   
   version: 5.64.0
 - 
@@ -108,20 +63,45 @@ requires:
   
   version: 5.12.3
 - 
+  category: dev-qt
+  name: qtx11extras
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: kconfig
+  name: knewstuff
   
   version: 5.64.0
 - 
   category: kde-frameworks
-  name: plasma
+  name: karchive
   
   version: 5.64.0
 - 
-  category: x11-libs
-  name: libxcb
+  category: kde-frameworks
+  name: kcrash
   
-  version: ""
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  name: kdeclarative
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  name: kiconthemes
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  name: knotifications
+  
+  version: 5.64.0
+- 
+  category: dev-qt
+  name: qtdeclarative
+  
+  version: 5.12.3
 - 
   category: dev-qt
   name: qtwidgets
@@ -129,12 +109,32 @@ requires:
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kdbusaddons
+  name: kglobalaccel
   
   version: 5.64.0
 - 
   category: kde-frameworks
-  name: knotifications
+  name: kpackage
+  
+  version: 5.64.0
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kwindowsystem
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  name: plasma
   
   version: 5.64.0
 use_flags:

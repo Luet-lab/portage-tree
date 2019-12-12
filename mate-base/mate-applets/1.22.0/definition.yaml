@@ -19,12 +19,32 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libwnck
+  name: libX11
   
-  version: "3.0"
+  version: ""
 - 
-  category: x11-libs
-  name: pango
+  category: sys-power
+  name: upower
+  
+  version: 0.9.23
+- 
+  category: dev-libs
+  name: libmateweather
+  
+  version: 1.17.0
+- 
+  category: mate-base
+  name: mate-panel
+  
+  version: 1.17.0
+- 
+  category: net-wireless
+  name: wireless-tools
+  
+  version: 28_pre9
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -33,35 +53,15 @@ requires:
   
   version: "0.97"
 - 
-  category: sys-power
-  name: upower
+  category: gnome-base
+  name: libgtop
   
-  version: 0.9.23
+  version: 2.12.0
 - 
-  category: x11-libs
-  name: gtksourceview
+  category: gnome-extra
+  name: gucharmap
   
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: "2.5"
-- 
-  category: mate-base
-  name: mate-panel
-  
-  version: 1.17.0
+  version: "3.0"
 - 
   category: sys-apps
   name: dbus
@@ -74,54 +74,54 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: virtual
-  name: libintl
+  name: gtksourceview
   
   version: ""
 - 
-  category: mate-base
-  name: mate-settings-daemon
+  category: x11-libs
+  name: libwnck
   
-  version: "1.6"
+  version: "3.0"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
 - 
   category: dev-libs
   name: dbus-glib
   
   version: "0.74"
 - 
-  category: net-wireless
-  name: wireless-tools
+  category: dev-libs
+  name: glib
   
-  version: 28_pre9
+  version: "2.50"
 - 
   category: dev-libs
-  name: libmateweather
+  name: libxml2
   
-  version: 1.17.0
+  version: "2.5"
 - 
   category: dev-python
   name: pygobject
   
   version: ""
 - 
-  category: gnome-base
-  name: libgtop
+  category: x11-libs
+  name: gtk+
   
-  version: 2.12.0
-- 
-  category: gnome-extra
-  name: gucharmap
-  
-  version: "3.0"
+  version: "3.22"
 - 
   category: x11-libs
   name: libnotify
   
   version: "0.7"
+- 
+  category: mate-base
+  name: mate-settings-daemon
+  
+  version: "1.6"
 use_flags:
 - X
 - ipv6

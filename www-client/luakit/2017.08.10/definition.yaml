@@ -3,6 +3,21 @@ conflicts: []
 name: luakit
 requires:
 - 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-lua
+  name: luafilesystem[luajit=]
+  
+  version: ""
+- 
   category: net-libs
   name: webkit-gtk
   
@@ -20,21 +35,6 @@ requires:
 - 
   category: dev-lang
   name: lua
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-lua
-  name: luafilesystem[luajit=]
   
   version: ""
 use_flags:

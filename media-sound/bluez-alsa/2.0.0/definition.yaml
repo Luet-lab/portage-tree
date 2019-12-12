@@ -3,15 +3,10 @@ conflicts: []
 name: bluez-alsa
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: "2.26"
-- 
   category: media-libs
-  name: alsa-lib
+  name: fdk-aac
   
-  version: 1.1.2
+  version: 0.1.1
 - 
   category: dev-libs
   name: libbsd
@@ -23,10 +18,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libldac
+  category: dev-libs
+  name: glib
   
-  version: 2.0.0
+  version: "2.26"
 - 
   category: media-libs
   name: sbc
@@ -38,15 +33,20 @@ requires:
   
   version: "5.0"
 - 
+  category: media-libs
+  name: alsa-lib
+  
+  version: 1.1.2
+- 
   category: sys-libs
   name: readline
   
   version: ""
 - 
   category: media-libs
-  name: fdk-aac
+  name: libldac
   
-  version: 0.1.1
+  version: 2.0.0
 use_flags:
 - aac
 - debug

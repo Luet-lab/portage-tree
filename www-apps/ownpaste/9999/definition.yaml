@@ -4,9 +4,19 @@ name: ownpaste
 requires:
 - 
   category: dev-python
+  name: setuptools
+  
+  version: ""
+- 
+  category: dev-python
   name: flask-script
   
   version: 0.3.3
+- 
+  category: dev-python
+  name: flask-sqlalchemy
+  
+  version: "0.15"
 - 
   category: dev-python
   name: werkzeug
@@ -14,12 +24,12 @@ requires:
   version: "0.8"
 - 
   category: dev-python
-  name: sqlalchemy-migrate
+  name: pygments
   
-  version: 0.7.2
+  version: ""
 - 
   category: dev-python
-  name: pygments
+  name: pytz
   
   version: ""
 - 
@@ -29,24 +39,14 @@ requires:
   version: "0.8"
 - 
   category: dev-python
-  name: flask-sqlalchemy
-  
-  version: "0.15"
-- 
-  category: dev-python
   name: jinja
   
   version: "2.6"
 - 
   category: dev-python
-  name: pytz
+  name: sqlalchemy-migrate
   
-  version: ""
-- 
-  category: dev-python
-  name: setuptools
-  
-  version: ""
+  version: 0.7.2
 use_flags:
 - doc
 version: "9999"

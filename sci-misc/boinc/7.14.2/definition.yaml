@@ -8,6 +8,16 @@ conflicts:
 name: boinc
 requires:
 - 
+  category: media-libs
+  name: freeglut
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
   category: app-misc
   name: ca-certificates
   
@@ -23,18 +33,8 @@ requires:
   
   version: "180.22"
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: net-misc
   name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
   
   version: ""
 - 
@@ -43,13 +43,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freeglut
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
-  category: virtual
-  name: jpeg
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 

@@ -1,22 +1,17 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-power
-  name: pmtools
-  
-  version: ""
-- 
   category: net-misc
   name: usbip
   
   version: ""
-name: linux-misc-apps
-requires:
 - 
-  category: virtual
-  name: libudev
+  category: sys-power
+  name: pmtools
   
   version: ""
+name: linux-misc-apps
+requires:
 - 
   category: sys-apps
   name: hwids
@@ -35,6 +30,11 @@ requires:
 - 
   category: sys-apps
   name: tcp-wrappers
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
   
   version: ""
 use_flags:

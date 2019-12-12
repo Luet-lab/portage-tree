@@ -3,6 +3,11 @@ conflicts: []
 name: pam-pgsql
 requires:
 - 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
   category: dev-db
   name: postgresql
   
@@ -12,11 +17,6 @@ requires:
   name: libgcrypt
   
   version: 1.2.0
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
 use_flags:
 - ""
 version: 0.7.3.2

@@ -4,6 +4,16 @@ name: genkernel
 requires:
 - 
   category: sys-devel
+  name: autoconf
+  
+  version: ""
+- 
+  category: sys-devel
+  name: autoconf-archive
+  
+  version: ""
+- 
+  category: sys-devel
   name: libtool
   
   version: ""
@@ -19,12 +29,12 @@ requires:
   version: ""
 - 
   category: sys-devel
-  name: autoconf
+  name: automake
   
   version: ""
 - 
-  category: sys-devel
-  name: autoconf-archive
+  category: virtual
+  name: pkgconfig
   
   version: ""
 - 
@@ -42,16 +52,6 @@ requires:
   name: pax-utils
   
   version: 1.2.2
-- 
-  category: sys-devel
-  name: automake
-  
-  version: ""
-- 
-  category: virtual
-  name: pkgconfig
-  
-  version: ""
 use_flags:
 - ibm
 - +firmware

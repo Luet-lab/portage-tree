@@ -3,18 +3,18 @@ conflicts: []
 name: qtmultimedia
 requires:
 - 
-  category: media-libs
-  name: gst-plugins-base
+  category: dev-qt
+  name: qtgui-5.12.3[gles2=]
   
   version: ""
 - 
-  category: dev-qt
-  name: qtgui
+  category: media-libs
+  name: gstreamer
   
-  version: 5.12.3
+  version: ""
 - 
-  category: dev-qt
-  name: qtwidgets-5.12.3[gles2=]
+  category: media-libs
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -24,14 +24,29 @@ requires:
   version: 5.12.3
 - 
   category: dev-qt
+  name: qtwidgets-5.12.3[gles2=]
+  
+  version: ""
+- 
+  category: dev-qt
   name: qtcore
   
   version: 5.12.3
 - 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
   category: dev-qt
-  name: qtnetwork
+  name: qtgui
   
   version: 5.12.3
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
 - 
   category: dev-qt
   name: qtdeclarative
@@ -44,27 +59,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtgui-5.12.3[gles2=]
+  name: qtnetwork
   
-  version: ""
+  version: 5.12.3
 - 
   category: media-libs
   name: alsa-lib
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
   
   version: ""
 - 

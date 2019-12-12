@@ -4,6 +4,16 @@ name: fcitx-unikey
 requires:
 - 
   category: app-i18n
+  name: fcitx
+  
+  version: 4.2.9
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: app-i18n
   name: fcitx-qt5
   
   version: "1.1"
@@ -22,16 +32,6 @@ requires:
   name: qtwidgets
   
   version: "5.7"
-- 
-  category: app-i18n
-  name: fcitx
-  
-  version: 4.2.9
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
 use_flags:
 - +macro-editor
 version: 0.2.7

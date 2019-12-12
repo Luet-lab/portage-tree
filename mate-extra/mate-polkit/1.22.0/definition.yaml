@@ -4,16 +4,6 @@ name: mate-polkit
 requires:
 - 
   category: dev-libs
-  name: libappindicator
-  
-  version: ""
-- 
-  category: sys-apps
-  name: accountsservice
-  
-  version: ""
-- 
-  category: dev-libs
   name: glib
   
   version: "2.36"
@@ -37,6 +27,16 @@ requires:
   name: gtk+
   
   version: 3.14.0
+- 
+  category: dev-libs
+  name: libappindicator
+  
+  version: ""
+- 
+  category: sys-apps
+  name: accountsservice
+  
+  version: ""
 use_flags:
 - accountsservice
 - appindicator

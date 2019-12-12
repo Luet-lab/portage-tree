@@ -3,18 +3,28 @@ conflicts: []
 name: kitty
 requires:
 - 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: virtual
-  name: imagemagick-tools
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
-  category: media-libs
-  name: fontconfig
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
@@ -29,42 +39,7 @@ requires:
   version: 1.5.0
 - 
   category: media-libs
-  name: libcanberra
-  
-  version: ""
-- 
-  category: media-libs
   name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland-protocols
-  
-  version: "1.17"
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
   
   version: ""
 - 
@@ -78,10 +53,35 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: virtual
+  name: imagemagick-tools
   
   version: ""
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: ""
+- 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  name: wayland-protocols
+  
+  version: "1.17"
 use_flags:
 - debug
 - imagemagick

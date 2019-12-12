@@ -8,8 +8,8 @@ conflicts:
 name: iproute2
 requires:
 - 
-  category: virtual
-  name: libelf
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -28,6 +28,11 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
   category: dev-libs
   name: libbsd
   
@@ -38,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libselinux
+  category: virtual
+  name: libelf
   
   version: ""
 use_flags:

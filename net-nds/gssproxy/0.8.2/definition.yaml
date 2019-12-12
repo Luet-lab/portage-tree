@@ -3,6 +3,16 @@ conflicts: []
 name: gssproxy
 requires:
 - 
+  category: dev-libs
+  name: ding-libs
+  
+  version: 0.6.1
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
   category: sys-libs
   name: libselinux
   
@@ -17,16 +27,6 @@ requires:
   name: libverto
   
   version: 0.2.2
-- 
-  category: dev-libs
-  name: ding-libs
-  
-  version: 0.6.1
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
 use_flags:
 - debug
 - selinux

@@ -3,25 +3,25 @@ conflicts: []
 name: xfce4-screensaver
 requires:
 - 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
   category: xfce-base
-  name: libxfce4util
+  name: xfconf
   
   version: 4.12.1
 - 
-  category: sys-libs
-  name: pam
+  category: sys-auth
+  name: elogind
   
   version: ""
 - 
   category: x11-libs
-  name: libwnck
+  name: gtk+
   
-  version: "3.20"
+  version: "3.22"
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
 - 
   category: x11-libs
   name: libXrandr
@@ -33,65 +33,25 @@ requires:
   
   version: "5.2"
 - 
-  category: sys-auth
-  name: consolekit
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
   category: xfce-base
   name: libxfce4ui
   
   version: 4.12.1
 - 
-  category: sys-auth
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: x11-libs
-  name: gtk+
+  name: libwnck
   
-  version: "3.22"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
+  version: "3.20"
 - 
   category: xfce-base
-  name: garcon
-  
-  version: 0.5.0
-- 
-  category: xfce-base
-  name: xfconf
+  name: libxfce4util
   
   version: 4.12.1
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
 - 
   category: virtual
   name: opengl
@@ -102,6 +62,46 @@ requires:
   name: dbus-glib
   
   version: "0.30"
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: xfce-base
+  name: garcon
+  
+  version: 0.5.0
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: x11-libs
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: sys-auth
+  name: consolekit
+  
+  version: ""
 use_flags:
 - consolekit
 - elogind

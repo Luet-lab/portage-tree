@@ -4,12 +4,17 @@ name: xournal
 requires:
 - 
   category: media-libs
-  name: fontconfig
+  name: freetype
   
   version: ""
 - 
   category: x11-libs
   name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -28,23 +33,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
   category: gnome-base
   name: libgnomecanvas
   
   version: ""
 - 
   category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: dev-libs
-  name: atk
+  name: fontconfig
   
   version: ""
 - 
@@ -54,12 +49,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: gtk+
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: dev-libs
+  name: atk
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 use_flags:

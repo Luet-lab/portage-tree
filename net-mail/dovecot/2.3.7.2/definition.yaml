@@ -13,83 +13,18 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
   category: virtual
   name: libiconv
   
   version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
 - 
   category: app-arch
   name: lz4
   
   version: ""
 - 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-dovecot
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
+  category: virtual
+  name: krb5
   
   version: ""
 - 
@@ -103,13 +38,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: icu
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: net-mail
-  name: mailbase
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -118,8 +58,23 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
+- 
   category: dev-libs
-  name: libsodium
+  name: icu
+  
+  version: ""
+- 
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -128,10 +83,55 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: net-nds
+  name: openldap
   
   version: ""
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
+  
+  version: ""
+- 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: net-mail
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
 use_flags:
 - kerberos
 - ldap

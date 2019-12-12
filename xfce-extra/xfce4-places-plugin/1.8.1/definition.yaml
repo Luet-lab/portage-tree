@@ -3,15 +3,20 @@ conflicts: []
 name: xfce4-places-plugin
 requires:
 - 
-  category: xfce-base
-  name: xfconf
+  category: x11-libs
+  name: gtk+
   
-  version: "4.12"
+  version: "3.22"
 - 
-  category: dev-libs
-  name: glib
+  category: xfce-base
+  name: exo
   
-  version: "2.42"
+  version: "0.6"
+- 
+  category: xfce-base
+  name: libxfce4ui
+  
+  version: "4.13"
 - 
   category: xfce-base
   name: libxfce4util
@@ -23,20 +28,15 @@ requires:
   
   version: "4.12"
 - 
-  category: xfce-base
-  name: libxfce4ui
-  
-  version: "4.13"
-- 
   category: x11-libs
   name: libnotify
   
   version: "0.7"
 - 
-  category: x11-libs
-  name: gtk+
+  category: dev-libs
+  name: glib
   
-  version: "3.22"
+  version: "2.42"
 - 
   category: x11-libs
   name: libX11
@@ -44,9 +44,9 @@ requires:
   version: ""
 - 
   category: xfce-base
-  name: exo
+  name: xfconf
   
-  version: "0.6"
+  version: "4.12"
 use_flags:
 - libnotify
 version: 1.8.1

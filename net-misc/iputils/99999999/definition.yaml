@@ -18,8 +18,23 @@ conflicts:
 name: iputils
 requires:
 - 
-  category: sys-libs
-  name: libcap
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nettle
+  
+  version: ""
+- 
+  category: net-dns
+  name: libidn2
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -33,23 +48,8 @@ requires:
   
   version: ""
 - 
-  category: net-dns
-  name: libidn2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nettle
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
+  category: sys-libs
+  name: libcap
   
   version: ""
 use_flags:

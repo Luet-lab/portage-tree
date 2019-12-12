@@ -4,12 +4,12 @@ name: duc
 requires:
 - 
   category: x11-libs
-  name: pango[X]
+  name: libX11
   
   version: ""
 - 
-  category: dev-libs
-  name: leveldb
+  category: sys-libs
+  name: ncurses
   
   version: ""
 - 
@@ -18,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: dev-db
+  name: tokyocabinet
   
   version: ""
 - 
@@ -33,23 +33,23 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
   category: media-libs
   name: glfw
   
   version: "3.0"
 - 
-  category: sys-libs
-  name: ncurses
+  category: dev-libs
+  name: leveldb
   
   version: ""
 - 
-  category: dev-db
-  name: tokyocabinet
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango[X]
   
   version: ""
 use_flags:

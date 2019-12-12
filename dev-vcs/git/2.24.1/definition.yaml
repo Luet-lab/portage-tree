@@ -3,8 +3,38 @@ conflicts: []
 name: git
 requires:
 - 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MediaWiki-API
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
   category: net-misc
   name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
@@ -14,19 +44,9 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: DBI
   
   version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
 - 
   category: dev-perl
   name: DateTime-Format-ISO8601
@@ -34,22 +54,32 @@ requires:
   version: ""
 - 
   category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
   
   version: ""
 - 
@@ -63,73 +93,43 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: virtual
   name: emacs
   
   version: ""
 - 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
   category: dev-vcs
-  name: subversion
+  name: cvsps
   
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
+  version: "2.1"
 - 
   category: dev-perl
   name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-perl
-  name: Error
+  category: app-crypt
+  name: libsecret
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: libwww-perl
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
   category: dev-lang
   name: tk
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
   
   version: ""
 - 
@@ -155,7 +155,7 @@ use_flags:
 - +pcre-jit
 - perforce
 - +perl
-- ppcsha1
+- +ppcsha1
 - tk
 - +threads
 - +webdav

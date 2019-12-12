@@ -3,13 +3,23 @@ conflicts: []
 name: rspamd
 requires:
 - 
-  category: dev-libs
-  name: icu
+  category: sys-apps
+  name: file
   
   version: ""
 - 
-  category: media-libs
-  name: gd
+  category: dev-libs
+  name: hyperscan
+  
+  version: ""
+- 
+  category: sci-mathematics
+  name: fann
+  
+  version: ""
+- 
+  category: dev-libs
+  name: jemalloc
   
   version: ""
 - 
@@ -23,8 +33,13 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: net-libs
+  name: libnsl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
   
   version: ""
 - 
@@ -38,6 +53,21 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: gd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
   category: dev-libs
   name: openssl
   
@@ -48,38 +78,8 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libnsl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hyperscan
-  
-  version: ""
-- 
-  category: dev-libs
-  name: jemalloc
-  
-  version: ""
-- 
   category: dev-libs
   name: glib
-  
-  version: ""
-- 
-  category: sci-mathematics
-  name: fann
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
   
   version: ""
 use_flags:

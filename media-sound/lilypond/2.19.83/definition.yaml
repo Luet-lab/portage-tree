@@ -3,6 +3,11 @@ conflicts: []
 name: lilypond
 requires:
 - 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
   category: virtual
   name: emacs
   
@@ -23,13 +28,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: fontconfig
+  category: dev-scheme
+  name: guile
   
-  version: ""
+  version: "2.0"
 - 
   category: media-libs
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
@@ -42,11 +47,6 @@ requires:
   name: guile
   
   version: "2"
-- 
-  category: dev-scheme
-  name: guile
-  
-  version: "2.0"
 use_flags:
 - debug
 - emacs

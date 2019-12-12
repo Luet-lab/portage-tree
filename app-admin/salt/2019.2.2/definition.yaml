@@ -4,27 +4,32 @@ name: salt
 requires:
 - 
   category: dev-python
+  name: redis-py
+  
+  version: ""
+- 
+  category: dev-python
   name: msgpack
   
   version: "0.3"
 - 
-  category: sec-policy
-  name: selinux-salt
+  category: dev-python
+  name: raet
+  
+  version: 0.6.0
+- 
+  category: dev-python
+  name: pymongo
   
   version: ""
 - 
   category: dev-python
-  name: timelib
+  name: python-novaclient
   
-  version: ""
-- 
-  category: virtual
-  name: python-futures
-  
-  version: ""
+  version: 2.17.0
 - 
   category: dev-python
-  name: mako
+  name: yappi
   
   version: ""
 - 
@@ -33,35 +38,40 @@ requires:
   
   version: ""
 - 
-  category: www-servers
-  name: tornado
+  category: dev-python
+  name: libnacl
   
-  version: 4.2.1
+  version: 1.0.0
 - 
   category: dev-python
-  name: pyopenssl
+  name: keyring
   
   version: ""
 - 
   category: dev-python
-  name: raet
+  name: cherrypy
   
-  version: 0.6.0
+  version: 3.2.2
 - 
-  category: sys-apps
-  name: pciutils
+  category: dev-python
+  name: python-gnupg
   
   version: ""
 - 
   category: dev-python
-  name: jinja
+  name: requests
+  
+  version: 1.0.0
+- 
+  category: virtual
+  name: python-futures
   
   version: ""
 - 
   category: dev-python
-  name: setuptools
+  name: ioflo
   
-  version: ""
+  version: 1.1.7
 - 
   category: sys-apps
   name: portage
@@ -69,7 +79,12 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pyyaml
+  name: python-neutronclient
+  
+  version: 2.3.6
+- 
+  category: dev-python
+  name: mako
   
   version: ""
 - 
@@ -84,12 +99,17 @@ requires:
   version: 2.2.0
 - 
   category: dev-python
-  name: python-neutronclient
+  name: mysql-python
   
-  version: 2.3.6
+  version: ""
 - 
   category: dev-python
-  name: yappi
+  name: pycryptodome
+  
+  version: ""
+- 
+  category: dev-python
+  name: timelib
   
   version: ""
 - 
@@ -98,23 +118,13 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: markupsafe
+  category: sys-apps
+  name: pciutils
   
   version: ""
 - 
   category: dev-python
-  name: libcloud
-  
-  version: 0.14.0
-- 
-  category: dev-python
-  name: python-novaclient
-  
-  version: 2.17.0
-- 
-  category: dev-python
-  name: redis-py
+  name: markupsafe
   
   version: ""
 - 
@@ -124,44 +134,14 @@ requires:
   version: "5.0"
 - 
   category: dev-python
-  name: pymongo
+  name: setuptools
   
   version: ""
 - 
   category: dev-python
-  name: keyring
+  name: libcloud
   
-  version: ""
-- 
-  category: dev-python
-  name: ioflo
-  
-  version: 1.1.7
-- 
-  category: dev-python
-  name: pycryptodome
-  
-  version: ""
-- 
-  category: dev-python
-  name: mysql-python
-  
-  version: ""
-- 
-  category: dev-python
-  name: libnacl
-  
-  version: ""
-- 
-  category: dev-python
-  name: requests
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  name: libnacl
-  
-  version: 1.0.0
+  version: 0.14.0
 - 
   category: dev-python
   name: libvirt-python
@@ -169,12 +149,32 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: cherrypy
+  name: pyopenssl
   
-  version: 3.2.2
+  version: ""
 - 
   category: dev-python
-  name: python-gnupg
+  name: jinja
+  
+  version: ""
+- 
+  category: dev-python
+  name: libnacl
+  
+  version: ""
+- 
+  category: dev-python
+  name: pyyaml
+  
+  version: ""
+- 
+  category: www-servers
+  name: tornado
+  
+  version: 4.2.1
+- 
+  category: sec-policy
+  name: selinux-salt
   
   version: ""
 use_flags:

@@ -4,22 +4,17 @@ name: kvirc
 requires:
 - 
   category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
   name: qtsql
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kservice
+  
+  version: ""
+- 
+  category: app-text
+  name: enchant
   
   version: ""
 - 
@@ -28,8 +23,8 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwebkit
+  category: media-libs
+  name: libvorbis
   
   version: ""
 - 
@@ -38,23 +33,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  name: audiofile
+  category: dev-qt
+  name: qtdbus
   
   version: ""
 - 
   category: kde-frameworks
-  name: ki18n
+  name: kcoreaddons
   
   version: ""
 - 
@@ -68,18 +53,43 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: enchant
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-qt
-  name: qtwidgets
+  name: qtwebkit
   
   version: ""
 - 
   category: dev-qt
-  name: qtdbus
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtprintsupport
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtxml
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: ki18n
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kwindowsystem
   
   version: ""
 - 
@@ -89,12 +99,17 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtprintsupport
+  name: qtnetwork
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -108,23 +123,8 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcoreaddons
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kwindowsystem
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -134,17 +134,17 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtxml
+  name: qtcore
   
   version: ""
 - 
-  category: kde-frameworks
-  name: kservice
+  category: dev-qt
+  name: qtx11extras
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: media-libs
+  name: audiofile
   
   version: ""
 use_flags:

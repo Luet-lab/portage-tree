@@ -3,33 +3,33 @@ conflicts: []
 name: labplot
 requires:
 - 
-  category: kde-apps
-  name: cantor
-  
-  version: 19.08.0
-- 
-  category: sci-libs
-  name: netcdf
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtconcurrent
+  name: qtgui
   
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kconfig
+  name: kio
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kparts
+  name: kcrash
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: syntax-highlighting
   
   version: 5.60.0
 - 
   category: sci-libs
-  name: hdf5
+  name: libcerf
+  
+  version: ""
+- 
+  category: sci-libs
+  name: netcdf
   
   version: ""
 - 
@@ -39,7 +39,7 @@ requires:
   version: 5.12.3
 - 
   category: dev-qt
-  name: qtsql
+  name: qtprintsupport
   
   version: 5.12.3
 - 
@@ -49,49 +49,19 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kio
+  name: kconfig
   
   version: 5.60.0
 - 
-  category: sys-libs
-  name: zlib
+  category: kde-frameworks
+  name: kxmlgui
   
-  version: ""
+  version: 5.60.0
 - 
   category: sci-libs
   name: fftw
   
   version: ""
-- 
-  category: sci-libs
-  name: cfitsio
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kconfigwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: ki18n
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: knewstuff
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: syntax-highlighting
-  
-  version: 5.60.0
 - 
   category: dev-qt
   name: qtserialport
@@ -104,7 +74,37 @@ requires:
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kiconthemes
+  name: knewstuff
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: ktextwidgets
+  
+  version: 5.60.0
+- 
+  category: sci-libs
+  name: hdf5
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  name: cantor
+  
+  version: 19.08.0
+- 
+  category: kde-frameworks
+  name: kparts
   
   version: 5.60.0
 - 
@@ -113,10 +113,45 @@ requires:
   
   version: 5.60.0
 - 
+  category: app-arch
+  name: lz4
+  
+  version: ""
+- 
   category: kde-frameworks
-  name: kxmlgui
+  name: kcoreaddons
   
   version: 5.60.0
+- 
+  category: kde-frameworks
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kiconthemes
+  
+  version: 5.60.0
+- 
+  category: sci-libs
+  name: gsl
+  
+  version: "1.15"
+- 
+  category: sci-libs
+  name: cfitsio
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtsql
+  
+  version: 5.12.3
 - 
   category: dev-qt
   name: qtsvg
@@ -129,44 +164,9 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kcrash
+  name: kconfigwidgets
   
   version: 5.60.0
-- 
-  category: sci-libs
-  name: gsl
-  
-  version: "1.15"
-- 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kcoreaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: ktextwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: sci-libs
-  name: libcerf
-  
-  version: ""
 use_flags:
 - cantor
 - fftw

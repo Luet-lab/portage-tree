@@ -2,7 +2,7 @@ category: x11-misc
 conflicts:
 - 
   category: x11-misc
-  name: notify-osd
+  name: notification-daemon
   
   version: ""
 - 
@@ -12,11 +12,36 @@ conflicts:
   version: ""
 - 
   category: x11-misc
-  name: notification-daemon
+  name: notify-osd
   
   version: ""
 name: mate-notification-daemon
 requires:
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.78"
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: "1"
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libwnck
+  
+  version: "3"
 - 
   category: x11-libs
   name: cairo
@@ -33,45 +58,20 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libwnck
-  
-  version: "3"
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1"
-- 
-  category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
   category: media-libs
   name: libcanberra
   
   version: "0.4"
 - 
   category: dev-libs
-  name: dbus-glib
+  name: atk
   
-  version: "0.78"
+  version: ""
 - 
   category: dev-libs
   name: glib
   
   version: "2.50"
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
 - 
   category: x11-libs
   name: gtk+

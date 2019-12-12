@@ -3,6 +3,31 @@ conflicts: []
 name: genkernel
 requires:
 - 
+  category: app-arch
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-devel
+  name: libtool
+  
+  version: ""
+- 
+  category: app-misc
+  name: pax-utils
+  
+  version: 1.2.2
+- 
+  category: app-portage
+  name: elt-patches
+  
+  version: ""
+- 
+  category: sys-apps
+  name: sandbox
+  
+  version: ""
+- 
   category: sys-devel
   name: autoconf
   
@@ -18,38 +43,13 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: libtool
-  
-  version: ""
-- 
-  category: sys-kernel
-  name: linux-firmware
-  
-  version: ""
-- 
-  category: app-arch
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  name: sandbox
-  
-  version: ""
-- 
   category: virtual
   name: pkgconfig
   
   version: ""
 - 
-  category: app-misc
-  name: pax-utils
-  
-  version: 1.2.2
-- 
-  category: app-portage
-  name: elt-patches
+  category: sys-kernel
+  name: linux-firmware
   
   version: ""
 use_flags:

@@ -3,6 +3,16 @@ conflicts: []
 name: parted
 requires:
 - 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libiconv
+  
+  version: ""
+- 
   category: sys-fs
   name: e2fsprogs
   
@@ -22,16 +32,6 @@ requires:
   name: ncurses
   
   version: 5.7-r7
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libiconv
-  
-  version: ""
 use_flags:
 - +debug
 - device-mapper

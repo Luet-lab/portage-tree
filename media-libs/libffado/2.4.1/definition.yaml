@@ -4,22 +4,27 @@ conflicts:
   category: <media-sound
   name: jack-audio-connection-kit
   
-  version: 1.9.9
+  version: 0.122.0
 - 
   category: <media-sound
   name: jack-audio-connection-kit
   
-  version: 0.122.0
+  version: 1.9.9
 name: libffado
 requires:
 - 
-  category: sys-apps
-  name: dbus
+  category: dev-cpp
+  name: libxmlpp
+  
+  version: ""
+- 
+  category: media-libs
+  name: libiec61883
   
   version: ""
 - 
   category: sys-libs
-  name: libavc1394
+  name: libraw1394
   
   version: ""
 - 
@@ -28,8 +33,8 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: libxmlpp
+  category: x11-misc
+  name: xdg-utils
   
   version: ""
 - 
@@ -48,18 +53,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libiec61883
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
   category: sys-libs
-  name: libraw1394
+  name: libavc1394
   
   version: ""
 - 

@@ -3,13 +3,33 @@ conflicts: []
 name: fcitx
 requires:
 - 
-  category: sys-devel
-  name: gettext
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbfile
   
   version: ""
 - 
   category: app-text
-  name: iso-codes
+  name: enchant
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -19,17 +39,22 @@ requires:
   version: ""
 - 
   category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: virtual
   name: libintl
   
   version: ""
 - 
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
   category: x11-libs
-  name: libXrender
+  name: libXinerama
   
   version: ""
 - 
@@ -38,13 +63,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
+  category: dev-libs
+  name: gobject-introspection
   
   version: ""
 - 
@@ -54,52 +74,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libxkbfile
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: x11-libs
   name: cairo[X]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: app-text
-  name: enchant
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
   
   version: ""
 - 
@@ -109,7 +84,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xkeyboard-config
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -118,8 +108,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libxml2
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
   
   version: ""
 use_flags:

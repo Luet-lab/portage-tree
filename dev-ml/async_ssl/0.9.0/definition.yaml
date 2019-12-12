@@ -3,6 +3,16 @@ conflicts: []
 name: async_ssl
 requires:
 - 
+  category: dev-ml
+  name: ppx_jane
+  
+  version: ""
+- 
+  category: dev-ml
+  name: ocaml-ctypes
+  
+  version: ""
+- 
   category: dev-libs
   name: openssl
   
@@ -10,16 +20,6 @@ requires:
 - 
   category: dev-ml
   name: ocaml-migrate-parsetree
-  
-  version: ""
-- 
-  category: dev-ml
-  name: async
-  
-  version: ""
-- 
-  category: dev-ml
-  name: base
   
   version: ""
 - 
@@ -34,7 +34,12 @@ requires:
   version: ""
 - 
   category: dev-ml
-  name: ocaml-ctypes
+  name: ppx_driver
+  
+  version: ""
+- 
+  category: dev-ml
+  name: stdio
   
   version: ""
 - 
@@ -44,17 +49,12 @@ requires:
   version: ""
 - 
   category: dev-ml
-  name: ppx_driver
+  name: async
   
   version: ""
 - 
   category: dev-ml
-  name: ppx_jane
-  
-  version: ""
-- 
-  category: dev-ml
-  name: stdio
+  name: base
   
   version: ""
 use_flags:

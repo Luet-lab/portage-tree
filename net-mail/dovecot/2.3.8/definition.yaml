@@ -8,18 +8,13 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: acct-group
-  name: dovenull
+  name: dovecot
   
   version: ""
 - 
@@ -28,53 +23,23 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
   category: dev-db
   name: sqlite
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
   category: sys-libs
-  name: pam
+  name: zlib
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-dovecot
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: dev-db
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -83,18 +48,13 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
   category: acct-user
   name: dovenull
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
-  
-  version: ""
-- 
-  category: acct-user
-  name: dovecot
   
   version: ""
 - 
@@ -108,8 +68,53 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
   category: app-arch
-  name: xz-utils
+  name: lz4
+  
+  version: ""
+- 
+  category: acct-user
+  name: dovecot
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
+- 
+  category: acct-group
+  name: dovenull
   
   version: ""
 - 
@@ -119,12 +124,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: icu
   
   version: ""
 - 
-  category: acct-group
-  name: mail
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
   
   version: ""
 - 
@@ -133,23 +148,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
   category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: acct-group
-  name: dovecot
+  name: xz-utils
   
   version: ""
 use_flags:

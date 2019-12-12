@@ -3,58 +3,8 @@ conflicts: []
 name: git
 requires:
 - 
-  category: dev-perl
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: tk
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -64,17 +14,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: libwww-perl
   
   version: ""
 - 
   category: app-crypt
   name: libsecret
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
   
   version: ""
 - 
@@ -84,7 +29,17 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -93,8 +48,18 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: DBI
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -108,13 +73,23 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-lang
+  name: tk
   
   version: ""
 - 
+  category: dev-perl
+  name: CGI
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
   category: dev-libs
-  name: libressl
+  name: openssl
   
   version: ""
 - 
@@ -123,18 +98,43 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: app-text
+  name: highlight
   
   version: ""
 - 
   category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 use_flags:
@@ -155,7 +155,7 @@ use_flags:
 - +pcre-jit
 - perforce
 - +perl
-- ppcsha1
+- +ppcsha1
 - tk
 - +threads
 - +webdav

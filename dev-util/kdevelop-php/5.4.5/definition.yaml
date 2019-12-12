@@ -4,7 +4,7 @@ name: kdevelop-php
 requires:
 - 
   category: kde-frameworks
-  name: kconfig
+  name: kcoreaddons
   
   version: 5.60.0
 - 
@@ -14,19 +14,19 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
   name: kxmlgui
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: dev-util
+  name: kdevelop-pg-qt
   
-  version: 5.12.3
+  version: ""
+- 
+  category: kde-frameworks
+  name: kcmutils
+  
+  version: 5.60.0
 - 
   category: kde-frameworks
   name: ki18n
@@ -38,28 +38,23 @@ requires:
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: dev-util
-  name: kdevelop-pg-qt
-  
-  version: ""
-- 
-  category: dev-util
-  name: kdevelop
-  
-  version: ""
-- 
   category: kde-frameworks
-  name: kcmutils
+  name: kconfig
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kcoreaddons
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kconfigwidgets
   
   version: 5.60.0
 - 
@@ -68,10 +63,15 @@ requires:
   
   version: 5.60.0
 - 
-  category: kde-frameworks
-  name: kconfigwidgets
+  category: dev-qt
+  name: qtgui
   
-  version: 5.60.0
+  version: 5.12.3
+- 
+  category: dev-util
+  name: kdevelop
+  
+  version: ""
 use_flags:
 - ""
 version: 5.4.5

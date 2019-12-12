@@ -3,6 +3,21 @@ conflicts: []
 name: bitlbee
 requires:
 - 
+  category: net-im
+  name: pidgin
+  
+  version: ""
+- 
+  category: net-libs
+  name: libotr
+  
+  version: "4"
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
   category: virtual
   name: logger
   
@@ -18,21 +33,6 @@ requires:
   
   version: "2.16"
 - 
-  category: net-im
-  name: pidgin
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: net-libs
-  name: libotr
-  
-  version: "4"
-- 
   category: net-libs
   name: gnutls
   
@@ -44,12 +44,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: openssl
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libevent
   
   version: ""
 use_flags:

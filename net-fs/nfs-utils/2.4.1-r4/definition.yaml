@@ -18,30 +18,10 @@ conflicts:
 name: nfs-utils
 requires:
 - 
-  category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: sys-apps
-  name: keyutils
-  
-  version: 1.5.9
-- 
   category: net-libs
   name: libtirpc
   
   version: 0.2.4-r1
-- 
-  category: app-crypt
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-rpc
-  
-  version: ""
 - 
   category: net-nds
   name: rpcbind
@@ -49,7 +29,12 @@ requires:
   version: 0.2.4
 - 
   category: sys-libs
-  name: e2fsprogs-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libevent
   
   version: ""
 - 
@@ -58,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
-  
-  version: "3.3"
-- 
-  category: net-libs
-  name: libtirpc
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -73,18 +53,13 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
   category: sys-apps
-  name: tcp-wrappers
+  name: keyutils
+  
+  version: 1.5.9
+- 
+  category: app-crypt
+  name: mit-krb5
   
   version: ""
 - 
@@ -93,8 +68,33 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  name: sqlite
+  
+  version: "3.3"
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
   category: sys-libs
-  name: libcap
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-rpc
+  
+  version: ""
+- 
+  category: net-libs
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 use_flags:

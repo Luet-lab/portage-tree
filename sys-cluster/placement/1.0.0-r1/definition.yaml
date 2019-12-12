@@ -4,12 +4,17 @@ conflicts:
   category: ~dev-python
   name: setuptools
   
-  version: 34.3.2
+  version: 34.1.1
 - 
   category: ~dev-python
-  name: sqlalchemy
+  name: setuptools
   
-  version: 1.1.5
+  version: 34.0.2
+- 
+  category: ~dev-python
+  name: pymysql
+  
+  version: 0.7.7
 - 
   category: ~dev-python
   name: setuptools
@@ -27,29 +32,9 @@ conflicts:
   version: 34.1.0
 - 
   category: ~dev-python
-  name: setuptools
-  
-  version: 34.3.1
-- 
-  category: ~dev-python
-  name: setuptools
-  
-  version: 34.0.1
-- 
-  category: ~dev-python
   name: sqlalchemy
   
   version: 1.1.7
-- 
-  category: ~dev-python
-  name: pymysql
-  
-  version: 0.7.7
-- 
-  category: ~dev-python
-  name: oslo-serialization
-  
-  version: 1.19.1
 - 
   category: ~dev-python
   name: setuptools
@@ -59,17 +44,12 @@ conflicts:
   category: ~dev-python
   name: setuptools
   
-  version: 34.0.2
+  version: 34.3.2
 - 
   category: ~dev-python
-  name: setuptools
+  name: sqlalchemy
   
-  version: 34.1.1
-- 
-  category: ~dev-python
-  name: setuptools
-  
-  version: 36.2.0
+  version: 1.1.5
 - 
   category: ~dev-python
   name: sqlalchemy
@@ -77,14 +57,14 @@ conflicts:
   version: 1.1.6
 - 
   category: ~dev-python
-  name: setuptools
+  name: oslo-serialization
   
-  version: 34.3.0
+  version: 1.19.1
 - 
   category: ~dev-python
   name: setuptools
   
-  version: 34.0.0
+  version: 34.3.0
 - 
   category: ~dev-python
   name: sqlalchemy
@@ -92,46 +72,31 @@ conflicts:
   version: 1.1.8
 - 
   category: ~dev-python
+  name: setuptools
+  
+  version: 34.0.1
+- 
+  category: ~dev-python
   name: pbr
   
   version: 2.1.0
+- 
+  category: ~dev-python
+  name: setuptools
+  
+  version: 34.0.0
+- 
+  category: ~dev-python
+  name: setuptools
+  
+  version: 34.3.1
+- 
+  category: ~dev-python
+  name: setuptools
+  
+  version: 36.2.0
 name: placement
 requires:
-- 
-  category: dev-python
-  name: routes
-  
-  version: 2.3.1
-- 
-  category: dev-python
-  name: oslo-concurrency
-  
-  version: 3.26.0
-- 
-  category: dev-python
-  name: oslo-serialization
-  
-  version: 1.18.0
-- 
-  category: dev-python
-  name: microversion-parse
-  
-  version: 0.2.1
-- 
-  category: dev-python
-  name: keystonemiddleware
-  
-  version: 4.18.0
-- 
-  category: dev-python
-  name: oslo-config
-  
-  version: 6.7.0
-- 
-  category: dev-python
-  name: pymysql
-  
-  version: 0.7.6
 - 
   category: dev-python
   name: requests
@@ -139,39 +104,9 @@ requires:
   version: 2.14.2
 - 
   category: dev-python
-  name: oslo-context
+  name: microversion-parse
   
-  version: 2.19.2
-- 
-  category: dev-python
-  name: oslo-db
-  
-  version: 4.40.0
-- 
-  category: dev-python
-  name: oslo-upgradecheck
-  
-  version: 0.2.0
-- 
-  category: dev-python
-  name: oslo-i18n
-  
-  version: 3.15.3
-- 
-  category: dev-python
-  name: oslo-utils
-  
-  version: 3.37.0
-- 
-  category: dev-python
-  name: setuptools
-  
-  version: 21.0.0
-- 
-  category: dev-python
-  name: sqlalchemy
-  
-  version: 1.0.10
+  version: 0.2.1
 - 
   category: dev-python
   name: webob
@@ -179,19 +114,14 @@ requires:
   version: 1.8.2
 - 
   category: dev-python
-  name: oslo-middleware
+  name: oslo-db
   
-  version: 3.31.0
+  version: 4.40.0
 - 
   category: dev-python
-  name: os-traits
+  name: oslo-i18n
   
-  version: 0.4.0
-- 
-  category: dev-python
-  name: six
-  
-  version: 1.10.0
+  version: 3.15.3
 - 
   category: dev-python
   name: os-resource-classes
@@ -199,9 +129,94 @@ requires:
   version: 0.2.0
 - 
   category: dev-python
+  name: routes
+  
+  version: 2.3.1
+- 
+  category: dev-python
+  name: oslo-policy
+  
+  version: 1.35.0
+- 
+  category: dev-python
+  name: oslo-upgradecheck
+  
+  version: 0.2.0
+- 
+  category: dev-python
+  name: oslo-middleware
+  
+  version: 3.31.0
+- 
+  category: dev-python
+  name: setuptools
+  
+  version: 21.0.0
+- 
+  category: dev-python
+  name: oslo-context
+  
+  version: 2.19.2
+- 
+  category: dev-python
+  name: oslo-log
+  
+  version: 3.36.0
+- 
+  category: dev-python
+  name: oslo-serialization
+  
+  version: 1.18.0
+- 
+  category: dev-python
+  name: pymysql
+  
+  version: 0.7.6
+- 
+  category: dev-python
+  name: six
+  
+  version: 1.10.0
+- 
+  category: dev-python
+  name: oslo-concurrency
+  
+  version: 3.26.0
+- 
+  category: dev-python
+  name: oslo-config
+  
+  version: 6.7.0
+- 
+  category: dev-python
+  name: os-traits
+  
+  version: 0.4.0
+- 
+  category: dev-python
+  name: pbr
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  name: sqlalchemy
+  
+  version: 1.0.10
+- 
+  category: dev-python
+  name: keystonemiddleware
+  
+  version: 4.18.0
+- 
+  category: dev-python
   name: jsonschema
   
-  version: 2.6.0
+  version: 3.0.0
+- 
+  category: dev-python
+  name: oslo-utils
+  
+  version: 3.37.0
 - 
   category: dev-python
   name: psycopg
@@ -211,22 +226,7 @@ requires:
   category: dev-python
   name: jsonschema
   
-  version: 3.0.0
-- 
-  category: dev-python
-  name: oslo-log
-  
-  version: 3.36.0
-- 
-  category: dev-python
-  name: oslo-policy
-  
-  version: 1.35.0
-- 
-  category: dev-python
-  name: pbr
-  
-  version: 2.0.0
+  version: 2.6.0
 use_flags:
 - mysql
 - postgres

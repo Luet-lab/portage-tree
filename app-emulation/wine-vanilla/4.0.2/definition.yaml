@@ -8,23 +8,28 @@ conflicts:
 name: wine-vanilla
 requires:
 - 
+  category: media-libs
+  name: openal
+  
+  version: ""
+- 
   category: virtual
   name: opengl
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
-  category: dev-db
-  name: unixODBC
+  category: games-emulation
+  name: dosbox
   
-  version: ""
+  version: 0.74_p20160629
 - 
-  category: media-gfx
-  name: sane-backends
+  category: net-libs
+  name: gnutls
   
   version: ""
 - 
@@ -33,13 +38,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXrandr
+  category: app-emulation
+  name: wine-gecko
   
   version: ""
 - 
-  category: x11-libs
-  name: libXcomposite
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
@@ -53,43 +58,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: alsa-lib
+  category: app-eselect
+  name: eselect-wine
   
-  version: ""
+  version: "0.3"
 - 
-  category: media-libs
-  name: lcms
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-mono
-  
-  version: ""
-- 
-  category: sys-auth
-  name: rtkit
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: net-libs
-  name: libcapi
-  
-  version: ""
-- 
-  category: app-emulation
-  name: vkd3d
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-desktop-common
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -98,8 +73,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libgphoto2
+  category: app-emulation
+  name: vkd3d
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: net-libs
+  name: libcapi
   
   version: ""
 - 
@@ -108,23 +93,83 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXinerama
+  category: media-libs
+  name: freetype
+  
+  version: 2.0.0
+- 
+  category: media-sound
+  name: gsm
   
   version: ""
 - 
-  category: games-emulation
-  name: dosbox
+  category: net-fs
+  name: samba[netapi(+),]
   
-  version: 0.74_p20160629
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: virtual
+  name: glu
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: media-libs
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-sound
+  name: mpg123
+  
+  version: 1.5.0
+- 
+  category: net-fs
+  name: samba
+  
+  version: 3.0.25
+- 
+  category: sec-policy
+  name: selinux-wine
+  
+  version: ""
 - 
   category: x11-libs
   name: libXfixes
   
   version: ""
 - 
-  category: x11-libs
-  name: libXi
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: virtual
+  name: opencl
   
   version: ""
 - 
@@ -134,17 +179,7 @@ requires:
   version: "13"
 - 
   category: media-libs
-  name: vulkan-loader
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-gecko
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: fontconfig
   
   version: ""
 - 
@@ -153,23 +188,58 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
+  category: sys-auth
+  name: rtkit
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: dev-db
+  name: unixODBC
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-desktop-common
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: dev-perl
+  name: XML-Simple
   
   version: ""
 - 
   category: media-libs
-  name: freetype
-  
-  version: 2.0.0
-- 
-  category: media-libs
-  name: libv4l
+  name: lcms
   
   version: ""
 - 
-  category: net-fs
-  name: samba[netapi(+),]
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-gfx
+  name: sane-backends
+  
+  version: ""
+- 
+  category: media-libs
+  name: vulkan-loader
   
   version: ""
 - 
@@ -183,48 +253,13 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: XML-Simple
-  
-  version: ""
-- 
-  category: net-fs
-  name: samba
-  
-  version: 3.0.25
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: media-sound
-  name: gsm
-  
-  version: ""
-- 
   category: dev-libs
   name: libxml2
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl2
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-wine
+  category: app-emulation
+  name: wine-mono
   
   version: ""
 - 
@@ -234,52 +269,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: app-eselect
-  name: eselect-wine
-  
-  version: "0.3"
-- 
-  category: media-sound
-  name: mpg123
-  
-  version: 1.5.0
-- 
-  category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: virtual
-  name: glu
+  name: libv4l
   
   version: ""
 - 
   category: x11-libs
-  name: libXcursor
+  name: libXcomposite
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: "5.2"
-- 
-  category: virtual
-  name: opencl
+  category: x11-libs
+  name: libXinerama
   
   version: ""
 use_flags:

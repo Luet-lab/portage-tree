@@ -8,6 +8,16 @@ conflicts:
 name: squid
 requires:
 - 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
   category: dev-libs
   name: openssl
   
@@ -18,23 +28,28 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
+  category: sec-policy
+  name: selinux-squid
   
-  version: 3.1.5
+  version: ""
 - 
-  category: app-admin
-  name: logrotate
+  category: sys-libs
+  name: libcap
+  
+  version: "2.16"
+- 
+  category: virtual
+  name: krb5
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: libxml2
   
   version: ""
 - 
-  category: net-libs
-  name: libecap
+  category: app-admin
+  name: logrotate
   
   version: ""
 - 
@@ -48,8 +63,43 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  name: libnetfilter_conntrack
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
   category: dev-lang
   name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nettle
+  
+  version: ""
+- 
+  category: dev-libs
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libecap
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 3.1.5
+- 
+  category: net-fs
+  name: samba
   
   version: ""
 - 
@@ -63,58 +113,8 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-squid
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnetfilter_conntrack
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  name: nettle
-  
-  version: ""
-- 
-  category: dev-libs
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: net-fs
-  name: samba
-  
-  version: ""
-- 
   category: dev-perl
   name: DBD-SQLite
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
   
   version: ""
 use_flags:

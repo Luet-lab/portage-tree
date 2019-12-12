@@ -4,57 +4,7 @@ name: wlroots
 requires:
 - 
   category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
   name: xcb-util-image
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libdrm
-  
-  version: ""
-- 
-  category: sys-auth
-  name: elogind
-  
-  version: "237"
-- 
-  category: net-misc
-  name: freerdp
-  
-  version: ""
-- 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util-wm
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
   
   version: ""
 - 
@@ -63,13 +13,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libinput
+  category: media-libs
+  name: mesa
   
-  version: 1.9.0
+  version: ""
 - 
-  category: virtual
-  name: libudev
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: x11-base
+  name: xorg-server
   
   version: ""
 - 
@@ -77,6 +32,51 @@ requires:
   name: systemd
   
   version: "237"
+- 
+  category: x11-libs
+  name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util-wm
+  
+  version: ""
+- 
+  category: net-misc
+  name: freerdp
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-auth
+  name: elogind
+  
+  version: "237"
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.9.0
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
 use_flags:
 - elogind
 - icccm
