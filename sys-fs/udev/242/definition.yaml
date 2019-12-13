@@ -1,6 +1,11 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-fs
+  name: lvm2
+  
+  version: 2.02.103
+- 
   category: <sec-policy
   name: selinux-base
   
@@ -20,71 +25,16 @@ conflicts:
   name: systemd
   
   version: ""
-- 
-  category: <sys-fs
-  name: lvm2
-  
-  version: 2.02.103
 name: udev
 requires:
 - 
-  category: acct-group
-  name: tape
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sys-apps
-  name: acl
-  
-  version: ""
-- 
-  category: acct-group
-  name: tty
-  
-  version: ""
-- 
-  category: acct-group
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  name: render
-  
-  version: ""
-- 
-  category: acct-group
-  name: video
-  
-  version: ""
-- 
-  category: acct-group
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  name: disk
-  
-  version: ""
-- 
-  category: acct-group
-  name: input
-  
-  version: ""
-- 
   category: sys-libs
-  name: libcap
+  name: libselinux
+  
+  version: 2.1.9
+- 
+  category: acct-group
+  name: lp
   
   version: ""
 - 
@@ -94,14 +44,34 @@ requires:
   version: "16"
 - 
   category: acct-group
-  name: dialout
+  name: audio
   
   version: ""
 - 
-  category: sys-libs
-  name: libselinux
+  category: acct-group
+  name: cdrom
   
-  version: 2.1.9
+  version: ""
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
+- 
+  category: acct-group
+  name: tty
+  
+  version: ""
+- 
+  category: acct-group
+  name: kmem
+  
+  version: ""
+- 
+  category: acct-group
+  name: disk
+  
+  version: ""
 - 
   category: acct-group
   name: kvm
@@ -109,9 +79,39 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: lp
+  name: render
   
   version: ""
+- 
+  category: sys-apps
+  name: acl
+  
+  version: ""
+- 
+  category: acct-group
+  name: video
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: acct-group
+  name: dialout
+  
+  version: ""
+- 
+  category: acct-group
+  name: input
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: "2.30"
 use_flags:
 - acl
 - +kmod

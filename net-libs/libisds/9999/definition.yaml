@@ -3,6 +3,16 @@ conflicts: []
 name: libisds
 requires:
 - 
+  category: app-crypt
+  name: gpgme
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
   category: dev-libs
   name: libgcrypt
   
@@ -22,16 +32,6 @@ requires:
   name: gnupg
   
   version: "2"
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
 use_flags:
 - +curl
 - debug

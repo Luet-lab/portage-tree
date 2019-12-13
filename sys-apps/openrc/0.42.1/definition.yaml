@@ -2,49 +2,39 @@ category: sys-apps
 conflicts:
 - 
   category: <app-shells
-  name: gentoo-zsh-completions
+  name: gentoo-bashcomp
   
-  version: "20180228"
+  version: "20180302"
 - 
-  category: <sys-process
-  name: procps
+  category: <sys-apps
+  name: baselayout
   
-  version: 3.3.9-r2
+  version: 2.1-r1
 - 
   category: <sys-fs
   name: udev-init-scripts
   
   version: "27"
 - 
-  category: <app-shells
-  name: gentoo-bashcomp
-  
-  version: "20180302"
-- 
   category: sys-apps
   name: sysvinit
   
   version: ""
 - 
-  category: <sys-apps
-  name: baselayout
+  category: <sys-process
+  name: procps
   
-  version: 2.1-r1
+  version: 3.3.9-r2
+- 
+  category: <app-shells
+  name: gentoo-zsh-completions
+  
+  version: "20180228"
 name: openrc
 requires:
 - 
-  category: sec-policy
-  name: selinux-base-policy
-  
-  version: 2.20170204-r4
-- 
-  category: sec-policy
-  name: selinux-openrc
-  
-  version: 2.20170204-r4
-- 
-  category: sys-libs
-  name: pam
+  category: sys-apps
+  name: sysvinit-2.86-r6[selinux?]
   
   version: ""
 - 
@@ -58,25 +48,20 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: sysvinit-2.86-r6[selinux?]
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-process
-  name: audit
-  
-  version: ""
-- 
   category: app-shells
   name: bash
   
   version: ""
+- 
+  category: sec-policy
+  name: selinux-base-policy
+  
+  version: 2.20170204-r4
+- 
+  category: sec-policy
+  name: selinux-openrc
+  
+  version: 2.20170204-r4
 - 
   category: sys-auth
   name: pambase
@@ -88,10 +73,25 @@ requires:
   
   version: ""
 - 
+  category: sys-process
+  name: audit
+  
+  version: ""
+- 
   category: sys-libs
   name: libselinux
   
   version: "2.6"
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
 use_flags:
 - audit
 - bash

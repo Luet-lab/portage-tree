@@ -8,33 +8,13 @@ conflicts:
 name: lxqt-session
 requires:
 - 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libqtxdg
-  
-  version: 3.3.1
-- 
   category: dev-qt
-  name: qtcore
+  name: qtdbus
   
   version: ""
 - 
   category: dev-qt
   name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtx11extras
   
   version: ""
 - 
@@ -48,8 +28,23 @@ requires:
   
   version: ""
 - 
+  category: x11-misc
+  name: xdg-user-dirs
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libqtxdg
+  
+  version: 3.3.1
+- 
   category: dev-qt
-  name: qtdbus
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtx11extras
   
   version: ""
 - 
@@ -58,13 +53,18 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  name: xdg-user-dirs
+  category: x11-themes
+  name: lxqt-themes
   
   version: ""
 - 
-  category: x11-themes
-  name: lxqt-themes
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
   
   version: ""
 use_flags:

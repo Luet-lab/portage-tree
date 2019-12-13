@@ -3,33 +3,13 @@ conflicts: []
 name: gkrellm
 requires:
 - 
-  category: dev-libs
-  name: libressl
+  category: acct-user
+  name: gkrellmd
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: app-admin
-  name: hddtemp
+  category: net-libs
+  name: libntlm
   
   version: ""
 - 
@@ -43,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: acct-user
-  name: gkrellmd
+  category: net-libs
+  name: gnutls
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -69,6 +49,16 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
   name: libX11
   
   version: ""
@@ -78,8 +68,18 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libntlm
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: app-admin
+  name: hddtemp
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 use_flags:

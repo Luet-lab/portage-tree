@@ -3,33 +3,38 @@ conflicts: []
 name: git
 requires:
 - 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
   category: dev-perl
   name: HTML-Tree
   
   version: ""
 - 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
   category: dev-libs
-  name: libressl
+  name: openssl
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DBD-SQLite
   
   version: ""
 - 
@@ -38,23 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-lang
-  name: tk
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -68,38 +58,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: dev-perl
-  name: Error
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: MailTools
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
+  name: libwww-perl
   
   version: ""
 - 
@@ -108,18 +68,48 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
   category: dev-libs
-  name: libpcre
+  name: expat
   
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
+  name: CGI
   
   version: ""
 - 
-  category: dev-perl
-  name: DBD-SQLite
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
@@ -128,15 +118,25 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
   category: dev-vcs
   name: subversion
   
   version: ""
+- 
+  category: dev-libs
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
 use_flags:
 - +blksha1
 - +curl

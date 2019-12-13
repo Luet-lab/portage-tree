@@ -3,18 +3,13 @@ conflicts: []
 name: gkrellm
 requires:
 - 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: net-libs
-  name: libntlm
+  category: x11-libs
+  name: gtk+
   
   version: ""
 - 
   category: x11-libs
-  name: libICE
+  name: pango
   
   version: ""
 - 
@@ -23,8 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: sys-apps
+  name: lm-sensors
   
   version: ""
 - 
@@ -33,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: x11-libs
+  name: libSM
   
   version: ""
 - 
@@ -48,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
+  category: net-libs
+  name: libntlm
   
   version: ""
 - 
@@ -63,13 +53,23 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libSM
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: libICE
   
   version: ""
 use_flags:

@@ -3,21 +3,6 @@ conflicts: []
 name: bluez-alsa
 requires:
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: media-libs
-  name: libldac
-  
-  version: 2.0.0
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.26"
-- 
   category: media-libs
   name: alsa-lib
   
@@ -28,25 +13,40 @@ requires:
   
   version: "5.0"
 - 
-  category: media-libs
-  name: fdk-aac
+  category: sys-libs
+  name: readline
   
-  version: 0.1.1
+  version: ""
 - 
   category: dev-libs
   name: libbsd
   
   version: ""
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.26"
+- 
   category: media-libs
   name: sbc
   
   version: "1.2"
 - 
+  category: media-libs
+  name: fdk-aac
+  
+  version: 0.1.1
+- 
   category: sys-libs
-  name: readline
+  name: ncurses
   
   version: ""
+- 
+  category: media-libs
+  name: libldac
+  
+  version: 2.0.0
 use_flags:
 - aac
 - debug

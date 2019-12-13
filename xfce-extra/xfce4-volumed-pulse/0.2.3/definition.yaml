@@ -3,6 +3,16 @@ conflicts: []
 name: xfce4-volumed-pulse
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.16"
+- 
+  category: dev-libs
+  name: keybinder
+  
+  version: ""
+- 
   category: media-sound
   name: pulseaudio
   
@@ -20,16 +30,6 @@ requires:
 - 
   category: x11-libs
   name: libnotify
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  name: keybinder
   
   version: ""
 use_flags:

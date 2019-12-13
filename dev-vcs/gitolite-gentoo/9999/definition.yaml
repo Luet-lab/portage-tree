@@ -8,6 +8,11 @@ conflicts:
 name: gitolite-gentoo
 requires:
 - 
+  category: virtual
+  name: perl-File-Temp
+  
+  version: ""
+- 
   category: sec-policy
   name: selinux-gitosis
   
@@ -28,6 +33,11 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: perl-File-Path
+  
+  version: ""
+- 
   category: dev-vcs
   name: git
   
@@ -35,16 +45,6 @@ requires:
 - 
   category: app-vim
   name: gitolite-syntax
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-File-Path
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-File-Temp
   
   version: ""
 use_flags:

@@ -3,10 +3,15 @@ conflicts: []
 name: zathura
 requires:
 - 
-  category: x11-libs
-  name: cairo[X]
+  category: dev-libs
+  name: glib
   
-  version: ""
+  version: "2.50"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
 - 
   category: sys-apps
   name: file
@@ -28,25 +33,20 @@ requires:
   
   version: 0.3.2
 - 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: 0.19.8
-- 
   category: x11-libs
-  name: gtk+
+  name: cairo[X]
   
-  version: "3.22"
+  version: ""
 - 
   category: sys-libs
   name: libseccomp
   
   version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: 0.19.8
 use_flags:
 - doc
 - +magic

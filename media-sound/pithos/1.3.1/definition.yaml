@@ -3,20 +3,30 @@ conflicts: []
 name: pithos
 requires:
 - 
+  category: dev-python
+  name: pygobject
+  
+  version: "3.12"
+- 
+  category: dev-libs
+  name: appstream-glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
   category: media-libs
   name: gstreamer
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-meta
+  category: x11-themes
+  name: gnome-icon-theme-symbolic
   
   version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.14"
 - 
   category: x11-libs
   name: libnotify
@@ -39,29 +49,19 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pygobject
-  
-  version: "3.12"
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: x11-themes
-  name: gnome-icon-theme-symbolic
-  
-  version: ""
-- 
-  category: dev-python
   name: dbus-python
   
   version: ""
 - 
-  category: dev-libs
-  name: appstream-glib
+  category: media-plugins
+  name: gst-plugins-meta
   
   version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.14"
 use_flags:
 - libnotify
 - appindicator

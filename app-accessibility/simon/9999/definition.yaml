@@ -3,13 +3,28 @@ conflicts: []
 name: simon
 requires:
 - 
-  category: dev-qt
-  name: qtdbus
+  category: kde-frameworks
+  name: karchive
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kconfig
   
   version: ""
 - 
   category: dev-qt
-  name: qtgui
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kconfigwidgets
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kguiaddons
   
   version: ""
 - 
@@ -23,38 +38,28 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
-  name: kxmlgui
+  category: x11-libs
+  name: qwt
   
   version: ""
 - 
-  category: media-libs
-  name: alsa-lib
+  category: dev-qt
+  name: qtgui
   
   version: ""
 - 
-  category: media-libs
-  name: libqaccessibilityclient
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcmutils
+  category: dev-qt
+  name: qtx11extras
   
   version: ""
 - 
   category: kde-frameworks
-  name: kdbusaddons
+  name: kcompletion
   
   version: ""
 - 
   category: kde-frameworks
   name: kparts
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: ktexteditor
   
   version: ""
 - 
@@ -69,12 +74,7 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: karchive
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcoreaddons
+  name: kcmutils
   
   version: ""
 - 
@@ -83,58 +83,8 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
   category: kde-frameworks
-  name: kconfigwidgets
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kiconthemes
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: kde-apps
-  name: okular
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcompletion
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kconfig
+  name: kdbusaddons
   
   version: ""
 - 
@@ -144,7 +94,57 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kguiaddons
+  name: kio
+  
+  version: ""
+- 
+  category: kde-apps
+  name: okular
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kiconthemes
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kcoreaddons
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: ktexteditor
+  
+  version: ""
+- 
+  category: media-libs
+  name: libqaccessibilityclient
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
   
   version: ""
 - 
@@ -154,12 +154,12 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kio
+  name: kxmlgui
   
   version: ""
 - 
-  category: x11-libs
-  name: qwt
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 use_flags:

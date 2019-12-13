@@ -8,113 +8,8 @@ conflicts:
 name: wine-vanilla
 requires:
 - 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  name: libgphoto2
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxslt
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-mono
-  
-  version: ""
-- 
-  category: net-print
-  name: cups
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: app-emulation
-  name: wine-desktop-common
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: media-sound
-  name: mpg123
-  
-  version: 1.5.0
-- 
-  category: media-libs
-  name: mesa
-  
-  version: "13"
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: virtual
-  name: glu
-  
-  version: ""
-- 
-  category: media-libs
-  name: vulkan-loader
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: net-fs
-  name: samba
-  
-  version: 3.0.25
-- 
-  category: dev-perl
-  name: XML-Simple
+  category: sec-policy
+  name: selinux-wine
   
   version: ""
 - 
@@ -123,53 +18,48 @@ requires:
   
   version: "5.2"
 - 
-  category: sys-fs
-  name: udisks
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
-  category: x11-libs
-  name: libXrandr
+  category: games-emulation
+  name: dosbox
   
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-gfx
-  name: sane-backends
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcomposite
-  
-  version: ""
+  version: 0.74_p20160629
 - 
   category: sys-auth
   name: rtkit
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: x11-libs
+  name: libXinerama
   
   version: ""
 - 
-  category: virtual
-  name: opengl
+  category: net-nds
+  name: openldap
   
   version: ""
+- 
+  category: media-sound
+  name: mpg123
+  
+  version: 1.5.0
 - 
   category: net-fs
   name: samba[netapi(+),]
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl2
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
@@ -178,23 +68,28 @@ requires:
   
   version: "0.3"
 - 
-  category: games-emulation
-  name: dosbox
-  
-  version: 0.74_p20160629
-- 
-  category: x11-libs
-  name: libXxf86vm
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
-  category: media-sound
-  name: gsm
+  category: net-libs
+  name: libcapi
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
+  category: net-print
+  name: cups
+  
+  version: ""
+- 
+  category: virtual
+  name: opencl
+  
+  version: ""
+- 
+  category: media-libs
+  name: openal
   
   version: ""
 - 
@@ -204,52 +99,27 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libv4l
+  name: vulkan-loader
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
   
   version: ""
 - 
   category: media-libs
   name: fontconfig
-  
-  version: ""
-- 
-  category: dev-db
-  name: unixODBC
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-wine
-  
-  version: ""
-- 
-  category: net-libs
-  name: libcapi
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: 2.0.0
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: app-emulation
-  name: vkd3d
   
   version: ""
 - 
@@ -263,23 +133,153 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXext
+  category: media-gfx
+  name: sane-backends
   
   version: ""
 - 
-  category: net-nds
-  name: openldap
+  category: dev-perl
+  name: XML-Simple
   
   version: ""
 - 
-  category: virtual
-  name: opencl
+  category: net-fs
+  name: samba
+  
+  version: 3.0.25
+- 
+  category: media-libs
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: app-emulation
+  name: vkd3d
   
   version: ""
 - 
   category: app-emulation
   name: wine-gecko
+  
+  version: ""
+- 
+  category: sys-fs
+  name: udisks
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: media-libs
+  name: libv4l
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-mono
+  
+  version: ""
+- 
+  category: dev-db
+  name: unixODBC
+  
+  version: ""
+- 
+  category: virtual
+  name: glu
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  name: mesa
+  
+  version: "13"
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: 2.0.0
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxslt
+  
+  version: ""
+- 
+  category: app-emulation
+  name: wine-desktop-common
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-sound
+  name: gsm
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
   
   version: ""
 use_flags:

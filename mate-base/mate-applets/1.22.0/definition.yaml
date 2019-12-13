@@ -8,70 +8,35 @@ conflicts:
 name: mate-applets
 requires:
 - 
-  category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
   category: x11-libs
   name: libX11
   
   version: ""
 - 
-  category: sys-power
-  name: upower
-  
-  version: 0.9.23
-- 
   category: dev-libs
-  name: libmateweather
+  name: dbus-glib
   
-  version: 1.17.0
+  version: "0.74"
+- 
+  category: dev-python
+  name: pygobject
+  
+  version: ""
 - 
   category: mate-base
   name: mate-panel
   
   version: 1.17.0
 - 
-  category: net-wireless
-  name: wireless-tools
-  
-  version: 28_pre9
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: gnome-base
-  name: libgtop
-  
-  version: 2.12.0
-- 
-  category: gnome-extra
-  name: gucharmap
-  
-  version: "3.0"
-- 
   category: sys-apps
   name: dbus
   
   version: 1.1.2
 - 
-  category: sys-power
-  name: cpupower
+  category: x11-libs
+  name: gtk+
   
-  version: ""
+  version: "3.22"
 - 
   category: x11-libs
   name: gtksourceview
@@ -83,15 +48,15 @@ requires:
   
   version: "3.0"
 - 
-  category: x11-libs
-  name: pango
+  category: sys-auth
+  name: polkit
   
-  version: ""
+  version: "0.97"
 - 
   category: dev-libs
-  name: dbus-glib
+  name: atk
   
-  version: "0.74"
+  version: ""
 - 
   category: dev-libs
   name: glib
@@ -103,15 +68,15 @@ requires:
   
   version: "2.5"
 - 
-  category: dev-python
-  name: pygobject
+  category: net-wireless
+  name: wireless-tools
+  
+  version: 28_pre9
+- 
+  category: sys-power
+  name: cpupower
   
   version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
 - 
   category: x11-libs
   name: libnotify
@@ -122,6 +87,41 @@ requires:
   name: mate-settings-daemon
   
   version: "1.6"
+- 
+  category: dev-libs
+  name: libmateweather
+  
+  version: 1.17.0
+- 
+  category: gnome-base
+  name: libgtop
+  
+  version: 2.12.0
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: sys-power
+  name: upower
+  
+  version: 0.9.23
+- 
+  category: gnome-extra
+  name: gucharmap
+  
+  version: "3.0"
 use_flags:
 - X
 - ipv6

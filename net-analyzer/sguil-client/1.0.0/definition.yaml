@@ -3,35 +3,30 @@ conflicts: []
 name: sguil-client
 requires:
 - 
-  category: dev-lang
-  name: tcl
-  
-  version: "8.3"
-- 
-  category: dev-lang
-  name: tk
-  
-  version: "8.3"
-- 
   category: dev-tcltk
   name: itcl
   
   version: "3.2"
 - 
-  category: dev-tcltk
-  name: itk
+  category: net-analyzer
+  name: wireshark
   
   version: ""
 - 
-  category: dev-tcltk
-  name: tls
+  category: dev-lang
+  name: tcl
   
-  version: 1.4.1
+  version: "8.3"
 - 
   category: dev-tcltk
   name: tclx
   
   version: "8.3"
+- 
+  category: dev-tcltk
+  name: itk
+  
+  version: ""
 - 
   category: dev-tcltk
   name: iwidgets
@@ -43,10 +38,15 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
-  name: wireshark
+  category: dev-tcltk
+  name: tls
   
-  version: ""
+  version: 1.4.1
+- 
+  category: dev-lang
+  name: tk
+  
+  version: "8.3"
 use_flags:
 - ssl
 version: 1.0.0

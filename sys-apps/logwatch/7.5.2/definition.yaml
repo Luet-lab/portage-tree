@@ -3,8 +3,18 @@ conflicts: []
 name: logwatch
 requires:
 - 
+  category: virtual
+  name: cron
+  
+  version: ""
+- 
+  category: virtual
+  name: mta
+  
+  version: ""
+- 
   category: dev-perl
-  name: Tie-IxHash
+  name: Date-Manip
   
   version: ""
 - 
@@ -19,12 +29,12 @@ requires:
   version: ""
 - 
   category: virtual
-  name: cron
+  name: mailx
   
   version: ""
 - 
-  category: virtual
-  name: mta
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -34,17 +44,7 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Date-Manip
-  
-  version: ""
-- 
-  category: virtual
-  name: mailx
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  name: Tie-IxHash
   
   version: ""
 use_flags:

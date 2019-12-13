@@ -3,15 +3,10 @@ conflicts: []
 name: tellico
 requires:
 - 
-  category: dev-perl
-  name: Text-BibTeX
+  category: app-text
+  name: poppler
   
-  version: 0.780.0-r1
-- 
-  category: media-libs
-  name: taglib
-  
-  version: "1.5"
+  version: ""
 - 
   category: dev-libs
   name: yaz
@@ -24,14 +19,24 @@ requires:
   version: ""
 - 
   category: dev-libs
+  name: libxslt
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Text-BibTeX
+  
+  version: 0.780.0-r1
+- 
+  category: dev-libs
   name: libcdio
   
   version: ""
 - 
-  category: app-text
-  name: poppler
+  category: media-libs
+  name: taglib
   
-  version: ""
+  version: "1.5"
 - 
   category: media-libs
   name: libv4l
@@ -42,11 +47,6 @@ requires:
   name: exempi
   
   version: "2"
-- 
-  category: dev-libs
-  name: libxslt
-  
-  version: ""
 use_flags:
 - cddb
 - discid

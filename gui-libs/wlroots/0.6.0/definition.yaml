@@ -3,15 +3,10 @@ conflicts: []
 name: wlroots
 requires:
 - 
-  category: dev-libs
-  name: libinput
+  category: x11-libs
+  name: libxcb
   
-  version: 1.9.0
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
+  version: ""
 - 
   category: media-libs
   name: mesa
@@ -22,6 +17,41 @@ requires:
   name: libdrm
   
   version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: sys-auth
+  name: elogind
+  
+  version: "237"
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.9.0
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util-image
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
 - 
   category: x11-libs
   name: pixman
@@ -38,38 +68,8 @@ requires:
   
   version: "237"
 - 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: sys-auth
-  name: elogind
-  
-  version: "237"
-- 
   category: x11-libs
   name: xcb-util-wm
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util-image
   
   version: ""
 - 

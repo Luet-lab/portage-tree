@@ -3,13 +3,13 @@ conflicts: []
 name: mozc
 requires:
 - 
-  category: virtual
-  name: libintl
+  category: dev-qt
+  name: qtwidgets
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: app-i18n
+  name: zinnia-tomoe
   
   version: ""
 - 
@@ -19,22 +19,27 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
+  name: libxcb
   
   version: ""
 - 
-  category: dev-libs
-  name: protobuf
+  category: x11-libs
+  name: gtk+
   
-  version: 3.0.0
+  version: ""
 - 
   category: app-i18n
   name: fcitx
   
   version: ""
 - 
-  category: dev-qt
-  name: qtcore
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: app-i18n
+  name: zinnia
   
   version: ""
 - 
@@ -44,17 +49,27 @@ requires:
   version: ""
 - 
   category: app-i18n
-  name: tegaki-zinnia-japanese
-  
-  version: ""
-- 
-  category: app-i18n
   name: ibus
   
   version: 1.4.1
 - 
-  category: virtual
-  name: emacs
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf
+  
+  version: 3.0.0
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: app-i18n
+  name: tegaki-zinnia-japanese
   
   version: ""
 - 
@@ -63,23 +78,8 @@ requires:
   
   version: ""
 - 
-  category: app-i18n
-  name: zinnia
-  
-  version: ""
-- 
-  category: app-i18n
-  name: zinnia-tomoe
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
+  category: virtual
+  name: emacs
   
   version: ""
 use_flags:

@@ -2,7 +2,7 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
-  name: ibacm
+  name: librdmacm
   
   version: ""
 - 
@@ -12,12 +12,12 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: infinipath-psm
+  name: libcxgb3
   
   version: ""
 - 
   category: sys-fabric
-  name: libnes
+  name: libmlx4
   
   version: ""
 - 
@@ -27,7 +27,17 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libcxgb3
+  name: libcxgb4
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libmthca
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libmlx5
   
   version: ""
 - 
@@ -47,44 +57,29 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libcxgb4
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmthca
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmlx4
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libmlx5
-  
-  version: ""
-- 
-  category: sys-fabric
   name: libocrdma
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libnes
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: ibacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: infinipath-psm
   
   version: ""
 name: rdma-core
 requires:
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
+  category: dev-libs
+  name: libnl
   
   version: ""
 - 
@@ -93,8 +88,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libnl
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
   
   version: ""
 use_flags:

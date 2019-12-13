@@ -4,17 +4,57 @@ name: mumble
 requires:
 - 
   category: dev-qt
-  name: qtxml
+  name: qtsvg
   
   version: ""
 - 
-  category: dev-libs
-  name: protobuf
+  category: media-libs
+  name: libsndfile
   
-  version: 2.2.0
+  version: 1.0.20
 - 
   category: sys-apps
   name: lsb-release
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  name: jack
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  name: speex
+  
+  version: 1.2.0
+- 
+  category: media-libs
+  name: speexdsp
+  
+  version: ""
+- 
+  category: app-misc
+  name: g15daemon
+  
+  version: ""
+- 
+  category: media-libs
+  name: opus
+  
+  version: 1.0.1
+- 
+  category: media-libs
+  name: portaudio
   
   version: ""
 - 
@@ -29,72 +69,7 @@ requires:
   version: 1.0.0b
 - 
   category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: app-misc
-  name: g15daemon
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: media-libs
-  name: speex
-  
-  version: 1.2.0
-- 
-  category: media-libs
-  name: speexdsp
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: virtual
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  name: opus
-  
-  version: 1.0.1
-- 
-  category: net-dns
-  name: avahi
-  
-  version: ""
-- 
-  category: dev-qt
   name: qtcore
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsndfile
-  
-  version: 1.0.20
-- 
-  category: dev-libs
-  name: libressl
   
   version: ""
 - 
@@ -108,13 +83,18 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: dev-qt
+  name: qtwidgets
   
   version: ""
 - 
-  category: media-libs
-  name: portaudio
+  category: dev-qt
+  name: qtxml
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
   
   version: ""
 - 
@@ -123,10 +103,30 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: protobuf
+  
+  version: 2.2.0
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
   category: app-accessibility
   name: speech-dispatcher
   
   version: 0.8.0
+- 
+  category: net-dns
+  name: avahi
+  
+  version: ""
 use_flags:
 - +alsa
 - +dbus

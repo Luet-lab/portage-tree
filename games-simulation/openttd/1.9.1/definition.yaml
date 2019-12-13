@@ -3,8 +3,23 @@ conflicts: []
 name: openttd
 requires:
 - 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
   category: media-libs
   name: libsdl[sound,X,video]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu-layoutex
   
   version: ""
 - 
@@ -23,13 +38,8 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu-layoutex
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -38,18 +48,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: dev-libs
   name: lzo
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
   
   version: ""
 use_flags:

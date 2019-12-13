@@ -3,13 +3,13 @@ conflicts: []
 name: umurmur
 requires:
 - 
-  category: net-libs
-  name: gnutls
+  category: acct-user
+  name: murmur
   
-  version: 3.0.0
+  version: ""
 - 
-  category: net-libs
-  name: mbedtls
+  category: dev-libs
+  name: nettle
   
   version: ""
 - 
@@ -23,23 +23,13 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  name: mbedtls
+  
+  version: ""
+- 
   category: acct-group
   name: murmur
-  
-  version: ""
-- 
-  category: acct-user
-  name: murmur
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libconfig
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nettle
   
   version: ""
 - 
@@ -47,6 +37,16 @@ requires:
   name: protobuf-c
   
   version: 1.0.0_rc2
+- 
+  category: dev-libs
+  name: libconfig
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 3.0.0
 use_flags:
 - gnutls
 - libressl

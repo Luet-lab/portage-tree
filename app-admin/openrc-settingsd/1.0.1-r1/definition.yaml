@@ -8,6 +8,16 @@ conflicts:
 name: openrc-settingsd
 requires:
 - 
+  category: sys-auth
+  name: nss-myhostname
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.30"
+- 
   category: dev-libs
   name: libdaemon
   
@@ -32,16 +42,6 @@ requires:
   name: systemd
   
   version: "197"
-- 
-  category: sys-auth
-  name: nss-myhostname
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.30"
 use_flags:
 - systemd
 version: 1.0.1-r1

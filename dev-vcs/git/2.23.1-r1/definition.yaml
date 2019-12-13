@@ -3,28 +3,18 @@ conflicts: []
 name: git
 requires:
 - 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre2[jit(+)]
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
-  name: MailTools
+  name: TermReadKey
   
   version: ""
 - 
   category: dev-perl
-  name: CGI
+  name: Authen-SASL
   
   version: ""
 - 
@@ -34,32 +24,17 @@ requires:
   version: "2.1"
 - 
   category: dev-perl
-  name: DBD-SQLite
+  name: DBI
   
   version: ""
 - 
   category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: virtual
-  name: emacs
+  name: MediaWiki-API
   
   version: ""
 - 
   category: dev-vcs
   name: subversion
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
   
   version: ""
 - 
@@ -73,18 +48,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
@@ -93,33 +58,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gnupg
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libpcre
+  name: MailTools
   
   version: ""
 - 
   category: dev-perl
-  name: DBI
+  name: CGI
   
   version: ""
 - 
@@ -129,12 +79,62 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 use_flags:

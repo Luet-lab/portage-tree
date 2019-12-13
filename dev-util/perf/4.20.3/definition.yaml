@@ -3,8 +3,13 @@ conflicts: []
 name: perf
 requires:
 - 
-  category: sys-process
-  name: numactl
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  name: jre
   
   version: ""
 - 
@@ -13,18 +18,28 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: llvm
-  
-  version: ""
-- 
   category: sys-libs
-  name: binutils-libs
+  name: zlib
   
   version: ""
 - 
-  category: virtual
-  name: jre
+  category: sys-devel
+  name: clang
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-util
+  name: systemtap
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -34,32 +49,17 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: slang
+  name: binutils-libs
+  
+  version: ""
+- 
+  category: sys-process
+  name: numactl
   
   version: ""
 - 
   category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-devel
-  name: clang
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-util
-  name: systemtap
+  name: slang
   
   version: ""
 - 
@@ -73,8 +73,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: sys-devel
+  name: llvm
   
   version: ""
 use_flags:

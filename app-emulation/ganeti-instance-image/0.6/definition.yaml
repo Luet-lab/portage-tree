@@ -3,6 +3,16 @@ conflicts: []
 name: ganeti-instance-image
 requires:
 - 
+  category: app-arch
+  name: dump
+  
+  version: ""
+- 
+  category: app-emulation
+  name: ganeti
+  
+  version: 2.0.3
+- 
   category: app-emulation
   name: qemu
   
@@ -22,16 +32,6 @@ requires:
   name: e2fsprogs
   
   version: ""
-- 
-  category: app-arch
-  name: dump
-  
-  version: ""
-- 
-  category: app-emulation
-  name: ganeti
-  
-  version: 2.0.3
 use_flags:
 - ""
 version: "0.6"

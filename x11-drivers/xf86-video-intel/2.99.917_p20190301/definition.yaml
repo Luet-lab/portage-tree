@@ -9,12 +9,22 @@ name: xf86-video-intel
 requires:
 - 
   category: x11-libs
-  name: libX11
+  name: libXext
   
   version: ""
 - 
   category: x11-libs
-  name: libXtst
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxcb
   
   version: ""
 - 
@@ -24,12 +34,17 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: pixman
+  
+  version: 0.27.1
+- 
+  category: x11-libs
   name: libdrm-2.4.52[video_cards_intel]
   
   version: ""
 - 
   category: x11-libs
-  name: libxcb
+  name: libXcursor
   
   version: ""
 - 
@@ -44,7 +59,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXext
+  name: libXtst
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
   
   version: ""
 - 
@@ -54,27 +74,7 @@ requires:
   version: "1.18"
 - 
   category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXvMC
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: 0.27.1
-- 
-  category: x11-libs
-  name: libXcursor
+  name: libX11
   
   version: ""
 - 
@@ -84,12 +84,17 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
   name: libxshmfence
   
   version: ""
 - 
-  category: virtual
-  name: libudev
+  category: x11-libs
+  name: libXvMC
   
   version: ""
 - 
@@ -97,11 +102,6 @@ requires:
   name: libxcb
   
   version: "1.5"
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
 use_flags:
 - debug
 - +sna

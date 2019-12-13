@@ -4,6 +4,11 @@ name: cryfs
 requires:
 - 
   category: dev-libs
+  name: boost
+  
+  version: "1.56"
+- 
+  category: dev-libs
   name: crypto++
   
   version: 5.6.3
@@ -27,11 +32,6 @@ requires:
   name: libressl
   
   version: ""
-- 
-  category: dev-libs
-  name: boost
-  
-  version: "1.56"
 use_flags:
 - custom-optimization
 - libressl

@@ -8,26 +8,6 @@ conflicts:
 name: boinc
 requires:
 - 
-  category: media-libs
-  name: freeglut
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: app-misc
-  name: ca-certificates
-  
-  version: "20080809"
-- 
-  category: dev-util
-  name: nvidia-cuda-toolkit
-  
-  version: "2.1"
-- 
   category: x11-drivers
   name: nvidia-drivers
   
@@ -35,11 +15,6 @@ requires:
 - 
   category: net-misc
   name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
   
   version: ""
 - 
@@ -52,6 +27,26 @@ requires:
   name: zlib
   
   version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: media-libs
+  name: freeglut
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-util
+  name: nvidia-cuda-toolkit
+  
+  version: "2.1"
 - 
   category: x11-libs
   name: gtk+
@@ -67,6 +62,11 @@ requires:
   name: wxGTK
   
   version: ""
+- 
+  category: app-misc
+  name: ca-certificates
+  
+  version: "20080809"
 use_flags:
 - X
 - cuda

@@ -3,8 +3,13 @@ conflicts: []
 name: sway
 requires:
 - 
-  category: x11-misc
-  name: xkeyboard-config
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: gui-apps
+  name: swaybg
   
   version: ""
 - 
@@ -13,28 +18,23 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: sys-apps
+  name: systemd
   
-  version: ""
+  version: "239"
 - 
   category: dev-libs
   name: libinput
   
   version: 1.6.0
 - 
-  category: dev-libs
-  name: wayland
+  category: x11-libs
+  name: pango
   
   version: ""
 - 
   category: x11-libs
   name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: gui-apps
-  name: swaylock
   
   version: ""
 - 
@@ -48,15 +48,35 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  name: elogind
+  
+  version: "239"
+- 
   category: gui-apps
-  name: swaybg
+  name: swaylock
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: dev-libs
+  name: wayland
   
-  version: "239"
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xkeyboard-config
+  
+  version: ""
 - 
   category: dev-libs
   name: json-c
@@ -67,26 +87,6 @@ requires:
   name: libpcre
   
   version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: sys-auth
-  name: elogind
-  
-  version: "239"
 use_flags:
 - elogind
 - fish-completion

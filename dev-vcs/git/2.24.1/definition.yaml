@@ -3,53 +3,13 @@ conflicts: []
 name: git
 requires:
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Authen-SASL
-  
-  version: ""
-- 
   category: dev-perl
   name: MediaWiki-API
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
-  
-  version: ""
-- 
   category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  name: libressl
   
   version: ""
 - 
@@ -59,7 +19,22 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: dev-perl
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Authen-SASL
   
   version: ""
 - 
@@ -68,13 +43,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: highlight
+  category: dev-perl
+  name: DBI
   
   version: ""
 - 
-  category: dev-vcs
-  name: subversion
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 - 
@@ -93,33 +68,23 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: emacs
+  category: dev-lang
+  name: tk
+  
+  version: ""
+- 
+  category: app-text
+  name: highlight
+  
+  version: ""
+- 
+  category: dev-perl
+  name: HTML-Tree
   
   version: ""
 - 
   category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
+  name: subversion
   
   version: ""
 - 
@@ -128,13 +93,48 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: tk
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-vcs
+  name: cvsps
+  
+  version: "2.1"
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  name: emacs
   
   version: ""
 - 
   category: dev-perl
-  name: HTML-Tree
+  name: Error
   
   version: ""
 use_flags:

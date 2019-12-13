@@ -1,20 +1,15 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
   category: <sys-libs
   name: glibc
   
   version: "2.11"
 - 
-  category: <sys-fs
-  name: lvm2
+  category: sys-apps
+  name: gentoo-systemd-integration
   
-  version: 2.02.103
+  version: ""
 - 
   category: <sec-policy
   name: selinux-base
@@ -27,14 +22,34 @@ conflicts:
   version: ""
 - 
   category: sys-apps
-  name: gentoo-systemd-integration
+  name: systemd
   
   version: ""
+- 
+  category: <sys-fs
+  name: lvm2
+  
+  version: 2.02.103
 name: eudev
 requires:
 - 
+  category: sys-apps
+  name: kmod
+  
+  version: "16"
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: 2.1.9
+- 
   category: acct-group
-  name: render
+  name: input
+  
+  version: ""
+- 
+  category: acct-group
+  name: kvm
   
   version: ""
 - 
@@ -48,23 +63,8 @@ requires:
   
   version: "1.38"
 - 
-  category: sys-libs
-  name: libselinux
-  
-  version: 2.1.9
-- 
-  category: sys-apps
-  name: kmod
-  
-  version: "16"
-- 
   category: acct-group
-  name: input
-  
-  version: ""
-- 
-  category: acct-group
-  name: kvm
+  name: render
   
   version: ""
 use_flags:

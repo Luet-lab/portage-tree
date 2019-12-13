@@ -8,53 +8,13 @@ conflicts:
 name: cups
 requires:
 - 
-  category: sys-apps
-  name: acl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: attr
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
   category: virtual
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
-  category: sec-policy
-  name: selinux-cups
-  
-  version: ""
-- 
-  category: app-text
-  name: libpaper
+  name: libusb
   
   version: ""
 - 
@@ -63,13 +23,18 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
+  category: x11-misc
+  name: xdg-utils
   
-  version: 2.12.23-r6
+  version: ""
 - 
-  category: virtual
-  name: libusb
+  category: net-dns
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -83,10 +48,45 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: sec-policy
+  name: selinux-cups
   
   version: ""
+- 
+  category: app-text
+  name: libpaper
+  
+  version: ""
+- 
+  category: sys-apps
+  name: acl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: 1.6.18-r1
+- 
+  category: virtual
+  name: krb5
+  
+  version: 0-r1
+- 
+  category: sys-apps
+  name: attr
+  
+  version: ""
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
 use_flags:
 - acl
 - dbus

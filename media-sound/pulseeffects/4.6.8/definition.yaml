@@ -3,23 +3,38 @@ conflicts: []
 name: pulseeffects
 requires:
 - 
-  category: dev-libs
-  name: libsigc++
+  category: media-plugins
+  name: gst-plugins-pulse
   
-  version: "2.10"
+  version: 1.12.0
 - 
   category: media-libs
-  name: gstreamer
+  name: zita-convolver
+  
+  version: 3.0.0
+- 
+  category: dev-cpp
+  name: glibmm
+  
+  version: 2.56.0
+- 
+  category: dev-cpp
+  name: gtkmm
+  
+  version: "3.20"
+- 
+  category: media-plugins
+  name: gst-plugins-ladspa
   
   version: 1.12.0
 - 
   category: media-plugins
-  name: mda-lv2
+  name: calf
   
-  version: ""
+  version: 0.90.0
 - 
-  category: media-sound
-  name: pulseaudio
+  category: media-libs
+  name: libebur128
   
   version: ""
 - 
@@ -28,35 +43,15 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  name: gtkmm
-  
-  version: "3.20"
-- 
   category: x11-libs
   name: gtk+
   
   version: "3.18"
 - 
   category: media-libs
-  name: gst-plugins-bad
+  name: lilv
   
-  version: 1.12.0
-- 
-  category: media-libs
-  name: rubberband
-  
-  version: ""
-- 
-  category: media-libs
-  name: zita-convolver
-  
-  version: 3.0.0
-- 
-  category: dev-libs
-  name: boost
-  
-  version: "1.41"
+  version: 0.24.2-r1
 - 
   category: media-libs
   name: gst-plugins-good
@@ -73,45 +68,50 @@ requires:
   
   version: 1.12.0
 - 
-  category: media-plugins
-  name: gst-plugins-pulse
-  
-  version: 1.12.0
-- 
   category: media-libs
-  name: libebur128
+  name: rubberband
   
   version: ""
-- 
-  category: media-libs
-  name: lsp-plugins
-  
-  version: 1.1.7
 - 
   category: dev-libs
   name: glib
   
   version: "2.56"
 - 
-  category: media-libs
-  name: lilv
+  category: dev-libs
+  name: libsigc++
   
-  version: 0.24.2-r1
+  version: "2.10"
+- 
+  category: media-libs
+  name: lsp-plugins
+  
+  version: 1.1.7
 - 
   category: media-plugins
-  name: gst-plugins-ladspa
+  name: mda-lv2
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
+  
+  version: "1.41"
+- 
+  category: media-libs
+  name: gstreamer
   
   version: 1.12.0
 - 
-  category: media-plugins
-  name: calf
+  category: media-libs
+  name: gst-plugins-bad
   
-  version: 0.90.0
-- 
-  category: dev-cpp
-  name: glibmm
-  
-  version: 2.56.0
+  version: 1.12.0
 use_flags:
 - bs2b
 - calf

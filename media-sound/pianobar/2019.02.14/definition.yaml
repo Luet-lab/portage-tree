@@ -3,6 +3,16 @@ conflicts: []
 name: pianobar
 requires:
 - 
+  category: dev-libs
+  name: json-c
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: "12"
+- 
   category: media-video
   name: ffmpeg
   
@@ -22,16 +32,6 @@ requires:
   name: libgcrypt
   
   version: ""
-- 
-  category: dev-libs
-  name: json-c
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: "12"
 use_flags:
 - libav
 - static-libs

@@ -3,6 +3,21 @@ conflicts: []
 name: libsigrok
 requires:
 - 
+  category: virtual
+  name: jre
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  name: glib
+  
+  version: 2.32.0
+- 
+  category: dev-cpp
+  name: glibmm
+  
+  version: ""
+- 
   category: dev-python
   name: pygobject
   
@@ -14,12 +29,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libserialport
-  
-  version: 0.1.1
-- 
-  category: virtual
-  name: libusb
+  name: libserialport-0.1.1[static-libs(+)]
   
   version: ""
 - 
@@ -29,24 +39,9 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
-  
-  version: 2.32.0
-- 
-  category: dev-libs
   name: libzip
   
   version: "0.8"
-- 
-  category: dev-cpp
-  name: glibmm
-  
-  version: ""
-- 
-  category: virtual
-  name: jre
-  
-  version: "1.4"
 - 
   category: dev-embedded
   name: libftdi
@@ -54,12 +49,17 @@ requires:
   version: "0.16"
 - 
   category: dev-libs
-  name: glib-2.32.0[static-libs(+)]
+  name: libserialport
+  
+  version: 0.1.1
+- 
+  category: virtual
+  name: libusb
   
   version: ""
 - 
   category: dev-libs
-  name: libserialport-0.1.1[static-libs(+)]
+  name: glib-2.32.0[static-libs(+)]
   
   version: ""
 use_flags:

@@ -3,23 +3,23 @@ conflicts: []
 name: qtwebengine
 requires:
 - 
-  category: x11-libs
-  name: libXcursor
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
-  category: dev-qt
-  name: qtdeclarative
+  category: media-libs
+  name: fontconfig
   
-  version: 5.12.3
+  version: ""
 - 
   category: media-libs
   name: mesa[egl,X(+)]
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: sys-apps
+  name: pciutils
   
   version: ""
 - 
@@ -29,52 +29,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libdrm
+  name: libXcomposite
   
   version: ""
 - 
   category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtpositioning
-  
-  version: 5.12.3
-- 
-  category: media-libs
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvpx
-  
-  version: "1.5"
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  name: pciutils
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdamage
+  name: libXfixes
   
   version: ""
 - 
@@ -83,38 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtcore
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-qt
-  name: designer
-  
-  version: 5.12.3
-- 
-  category: dev-libs
-  name: expat
+  category: media-video
+  name: ffmpeg
   
   version: ""
 - 
@@ -123,23 +53,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: fontconfig
+  category: virtual
+  name: libudev
   
   version: ""
 - 
-  category: dev-libs
-  name: libxml2
+  category: dev-qt
+  name: qtpositioning
   
-  version: ""
+  version: 5.12.3
 - 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXtst
+  category: media-sound
+  name: pulseaudio
   
   version: ""
 - 
@@ -149,54 +74,14 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtprintsupport
+  name: qtcore
   
   version: 5.12.3
 - 
   category: dev-qt
-  name: qtwebchannel
+  name: qtdeclarative
   
   version: 5.12.3
-- 
-  category: media-libs
-  name: libjpeg-turbo
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: dev-libs
-  name: icu
-  
-  version: "60.2"
-- 
-  category: app-arch
-  name: snappy
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nss
-  
-  version: ""
-- 
-  category: media-libs
-  name: lcms
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
 - 
   category: dev-qt
   name: qtgui
@@ -209,17 +94,62 @@ requires:
   version: ""
 - 
   category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
   name: opus
   
   version: ""
 - 
-  category: x11-libs
-  name: libXfixes
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
-  category: media-sound
-  name: pulseaudio
+  category: app-arch
+  name: snappy
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
+  
+  version: "60.2"
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -233,13 +163,83 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libudev
+  category: dev-qt
+  name: qtnetwork
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtprintsupport
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  name: libevent
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  name: libwebp
   
   version: ""
 - 
   category: x11-libs
-  name: libXcomposite
+  name: libXdamage
+  
+  version: ""
+- 
+  category: dev-qt
+  name: designer
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  name: nss
+  
+  version: ""
+- 
+  category: media-libs
+  name: harfbuzz
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwebchannel
+  
+  version: 5.12.3
+- 
+  category: media-libs
+  name: libjpeg-turbo
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvpx
+  
+  version: "1.5"
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXtst
   
   version: ""
 use_flags:

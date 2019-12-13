@@ -8,18 +8,18 @@ conflicts:
 name: gerbera
 requires:
 - 
-  category: net-libs
-  name: libupnp
-  
-  version: 1.8.3
-- 
-  category: media-video
-  name: ffmpegthumbnailer
+  category: net-misc
+  name: youtube-dl
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: dev-lang
+  name: duktape
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -29,12 +29,22 @@ requires:
   version: ""
 - 
   category: media-libs
+  name: taglib
+  
+  version: "1.11"
+- 
+  category: media-libs
   name: lastfmlib
   
   version: "0.4"
 - 
-  category: sys-apps
-  name: file
+  category: media-video
+  name: ffmpeg
+  
+  version: "2.2"
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -43,33 +53,38 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: duktape
+  category: dev-libs
+  name: expat
   
   version: ""
 - 
-  category: media-libs
-  name: taglib
+  category: sys-apps
+  name: util-linux
   
-  version: "1.11"
+  version: ""
+- 
+  category: net-libs
+  name: libupnp
+  
+  version: 1.8.3
 - 
   category: media-libs
   name: libexif
   
   version: ""
 - 
-  category: net-misc
-  name: youtube-dl
+  category: media-video
+  name: libav
   
-  version: ""
+  version: "10"
 - 
-  category: sys-libs
-  name: zlib
+  category: media-video
+  name: ffmpegthumbnailer
   
   version: ""
 - 
   category: sys-apps
-  name: util-linux
+  name: file
   
   version: ""
 - 
@@ -80,21 +95,6 @@ requires:
 - 
   category: media-gfx
   name: exiv2
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: "10"
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: "2.2"
-- 
-  category: net-misc
-  name: curl
   
   version: ""
 use_flags:

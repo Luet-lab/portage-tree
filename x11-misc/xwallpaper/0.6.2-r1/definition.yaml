@@ -3,6 +3,11 @@ conflicts: []
 name: xwallpaper
 requires:
 - 
+  category: sys-libs
+  name: libseccomp
+  
+  version: 2.3.1
+- 
   category: x11-libs
   name: libXpm
   
@@ -32,11 +37,6 @@ requires:
   name: libpng
   
   version: ""
-- 
-  category: sys-libs
-  name: libseccomp
-  
-  version: 2.3.1
 use_flags:
 - jpeg
 - png

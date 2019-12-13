@@ -8,15 +8,10 @@ conflicts:
 name: openoffice-bin
 requires:
 - 
-  category: sys-libs
-  name: glibc
+  category: app-arch
+  name: zip
   
   version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: 2.1.10-r2
 - 
   category: sys-libs
   name: ncurses-compat
@@ -33,13 +28,13 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: unzip
+  category: sys-libs
+  name: glibc
   
   version: ""
 - 
   category: app-arch
-  name: zip
+  name: unzip
   
   version: ""
 - 
@@ -47,6 +42,11 @@ requires:
   name: perl
   
   version: "5.0"
+- 
+  category: media-libs
+  name: freetype
+  
+  version: 2.1.10-r2
 use_flags:
 - gnome
 - java

@@ -8,28 +8,23 @@ conflicts:
 name: cups
 requires:
 - 
-  category: sys-apps
-  name: attr
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: net-dns
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: sec-policy
+  name: selinux-cups
   
   version: ""
 - 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: acct-group
-  name: lp
-  
-  version: ""
-- 
-  category: sys-apps
-  name: xinetd
+  category: app-text
+  name: libpaper
   
   version: ""
 - 
@@ -38,13 +33,18 @@ requires:
   
   version: 1.6.18-r1
 - 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
   category: virtual
-  name: libusb
+  name: krb5
+  
+  version: 0-r1
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  name: acl
   
   version: ""
 - 
@@ -53,8 +53,18 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: libpaper
+  category: acct-group
+  name: lp
+  
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
   
   version: ""
 - 
@@ -64,24 +74,14 @@ requires:
   version: ""
 - 
   category: sys-apps
-  name: acl
+  name: attr
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-cups
+  category: sys-apps
+  name: systemd
   
   version: ""
-- 
-  category: sys-libs
-  name: pam
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
 use_flags:
 - acl
 - dbus

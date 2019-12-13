@@ -8,21 +8,6 @@ conflicts:
 name: gerbera
 requires:
 - 
-  category: media-libs
-  name: taglib
-  
-  version: "1.11"
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: "3"
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
   category: dev-lang
   name: duktape
   
@@ -38,8 +23,8 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: net-misc
+  name: youtube-dl
   
   version: ""
 - 
@@ -48,20 +33,45 @@ requires:
   
   version: 1.8.3
 - 
+  category: dev-db
+  name: sqlite
+  
+  version: "3"
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: media-gfx
+  name: exiv2
+  
+  version: ""
+- 
   category: media-video
   name: ffmpeg
   
   version: "2.2"
 - 
-  category: media-video
-  name: ffmpegthumbnailer
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
-  category: net-misc
-  name: youtube-dl
+  category: media-libs
+  name: taglib
   
-  version: ""
+  version: "1.11"
 - 
   category: sys-apps
   name: file
@@ -73,28 +83,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: media-libs
+  name: lastfmlib
   
-  version: ""
+  version: "0.4"
 - 
   category: media-video
   name: libav
   
   version: "10"
 - 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: media-libs
-  name: lastfmlib
-  
-  version: "0.4"
-- 
-  category: media-gfx
-  name: exiv2
+  category: media-video
+  name: ffmpegthumbnailer
   
   version: ""
 use_flags:

@@ -8,13 +8,18 @@ conflicts:
 name: graphicsmagick
 requires:
 - 
-  category: media-fonts
-  name: urw-fonts
+  category: media-libs
+  name: jbigkit
   
   version: ""
 - 
-  category: x11-libs
-  name: libXext
+  category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -23,8 +28,33 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
+  category: media-fonts
+  name: urw-fonts
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: "2"
+- 
+  category: media-libs
+  name: libwmf
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libltdl
+  
+  version: ""
+- 
+  category: app-text
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
   
   version: ""
 - 
@@ -43,23 +73,8 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: app-text
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  name: lcms
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -73,33 +88,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: jbigkit
-  
-  version: ""
-- 
   category: virtual
   name: jpeg
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
-  
-  version: "2"
-- 
-  category: media-libs
-  name: libwmf
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libltdl
+  category: x11-libs
+  name: libXext
   
   version: ""
 use_flags:

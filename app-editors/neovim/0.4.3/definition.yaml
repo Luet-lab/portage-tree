@@ -4,6 +4,11 @@ name: neovim
 requires:
 - 
   category: dev-libs
+  name: libuv
+  
+  version: ""
+- 
+  category: dev-libs
   name: libvterm
   
   version: 0.1.2
@@ -18,18 +23,18 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libnsl
+  category: dev-lang
+  name: luajit
   
   version: ""
 - 
   category: dev-libs
-  name: libtermkey
+  name: unibilium
   
-  version: ""
+  version: 2.0.0
 - 
   category: dev-libs
-  name: libuv
+  name: msgpack
   
   version: ""
 - 
@@ -38,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: luajit
+  category: net-libs
+  name: libnsl
   
   version: ""
 - 
@@ -54,17 +59,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: unibilium
-  
-  version: 2.0.0
-- 
-  category: app-eselect
-  name: eselect-vi
+  name: libtermkey
   
   version: ""
 - 
-  category: dev-libs
-  name: msgpack
+  category: app-eselect
+  name: eselect-vi
   
   version: ""
 use_flags:

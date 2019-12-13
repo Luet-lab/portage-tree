@@ -2,6 +2,11 @@ category: net-misc
 conflicts:
 - 
   category: net-misc
+  name: arping
+  
+  version: ""
+- 
+  category: net-misc
   name: rarpd
   
   version: ""
@@ -10,28 +15,8 @@ conflicts:
   name: traceroute
   
   version: ""
-- 
-  category: net-misc
-  name: arping
-  
-  version: ""
 name: iputils
 requires:
-- 
-  category: dev-libs
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nettle
-  
-  version: ""
-- 
-  category: net-dns
-  name: libidn2
-  
-  version: ""
 - 
   category: dev-libs
   name: libressl
@@ -39,7 +24,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: nettle
   
   version: ""
 - 
@@ -50,6 +35,21 @@ requires:
 - 
   category: sys-libs
   name: libcap
+  
+  version: ""
+- 
+  category: net-dns
+  name: libidn2
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 use_flags:

@@ -8,8 +8,23 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: sec-policy
-  name: selinux-dovecot
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: app-text
+  name: libexttextcat
   
   version: ""
 - 
@@ -18,8 +33,33 @@ requires:
   
   version: ""
 - 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
+  
+  version: ""
+- 
   category: dev-libs
-  name: icu
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -28,13 +68,28 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: virtual
+  name: krb5
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -44,12 +99,12 @@ requires:
   version: ""
 - 
   category: app-arch
-  name: xz-utils
+  name: lz4
   
   version: ""
 - 
-  category: dev-db
-  name: mysql-connector-c
+  category: sys-libs
+  name: pam
   
   version: ""
 - 
@@ -58,65 +113,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: virtual
   name: libiconv
   
   version: ""
-- 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
 use_flags:
 - kerberos
 - ldap

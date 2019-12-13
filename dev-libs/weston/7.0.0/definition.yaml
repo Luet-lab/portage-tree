@@ -3,20 +3,65 @@ conflicts: []
 name: weston
 requires:
 - 
-  category: dev-libs
-  name: libinput
+  category: x11-libs
+  name: pixman
   
-  version: 0.8.0
+  version: 0.25.2
 - 
-  category: media-video
-  name: pipewire
+  category: sys-libs
+  name: mtdev
   
-  version: "0.2"
+  version: 1.1.0
+- 
+  category: media-libs
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-libs
+  name: lcms
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xkeyboard-config
+  
+  version: ""
 - 
   category: x11-libs
-  name: libxkbcommon
+  name: libX11
   
-  version: 0.5.0
+  version: ""
+- 
+  category: media-libs
+  name: mesa
+  
+  version: "17.1"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxcb
+  
+  version: "1.9"
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: x11-misc
+  name: colord
+  
+  version: 0.1.27
+- 
+  category: media-libs
+  name: mesa
+  
+  version: ""
 - 
   category: sys-auth
   name: pambase
@@ -24,47 +69,17 @@ requires:
   version: ""
 - 
   category: sys-apps
-  name: systemd
+  name: dbus
   
-  version: "209"
+  version: "1.6"
 - 
   category: x11-libs
-  name: libxcb
-  
-  version: "1.9"
-- 
-  category: media-libs
-  name: lcms
+  name: libXcursor
   
   version: ""
 - 
-  category: x11-libs
-  name: libdrm
-  
-  version: 2.4.68
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: 0.25.2
-- 
   category: media-libs
-  name: mesa
-  
-  version: "17.1"
-- 
-  category: net-misc
-  name: freerdp
-  
-  version: 2.0.0_rc2
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-base
-  name: xorg-server
+  name: libwebp
   
   version: ""
 - 
@@ -73,30 +88,55 @@ requires:
   
   version: 1.11.3
 - 
+  category: x11-libs
+  name: libdrm
+  
+  version: 2.4.68
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "209"
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
   category: virtual
   name: udev
   
   version: "136"
 - 
-  category: x11-libs
-  name: pango
+  category: media-video
+  name: pipewire
   
-  version: ""
+  version: "0.2"
 - 
   category: media-libs
-  name: mesa
+  name: gst-plugins-base
   
   version: ""
 - 
-  category: media-libs
-  name: gstreamer
+  category: x11-base
+  name: xorg-server
   
   version: ""
 - 
-  category: x11-libs
-  name: libXcursor
+  category: dev-libs
+  name: libinput
   
-  version: ""
+  version: 0.8.0
 - 
   category: dev-libs
   name: wayland-protocols
@@ -108,50 +148,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: mtdev
+  category: net-misc
+  name: freerdp
   
-  version: 1.1.0
-- 
-  category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1.6"
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: media-libs
-  name: libwebp
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-misc
-  name: colord
-  
-  version: 0.1.27
+  version: 2.0.0_rc2
 use_flags:
 - colord
 - +desktop

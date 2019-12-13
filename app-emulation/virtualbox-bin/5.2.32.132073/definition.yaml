@@ -1,30 +1,20 @@
 category: app-emulation
 conflicts:
 - 
-  category: '!app-emulation'
-  name: virtualbox
+  category: app-emulation
+  name: virtualbox-additions
   
   version: ""
 - 
-  category: app-emulation
-  name: virtualbox-additions
+  category: '!app-emulation'
+  name: virtualbox
   
   version: ""
 name: virtualbox-bin
 requires:
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -34,47 +24,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXi
+  name: libXdmcp
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
   
   version: ""
 - 
   category: app-emulation
   name: virtualbox-modules
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
   
   version: ""
 - 
@@ -84,17 +49,42 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
   name: libXinerama
   
   version: ""
 - 
   category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
   name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXft
   
   version: ""
 - 
@@ -109,17 +99,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXt
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
+  name: libXmu
   
   version: ""
 - 
   category: media-libs
-  name: libsdl[X]
+  name: fontconfig
   
   version: ""
 - 
@@ -129,7 +114,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXfixes
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 use_flags:

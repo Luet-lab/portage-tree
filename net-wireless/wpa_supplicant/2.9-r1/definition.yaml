@@ -4,31 +4,6 @@ name: wpa_supplicant
 requires:
 - 
   category: dev-libs
-  name: openssl
-  
-  version: 1.0.2k
-- 
-  category: sys-apps
-  name: pcsc-lite
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
   name: libressl
   
   version: ""
@@ -38,8 +13,33 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  name: readline
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: 1.0.2k
+- 
   category: sys-apps
   name: dbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
   
   version: ""
 - 
@@ -48,8 +48,13 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtsvg
+  category: net-wireless
+  name: crda
+  
+  version: ""
+- 
+  category: sys-apps
+  name: pcsc-lite
   
   version: ""
 - 
@@ -59,17 +64,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: net-wireless
-  name: crda
+  name: qtcore
   
   version: ""
 - 
   category: sys-libs
-  name: readline
+  name: ncurses
   
   version: ""
 use_flags:

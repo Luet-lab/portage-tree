@@ -3,33 +3,33 @@ conflicts: []
 name: gmic
 requires:
 - 
-  category: net-misc
-  name: curl
+  category: virtual
+  name: jpeg
   
   version: ""
 - 
-  category: dev-qt
-  name: qtnetwork
+  category: media-libs
+  name: opencv
   
-  version: 5.2.0
+  version: 2.3.1a-r1
 - 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: 5.2.0
-- 
-  category: media-gfx
-  name: graphicsmagick
+  category: media-libs
+  name: openexr
   
   version: ""
 - 
   category: x11-libs
   name: libX11
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -43,23 +43,28 @@ requires:
   
   version: 5.2.0
 - 
-  category: virtual
-  name: jpeg
+  category: dev-qt
+  name: qtgui
   
-  version: ""
-- 
-  category: media-libs
-  name: opencv
-  
-  version: 2.3.1a-r1
+  version: 5.2.0
 - 
   category: media-libs
   name: ilmbase
   
   version: ""
 - 
-  category: media-libs
-  name: tiff
+  category: dev-qt
+  name: qtnetwork
+  
+  version: 5.2.0
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -69,12 +74,12 @@ requires:
   version: 2.8.0
 - 
   category: dev-qt
-  name: qtgui
+  name: qtwidgets
   
   version: 5.2.0
 - 
-  category: media-libs
-  name: openexr
+  category: media-gfx
+  name: graphicsmagick
   
   version: ""
 - 
@@ -83,13 +88,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
+  category: media-libs
+  name: tiff
   
   version: ""
 use_flags:

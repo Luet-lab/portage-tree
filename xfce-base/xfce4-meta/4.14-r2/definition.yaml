@@ -8,23 +8,28 @@ requires:
   
   version: 0.6.4
 - 
-  category: xfce-base
-  name: libxfce4util
-  
-  version: 4.14.0
-- 
   category: x11-terms
   name: xfce4-terminal
   
   version: ""
 - 
-  category: xfce-extra
-  name: thunar-volman
+  category: xfce-base
+  name: xfconf
   
-  version: 0.9.5
+  version: 4.14.1
 - 
-  category: gnome-base
-  name: librsvg
+  category: xfce-base
+  name: xfwm4
+  
+  version: 4.14.0
+- 
+  category: media-fonts
+  name: dejavu
+  
+  version: ""
+- 
+  category: virtual
+  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -34,9 +39,9 @@ requires:
   version: 1.6.5
 - 
   category: xfce-base
-  name: exo
+  name: libxfce4util
   
-  version: 0.12.8
+  version: 4.14.0
 - 
   category: xfce-base
   name: xfce4-appfinder
@@ -48,10 +53,10 @@ requires:
   
   version: 4.14.0
 - 
-  category: media-fonts
-  name: dejavu
+  category: xfce-base
+  name: xfce4-session
   
-  version: ""
+  version: 4.14.0
 - 
   category: xfce-base
   name: libxfce4ui
@@ -59,24 +64,9 @@ requires:
   version: 4.14.1
 - 
   category: xfce-base
-  name: xfdesktop
+  name: thunar
   
-  version: 4.14.1
-- 
-  category: xfce-base
-  name: xfwm4
-  
-  version: 4.14.0
-- 
-  category: xfce-extra
-  name: tumbler
-  
-  version: 0.2.7
-- 
-  category: virtual
-  name: freedesktop-icon-theme
-  
-  version: ""
+  version: 1.8.9
 - 
   category: x11-themes
   name: hicolor-icon-theme
@@ -84,14 +74,9 @@ requires:
   version: ""
 - 
   category: xfce-base
-  name: thunar
+  name: exo
   
-  version: 1.8.9
-- 
-  category: xfce-base
-  name: xfce4-session
-  
-  version: 4.14.0
+  version: 0.12.8
 - 
   category: xfce-base
   name: xfce4-settings
@@ -99,9 +84,24 @@ requires:
   version: 4.14.0
 - 
   category: xfce-base
-  name: xfconf
+  name: xfdesktop
   
   version: 4.14.1
+- 
+  category: xfce-extra
+  name: thunar-volman
+  
+  version: 0.9.5
+- 
+  category: xfce-extra
+  name: tumbler
+  
+  version: 0.2.7
+- 
+  category: gnome-base
+  name: librsvg
+  
+  version: ""
 use_flags:
 - minimal
 - +svg

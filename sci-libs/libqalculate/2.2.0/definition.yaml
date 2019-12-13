@@ -3,6 +3,21 @@ conflicts: []
 name: libqalculate
 requires:
 - 
+  category: sys-libs
+  name: readline
+  
+  version: ""
+- 
+  category: net-misc
+  name: wget
+  
+  version: ""
+- 
+  category: sci-visualization
+  name: gnuplot
+  
+  version: "3.7"
+- 
   category: dev-libs
   name: glib
   
@@ -22,21 +37,6 @@ requires:
   name: zlib
   
   version: ""
-- 
-  category: sys-libs
-  name: readline
-  
-  version: ""
-- 
-  category: net-misc
-  name: wget
-  
-  version: ""
-- 
-  category: sci-visualization
-  name: gnuplot
-  
-  version: "3.7"
 use_flags:
 - gnuplot
 - readline

@@ -2,14 +2,9 @@ category: sys-cluster
 conflicts:
 - 
   category: ~dev-python
-  name: eventlet
+  name: cryptography
   
-  version: 0.23.0
-- 
-  category: ~dev-python
-  name: netifaces
-  
-  version: 0.10.0
+  version: "2.0"
 - 
   category: ~dev-python
   name: netifaces
@@ -17,31 +12,16 @@ conflicts:
   version: 0.10.1
 - 
   category: ~dev-python
-  name: cryptography
-  
-  version: "2.0"
-name: swift
-requires:
-- 
-  category: dev-python
-  name: dnspython
-  
-  version: 1.14.0
-- 
-  category: dev-python
-  name: eventlet
-  
-  version: 0.17.4
-- 
-  category: dev-python
   name: netifaces
   
-  version: "0.5"
+  version: 0.10.0
 - 
-  category: dev-python
-  name: cryptography
+  category: ~dev-python
+  name: eventlet
   
-  version: 1.6.0
+  version: 0.23.0
+name: swift
+requires:
 - 
   category: net-misc
   name: memcached
@@ -49,14 +29,19 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pastedeploy
+  name: ipaddress
   
-  version: 1.3.3
+  version: 1.0.16
 - 
-  category: net-misc
-  name: rsync
+  category: dev-python
+  name: netifaces
   
-  version: ""
+  version: "0.5"
+- 
+  category: dev-python
+  name: six
+  
+  version: 1.9.0
 - 
   category: dev-python
   name: pbr
@@ -69,11 +54,6 @@ requires:
   version: 0.3.1
 - 
   category: dev-python
-  name: six
-  
-  version: 1.9.0
-- 
-  category: dev-python
   name: pyxattr
   
   version: ""
@@ -83,10 +63,30 @@ requires:
   
   version: 1.3.1
 - 
-  category: dev-python
-  name: ipaddress
+  category: net-misc
+  name: rsync
   
-  version: 1.0.16
+  version: ""
+- 
+  category: dev-python
+  name: dnspython
+  
+  version: 1.14.0
+- 
+  category: dev-python
+  name: cryptography
+  
+  version: 1.6.0
+- 
+  category: dev-python
+  name: eventlet
+  
+  version: 0.17.4
+- 
+  category: dev-python
+  name: pastedeploy
+  
+  version: 1.3.3
 use_flags:
 - account
 - container

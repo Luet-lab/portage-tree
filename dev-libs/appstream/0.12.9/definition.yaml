@@ -3,6 +3,21 @@ conflicts: []
 name: appstream
 requires:
 - 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-db
+  name: lmdb
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.54"
+- 
   category: dev-libs
   name: libxml2
   
@@ -22,21 +37,6 @@ requires:
   name: gobject-introspection
   
   version: "1.56"
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-db
-  name: lmdb
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.54"
 use_flags:
 - apt
 - doc
