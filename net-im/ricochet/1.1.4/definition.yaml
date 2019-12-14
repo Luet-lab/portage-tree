@@ -3,13 +3,18 @@ conflicts: []
 name: ricochet
 requires:
 - 
-  category: dev-qt
-  name: qtcore
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf
   
   version: ""
 - 
   category: dev-qt
-  name: qtdeclarative
+  name: qtcore
   
   version: ""
 - 
@@ -19,27 +24,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtquickcontrols
-  
-  version: ""
-- 
-  category: net-vpn
-  name: tor
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-qt
   name: qtnetwork
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtquickcontrols
   
   version: ""
 - 
@@ -48,8 +38,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: protobuf
+  category: net-vpn
+  name: tor
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdeclarative
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtmultimedia
   
   version: ""
 use_flags:

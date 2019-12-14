@@ -4,7 +4,17 @@ name: pipewire
 requires:
 - 
   category: media-libs
-  name: gst-plugins-base
+  name: sbc
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2
   
   version: ""
 - 
@@ -18,26 +28,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
-  category: media-libs
-  name: sbc
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: ""
-- 
   category: x11-libs
   name: libX11
   
@@ -48,8 +38,18 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
   category: media-video
-  name: ffmpeg
+  name: libav
   
   version: ""
 - 
@@ -59,7 +59,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libsdl2
+  name: gst-plugins-base
   
   version: ""
 use_flags:

@@ -3,6 +3,11 @@ conflicts: []
 name: libprojectm
 requires:
 - 
+  category: media-libs
+  name: mesa
+  
+  version: ""
+- 
   category: dev-qt
   name: qtopengl
   
@@ -13,13 +18,8 @@ requires:
   
   version: 2.0.5
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: media-libs
-  name: mesa
+  name: glm
   
   version: ""
 - 
@@ -48,8 +48,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: glm
+  category: sys-libs
+  name: zlib
   
   version: ""
 use_flags:

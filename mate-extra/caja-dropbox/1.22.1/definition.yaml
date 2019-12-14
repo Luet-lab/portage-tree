@@ -3,13 +3,8 @@ conflicts: []
 name: caja-dropbox
 requires:
 - 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
+  category: net-misc
+  name: dropbox
   
   version: ""
 - 
@@ -33,18 +28,28 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: x11-libs
+  name: libXinerama
   
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: pango
   
   version: ""
 - 
   category: dev-libs
   name: atk
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -54,12 +59,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: net-misc
-  name: dropbox
+  name: gdk-pixbuf
   
   version: ""
 use_flags:

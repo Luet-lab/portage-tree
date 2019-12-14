@@ -8,13 +8,8 @@ conflicts:
 name: libextractor
 requires:
 - 
-  category: gnome-extra
-  name: libgsf
-  
-  version: ""
-- 
-  category: media-libs
-  name: tiff
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -23,8 +18,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: tidy-html5
+  category: media-libs
+  name: tiff
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
   
   version: ""
 - 
@@ -39,42 +39,12 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libmp4v2
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: sys-devel
-  name: libtool
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
   name: libogg
+  
+  version: ""
+- 
+  category: media-libs
+  name: giflib
   
   version: ""
 - 
@@ -83,8 +53,53 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-devel
+  name: libtool
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmp4v2
+  
+  version: ""
+- 
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
   category: virtual
   name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmpeg2
+  
+  version: ""
+- 
+  category: media-gfx
+  name: exiv2
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
@@ -94,12 +109,12 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: flac
+  name: libvorbis
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
+  category: gnome-extra
+  name: libgsf
   
   version: ""
 - 
@@ -108,33 +123,18 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libmpeg2
-  
-  version: ""
-- 
   category: app-text
-  name: iso-codes
+  name: tidy-html5
   
   version: ""
 - 
-  category: media-gfx
-  name: exiv2
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
   category: media-libs
-  name: giflib
+  name: flac
   
   version: ""
 use_flags:

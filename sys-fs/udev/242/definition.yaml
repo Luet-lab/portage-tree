@@ -6,57 +6,27 @@ conflicts:
   
   version: 2.02.103
 - 
-  category: <sec-policy
-  name: selinux-base
-  
-  version: 2.20120725-r10
-- 
-  category: <sys-libs
-  name: glibc
-  
-  version: "2.11"
-- 
   category: sys-apps
   name: gentoo-systemd-integration
   
   version: ""
 - 
+  category: <sec-policy
+  name: selinux-base
+  
+  version: 2.20120725-r10
+- 
   category: sys-apps
   name: systemd
   
   version: ""
+- 
+  category: <sys-libs
+  name: glibc
+  
+  version: "2.11"
 name: udev
 requires:
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: 2.1.9
-- 
-  category: acct-group
-  name: lp
-  
-  version: ""
-- 
-  category: sys-apps
-  name: kmod
-  
-  version: "16"
-- 
-  category: acct-group
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  name: tape
-  
-  version: ""
 - 
   category: acct-group
   name: tty
@@ -64,12 +34,7 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  name: disk
+  name: input
   
   version: ""
 - 
@@ -83,13 +48,48 @@ requires:
   
   version: ""
 - 
+  category: acct-group
+  name: video
+  
+  version: ""
+- 
   category: sys-apps
-  name: acl
+  name: util-linux
+  
+  version: "2.30"
+- 
+  category: acct-group
+  name: dialout
   
   version: ""
 - 
   category: acct-group
-  name: video
+  name: disk
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: 2.1.9
+- 
+  category: acct-group
+  name: kmem
+  
+  version: ""
+- 
+  category: acct-group
+  name: audio
+  
+  version: ""
+- 
+  category: acct-group
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  name: lp
   
   version: ""
 - 
@@ -98,20 +98,20 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  name: dialout
-  
-  version: ""
-- 
-  category: acct-group
-  name: input
+  category: sys-apps
+  name: acl
   
   version: ""
 - 
   category: sys-apps
-  name: util-linux
+  name: kmod
   
-  version: "2.30"
+  version: "16"
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
 use_flags:
 - acl
 - +kmod

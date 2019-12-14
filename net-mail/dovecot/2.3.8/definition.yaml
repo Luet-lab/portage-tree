@@ -8,58 +8,13 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
   category: dev-libs
-  name: icu
-  
-  version: ""
-- 
-  category: acct-user
-  name: dovecot
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: acct-group
-  name: dovenull
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
+  name: libsodium
   
   version: ""
 - 
   category: virtual
   name: krb5
-  
-  version: ""
-- 
-  category: app-arch
-  name: lz4
   
   version: ""
 - 
@@ -69,42 +24,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailbase
+  name: icu
   
   version: ""
 - 
   category: acct-group
-  name: mail
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
-- 
-  category: dev-libs
-  name: libressl
+  name: dovenull
   
   version: ""
 - 
   category: dev-libs
-  name: libsodium
+  name: expat
   
   version: ""
 - 
@@ -113,8 +43,28 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: libexttextcat
+  category: acct-user
+  name: dovecot
+  
+  version: ""
+- 
+  category: net-mail
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
   
   version: ""
 - 
@@ -123,13 +73,8 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  name: dovecot
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
@@ -138,18 +83,73 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
   category: acct-user
   name: dovenull
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: acct-group
+  name: dovecot
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
+  category: app-arch
+  name: lz4
+  
+  version: ""
+- 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
   
   version: ""
 use_flags:

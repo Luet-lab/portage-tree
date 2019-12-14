@@ -4,47 +4,22 @@ name: salt
 requires:
 - 
   category: dev-python
-  name: libcloud
+  name: setuptools
   
-  version: 0.14.0
-- 
-  category: dev-python
-  name: raet
-  
-  version: 0.6.0
+  version: ""
 - 
   category: dev-python
   name: keyring
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-salt
+  category: dev-python
+  name: python-neutronclient
   
-  version: ""
+  version: 2.3.6
 - 
   category: dev-python
   name: yappi
-  
-  version: ""
-- 
-  category: sys-apps
-  name: pciutils
-  
-  version: ""
-- 
-  category: www-servers
-  name: tornado
-  
-  version: 4.2.1
-- 
-  category: www-servers
-  name: tornado
-  
-  version: "5.0"
-- 
-  category: dev-python
-  name: pyopenssl
   
   version: ""
 - 
@@ -53,10 +28,45 @@ requires:
   
   version: 3.2.2
 - 
+  category: sys-apps
+  name: portage
+  
+  version: ""
+- 
+  category: app-vim
+  name: salt-vim
+  
+  version: ""
+- 
+  category: dev-python
+  name: raet
+  
+  version: 0.6.0
+- 
+  category: dev-python
+  name: mysql-python
+  
+  version: ""
+- 
   category: dev-python
   name: timelib
   
   version: ""
+- 
+  category: dev-python
+  name: python-novaclient
+  
+  version: 2.17.0
+- 
+  category: dev-python
+  name: libnacl
+  
+  version: ""
+- 
+  category: www-servers
+  name: tornado
+  
+  version: "5.0"
 - 
   category: virtual
   name: python-futures
@@ -69,27 +79,7 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pyzmq
-  
-  version: 2.2.0
-- 
-  category: sys-apps
-  name: portage
-  
-  version: ""
-- 
-  category: dev-python
-  name: python-novaclient
-  
-  version: 2.17.0
-- 
-  category: dev-python
-  name: libnacl
-  
-  version: 1.0.0
-- 
-  category: app-vim
-  name: salt-vim
+  name: redis-py
   
   version: ""
 - 
@@ -99,12 +89,32 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: requests
+  name: pyyaml
   
-  version: 1.0.0
+  version: ""
+- 
+  category: www-servers
+  name: tornado
+  
+  version: 4.2.1
 - 
   category: dev-python
-  name: setuptools
+  name: libcloud
+  
+  version: 0.14.0
+- 
+  category: dev-python
+  name: python-ldap
+  
+  version: ""
+- 
+  category: dev-python
+  name: ioflo
+  
+  version: 1.1.7
+- 
+  category: sys-apps
+  name: pciutils
   
   version: ""
 - 
@@ -114,27 +124,32 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: python-ldap
+  name: requests
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  name: pyopenssl
   
   version: ""
 - 
   category: dev-python
-  name: libvirt-python
+  name: mako
   
   version: ""
 - 
   category: dev-python
-  name: ioflo
+  name: pyzmq
   
-  version: 1.1.7
+  version: 2.2.0
 - 
   category: dev-python
   name: pycryptodome
   
   version: ""
 - 
-  category: dev-python
-  name: libnacl
+  category: sec-policy
+  name: selinux-salt
   
   version: ""
 - 
@@ -144,29 +159,14 @@ requires:
   version: "0.3"
 - 
   category: dev-python
-  name: pyyaml
+  name: libvirt-python
   
   version: ""
 - 
   category: dev-python
-  name: mysql-python
+  name: libnacl
   
-  version: ""
-- 
-  category: dev-python
-  name: redis-py
-  
-  version: ""
-- 
-  category: dev-python
-  name: python-neutronclient
-  
-  version: 2.3.6
-- 
-  category: dev-python
-  name: mako
-  
-  version: ""
+  version: 1.0.0
 - 
   category: dev-python
   name: pymongo

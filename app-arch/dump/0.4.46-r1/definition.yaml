@@ -3,23 +3,48 @@ conflicts: []
 name: dump
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: app-arch
+  name: bzip2
   
-  version: 1.1.4
+  version: 1.0.2
 - 
   category: dev-libs
   name: lzo
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-fs
+  name: e2fsprogs
+  
+  version: "1.27"
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: 1.1.4
+- 
+  category: dev-db
+  name: sqlite
   
   version: ""
 - 
@@ -32,31 +57,6 @@ requires:
   name: e2fsprogs-libs
   
   version: "1.27"
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: 1.0.2
-- 
-  category: sys-fs
-  name: e2fsprogs
-  
-  version: "1.27"
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
 use_flags:
 - bzip2
 - debug

@@ -2,24 +2,24 @@ category: sys-boot
 conflicts:
 - 
   category: sys-boot
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
-  name: grub-static
+  name: grub
   
   version: ""
 name: grub
 requires:
 - 
-  category: media-libs
-  name: libsdl
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
-  category: sys-fs
-  name: fuse
+  category: media-libs
+  name: libsdl
   
   version: ""
 - 
@@ -38,15 +38,15 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
   category: app-arch
   name: xz-utils
   
   version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: 5.2-r5
 - 
   category: sys-fs
   name: lvm2
@@ -58,10 +58,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
+  category: sys-fs
+  name: fuse
   
-  version: 5.2-r5
+  version: ""
 use_flags:
 - device-mapper
 - doc

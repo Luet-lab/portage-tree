@@ -3,6 +3,31 @@ conflicts: []
 name: mate-user-share
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
   category: x11-libs
   name: pango
   
@@ -13,10 +38,10 @@ requires:
   
   version: "0.7"
 - 
-  category: www-servers
-  name: apache
+  category: www-apache
+  name: mod_dnssd
   
-  version: "2.2"
+  version: "0.6"
 - 
   category: dev-libs
   name: dbus-glib
@@ -28,45 +53,20 @@ requires:
   
   version: 1.17.1
 - 
-  category: media-libs
-  name: libcanberra
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: "2"
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
   category: sys-apps
   name: dbus
   
   version: 1.1.1
 - 
   category: x11-libs
-  name: gtk+
+  name: gdk-pixbuf
   
-  version: "3.22"
+  version: "2"
 - 
-  category: virtual
-  name: libintl
+  category: www-servers
+  name: apache
   
-  version: ""
-- 
-  category: www-apache
-  name: mod_dnssd
-  
-  version: "0.6"
+  version: "2.2"
 use_flags:
 - X
 version: 1.22.0

@@ -3,16 +3,6 @@ conflicts: []
 name: openstack-meta
 requires:
 - 
-  category: sys-auth
-  name: keystone
-  
-  version: 2019.2.9999
-- 
-  category: sys-cluster
-  name: swift
-  
-  version: 2019.2.9999
-- 
   category: sys-cluster
   name: neutron
   
@@ -40,6 +30,16 @@ requires:
 - 
   category: sys-cluster
   name: placement
+  
+  version: 2019.2.9999
+- 
+  category: sys-auth
+  name: keystone
+  
+  version: 2019.2.9999
+- 
+  category: sys-cluster
+  name: swift
   
   version: 2019.2.9999
 use_flags:

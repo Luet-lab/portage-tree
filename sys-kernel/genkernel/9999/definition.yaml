@@ -3,6 +3,11 @@ conflicts: []
 name: genkernel
 requires:
 - 
+  category: app-arch
+  name: cpio
+  
+  version: ""
+- 
   category: app-portage
   name: elt-patches
   
@@ -17,6 +22,16 @@ requires:
   name: autoconf
   
   version: ""
+- 
+  category: sys-devel
+  name: autoconf-archive
+  
+  version: ""
+- 
+  category: app-misc
+  name: pax-utils
+  
+  version: 1.2.2
 - 
   category: sys-devel
   name: automake
@@ -35,21 +50,6 @@ requires:
 - 
   category: sys-kernel
   name: linux-firmware
-  
-  version: ""
-- 
-  category: app-arch
-  name: cpio
-  
-  version: ""
-- 
-  category: app-misc
-  name: pax-utils
-  
-  version: 1.2.2
-- 
-  category: sys-devel
-  name: autoconf-archive
   
   version: ""
 use_flags:

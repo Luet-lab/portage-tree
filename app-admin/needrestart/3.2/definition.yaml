@@ -3,23 +3,18 @@ conflicts: []
 name: needrestart
 requires:
 - 
+  category: sys-apps
+  name: sed
+  
+  version: 4.2.2
+- 
   category: dev-lang
   name: perl
   
   version: ""
 - 
   category: dev-perl
-  name: libintl-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: Sort-Naturally
-  
-  version: ""
-- 
-  category: dev-perl
-  name: TermReadKey
+  name: Proc-ProcessTable
   
   version: ""
 - 
@@ -28,10 +23,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: sed
+  category: dev-perl
+  name: libintl-perl
   
-  version: 4.2.2
+  version: ""
 - 
   category: dev-perl
   name: Module-Find
@@ -44,7 +39,12 @@ requires:
   version: ""
 - 
   category: dev-perl
-  name: Proc-ProcessTable
+  name: Sort-Naturally
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
   
   version: ""
 version: "3.2"

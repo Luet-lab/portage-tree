@@ -4,7 +4,22 @@ name: git
 requires:
 - 
   category: dev-perl
-  name: MediaWiki-API
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: app-crypt
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-perl
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libpcre2[jit(+)]
   
   version: ""
 - 
@@ -13,28 +28,33 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: dev-perl
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
+  category: dev-libs
+  name: libpcre
   
   version: ""
 - 
   category: dev-perl
   name: Authen-SASL
+  
+  version: ""
+- 
+  category: dev-perl
+  name: DateTime-Format-ISO8601
+  
+  version: ""
+- 
+  category: dev-perl
+  name: TermReadKey
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-perl
+  name: Error
   
   version: ""
 - 
@@ -48,23 +68,28 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
-  name: TermReadKey
+  category: dev-vcs
+  name: cvsps
   
-  version: ""
+  version: "2.1"
 - 
   category: dev-perl
-  name: MailTools
+  name: DBD-SQLite
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: net-misc
+  name: curl
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre
+  category: virtual
+  name: emacs
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gnupg
   
   version: ""
 - 
@@ -88,13 +113,8 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  name: DateTime-Format-ISO8601
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -104,37 +124,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit(+)]
-  
-  version: ""
-- 
-  category: dev-libs
   name: expat
   
   version: ""
 - 
-  category: dev-vcs
-  name: cvsps
-  
-  version: "2.1"
-- 
-  category: app-crypt
-  name: libsecret
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
   category: virtual
-  name: emacs
+  name: libiconv
   
   version: ""
 - 
   category: dev-perl
-  name: Error
+  name: MediaWiki-API
   
   version: ""
 use_flags:

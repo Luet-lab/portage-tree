@@ -3,23 +3,18 @@ conflicts: []
 name: lirc
 requires:
 - 
+  category: dev-python
+  name: pyyaml
+  
+  version: ""
+- 
   category: dev-embedded
   name: libftdi
   
   version: ""
 - 
-  category: virtual
-  name: libusb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -38,11 +33,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  name: inputlircd
-  
-  version: ""
-- 
   category: media-libs
   name: portaudio
   
@@ -53,13 +43,23 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: pyyaml
+  category: virtual
+  name: libusb
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: app-misc
+  name: inputlircd
   
   version: ""
 use_flags:

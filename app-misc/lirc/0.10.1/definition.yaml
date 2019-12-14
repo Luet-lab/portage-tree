@@ -3,18 +3,13 @@ conflicts: []
 name: lirc
 requires:
 - 
+  category: media-libs
+  name: portaudio
+  
+  version: "18"
+- 
   category: sys-apps
   name: systemd
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
   
   version: ""
 - 
@@ -24,24 +19,9 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
   name: vte
   
   version: ""
-- 
-  category: dev-python
-  name: pygobject
-  
-  version: ""
-- 
-  category: media-libs
-  name: portaudio
-  
-  version: "18"
 - 
   category: media-libs
   name: alsa-lib
@@ -55,6 +35,26 @@ requires:
 - 
   category: dev-embedded
   name: libftdi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-python
+  name: pygobject
   
   version: ""
 - 

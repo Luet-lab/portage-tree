@@ -4,27 +4,7 @@ name: wlroots
 requires:
 - 
   category: x11-libs
-  name: xcb-util-wm
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "237"
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: media-libs
-  name: mesa
+  name: libdrm
   
   version: ""
 - 
@@ -33,33 +13,18 @@ requires:
   
   version: ""
 - 
-  category: x11-base
-  name: xorg-server
+  category: net-misc
+  name: freerdp
   
   version: ""
 - 
-  category: sys-auth
-  name: elogind
+  category: sys-apps
+  name: systemd
   
   version: "237"
 - 
-  category: x11-libs
-  name: xcb-util-image
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libinput
-  
-  version: 1.9.0
-- 
   category: virtual
   name: libudev
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libdrm
   
   version: ""
 - 
@@ -68,13 +33,48 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: freerdp
+  category: sys-auth
+  name: elogind
+  
+  version: "237"
+- 
+  category: x11-base
+  name: xorg-server
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util-image
+  
+  version: ""
+- 
+  category: media-libs
+  name: mesa
   
   version: ""
 - 
   category: x11-libs
   name: libxcb
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.9.0
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: x11-libs
+  name: xcb-util-wm
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
   
   version: ""
 use_flags:

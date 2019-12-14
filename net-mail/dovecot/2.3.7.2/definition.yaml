@@ -8,63 +8,18 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: acct-group
-  name: mail
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: clucene
-  
-  version: "2.3"
-- 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
   category: sys-libs
-  name: pam
+  name: libcap
   
   version: ""
 - 
   category: dev-libs
   name: expat
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
   
   version: ""
 - 
@@ -78,13 +33,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: net-mail
+  name: mailbase
   
   version: ""
 - 
-  category: net-nds
-  name: openldap
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
@@ -93,8 +48,78 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: app-text
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-dovecot
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
   category: app-arch
   name: lz4
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
   
   version: ""
 - 
@@ -105,31 +130,6 @@ requires:
 - 
   category: virtual
   name: libiconv
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-dovecot
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailbase
   
   version: ""
 use_flags:

@@ -8,6 +8,11 @@ conflicts:
 name: iproute2
 requires:
 - 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
   category: virtual
   name: libelf
   
@@ -35,11 +40,6 @@ requires:
 - 
   category: net-libs
   name: libmnl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
   
   version: ""
 use_flags:

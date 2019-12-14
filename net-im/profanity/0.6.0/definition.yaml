@@ -4,12 +4,12 @@ name: profanity
 requires:
 - 
   category: dev-libs
-  name: glib
+  name: libstrophe
   
   version: ""
 - 
   category: dev-libs
-  name: libstrophe
+  name: openssl
   
   version: ""
 - 
@@ -18,28 +18,18 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: ""
-- 
   category: x11-libs
   name: libnotify
   
   version: ""
 - 
-  category: net-libs
-  name: libotr
+  category: x11-libs
+  name: libXScrnSaver
   
   version: ""
 - 
   category: x11-libs
-  name: libXScrnSaver
+  name: libX11
   
   version: ""
 - 
@@ -49,7 +39,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: glib
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gpgme
+  
+  version: ""
+- 
+  category: net-libs
+  name: libotr
   
   version: ""
 - 
@@ -58,8 +58,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: sys-libs
+  name: ncurses
   
   version: ""
 use_flags:

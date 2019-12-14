@@ -4,6 +4,36 @@ name: fcitx-libpinyin
 requires:
 - 
   category: dev-qt
+  name: qtcore
+  
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: "5.7"
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: "5.7"
+- 
+  category: app-i18n
+  name: fcitx-qt5
+  
+  version: "1.1"
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: "5.7"
+- 
+  category: dev-qt
   name: qtwebengine
   
   version: "5.7"
@@ -13,8 +43,18 @@ requires:
   
   version: 4.2.9
 - 
+  category: app-i18n
+  name: libpinyin
+  
+  version: 2.1.0
+- 
   category: dev-libs
   name: glib
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
@@ -22,46 +62,6 @@ requires:
   name: libintl
   
   version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtdbus
-  
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: "5.7"
-- 
-  category: app-i18n
-  name: libpinyin
-  
-  version: 2.1.0
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: app-i18n
-  name: fcitx-qt5
-  
-  version: "1.1"
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: "5.7"
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: "5.7"
 use_flags:
 - dictionary-manager
 version: 0.5.3

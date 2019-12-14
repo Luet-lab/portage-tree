@@ -3,53 +3,18 @@ conflicts: []
 name: perf
 requires:
 - 
+  category: sys-process
+  name: audit
+  
+  version: ""
+- 
   category: dev-libs
   name: openssl
   
   version: ""
 - 
-  category: virtual
-  name: jre
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libunwind
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: sys-devel
-  name: clang
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-util
-  name: systemtap
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: binutils-libs
+  name: llvm
   
   version: ""
 - 
@@ -68,13 +33,48 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  name: audit
+  category: virtual
+  name: jre
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libunwind
+  
+  version: ""
+- 
+  category: sys-libs
+  name: binutils-libs
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: dev-util
+  name: systemtap
   
   version: ""
 - 
   category: sys-devel
-  name: llvm
+  name: clang
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 use_flags:

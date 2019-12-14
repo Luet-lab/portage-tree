@@ -3,38 +3,18 @@ conflicts: []
 name: fcitx
 requires:
 - 
-  category: x11-libs
-  name: libXfixes
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
+  category: app-i18n
+  name: opencc
   
   version: ""
 - 
   category: sys-apps
-  name: dbus
+  name: util-linux
   
   version: ""
 - 
@@ -44,37 +24,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: libxkbcommon
   
   version: ""
 - 
-  category: dev-libs
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
+  category: x11-misc
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -83,8 +38,33 @@ requires:
   
   version: ""
 - 
-  category: app-i18n
-  name: opencc
+  category: dev-libs
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -99,27 +79,47 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
   name: libXrender
   
   version: ""
 - 
   category: x11-libs
-  name: gtk+
+  name: cairo[X]
   
   version: ""
 - 
-  category: app-text
-  name: iso-codes
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
+  category: media-libs
+  name: fontconfig
   
   version: ""
 use_flags:

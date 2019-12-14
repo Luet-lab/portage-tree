@@ -3,20 +3,20 @@ conflicts: []
 name: bluez-alsa
 requires:
 - 
-  category: media-libs
-  name: alsa-lib
+  category: sys-libs
+  name: ncurses
   
-  version: 1.1.2
+  version: ""
 - 
   category: net-wireless
   name: bluez
   
   version: "5.0"
 - 
-  category: dev-libs
-  name: glib
+  category: media-libs
+  name: alsa-lib
   
-  version: "2.26"
+  version: 1.1.2
 - 
   category: media-libs
   name: sbc
@@ -38,15 +38,15 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
   category: media-libs
   name: libldac
   
   version: 2.0.0
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.26"
 use_flags:
 - aac
 - debug

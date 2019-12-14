@@ -4,9 +4,9 @@ name: pithos
 requires:
 - 
   category: dev-python
-  name: pygobject
+  name: dbus-python
   
-  version: "3.12"
+  version: ""
 - 
   category: dev-libs
   name: appstream-glib
@@ -17,6 +17,31 @@ requires:
   name: pango
   
   version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.14"
+- 
+  category: dev-libs
+  name: keybinder
+  
+  version: ""
+- 
+  category: dev-python
+  name: pylast
+  
+  version: ""
+- 
+  category: dev-python
+  name: pygobject
+  
+  version: "3.12"
 - 
   category: media-libs
   name: gstreamer
@@ -37,31 +62,6 @@ requires:
   name: libappindicator
   
   version: ""
-- 
-  category: dev-libs
-  name: keybinder
-  
-  version: ""
-- 
-  category: dev-python
-  name: pylast
-  
-  version: ""
-- 
-  category: dev-python
-  name: dbus-python
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-meta
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.14"
 use_flags:
 - libnotify
 - appindicator

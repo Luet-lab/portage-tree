@@ -3,28 +3,23 @@ conflicts: []
 name: sway
 requires:
 - 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
   category: dev-libs
   name: libpcre
   
   version: ""
 - 
   category: x11-libs
-  name: pixman
+  name: gdk-pixbuf
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: "239"
-- 
   category: gui-libs
   name: wlroots-0.6.0[elogind=,systemd=,X=]
+  
+  version: ""
+- 
+  category: gui-apps
+  name: swayidle
   
   version: ""
 - 
@@ -34,7 +29,22 @@ requires:
   version: 1.6.0
 - 
   category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
   name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
   
   version: ""
 - 
@@ -48,13 +58,23 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: wayland
+  
+  version: ""
+- 
   category: gui-apps
   name: swaylock
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: sys-apps
+  name: systemd
+  
+  version: "239"
+- 
+  category: x11-misc
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -63,28 +83,8 @@ requires:
   
   version: "0.13"
 - 
-  category: dev-libs
-  name: wayland
-  
-  version: ""
-- 
   category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: gui-apps
-  name: swayidle
+  name: libxcb
   
   version: ""
 use_flags:

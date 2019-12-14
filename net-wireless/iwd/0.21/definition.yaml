@@ -4,6 +4,16 @@ name: iwd
 requires:
 - 
   category: net-wireless
+  name: crda
+  
+  version: ""
+- 
+  category: dev-libs
+  name: ell
+  
+  version: "0.23"
+- 
+  category: net-wireless
   name: wireless-regdb
   
   version: ""
@@ -17,16 +27,6 @@ requires:
   name: readline
   
   version: ""
-- 
-  category: net-wireless
-  name: crda
-  
-  version: ""
-- 
-  category: dev-libs
-  name: ell
-  
-  version: "0.23"
 use_flags:
 - +client
 - +crda

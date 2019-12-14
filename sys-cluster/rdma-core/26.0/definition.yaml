@@ -2,12 +2,12 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
-  name: librdmacm
+  name: libnes
   
   version: ""
 - 
   category: sys-fabric
-  name: srptools
+  name: libibmad
   
   version: ""
 - 
@@ -17,12 +17,12 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libmlx4
+  name: libocrdma
   
   version: ""
 - 
   category: sys-fabric
-  name: libibverbs
+  name: srptools
   
   version: ""
 - 
@@ -32,7 +32,7 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libmthca
+  name: libmlx4
   
   version: ""
 - 
@@ -47,22 +47,22 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
+  name: librdmacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libmthca
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibverbs
+  
+  version: ""
+- 
+  category: sys-fabric
   name: libibumad
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibmad
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libocrdma
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libnes
   
   version: ""
 - 
@@ -78,13 +78,8 @@ conflicts:
 name: rdma-core
 requires:
 - 
-  category: dev-libs
-  name: libnl
-  
-  version: ""
-- 
-  category: dev-util
-  name: valgrind
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
@@ -93,8 +88,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: dev-libs
+  name: libnl
+  
+  version: ""
+- 
+  category: dev-util
+  name: valgrind
   
   version: ""
 use_flags:

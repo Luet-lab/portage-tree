@@ -3,8 +3,8 @@ conflicts: []
 name: async_ssl
 requires:
 - 
-  category: dev-ml
-  name: ocaml-migrate-parsetree
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -19,12 +19,7 @@ requires:
   version: ""
 - 
   category: dev-ml
-  name: base
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  name: ppx_jane
   
   version: ""
 - 
@@ -35,6 +30,11 @@ requires:
 - 
   category: dev-ml
   name: ocaml-ctypes
+  
+  version: ""
+- 
+  category: dev-ml
+  name: base
   
   version: ""
 - 
@@ -54,7 +54,7 @@ requires:
   version: ""
 - 
   category: dev-ml
-  name: ppx_jane
+  name: ocaml-migrate-parsetree
   
   version: ""
 use_flags:

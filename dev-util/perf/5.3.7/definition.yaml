@@ -3,8 +3,8 @@ conflicts: []
 name: perf
 requires:
 - 
-  category: x11-libs
-  name: gtk+
+  category: sys-libs
+  name: binutils-libs
   
   version: ""
 - 
@@ -23,18 +23,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
   category: virtual
   name: jre
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
   
   version: ""
 - 
@@ -44,7 +39,7 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: zlib
+  name: libunwind
   
   version: ""
 - 
@@ -55,6 +50,16 @@ requires:
 - 
   category: sys-process
   name: audit
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
   
   version: ""
 - 
@@ -69,12 +74,7 @@ requires:
   version: ""
 - 
   category: sys-libs
-  name: binutils-libs
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libunwind
+  name: zlib
   
   version: ""
 use_flags:

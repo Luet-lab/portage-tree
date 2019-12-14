@@ -3,18 +3,18 @@ conflicts: []
 name: kitty
 requires:
 - 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: x11-libs
-  name: libxkbcommon[X]
+  name: libXinerama
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
+  category: x11-libs
+  name: libxcb
   
   version: ""
 - 
@@ -24,12 +24,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXinerama
+  name: libxkbcommon[X]
   
   version: ""
 - 
-  category: dev-libs
-  name: wayland
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
   
   version: ""
 - 
@@ -43,18 +53,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
   category: virtual
   name: imagemagick-tools
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: wayland
   
   version: ""
 - 
@@ -64,17 +69,12 @@ requires:
   version: "1.17"
 - 
   category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
   name: harfbuzz
   
   version: 1.5.0
 - 
-  category: x11-libs
-  name: libxcb
+  category: media-libs
+  name: libpng
   
   version: ""
 - 

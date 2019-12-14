@@ -2,9 +2,9 @@ category: app-emulation
 conflicts:
 - 
   category: ~dev-python
-  name: Babel
+  name: pbr
   
-  version: 2.4.0
+  version: 2.1.0
 - 
   category: dev-python
   name: dib-utils
@@ -12,21 +12,16 @@ conflicts:
   version: ""
 - 
   category: ~dev-python
-  name: pbr
+  name: Babel
   
-  version: 2.1.0
+  version: 2.4.0
 name: diskimage-builder
 requires:
 - 
   category: dev-python
-  name: pyyaml
+  name: six
   
-  version: "3.12"
-- 
-  category: sys-fs
-  name: multipath-tools
-  
-  version: ""
+  version: 1.10.0
 - 
   category: sys-fs
   name: dosfstools
@@ -39,29 +34,19 @@ requires:
   version: 2.0.0
 - 
   category: dev-python
-  name: Babel
+  name: pyyaml
   
-  version: 2.3.4
+  version: "3.12"
 - 
-  category: dev-python
-  name: flake8
-  
-  version: 2.6.0
-- 
-  category: sys-apps
-  name: gptfdisk
+  category: sys-fs
+  name: multipath-tools
   
   version: ""
 - 
   category: dev-python
-  name: flake8
+  name: networkx
   
-  version: 2.5.4
-- 
-  category: dev-python
-  name: six
-  
-  version: 1.10.0
+  version: "1.10"
 - 
   category: dev-python
   name: networkx
@@ -78,15 +63,30 @@ requires:
   
   version: ""
 - 
-  category: sys-block
-  name: parted
+  category: sys-apps
+  name: gptfdisk
   
   version: ""
 - 
   category: dev-python
-  name: networkx
+  name: flake8
   
-  version: "1.10"
+  version: 2.5.4
+- 
+  category: dev-python
+  name: flake8
+  
+  version: 2.6.0
+- 
+  category: dev-python
+  name: Babel
+  
+  version: 2.3.4
+- 
+  category: sys-block
+  name: parted
+  
+  version: ""
 use_flags:
 - ""
 version: 2.29.1

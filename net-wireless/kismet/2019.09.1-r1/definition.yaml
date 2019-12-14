@@ -3,8 +3,8 @@ conflicts: []
 name: kismet
 requires:
 - 
-  category: dev-libs
-  name: protobuf
+  category: dev-python
+  name: protobuf-python
   
   version: ""
 - 
@@ -13,13 +13,13 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: dev-python
+  name: pyserial
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -29,57 +29,7 @@ requires:
   version: ""
 - 
   category: net-libs
-  name: libmicrohttpd
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: dev-python
-  name: pyserial
-  
-  version: ""
-- 
-  category: net-libs
   name: libpcap
-  
-  version: ""
-- 
-  category: dev-python
-  name: protobuf-python
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-kismet
-  
-  version: ""
-- 
-  category: net-misc
-  name: networkmanager
-  
-  version: ""
-- 
-  category: dev-libs
-  name: elfutils
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
   
   version: ""
 - 
@@ -89,7 +39,57 @@ requires:
   version: ""
 - 
   category: dev-libs
+  name: protobuf
+  
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
+  
+  version: ""
+- 
+  category: dev-libs
+  name: elfutils
+  
+  version: ""
+- 
+  category: net-libs
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
   name: protobuf-c
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: net-misc
+  name: networkmanager
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-kismet
   
   version: ""
 use_flags:

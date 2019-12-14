@@ -3,20 +3,35 @@ conflicts: []
 name: pulseeffects
 requires:
 - 
+  category: media-libs
+  name: gst-plugins-good
+  
+  version: 1.12.0
+- 
+  category: media-libs
+  name: zita-convolver
+  
+  version: 3.0.0
+- 
   category: dev-libs
   name: boost
   
   version: "1.41"
 - 
   category: dev-cpp
-  name: gtkmm
+  name: glibmm
   
-  version: "3.20"
+  version: 2.56.0
 - 
-  category: dev-libs
-  name: libsigc++
+  category: media-plugins
+  name: gst-plugins-ladspa
   
-  version: "2.10"
+  version: 1.12.0
+- 
+  category: media-plugins
+  name: gst-plugins-lv2
+  
+  version: 1.12.0
 - 
   category: media-libs
   name: lsp-plugins
@@ -24,7 +39,7 @@ requires:
   version: 1.1.7
 - 
   category: media-libs
-  name: gst-plugins-good
+  name: gstreamer
   
   version: 1.12.0
 - 
@@ -33,25 +48,20 @@ requires:
   
   version: 0.90.0
 - 
-  category: media-libs
-  name: libebur128
+  category: media-plugins
+  name: mda-lv2
   
   version: ""
 - 
-  category: dev-cpp
-  name: glibmm
-  
-  version: 2.56.0
-- 
   category: media-libs
-  name: gst-plugins-bad
+  name: rubberband
   
-  version: 1.12.0
+  version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-ladspa
+  category: media-sound
+  name: pulseaudio
   
-  version: 1.12.0
+  version: ""
 - 
   category: sys-apps
   name: dbus
@@ -59,9 +69,19 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
+  name: libsigc++
   
-  version: "2.56"
+  version: "2.10"
+- 
+  category: media-plugins
+  name: gst-plugins-bs2b
+  
+  version: 1.12.0
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.18"
 - 
   category: media-libs
   name: lilv
@@ -69,12 +89,7 @@ requires:
   version: 0.24.2-r1
 - 
   category: media-libs
-  name: gstreamer
-  
-  version: 1.12.0
-- 
-  category: media-plugins
-  name: gst-plugins-lv2
+  name: gst-plugins-bad
   
   version: 1.12.0
 - 
@@ -84,34 +99,19 @@ requires:
   version: 1.12.0
 - 
   category: media-libs
-  name: rubberband
+  name: libebur128
   
   version: ""
 - 
-  category: media-libs
-  name: zita-convolver
+  category: dev-cpp
+  name: gtkmm
   
-  version: 3.0.0
+  version: "3.20"
 - 
-  category: x11-libs
-  name: gtk+
+  category: dev-libs
+  name: glib
   
-  version: "3.18"
-- 
-  category: media-plugins
-  name: gst-plugins-bs2b
-  
-  version: 1.12.0
-- 
-  category: media-plugins
-  name: mda-lv2
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
+  version: "2.56"
 use_flags:
 - bs2b
 - calf

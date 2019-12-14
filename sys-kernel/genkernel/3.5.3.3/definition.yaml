@@ -8,16 +8,6 @@ conflicts:
 name: genkernel
 requires:
 - 
-  category: app-arch
-  name: cpio
-  
-  version: ""
-- 
-  category: app-misc
-  name: pax-utils
-  
-  version: 1.2.2
-- 
   category: sys-apps
   name: util-linux[static-libs(+)]
   
@@ -42,6 +32,16 @@ requires:
   name: cryptsetup
   
   version: ""
+- 
+  category: app-arch
+  name: cpio
+  
+  version: ""
+- 
+  category: app-misc
+  name: pax-utils
+  
+  version: 1.2.2
 use_flags:
 - cryptsetup
 - ibm

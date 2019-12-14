@@ -3,13 +3,38 @@ conflicts: []
 name: freewrl
 requires:
 - 
-  category: app-arch
-  name: unzip
+  category: dev-lang
+  name: spidermonkey
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  name: openal
   
   version: ""
 - 
   category: virtual
-  name: imagemagick-tools
+  name: opencl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -19,12 +44,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: freealut
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
+  name: imlib2
   
   version: ""
 - 
@@ -39,7 +59,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: mesa
+  name: liblo
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: "2"
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -49,34 +79,14 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: "2"
-- 
-  category: virtual
-  name: opencl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
   name: libXt
   
   version: ""
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.4"
 - 
   category: media-libs
   name: libpng
@@ -89,32 +99,17 @@ requires:
   version: ""
 - 
   category: virtual
-  name: jre
-  
-  version: "1.4"
-- 
-  category: x11-libs
-  name: libICE
+  name: imagemagick-tools
   
   version: ""
 - 
   category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
+  name: libXxf86vm
   
   version: ""
 - 
   category: media-libs
-  name: liblo
-  
-  version: ""
-- 
-  category: dev-lang
-  name: spidermonkey
+  name: freealut
   
   version: ""
 - 
@@ -123,18 +118,23 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
+  category: app-arch
+  name: unzip
   
   version: ""
 - 
   category: media-libs
-  name: imlib2
+  name: mesa
   
   version: ""
 - 
-  category: media-libs
-  name: openal
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
   
   version: ""
 use_flags:

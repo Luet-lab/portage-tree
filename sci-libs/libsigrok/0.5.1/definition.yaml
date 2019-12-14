@@ -3,23 +3,48 @@ conflicts: []
 name: libsigrok
 requires:
 - 
-  category: dev-cpp
-  name: glibmm
+  category: dev-libs
+  name: glib-2.32.0[static-libs(+)]
   
   version: ""
 - 
-  category: dev-embedded
-  name: libftdi
+  category: dev-libs
+  name: libserialport-0.1.1[static-libs(+)]
   
-  version: "0.16"
+  version: ""
+- 
+  category: dev-libs
+  name: libzip
+  
+  version: "0.8"
 - 
   category: dev-libs
   name: libserialport
   
   version: 0.1.1
 - 
+  category: dev-python
+  name: pygobject
+  
+  version: 3.0.0
+- 
+  category: dev-embedded
+  name: libftdi
+  
+  version: "0.16"
+- 
+  category: sys-libs
+  name: libieee1284
+  
+  version: ""
+- 
   category: virtual
   name: libusb
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libieee1284[static-libs(+)]
   
   version: ""
 - 
@@ -33,35 +58,10 @@ requires:
   
   version: 2.32.0
 - 
-  category: dev-python
-  name: pygobject
-  
-  version: 3.0.0
-- 
-  category: sys-libs
-  name: libieee1284
+  category: dev-cpp
+  name: glibmm
   
   version: ""
-- 
-  category: dev-libs
-  name: glib-2.32.0[static-libs(+)]
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libieee1284[static-libs(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libserialport-0.1.1[static-libs(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libzip
-  
-  version: "0.8"
 use_flags:
 - cxx
 - ftdi

@@ -3,10 +3,25 @@ conflicts: []
 name: mate-media
 requires:
 - 
-  category: mate-base
-  name: mate-desktop
+  category: x11-libs
+  name: gtk+
   
-  version: 1.17.0
+  version: "3.22"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
 - 
   category: media-libs
   name: libmatemixer
@@ -18,25 +33,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libintl
+  category: media-libs
+  name: libcanberra
   
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
+  version: "0.13"
 - 
   category: dev-libs
   name: libxml2
@@ -48,10 +48,10 @@ requires:
   
   version: 1.17.0
 - 
-  category: media-libs
-  name: libcanberra
+  category: mate-base
+  name: mate-desktop
   
-  version: "0.13"
+  version: 1.17.0
 use_flags:
 - ""
 version: 1.22.1

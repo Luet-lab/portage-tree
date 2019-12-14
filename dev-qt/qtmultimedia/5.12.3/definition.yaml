@@ -3,8 +3,33 @@ conflicts: []
 name: qtmultimedia
 requires:
 - 
+  category: dev-qt
+  name: qtdeclarative
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtwidgets-5.12.3[gles2=]
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
   category: media-libs
-  name: gst-plugins-bad
+  name: openal
   
   version: ""
 - 
@@ -13,13 +38,13 @@ requires:
   
   version: 5.12.3
 - 
-  category: media-libs
-  name: gstreamer
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: media-libs
+  name: gstreamer
   
   version: ""
 - 
@@ -28,13 +53,8 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets-5.12.3[gles2=]
-  
-  version: ""
-- 
   category: media-libs
-  name: alsa-lib
+  name: gst-plugins-bad
   
   version: ""
 - 
@@ -48,28 +68,8 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtdeclarative
-  
-  version: 5.12.3
-- 
   category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: media-sound
-  name: pulseaudio
+  name: alsa-lib
   
   version: ""
 use_flags:

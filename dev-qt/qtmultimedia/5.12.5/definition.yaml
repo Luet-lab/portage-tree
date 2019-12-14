@@ -8,13 +8,8 @@ requires:
   
   version: 5.12.5
 - 
-  category: dev-qt
-  name: qtdeclarative
-  
-  version: 5.12.5
-- 
-  category: media-libs
-  name: alsa-lib
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -24,9 +19,19 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-base
+  name: alsa-lib
   
   version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.5
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: 5.12.5
 - 
   category: media-sound
   name: pulseaudio
@@ -44,22 +49,12 @@ requires:
   version: ""
 - 
   category: dev-qt
+  name: qtopengl
+  
+  version: 5.12.5
+- 
+  category: dev-qt
   name: qtgui-5.12.5[gles2=]
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.5
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: 5.12.5
-- 
-  category: dev-libs
-  name: glib
   
   version: ""
 - 
@@ -68,8 +63,13 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  name: gst-plugins-base
+  
+  version: ""
+- 
   category: dev-qt
-  name: qtopengl
+  name: qtdeclarative
   
   version: 5.12.5
 use_flags:

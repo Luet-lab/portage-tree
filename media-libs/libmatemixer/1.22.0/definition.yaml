@@ -3,16 +3,6 @@ conflicts: []
 name: libmatemixer
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
   category: media-libs
   name: alsa-lib
   
@@ -22,6 +12,16 @@ requires:
   name: pulseaudio
   
   version: 5.0.0
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
 use_flags:
 - +alsa
 - oss

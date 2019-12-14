@@ -2,19 +2,34 @@ category: dev-util
 conflicts:
 - 
   category: dev-util
-  name: kdevelop-clang-tidy
+  name: kdevplatform
   
   version: ""
 - 
   category: dev-util
-  name: kdevplatform
+  name: kdevelop-clang-tidy
   
   version: ""
 name: kdevelop
 requires:
 - 
   category: dev-util
+  name: astyle
+  
+  version: "3.1"
+- 
+  category: dev-qt
+  name: qtwebkit
+  
+  version: 5.212.0_pre20180120
+- 
+  category: dev-util
   name: kdevelop-pg-qt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: apr
   
   version: ""
 - 
@@ -23,30 +38,20 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwebkit
+  category: dev-vcs
+  name: subversion
   
-  version: 5.212.0_pre20180120
+  version: ""
 - 
   category: dev-util
   name: ninja
   
   version: ""
 - 
-  category: sys-devel
-  name: gdb
-  
-  version: "7.0"
-- 
   category: dev-libs
   name: grantlee
   
   version: ""
-- 
-  category: dev-util
-  name: astyle
-  
-  version: "3.1"
 - 
   category: sys-devel
   name: clang
@@ -58,15 +63,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: apr
+  category: sys-devel
+  name: gdb
   
-  version: ""
-- 
-  category: dev-vcs
-  name: subversion
-  
-  version: ""
+  version: "7.0"
 use_flags:
 - +gdbui
 - hex

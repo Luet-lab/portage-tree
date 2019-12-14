@@ -18,13 +18,8 @@ conflicts:
 name: nfs-utils
 requires:
 - 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
+  category: dev-libs
+  name: libxml2
   
   version: ""
 - 
@@ -33,8 +28,23 @@ requires:
   
   version: 0.2.4
 - 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
   category: sys-apps
   name: util-linux
+  
+  version: ""
+- 
+  category: app-crypt
+  name: mit-krb5
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
@@ -48,8 +58,23 @@ requires:
   
   version: 1.5.9
 - 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: net-libs
+  name: libtirpc
+  
+  version: 0.2.4-r1
+- 
+  category: sys-apps
+  name: tcp-wrappers
+  
+  version: ""
+- 
   category: sec-policy
-  name: selinux-rpc
+  name: selinux-rpcbind
   
   version: ""
 - 
@@ -63,38 +88,13 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: app-crypt
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
+  category: sys-libs
+  name: e2fsprogs-libs
   
   version: ""
 - 
   category: sec-policy
-  name: selinux-rpcbind
-  
-  version: ""
-- 
-  category: sys-libs
-  name: e2fsprogs-libs
+  name: selinux-rpc
   
   version: ""
 use_flags:

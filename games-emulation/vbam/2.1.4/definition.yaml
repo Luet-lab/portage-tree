@@ -3,6 +3,11 @@ conflicts: []
 name: vbam
 requires:
 - 
+  category: media-libs
+  name: openal
+  
+  version: ""
+- 
   category: x11-libs
   name: wxGTK
   
@@ -13,35 +18,10 @@ requires:
   
   version: "1.4"
 - 
-  category: media-libs
-  name: libsdl2
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: virtual
   name: glu
   
   version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: app-misc
-  name: lirc
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsfml
-  
-  version: "2.0"
 - 
   category: media-video
   name: ffmpeg-3*
@@ -53,8 +33,28 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  name: lirc
+  
+  version: ""
+- 
   category: media-libs
-  name: openal
+  name: libsdl2
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsfml
+  
+  version: "2.0"
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
   
   version: ""
 use_flags:

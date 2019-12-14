@@ -3,38 +3,13 @@ conflicts: []
 name: mate-settings-daemon
 requires:
 - 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: media-libs
-  name: libmatemixer
-  
-  version: "1.10"
-- 
-  category: mate-base
-  name: mate-desktop
-  
-  version: 1.21.1
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
   category: x11-libs
   name: gtk+
   
   version: "3.22"
 - 
   category: x11-libs
-  name: libXxf86misc
+  name: libXext
   
   version: ""
 - 
@@ -43,25 +18,85 @@ requires:
   
   version: "5.2"
 - 
-  category: media-sound
-  name: pulseaudio
+  category: virtual
+  name: libintl
   
-  version: 0.9.15
+  version: ""
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.71"
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: sys-auth
+  name: polkit
+  
+  version: "0.97"
 - 
   category: media-libs
   name: libcanberra
   
   version: ""
 - 
-  category: gnome-base
-  name: dconf
+  category: mate-base
+  name: libmatekbd
   
-  version: 0.13.4
+  version: 1.17.0
 - 
   category: x11-libs
-  name: libXext
+  name: libXxf86misc
   
   version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.21.1
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmatemixer
+  
+  version: "1.10"
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: 0.9.15
 - 
   category: dev-libs
   name: nss
@@ -78,45 +113,10 @@ requires:
   
   version: "2.50"
 - 
-  category: media-libs
-  name: fontconfig
+  category: gnome-base
+  name: dconf
   
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.71"
-- 
-  category: mate-base
-  name: libmatekbd
-  
-  version: 1.17.0
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: 1.1.2
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: "0.97"
+  version: 0.13.4
 use_flags:
 - X
 - debug

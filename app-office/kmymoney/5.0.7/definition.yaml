@@ -8,43 +8,18 @@ conflicts:
 name: kmymoney
 requires:
 - 
-  category: dev-libs
-  name: libgpg-error
+  category: app-office
+  name: libalkimia
   
-  version: ""
+  version: 7.0.0
+- 
+  category: dev-qt
+  name: qtsql
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
-  name: kconfig
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  name: kidentitymanagement
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: 1.7.1-r1
-- 
-  category: dev-libs
-  name: kdiagram
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kwallet
-  
-  version: 5.60.0
-- 
-  category: net-libs
-  name: aqbanking
-  
-  version: 5.99.40_beta
-- 
-  category: kde-frameworks
-  name: kitemviews
+  name: kconfigwidgets
   
   version: 5.60.0
 - 
@@ -53,83 +28,8 @@ requires:
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kxmlgui
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  name: akonadi
-  
-  version: ""
-- 
-  category: sys-libs
-  name: gwenhywfar
-  
-  version: 4.99.22_rc6
-- 
-  category: kde-frameworks
-  name: kholidays
-  
-  version: 5.60.0
-- 
-  category: dev-libs
-  name: gmp
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
   category: kde-frameworks
   name: knotifications
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kcontacts
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtwebengine
-  
-  version: 5.12.3
-- 
-  category: dev-perl
-  name: Finance-Quote
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kio
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kcodecs
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kcoreaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: ki18n
   
   version: 5.60.0
 - 
@@ -137,6 +37,11 @@ requires:
   name: kactivities
   
   version: 5.60.0
+- 
+  category: dev-libs
+  name: kdiagram
+  
+  version: ""
 - 
   category: dev-libs
   name: libofx
@@ -148,58 +53,18 @@ requires:
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtsvg
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kcmutils
-  
-  version: 5.60.0
-- 
-  category: www-client
-  name: weboob
+  category: dev-perl
+  name: Finance-Quote
   
   version: ""
 - 
   category: kde-frameworks
-  name: kconfigwidgets
+  name: kservice
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kiconthemes
-  
-  version: 5.60.0
-- 
-  category: app-office
-  name: libalkimia
-  
-  version: 7.0.0
-- 
-  category: kde-frameworks
-  name: kcompletion
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kitemmodels
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: ktextwidgets
+  name: kwallet
   
   version: 5.60.0
 - 
@@ -214,27 +79,57 @@ requires:
   version: ""
 - 
   category: dev-qt
+  name: qtconcurrent
+  
+  version: 5.12.3
+- 
+  category: net-libs
+  name: aqbanking
+  
+  version: 5.99.40_beta
+- 
+  category: sys-libs
+  name: gwenhywfar
+  
+  version: 4.99.22_rc6
+- 
+  category: app-crypt
+  name: gpgme
+  
+  version: 1.7.1-r1
+- 
+  category: dev-qt
   name: qtdbus
   
   version: 5.12.3
 - 
   category: dev-qt
-  name: qtgui
+  name: qtsvg
   
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kwidgetsaddons
+  name: kitemmodels
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtwebkit
+  category: kde-frameworks
+  name: ktextwidgets
   
-  version: 5.212.0_pre20180120
+  version: 5.60.0
+- 
+  category: kde-apps
+  name: kidentitymanagement
+  
+  version: ""
 - 
   category: dev-qt
-  name: qtconcurrent
+  name: qtnetwork
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtprintsupport
   
   version: 5.12.3
 - 
@@ -244,9 +139,114 @@ requires:
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kservice
+  name: kio
   
   version: 5.60.0
+- 
+  category: kde-apps
+  name: akonadi
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: karchive
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kitemviews
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kxmlgui
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtwebkit
+  
+  version: 5.212.0_pre20180120
+- 
+  category: kde-frameworks
+  name: kcontacts
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kholidays
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kcmutils
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kcompletion
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kcodecs
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  name: gmp
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtxml
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kiconthemes
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: www-client
+  name: weboob
+  
+  version: ""
 use_flags:
 - activities
 - addressbook

@@ -3,13 +3,23 @@ conflicts: []
 name: fcitx
 requires:
 - 
-  category: sys-devel
-  name: gettext
+  category: app-text
+  name: enchant
   
   version: ""
 - 
-  category: app-text
-  name: iso-codes
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
@@ -19,32 +29,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo[X]
+  name: libxkbfile
   
   version: ""
 - 
   category: x11-libs
   name: libXext
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
   
   version: ""
 - 
@@ -64,32 +54,17 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
   name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
   
   version: ""
 - 
@@ -99,7 +74,7 @@ requires:
   version: ""
 - 
   category: app-text
-  name: enchant
+  name: iso-codes
   
   version: ""
 - 
@@ -113,13 +88,38 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXinerama
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
   category: x11-libs
-  name: libxkbfile
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
   
   version: ""
 use_flags:

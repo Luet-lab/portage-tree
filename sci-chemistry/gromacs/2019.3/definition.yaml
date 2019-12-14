@@ -3,16 +3,6 @@ conflicts: []
 name: gromacs
 requires:
 - 
-  category: virtual
-  name: lapack
-  
-  version: ""
-- 
-  category: virtual
-  name: mpi
-  
-  version: ""
-- 
   category: x11-libs
   name: libX11
   
@@ -24,7 +14,12 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: fftw
+  name: mkl
+  
+  version: ""
+- 
+  category: virtual
+  name: mpi
   
   version: ""
 - 
@@ -33,13 +28,13 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: lmfit
+  category: virtual
+  name: lapack
   
   version: ""
 - 
   category: sci-libs
-  name: mkl
+  name: lmfit
   
   version: ""
 - 
@@ -60,6 +55,11 @@ requires:
 - 
   category: virtual
   name: opencl
+  
+  version: ""
+- 
+  category: sci-libs
+  name: fftw
   
   version: ""
 use_flags:

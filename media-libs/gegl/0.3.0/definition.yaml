@@ -4,24 +4,54 @@ name: gegl
 requires:
 - 
   category: media-libs
-  name: babl
+  name: lcms
   
-  version: 0.1.12
+  version: "2.2"
 - 
-  category: sci-libs
-  name: umfpack
+  category: media-libs
+  name: openexr
   
   version: ""
+- 
+  category: media-libs
+  name: libopenraw
+  
+  version: 0.0.9
+- 
+  category: media-libs
+  name: libv4l
+  
+  version: 1.0.1
 - 
   category: media-libs
   name: libwebp
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
+  category: media-libs
+  name: babl
   
-  version: "2.36"
+  version: 0.1.12
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: dev-libs
+  name: json-glib
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: ""
 - 
   category: media-video
   name: ffmpeg
@@ -34,19 +64,24 @@ requires:
   version: "1.32"
 - 
   category: media-libs
-  name: lensfun
-  
-  version: 0.2.5
-- 
-  category: media-libs
-  name: libopenraw
-  
-  version: 0.0.9
-- 
-  category: dev-libs
-  name: json-glib
+  name: libsdl
   
   version: ""
+- 
+  category: sci-libs
+  name: umfpack
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.36"
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: "2.18"
 - 
   category: x11-libs
   name: pango
@@ -58,55 +93,20 @@ requires:
   
   version: ""
 - 
-  category: media-video
-  name: libav
-  
-  version: ""
-- 
   category: virtual
   name: jpeg
   
   version: ""
 - 
   category: media-libs
-  name: lcms
+  name: lensfun
   
-  version: "2.2"
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
+  version: 0.2.5
 - 
   category: gnome-base
   name: librsvg
   
   version: "2.14"
-- 
-  category: media-libs
-  name: libv4l
-  
-  version: 1.0.1
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: "2.18"
-- 
-  category: media-libs
-  name: openexr
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl
-  
-  version: ""
 use_flags:
 - cairo
 - cpu_flags_x86_mmx

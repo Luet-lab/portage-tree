@@ -3,20 +3,25 @@ conflicts: []
 name: lilypond
 requires:
 - 
-  category: media-fonts
-  name: tex-gyre
+  category: dev-scheme
+  name: guile
   
-  version: ""
+  version: 1.8.2
 - 
-  category: virtual
-  name: emacs
+  category: x11-libs
+  name: pango
   
-  version: ""
+  version: 1.12.3
 - 
   category: dev-scheme
   name: guile
   
   version: "2"
+- 
+  category: virtual
+  name: emacs
+  
+  version: ""
 - 
   category: dev-scheme
   name: guile
@@ -28,10 +33,10 @@ requires:
   
   version: "8.15"
 - 
-  category: dev-scheme
-  name: guile
+  category: media-fonts
+  name: tex-gyre
   
-  version: 1.8.2
+  version: ""
 - 
   category: media-libs
   name: fontconfig
@@ -42,11 +47,6 @@ requires:
   name: freetype
   
   version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: 1.12.3
 use_flags:
 - debug
 - emacs

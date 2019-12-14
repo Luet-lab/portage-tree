@@ -4,32 +4,17 @@ name: profanity
 requires:
 - 
   category: dev-libs
-  name: glib
+  name: libstrophe
   
   version: ""
 - 
-  category: app-crypt
-  name: gpgme
+  category: net-misc
+  name: curl
   
   version: ""
 - 
   category: x11-libs
   name: libnotify
-  
-  version: ""
-- 
-  category: net-libs
-  name: libotr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: net-libs
-  name: libsignal-protocol-c
   
   version: ""
 - 
@@ -40,6 +25,16 @@ requires:
 - 
   category: sys-libs
   name: ncurses
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gpgme
+  
+  version: ""
+- 
+  category: net-libs
+  name: libsignal-protocol-c
   
   version: ""
 - 
@@ -54,7 +49,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libstrophe
+  name: glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -63,13 +63,13 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: net-libs
+  name: libotr
   
   version: ""
 use_flags:

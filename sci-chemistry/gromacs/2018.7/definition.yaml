@@ -3,6 +3,11 @@ conflicts: []
 name: gromacs
 requires:
 - 
+  category: virtual
+  name: opencl
+  
+  version: ""
+- 
   category: sci-libs
   name: fftw
   
@@ -18,18 +23,8 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: mkl
-  
-  version: ""
-- 
   category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: virtual
-  name: blas
+  name: libSM
   
   version: ""
 - 
@@ -39,7 +34,12 @@ requires:
   version: 4.2.9-r1
 - 
   category: virtual
-  name: opencl
+  name: blas
+  
+  version: ""
+- 
+  category: sci-libs
+  name: mkl
   
   version: ""
 - 
@@ -49,7 +49,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libX11
   
   version: ""
 - 

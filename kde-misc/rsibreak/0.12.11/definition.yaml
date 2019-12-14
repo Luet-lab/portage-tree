@@ -3,8 +3,13 @@ conflicts: []
 name: rsibreak
 requires:
 - 
+  category: dev-qt
+  name: qtdbus
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: kconfigwidgets
+  name: kwidgetsaddons
   
   version: 5.60.0
 - 
@@ -14,17 +19,7 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kiconthemes
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: ktextwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kwidgetsaddons
+  name: ki18n
   
   version: 5.60.0
 - 
@@ -34,22 +29,17 @@ requires:
   version: 5.60.0
 - 
   category: dev-qt
-  name: qtdbus
+  name: qtwidgets
   
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: knotifications
+  name: kconfig
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kwindowsystem
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kcoreaddons
+  name: kconfigwidgets
   
   version: 5.60.0
 - 
@@ -59,7 +49,32 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
+  name: kiconthemes
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kxmlgui
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
   name: kidletime
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: knotifications
   
   version: 5.60.0
 - 
@@ -69,29 +84,14 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kxmlgui
+  name: ktextwidgets
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kconfig
+  name: kwindowsystem
   
   version: 5.60.0
-- 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: ki18n
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
 use_flags:
 - ""
 version: 0.12.11

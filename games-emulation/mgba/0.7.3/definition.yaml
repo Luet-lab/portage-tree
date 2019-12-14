@@ -3,18 +3,28 @@ conflicts: []
 name: mgba
 requires:
 - 
-  category: dev-qt
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: media-gfx
+  name: imagemagick
   
   version: ""
 - 
   category: dev-libs
   name: elfutils
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2[X,sound,joystick,video,opengl?]
   
   version: ""
 - 
@@ -24,17 +34,7 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtmultimedia
+  name: qtwidgets
   
   version: ""
 - 
@@ -43,13 +43,18 @@ requires:
   
   version: ""
 - 
-  category: media-video
-  name: ffmpeg
+  category: media-libs
+  name: libpng
   
   version: ""
 - 
-  category: media-gfx
-  name: imagemagick
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtmultimedia
   
   version: ""
 - 
@@ -58,18 +63,13 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl2[X,sound,joystick,video,opengl?]
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
   category: media-video
   name: libav
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
   
   version: ""
 use_flags:

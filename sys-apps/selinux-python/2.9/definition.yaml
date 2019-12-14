@@ -8,11 +8,6 @@ conflicts:
 name: selinux-python
 requires:
 - 
-  category: sys-libs
-  name: libsepol
-  
-  version: "2.9"
-- 
   category: app-admin
   name: setools
   
@@ -30,6 +25,11 @@ requires:
 - 
   category: sys-libs
   name: libsemanage
+  
+  version: "2.9"
+- 
+  category: sys-libs
+  name: libsepol
   
   version: "2.9"
 use_flags:

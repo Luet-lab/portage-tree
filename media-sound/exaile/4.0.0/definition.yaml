@@ -4,6 +4,11 @@ name: exaile
 requires:
 - 
   category: dev-python
+  name: pycairo
+  
+  version: ""
+- 
+  category: dev-python
   name: pygobject
   
   version: 3.13.2
@@ -23,21 +28,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.10"
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: dev-python
-  name: pylast
-  
-  version: ""
-- 
   category: dev-python
   name: bsddb3
   
@@ -54,7 +44,17 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: pycairo
+  name: cddb-py
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: dev-python
+  name: pylast
   
   version: ""
 - 
@@ -63,10 +63,10 @@ requires:
   
   version: "1.10"
 - 
-  category: dev-python
-  name: cddb-py
+  category: x11-libs
+  name: gtk+
   
-  version: ""
+  version: "3.10"
 use_flags:
 - cddb
 - libnotify

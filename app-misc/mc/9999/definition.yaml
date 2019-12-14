@@ -3,18 +3,33 @@ conflicts: []
 name: mc
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: 2.26.0
-- 
-  category: sys-libs
-  name: gpm
+  category: x11-libs
+  name: libSM
   
   version: ""
 - 
   category: sys-libs
+  name: slang
+  
+  version: "2"
+- 
+  category: sys-libs
   name: ncurses
+  
+  version: ""
+- 
+  category: app-text
+  name: aspell
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXdmcp
   
   version: ""
 - 
@@ -24,12 +39,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXau
   
   version: ""
 - 
-  category: x11-libs
-  name: libXdmcp
+  category: dev-libs
+  name: glib
+  
+  version: 2.26.0
+- 
+  category: sys-libs
+  name: gpm
   
   version: ""
 - 
@@ -45,26 +65,6 @@ requires:
 - 
   category: net-libs
   name: libssh2
-  
-  version: ""
-- 
-  category: sys-libs
-  name: slang
-  
-  version: "2"
-- 
-  category: app-text
-  name: aspell
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXau
   
   version: ""
 use_flags:

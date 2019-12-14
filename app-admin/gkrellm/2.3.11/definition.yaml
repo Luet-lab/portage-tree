@@ -3,23 +3,8 @@ conflicts: []
 name: gkrellm
 requires:
 - 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
+  category: app-admin
+  name: hddtemp
   
   version: ""
 - 
@@ -29,17 +14,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
-  category: app-admin
-  name: hddtemp
+  name: libICE
   
   version: ""
 - 
   category: dev-libs
-  name: libressl
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
   
   version: ""
 - 
@@ -49,7 +34,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: gtk+
   
   version: ""
 - 
@@ -59,7 +44,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
   
   version: ""
 - 
@@ -69,7 +64,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libICE
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
   
   version: ""
 use_flags:

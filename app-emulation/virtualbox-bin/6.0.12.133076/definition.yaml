@@ -1,95 +1,20 @@
 category: app-emulation
 conflicts:
 - 
-  category: app-emulation
-  name: virtualbox-additions
+  category: '!app-emulation'
+  name: virtualbox
   
   version: ""
 - 
-  category: '!app-emulation'
-  name: virtualbox
+  category: app-emulation
+  name: virtualbox-additions
   
   version: ""
 name: virtualbox-bin
 requires:
 - 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: app-emulation
-  name: virtualbox-modules
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl[X]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXt
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
   category: x11-libs
   name: libXinerama
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
   
   version: ""
 - 
@@ -99,12 +24,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: libXdmcp
+  
+  version: ""
+- 
+  category: app-emulation
+  name: virtualbox-modules
   
   version: ""
 - 
   category: x11-libs
-  name: libICE
+  name: libXcursor
   
   version: ""
 - 
@@ -119,7 +49,77 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXmu
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl[X]
+  
+  version: ""
+- 
+  category: x11-libs
   name: libXft
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
   
   version: ""
 - 
@@ -128,8 +128,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXdmcp
+  category: dev-libs
+  name: expat
   
   version: ""
 use_flags:

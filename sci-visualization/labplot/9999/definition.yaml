@@ -3,10 +3,40 @@ conflicts: []
 name: labplot
 requires:
 - 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtsql
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: kconfig
+  name: karchive
   
   version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
   name: knewstuff
@@ -18,53 +48,23 @@ requires:
   
   version: 5.60.0
 - 
-  category: kde-frameworks
-  name: kparts
+  category: sci-libs
+  name: cfitsio
   
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtserialport
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kxmlgui
-  
-  version: 5.60.0
+  version: ""
 - 
   category: sci-libs
-  name: gsl
-  
-  version: "1.15"
-- 
-  category: app-arch
-  name: lz4
+  name: hdf5
   
   version: ""
 - 
   category: dev-qt
-  name: qtsql
+  name: qtnetwork
   
   version: 5.12.3
 - 
   category: kde-frameworks
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: kde-frameworks
-  name: kcompletion
+  name: ki18n
   
   version: 5.60.0
 - 
@@ -74,32 +74,57 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kio
+  name: ktextwidgets
   
   version: 5.60.0
 - 
-  category: sci-libs
-  name: hdf5
+  category: kde-frameworks
+  name: kwidgetsaddons
   
-  version: ""
+  version: 5.60.0
 - 
-  category: sci-libs
-  name: netcdf
+  category: kde-frameworks
+  name: kparts
   
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: 5.12.3
+  version: 5.60.0
 - 
   category: dev-qt
   name: qtprintsupport
   
   version: 5.12.3
 - 
+  category: dev-qt
+  name: qtserialport
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: ktextwidgets
+  name: kservice
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kconfigwidgets
+  
+  version: 5.60.0
+- 
+  category: sci-libs
+  name: gsl
+  
+  version: "1.15"
+- 
+  category: kde-frameworks
+  name: syntax-highlighting
   
   version: 5.60.0
 - 
@@ -108,18 +133,18 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: sci-libs
+  name: netcdf
   
-  version: 5.12.3
+  version: ""
 - 
   category: kde-frameworks
-  name: kcoreaddons
+  name: kio
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: ki18n
+  name: kxmlgui
   
   version: 5.60.0
 - 
@@ -128,43 +153,18 @@ requires:
   
   version: 19.08.0
 - 
-  category: sci-libs
-  name: cfitsio
+  category: app-arch
+  name: lz4
   
   version: ""
 - 
-  category: dev-qt
-  name: qtconcurrent
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: 5.12.3
-- 
   category: kde-frameworks
-  name: kconfigwidgets
+  name: kcompletion
   
   version: 5.60.0
 - 
-  category: kde-frameworks
-  name: syntax-highlighting
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kservice
-  
-  version: 5.60.0
-- 
-  category: sci-libs
-  name: fftw
+  category: sys-libs
+  name: zlib
   
   version: ""
 use_flags:

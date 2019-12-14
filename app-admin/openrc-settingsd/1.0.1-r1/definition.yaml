@@ -8,6 +8,21 @@ conflicts:
 name: openrc-settingsd
 requires:
 - 
+  category: sys-apps
+  name: openrc
+  
+  version: ""
+- 
+  category: sys-auth
+  name: polkit
+  
+  version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "197"
+- 
   category: sys-auth
   name: nss-myhostname
   
@@ -27,21 +42,6 @@ requires:
   name: dbus
   
   version: ""
-- 
-  category: sys-apps
-  name: openrc
-  
-  version: ""
-- 
-  category: sys-auth
-  name: polkit
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "197"
 use_flags:
 - systemd
 version: 1.0.1-r1

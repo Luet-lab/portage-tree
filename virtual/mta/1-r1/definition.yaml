@@ -4,22 +4,12 @@ name: mta
 requires:
 - 
   category: mail-mta
-  name: esmtp
+  name: opensmtpd )
   
   version: ""
 - 
-  category: mail-mta
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  name: courier
+  category: "|| (\tmail-mta"
+mailer
   
   version: ""
 - 
@@ -34,7 +24,7 @@ requires:
   version: ""
 - 
   category: mail-mta
-  name: postfix
+  name: netqmail
   
   version: ""
 - 
@@ -44,12 +34,22 @@ requires:
   version: ""
 - 
   category: mail-mta
-  name: opensmtpd )
+  name: courier
   
   version: ""
 - 
-  category: "|| (\tmail-mta"
-mailer
+  category: mail-mta
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  name: postfix
   
   version: ""
 version: 1-r1

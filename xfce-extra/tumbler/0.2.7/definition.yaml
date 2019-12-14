@@ -4,7 +4,32 @@ name: tumbler
 requires:
 - 
   category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
   name: libpng
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: "7.25"
+- 
+  category: gnome-extra
+  name: libgsf
+  
+  version: 1.14.20
+- 
+  category: xfce-base
+  name: thunar
+  
+  version: "1.4"
+- 
+  category: media-plugins
+  name: gst-plugins-meta
   
   version: ""
 - 
@@ -13,13 +38,13 @@ requires:
   
   version: "2.14"
 - 
+  category: sys-apps
+  name: dbus
+  
+  version: "1.6"
+- 
   category: media-libs
   name: gstreamer
-  
-  version: ""
-- 
-  category: media-plugins
-  name: gst-plugins-meta
   
   version: ""
 - 
@@ -28,55 +53,30 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libopenraw
-  
-  version: 0.0.8
-- 
-  category: xfce-base
-  name: thunar
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.42"
-- 
-  category: media-libs
-  name: freetype
+  category: virtual
+  name: jpeg
   
   version: ""
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1.6"
-- 
-  category: net-misc
-  name: curl
-  
-  version: "7.25"
 - 
   category: app-text
   name: poppler
   
   version: 0.12.4
 - 
+  category: media-libs
+  name: libopenraw
+  
+  version: 0.0.8
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.42"
+- 
   category: media-video
   name: ffmpegthumbnailer
   
   version: 2.0.8
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: gnome-extra
-  name: libgsf
-  
-  version: 1.14.20
 use_flags:
 - curl
 - ffmpeg

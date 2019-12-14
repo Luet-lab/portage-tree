@@ -3,13 +3,28 @@ conflicts: []
 name: rspamd
 requires:
 - 
-  category: dev-lang
-  name: luajit
+  category: dev-libs
+  name: libpcre2[jit=]
   
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit=]
+  name: icu
+  
+  version: ""
+- 
+  category: media-libs
+  name: gd
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libevent
   
   version: ""
 - 
@@ -23,28 +38,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libevent
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnsl
-  
-  version: ""
-- 
-  category: media-libs
-  name: gd
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
+  category: dev-lang
+  name: luajit
   
   version: ""
 - 
@@ -59,7 +54,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: icu
+  name: hyperscan
   
   version: ""
 - 
@@ -68,13 +63,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: hyperscan
+  category: net-libs
+  name: libnsl
   
   version: ""
 - 
   category: dev-libs
   name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 use_flags:

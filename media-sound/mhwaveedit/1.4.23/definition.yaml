@@ -3,8 +3,8 @@ conflicts: []
 name: mhwaveedit
 requires:
 - 
-  category: media-sound
-  name: pulseaudio
+  category: virtual
+  name: jack
   
   version: ""
 - 
@@ -14,17 +14,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libsndfile
-  
-  version: ""
-- 
-  category: virtual
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsamplerate
+  name: libsdl
   
   version: ""
 - 
@@ -34,7 +24,22 @@ requires:
   version: ""
 - 
   category: media-libs
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
   name: ladspa-sdk
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
   
   version: ""
 - 
@@ -45,11 +50,6 @@ requires:
 - 
   category: x11-libs
   name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl
   
   version: ""
 use_flags:
