@@ -2,6 +2,11 @@ category: sys-cluster
 conflicts:
 - 
   category: sys-fabric
+  name: librdmacm
+  
+  version: ""
+- 
+  category: sys-fabric
   name: ibacm
   
   version: ""
@@ -12,7 +17,7 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: librdmacm
+  name: libcxgb4
   
   version: ""
 - 
@@ -32,32 +37,17 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libmlx4
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: libibumad
-  
-  version: ""
-- 
-  category: sys-fabric
   name: infinipath-psm
   
   version: ""
 - 
   category: sys-fabric
-  name: libcxgb4
+  name: libmlx4
   
   version: ""
 - 
   category: sys-fabric
-  name: libmthca
-  
-  version: ""
-- 
-  category: sys-fabric
-  name: srptools
+  name: libmlx5
   
   version: ""
 - 
@@ -67,7 +57,17 @@ conflicts:
   version: ""
 - 
   category: sys-fabric
-  name: libmlx5
+  name: libmthca
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: libibumad
+  
+  version: ""
+- 
+  category: sys-fabric
+  name: srptools
   
   version: ""
 - 
@@ -83,13 +83,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: virtual
+  name: libudev
   
   version: ""
 - 
-  category: virtual
-  name: libudev
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 

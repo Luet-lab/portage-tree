@@ -3,13 +3,38 @@ conflicts: []
 name: dealii
 requires:
 - 
-  category: sci-libs
-  name: umfpack
+  category: dev-util
+  name: nvidia-cuda-sdk
   
   version: ""
 - 
-  category: dev-libs
-  name: boost
+  category: sci-libs
+  name: netcdf-cxx
+  
+  version: ""
+- 
+  category: sci-mathematics
+  name: petsc[mpi=]
+  
+  version: ""
+- 
+  category: sci-libs
+  name: scalapack
+  
+  version: ""
+- 
+  category: sci-libs
+  name: trilinos
+  
+  version: ""
+- 
+  category: sci-libs
+  name: adolc
+  
+  version: ""
+- 
+  category: media-libs
+  name: assimp
   
   version: ""
 - 
@@ -19,7 +44,42 @@ requires:
   version: ""
 - 
   category: sci-libs
+  name: parmetis
+  
+  version: "4"
+- 
+  category: dev-cpp
+  name: muParser
+  
+  version: ""
+- 
+  category: sci-libs
+  name: symengine
+  
+  version: "0.4"
+- 
+  category: dev-cpp
+  name: tbb
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: sci-libs
   name: hdf5[mpi=]
+  
+  version: ""
+- 
+  category: virtual
+  name: lapack
   
   version: ""
 - 
@@ -34,19 +94,9 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: scalapack
+  name: sundials
   
   version: ""
-- 
-  category: sci-mathematics
-  name: slepc[mpi=]
-  
-  version: ""
-- 
-  category: sci-libs
-  name: symengine
-  
-  version: "0.4"
 - 
   category: app-arch
   name: bzip2
@@ -59,32 +109,17 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: parmetis
-  
-  version: "4"
-- 
-  category: virtual
-  name: mpi
-  
-  version: ""
-- 
-  category: sci-libs
-  name: netcdf-cxx
-  
-  version: ""
-- 
-  category: sci-libs
   name: p4est
   
   version: ""
 - 
-  category: dev-cpp
-  name: tbb
+  category: sci-mathematics
+  name: slepc[mpi=]
   
   version: ""
 - 
   category: sci-libs
-  name: adolc
+  name: umfpack
   
   version: ""
 - 
@@ -94,42 +129,7 @@ requires:
   version: ""
 - 
   category: virtual
-  name: lapack
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: muParser
-  
-  version: ""
-- 
-  category: sci-libs
-  name: trilinos
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: assimp
-  
-  version: ""
-- 
-  category: dev-util
-  name: nvidia-cuda-sdk
-  
-  version: ""
-- 
-  category: sci-mathematics
-  name: petsc[mpi=]
-  
-  version: ""
-- 
-  category: sci-libs
-  name: sundials
+  name: mpi
   
   version: ""
 use_flags:

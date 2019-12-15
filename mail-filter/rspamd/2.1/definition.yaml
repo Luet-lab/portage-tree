@@ -3,8 +3,38 @@ conflicts: []
 name: rspamd
 requires:
 - 
-  category: dev-db
-  name: sqlite
+  category: acct-user
+  name: rspamd
+  
+  version: ""
+- 
+  category: net-libs
+  name: libnsl
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-util
+  name: ragel
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hyperscan
   
   version: ""
 - 
@@ -14,22 +44,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
   name: libpcre2[jit=]
   
   version: ""
 - 
   category: dev-libs
-  name: glib
+  name: libpcre[jit=]
   
   version: ""
 - 
-  category: net-libs
-  name: libnsl
+  category: acct-group
+  name: rspamd
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
   
   version: ""
 - 
@@ -38,23 +68,18 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
   category: sci-libs
   name: openblas
   
   version: ""
 - 
-  category: dev-lang
-  name: luajit
+  category: dev-libs
+  name: jemalloc
   
   version: ""
 - 
-  category: dev-libs
-  name: libpcre[jit=]
+  category: dev-lang
+  name: luajit
   
   version: ""
 - 
@@ -69,17 +94,7 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: hyperscan
-  
-  version: ""
-- 
-  category: dev-util
-  name: ragel
-  
-  version: ""
-- 
-  category: dev-libs
-  name: jemalloc
+  name: libressl
   
   version: ""
 use_flags:

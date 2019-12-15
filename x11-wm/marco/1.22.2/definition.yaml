@@ -8,10 +8,10 @@ conflicts:
 name: marco
 requires:
 - 
-  category: dev-libs
-  name: atk
+  category: gnome-base
+  name: libgtop
   
-  version: ""
+  version: "2"
 - 
   category: x11-libs
   name: pango-1.2[X]
@@ -19,12 +19,47 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXcomposite
+  name: gdk-pixbuf
   
-  version: "0.3"
+  version: ""
 - 
   category: x11-libs
-  name: libXcursor
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: startup-notification
+  
+  version: "0.7"
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -39,24 +74,14 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXinerama
+  name: libXrender
   
   version: ""
 - 
-  category: gnome-extra
-  name: zenity
+  category: mate-base
+  name: mate-desktop
   
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: gnome-base
-  name: libgtop
-  
-  version: "2"
+  version: 1.20.0
 - 
   category: media-libs
   name: libcanberra
@@ -74,12 +99,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXcomposite
   
-  version: ""
+  version: "0.3"
 - 
   category: x11-libs
-  name: libXdamage
+  name: libXcursor
   
   version: ""
 - 
@@ -88,43 +113,18 @@ requires:
   
   version: ""
 - 
-  category: mate-base
-  name: mate-desktop
-  
-  version: 1.20.0
-- 
   category: x11-libs
-  name: cairo
+  name: libXinerama
   
   version: ""
 - 
-  category: x11-libs
-  name: libXrender
+  category: gnome-extra
+  name: zenity
   
   version: ""
 - 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: startup-notification
-  
-  version: "0.7"
-- 
-  category: virtual
-  name: libintl
+  category: dev-libs
+  name: atk
   
   version: ""
 use_flags:

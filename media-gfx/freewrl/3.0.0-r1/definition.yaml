@@ -3,28 +3,33 @@ conflicts: []
 name: freewrl
 requires:
 - 
-  category: dev-lang
-  name: spidermonkey
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
   category: media-libs
-  name: openal
+  name: mesa
   
   version: ""
 - 
   category: virtual
-  name: opencl
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: "2"
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  name: liblo
+  
+  version: ""
+- 
+  category: media-sound
+  name: sox
   
   version: ""
 - 
@@ -39,17 +44,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: motif
-  
-  version: ""
-- 
-  category: media-libs
-  name: imlib2
-  
-  version: ""
-- 
-  category: media-fonts
-  name: dejavu
+  name: libXext
   
   version: ""
 - 
@@ -59,27 +54,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: liblo
+  name: openal
   
   version: ""
 - 
-  category: media-libs
-  name: freetype
-  
-  version: "2"
-- 
-  category: net-misc
-  name: curl
+  category: dev-lang
+  name: spidermonkey
   
   version: ""
 - 
-  category: x11-libs
-  name: libXmu
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXt
+  category: virtual
+  name: imagemagick-tools
   
   version: ""
 - 
@@ -89,32 +74,7 @@ requires:
   version: "1.4"
 - 
   category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
   name: fontconfig
-  
-  version: ""
-- 
-  category: virtual
-  name: imagemagick-tools
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: media-libs
-  name: freealut
-  
-  version: ""
-- 
-  category: media-sound
-  name: sox
   
   version: ""
 - 
@@ -123,8 +83,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: mesa
+  category: x11-libs
+  name: libSM
   
   version: ""
 - 
@@ -133,8 +93,48 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: libXmu
+  
+  version: ""
+- 
+  category: media-libs
+  name: freealut
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
   category: virtual
-  name: jpeg
+  name: opencl
+  
+  version: ""
+- 
+  category: media-fonts
+  name: dejavu
+  
+  version: ""
+- 
+  category: media-libs
+  name: imlib2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: x11-libs
+  name: motif
   
   version: ""
 use_flags:

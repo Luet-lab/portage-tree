@@ -8,33 +8,38 @@ conflicts:
 name: cups
 requires:
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
   category: sys-apps
-  name: acl
+  name: dbus
   
-  version: ""
-- 
-  category: sys-apps
-  name: xinetd
-  
-  version: ""
+  version: 1.6.18-r1
 - 
   category: acct-group
   name: lp
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: virtual
+  name: jre
   
-  version: 1.6.18-r1
+  version: "1.6"
+- 
+  category: virtual
+  name: krb5
+  
+  version: 0-r1
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
 - 
   category: sys-apps
-  name: systemd
+  name: xinetd
   
   version: ""
 - 
@@ -48,8 +53,23 @@ requires:
   
   version: ""
 - 
+  category: net-dns
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
   category: app-text
   name: libpaper
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-apps
+  name: acl
   
   version: ""
 - 
@@ -58,30 +78,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: pam
+  category: sys-apps
+  name: systemd
   
   version: ""
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
 - 
   category: sec-policy
   name: selinux-cups

@@ -3,33 +3,23 @@ conflicts: []
 name: profanity
 requires:
 - 
-  category: dev-libs
-  name: libstrophe
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
   category: net-misc
   name: curl
   
   version: ""
 - 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
   category: x11-libs
   name: libnotify
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
   
   version: ""
 - 
@@ -43,8 +33,13 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  name: gpgme
+  category: dev-libs
+  name: libstrophe
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
   
   version: ""
 - 
@@ -53,13 +48,18 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: x11-libs
+  name: libXScrnSaver
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gpgme
   
   version: ""
 use_flags:

@@ -13,23 +13,8 @@ conflicts:
 name: kdevelop
 requires:
 - 
-  category: dev-util
-  name: astyle
-  
-  version: "3.1"
-- 
-  category: dev-qt
-  name: qtwebkit
-  
-  version: 5.212.0_pre20180120
-- 
-  category: dev-util
-  name: kdevelop-pg-qt
-  
-  version: ""
-- 
   category: dev-libs
-  name: apr
+  name: grantlee
   
   version: ""
 - 
@@ -48,10 +33,15 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: grantlee
+  category: sys-devel
+  name: gdb
   
-  version: ""
+  version: "7.0"
+- 
+  category: dev-util
+  name: astyle
+  
+  version: "3.1"
 - 
   category: sys-devel
   name: clang
@@ -63,10 +53,20 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  name: gdb
+  category: dev-util
+  name: kdevelop-pg-qt
   
-  version: "7.0"
+  version: ""
+- 
+  category: dev-libs
+  name: apr
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwebkit
+  
+  version: 5.212.0_pre20180120
 use_flags:
 - +gdbui
 - hex

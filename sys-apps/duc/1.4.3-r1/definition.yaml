@@ -3,8 +3,18 @@ conflicts: []
 name: duc
 requires:
 - 
-  category: dev-db
-  name: sqlite
+  category: x11-libs
+  name: cairo
+  
+  version: ""
+- 
+  category: media-libs
+  name: glfw
+  
+  version: "3.0"
+- 
+  category: dev-libs
+  name: leveldb
   
   version: ""
 - 
@@ -23,26 +33,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: media-libs
-  name: glfw
-  
-  version: "3.0"
-- 
-  category: dev-libs
-  name: leveldb
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
   category: x11-libs
   name: libX11
   
@@ -50,6 +40,16 @@ requires:
 - 
   category: x11-libs
   name: pango[X]
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
   
   version: ""
 use_flags:

@@ -8,8 +8,18 @@ conflicts:
 name: johntheripper-jumbo
 requires:
 - 
+  category: dev-libs
+  name: openssl
+  
+  version: 1.0.1
+- 
   category: virtual
   name: mpi
+  
+  version: ""
+- 
+  category: virtual
+  name: krb5
   
   version: ""
 - 
@@ -18,18 +28,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
-  
-  version: 1.0.1
-- 
-  category: virtual
-  name: opencl
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
   category: virtual
-  name: krb5
+  name: opencl
   
   version: ""
 - 
@@ -40,11 +45,6 @@ requires:
 - 
   category: sys-libs
   name: zlib
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
   
   version: ""
 use_flags:

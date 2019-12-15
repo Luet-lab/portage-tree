@@ -3,10 +3,10 @@ conflicts: []
 name: diradm
 requires:
 - 
-  category: net-fs
-  name: samba
+  category: sys-apps
+  name: grep
   
-  version: 3.0.6
+  version: ""
 - 
   category: app-shells
   name: bash
@@ -18,13 +18,18 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: coreutils
+  category: net-fs
+  name: samba
   
-  version: ""
+  version: 3.0.6
+- 
+  category: net-nds
+  name: openldap
+  
+  version: "2.3"
 - 
   category: sys-apps
-  name: grep
+  name: coreutils
   
   version: ""
 - 
@@ -42,11 +47,6 @@ requires:
   name: perl-MIME-Base64
   
   version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: "2.3"
 - 
   category: sys-apps
   name: gawk

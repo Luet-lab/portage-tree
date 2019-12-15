@@ -2,12 +2,12 @@ category: net-misc
 conflicts:
 - 
   category: net-misc
-  name: ntp
+  name: openntpd
   
   version: ""
 - 
   category: net-misc
-  name: openntpd
+  name: ntp
   
   version: ""
 name: ntpsec
@@ -19,12 +19,17 @@ requires:
   version: ""
 - 
   category: dev-libs
+  name: libbsd
+  
+  version: ""
+- 
+  category: dev-libs
   name: openssl
   
   version: ""
 - 
-  category: sci-visualization
-  name: gnuplot
+  category: sys-libs
+  name: libseccomp
   
   version: ""
 - 
@@ -38,13 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libbsd
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libseccomp
+  category: sci-visualization
+  name: gnuplot
   
   version: ""
 use_flags:

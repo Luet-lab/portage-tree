@@ -3,23 +3,13 @@ conflicts: []
 name: mate-terminal
 requires:
 - 
-  category: mate-base
-  name: mate-desktop
-  
-  version: "1.6"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
   category: x11-libs
   name: gdk-pixbuf
   
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: libX11
   
   version: ""
 - 
@@ -28,8 +18,13 @@ requires:
   
   version: "0.46"
 - 
+  category: mate-base
+  name: mate-desktop
+  
+  version: "1.6"
+- 
   category: x11-libs
-  name: libX11
+  name: pango
   
   version: ""
 - 
@@ -42,6 +37,11 @@ requires:
   name: atk
   
   version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
 - 
   category: gnome-base
   name: dconf

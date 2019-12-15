@@ -4,6 +4,16 @@ name: openstack-meta
 requires:
 - 
   category: sys-cluster
+  name: placement
+  
+  version: 2019.1.9999
+- 
+  category: sys-auth
+  name: keystone
+  
+  version: 2019.1.9999
+- 
+  category: sys-cluster
   name: swift
   
   version: 2019.1.9999
@@ -30,16 +40,6 @@ requires:
 - 
   category: sys-cluster
   name: heat
-  
-  version: 2019.1.9999
-- 
-  category: sys-cluster
-  name: placement
-  
-  version: 2019.1.9999
-- 
-  category: sys-auth
-  name: keystone
   
   version: 2019.1.9999
 use_flags:

@@ -1,17 +1,22 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sec-policy
-  name: selinux-base-policy
-  
-  version: 2.20151208-r6
-- 
   category: <sys-apps
   name: openrc
   
   version: "0.14"
+- 
+  category: <sec-policy
+  name: selinux-base-policy
+  
+  version: 2.20151208-r6
 name: policycoreutils
 requires:
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: "2.9"
 - 
   category: sys-libs
   name: libcap
@@ -19,7 +24,7 @@ requires:
   version: 1.10-r10
 - 
   category: sys-libs
-  name: libselinux
+  name: libsepol
   
   version: "2.9"
 - 
@@ -33,15 +38,25 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libsepol
-  
-  version: "2.9"
-- 
   category: dev-libs
   name: dbus-glib
   
   version: ""
+- 
+  category: sys-process
+  name: audit
+  
+  version: 1.5.1
+- 
+  category: app-misc
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libsemanage
+  
+  version: "2.9"
 - 
   category: sys-libs
   name: libcap-ng
@@ -58,25 +73,10 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  name: audit
-  
-  version: 1.5.1
-- 
   category: sys-libs
   name: pam
   
   version: ""
-- 
-  category: app-misc
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libsemanage
-  
-  version: "2.9"
 use_flags:
 - audit
 - pam

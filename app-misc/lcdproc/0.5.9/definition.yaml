@@ -3,13 +3,38 @@ conflicts: []
 name: lcdproc
 requires:
 - 
-  category: dev-embedded
-  name: libftdi
+  category: app-misc
+  name: mx5000tools
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libg15render
+  
+  version: ""
+- 
+  category: dev-libs
+  name: serdisplib
   
   version: ""
 - 
   category: dev-libs
   name: libugpio
+  
+  version: ""
+- 
+  category: media-libs
+  name: libirman
+  
+  version: ""
+- 
+  category: dev-embedded
+  name: libftdi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
@@ -23,36 +48,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  name: g15daemon
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libg15render
-  
-  version: ""
-- 
-  category: app-misc
-  name: glcdprocdriver
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  name: libirman
-  
-  version: ""
-- 
-  category: app-misc
-  name: mx5000tools
-  
-  version: ""
-- 
   category: dev-libs
   name: libhid
   
@@ -63,8 +58,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: serdisplib
+  category: app-misc
+  name: g15daemon
+  
+  version: ""
+- 
+  category: app-misc
+  name: glcdprocdriver
   
   version: ""
 use_flags:

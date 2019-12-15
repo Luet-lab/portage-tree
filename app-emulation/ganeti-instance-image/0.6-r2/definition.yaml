@@ -3,6 +3,16 @@ conflicts: []
 name: ganeti-instance-image
 requires:
 - 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-fs
+  name: multipath-tools
+  
+  version: ""
+- 
   category: sys-fs
   name: e2fsprogs
   
@@ -20,16 +30,6 @@ requires:
 - 
   category: app-emulation
   name: qemu
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  name: multipath-tools
   
   version: ""
 use_flags:

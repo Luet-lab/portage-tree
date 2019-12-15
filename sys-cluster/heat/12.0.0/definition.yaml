@@ -2,44 +2,9 @@ category: sys-cluster
 conflicts:
 - 
   category: ~dev-python
-  name: pymysql
-  
-  version: 0.7.7
-- 
-  category: ~dev-python
-  name: oslo-service
-  
-  version: 1.28.1
-- 
-  category: ~dev-python
-  name: sqlalchemy
-  
-  version: 1.1.6
-- 
-  category: ~dev-python
-  name: python-mistralclient
-  
-  version: 3.2.0
-- 
-  category: ~dev-python
   name: sqlalchemy
   
   version: 1.1.8
-- 
-  category: ~dev-python
-  name: pbr
-  
-  version: 2.1.0
-- 
-  category: ~dev-python
-  name: Babel
-  
-  version: 2.4.0
-- 
-  category: ~dev-python
-  name: eventlet
-  
-  version: 0.20.1
 - 
   category: ~dev-python
   name: oslo-serialization
@@ -49,84 +14,84 @@ conflicts:
   category: ~dev-python
   name: sqlalchemy
   
-  version: 1.1.7
+  version: 1.1.5
+- 
+  category: ~dev-python
+  name: Babel
+  
+  version: 2.4.0
 - 
   category: ~dev-python
   name: sqlalchemy
   
-  version: 1.1.5
+  version: 1.1.7
+- 
+  category: ~dev-python
+  name: pbr
+  
+  version: 2.1.0
+- 
+  category: ~dev-python
+  name: eventlet
+  
+  version: 0.20.1
+- 
+  category: ~dev-python
+  name: oslo-service
+  
+  version: 1.28.1
+- 
+  category: ~dev-python
+  name: python-mistralclient
+  
+  version: 3.2.0
 - 
   category: ~dev-python
   name: lxml
   
   version: 3.7.0
+- 
+  category: ~dev-python
+  name: sqlalchemy
+  
+  version: 1.1.6
+- 
+  category: ~dev-python
+  name: pymysql
+  
+  version: 0.7.7
 name: heat
 requires:
 - 
   category: dev-python
-  name: webob
+  name: oslo-log
   
-  version: 1.7.1
+  version: 3.36.0
 - 
   category: dev-python
-  name: lxml
+  name: oslo-policy
   
-  version: 3.4.1
+  version: 1.30.0
 - 
   category: dev-python
-  name: oslo-versionedobjects
+  name: aodhclient
   
-  version: 1.31.2
+  version: 0.9.0
 - 
   category: dev-python
-  name: six
+  name: python-barbicanclient
   
-  version: 1.10.0
+  version: 4.5.2
 - 
   category: dev-python
-  name: oslo-i18n
+  name: python-glanceclient
   
-  version: 3.15.3
+  version: 2.8.0
 - 
   category: dev-python
-  name: python-openstackclient
+  name: openstacksdk
   
-  version: 3.12.0
-- 
-  category: dev-python
-  name: python-swiftclient
-  
-  version: 3.2.0
-- 
-  category: dev-python
-  name: python-mistralclient
-  
-  version: 3.1.0
-- 
-  category: dev-python
-  name: python-saharaclient
-  
-  version: 1.4.0
-- 
-  category: dev-python
-  name: croniter
-  
-  version: 0.3.4
-- 
-  category: dev-python
-  name: keystonemiddleware
-  
-  version: 4.17.0
-- 
-  category: dev-python
-  name: oslo-upgradecheck
-  
-  version: 0.1.0
-- 
-  category: dev-python
-  name: python-designateclient
-  
-  version: 2.7.0
+  version: 0.11.2
 - 
   category: dev-python
   name: oslo-concurrency
@@ -134,9 +99,24 @@ requires:
   version: 3.26.0
 - 
   category: dev-python
-  name: routes
+  name: oslo-messaging
   
-  version: 2.3.1
+  version: 5.29.0
+- 
+  category: dev-python
+  name: python-neutronclient
+  
+  version: 6.7.0
+- 
+  category: dev-python
+  name: python-openstackclient
+  
+  version: 3.12.0
+- 
+  category: dev-python
+  name: six
+  
+  version: 1.10.0
 - 
   category: dev-python
   name: sqlalchemy-migrate
@@ -144,29 +124,189 @@ requires:
   version: 0.11.0
 - 
   category: dev-python
+  name: oslo-cache
+  
+  version: 1.26.0
+- 
+  category: dev-python
+  name: python-cinderclient
+  
+  version: 3.3.0
+- 
+  category: dev-python
+  name: python-novaclient
+  
+  version: 9.1.0
+- 
+  category: dev-python
+  name: keystonemiddleware
+  
+  version: 4.17.0
+- 
+  category: dev-python
+  name: python-keystoneclient
+  
+  version: 3.8.0
+- 
+  category: dev-python
+  name: routes
+  
+  version: 2.3.1
+- 
+  category: dev-python
+  name: webob
+  
+  version: 1.7.1
+- 
+  category: dev-python
+  name: cryptography
+  
+  version: 1.2.1
+- 
+  category: dev-python
+  name: lxml
+  
+  version: 3.4.1
+- 
+  category: dev-python
+  name: oslo-config
+  
+  version: 5.2.0
+- 
+  category: dev-python
+  name: oslo-reports
+  
+  version: 1.18.0
+- 
+  category: dev-python
+  name: oslo-service
+  
+  version: 1.24.0
+- 
+  category: dev-python
+  name: python-manilaclient
+  
+  version: 1.16.0
+- 
+  category: dev-python
+  name: python-saharaclient
+  
+  version: 1.4.0
+- 
+  category: dev-python
+  name: python-zunclient
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  name: keystoneauth
+  
+  version: 3.4.0
+- 
+  category: dev-python
+  name: oslo-middleware
+  
+  version: 3.31.0
+- 
+  category: dev-python
+  name: python-zaqarclient
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  name: netaddr
+  
+  version: 0.7.18
+- 
+  category: dev-python
+  name: neutron-lib
+  
+  version: 1.14.0
+- 
+  category: dev-python
+  name: python-mistralclient
+  
+  version: 3.1.0
+- 
+  category: dev-python
   name: python-heatclient
   
   version: 1.10.0
 - 
   category: dev-python
-  name: python-magnumclient
+  name: yaql
   
-  version: 2.1.0
+  version: 1.1.3
 - 
   category: dev-python
-  name: python-troveclient
+  name: croniter
   
-  version: 2.2.0
+  version: 0.3.4
 - 
   category: dev-python
-  name: tenacity
+  name: python-designateclient
   
-  version: 4.4.0
+  version: 2.7.0
 - 
   category: dev-python
-  name: python-glanceclient
+  name: python-swiftclient
   
-  version: 2.8.0
+  version: 3.2.0
+- 
+  category: dev-python
+  name: stevedore
+  
+  version: 1.20.0
+- 
+  category: dev-python
+  name: Babel
+  
+  version: 2.3.4
+- 
+  category: dev-python
+  name: oslo-context
+  
+  version: 2.19.2
+- 
+  category: dev-python
+  name: oslo-i18n
+  
+  version: 3.15.3
+- 
+  category: dev-python
+  name: oslo-serialization
+  
+  version: 2.18.0
+- 
+  category: dev-python
+  name: python-blazarclient
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  name: pyyaml
+  
+  version: 3.12.0
+- 
+  category: dev-python
+  name: oslo-versionedobjects
+  
+  version: 1.31.2
+- 
+  category: dev-python
+  name: pastedeploy
+  
+  version: 1.5.0
+- 
+  category: dev-python
+  name: requests
+  
+  version: 2.14.2
+- 
+  category: dev-python
+  name: sqlalchemy
+  
+  version: 1.0.10
 - 
   category: dev-python
   name: psycopg
@@ -179,119 +319,9 @@ requires:
   version: 0.18.4
 - 
   category: dev-python
-  name: neutron-lib
+  name: oslo-upgradecheck
   
-  version: 1.14.0
-- 
-  category: dev-python
-  name: oslo-config
-  
-  version: 5.2.0
-- 
-  category: dev-python
-  name: oslo-policy
-  
-  version: 1.30.0
-- 
-  category: dev-python
-  name: oslo-log
-  
-  version: 3.36.0
-- 
-  category: dev-python
-  name: oslo-serialization
-  
-  version: 2.18.0
-- 
-  category: dev-python
-  name: oslo-service
-  
-  version: 1.24.0
-- 
-  category: dev-python
-  name: osprofiler
-  
-  version: 1.4.0
-- 
-  category: dev-python
-  name: Babel
-  
-  version: 2.3.4
-- 
-  category: dev-python
-  name: oslo-messaging
-  
-  version: 5.29.0
-- 
-  category: dev-python
-  name: python-cinderclient
-  
-  version: 3.3.0
-- 
-  category: dev-python
-  name: python-keystoneclient
-  
-  version: 3.8.0
-- 
-  category: dev-python
-  name: cryptography
-  
-  version: 1.2.1
-- 
-  category: dev-python
-  name: python-manilaclient
-  
-  version: 1.16.0
-- 
-  category: dev-python
-  name: python-monascaclient
-  
-  version: 1.12.0
-- 
-  category: dev-python
-  name: python-zunclient
-  
-  version: 2.0.0
-- 
-  category: dev-python
-  name: oslo-cache
-  
-  version: 1.26.0
-- 
-  category: dev-python
-  name: oslo-context
-  
-  version: 2.19.2
-- 
-  category: dev-python
-  name: python-novaclient
-  
-  version: 9.1.0
-- 
-  category: dev-python
-  name: pyyaml
-  
-  version: 3.12.0
-- 
-  category: dev-python
-  name: pbr
-  
-  version: 2.0.0
-- 
-  category: dev-python
-  name: requests
-  
-  version: 2.14.2
-- 
-  category: dev-python
-  name: oslo-middleware
-  
-  version: 3.31.0
-- 
-  category: dev-python
-  name: oslo-reports
-  
-  version: 1.18.0
+  version: 0.1.0
 - 
   category: dev-python
   name: oslo-utils
@@ -299,29 +329,24 @@ requires:
   version: 3.37.0
 - 
   category: dev-python
+  name: osprofiler
+  
+  version: 1.4.0
+- 
+  category: dev-python
+  name: python-troveclient
+  
+  version: 2.2.0
+- 
+  category: dev-python
   name: pymysql
   
   version: 0.7.6
 - 
   category: dev-python
-  name: yaql
+  name: python-magnumclient
   
-  version: 1.1.3
-- 
-  category: dev-python
-  name: pastedeploy
-  
-  version: 1.5.0
-- 
-  category: dev-python
-  name: python-barbicanclient
-  
-  version: 4.5.2
-- 
-  category: dev-python
-  name: python-zaqarclient
-  
-  version: 1.0.0
+  version: 2.1.0
 - 
   category: dev-python
   name: pytz
@@ -329,14 +354,9 @@ requires:
   version: "2013.6"
 - 
   category: dev-python
-  name: sqlalchemy
+  name: python-monascaclient
   
-  version: 1.0.10
-- 
-  category: dev-python
-  name: stevedore
-  
-  version: 1.20.0
+  version: 1.12.0
 - 
   category: dev-python
   name: python-octaviaclient
@@ -344,29 +364,9 @@ requires:
   version: 1.3.0
 - 
   category: dev-python
-  name: keystoneauth
+  name: pbr
   
-  version: 3.4.0
-- 
-  category: dev-python
-  name: aodhclient
-  
-  version: 0.9.0
-- 
-  category: dev-python
-  name: python-blazarclient
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  name: netaddr
-  
-  version: 0.7.18
-- 
-  category: dev-python
-  name: openstacksdk
-  
-  version: 0.11.2
+  version: 2.0.0
 - 
   category: dev-python
   name: oslo-db
@@ -374,9 +374,9 @@ requires:
   version: 4.27.0
 - 
   category: dev-python
-  name: python-neutronclient
+  name: tenacity
   
-  version: 6.7.0
+  version: 4.4.0
 use_flags:
 - +mysql
 - +memcached

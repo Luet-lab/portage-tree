@@ -3,6 +3,16 @@ conflicts: []
 name: jack-keyboard
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.2"
+- 
+  category: media-sound
+  name: lash
+  
+  version: ""
+- 
   category: x11-libs
   name: libX11
   
@@ -17,16 +27,6 @@ requires:
   name: gtk+
   
   version: "2.12"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.2"
-- 
-  category: media-sound
-  name: lash
-  
-  version: ""
 use_flags:
 - lash
 - X

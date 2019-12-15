@@ -4,14 +4,9 @@ name: buildbot
 requires:
 - 
   category: dev-python
-  name: txaio
+  name: sqlalchemy-migrate
   
-  version: 2.2.2
-- 
-  category: dev-python
-  name: idna
-  
-  version: ""
+  version: "0.9"
 - 
   category: dev-python
   name: python-dateutil
@@ -22,11 +17,6 @@ requires:
   name: zope-interface
   
   version: 4.1.1
-- 
-  category: dev-util
-  name: buildbot-worker
-  
-  version: 1.1.2
 - 
   category: dev-python
   name: service_identity
@@ -39,14 +29,14 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: autobahn
+  name: docker-py
   
-  version: 0.16.0
+  version: 2.2.0
 - 
   category: dev-python
-  name: twisted
+  name: future
   
-  version: 17.9.0
+  version: ""
 - 
   category: dev-python
   name: sqlalchemy
@@ -58,15 +48,15 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: pyopenssl
+  category: dev-util
+  name: buildbot-worker
   
-  version: 16.0.0
+  version: 1.1.2
 - 
   category: dev-python
-  name: docker-py
+  name: idna
   
-  version: 2.2.0
+  version: ""
 - 
   category: dev-python
   name: jinja
@@ -74,14 +64,24 @@ requires:
   version: "2.1"
 - 
   category: dev-python
-  name: future
+  name: twisted
   
-  version: ""
+  version: 17.9.0
 - 
   category: dev-python
-  name: sqlalchemy-migrate
+  name: autobahn
   
-  version: "0.9"
+  version: 0.16.0
+- 
+  category: dev-python
+  name: txaio
+  
+  version: 2.2.2
+- 
+  category: dev-python
+  name: pyopenssl
+  
+  version: 16.0.0
 use_flags:
 - crypt
 - docker

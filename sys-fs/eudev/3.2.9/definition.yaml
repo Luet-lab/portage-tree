@@ -1,6 +1,11 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-libs
+  name: glibc
+  
+  version: "2.11"
+- 
   category: <sys-fs
   name: lvm2
   
@@ -11,8 +16,8 @@ conflicts:
   
   version: 2.20120725-r10
 - 
-  category: sys-fs
-  name: udev
+  category: sys-apps
+  name: gentoo-systemd-integration
   
   version: ""
 - 
@@ -21,17 +26,32 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-libs
-  name: glibc
-  
-  version: "2.11"
-- 
-  category: sys-apps
-  name: gentoo-systemd-integration
+  category: sys-fs
+  name: udev
   
   version: ""
 name: eudev
 requires:
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: "2.20"
+- 
+  category: dev-libs
+  name: gobject-introspection
+  
+  version: "1.38"
+- 
+  category: sys-apps
+  name: kmod
+  
+  version: "16"
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: 2.1.9
 - 
   category: acct-group
   name: input
@@ -43,30 +63,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: gobject-introspection
-  
-  version: "1.38"
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: 2.1.9
-- 
   category: acct-group
   name: render
   
   version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: "2.20"
-- 
-  category: sys-apps
-  name: kmod
-  
-  version: "16"
 use_flags:
 - +hwdb
 - +kmod

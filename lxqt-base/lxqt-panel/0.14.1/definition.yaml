@@ -8,83 +8,18 @@ conflicts:
 name: lxqt-panel
 requires:
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: dev-libs
+  name: libqtxdg
   
-  version: ""
-- 
-  category: dev-qt
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: media-sound
-  name: pavucontrol-qt
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
+  version: 3.3.1
 - 
   category: x11-libs
   name: libXdamage
   
   version: ""
 - 
-  category: lxde-base
-  name: menu-cache
-  
-  version: 1.1.0
-- 
-  category: lxqt-base
-  name: lxqt-globalkeys
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: lxde-base
-  name: lxmenu-data
-  
-  version: 0.1.5
-- 
-  category: sys-libs
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libqtxdg
-  
-  version: 3.3.1
-- 
-  category: kde-frameworks
-  name: solid
-  
-  version: ""
-- 
   category: dev-libs
   name: libdbusmenu-qt[qt5(+)]
-  
-  version: ""
-- 
-  category: lxqt-base
-  name: liblxqt
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
   
   version: ""
 - 
@@ -94,17 +29,52 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtgui
+  name: qtdbus
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: lxde-base
+  name: lxmenu-data
+  
+  version: 0.1.5
+- 
+  category: dev-qt
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
-  name: qtxml
+  name: qtgui
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: lxqt-base
+  name: liblxqt
   
   version: ""
 - 
   category: kde-frameworks
-  name: kwindowsystem
+  name: solid
   
   version: ""
 - 
@@ -119,12 +89,52 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: xcb-util
+  
+  version: ""
+- 
+  category: media-sound
+  name: pavucontrol-qt
   
   version: ""
 - 
   category: dev-qt
-  name: qtcore
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: lxde-base
+  name: menu-cache
+  
+  version: 1.1.0
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
+  
+  version: ""
+- 
+  category: kde-frameworks
+  name: kwindowsystem
+  
+  version: ""
+- 
+  category: lxqt-base
+  name: lxqt-globalkeys
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
@@ -133,18 +143,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
   category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util
+  name: qtxml
   
   version: ""
 use_flags:

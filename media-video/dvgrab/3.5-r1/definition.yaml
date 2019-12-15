@@ -3,6 +3,11 @@ conflicts: []
 name: dvgrab
 requires:
 - 
+  category: sys-libs
+  name: libraw1394
+  
+  version: "1.1"
+- 
   category: media-libs
   name: libdv
   
@@ -27,11 +32,6 @@ requires:
   name: libquicktime
   
   version: ""
-- 
-  category: sys-libs
-  name: libraw1394
-  
-  version: "1.1"
 use_flags:
 - jpeg
 - quicktime

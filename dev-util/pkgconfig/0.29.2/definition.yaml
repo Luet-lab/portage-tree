@@ -2,6 +2,11 @@ category: dev-util
 conflicts:
 - 
   category: dev-util
+  name: pkgconf
+  
+  version: ""
+- 
+  category: dev-util
   name: pkg-config-lite
   
   version: ""
@@ -10,23 +15,18 @@ conflicts:
   name: pkgconfig-openbsd
   
   version: ""
-- 
-  category: dev-util
-  name: pkgconf
-  
-  version: ""
 name: pkgconfig
 requires:
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
 - 
   category: dev-libs
   name: glib
   
   version: 2.34.3
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
 use_flags:
 - elibc_FreeBSD
 - elibc_glibc

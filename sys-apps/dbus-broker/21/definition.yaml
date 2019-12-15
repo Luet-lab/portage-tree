@@ -3,21 +3,6 @@ conflicts: []
 name: dbus-broker
 requires:
 - 
-  category: sys-process
-  name: audit
-  
-  version: "2.7"
-- 
-  category: sys-libs
-  name: libcap-ng
-  
-  version: "0.6"
-- 
-  category: dev-libs
-  name: expat
-  
-  version: "2.2"
-- 
   category: sys-apps
   name: systemd
   
@@ -32,6 +17,21 @@ requires:
   name: dbus
   
   version: ""
+- 
+  category: sys-process
+  name: audit
+  
+  version: "2.7"
+- 
+  category: sys-libs
+  name: libcap-ng
+  
+  version: "0.6"
+- 
+  category: dev-libs
+  name: expat
+  
+  version: "2.2"
 use_flags:
 - audit
 - doc

@@ -3,6 +3,16 @@ conflicts: []
 name: loudmouth
 requires:
 - 
+  category: net-dns
+  name: libidn
+  
+  version: ""
+- 
+  category: net-libs
+  name: gnutls
+  
+  version: 1.4.0
+- 
   category: dev-libs
   name: openssl
   
@@ -17,16 +27,6 @@ requires:
   name: glib
   
   version: "2.16"
-- 
-  category: net-dns
-  name: libidn
-  
-  version: ""
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: 1.4.0
 use_flags:
 - asyncns
 - ssl

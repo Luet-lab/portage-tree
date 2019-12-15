@@ -8,23 +8,28 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-libs
-  name: libsodium
-  
-  version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-dovecot
+  category: app-arch
+  name: lz4
   
   version: ""
 - 
   category: dev-libs
-  name: icu
+  name: libressl
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: acct-group
+  name: dovecot
   
   version: ""
 - 
@@ -33,18 +38,23 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: krb5
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
   category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: sys-apps
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: acct-user
-  name: dovecot
+  name: openssl
   
   version: ""
 - 
@@ -59,17 +69,7 @@ requires:
   version: "2.3"
 - 
   category: sys-libs
-  name: pam
-  
-  version: ""
-- 
-  category: net-mail
-  name: vpopmail
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  name: libcap
   
   version: ""
 - 
@@ -78,23 +78,13 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-libs
-  name: libressl
+  name: expat
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -103,43 +93,13 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: xz-utils
+  category: dev-db
+  name: mysql-connector-c
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: acct-group
-  name: mail
-  
-  version: ""
-- 
-  category: acct-group
-  name: dovecot
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: app-arch
-  name: lz4
+  category: sec-policy
+  name: selinux-dovecot
   
   version: ""
 - 
@@ -148,8 +108,48 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: dev-libs
+  name: libsodium
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: acct-user
+  name: dovecot
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
+  category: acct-group
+  name: mail
+  
+  version: ""
+- 
+  category: sys-apps
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu
   
   version: ""
 use_flags:

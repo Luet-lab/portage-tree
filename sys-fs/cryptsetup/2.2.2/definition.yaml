@@ -3,38 +3,18 @@ conflicts: []
 name: cryptsetup
 requires:
 - 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
   category: dev-libs
-  name: libgcrypt
+  name: nettle
   
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2[static-libs(+)]
-  
-  version: ""
+  version: "2.4"
 - 
   category: sys-apps
-  name: util-linux
-  
-  version: 2.31-r1
-- 
-  category: dev-libs
-  name: openssl
+  name: util-linux-2.31-r1[static-libs(+)]
   
   version: ""
 - 
-  category: dev-libs
-  name: libpwquality[static-libs(+)]
+  category: app-crypt
+  name: argon2
   
   version: ""
 - 
@@ -48,33 +28,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libgpg-error[static-libs(+)]
-  
-  version: ""
-- 
   category: sys-apps
-  name: util-linux-2.31-r1[static-libs(+)]
+  name: util-linux
+  
+  version: 2.31-r1
+- 
+  category: dev-libs
+  name: libgcrypt
   
   version: ""
 - 
-  category: app-crypt
-  name: argon2
+  category: virtual
+  name: libudev[static-libs(-)]
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 - 
   category: dev-libs
-  name: nettle-2.4[static-libs(+)]
+  name: libpwquality[static-libs(+)]
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2[static-libs(+)]
   
   version: ""
 - 
   category: dev-libs
   name: libpwquality
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev
   
   version: ""
 - 
@@ -84,19 +69,34 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: popt[static-libs(+)]
-  
-  version: ""
-- 
-  category: virtual
-  name: libudev[static-libs(-)]
+  name: libgpg-error[static-libs(+)]
   
   version: ""
 - 
   category: dev-libs
-  name: nettle
+  name: popt[static-libs(+)]
   
-  version: "2.4"
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nettle-2.4[static-libs(+)]
+  
+  version: ""
 use_flags:
 - gcrypt
 - kernel

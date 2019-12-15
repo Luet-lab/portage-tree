@@ -4,17 +4,7 @@ name: mate-media
 requires:
 - 
   category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
   name: pango
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
   
   version: ""
 - 
@@ -22,6 +12,16 @@ requires:
   name: glib
   
   version: "2.50"
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.17.0
 - 
   category: media-libs
   name: libmatemixer
@@ -33,25 +33,25 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libcanberra
-  
-  version: "0.13"
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
   category: mate-base
   name: mate-panel
   
   version: 1.17.0
 - 
-  category: mate-base
-  name: mate-desktop
+  category: media-libs
+  name: libcanberra
   
-  version: 1.17.0
+  version: "0.13"
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
 use_flags:
 - ""
 version: 1.22.1

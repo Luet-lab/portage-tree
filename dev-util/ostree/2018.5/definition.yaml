@@ -3,8 +3,8 @@ conflicts: []
 name: ostree
 requires:
 - 
-  category: net-misc
-  name: curl
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
@@ -13,18 +13,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libselinux
-  
-  version: ""
-- 
   category: sys-apps
   name: systemd
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
   
   version: ""
 - 
@@ -39,12 +29,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
+  name: libgpg-error
   
   version: ""
 - 
   category: dev-libs
-  name: libgpg-error
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
   
   version: ""
 - 
@@ -53,13 +53,23 @@ requires:
   
   version: ""
 - 
+  category: net-dns
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
   category: dev-libs
   name: libassuan
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -70,16 +80,6 @@ requires:
 - 
   category: sys-libs
   name: zlib
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
   
   version: ""
 use_flags:

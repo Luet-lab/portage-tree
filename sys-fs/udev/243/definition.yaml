@@ -1,21 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: <sys-fs
-  name: lvm2
-  
-  version: 2.02.103
-- 
-  category: sys-apps
-  name: gentoo-systemd-integration
-  
-  version: ""
-- 
   category: <sec-policy
   name: selinux-base
   
@@ -25,26 +10,26 @@ conflicts:
   name: glibc
   
   version: "2.11"
-name: udev
-requires:
 - 
-  category: sys-libs
-  name: libcap
+  category: sys-apps
+  name: systemd
   
   version: ""
 - 
   category: sys-apps
-  name: acl
+  name: gentoo-systemd-integration
   
   version: ""
 - 
-  category: sys-libs
-  name: libselinux
+  category: <sys-fs
+  name: lvm2
   
-  version: 2.1.9
+  version: 2.02.103
+name: udev
+requires:
 - 
   category: acct-group
-  name: render
+  name: lp
   
   version: ""
 - 
@@ -54,22 +39,7 @@ requires:
   version: "2.30"
 - 
   category: sys-apps
-  name: kmod
-  
-  version: "16"
-- 
-  category: acct-group
-  name: dialout
-  
-  version: ""
-- 
-  category: acct-group
-  name: input
-  
-  version: ""
-- 
-  category: acct-group
-  name: tty
+  name: acl
   
   version: ""
 - 
@@ -89,6 +59,46 @@ requires:
   version: ""
 - 
   category: acct-group
+  name: video
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: 2.1.9
+- 
+  category: acct-group
+  name: tty
+  
+  version: ""
+- 
+  category: acct-group
+  name: dialout
+  
+  version: ""
+- 
+  category: acct-group
+  name: render
+  
+  version: ""
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
+- 
+  category: sys-apps
+  name: kmod
+  
+  version: "16"
+- 
+  category: acct-group
   name: kmem
   
   version: ""
@@ -99,17 +109,7 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: lp
-  
-  version: ""
-- 
-  category: acct-group
-  name: tape
-  
-  version: ""
-- 
-  category: acct-group
-  name: video
+  name: input
   
   version: ""
 use_flags:

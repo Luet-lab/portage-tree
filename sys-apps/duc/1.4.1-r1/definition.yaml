@@ -4,12 +4,17 @@ name: duc
 requires:
 - 
   category: x11-libs
-  name: pango
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   name: pango[X]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: leveldb
   
   version: ""
 - 
@@ -24,7 +29,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo[X]
   
   version: ""
 - 
@@ -33,11 +43,6 @@ requires:
   
   version: "3.0"
 - 
-  category: dev-libs
-  name: leveldb
-  
-  version: ""
-- 
   category: sys-libs
   name: ncurses
   
@@ -45,11 +50,6 @@ requires:
 - 
   category: dev-db
   name: sqlite
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo[X]
   
   version: ""
 use_flags:

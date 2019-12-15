@@ -3,8 +3,28 @@ conflicts: []
 name: visp_auto_tracker
 requires:
 - 
-  category: dev-libs
-  name: boost
+  category: dev-ros
+  name: resource_retriever
+  
+  version: ""
+- 
+  category: dev-ros
+  name: visp_bridge
+  
+  version: ""
+- 
+  category: dev-ros
+  name: visp_tracker
+  
+  version: ""
+- 
+  category: sci-libs
+  name: ViSP
+  
+  version: ""
+- 
+  category: media-libs
+  name: opencv
   
   version: ""
 - 
@@ -14,7 +34,7 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: resource_retriever
+  name: message_filters
   
   version: ""
 - 
@@ -29,32 +49,12 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: visp_tracker
-  
-  version: ""
-- 
-  category: sci-libs
-  name: ViSP
-  
-  version: ""
-- 
-  category: dev-ros
-  name: message_filters
-  
-  version: ""
-- 
-  category: dev-ros
   name: std_msgs
   
   version: ""
 - 
-  category: dev-ros
-  name: visp_bridge
-  
-  version: ""
-- 
-  category: media-libs
-  name: opencv
+  category: dev-libs
+  name: boost
   
   version: ""
 use_flags:

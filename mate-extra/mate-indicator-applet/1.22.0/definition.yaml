@@ -3,6 +3,11 @@ conflicts: []
 name: mate-indicator-applet
 requires:
 - 
+  category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
   category: dev-libs
   name: libindicator
   
@@ -12,11 +17,6 @@ requires:
   name: mate-panel
   
   version: 1.17.0
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
 use_flags:
 - ""
 version: 1.22.0

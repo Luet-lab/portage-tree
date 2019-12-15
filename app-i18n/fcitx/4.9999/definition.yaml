@@ -3,38 +3,8 @@ conflicts: []
 name: fcitx
 requires:
 - 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: app-i18n
-  name: opencc
-  
-  version: ""
-- 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
   category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: app-text
-  name: enchant
+  name: libXext
   
   version: ""
 - 
@@ -48,18 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
   category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: sys-apps
-  name: dbus
+  name: libxkbcommon
   
   version: ""
 - 
@@ -69,7 +29,42 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXinerama
+  name: cairo[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: app-text
+  name: enchant
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -78,8 +73,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXext
+  category: x11-misc
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -94,12 +89,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
+  name: libxml2
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: sys-apps
+  name: dbus
   
   version: ""
 - 
@@ -109,17 +104,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
   category: x11-libs
-  name: cairo[X]
+  name: gtk+
   
   version: ""
 - 
-  category: media-libs
-  name: fontconfig
+  category: app-i18n
+  name: opencc
   
   version: ""
 use_flags:

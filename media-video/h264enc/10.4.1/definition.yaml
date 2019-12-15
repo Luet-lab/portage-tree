@@ -3,10 +3,20 @@ conflicts: []
 name: h264enc
 requires:
 - 
-  category: media-video
-  name: mkvtoolnix
+  category: sys-process
+  name: time
   
   version: ""
+- 
+  category: media-sound
+  name: lame
+  
+  version: ""
+- 
+  category: media-video
+  name: gpac
+  
+  version: 0.4.5
 - 
   category: media-sound
   name: ogmtools
@@ -23,43 +33,8 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: pv
-  
-  version: ""
-- 
-  category: media-video
-  name: lsdvd
-  
-  version: ""
-- 
   category: media-libs
   name: faac
-  
-  version: ""
-- 
-  category: media-libs
-  name: flac
-  
-  version: ""
-- 
-  category: media-sound
-  name: lame
-  
-  version: ""
-- 
-  category: media-sound
-  name: vorbis-tools
-  
-  version: ""
-- 
-  category: sys-devel
-  name: bc
-  
-  version: ""
-- 
-  category: sys-process
-  name: time
   
   version: ""
 - 
@@ -69,9 +44,34 @@ requires:
   version: ""
 - 
   category: media-video
-  name: gpac
+  name: lsdvd
   
-  version: 0.4.5
+  version: ""
+- 
+  category: media-libs
+  name: flac
+  
+  version: ""
+- 
+  category: media-video
+  name: mkvtoolnix
+  
+  version: ""
+- 
+  category: media-sound
+  name: vorbis-tools
+  
+  version: ""
+- 
+  category: sys-apps
+  name: pv
+  
+  version: ""
+- 
+  category: sys-devel
+  name: bc
+  
+  version: ""
 use_flags:
 - aac
 - dvd

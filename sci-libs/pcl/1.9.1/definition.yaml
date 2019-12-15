@@ -4,62 +4,12 @@ name: pcl
 requires:
 - 
   category: sci-libs
-  name: vtk
-  
-  version: "5.6"
-- 
-  category: sci-libs
   name: flann
   
   version: 1.7.1
 - 
   category: dev-libs
   name: boost
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  name: freeglut
-  
-  version: ""
-- 
-  category: dev-libs
-  name: OpenNI
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: virtual
-  name: libusb
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: eigen
-  
-  version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: dev-util
-  name: nvidia-cuda-toolkit
-  
-  version: "4"
-- 
-  category: dev-qt
-  name: qtgui
   
   version: ""
 - 
@@ -73,8 +23,23 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: qhull
+  category: dev-qt
+  name: qtopengl
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: eigen
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: OpenNI
   
   version: ""
 - 
@@ -83,10 +48,45 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  name: qtopengl
+  category: net-libs
+  name: libpcap
   
   version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: sci-libs
+  name: vtk
+  
+  version: "5.6"
+- 
+  category: media-libs
+  name: freeglut
+  
+  version: ""
+- 
+  category: media-libs
+  name: qhull
+  
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: dev-util
+  name: nvidia-cuda-toolkit
+  
+  version: "4"
 use_flags:
 - cuda
 - doc

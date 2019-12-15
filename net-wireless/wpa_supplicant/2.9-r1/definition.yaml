@@ -3,8 +3,8 @@ conflicts: []
 name: wpa_supplicant
 requires:
 - 
-  category: net-wireless
-  name: crda
+  category: net-libs
+  name: libpcap
   
   version: ""
 - 
@@ -18,38 +18,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: 1.0.2k
-- 
   category: sys-apps
   name: dbus
-  
-  version: ""
-- 
-  category: sys-apps
-  name: pcsc-lite
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
   
   version: ""
 - 
@@ -58,18 +28,48 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
   category: dev-qt
   name: qtgui
   
   version: ""
 - 
+  category: dev-qt
+  name: qtsvg
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: 1.0.2k
+- 
+  category: net-wireless
+  name: crda
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  name: ncurses
+  
+  version: ""
+- 
   category: sec-policy
   name: selinux-networkmanager
+  
+  version: ""
+- 
+  category: sys-apps
+  name: pcsc-lite
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
   
   version: ""
 use_flags:

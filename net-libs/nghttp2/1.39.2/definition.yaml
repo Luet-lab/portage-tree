@@ -3,11 +3,6 @@ conflicts: []
 name: nghttp2
 requires:
 - 
-  category: dev-libs
-  name: libev
-  
-  version: "4.15"
-- 
   category: net-dns
   name: c-ares
   
@@ -24,14 +19,14 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: jemalloc
+  name: libev
   
-  version: ""
+  version: "4.15"
 - 
-  category: dev-libs
-  name: libxml2
+  category: sys-libs
+  name: zlib
   
-  version: 2.7.7
+  version: 1.2.3
 - 
   category: dev-libs
   name: libressl
@@ -43,10 +38,15 @@ requires:
   
   version: "2.5"
 - 
-  category: sys-libs
-  name: zlib
+  category: dev-libs
+  name: jemalloc
   
-  version: 1.2.3
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: 2.7.7
 use_flags:
 - cxx
 - debug

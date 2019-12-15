@@ -3,18 +3,8 @@ conflicts: []
 name: google-chrome
 requires:
 - 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: app-accessibility
-  name: at-spi2-atk
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -23,93 +13,18 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
   category: x11-libs
-  name: libXdamage
+  name: libxcb
   
   version: ""
 - 
-  category: app-misc
-  name: ca-certificates
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: 1.5.0
-- 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nss
-  
-  version: "3.26"
-- 
-  category: media-libs
-  name: fontconfig
+  category: sec-policy
+  name: selinux-chromium
   
   version: ""
 - 
   category: net-print
   name: cups
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
   
   version: ""
 - 
@@ -119,12 +34,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
+  name: libXi
   
   version: ""
 - 
@@ -133,13 +43,58 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
   
   version: ""
 - 
   category: dev-libs
-  name: nspr
+  name: expat
   
   version: ""
 - 
@@ -149,17 +104,62 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: app-accessibility
+  name: at-spi2-atk
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXdamage
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
   name: gtk+
   
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libX11
+  
+  version: 1.5.0
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-chromium
+  category: app-misc
+  name: ca-certificates
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nspr
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nss
+  
+  version: "3.26"
+- 
+  category: x11-libs
+  name: libXtst
   
   version: ""
 use_flags:

@@ -3,23 +3,13 @@ conflicts: []
 name: openttd
 requires:
 - 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl[sound,X,video]
-  
-  version: ""
-- 
   category: dev-libs
   name: icu-layoutex
   
   version: ""
 - 
-  category: dev-libs
-  name: icu-le-hb
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
@@ -34,7 +24,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libpng
+  name: libsdl[sound,X,video]
   
   version: ""
 - 
@@ -44,12 +34,22 @@ requires:
   version: "58.1"
 - 
   category: media-libs
-  name: fontconfig
+  name: freetype
   
   version: ""
 - 
   category: sys-libs
   name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: dev-libs
+  name: icu-le-hb
   
   version: ""
 use_flags:

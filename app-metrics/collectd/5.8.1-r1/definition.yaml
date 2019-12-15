@@ -8,13 +8,33 @@ conflicts:
 name: collectd
 requires:
 - 
-  category: net-firewall
-  name: iptables
+  category: dev-libs
+  name: libltdl
   
-  version: 1.4.13
+  version: ""
+- 
+  category: app-emulation
+  name: xen-tools
+  
+  version: ""
 - 
   category: dev-libs
-  name: libmemcached
+  name: protobuf-c
+  
+  version: 1.2.1-r1
+- 
+  category: virtual
+  name: logger
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmodbus
   
   version: ""
 - 
@@ -23,18 +43,33 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  name: owfs
-  
-  version: "3.1"
-- 
   category: www-servers
   name: varnish
   
   version: ""
 - 
-  category: sys-libs
-  name: libstatgrab
+  category: dev-libs
+  name: mongo-c-driver
+  
+  version: 1.8.2
+- 
+  category: net-firewall
+  name: iptables
+  
+  version: 1.4.13
+- 
+  category: sys-power
+  name: nut
+  
+  version: 2.7.2-r2
+- 
+  category: net-libs
+  name: librouteros
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
@@ -43,48 +78,68 @@ requires:
   
   version: "1.6"
 - 
-  category: dev-libs
-  name: libgcrypt
+  category: sys-apps
+  name: lm-sensors
   
   version: ""
-- 
-  category: net-libs
-  name: libpcap
-  
-  version: ""
-- 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-power
-  name: nut
-  
-  version: 2.7.2-r2
-- 
-  category: sci-libs
-  name: libsigrok
-  
-  version: "0.4"
 - 
   category: net-analyzer
   name: net-snmp
   
   version: ""
 - 
+  category: net-misc
+  name: tokyotyrant
+  
+  version: ""
+- 
+  category: sys-fs
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: sci-geosciences
+  name: gpsd
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: ""
+- 
+  category: dev-libs
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
   category: sec-policy
   name: selinux-collectd
   
   version: ""
 - 
-  category: dev-libs
-  name: libatasmart
+  category: dev-db
+  name: oracle-instantclient-basic
   
   version: ""
 - 
   category: dev-libs
-  name: libltdl
+  name: hiredis
+  
+  version: ""
+- 
+  category: virtual
+  name: udev
   
   version: ""
 - 
@@ -99,72 +154,7 @@ requires:
   version: ""
 - 
   category: dev-db
-  name: libdbi
-  
-  version: ""
-- 
-  category: sci-geosciences
-  name: gpsd
-  
-  version: ""
-- 
-  category: dev-db
-  name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: net-libs
-  name: librouteros
-  
-  version: ""
-- 
-  category: net-misc
-  name: tokyotyrant
-  
-  version: ""
-- 
-  category: dev-libs
-  name: librdkafka
-  
-  version: 0.9.0.99
-- 
-  category: dev-libs
-  name: protobuf-c
-  
-  version: 1.2.1-r1
-- 
-  category: virtual
-  name: logger
-  
-  version: ""
-- 
-  category: virtual
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: app-emulation
-  name: libvirt
-  
-  version: ""
-- 
-  category: app-emulation
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
-  
-  version: ""
-- 
-  category: app-misc
-  name: mosquitto
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -173,13 +163,38 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: libstatgrab
+  
+  version: ""
+- 
   category: dev-libs
-  name: hiredis
+  name: libgcrypt
   
   version: ""
 - 
   category: dev-libs
   name: yajl
+  
+  version: ""
+- 
+  category: net-libs
+  name: libpcap
+  
+  version: ""
+- 
+  category: dev-db
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libatasmart
+  
+  version: ""
+- 
+  category: app-emulation
+  name: libvirt
   
   version: ""
 - 
@@ -193,23 +208,13 @@ requires:
   
   version: 2.0.16-r1
 - 
-  category: x11-libs
-  name: libnotify
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
   category: dev-libs
-  name: libmodbus
+  name: libmemcached
   
   version: ""
 - 
-  category: dev-db
-  name: postgresql
+  category: net-libs
+  name: libmnl
   
   version: ""
 - 
@@ -217,6 +222,11 @@ requires:
   name: rrdtool
   
   version: ""
+- 
+  category: sci-libs
+  name: libsigrok
+  
+  version: "0.4"
 - 
   category: net-libs
   name: libmicrohttpd
@@ -228,35 +238,25 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  name: libdbi
+  
+  version: ""
+- 
+  category: app-misc
+  name: mosquitto
+  
+  version: ""
+- 
   category: sys-fs
-  name: xfsprogs
+  name: owfs
   
-  version: ""
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: net-libs
-  name: libmnl
-  
-  version: ""
+  version: "3.1"
 - 
   category: net-libs
   name: liboping
   
   version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: mongo-c-driver
-  
-  version: 1.8.2
 use_flags:
 - contrib
 - debug

@@ -8,13 +8,28 @@ conflicts:
 name: libextractor
 requires:
 - 
-  category: dev-libs
-  name: glib
+  category: gnome-extra
+  name: libgsf
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-base
   
   version: ""
 - 
   category: virtual
   name: libintl
+  
+  version: ""
+- 
+  category: virtual
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -24,52 +39,27 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  name: tiff
+  name: libogg
   
   version: ""
 - 
   category: virtual
-  name: libiconv
+  name: jpeg
   
   version: ""
 - 
-  category: gnome-extra
-  name: libgsf
+  category: sys-libs
+  name: libapparmor
   
   version: ""
 - 
-  category: media-gfx
-  name: exiv2
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: sys-devel
-  name: libtool
-  
-  version: ""
-- 
-  category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsmf
-  
-  version: ""
-- 
-  category: media-libs
-  name: libmpeg2
-  
-  version: ""
-- 
-  category: media-libs
-  name: giflib
+  category: sys-apps
+  name: file
   
   version: ""
 - 
@@ -79,52 +69,7 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libapparmor
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: libogg
-  
-  version: ""
-- 
-  category: app-text
-  name: iso-codes
-  
-  version: ""
-- 
-  category: app-arch
-  name: libarchive
-  
-  version: ""
-- 
-  category: media-libs
-  name: gstreamer
-  
-  version: ""
-- 
-  category: virtual
-  name: ffmpeg
+  name: tiff
   
   version: ""
 - 
@@ -135,6 +80,61 @@ requires:
 - 
   category: media-libs
   name: libmp4v2
+  
+  version: ""
+- 
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: media-gfx
+  name: exiv2
+  
+  version: ""
+- 
+  category: media-libs
+  name: giflib
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsmf
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
+- 
+  category: sys-devel
+  name: libtool
+  
+  version: ""
+- 
+  category: app-arch
+  name: libarchive
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmpeg2
+  
+  version: ""
+- 
+  category: media-libs
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  name: gstreamer
   
   version: ""
 use_flags:

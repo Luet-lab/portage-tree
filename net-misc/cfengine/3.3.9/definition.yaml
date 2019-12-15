@@ -4,6 +4,16 @@ name: cfengine
 requires:
 - 
   category: dev-db
+  name: tokyocabinet
+  
+  version: ""
+- 
+  category: dev-db
+  name: qdbm
+  
+  version: ""
+- 
+  category: dev-db
   name: postgresql
   
   version: ""
@@ -15,21 +25,6 @@ requires:
 - 
   category: app-emulation
   name: libvirt
-  
-  version: ""
-- 
-  category: virtual
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-db
-  name: tokyocabinet
-  
-  version: ""
-- 
-  category: dev-db
-  name: qdbm
   
   version: ""
 - 
@@ -52,6 +47,11 @@ requires:
   name: db
   
   version: "4"
+- 
+  category: virtual
+  name: mysql
+  
+  version: ""
 use_flags:
 - examples
 - html

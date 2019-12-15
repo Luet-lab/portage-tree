@@ -3,13 +3,28 @@ conflicts: []
 name: yate
 requires:
 - 
-  category: media-libs
-  name: speex
+  category: media-sound
+  name: gsm
   
   version: ""
 - 
   category: dev-libs
   name: openssl
+  
+  version: ""
+- 
+  category: dev-db
+  name: postgresql
+  
+  version: ""
+- 
+  category: media-libs
+  name: speex
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -28,23 +43,8 @@ requires:
   
   version: ""
 - 
-  category: media-sound
-  name: gsm
-  
-  version: ""
-- 
   category: virtual
   name: mysql
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-db
-  name: postgresql
   
   version: ""
 use_flags:

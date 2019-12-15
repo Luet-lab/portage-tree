@@ -3,13 +3,28 @@ conflicts: []
 name: wlroots
 requires:
 - 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.9.0
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.17.0
+- 
   category: x11-libs
-  name: libdrm
+  name: pixman
   
   version: ""
 - 
-  category: x11-libs
-  name: libxkbcommon
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: virtual
+  name: libudev
   
   version: ""
 - 
@@ -23,28 +38,13 @@ requires:
   
   version: "237"
 - 
-  category: virtual
-  name: libudev
-  
-  version: ""
-- 
   category: x11-libs
-  name: pixman
+  name: libxcb
   
   version: ""
-- 
-  category: sys-auth
-  name: elogind
-  
-  version: "237"
 - 
   category: x11-base
   name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  name: xcb-util-image
   
   version: ""
 - 
@@ -53,28 +53,28 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libxcb
+  category: sys-auth
+  name: elogind
   
-  version: ""
-- 
-  category: dev-libs
-  name: libinput
-  
-  version: 1.9.0
-- 
-  category: dev-libs
-  name: wayland
-  
-  version: 1.17.0
+  version: "237"
 - 
   category: x11-libs
   name: xcb-util-wm
   
   version: ""
 - 
-  category: media-video
-  name: ffmpeg
+  category: x11-libs
+  name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  name: xcb-util-image
   
   version: ""
 use_flags:

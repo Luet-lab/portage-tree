@@ -11,11 +11,6 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-fs
-  name: lvm2
-  
-  version: 2.02.103
-- 
   category: <sec-policy
   name: selinux-base
   
@@ -25,13 +20,63 @@ conflicts:
   name: systemd
   
   version: ""
+- 
+  category: <sys-fs
+  name: lvm2
+  
+  version: 2.02.103
 name: udev
 requires:
 - 
   category: sys-apps
-  name: util-linux
+  name: acl
   
-  version: "2.30"
+  version: ""
+- 
+  category: sys-apps
+  name: kmod
+  
+  version: "16"
+- 
+  category: acct-group
+  name: kmem
+  
+  version: ""
+- 
+  category: acct-group
+  name: audio
+  
+  version: ""
+- 
+  category: acct-group
+  name: disk
+  
+  version: ""
+- 
+  category: acct-group
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  name: tty
+  
+  version: ""
+- 
+  category: acct-group
+  name: dialout
+  
+  version: ""
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
+- 
+  category: acct-group
+  name: video
+  
+  version: ""
 - 
   category: sys-libs
   name: libcap
@@ -53,20 +98,10 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  name: render
+  category: sys-apps
+  name: util-linux
   
-  version: ""
-- 
-  category: acct-group
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  name: tty
-  
-  version: ""
+  version: "2.30"
 - 
   category: acct-group
   name: cdrom
@@ -74,42 +109,7 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: dialout
-  
-  version: ""
-- 
-  category: acct-group
-  name: tape
-  
-  version: ""
-- 
-  category: sys-apps
-  name: acl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: kmod
-  
-  version: "16"
-- 
-  category: acct-group
-  name: kvm
-  
-  version: ""
-- 
-  category: acct-group
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  name: disk
-  
-  version: ""
-- 
-  category: acct-group
-  name: video
+  name: render
   
   version: ""
 use_flags:

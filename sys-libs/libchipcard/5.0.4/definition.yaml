@@ -3,6 +3,11 @@ conflicts: []
 name: libchipcard
 requires:
 - 
+  category: sys-apps
+  name: pcsc-lite
+  
+  version: 1.6.2
+- 
   category: sys-libs
   name: gwenhywfar
   
@@ -17,11 +22,6 @@ requires:
   name: libintl
   
   version: ""
-- 
-  category: sys-apps
-  name: pcsc-lite
-  
-  version: 1.6.2
 use_flags:
 - doc
 - examples

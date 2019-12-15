@@ -3,6 +3,11 @@ conflicts: []
 name: cfengine
 requires:
 - 
+  category: net-libs
+  name: libnsl
+  
+  version: ""
+- 
   category: sys-libs
   name: db
   
@@ -15,11 +20,6 @@ requires:
 - 
   category: app-portage
   name: portage-utils
-  
-  version: ""
-- 
-  category: net-libs
-  name: libnsl
   
   version: ""
 use_flags:

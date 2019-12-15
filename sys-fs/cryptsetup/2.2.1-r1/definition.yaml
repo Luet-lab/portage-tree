@@ -3,11 +3,6 @@ conflicts: []
 name: cryptsetup
 requires:
 - 
-  category: dev-libs
-  name: libgpg-error[static-libs(+)]
-  
-  version: ""
-- 
   category: sys-apps
   name: util-linux-2.31-r1[static-libs(+)]
   
@@ -19,22 +14,17 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
   name: nettle-2.4[static-libs(+)]
   
   version: ""
 - 
   category: dev-libs
-  name: libpwquality[static-libs(+)]
+  name: openssl
   
   version: ""
 - 
-  category: sys-fs
-  name: lvm2[static-libs(+)]
+  category: dev-libs
+  name: libpwquality[static-libs(+)]
   
   version: ""
 - 
@@ -49,9 +39,14 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: nettle
+  name: popt
   
-  version: "2.4"
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
 - 
   category: virtual
   name: libudev
@@ -69,22 +64,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: popt
+  name: libressl
   
   version: ""
 - 
   category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: popt[static-libs(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
+  name: lvm2[static-libs(+)]
   
   version: ""
 - 
@@ -97,6 +82,21 @@ requires:
   name: libpwquality
   
   version: ""
+- 
+  category: dev-libs
+  name: libgpg-error[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: popt[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: nettle
+  
+  version: "2.4"
 use_flags:
 - gcrypt
 - kernel

@@ -3,6 +3,11 @@ conflicts: []
 name: mongrel2
 requires:
 - 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
   category: net-libs
   name: zeromq
   
@@ -12,11 +17,6 @@ requires:
   name: mbedtls
   
   version: "2.1"
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
 use_flags:
 - ""
 version: 1.11.0-r1

@@ -3,38 +3,28 @@ conflicts: []
 name: mkvtoolnix
 requires:
 - 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: dev-qt
   name: qtcore
   
   version: ""
 - 
   category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
+  name: qtconcurrent
   
   version: ""
 - 
   category: dev-libs
-  name: boost
+  name: libfmt
   
-  version: 1.49.0
+  version: 5.3.0
 - 
   category: media-libs
-  name: libmatroska
-  
-  version: 1.5.0
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: flac
+  name: libvorbis
   
   version: ""
 - 
@@ -44,12 +34,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtconcurrent
+  name: qtnetwork
   
   version: ""
 - 
   category: dev-qt
-  name: qtnetwork
+  name: qtmultimedia
   
   version: ""
 - 
@@ -64,12 +54,12 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libogg
+  name: libmatroska
   
-  version: ""
+  version: 1.5.0
 - 
   category: dev-qt
-  name: qtmultimedia
+  name: qtwidgets
   
   version: ""
 - 
@@ -78,18 +68,28 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libfmt
-  
-  version: 5.3.0
-- 
   category: media-libs
-  name: libvorbis
+  name: libogg
   
   version: ""
 - 
   category: dev-qt
   name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
+  
+  version: 1.49.0
+- 
+  category: media-libs
+  name: flac
   
   version: ""
 use_flags:

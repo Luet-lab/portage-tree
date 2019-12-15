@@ -3,18 +3,23 @@ conflicts: []
 name: emilpro
 requires:
 - 
-  category: dev-libs
-  name: glib
+  category: dev-cpp
+  name: gtkmm
   
   version: ""
 - 
-  category: sys-libs
-  name: binutils-libs
+  category: dev-cpp
+  name: pangomm
   
-  version: 2.25.1-r2
+  version: ""
 - 
-  category: net-misc
-  name: curl
+  category: dev-cpp
+  name: cairomm
+  
+  version: ""
+- 
+  category: virtual
+  name: libelf
   
   version: ""
 - 
@@ -29,7 +34,7 @@ requires:
   version: ""
 - 
   category: dev-cpp
-  name: pangomm
+  name: glibmm
   
   version: ""
 - 
@@ -38,23 +43,18 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libelf
+  category: dev-libs
+  name: glib
   
   version: ""
 - 
-  category: dev-cpp
-  name: gtkmm
+  category: sys-libs
+  name: binutils-libs
   
-  version: ""
+  version: 2.25.1-r2
 - 
-  category: dev-cpp
-  name: glibmm
-  
-  version: ""
-- 
-  category: dev-cpp
-  name: cairomm
+  category: net-misc
+  name: curl
   
   version: ""
 use_flags:
