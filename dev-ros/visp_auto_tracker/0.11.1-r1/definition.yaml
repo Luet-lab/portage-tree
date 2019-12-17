@@ -4,7 +4,12 @@ name: visp_auto_tracker
 requires:
 - 
   category: dev-ros
-  name: resource_retriever
+  name: roscpp
+  
+  version: ""
+- 
+  category: dev-ros
+  name: sensor_msgs
   
   version: ""
 - 
@@ -18,8 +23,28 @@ requires:
   
   version: ""
 - 
+  category: dev-ros
+  name: geometry_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  name: resource_retriever
+  
+  version: ""
+- 
+  category: dev-ros
+  name: std_msgs
+  
+  version: ""
+- 
   category: sci-libs
   name: ViSP
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
   
   version: ""
 - 
@@ -29,32 +54,7 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: geometry_msgs
-  
-  version: ""
-- 
-  category: dev-ros
   name: message_filters
-  
-  version: ""
-- 
-  category: dev-ros
-  name: roscpp
-  
-  version: ""
-- 
-  category: dev-ros
-  name: sensor_msgs
-  
-  version: ""
-- 
-  category: dev-ros
-  name: std_msgs
-  
-  version: ""
-- 
-  category: dev-libs
-  name: boost
   
   version: ""
 use_flags:

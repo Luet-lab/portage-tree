@@ -7,6 +7,11 @@ conflicts:
   version: 0.20.1
 - 
   category: ~dev-python
+  name: oslo-serialization
+  
+  version: 2.19.1
+- 
+  category: ~dev-python
   name: pymysql
   
   version: 0.7.7
@@ -15,58 +20,93 @@ conflicts:
   name: oslo-service
   
   version: 1.28.1
-- 
-  category: ~dev-python
-  name: oslo-serialization
-  
-  version: 2.19.1
 name: neutron
 requires:
 - 
-  category: dev-python
-  name: eventlet
-  
-  version: 0.18.4
-- 
-  category: dev-python
-  name: python-neutronclient
-  
-  version: 6.3.0
-- 
-  category: dev-python
-  name: tenacity
-  
-  version: 3.2.1
-- 
-  category: dev-python
-  name: oslo-rootwrap
-  
-  version: 5.8.0
-- 
-  category: dev-python
-  name: oslo-upgradecheck
-  
-  version: 0.1.0
-- 
-  category: dev-python
-  name: keystoneauth
-  
-  version: 3.4.0
-- 
-  category: dev-python
-  name: stevedore
-  
-  version: 1.20.1
-- 
-  category: net-firewall
-  name: iptables
+  category: net-dns
+  name: dnsmasq
   
   version: ""
 - 
   category: dev-python
-  name: neutron-lib
+  name: decorator
   
-  version: 1.29.1
+  version: 3.4.0
+- 
+  category: dev-python
+  name: six
+  
+  version: 1.10.0
+- 
+  category: dev-python
+  name: oslo-i18n
+  
+  version: 3.15.3
+- 
+  category: net-misc
+  name: bridge-utils
+  
+  version: ""
+- 
+  category: net-misc
+  name: dibbler
+  
+  version: 1.0.1
+- 
+  category: dev-python
+  name: httplib2
+  
+  version: 0.9.1
+- 
+  category: dev-python
+  name: webob
+  
+  version: 1.8.2
+- 
+  category: dev-python
+  name: oslo-serialization
+  
+  version: 1.18.0
+- 
+  category: dev-python
+  name: os-ken
+  
+  version: 0.3.0
+- 
+  category: net-firewall
+  name: conntrack-tools
+  
+  version: ""
+- 
+  category: dev-python
+  name: netaddr
+  
+  version: 0.7.18
+- 
+  category: dev-python
+  name: oslo-reports
+  
+  version: 1.18.0
+- 
+  category: net-misc
+  name: iputils
+  
+  version: ""
+- 
+  category: dev-python
+  name: python-novaclient
+  
+  version: 9.1.0
+- 
+  category: dev-python
+  name: pecan
+  
+  version: 1.3.2
+- 
+  category: dev-python
+  name: oslo-context
+  
+  version: 2.19.2
 - 
   category: dev-python
   name: oslo-log
@@ -74,9 +114,9 @@ requires:
   version: 3.36.0
 - 
   category: dev-python
-  name: oslo-privsep
+  name: oslo-versionedobjects
   
-  version: 1.32.0
+  version: 1.35.1
 - 
   category: dev-python
   name: pyroute2
@@ -84,9 +124,24 @@ requires:
   version: 0.5.3
 - 
   category: dev-python
-  name: openstacksdk
+  name: python-neutronclient
   
-  version: 0.31.2
+  version: 6.3.0
+- 
+  category: dev-python
+  name: osprofiler
+  
+  version: 2.3.0
+- 
+  category: net-misc
+  name: radvd
+  
+  version: ""
+- 
+  category: dev-python
+  name: os-xenapi
+  
+  version: 0.3.1
 - 
   category: net-misc
   name: openvswitch
@@ -94,9 +149,69 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: requests
+  name: routes
   
-  version: 2.14.2
+  version: 2.3.1
+- 
+  category: dev-python
+  name: psutil
+  
+  version: 3.2.2
+- 
+  category: dev-python
+  name: openstacksdk
+  
+  version: 0.31.2
+- 
+  category: dev-python
+  name: python-designateclient
+  
+  version: 2.7.0
+- 
+  category: dev-python
+  name: oslo-rootwrap
+  
+  version: 5.8.0
+- 
+  category: dev-python
+  name: os-vif
+  
+  version: 1.15.1
+- 
+  category: dev-python
+  name: paste
+  
+  version: 2.0.2
+- 
+  category: dev-python
+  name: pastedeploy
+  
+  version: 1.5.0-r1
+- 
+  category: dev-python
+  name: netifaces
+  
+  version: 0.10.4
+- 
+  category: dev-python
+  name: psycopg
+  
+  version: 2.5.0
+- 
+  category: dev-python
+  name: oslo-policy
+  
+  version: 1.30.0
+- 
+  category: dev-python
+  name: jinja
+  
+  version: "2.10"
+- 
+  category: dev-python
+  name: stevedore
+  
+  version: 1.20.1
 - 
   category: dev-python
   name: alembic
@@ -109,62 +224,27 @@ requires:
   version: 1.26.0
 - 
   category: dev-python
-  name: oslo-db
+  name: oslo-service
   
-  version: 4.37.0
-- 
-  category: dev-python
-  name: oslo-policy
-  
-  version: 1.30.0
-- 
-  category: dev-python
-  name: os-xenapi
-  
-  version: 0.3.1
-- 
-  category: dev-python
-  name: pyudev
-  
-  version: ""
-- 
-  category: net-firewall
-  name: ebtables
-  
-  version: ""
-- 
-  category: net-misc
-  name: radvd
-  
-  version: ""
-- 
-  category: dev-python
-  name: oslo-config
-  
-  version: 5.2.0
-- 
-  category: dev-python
-  name: jinja
-  
-  version: "2.10"
-- 
-  category: dev-python
-  name: oslo-context
-  
-  version: 2.19.2
-- 
-  category: dev-python
-  name: oslo-utils
-  
-  version: 3.33.0
-- 
-  category: dev-python
-  name: psutil
-  
-  version: 3.2.2
+  version: 1.24.0
 - 
   category: sys-apps
   name: iproute2
+  
+  version: ""
+- 
+  category: dev-python
+  name: pbr
+  
+  version: 4.0.0
+- 
+  category: dev-python
+  name: keystoneauth
+  
+  version: 3.4.0
+- 
+  category: net-firewall
+  name: ebtables
   
   version: ""
 - 
@@ -174,134 +254,9 @@ requires:
   version: ""
 - 
   category: dev-python
-  name: oslo-versionedobjects
-  
-  version: 1.35.1
-- 
-  category: dev-python
-  name: pbr
-  
-  version: 4.0.0
-- 
-  category: dev-python
-  name: paste
-  
-  version: 2.0.2
-- 
-  category: dev-python
-  name: httplib2
-  
-  version: 0.9.1
-- 
-  category: dev-python
-  name: netaddr
-  
-  version: 0.7.18
-- 
-  category: dev-python
-  name: psycopg
-  
-  version: 2.5.0
-- 
-  category: dev-python
-  name: six
-  
-  version: 1.10.0
-- 
-  category: dev-python
-  name: osprofiler
-  
-  version: 2.3.0
-- 
-  category: net-misc
-  name: iputils
-  
-  version: ""
-- 
-  category: dev-python
-  name: decorator
-  
-  version: 3.4.0
-- 
-  category: dev-python
-  name: netifaces
-  
-  version: 0.10.4
-- 
-  category: dev-python
-  name: oslo-serialization
-  
-  version: 1.18.0
-- 
-  category: net-firewall
-  name: ipset
-  
-  version: ""
-- 
-  category: net-firewall
-  name: conntrack-tools
-  
-  version: ""
-- 
-  category: dev-python
-  name: python-designateclient
-  
-  version: 2.7.0
-- 
-  category: net-misc
-  name: bridge-utils
-  
-  version: ""
-- 
-  category: dev-python
-  name: pastedeploy
-  
-  version: 1.5.0-r1
-- 
-  category: dev-python
-  name: routes
-  
-  version: 2.3.1
-- 
-  category: dev-python
-  name: debtcollector
-  
-  version: 1.2.0
-- 
-  category: dev-python
-  name: os-ken
-  
-  version: 0.3.0
-- 
-  category: dev-python
-  name: os-vif
-  
-  version: 1.15.1
-- 
-  category: dev-python
   name: oslo-concurrency
   
   version: 3.26.0
-- 
-  category: dev-python
-  name: oslo-middleware
-  
-  version: 3.31.0
-- 
-  category: dev-python
-  name: oslo-reports
-  
-  version: 1.18.0
-- 
-  category: dev-python
-  name: ovsdbapp
-  
-  version: 0.9.1
-- 
-  category: dev-python
-  name: sqlalchemy
-  
-  version: 1.2.0
 - 
   category: dev-python
   name: oslo-messaging
@@ -309,29 +264,64 @@ requires:
   version: 5.29.0
 - 
   category: dev-python
-  name: oslo-service
+  name: oslo-middleware
   
-  version: 1.24.0
+  version: 3.31.0
 - 
   category: dev-python
-  name: pecan
+  name: ovsdbapp
   
-  version: 1.3.2
+  version: 0.9.1
 - 
   category: dev-python
-  name: pymysql
-  
-  version: 0.7.6
-- 
-  category: net-dns
-  name: dnsmasq
+  name: pyudev
   
   version: ""
 - 
   category: dev-python
-  name: oslo-i18n
+  name: oslo-upgradecheck
   
-  version: 3.15.3
+  version: 0.1.0
+- 
+  category: dev-python
+  name: debtcollector
+  
+  version: 1.2.0
+- 
+  category: dev-python
+  name: neutron-lib
+  
+  version: 1.29.1
+- 
+  category: dev-python
+  name: sqlalchemy
+  
+  version: 1.2.0
+- 
+  category: dev-python
+  name: oslo-config
+  
+  version: 5.2.0
+- 
+  category: dev-python
+  name: eventlet
+  
+  version: 0.18.4
+- 
+  category: dev-python
+  name: oslo-privsep
+  
+  version: 1.32.0
+- 
+  category: net-firewall
+  name: ipset
+  
+  version: ""
+- 
+  category: net-firewall
+  name: iptables
+  
+  version: ""
 - 
   category: dev-python
   name: ovs
@@ -339,19 +329,29 @@ requires:
   version: 2.8.0
 - 
   category: dev-python
-  name: python-novaclient
+  name: requests
   
-  version: 9.1.0
-- 
-  category: net-misc
-  name: dibbler
-  
-  version: 1.0.1
+  version: 2.14.2
 - 
   category: dev-python
-  name: webob
+  name: tenacity
   
-  version: 1.8.2
+  version: 3.2.1
+- 
+  category: dev-python
+  name: pymysql
+  
+  version: 0.7.6
+- 
+  category: dev-python
+  name: oslo-db
+  
+  version: 4.37.0
+- 
+  category: dev-python
+  name: oslo-utils
+  
+  version: 3.33.0
 use_flags:
 - compute-only
 - dhcp

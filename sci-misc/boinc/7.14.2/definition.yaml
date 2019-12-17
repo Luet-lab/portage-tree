@@ -8,28 +8,18 @@ conflicts:
 name: boinc
 requires:
 - 
-  category: net-misc
-  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: media-libs
-  name: freeglut
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
   category: x11-libs
   name: wxGTK
+  
+  version: ""
+- 
+  category: x11-drivers
+  name: nvidia-drivers
+  
+  version: "180.22"
+- 
+  category: net-misc
+  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
   
   version: ""
 - 
@@ -39,9 +29,19 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
   name: libnotify
   
   version: "0.7"
+- 
+  category: media-libs
+  name: freeglut
+  
+  version: ""
 - 
   category: app-misc
   name: ca-certificates
@@ -53,13 +53,13 @@ requires:
   
   version: "2.1"
 - 
-  category: x11-drivers
-  name: nvidia-drivers
-  
-  version: "180.22"
-- 
   category: sys-apps
   name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 

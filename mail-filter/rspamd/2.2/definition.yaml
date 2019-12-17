@@ -3,13 +3,8 @@ conflicts: []
 name: rspamd
 requires:
 - 
-  category: dev-libs
-  name: libpcre[jit=]
-  
-  version: ""
-- 
-  category: acct-group
-  name: rspamd
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
@@ -23,41 +18,6 @@ requires:
   
   version: ""
 - 
-  category: dev-util
-  name: ragel
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hyperscan
-  
-  version: ""
-- 
-  category: dev-libs
-  name: jemalloc
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libev
-  
-  version: ""
-- 
   category: net-libs
   name: libnsl
   
@@ -68,13 +28,13 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
+  category: dev-libs
+  name: libpcre2[jit=]
   
   version: ""
 - 
   category: dev-libs
-  name: libpcre2[jit=]
+  name: libpcre[jit=]
   
   version: ""
 - 
@@ -88,8 +48,48 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  name: libev
+  
+  version: ""
+- 
   category: sys-apps
   name: file
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: acct-group
+  name: rspamd
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-util
+  name: ragel
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hyperscan
+  
+  version: ""
+- 
+  category: dev-libs
+  name: jemalloc
   
   version: ""
 - 

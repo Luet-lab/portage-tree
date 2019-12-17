@@ -8,8 +8,8 @@ conflicts:
 name: engrampa
 requires:
 - 
-  category: app-admin
-  name: packagekit-base
+  category: sys-apps
+  name: file
   
   version: ""
 - 
@@ -23,6 +23,26 @@ requires:
   
   version: ""
 - 
+  category: mate-base
+  name: caja
+  
+  version: 1.17.1
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: app-admin
+  name: packagekit-base
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
   category: x11-libs
   name: gdk-pixbuf
   
@@ -32,26 +52,6 @@ requires:
   name: gtk+
   
   version: "3.22"
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: mate-base
-  name: caja
-  
-  version: 1.17.1
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
 use_flags:
 - caja
 - magic

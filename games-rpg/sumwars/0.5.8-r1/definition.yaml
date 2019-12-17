@@ -3,16 +3,6 @@ conflicts: []
 name: sumwars
 requires:
 - 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
   category: dev-games
   name: physfs
   
@@ -24,17 +14,7 @@ requires:
   version: "5.1"
 - 
   category: media-libs
-  name: openal
-  
-  version: ""
-- 
-  category: net-libs
-  name: enet
-  
-  version: 1.3.0
-- 
-  category: x11-libs
-  name: libXrandr
+  name: libogg
   
   version: ""
 - 
@@ -43,8 +23,8 @@ requires:
   
   version: 1.7.4-r1
 - 
-  category: media-libs
-  name: freealut
+  category: dev-games
+  name: ois
   
   version: ""
 - 
@@ -52,6 +32,11 @@ requires:
   name: tinyxml
   
   version: 2.6.2-r2
+- 
+  category: media-libs
+  name: libvorbis
+  
+  version: ""
 - 
   category: dev-libs
   name: boost
@@ -63,15 +48,30 @@ requires:
   
   version: "0.8"
 - 
-  category: dev-games
-  name: ois
+  category: media-libs
+  name: openal
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
   category: media-libs
-  name: libogg
+  name: freealut
   
   version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: net-libs
+  name: enet
+  
+  version: 1.3.0
 use_flags:
 - +tools
 - debug

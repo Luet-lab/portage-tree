@@ -3,23 +3,13 @@ conflicts: []
 name: cfengine
 requires:
 - 
-  category: dev-db
-  name: tokyocabinet
+  category: virtual
+  name: mysql
   
   version: ""
 - 
   category: dev-db
   name: qdbm
-  
-  version: ""
-- 
-  category: dev-db
-  name: postgresql
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libselinux
   
   version: ""
 - 
@@ -48,8 +38,18 @@ requires:
   
   version: "4"
 - 
-  category: virtual
-  name: mysql
+  category: dev-db
+  name: postgresql
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-db
+  name: tokyocabinet
   
   version: ""
 use_flags:

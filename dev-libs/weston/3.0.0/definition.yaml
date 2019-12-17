@@ -4,22 +4,7 @@ name: weston
 requires:
 - 
   category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-base
-  name: xorg-server
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libinput
-  
-  version: 0.8.0
-- 
-  category: virtual
-  name: jpeg
+  name: libwebp
   
   version: ""
 - 
@@ -28,35 +13,25 @@ requires:
   
   version: 0.5.0
 - 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: net-misc
-  name: freerdp-1.1.0_beta1_p20130710
-  
-  version: ""
-- 
   category: sys-auth
   name: pambase
   
   version: ""
 - 
-  category: x11-libs
-  name: pixman
+  category: sys-libs
+  name: libunwind
   
-  version: 0.25.2
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
 - 
   category: media-libs
   name: lcms
   
   version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: 1.11.3
 - 
   category: x11-libs
   name: libdrm
@@ -68,23 +43,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: sys-libs
+  name: mtdev
   
-  version: "1.6"
+  version: 1.1.0
 - 
   category: x11-libs
   name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  name: wayland-protocols
-  
-  version: "1.8"
-- 
-  category: media-libs
-  name: libwebp
   
   version: ""
 - 
@@ -92,6 +57,36 @@ requires:
   name: colord
   
   version: 0.1.27
+- 
+  category: media-libs
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: dev-libs
+  name: wayland
+  
+  version: 1.12.0
+- 
+  category: virtual
+  name: udev
+  
+  version: "136"
 - 
   category: x11-libs
   name: libxcb
@@ -103,20 +98,15 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: wayland
+  category: net-misc
+  name: freerdp-1.1.0_beta1_p20130710
   
-  version: 1.12.0
+  version: ""
 - 
-  category: sys-libs
-  name: mtdev
+  category: sys-apps
+  name: dbus
   
-  version: 1.1.0
-- 
-  category: virtual
-  name: udev
-  
-  version: "136"
+  version: "1.6"
 - 
   category: x11-libs
   name: pango
@@ -128,13 +118,23 @@ requires:
   
   version: "209"
 - 
-  category: sys-libs
-  name: libunwind
-  
-  version: ""
-- 
   category: x11-libs
-  name: libXcursor
+  name: pixman
+  
+  version: 0.25.2
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 0.8.0
+- 
+  category: dev-libs
+  name: wayland-protocols
+  
+  version: "1.8"
+- 
+  category: x11-base
+  name: xorg-server
   
   version: ""
 use_flags:

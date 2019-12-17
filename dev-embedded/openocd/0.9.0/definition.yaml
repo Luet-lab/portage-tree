@@ -3,11 +3,6 @@ conflicts: []
 name: openocd
 requires:
 - 
-  category: dev-libs
-  name: hidapi
-  
-  version: ""
-- 
   category: virtual
   name: libusb
   
@@ -27,6 +22,11 @@ requires:
   name: jimtcl
   
   version: "0.76"
+- 
+  category: dev-libs
+  name: hidapi
+  
+  version: ""
 use_flags:
 - cmsis-dap
 - dummy

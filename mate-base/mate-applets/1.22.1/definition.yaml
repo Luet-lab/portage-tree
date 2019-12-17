@@ -8,61 +8,6 @@ conflicts:
 name: mate-applets
 requires:
 - 
-  category: dev-libs
-  name: libmateweather
-  
-  version: 1.17.0
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: dev-libs
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  name: dbus-glib
-  
-  version: "0.74"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: x11-libs
-  name: libwnck
-  
-  version: "3.0"
-- 
-  category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: gnome-extra
-  name: gucharmap
-  
-  version: "3.0"
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: mate-base
-  name: mate-settings-daemon
-  
-  version: "1.6"
-- 
   category: net-wireless
   name: wireless-tools
   
@@ -78,10 +23,30 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
+  category: sys-power
+  name: upower
   
-  version: 1.1.2
+  version: 0.9.23
+- 
+  category: mate-base
+  name: mate-settings-daemon
+  
+  version: "1.6"
+- 
+  category: mate-base
+  name: mate-panel
+  
+  version: 1.17.0
+- 
+  category: dev-libs
+  name: libmateweather
+  
+  version: 1.17.0
+- 
+  category: gnome-extra
+  name: gucharmap
+  
+  version: "3.0"
 - 
   category: sys-power
   name: cpupower
@@ -89,34 +54,69 @@ requires:
   version: ""
 - 
   category: x11-libs
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: x11-libs
   name: libX11
   
   version: ""
+- 
+  category: x11-libs
+  name: libwnck
+  
+  version: "3.0"
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.74"
 - 
   category: sys-auth
   name: polkit
   
   version: "0.97"
 - 
-  category: sys-power
-  name: upower
+  category: x11-libs
+  name: gdk-pixbuf
   
-  version: 0.9.23
+  version: ""
 - 
-  category: dev-libs
-  name: libxml2
+  category: x11-libs
+  name: libnotify
   
-  version: "2.5"
+  version: "0.7"
 - 
   category: gnome-base
   name: libgtop
   
   version: 2.12.0
 - 
-  category: mate-base
-  name: mate-panel
+  category: dev-libs
+  name: glib
   
-  version: 1.17.0
+  version: "2.50"
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: "2.5"
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: dev-libs
+  name: atk
+  
+  version: ""
 use_flags:
 - X
 - ipv6

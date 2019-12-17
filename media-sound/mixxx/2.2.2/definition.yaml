@@ -3,23 +3,13 @@ conflicts: []
 name: mixxx
 requires:
 - 
-  category: x11-libs
-  name: libX11
+  category: media-libs
+  name: libid3tag
   
   version: ""
 - 
   category: media-libs
-  name: libmp4v2
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtscript
+  name: libvorbis
   
   version: ""
 - 
@@ -28,43 +18,48 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  name: vamp-plugin-sdk
-  
-  version: ""
-- 
-  category: dev-db
-  name: sqlite
+  category: sys-power
+  name: upower
   
   version: ""
 - 
   category: dev-qt
-  name: qtnetwork
+  name: qtsvg
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtopengl
   
   version: ""
 - 
   category: media-libs
-  name: chromaprint
+  name: libogg
   
   version: ""
 - 
   category: media-libs
-  name: portmidi
+  name: libsoundtouch
   
-  version: ""
-- 
-  category: virtual
-  name: libusb
-  
-  version: ""
+  version: "1.5"
 - 
   category: media-libs
-  name: libshout
+  name: rubberband
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtxml
   
   version: ""
 - 
@@ -74,67 +69,32 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libid3tag
+  name: vamp-plugin-sdk
   
   version: ""
 - 
-  category: media-libs
-  name: rubberband
+  category: x11-libs
+  name: libX11
   
   version: ""
-- 
-  category: sys-power
-  name: upower
-  
-  version: ""
-- 
-  category: "(\tmedia-libs"
-  name: opusfile
-  
-  version: ""
-- 
-  category: media-video
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  name: portaudio
-  
-  version: 19_pre
 - 
   category: dev-libs
   name: glib
   
   version: ""
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: media-libs
+  name: taglib
   
   version: ""
 - 
   category: media-libs
-  name: faad2
+  name: libmp4v2
   
   version: ""
 - 
-  category: dev-libs
-  name: hidapi
+  category: media-libs
+  name: libshout
   
   version: ""
 - 
@@ -149,52 +109,12 @@ requires:
   version: ""
 - 
   category: dev-qt
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
+  name: qtsql
   
   version: ""
 - 
   category: media-libs
-  name: libmad
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtxml
-  
-  version: ""
-- 
-  category: media-libs
-  name: libogg
-  
-  version: ""
-- 
-  category: media-libs
-  name: taglib
-  
-  version: ""
-- 
-  category: media-libs
-  name: lilv
-  
-  version: 0.24.2-r3
-- 
-  category: dev-libs
-  name: protobuf
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtdbus
+  name: chromaprint
   
   version: ""
 - 
@@ -204,9 +124,89 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libsoundtouch
+  name: faad2
   
-  version: "1.5"
+  version: ""
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtscript
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: media-libs
+  name: portaudio
+  
+  version: 19_pre
+- 
+  category: "(\tmedia-libs"
+  name: opusfile
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-db
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: media-libs
+  name: portmidi
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: hidapi
+  
+  version: ""
+- 
+  category: media-libs
+  name: lilv
+  
+  version: 0.24.2-r3
+- 
+  category: media-libs
+  name: libmad
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
 use_flags:
 - aac
 - doc

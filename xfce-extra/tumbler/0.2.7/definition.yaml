@@ -3,30 +3,35 @@ conflicts: []
 name: tumbler
 requires:
 - 
+  category: media-libs
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: gnome-extra
+  name: libgsf
+  
+  version: 1.14.20
+- 
+  category: net-misc
+  name: curl
+  
+  version: "7.25"
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: "2.14"
+- 
   category: virtual
   name: jpeg
   
   version: ""
 - 
-  category: media-libs
-  name: libopenraw
-  
-  version: 0.0.8
-- 
   category: xfce-base
   name: thunar
   
   version: "1.4"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.42"
-- 
-  category: app-text
-  name: poppler
-  
-  version: 0.12.4
 - 
   category: media-libs
   name: freetype
@@ -44,39 +49,34 @@ requires:
   version: 2.0.8
 - 
   category: media-libs
-  name: gst-plugins-base
+  name: libopenraw
   
-  version: ""
+  version: 0.0.8
 - 
-  category: gnome-extra
-  name: libgsf
+  category: dev-libs
+  name: glib
   
-  version: 1.14.20
-- 
-  category: sys-apps
-  name: dbus
-  
-  version: "1.6"
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: "2.14"
-- 
-  category: net-misc
-  name: curl
-  
-  version: "7.25"
+  version: "2.42"
 - 
   category: media-libs
   name: gstreamer
   
   version: ""
 - 
+  category: app-text
+  name: poppler
+  
+  version: 0.12.4
+- 
   category: media-plugins
   name: gst-plugins-meta
   
   version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: "1.6"
 use_flags:
 - curl
 - ffmpeg

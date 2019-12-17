@@ -9,12 +9,12 @@ name: iproute2
 requires:
 - 
   category: sys-libs
-  name: libselinux
+  name: libcap
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: virtual
+  name: libelf
   
   version: ""
 - 
@@ -23,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libmnl
+  category: dev-libs
+  name: libbsd
   
   version: ""
 - 
-  category: virtual
-  name: libelf
+  category: net-libs
+  name: libmnl
   
   version: ""
 - 
@@ -43,8 +43,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libbsd
+  category: sys-libs
+  name: libselinux
   
   version: ""
 use_flags:

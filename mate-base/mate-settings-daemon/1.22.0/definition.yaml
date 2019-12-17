@@ -4,19 +4,39 @@ name: mate-settings-daemon
 requires:
 - 
   category: mate-base
-  name: libmatekbd
-  
-  version: 1.17.0
-- 
-  category: mate-base
   name: mate-desktop
   
   version: 1.21.1
 - 
   category: x11-libs
-  name: cairo
+  name: libX11
   
   version: ""
+- 
+  category: media-libs
+  name: libmatemixer
+  
+  version: "1.10"
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: 0.9.15
+- 
+  category: media-libs
+  name: libcanberra
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: "2.50"
+- 
+  category: gnome-base
+  name: dconf
+  
+  version: 0.13.4
 - 
   category: x11-libs
   name: gdk-pixbuf
@@ -24,9 +44,19 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libnotify
+  name: libxklavier
   
-  version: "0.7"
+  version: "5.2"
+- 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: dbus-glib
+  
+  version: "0.71"
 - 
   category: sys-auth
   name: polkit
@@ -38,48 +68,33 @@ requires:
   
   version: "0.74"
 - 
-  category: dev-libs
-  name: glib
+  category: x11-libs
+  name: libXi
   
-  version: "2.50"
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: "0.7"
 - 
   category: dev-libs
   name: nss
   
   version: 3.11.2
 - 
-  category: dev-libs
-  name: dbus-glib
+  category: mate-base
+  name: libmatekbd
   
-  version: "0.71"
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: 0.9.15
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxklavier
-  
-  version: "5.2"
-- 
-  category: media-libs
-  name: libcanberra
-  
-  version: ""
+  version: 1.17.0
 - 
   category: media-libs
   name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
@@ -89,7 +104,7 @@ requires:
   version: "3.22"
 - 
   category: x11-libs
-  name: libXi
+  name: libXext
   
   version: ""
 - 
@@ -102,21 +117,6 @@ requires:
   name: dbus
   
   version: 1.1.2
-- 
-  category: media-libs
-  name: libmatemixer
-  
-  version: "1.10"
-- 
-  category: gnome-base
-  name: dconf
-  
-  version: 0.13.4
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
 use_flags:
 - X
 - debug

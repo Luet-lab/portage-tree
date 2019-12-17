@@ -1,0 +1,158 @@
+category: media-sound
+conflicts:
+- 
+  category: media-sound
+  name: snd
+  
+  version: ""
+name: csound
+requires:
+- 
+  category: media-libs
+  name: libsndfile
+  
+  version: 1.0.16
+- 
+  category: media-sound
+  name: fluidsynth
+  
+  version: ""
+- 
+  category: dev-lang
+  name: luajit
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  name: ladspa-sdk
+  
+  version: ""
+- 
+  category: sci-libs
+  name: hdf5
+  
+  version: ""
+- 
+  category: media-libs
+  name: libpng
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: media-libs
+  name: liblo
+  
+  version: ""
+- 
+  category: net-libs
+  name: libwebsockets
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  name: dssi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: fltk
+  
+  version: ""
+- 
+  category: sci-mathematics
+  name: gmm
+  
+  version: "5.1"
+- 
+  category: media-libs
+  name: portaudio
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  name: stk
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: eigen
+  
+  version: ""
+- 
+  category: virtual
+  name: jack
+  
+  version: ""
+- 
+  category: media-libs
+  name: portmidi
+  
+  version: ""
+use_flags:
+- +alsa
+- beats
+- chua
+- curl
+- +cxx
+- debug
+- doc
+- double-precision
+- dssi
+- |-
+  examples
+  fltk
+- +fluidsynth
+- hdf5
+- +image
+- jack
+- keyboard
+- linear
+- lua
+- luajit
+- nls
+- osc
+- |-
+  portaudio
+  portaudio
+- portmidi
+- pulseaudio
+- python
+- samples
+- static-libs
+- stk
+- test
+- +threads
+- |-
+  +utils
+  vim-syntax
+- websocket
+version: "9999"

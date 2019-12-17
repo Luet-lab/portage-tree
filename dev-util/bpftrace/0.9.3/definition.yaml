@@ -3,6 +3,11 @@ conflicts: []
 name: bpftrace
 requires:
 - 
+  category: virtual
+  name: libelf
+  
+  version: ""
+- 
   category: dev-util
   name: systemtap
   
@@ -27,11 +32,6 @@ requires:
   name: bcc
   
   version: 0.10.0
-- 
-  category: virtual
-  name: libelf
-  
-  version: ""
 use_flags:
 - test
 version: 0.9.3

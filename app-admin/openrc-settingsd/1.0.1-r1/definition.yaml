@@ -8,6 +8,16 @@ conflicts:
 name: openrc-settingsd
 requires:
 - 
+  category: sys-apps
+  name: systemd
+  
+  version: "197"
+- 
+  category: sys-auth
+  name: nss-myhostname
+  
+  version: ""
+- 
   category: dev-libs
   name: glib
   
@@ -30,16 +40,6 @@ requires:
 - 
   category: sys-auth
   name: polkit
-  
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: "197"
-- 
-  category: sys-auth
-  name: nss-myhostname
   
   version: ""
 use_flags:

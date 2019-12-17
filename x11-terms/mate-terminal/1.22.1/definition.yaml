@@ -4,11 +4,6 @@ name: mate-terminal
 requires:
 - 
   category: x11-libs
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
   name: gtk+
   
   version: "3.22"
@@ -23,10 +18,10 @@ requires:
   
   version: "1.6"
 - 
-  category: dev-libs
-  name: glib
+  category: gnome-base
+  name: dconf
   
-  version: "2.50"
+  version: 0.13.4
 - 
   category: x11-libs
   name: gdk-pixbuf
@@ -34,7 +29,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libICE
+  name: libSM
   
   version: ""
 - 
@@ -43,18 +38,23 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
   category: dev-libs
   name: atk
   
   version: ""
 - 
-  category: gnome-base
-  name: dconf
+  category: dev-libs
+  name: glib
   
-  version: 0.13.4
+  version: "2.50"
 - 
   category: x11-libs
-  name: libSM
+  name: libICE
   
   version: ""
 use_flags:

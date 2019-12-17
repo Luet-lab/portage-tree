@@ -3,8 +3,23 @@ conflicts: []
 name: dealii
 requires:
 - 
-  category: dev-util
-  name: nvidia-cuda-sdk
+  category: sci-libs
+  name: umfpack
+  
+  version: ""
+- 
+  category: dev-cpp
+  name: tbb
+  
+  version: ""
+- 
+  category: sci-libs
+  name: parmetis
+  
+  version: "4"
+- 
+  category: sci-libs
+  name: nanoflann
   
   version: ""
 - 
@@ -13,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: sci-mathematics
-  name: petsc[mpi=]
+  category: sci-libs
+  name: p4est
   
   version: ""
 - 
@@ -23,8 +38,18 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: trilinos
+  category: dev-cpp
+  name: muParser
+  
+  version: ""
+- 
+  category: sci-mathematics
+  name: petsc[mpi=]
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -44,72 +69,7 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: parmetis
-  
-  version: "4"
-- 
-  category: dev-cpp
-  name: muParser
-  
-  version: ""
-- 
-  category: sci-libs
-  name: symengine
-  
-  version: "0.4"
-- 
-  category: dev-cpp
-  name: tbb
-  
-  version: ""
-- 
-  category: dev-libs
-  name: boost
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: sci-libs
   name: hdf5[mpi=]
-  
-  version: ""
-- 
-  category: virtual
-  name: lapack
-  
-  version: ""
-- 
-  category: sci-libs
-  name: nanoflann
-  
-  version: ""
-- 
-  category: sci-libs
-  name: opencascade
-  
-  version: ""
-- 
-  category: sci-libs
-  name: sundials
-  
-  version: ""
-- 
-  category: app-arch
-  name: bzip2
-  
-  version: ""
-- 
-  category: sci-libs
-  name: gmsh
-  
-  version: ""
-- 
-  category: sci-libs
-  name: p4est
   
   version: ""
 - 
@@ -119,7 +79,42 @@ requires:
   version: ""
 - 
   category: sci-libs
-  name: umfpack
+  name: sundials
+  
+  version: ""
+- 
+  category: sci-libs
+  name: trilinos
+  
+  version: ""
+- 
+  category: app-arch
+  name: bzip2
+  
+  version: ""
+- 
+  category: dev-util
+  name: nvidia-cuda-sdk
+  
+  version: ""
+- 
+  category: sci-libs
+  name: gmsh
+  
+  version: ""
+- 
+  category: virtual
+  name: lapack
+  
+  version: ""
+- 
+  category: sci-libs
+  name: opencascade
+  
+  version: ""
+- 
+  category: dev-libs
+  name: boost
   
   version: ""
 - 
@@ -132,6 +127,11 @@ requires:
   name: mpi
   
   version: ""
+- 
+  category: sci-libs
+  name: symengine
+  
+  version: "0.4"
 use_flags:
 - adolc
 - assimp

@@ -4,12 +4,7 @@ name: darkice
 requires:
 - 
   category: media-libs
-  name: faac
-  
-  version: ""
-- 
-  category: media-sound
-  name: jack-audio-connection-kit
+  name: alsa-lib
   
   version: ""
 - 
@@ -19,12 +14,17 @@ requires:
   version: ""
 - 
   category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-sound
   name: twolame
   
   version: ""
 - 
   category: media-libs
-  name: libvorbis
+  name: faac
   
   version: ""
 - 
@@ -33,8 +33,8 @@ requires:
   
   version: 2.0.0
 - 
-  category: media-libs
-  name: alsa-lib
+  category: media-sound
+  name: jack-audio-connection-kit
   
   version: ""
 - 
@@ -48,8 +48,8 @@ requires:
   
   version: ""
 - 
-  category: media-sound
-  name: pulseaudio
+  category: media-libs
+  name: libvorbis
   
   version: ""
 use_flags:

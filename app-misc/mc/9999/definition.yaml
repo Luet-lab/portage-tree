@@ -3,23 +3,23 @@ conflicts: []
 name: mc
 requires:
 - 
+  category: x11-libs
+  name: libSM
+  
+  version: ""
+- 
   category: dev-libs
   name: glib
   
   version: 2.26.0
 - 
-  category: sys-fs
-  name: e2fsprogs
+  category: sys-libs
+  name: slang
   
-  version: ""
+  version: "2"
 - 
   category: sys-libs
   name: ncurses
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
   
   version: ""
 - 
@@ -29,12 +29,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXau
+  name: libX11
   
   version: ""
 - 
@@ -48,6 +43,11 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  name: e2fsprogs
+  
+  version: ""
+- 
   category: net-fs
   name: samba
   
@@ -58,13 +58,13 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: slang
+  category: x11-libs
+  name: libICE
   
-  version: "2"
+  version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXau
   
   version: ""
 use_flags:

@@ -3,8 +3,28 @@ conflicts: []
 name: fcitx
 requires:
 - 
+  category: virtual
+  name: libiconv
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbfile
+  
+  version: ""
+- 
+  category: app-text
+  name: enchant
+  
+  version: ""
+- 
+  category: app-i18n
+  name: opencc
+  
+  version: ""
+- 
   category: dev-libs
-  name: glib
+  name: libxml2
   
   version: ""
 - 
@@ -13,13 +33,28 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  name: libintl
+  category: x11-libs
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: libXrender
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  name: gobject-introspection
   
   version: ""
 - 
@@ -28,8 +63,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: app-text
+  name: iso-codes
+  
+  version: ""
+- 
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -48,8 +88,13 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  name: enchant
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
   
   version: ""
 - 
@@ -59,37 +104,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: gobject-introspection
+  name: glib
   
   version: ""
 - 
-  category: app-text
-  name: iso-codes
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-devel
-  name: gettext
-  
-  version: ""
-- 
-  category: app-i18n
-  name: opencc
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
@@ -100,26 +120,6 @@ requires:
 - 
   category: x11-libs
   name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbfile
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
   
   version: ""
 use_flags:

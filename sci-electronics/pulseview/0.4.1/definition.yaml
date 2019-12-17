@@ -3,15 +3,10 @@ conflicts: []
 name: pulseview
 requires:
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: dev-libs
+  name: boost
   
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
+  version: "1.55"
 - 
   category: dev-libs
   name: glib
@@ -33,20 +28,25 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: boost
+  category: sci-libs
+  name: libsigrokdecode
   
-  version: "1.55"
+  version: 0.5.2
 - 
   category: dev-cpp
   name: glibmm
   
   version: 2.28.0
 - 
-  category: sci-libs
-  name: libsigrokdecode
+  category: dev-qt
+  name: qtwidgets
   
-  version: 0.5.2
+  version: ""
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: ""
 use_flags:
 - +decode
 - static

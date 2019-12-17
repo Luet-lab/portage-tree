@@ -4,7 +4,12 @@ name: sway
 requires:
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: pixman
+  
+  version: ""
+- 
+  category: gui-apps
+  name: swaybg
   
   version: ""
 - 
@@ -13,23 +18,13 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
-  
-  version: "239"
-- 
-  category: gui-libs
-  name: wlroots-0.6.0[elogind=,systemd=,X=]
+  category: x11-libs
+  name: cairo
   
   version: ""
 - 
   category: x11-libs
   name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
   
   version: ""
 - 
@@ -39,19 +34,34 @@ requires:
   version: "239"
 - 
   category: x11-libs
-  name: libxkbcommon
+  name: libxcb
   
   version: ""
 - 
-  category: gui-apps
-  name: swaylock
+  category: gui-libs
+  name: wlroots-0.6.0[elogind=,systemd=,X=]
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.6.0
+- 
+  category: dev-libs
+  name: wayland
   
   version: ""
 - 
   category: x11-libs
-  name: libxcb
+  name: gdk-pixbuf
   
   version: ""
+- 
+  category: sys-apps
+  name: systemd
+  
+  version: "239"
 - 
   category: dev-libs
   name: json-c
@@ -63,13 +73,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
   category: gui-apps
-  name: swaybg
+  name: swaylock
   
   version: ""
 - 
@@ -78,13 +83,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libinput
-  
-  version: 1.6.0
-- 
-  category: dev-libs
-  name: wayland
+  category: x11-libs
+  name: libxkbcommon
   
   version: ""
 use_flags:

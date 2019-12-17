@@ -3,25 +3,10 @@ conflicts: []
 name: sudo
 requires:
 - 
-  category: virtual
-  name: editor
-  
-  version: ""
-- 
-  category: virtual
-  name: mta
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
   
   version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: 2.1.30-r1
 - 
   category: dev-libs
   name: cyrus-sasl
@@ -29,19 +14,9 @@ requires:
   version: ""
 - 
   category: sys-auth
-  name: sssd
+  name: skey
   
-  version: ""
-- 
-  category: dev-libs
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
+  version: 1.1.5-r1
 - 
   category: sec-policy
   name: selinux-sudo
@@ -51,20 +26,20 @@ requires:
   category: net-nds
   name: openldap
   
-  version: ""
+  version: 2.1.30-r1
 - 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  name: perl
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
   category: sys-auth
-  name: pambase
+  name: sssd
+  
+  version: ""
+- 
+  category: virtual
+  name: editor
   
   version: ""
 - 
@@ -73,15 +48,40 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  name: skey
+  category: dev-lang
+  name: perl
   
-  version: 1.1.5-r1
+  version: ""
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
 - 
   category: app-misc
   name: editor-wrapper
   
   version: "3"
+- 
+  category: sys-auth
+  name: pambase
+  
+  version: ""
+- 
+  category: virtual
+  name: mta
+  
+  version: ""
 use_flags:
 - gcrypt
 - ldap

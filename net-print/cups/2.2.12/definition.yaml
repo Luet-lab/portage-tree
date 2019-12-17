@@ -8,13 +8,23 @@ conflicts:
 name: cups
 requires:
 - 
-  category: sys-apps
-  name: dbus
+  category: virtual
+  name: krb5
   
-  version: 1.6.18-r1
+  version: 0-r1
 - 
-  category: acct-group
-  name: lp
+  category: net-dns
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-apps
+  name: attr
   
   version: ""
 - 
@@ -23,10 +33,30 @@ requires:
   
   version: "1.6"
 - 
-  category: virtual
-  name: krb5
+  category: sec-policy
+  name: selinux-cups
   
-  version: 0-r1
+  version: ""
+- 
+  category: virtual
+  name: libusb
+  
+  version: ""
+- 
+  category: sys-apps
+  name: xinetd
+  
+  version: ""
+- 
+  category: acct-group
+  name: lp
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
 - 
   category: sys-libs
   name: pam
@@ -39,32 +69,12 @@ requires:
   version: 2.12.23-r6
 - 
   category: sys-apps
-  name: xinetd
+  name: systemd
   
   version: ""
-- 
-  category: virtual
-  name: libusb
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
 - 
   category: app-text
   name: libpaper
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
   
   version: ""
 - 
@@ -74,19 +84,9 @@ requires:
   version: ""
 - 
   category: sys-apps
-  name: attr
+  name: dbus
   
-  version: ""
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-cups
-  
-  version: ""
+  version: 1.6.18-r1
 use_flags:
 - acl
 - dbus

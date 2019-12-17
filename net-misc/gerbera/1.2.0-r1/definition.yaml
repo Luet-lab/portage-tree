@@ -8,23 +8,13 @@ conflicts:
 name: gerbera
 requires:
 - 
-  category: dev-db
-  name: sqlite
+  category: sys-libs
+  name: zlib
   
-  version: "3"
+  version: ""
 - 
-  category: media-libs
-  name: taglib
-  
-  version: "1.11"
-- 
-  category: media-libs
-  name: lastfmlib
-  
-  version: "0.4"
-- 
-  category: media-gfx
-  name: exiv2
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -32,6 +22,51 @@ requires:
   name: libupnp
   
   version: 1.8.3
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: media-libs
+  name: lastfmlib
+  
+  version: "0.4"
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: file
+  
+  version: ""
+- 
+  category: media-libs
+  name: taglib
+  
+  version: "1.11"
+- 
+  category: media-libs
+  name: libexif
+  
+  version: ""
+- 
+  category: media-video
+  name: libav
+  
+  version: "10"
+- 
+  category: net-misc
+  name: youtube-dl
+  
+  version: ""
+- 
+  category: media-gfx
+  name: exiv2
+  
+  version: ""
 - 
   category: media-video
   name: ffmpeg
@@ -43,58 +78,23 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
+  category: sys-apps
+  name: util-linux
   
   version: ""
 - 
-  category: net-misc
-  name: youtube-dl
+  category: dev-db
+  name: sqlite
   
-  version: ""
+  version: "3"
 - 
   category: dev-libs
   name: expat
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
-  
-  version: ""
-- 
-  category: media-libs
-  name: libexif
-  
-  version: ""
-- 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
   category: dev-lang
   name: duktape
-  
-  version: ""
-- 
-  category: media-video
-  name: libav
-  
-  version: "10"
-- 
-  category: sys-apps
-  name: file
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  name: libiconv
   
   version: ""
 use_flags:

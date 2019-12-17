@@ -3,16 +3,6 @@ conflicts: []
 name: qtwayland
 requires:
 - 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: 0.2.0
-- 
   category: x11-libs
   name: libX11
   
@@ -42,6 +32,16 @@ requires:
   name: qtgui-5.12.3[egl,libinput=]
   
   version: ""
+- 
+  category: media-libs
+  name: mesa
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxkbcommon
+  
+  version: 0.2.0
 use_flags:
 - +libinput
 - xcomposite

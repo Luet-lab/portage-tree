@@ -8,8 +8,13 @@ conflicts:
 name: marco
 requires:
 - 
-  category: media-libs
-  name: libcanberra
+  category: gnome-base
+  name: libgtop
+  
+  version: "2"
+- 
+  category: x11-libs
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -18,8 +23,8 @@ requires:
   
   version: "3.22"
 - 
-  category: x11-libs
-  name: libXdamage
+  category: virtual
+  name: libintl
   
   version: ""
 - 
@@ -28,18 +33,13 @@ requires:
   
   version: "0.7"
 - 
-  category: virtual
-  name: libintl
+  category: media-libs
+  name: libcanberra
   
   version: ""
 - 
   category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango-1.2[X]
+  name: cairo
   
   version: ""
 - 
@@ -49,17 +49,22 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libSM
+  name: libXdamage
   
   version: ""
 - 
-  category: mate-base
-  name: mate-desktop
+  category: x11-libs
+  name: libXext
   
-  version: 1.20.0
+  version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: libXpresent
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
   
   version: ""
 - 
@@ -69,12 +74,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: atk
+  name: glib
   
-  version: ""
+  version: "2.50"
 - 
   category: x11-libs
-  name: cairo
+  name: pango-1.2[X]
   
   version: ""
 - 
@@ -89,32 +94,22 @@ requires:
   version: "0.3"
 - 
   category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXpresent
+  name: libXinerama
   
   version: ""
 - 
   category: dev-libs
-  name: glib
-  
-  version: "2.50"
-- 
-  category: gnome-base
-  name: libgtop
-  
-  version: "2"
-- 
-  category: x11-libs
-  name: gdk-pixbuf
+  name: atk
   
   version: ""
 - 
   category: x11-libs
-  name: libXext
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
   
   version: ""
 - 
@@ -124,9 +119,14 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXrandr
+  name: libXrender
   
   version: ""
+- 
+  category: mate-base
+  name: mate-desktop
+  
+  version: 1.20.0
 use_flags:
 - startup-notification
 - test

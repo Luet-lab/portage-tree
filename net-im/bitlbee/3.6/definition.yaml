@@ -3,16 +3,6 @@ conflicts: []
 name: bitlbee
 requires:
 - 
-  category: net-libs
-  name: gnutls
-  
-  version: ""
-- 
-  category: dev-libs
-  name: nss
-  
-  version: ""
-- 
   category: dev-libs
   name: libressl
   
@@ -33,6 +23,16 @@ requires:
   
   version: "2.16"
 - 
+  category: net-libs
+  name: libotr
+  
+  version: "4"
+- 
+  category: dev-libs
+  name: nss
+  
+  version: ""
+- 
   category: net-im
   name: pidgin
   
@@ -44,9 +44,9 @@ requires:
   version: ""
 - 
   category: net-libs
-  name: libotr
+  name: gnutls
   
-  version: "4"
+  version: ""
 use_flags:
 - debug
 - +gnutls

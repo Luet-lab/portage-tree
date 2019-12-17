@@ -1,17 +1,42 @@
 category: app-emulation
 conflicts:
 - 
-  category: '!app-emulation'
-  name: virtualbox
-  
-  version: ""
-- 
   category: app-emulation
   name: virtualbox-additions
   
   version: ""
+- 
+  category: '!app-emulation'
+  name: virtualbox
+  
+  version: ""
 name: virtualbox-bin
 requires:
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXft
+  
+  version: ""
 - 
   category: x11-libs
   name: libXrender
@@ -23,28 +48,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
-  
-  version: ""
-- 
   category: media-libs
   name: libsdl[X]
   
   version: ""
 - 
   category: x11-libs
-  name: libXi
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
   
   version: ""
 - 
   category: x11-libs
   name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libICE
   
   version: ""
 - 
@@ -68,48 +103,8 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
   category: dev-libs
   name: expat
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXcursor
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
   
   version: ""
 - 
@@ -119,12 +114,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXt
+  name: libXmu
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
   category: x11-libs
-  name: libXmu
+  name: libXdmcp
   
   version: ""
 - 

@@ -8,8 +8,8 @@ conflicts:
 name: iproute2
 requires:
 - 
-  category: net-dialup
-  name: linux-atm
+  category: sys-libs
+  name: libselinux
   
   version: ""
 - 
@@ -18,18 +18,8 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libmnl
-  
-  version: ""
-- 
   category: sys-libs
   name: libcap
-  
-  version: ""
-- 
-  category: virtual
-  name: libelf
   
   version: ""
 - 
@@ -38,15 +28,25 @@ requires:
   
   version: ""
 - 
+  category: net-dialup
+  name: linux-atm
+  
+  version: ""
+- 
+  category: net-libs
+  name: libmnl
+  
+  version: ""
+- 
+  category: virtual
+  name: libelf
+  
+  version: ""
+- 
   category: net-firewall
   name: iptables
   
   version: 1.4.20
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: ""
 use_flags:
 - atm
 - berkdb

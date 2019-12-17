@@ -3,23 +3,28 @@ conflicts: []
 name: guayadeque
 requires:
 - 
+  category: x11-libs
+  name: wxGTK
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-libnice
+  
+  version: ""
+- 
   category: media-plugins
   name: gst-plugins-pulse
   
   version: ""
 - 
-  category: media-libs
-  name: gst-plugins-ugly
+  category: dev-db
+  name: sqlite
   
   version: ""
 - 
   category: media-libs
   name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  name: libgpod
   
   version: ""
 - 
@@ -33,13 +38,18 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: sqlite
+  category: media-libs
+  name: gst-plugins-bad
   
   version: ""
 - 
   category: media-libs
-  name: flac
+  name: taglib
+  
+  version: 1.6.4
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -48,18 +58,8 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
   category: sys-apps
   name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  name: wxGTK
   
   version: ""
 - 
@@ -67,6 +67,16 @@ requires:
   name: libindicate
   
   version: "0.7"
+- 
+  category: media-libs
+  name: libgpod
+  
+  version: ""
+- 
+  category: media-libs
+  name: gst-plugins-ugly
+  
+  version: ""
 - 
   category: dev-db
   name: wxsqlite3
@@ -79,27 +89,17 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  name: taglib
-  
-  version: 1.6.4
-- 
-  category: media-libs
   name: gnonlin
   
   version: ""
 - 
-  category: media-plugins
-  name: gst-plugins-libnice
+  category: media-libs
+  name: flac
   
   version: ""
 - 
   category: media-libs
-  name: gst-plugins-bad
+  name: gst-plugins-base
   
   version: ""
 use_flags:

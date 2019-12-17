@@ -3,143 +3,23 @@ conflicts: []
 name: collectd
 requires:
 - 
-  category: dev-libs
-  name: libmodbus
-  
-  version: ""
-- 
-  category: net-analyzer
-  name: rrdtool
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-collectd
-  
-  version: ""
-- 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-fs
-  name: xfsprogs
-  
-  version: ""
-- 
   category: sys-cluster
   name: ganglia
   
   version: ""
 - 
-  category: dev-db
-  name: mysql-connector-c
+  category: net-firewall
+  name: iptables
   
-  version: ""
-- 
-  category: sys-power
-  name: nut
-  
-  version: 2.7.2-r2
-- 
-  category: app-emulation
-  name: libvirt
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libltdl
-  
-  version: ""
-- 
-  category: virtual
-  name: udev
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
+  version: 1.4.13
 - 
   category: net-libs
   name: libesmtp
   
   version: ""
 - 
-  category: dev-libs
-  name: librdkafka
-  
-  version: 0.9.0.99
-- 
-  category: dev-libs
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  name: yajl
-  
-  version: ""
-- 
   category: net-libs
-  name: librouteros
-  
-  version: ""
-- 
-  category: dev-libs
-  name: mongo-c-driver
-  
-  version: 1.8.2
-- 
-  category: net-misc
-  name: curl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: openipmi
-  
-  version: 2.0.16-r1
-- 
-  category: net-libs
-  name: libmnl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libnotify
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: net-libs
-  name: libmicrohttpd
-  
-  version: ""
-- 
-  category: app-emulation
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-db
-  name: libdbi
-  
-  version: ""
-- 
-  category: sci-geosciences
-  name: gpsd
-  
-  version: ""
-- 
-  category: dev-lang
-  name: lua
+  name: liboping
   
   version: ""
 - 
@@ -148,8 +28,88 @@ requires:
   
   version: "0.4"
 - 
+  category: dev-libs
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-fs
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmemcached
+  
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
+  
+  version: ""
+- 
   category: net-analyzer
   name: net-snmp
+  
+  version: ""
+- 
+  category: app-emulation
+  name: xen-tools
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-nds
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-db
+  name: postgresql
+  
+  version: ""
+- 
+  category: net-libs
+  name: librouteros
+  
+  version: ""
+- 
+  category: app-emulation
+  name: libvirt
+  
+  version: ""
+- 
+  category: dev-libs
+  name: protobuf-c
+  
+  version: 1.2.1-r1
+- 
+  category: x11-libs
+  name: libnotify
   
   version: ""
 - 
@@ -159,42 +119,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
   name: libatasmart
   
   version: ""
 - 
-  category: dev-lang
-  name: perl
-  
-  version: ""
-- 
   category: net-libs
-  name: rabbitmq-c
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: app-misc
-  name: mosquitto
-  
-  version: ""
-- 
-  category: sys-fs
-  name: owfs
-  
-  version: "3.1"
-- 
-  category: www-servers
-  name: varnish
+  name: libmicrohttpd
   
   version: ""
 - 
@@ -203,18 +133,8 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hiredis
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
+  category: net-libs
+  name: rabbitmq-c
   
   version: ""
 - 
@@ -223,30 +143,110 @@ requires:
   
   version: ""
 - 
-  category: net-firewall
-  name: iptables
-  
-  version: 1.4.13
-- 
-  category: dev-libs
-  name: libmemcached
+  category: app-misc
+  name: mosquitto
   
   version: ""
 - 
-  category: net-nds
-  name: openldap
+  category: net-analyzer
+  name: rrdtool
+  
+  version: ""
+- 
+  category: dev-lang
+  name: perl
+  
+  version: ""
+- 
+  category: sci-geosciences
+  name: gpsd
+  
+  version: ""
+- 
+  category: sys-libs
+  name: openipmi
+  
+  version: 2.0.16-r1
+- 
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
   category: net-libs
-  name: liboping
+  name: libmnl
+  
+  version: ""
+- 
+  category: dev-db
+  name: libdbi
+  
+  version: ""
+- 
+  category: sys-power
+  name: nut
+  
+  version: 2.7.2-r2
+- 
+  category: sys-fs
+  name: owfs
+  
+  version: "3.1"
+- 
+  category: dev-libs
+  name: hiredis
   
   version: ""
 - 
   category: dev-libs
-  name: protobuf-c
+  name: glib
   
-  version: 1.2.1-r1
+  version: ""
+- 
+  category: dev-libs
+  name: mongo-c-driver
+  
+  version: 1.8.2
+- 
+  category: sys-libs
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: virtual
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: yajl
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmodbus
+  
+  version: ""
+- 
+  category: www-servers
+  name: varnish
+  
+  version: ""
+- 
+  category: dev-libs
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: sec-policy
+  name: selinux-collectd
+  
+  version: ""
 use_flags:
 - contrib
 - debug

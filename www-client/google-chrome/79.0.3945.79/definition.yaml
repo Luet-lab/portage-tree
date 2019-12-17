@@ -3,23 +3,8 @@ conflicts: []
 name: google-chrome
 requires:
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
   category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: sec-policy
-  name: selinux-chromium
+  name: pango
   
   version: ""
 - 
@@ -29,27 +14,37 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
   name: libXi
   
   version: ""
 - 
-  category: dev-libs
-  name: atk
+  category: x11-libs
+  name: libXtst
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-chromium
   
   version: ""
 - 
   category: x11-libs
-  name: gdk-pixbuf
+  name: libXfixes
   
   version: ""
 - 
   category: x11-libs
-  name: libXrender
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXext
+  
+  version: ""
+- 
+  category: app-misc
+  name: ca-certificates
   
   version: ""
 - 
@@ -59,32 +54,12 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: libxcb
   
   version: ""
 - 
-  category: sys-apps
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
+  category: dev-libs
+  name: atk
   
   version: ""
 - 
@@ -98,33 +73,13 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: cairo
+  category: dev-libs
+  name: nss
   
-  version: ""
+  version: "3.26"
 - 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: app-accessibility
-  name: at-spi2-atk
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXdamage
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  name: fontconfig
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -134,17 +89,27 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libX11
-  
-  version: 1.5.0
-- 
-  category: x11-libs
-  name: libXcursor
+  name: libXrender
   
   version: ""
 - 
-  category: app-misc
-  name: ca-certificates
+  category: app-accessibility
+  name: at-spi2-atk
+  
+  version: ""
+- 
+  category: media-libs
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: media-libs
+  name: fontconfig
   
   version: ""
 - 
@@ -153,13 +118,48 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: nss
+  category: sys-apps
+  name: dbus
   
-  version: "3.26"
+  version: ""
 - 
   category: x11-libs
-  name: libXtst
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libX11
+  
+  version: 1.5.0
+- 
+  category: x11-libs
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXcursor
+  
+  version: ""
+- 
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXrandr
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 use_flags:

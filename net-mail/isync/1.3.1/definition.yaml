@@ -3,6 +3,16 @@ conflicts: []
 name: isync
 requires:
 - 
+  category: dev-libs
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
   category: sys-libs
   name: db
   
@@ -17,16 +27,6 @@ requires:
   name: openssl
   
   version: 0.9.6
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
-  
-  version: ""
 use_flags:
 - libressl
 - sasl

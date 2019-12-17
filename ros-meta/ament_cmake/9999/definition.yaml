@@ -4,12 +4,22 @@ name: ament_cmake
 requires:
 - 
   category: dev-ros
-  name: ament_cmake_export_include_directories
+  name: ament_cmake_export_link_flags
   
   version: ""
 - 
   category: dev-ros
-  name: ament_cmake_export_interfaces
+  name: ament_cmake_libraries
+  
+  version: ""
+- 
+  category: dev-python
+  name: catkin_pkg
+  
+  version: ""
+- 
+  category: dev-ros
+  name: ament_cmake_export_dependencies
   
   version: ""
 - 
@@ -24,32 +34,7 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: ament_cmake_export_definitions
-  
-  version: ""
-- 
-  category: dev-python
-  name: catkin_pkg
-  
-  version: ""
-- 
-  category: dev-ros
-  name: ament_cmake_core
-  
-  version: ""
-- 
-  category: dev-ros
-  name: ament_cmake_export_dependencies
-  
-  version: ""
-- 
-  category: dev-ros
-  name: ament_cmake_export_link_flags
-  
-  version: ""
-- 
-  category: dev-ros
-  name: ament_cmake_test
+  name: ament_cmake_version
   
   version: ""
 - 
@@ -59,7 +44,12 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: ament_cmake_libraries
+  name: ament_cmake_core
+  
+  version: ""
+- 
+  category: dev-ros
+  name: ament_cmake_export_definitions
   
   version: ""
 - 
@@ -69,7 +59,17 @@ requires:
   version: ""
 - 
   category: dev-ros
-  name: ament_cmake_version
+  name: ament_cmake_test
+  
+  version: ""
+- 
+  category: dev-ros
+  name: ament_cmake_export_include_directories
+  
+  version: ""
+- 
+  category: dev-ros
+  name: ament_cmake_export_interfaces
   
   version: ""
 use_flags:

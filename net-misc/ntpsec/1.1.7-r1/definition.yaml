@@ -2,12 +2,12 @@ category: net-misc
 conflicts:
 - 
   category: net-misc
-  name: ntp
+  name: openntpd
   
   version: ""
 - 
   category: net-misc
-  name: openntpd
+  name: ntp
   
   version: ""
 name: ntpsec
@@ -18,23 +18,13 @@ requires:
   
   version: ""
 - 
-  category: media-fonts
-  name: liberation-fonts
+  category: sci-visualization
+  name: gnuplot
   
   version: ""
 - 
   category: acct-group
   name: ntp
-  
-  version: ""
-- 
-  category: acct-user
-  name: ntp
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libcap
   
   version: ""
 - 
@@ -53,8 +43,18 @@ requires:
   
   version: ""
 - 
-  category: sci-visualization
-  name: gnuplot
+  category: media-fonts
+  name: liberation-fonts
+  
+  version: ""
+- 
+  category: acct-user
+  name: ntp
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
   
   version: ""
 use_flags:

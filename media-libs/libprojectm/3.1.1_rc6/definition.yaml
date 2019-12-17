@@ -4,12 +4,17 @@ name: libprojectm
 requires:
 - 
   category: media-libs
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
   name: mesa[X(+)]
   
   version: ""
 - 
   category: dev-qt
-  name: qtgui
+  name: qtcore
   
   version: ""
 - 
@@ -28,21 +33,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: libsdl2
-  
-  version: 2.0.5
-- 
-  category: media-libs
-  name: mesa
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtcore
-  
-  version: ""
-- 
   category: sys-libs
   name: zlib
   
@@ -52,6 +42,16 @@ requires:
   name: glm
   
   version: ""
+- 
+  category: dev-qt
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2
+  
+  version: 2.0.5
 use_flags:
 - gles2
 - qt5

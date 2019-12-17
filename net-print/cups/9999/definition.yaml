@@ -9,27 +9,7 @@ name: cups
 requires:
 - 
   category: sys-apps
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
-  category: acct-group
-  name: lp
-  
-  version: ""
-- 
-  category: app-text
-  name: libpaper
+  name: systemd
   
   version: ""
 - 
@@ -43,13 +23,13 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  name: selinux-cups
+  category: acct-group
+  name: lp
   
   version: ""
 - 
-  category: sys-libs
-  name: zlib
+  category: sys-apps
+  name: acl
   
   version: ""
 - 
@@ -63,25 +43,45 @@ requires:
   
   version: 2.12.23-r6
 - 
-  category: sys-apps
-  name: systemd
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: sec-policy
+  name: selinux-cups
   
   version: ""
 - 
   category: sys-apps
-  name: acl
+  name: dbus
   
-  version: ""
+  version: 1.6.18-r1
+- 
+  category: virtual
+  name: krb5
+  
+  version: 0-r1
 - 
   category: sys-apps
   name: attr
   
   version: ""
 - 
-  category: virtual
-  name: krb5
+  category: sys-libs
+  name: zlib
   
-  version: 0-r1
+  version: ""
+- 
+  category: net-dns
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: app-text
+  name: libpaper
+  
+  version: ""
 use_flags:
 - acl
 - dbus

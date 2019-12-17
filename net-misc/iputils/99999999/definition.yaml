@@ -1,13 +1,13 @@
 category: net-misc
 conflicts:
 - 
-  category: net-misc
-  name: rarpd
+  category: net-analyzer
+  name: traceroute
   
   version: ""
 - 
-  category: net-analyzer
-  name: traceroute
+  category: net-misc
+  name: rarpd
   
   version: ""
 - 
@@ -19,22 +19,22 @@ name: iputils
 requires:
 - 
   category: dev-libs
-  name: libressl
+  name: nettle
   
   version: ""
 - 
   category: dev-libs
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-devel
+  name: gettext
   
   version: ""
 - 
   category: sys-libs
   name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgcrypt
   
   version: ""
 - 
@@ -44,12 +44,12 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: nettle
+  name: libgcrypt
   
   version: ""
 - 
-  category: sys-devel
-  name: gettext
+  category: dev-libs
+  name: openssl
   
   version: ""
 use_flags:

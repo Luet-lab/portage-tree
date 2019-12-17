@@ -3,18 +3,23 @@ conflicts: []
 name: pithos
 requires:
 - 
-  category: media-plugins
-  name: gst-plugins-meta
+  category: dev-python
+  name: pygobject
   
-  version: ""
-- 
-  category: x11-themes
-  name: gnome-icon-theme-symbolic
-  
-  version: ""
+  version: "3.12"
 - 
   category: dev-libs
-  name: libappindicator
+  name: appstream-glib
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-plugins
+  name: gst-plugins-meta
   
   version: ""
 - 
@@ -28,28 +33,8 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: pygobject
-  
-  version: "3.12"
-- 
-  category: dev-libs
-  name: appstream-glib
-  
-  version: ""
-- 
   category: media-libs
   name: gstreamer
-  
-  version: ""
-- 
-  category: dev-python
-  name: dbus-python
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango
   
   version: ""
 - 
@@ -58,8 +43,23 @@ requires:
   
   version: "3.14"
 - 
+  category: x11-themes
+  name: gnome-icon-theme-symbolic
+  
+  version: ""
+- 
   category: x11-libs
   name: libnotify
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libappindicator
+  
+  version: ""
+- 
+  category: dev-python
+  name: dbus-python
   
   version: ""
 use_flags:

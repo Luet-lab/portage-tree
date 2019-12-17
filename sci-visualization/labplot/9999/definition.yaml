@@ -3,8 +3,13 @@ conflicts: []
 name: labplot
 requires:
 - 
+  category: dev-qt
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: kcompletion
+  name: kxmlgui
   
   version: 5.60.0
 - 
@@ -13,20 +18,15 @@ requires:
   
   version: "1.15"
 - 
+  category: sci-libs
+  name: netcdf
+  
+  version: ""
+- 
   category: kde-frameworks
-  name: kparts
+  name: karchive
   
   version: 5.60.0
-- 
-  category: sci-libs
-  name: cfitsio
-  
-  version: ""
-- 
-  category: sci-libs
-  name: libcerf
-  
-  version: ""
 - 
   category: kde-frameworks
   name: kconfig
@@ -34,32 +34,42 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: knewstuff
+  name: kiconthemes
   
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: kxmlgui
+  name: kparts
   
   version: 5.60.0
-- 
-  category: kde-frameworks
-  name: syntax-highlighting
-  
-  version: 5.60.0
-- 
-  category: sci-libs
-  name: netcdf
-  
-  version: ""
 - 
   category: dev-qt
   name: qtconcurrent
   
   version: 5.12.3
 - 
+  category: dev-qt
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtserialport
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtsql
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
-  name: kio
+  name: kcoreaddons
   
   version: 5.60.0
 - 
@@ -74,34 +84,29 @@ requires:
   version: ""
 - 
   category: kde-frameworks
-  name: kconfigwidgets
+  name: kio
   
   version: 5.60.0
+- 
+  category: sci-libs
+  name: cfitsio
+  
+  version: ""
 - 
   category: sys-libs
   name: zlib
   
   version: ""
 - 
-  category: dev-qt
-  name: qtgui
+  category: kde-frameworks
+  name: kcompletion
   
-  version: 5.12.3
+  version: 5.60.0
 - 
-  category: dev-qt
-  name: qtnetwork
+  category: kde-frameworks
+  name: kconfigwidgets
   
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  name: qtsql
-  
-  version: 5.12.3
+  version: 5.60.0
 - 
   category: kde-frameworks
   name: ki18n
@@ -109,47 +114,7 @@ requires:
   version: 5.60.0
 - 
   category: kde-frameworks
-  name: ktextwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  name: cantor
-  
-  version: 19.08.0
-- 
-  category: kde-frameworks
-  name: kservice
-  
-  version: 5.60.0
-- 
-  category: sci-libs
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: kcoreaddons
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  name: qtserialport
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  name: kiconthemes
+  name: knewstuff
   
   version: 5.60.0
 - 
@@ -158,15 +123,50 @@ requires:
   
   version: 5.60.0
 - 
-  category: dev-qt
-  name: qtwidgets
+  category: kde-frameworks
+  name: syntax-highlighting
   
-  version: 5.12.3
+  version: 5.60.0
+- 
+  category: kde-apps
+  name: cantor
+  
+  version: 19.08.0
 - 
   category: sci-libs
   name: hdf5
   
   version: ""
+- 
+  category: sci-libs
+  name: libcerf
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtprintsupport
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  name: qtsvg
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  name: ktextwidgets
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  name: kservice
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  name: qtnetwork
+  
+  version: 5.12.3
 use_flags:
 - cantor
 - fftw

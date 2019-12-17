@@ -2,39 +2,44 @@ category: media-gfx
 conflicts:
 - 
   category: app-office
-  name: calligra-l10n
+  name: calligra
   
   version: ""
 - 
   category: app-office
-  name: calligra
+  name: calligra-l10n
   
   version: ""
 name: krita
 requires:
 - 
   category: media-libs
+  name: giflib
+  
+  version: ""
+- 
+  category: sci-libs
+  name: gsl
+  
+  version: ""
+- 
+  category: app-text
+  name: poppler
+  
+  version: ""
+- 
+  category: media-libs
+  name: libraw
+  
+  version: ""
+- 
+  category: media-libs
   name: tiff
-  
-  version: ""
-- 
-  category: dev-python
-  name: PyQt5
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
   
   version: ""
 - 
   category: x11-libs
   name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
   
   version: ""
 - 
@@ -44,7 +49,57 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libraw
+  name: libheif
+  
+  version: ""
+- 
+  category: media-libs
+  name: openexr
+  
+  version: ""
+- 
+  category: sci-libs
+  name: fftw
+  
+  version: ""
+- 
+  category: media-libs
+  name: ilmbase
+  
+  version: ""
+- 
+  category: dev-libs
+  name: quazip
+  
+  version: ""
+- 
+  category: dev-python
+  name: PyQt5
+  
+  version: ""
+- 
+  category: media-gfx
+  name: exiv2
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXi
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: virtual
+  name: jpeg
   
   version: ""
 - 
@@ -65,61 +120,6 @@ requires:
 - 
   category: media-libs
   name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  name: giflib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: quazip
-  
-  version: ""
-- 
-  category: media-gfx
-  name: exiv2
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: sci-libs
-  name: fftw
-  
-  version: ""
-- 
-  category: sci-libs
-  name: gsl
-  
-  version: ""
-- 
-  category: virtual
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  name: libheif
-  
-  version: ""
-- 
-  category: media-libs
-  name: ilmbase
-  
-  version: ""
-- 
-  category: media-libs
-  name: openexr
-  
-  version: ""
-- 
-  category: app-text
-  name: poppler
   
   version: ""
 use_flags:

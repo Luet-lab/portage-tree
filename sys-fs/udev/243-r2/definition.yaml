@@ -1,20 +1,10 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-libs
-  name: glibc
-  
-  version: "2.11"
-- 
   category: sys-apps
   name: gentoo-systemd-integration
   
   version: ""
-- 
-  category: <sec-policy
-  name: selinux-base
-  
-  version: 2.20120725-r10
 - 
   category: sys-apps
   name: systemd
@@ -25,8 +15,28 @@ conflicts:
   name: lvm2
   
   version: 2.02.103
+- 
+  category: <sec-policy
+  name: selinux-base
+  
+  version: 2.20120725-r10
+- 
+  category: <sys-libs
+  name: glibc
+  
+  version: "2.11"
 name: udev
 requires:
+- 
+  category: acct-group
+  name: tape
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: "2.30"
 - 
   category: sys-apps
   name: acl
@@ -43,23 +53,8 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  name: disk
-  
-  version: ""
-- 
-  category: acct-group
-  name: kvm
-  
-  version: ""
-- 
-  category: acct-group
-  name: tty
+  category: sys-libs
+  name: libcap
   
   version: ""
 - 
@@ -69,7 +64,12 @@ requires:
   version: ""
 - 
   category: acct-group
-  name: tape
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  name: render
   
   version: ""
 - 
@@ -78,15 +78,25 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: acct-group
+  name: tty
   
   version: ""
 - 
-  category: sys-libs
-  name: libselinux
+  category: acct-group
+  name: audio
   
-  version: 2.1.9
+  version: ""
+- 
+  category: acct-group
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  name: disk
+  
+  version: ""
 - 
   category: acct-group
   name: input
@@ -98,20 +108,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  name: util-linux
+  category: sys-libs
+  name: libselinux
   
-  version: "2.30"
-- 
-  category: acct-group
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  name: render
-  
-  version: ""
+  version: 2.1.9
 use_flags:
 - acl
 - +kmod

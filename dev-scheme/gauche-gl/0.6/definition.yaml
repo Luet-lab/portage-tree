@@ -3,6 +3,16 @@ conflicts: []
 name: gauche-gl
 requires:
 - 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXmu
+  
+  version: ""
+- 
   category: media-gfx
   name: nvidia-cg-toolkit
   
@@ -15,16 +25,6 @@ requires:
 - 
   category: media-libs
   name: freeglut
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXmu
   
   version: ""
 use_flags:

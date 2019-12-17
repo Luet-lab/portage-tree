@@ -3,6 +3,11 @@ conflicts: []
 name: loudmouth
 requires:
 - 
+  category: dev-libs
+  name: glib
+  
+  version: "2.16"
+- 
   category: net-dns
   name: libidn
   
@@ -22,11 +27,6 @@ requires:
   name: libasyncns
   
   version: "0.3"
-- 
-  category: dev-libs
-  name: glib
-  
-  version: "2.16"
 use_flags:
 - asyncns
 - ssl

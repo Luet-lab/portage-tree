@@ -3,20 +3,35 @@ conflicts: []
 name: openbox
 requires:
 - 
+  category: dev-libs
+  name: libxml2
+  
+  version: "2.0"
+- 
   category: x11-libs
-  name: libXau
+  name: cairo
+  
+  version: ""
+- 
+  category: dev-python
+  name: pyxdg
   
   version: ""
 - 
   category: x11-libs
-  name: libXt
+  name: libXft
   
   version: ""
 - 
   category: x11-libs
-  name: startup-notification
+  name: libXrandr
   
-  version: "0.8"
+  version: ""
+- 
+  category: media-libs
+  name: imlib2
+  
+  version: ""
 - 
   category: gnome-base
   name: librsvg
@@ -28,23 +43,33 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXrandr
-  
-  version: ""
-- 
   category: media-libs
   name: fontconfig
   
   version: "2"
 - 
   category: x11-libs
-  name: cairo
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango-1.8[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  name: startup-notification
+  
+  version: "0.8"
+- 
+  category: x11-libs
+  name: libXau
   
   version: ""
 - 
@@ -54,32 +79,7 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pango-1.8[X]
-  
-  version: ""
-- 
-  category: media-libs
-  name: imlib2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: "2.0"
-- 
-  category: x11-libs
-  name: libXft
-  
-  version: ""
-- 
-  category: dev-python
-  name: pyxdg
+  name: libXext
   
   version: ""
 use_flags:

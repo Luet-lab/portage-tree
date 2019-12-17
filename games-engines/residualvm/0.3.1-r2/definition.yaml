@@ -3,8 +3,23 @@ conflicts: []
 name: residualvm
 requires:
 - 
-  category: sys-libs
-  name: zlib
+  category: media-libs
+  name: libmad
+  
+  version: ""
+- 
+  category: media-libs
+  name: libmpeg2
+  
+  version: ""
+- 
+  category: virtual
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  name: libvorbis
   
   version: ""
 - 
@@ -15,31 +30,6 @@ requires:
 - 
   category: virtual
   name: glu
-  
-  version: ""
-- 
-  category: virtual
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  name: libsdl2[X,sound,alsa,joystick,opengl,video]
   
   version: ""
 - 
@@ -54,12 +44,22 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: libmad
+  name: libpng
   
   version: ""
 - 
   category: media-libs
-  name: libmpeg2
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsdl2[X,sound,alsa,joystick,opengl,video]
   
   version: ""
 use_flags:

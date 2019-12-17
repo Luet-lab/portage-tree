@@ -3,6 +3,16 @@ conflicts: []
 name: mate-polkit
 requires:
 - 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: gtk+
+  
+  version: 3.14.0
+- 
   category: dev-libs
   name: libappindicator
   
@@ -27,16 +37,6 @@ requires:
   name: gdk-pixbuf
   
   version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: 3.14.0
 use_flags:
 - accountsservice
 - appindicator

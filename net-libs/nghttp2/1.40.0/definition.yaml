@@ -3,15 +3,15 @@ conflicts: []
 name: nghttp2
 requires:
 - 
-  category: dev-libs
-  name: boost
+  category: net-dns
+  name: c-ares
   
   version: ""
 - 
   category: dev-libs
-  name: libxml2
+  name: boost
   
-  version: 2.7.7
+  version: ""
 - 
   category: dev-libs
   name: jansson
@@ -28,16 +28,6 @@ requires:
   
   version: "4.15"
 - 
-  category: sys-libs
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: net-dns
-  name: c-ares
-  
-  version: ""
-- 
   category: dev-libs
   name: openssl
   
@@ -47,6 +37,16 @@ requires:
   name: libressl
   
   version: ""
+- 
+  category: sys-libs
+  name: zlib
+  
+  version: 1.2.3
+- 
+  category: dev-libs
+  name: libxml2
+  
+  version: 2.7.7
 use_flags:
 - cxx
 - debug

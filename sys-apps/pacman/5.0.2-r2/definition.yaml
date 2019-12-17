@@ -3,6 +3,21 @@ conflicts: []
 name: pacman
 requires:
 - 
+  category: virtual
+  name: libintl
+  
+  version: ""
+- 
+  category: app-arch
+  name: libarchive
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gpgme
+  
+  version: 1.4.0
+- 
   category: net-misc
   name: curl
   
@@ -22,21 +37,6 @@ requires:
   name: libiconv
   
   version: ""
-- 
-  category: virtual
-  name: libintl
-  
-  version: ""
-- 
-  category: app-arch
-  name: libarchive
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: 1.4.0
 use_flags:
 - curl
 - debug

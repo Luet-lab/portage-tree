@@ -3,40 +3,15 @@ conflicts: []
 name: wlroots
 requires:
 - 
-  category: x11-libs
-  name: libdrm
-  
-  version: ""
-- 
-  category: sys-auth
-  name: elogind
+  category: sys-apps
+  name: systemd
   
   version: "237"
 - 
   category: x11-libs
-  name: xcb-util-wm
+  name: xcb-util-image
   
   version: ""
-- 
-  category: x11-libs
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libxcb
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libinput
-  
-  version: 1.9.0
 - 
   category: media-libs
   name: mesa
@@ -44,14 +19,24 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: xcb-util-image
+  name: libdrm
   
   version: ""
 - 
-  category: media-video
-  name: ffmpeg
+  category: x11-libs
+  name: xcb-util-wm
   
   version: ""
+- 
+  category: net-misc
+  name: freerdp
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libinput
+  
+  version: 1.9.0
 - 
   category: dev-libs
   name: wayland
@@ -63,18 +48,33 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  name: freerdp
+  category: x11-libs
+  name: libxkbcommon
   
   version: ""
 - 
-  category: sys-apps
-  name: systemd
+  category: sys-auth
+  name: elogind
   
   version: "237"
 - 
   category: x11-base
   name: xorg-server
+  
+  version: ""
+- 
+  category: media-video
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pixman
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libxcb
   
   version: ""
 use_flags:

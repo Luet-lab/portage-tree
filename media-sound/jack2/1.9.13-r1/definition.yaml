@@ -8,18 +8,23 @@ conflicts:
 name: jack2
 requires:
 - 
+  category: sys-libs
+  name: readline
+  
+  version: ""
+- 
+  category: dev-libs
+  name: expat
+  
+  version: ""
+- 
   category: media-libs
   name: libffado
   
   version: ""
 - 
-  category: media-libs
-  name: opus
-  
-  version: ""
-- 
-  category: sys-auth
-  name: realtime-base
+  category: dev-python
+  name: dbus-python
   
   version: ""
 - 
@@ -28,8 +33,13 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: expat
+  category: media-libs
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  name: alsa-lib
   
   version: ""
 - 
@@ -43,23 +53,13 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  name: dbus-python
-  
-  version: ""
-- 
   category: media-libs
-  name: libsndfile
+  name: opus
   
   version: ""
 - 
-  category: sys-libs
-  name: readline
-  
-  version: ""
-- 
-  category: media-libs
-  name: alsa-lib
+  category: sys-auth
+  name: realtime-base
   
   version: ""
 use_flags:

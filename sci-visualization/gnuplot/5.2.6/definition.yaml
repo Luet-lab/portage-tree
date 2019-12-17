@@ -3,13 +3,13 @@ conflicts: []
 name: gnuplot
 requires:
 - 
-  category: dev-tex
-  name: pgf
+  category: dev-lang
+  name: lua
   
   version: ""
 - 
   category: dev-qt
-  name: qtcore
+  name: qtgui
   
   version: ""
 - 
@@ -24,32 +24,17 @@ requires:
   version: ""
 - 
   category: x11-libs
-  name: libXaw
+  name: wxGTK
   
   version: ""
 - 
   category: x11-libs
-  name: pango
+  name: cairo
   
   version: ""
 - 
-  category: media-libs
-  name: gd
-  
-  version: 2.0.35-r3
-- 
-  category: dev-qt
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtsvg
-  
-  version: ""
-- 
-  category: media-libs
-  name: libggi
+  category: virtual
+  name: latex-base
   
   version: ""
 - 
@@ -64,32 +49,12 @@ requires:
   version: ""
 - 
   category: dev-qt
+  name: qtsvg
+  
+  version: ""
+- 
+  category: dev-qt
   name: qtwidgets
-  
-  version: ""
-- 
-  category: x11-libs
-  name: wxGTK
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  name: cairo
-  
-  version: ""
-- 
-  category: virtual
-  name: latex-base
-  
-  version: ""
-- 
-  category: sys-libs
-  name: readline
   
   version: ""
 - 
@@ -98,13 +63,48 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  name: gtk+
+  
+  version: ""
+- 
+  category: media-libs
+  name: libggi
+  
+  version: ""
+- 
+  category: dev-tex
+  name: pgf
+  
+  version: ""
+- 
   category: media-libs
   name: libcaca
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
+  category: sys-libs
+  name: readline
+  
+  version: ""
+- 
+  category: x11-libs
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  name: gd
+  
+  version: 2.0.35-r3
+- 
+  category: dev-qt
+  name: qtcore
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libXaw
   
   version: ""
 use_flags:

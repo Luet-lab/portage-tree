@@ -3,16 +3,6 @@ conflicts: []
 name: pambase
 requires:
 - 
-  category: sys-auth
-  name: pam_ssh
-  
-  version: ""
-- 
-  category: sys-auth
-  name: pam_passwdqc
-  
-  version: ""
-- 
   category: sys-libs
   name: pam
   
@@ -24,17 +14,17 @@ requires:
   version: ""
 - 
   category: sys-auth
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-auth
-  name: pam_mktemp
+  name: pam_ssh
   
   version: ""
 - 
   category: sys-libs
   name: libcap
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pam_passwdqc
   
   version: ""
 - 
@@ -50,6 +40,16 @@ requires:
 - 
   category: sys-libs
   name: pam
+  
+  version: ""
+- 
+  category: sys-auth
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-auth
+  name: pam_mktemp
   
   version: ""
 use_flags:

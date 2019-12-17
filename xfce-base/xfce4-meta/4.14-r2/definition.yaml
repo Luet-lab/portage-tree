@@ -4,14 +4,14 @@ name: xfce4-meta
 requires:
 - 
   category: xfce-base
-  name: xfce4-panel
+  name: xfce4-appfinder
   
   version: 4.14.0
 - 
   category: xfce-base
-  name: xfwm4
+  name: xfconf
   
-  version: 4.14.0
+  version: 4.14.1
 - 
   category: virtual
   name: freedesktop-icon-theme
@@ -29,6 +29,11 @@ requires:
   version: 4.14.0
 - 
   category: xfce-base
+  name: thunar
+  
+  version: 1.8.9
+- 
+  category: xfce-base
   name: xfdesktop
   
   version: 4.14.1
@@ -38,10 +43,10 @@ requires:
   
   version: 0.9.5
 - 
-  category: media-fonts
-  name: dejavu
+  category: xfce-extra
+  name: xfce4-power-manager
   
-  version: ""
+  version: 1.6.5
 - 
   category: x11-themes
   name: hicolor-icon-theme
@@ -49,24 +54,9 @@ requires:
   version: ""
 - 
   category: xfce-base
-  name: xfconf
+  name: exo
   
-  version: 4.14.1
-- 
-  category: xfce-base
-  name: xfce4-settings
-  
-  version: 4.14.0
-- 
-  category: xfce-extra
-  name: tumbler
-  
-  version: 0.2.7
-- 
-  category: gnome-base
-  name: librsvg
-  
-  version: ""
+  version: 0.12.8
 - 
   category: xfce-base
   name: garcon
@@ -78,30 +68,40 @@ requires:
   
   version: 4.14.0
 - 
-  category: xfce-base
-  name: xfce4-appfinder
-  
-  version: 4.14.0
-- 
   category: x11-terms
   name: xfce4-terminal
   
   version: ""
 - 
+  category: media-fonts
+  name: dejavu
+  
+  version: ""
+- 
+  category: gnome-base
+  name: librsvg
+  
+  version: ""
+- 
+  category: xfce-base
+  name: xfce4-panel
+  
+  version: 4.14.0
+- 
+  category: xfce-base
+  name: xfce4-settings
+  
+  version: 4.14.0
+- 
+  category: xfce-base
+  name: xfwm4
+  
+  version: 4.14.0
+- 
   category: xfce-extra
-  name: xfce4-power-manager
+  name: tumbler
   
-  version: 1.6.5
-- 
-  category: xfce-base
-  name: exo
-  
-  version: 0.12.8
-- 
-  category: xfce-base
-  name: thunar
-  
-  version: 1.8.9
+  version: 0.2.7
 use_flags:
 - minimal
 - +svg

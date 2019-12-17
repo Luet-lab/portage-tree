@@ -8,38 +8,13 @@ conflicts:
 name: cups
 requires:
 - 
-  category: acct-group
-  name: lp
-  
-  version: ""
-- 
-  category: net-libs
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
-  category: sys-apps
-  name: systemd
-  
-  version: ""
-- 
-  category: x11-misc
-  name: xdg-utils
-  
-  version: ""
-- 
   category: sys-libs
-  name: pam
+  name: zlib
   
   version: ""
 - 
   category: sys-apps
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: sys-apps
-  name: xinetd
+  name: acl
   
   version: ""
 - 
@@ -48,13 +23,23 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: krb5
+  
+  version: 0-r1
+- 
   category: sys-libs
-  name: zlib
+  name: pam
   
   version: ""
 - 
   category: sys-apps
-  name: acl
+  name: xinetd
+  
+  version: ""
+- 
+  category: sys-apps
+  name: attr
   
   version: ""
 - 
@@ -68,20 +53,35 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
   category: sys-apps
-  name: attr
+  name: systemd
   
   version: ""
-- 
-  category: virtual
-  name: krb5
-  
-  version: 0-r1
 - 
   category: virtual
   name: libusb
   
   version: ""
+- 
+  category: x11-misc
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: acct-group
+  name: lp
+  
+  version: ""
+- 
+  category: sys-apps
+  name: dbus
+  
+  version: 1.6.18-r1
 use_flags:
 - acl
 - dbus

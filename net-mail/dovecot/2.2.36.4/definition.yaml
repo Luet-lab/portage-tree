@@ -8,23 +8,18 @@ conflicts:
 name: dovecot
 requires:
 - 
-  category: dev-db
-  name: mysql-connector-c
+  category: net-nds
+  name: openldap
   
   version: ""
 - 
-  category: sys-apps
-  name: tcp-wrappers
+  category: app-arch
+  name: lz4
   
   version: ""
 - 
-  category: app-text
-  name: libexttextcat
-  
-  version: ""
-- 
-  category: net-mail
-  name: mailbase
+  category: dev-libs
+  name: libressl
   
   version: ""
 - 
@@ -33,8 +28,8 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  name: libcap
+  category: virtual
+  name: libiconv
   
   version: ""
 - 
@@ -43,13 +38,8 @@ requires:
   
   version: "2.3"
 - 
-  category: app-arch
-  name: lz4
-  
-  version: ""
-- 
-  category: sys-libs
-  name: pam
+  category: dev-db
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -59,17 +49,22 @@ requires:
   version: ""
 - 
   category: dev-libs
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
   name: openssl
   
   version: ""
 - 
-  category: net-mail
-  name: vpopmail
+  category: app-text
+  name: libexttextcat
   
   version: ""
 - 
-  category: virtual
-  name: libiconv
+  category: sys-libs
+  name: zlib
   
   version: ""
 - 
@@ -88,6 +83,26 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  name: pam
+  
+  version: ""
+- 
+  category: net-mail
+  name: vpopmail
+  
+  version: ""
+- 
+  category: net-mail
+  name: mailbase
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libcap
+  
+  version: ""
+- 
   category: sec-policy
   name: selinux-dovecot
   
@@ -98,23 +113,8 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: net-nds
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  name: expat
-  
-  version: ""
-- 
-  category: sys-libs
-  name: zlib
+  category: sys-apps
+  name: tcp-wrappers
   
   version: ""
 use_flags:

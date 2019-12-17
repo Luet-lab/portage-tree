@@ -3,6 +3,16 @@ conflicts: []
 name: diradm
 requires:
 - 
+  category: net-fs
+  name: samba
+  
+  version: 3.0.6
+- 
+  category: sys-apps
+  name: coreutils
+  
+  version: ""
+- 
   category: sys-apps
   name: grep
   
@@ -13,15 +23,15 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
   category: dev-perl
   name: Crypt-SmbHash
   
   version: ""
-- 
-  category: net-fs
-  name: samba
-  
-  version: 3.0.6
 - 
   category: net-nds
   name: openldap
@@ -29,7 +39,7 @@ requires:
   version: "2.3"
 - 
   category: sys-apps
-  name: coreutils
+  name: gawk
   
   version: ""
 - 
@@ -40,16 +50,6 @@ requires:
 - 
   category: sys-apps
   name: sed
-  
-  version: ""
-- 
-  category: virtual
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: sys-apps
-  name: gawk
   
   version: ""
 use_flags:

@@ -4,6 +4,46 @@ name: mumble
 requires:
 - 
   category: dev-qt
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtxml
+  
+  version: ""
+- 
+  category: media-libs
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: media-libs
+  name: speexdsp
+  
+  version: ""
+- 
+  category: dev-qt
+  name: qtdbus
+  
+  version: ""
+- 
+  category: media-sound
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: app-accessibility
+  name: speech-dispatcher
+  
+  version: 0.8.0
+- 
+  category: net-dns
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-qt
   name: qtcore
   
   version: ""
@@ -18,33 +58,8 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  name: speex
-  
-  version: 1.2.0
-- 
-  category: media-libs
-  name: opus
-  
-  version: 1.0.1
-- 
-  category: media-sound
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: app-accessibility
-  name: speech-dispatcher
-  
-  version: 0.8.0
-- 
-  category: dev-qt
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-qt
-  name: qtwidgets
+  category: x11-libs
+  name: libXi
   
   version: ""
 - 
@@ -54,62 +69,42 @@ requires:
   version: ""
 - 
   category: media-libs
-  name: portaudio
+  name: opus
   
-  version: ""
-- 
-  category: dev-qt
-  name: qtnetwork
-  
-  version: ""
+  version: 1.0.1
 - 
   category: dev-libs
   name: protobuf
   
   version: 2.2.0
 - 
-  category: media-libs
-  name: speexdsp
-  
-  version: ""
-- 
   category: sys-apps
   name: lsb-release
   
   version: ""
 - 
+  category: dev-libs
+  name: openssl
+  
+  version: 1.0.0b
+- 
   category: dev-qt
-  name: qtdbus
-  
-  version: ""
-- 
-  category: app-misc
-  name: g15daemon
-  
-  version: ""
-- 
-  category: net-dns
-  name: avahi
+  name: qtnetwork
   
   version: ""
 - 
   category: dev-qt
-  name: qtxml
+  name: qtwidgets
   
   version: ""
 - 
   category: media-libs
-  name: libsndfile
+  name: speex
   
-  version: 1.0.20
+  version: 1.2.0
 - 
   category: x11-libs
   name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libXi
   
   version: ""
 - 
@@ -118,15 +113,20 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  name: g15daemon
+  
+  version: ""
+- 
   category: virtual
   name: jack
   
   version: ""
 - 
-  category: dev-libs
-  name: openssl
+  category: media-libs
+  name: portaudio
   
-  version: 1.0.0b
+  version: ""
 use_flags:
 - +alsa
 - +dbus

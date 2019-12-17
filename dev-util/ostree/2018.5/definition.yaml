@@ -3,8 +3,18 @@ conflicts: []
 name: ostree
 requires:
 - 
-  category: sys-apps
-  name: util-linux
+  category: dev-libs
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: net-misc
+  name: curl
   
   version: ""
 - 
@@ -18,58 +28,13 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  name: libarchive
-  
-  version: ""
-- 
-  category: app-crypt
-  name: gpgme
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgpg-error
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libselinux
-  
-  version: ""
-- 
-  category: app-arch
-  name: xz-utils
-  
-  version: ""
-- 
-  category: net-libs
-  name: libsoup
-  
-  version: ""
-- 
   category: net-dns
   name: avahi
   
   version: ""
 - 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libassuan
-  
-  version: ""
-- 
-  category: net-misc
-  name: curl
+  category: app-arch
+  name: libarchive
   
   version: ""
 - 
@@ -80,6 +45,41 @@ requires:
 - 
   category: sys-libs
   name: zlib
+  
+  version: ""
+- 
+  category: app-arch
+  name: xz-utils
+  
+  version: ""
+- 
+  category: app-crypt
+  name: gpgme
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libassuan
+  
+  version: ""
+- 
+  category: dev-libs
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  name: libselinux
+  
+  version: ""
+- 
+  category: net-libs
+  name: libsoup
   
   version: ""
 use_flags:

@@ -8,33 +8,8 @@ conflicts:
 name: collectd
 requires:
 - 
-  category: dev-libs
-  name: libltdl
-  
-  version: ""
-- 
-  category: app-emulation
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-libs
-  name: protobuf-c
-  
-  version: 1.2.1-r1
-- 
-  category: virtual
-  name: logger
-  
-  version: ""
-- 
-  category: sys-fs
-  name: lvm2
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libmodbus
+  category: net-libs
+  name: libesmtp
   
   version: ""
 - 
@@ -43,58 +18,23 @@ requires:
   
   version: ""
 - 
-  category: www-servers
-  name: varnish
-  
-  version: ""
-- 
-  category: dev-libs
-  name: mongo-c-driver
-  
-  version: 1.8.2
-- 
-  category: net-firewall
-  name: iptables
-  
-  version: 1.4.13
-- 
-  category: sys-power
-  name: nut
-  
-  version: 2.7.2-r2
-- 
-  category: net-libs
-  name: librouteros
-  
-  version: ""
-- 
   category: dev-libs
   name: glib
   
   version: ""
 - 
-  category: virtual
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-apps
-  name: lm-sensors
+  category: app-emulation
+  name: libvirt
   
   version: ""
 - 
-  category: net-analyzer
-  name: net-snmp
+  category: app-emulation
+  name: xen-tools
   
   version: ""
 - 
-  category: net-misc
-  name: tokyotyrant
-  
-  version: ""
-- 
-  category: sys-fs
-  name: xfsprogs
+  category: sys-libs
+  name: libstatgrab
   
   version: ""
 - 
@@ -108,68 +48,33 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  name: lua
+  category: sci-libs
+  name: libsigrok
+  
+  version: "0.4"
+- 
+  category: dev-libs
+  name: libatasmart
   
   version: ""
 - 
-  category: x11-libs
-  name: libnotify
+  category: net-misc
+  name: tokyotyrant
   
   version: ""
 - 
   category: dev-libs
-  name: librdkafka
+  name: libltdl
   
-  version: 0.9.0.99
+  version: ""
+- 
+  category: sys-apps
+  name: lm-sensors
+  
+  version: ""
 - 
   category: sec-policy
   name: selinux-collectd
-  
-  version: ""
-- 
-  category: dev-db
-  name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: dev-libs
-  name: hiredis
-  
-  version: ""
-- 
-  category: virtual
-  name: udev
-  
-  version: ""
-- 
-  category: net-libs
-  name: rabbitmq-c
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-db
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-libs
-  name: libesmtp
-  
-  version: ""
-- 
-  category: sys-libs
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libgcrypt
   
   version: ""
 - 
@@ -178,8 +83,23 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  name: libpcap
+  category: net-analyzer
+  name: net-snmp
+  
+  version: ""
+- 
+  category: dev-lang
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmemcached
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libmodbus
   
   version: ""
 - 
@@ -189,32 +109,22 @@ requires:
   version: ""
 - 
   category: dev-libs
-  name: libatasmart
-  
-  version: ""
-- 
-  category: app-emulation
-  name: libvirt
-  
-  version: ""
-- 
-  category: sys-cluster
-  name: ganglia
-  
-  version: ""
-- 
-  category: sys-libs
-  name: openipmi
-  
-  version: 2.0.16-r1
-- 
-  category: dev-libs
-  name: libmemcached
+  name: hiredis
   
   version: ""
 - 
   category: net-libs
-  name: libmnl
+  name: librouteros
+  
+  version: ""
+- 
+  category: dev-libs
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-db
+  name: libdbi
   
   version: ""
 - 
@@ -223,10 +133,25 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  name: libsigrok
+  category: net-libs
+  name: rabbitmq-c
   
-  version: "0.4"
+  version: ""
+- 
+  category: sys-power
+  name: nut
+  
+  version: 2.7.2-r2
+- 
+  category: dev-libs
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: dev-libs
+  name: protobuf-c
+  
+  version: 1.2.1-r1
 - 
   category: net-libs
   name: libmicrohttpd
@@ -238,8 +163,23 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  name: mongo-c-driver
+  
+  version: 1.8.2
+- 
+  category: sys-cluster
+  name: ganglia
+  
+  version: ""
+- 
   category: dev-db
-  name: libdbi
+  name: oracle-instantclient-basic
   
   version: ""
 - 
@@ -248,13 +188,73 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  name: liboping
+  
+  version: ""
+- 
+  category: virtual
+  name: jre
+  
+  version: "1.6"
+- 
+  category: sys-fs
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-libs
+  name: openipmi
+  
+  version: 2.0.16-r1
+- 
+  category: net-firewall
+  name: iptables
+  
+  version: 1.4.13
+- 
+  category: dev-db
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-libs
+  name: libmnl
+  
+  version: ""
+- 
+  category: x11-libs
+  name: libnotify
+  
+  version: ""
+- 
   category: sys-fs
   name: owfs
   
   version: "3.1"
 - 
+  category: dev-libs
+  name: libxml2
+  
+  version: ""
+- 
   category: net-libs
-  name: liboping
+  name: libpcap
+  
+  version: ""
+- 
+  category: www-servers
+  name: varnish
+  
+  version: ""
+- 
+  category: virtual
+  name: logger
   
   version: ""
 use_flags:

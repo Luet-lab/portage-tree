@@ -3,13 +3,28 @@ conflicts: []
 name: mta
 requires:
 - 
+  category: "|| (\tmail-mta"
+mailer
+  
+  version: ""
+- 
   category: mail-mta
-  name: esmtp
+  name: msmtp
   
   version: ""
 - 
   category: mail-mta
   name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  name: postfix
   
   version: ""
 - 
@@ -20,16 +35,6 @@ requires:
 - 
   category: mail-mta
   name: opensmtpd )
-  
-  version: ""
-- 
-  category: "|| (\tmail-mta"
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  name: msmtp
   
   version: ""
 - 
@@ -44,12 +49,7 @@ mailer
   version: ""
 - 
   category: mail-mta
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  name: postfix
+  name: esmtp
   
   version: ""
 version: 1-r1
