@@ -1,87 +1,123 @@
 category: app-admin
 conflicts: []
+description: Single process stack of various system monitors
+license: GPL-3
 name: gkrellm
 requires:
 - 
-  category: acct-group
+  category: acct-user
+  description: ""
+  license: ""
   name: gkrellmd
   
   version: ""
 - 
-  category: net-libs
-  name: gnutls
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
   category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: gkrellmd
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: lm-sensors
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: pango
   
   version: ""
 - 
-  category: app-admin
-  name: hddtemp
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 - 
   category: virtual
+  description: ""
+  license: ""
   name: libintl
   
   version: ""
 - 
   category: x11-libs
+  description: ""
+  license: ""
   name: gtk+
   
   version: ""
 - 
-  category: x11-libs
-  name: libICE
-  
-  version: ""
-- 
-  category: dev-libs
-  name: openssl
-  
-  version: ""
-- 
-  category: x11-libs
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  name: libSM
-  
-  version: ""
-- 
-  category: acct-user
-  name: gkrellmd
-  
-  version: ""
-- 
-  category: dev-libs
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-apps
-  name: lm-sensors
+  category: app-admin
+  description: ""
+  license: ""
+  name: hddtemp
   
   version: ""
 - 
   category: net-libs
+  description: ""
+  license: ""
   name: libntlm
   
   version: ""
 - 
   category: x11-libs
-  name: libX11
+  description: ""
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+uri:
+- http://gkrellm.srcbox.net/gkrellm-2.3.11.tar.bz2
 use_flags:
 - gnutls
 - hddtemp
