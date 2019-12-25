@@ -4,13 +4,6 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
   name: mpich
   
   version: ""
@@ -32,6 +25,13 @@ mpi
   category: sys-cluster
   description: ""
   license: ""
+  name: pmix
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: mpiexec
   
   version: ""
@@ -39,20 +39,6 @@ description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -75,13 +61,6 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
-- 
   category: sys-fabric
   description: ""
   license: ""
@@ -89,12 +68,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: libevent
+  name: torque
   
-  version: 2.0.22
+  version: ""
 - 
   category: sys-cluster
   description: ""
@@ -116,6 +95,27 @@ requires:
   name: jre
   
   version: "1.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-2.0.2.tar.bz2
 use_flags:

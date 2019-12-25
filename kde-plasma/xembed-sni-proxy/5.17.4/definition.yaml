@@ -1,23 +1,30 @@
 category: kde-plasma
 conflicts:
 - 
-  category: kde-plasma
-  description: ""
-  license: ""
-  name: xembed-sni-proxy
-  
-  version: ""
-- 
   category: <kde-plasma
   description: ""
   license: ""
   name: plasma-workspace
   
   version: 5.14.2
+- 
+  category: kde-plasma
+  description: ""
+  license: ""
+  name: xembed-sni-proxy
+  
+  version: ""
 description: Legacy xembed tray icons support for SNI-only system trays
 license: GPL-2
 name: xembed-sni-proxy
 requires:
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -33,12 +40,19 @@ requires:
   
   version: 5.12.3
 - 
-  category: kde-frameworks
+  category: x11-libs
   description: ""
   license: ""
-  name: extra-cmake-modules
+  name: libXtst
   
-  version: 5.64.0
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
@@ -57,29 +71,15 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: xcb-util-image
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtcore
+  name: extra-cmake-modules
   
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: 5.12.3
+  version: 5.64.0
 uri: []
 version: 5.17.4

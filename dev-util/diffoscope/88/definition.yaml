@@ -5,73 +5,10 @@ license: GPL-3+
 name: diffoscope
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-magic
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: mono
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
   name: odt2txt
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: diffutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dtc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jdk
   
   version: ""
 - 
@@ -82,17 +19,45 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: file
+  name: unzip
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcaca
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: findutils
+  name: diffutils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: gzip
   
   version: ""
 - 
@@ -103,38 +68,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: net-misc
   description: ""
   license: ""
-  name: squashfs-tools
+  name: openssh
   
   version: ""
 - 
-  category: app-arch
+  category: x11-misc
   description: ""
   license: ""
-  name: unzip
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ghc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: cdrtools
+  name: colord
   
   version: ""
 - 
@@ -145,10 +89,17 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: fpc
+  name: cdrtools
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
   
   version: ""
 - 
@@ -166,48 +117,6 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: giflib
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gzip
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcaca
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -215,24 +124,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
-  name: distro
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: binutils
+  name: python-magic
   
   version: ""
 - 
@@ -246,14 +141,21 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler
+  name: docx2txt
   
   version: ""
 - 
-  category: dev-python
+  category: dev-lang
   description: ""
   license: ""
-  name: libarchive-c
+  name: ghc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jdk
   
   version: ""
 - 
@@ -261,6 +163,41 @@ requires:
   description: ""
   license: ""
   name: llvm
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: squashfs-tools
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: binutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: e2fsprogs
   
   version: ""
 - 
@@ -274,14 +211,77 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: docx2txt
+  name: poppler
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-python
   description: ""
   license: ""
-  name: gnupg
+  name: distro
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: fpc
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dtc
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: giflib
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: findutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: mono
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libarchive-c
   
   version: ""
 uri:

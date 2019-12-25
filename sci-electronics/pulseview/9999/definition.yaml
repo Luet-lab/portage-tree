@@ -5,12 +5,26 @@ license: GPL-3
 name: pulseview
 requires:
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: boost
+  name: qtwidgets
   
-  version: "1.55"
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: libsigrokdecode
+  
+  version: 0.6.0
 - 
   category: dev-libs
   description: ""
@@ -36,9 +50,16 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtgui
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.55"
 - 
   category: dev-cpp
   description: ""
@@ -46,27 +67,6 @@ requires:
   name: glibmm
   
   version: 2.28.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: libsigrokdecode
-  
-  version: 0.6.0
 uri: []
 use_flags:
 - +decode

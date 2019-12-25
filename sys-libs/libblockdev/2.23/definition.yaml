@@ -5,27 +5,6 @@ license: LGPL-2+
 name: libblockdev
 requires:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: 1.6.7
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dmraid
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libbytesize
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -40,17 +19,24 @@ requires:
   
   version: "3.1"
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: nss
+  name: cryptsetup
   
-  version: 3.18.0
+  version: 1.6.7
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dmraid
   
   version: ""
 - 
@@ -68,6 +54,13 @@ requires:
   
   version: 2.42.2
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libbytesize
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -78,14 +71,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: nss
+  
+  version: 3.18.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: volume_key
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: lvm2
+  name: udev
   
   version: ""
 uri:

@@ -5,24 +5,10 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
+  name: libX11
   
   version: ""
 - 
@@ -40,10 +26,31 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
   
   version: ""
 - 
@@ -54,17 +61,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: zlib
   
   version: ""
 - 
@@ -82,31 +82,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libX11
+  name: polkit
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
+  version: "0.110"
 - 
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[acl?]
   
   version: ""
 - 
@@ -117,19 +103,33 @@ requires:
   
   version: "2.40"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[acl?]
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
   name: gettext
   
   version: "0.19"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
 uri: []
 use_flags:
 - acl

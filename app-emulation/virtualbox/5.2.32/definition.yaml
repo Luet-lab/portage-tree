@@ -13,12 +13,19 @@ license: GPL-2 dtrace? ( CDDL )
 name: virtualbox
 requires:
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: jre
+  name: libXmu
   
-  version: "1.6"
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -27,10 +34,24 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libsdl
+  name: libvpx
   
   version: ""
 - 
@@ -41,24 +62,45 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: virtual
   description: ""
   license: ""
-  name: qtcore
+  name: jre
+  
+  version: "1.6"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
-  category: app-emulation
+  category: media-libs
   description: ""
   license: ""
-  name: virtualbox-modules
+  name: freeglut
   
-  version: 5.2.32
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
   
   version: ""
 - 
@@ -66,6 +108,55 @@ requires:
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.19
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
   
   version: ""
 - 
@@ -79,112 +170,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libvncserver
-  
-  version: 0.9.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: 1.1.19
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "171"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libIDL
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
+  name: qtcore
   
   version: ""
 - 
@@ -195,40 +181,54 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: virtualbox-modules
+  
+  version: 5.2.32
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libIDL
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libvncserver
+  
+  version: 0.9.9
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvpx
+  name: opus
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: zlib
+  name: udev
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freeglut
-  
-  version: ""
+  version: "171"
 uri:
 - https://download.virtualbox.org/virtualbox/5.2.32/VirtualBox-5.2.32.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/virtualbox/patchsets/virtualbox-5.2.16-patches-02.tar.xz

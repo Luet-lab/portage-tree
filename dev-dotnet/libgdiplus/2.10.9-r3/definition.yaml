@@ -5,10 +5,31 @@ license: MIT
 name: libgdiplus
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.16"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.3.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: "2.6"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo-1.8.4[X]
+  name: libXrender
   
   version: ""
 - 
@@ -19,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -26,17 +54,17 @@ requires:
   
   version: "1.20"
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: libpng
   
-  version: "2.16"
+  version: "1.4"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libX11
   
   version: ""
 - 
@@ -50,7 +78,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: cairo-1.8.4[X]
   
   version: ""
 - 
@@ -67,34 +95,6 @@ requires:
   name: jpeg
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: 2.3.7
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: "2.6"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
 uri:
 - http://download.mono-project.com/sources/libgdiplus/libgdiplus-2.10.9.tar.bz2
 use_flags:

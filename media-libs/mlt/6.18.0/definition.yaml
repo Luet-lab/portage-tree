@@ -5,6 +5,20 @@ license: GPL-3
 name: mlt
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: rtaudio
+  
+  version: 4.1.2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -15,35 +29,42 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libexif
+  name: opencv
+  
+  version: 3.2.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: ladspa-sdk
+  name: qtwidgets
   
   version: ""
 - 
-  category: virtual
+  category: media-video
   description: ""
   license: ""
-  name: jack
+  name: movit
   
   version: ""
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: rtaudio
+  name: qtxml
   
-  version: 4.1.2
+  version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: sdl2-image
+  name: libX11
   
   version: ""
 - 
@@ -51,6 +72,48 @@ requires:
   description: ""
   license: ""
   name: ffmpeg
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: vidstab
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libebur128
+  
+  version: 1.2.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: frei0r-plugins
   
   version: ""
 - 
@@ -71,14 +134,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsdl2[X,opengl,video]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: alsa-lib
   
   version: ""
 - 
@@ -89,59 +145,17 @@ requires:
   
   version: "2.5"
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: frei0r-plugins
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: movit
+  name: ladspa-sdk
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: vidstab
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: libsdl2[X,opengl,video]
   
   version: ""
 - 
@@ -152,27 +166,6 @@ requires:
   
   version: 1.1.2_pre20060328-r7
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libebur128
-  
-  version: 1.2.2
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
   category: media-video
   description: ""
   license: ""
@@ -180,19 +173,26 @@ requires:
   
   version: "12"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: pango
+  name: libexif
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: opencv
+  name: sdl2-image
   
-  version: 3.2.0
+  version: ""
 uri:
 - https://github.com/mltframework/mlt/releases/download/v6.18.0/mlt-6.18.0.tar.gz
 use_flags:

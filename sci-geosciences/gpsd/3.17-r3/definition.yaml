@@ -5,17 +5,17 @@ license: BSD
 name: gpsd
 requires:
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: chrony
+  name: ncurses
   
   version: ""
 - 
-  category: dev-qt
+  category: net-misc
   description: ""
   license: ""
-  name: qtcore
+  name: ntp
   
   version: ""
 - 
@@ -33,17 +33,24 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: pps-tools
+  name: dbus
   
-  version: 0.0.20120407
+  version: ""
 - 
   category: net-wireless
   description: ""
   license: ""
   name: bluez
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
   
   version: ""
 - 
@@ -57,7 +64,14 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: ntp
+  name: chrony
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 - 
@@ -68,26 +82,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-misc
   description: ""
   license: ""
-  name: dbus
+  name: pps-tools
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
+  version: 0.0.20120407
 uri:
 - mirror://nongnu/gpsd/gpsd-3.17.tar.gz
 use_flags:

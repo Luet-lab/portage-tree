@@ -12,31 +12,24 @@ requires:
   
   version: 5.60.0
 - 
-  category: sci-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: fftw
+  name: kservice
+  
+  version: 5.60.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kcompletion
   
   version: 5.60.0
 - 
@@ -50,21 +43,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
-  
-  version: 5.60.0
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
+  name: ki18n
   
   version: 5.60.0
 - 
@@ -78,42 +57,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcrash
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: cantor
-  
-  version: 19.08.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcompletion
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
   
   version: 5.60.0
 - 
@@ -123,62 +67,6 @@ requires:
   name: netcdf
   
   version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: 5.60.0
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: "1.15"
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kparts
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtserialport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -197,16 +85,72 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: cfitsio
+  name: hdf5
   
   version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcrash
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtserialport
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: karchive
+  
+  version: 5.60.0
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: hdf5
+  name: gsl
   
-  version: ""
+  version: "1.15"
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: cantor
+  
+  version: 19.08.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtconcurrent
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
@@ -218,7 +162,56 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
+  name: kparts
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: cfitsio
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
   
   version: 5.60.0
 - 
@@ -229,12 +222,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: zlib
+  name: qtprintsupport
   
-  version: ""
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: 5.60.0
 uri: []
 use_flags:
 - cantor

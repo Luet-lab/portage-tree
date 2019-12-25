@@ -5,19 +5,47 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: glib
   
-  version: 3.17.1
+  version: "2.51"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "229"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "206"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libgphoto2
+  name: libbluray
   
-  version: 2.5.0
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -29,23 +57,16 @@ requires:
   category: app-pda
   description: ""
   license: ""
-  name: libimobiledevice
+  name: libplist
   
-  version: "1.2"
+  version: "1"
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: polkit
+  name: libcap
   
   version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: "4"
 - 
   category: dev-libs
   description: ""
@@ -54,12 +75,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: gcr
   
-  version: 3.7.1
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgdata
+  
+  version: 0.17.7
 - 
   category: media-libs
   description: ""
@@ -68,12 +96,89 @@ requires:
   
   version: 1.1.12
 - 
-  category: sys-apps
+  category: net-fs
   description: ""
   license: ""
-  name: systemd
+  name: libnfs
   
-  version: "206"
+  version: 1.9.8
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: "4"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: 1.0.21
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.2
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libimobiledevice
+  
+  version: "1.2"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: "0.6"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: 2.8.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgphoto2
+  
+  version: 2.5.0
 - 
   category: dev-libs
   description: ""
@@ -96,124 +201,19 @@ requires:
   
   version: "1.97"
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libbluray
+  name: gnome-online-accounts
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: 2.8.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.2.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.0"
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: "1"
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: libnfs
-  
-  version: 1.9.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.51"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
+  version: 3.7.1
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: elogind
-  
-  version: "229"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
+  name: polkit
   
   version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: 1.0.21
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gvfs-1.32.2-patchset.tar.xz
 use_flags:

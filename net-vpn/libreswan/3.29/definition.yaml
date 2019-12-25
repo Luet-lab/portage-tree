@@ -1,17 +1,17 @@
 category: net-vpn
 conflicts:
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openswan
-  
-  version: ""
-- 
   category: net-vpn
   description: ""
   license: ""
   name: strongswan
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openswan
   
   version: ""
 description: IPsec implementation for Linux, fork of Openswan
@@ -22,63 +22,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
   name: libseccomp
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ipsec
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: unbound
-  
-  version: 1.9.1-r1
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss[utils(+)]
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
   
   version: ""
 - 
@@ -92,13 +43,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: nspr
   
   version: ""
@@ -106,16 +50,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: libcap-ng
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: "3.42"
 - 
   category: net-misc
   description: ""
@@ -130,6 +67,69 @@ requires:
   name: ldns
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss[utils(+)]
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: unbound
+  
+  version: 1.9.1-r1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ipsec
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: "3.42"
 uri:
 - https://download.libreswan.org/libreswan-3.29.tar.gz
 use_flags:

@@ -4,14 +4,14 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
 description: System which facilitates service discovery on a local network
@@ -19,24 +19,10 @@ license: LGPL-2.1
 name: avahi
 requires:
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-dotnet
-  description: ""
-  license: ""
-  name: gtk-sharp
+  name: selinux-avahi
   
   version: ""
 - 
@@ -47,52 +33,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-dotnet
   description: ""
   license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-avahi
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: mono
+  name: gtk-sharp
   
   version: ""
 - 
@@ -103,12 +47,47 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
   name: twisted
   
   version: 16.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -117,10 +96,31 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: glib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: mono
   
   version: ""
 uri:

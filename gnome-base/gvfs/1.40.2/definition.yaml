@@ -5,19 +5,40 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: sys-apps
+  category: net-dns
   description: ""
   license: ""
-  name: systemd
+  name: avahi
   
-  version: "206"
+  version: "0.6"
 - 
-  category: sys-apps
+  category: app-pda
   description: ""
   license: ""
-  name: dbus
+  name: libimobiledevice
+  
+  version: "1.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: 1.0.21
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.57.2
 - 
   category: sys-auth
   description: ""
@@ -26,19 +47,26 @@ requires:
   
   version: "0.114"
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: udisks
+  name: libgdata
   
-  version: "1.97"
+  version: 0.17.9
 - 
-  category: app-pda
+  category: dev-libs
   description: ""
   license: ""
-  name: libimobiledevice
+  name: libgcrypt
   
-  version: "1.2"
+  version: 1.2.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmtp
+  
+  version: 1.1.15
 - 
   category: app-crypt
   description: ""
@@ -50,9 +78,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libcdio-paranoia
+  name: libxml2
   
-  version: 0.78.2
+  version: ""
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libplist
+  
+  version: "1"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -61,10 +103,17 @@ requires:
   
   version: 2.5.0
 - 
-  category: app-crypt
+  category: sys-fs
   description: ""
   license: ""
-  name: gcr
+  name: fuse
+  
+  version: 2.8.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
   
   version: ""
 - 
@@ -75,27 +124,6 @@ requires:
   
   version: "4"
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "147"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: ""
-- 
   category: net-fs
   description: ""
   license: ""
@@ -103,10 +131,10 @@ requires:
   
   version: 1.9.8
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libxml2
+  name: dbus
   
   version: ""
 - 
@@ -116,48 +144,6 @@ requires:
   name: libsoup
   
   version: 2.58.0
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: "1"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: 3.17.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: 1.1.15
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.9
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: 1.0.21
 - 
   category: net-misc
   description: ""
@@ -173,40 +159,54 @@ requires:
   
   version: "229"
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "206"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: libcdio-paranoia
   
-  version: 1.2.2
+  version: 0.78.2
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: avahi
+  name: libgudev
   
-  version: "0.6"
+  version: "147"
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: fuse
+  name: udisks
   
-  version: 2.8.0
+  version: "1.97"
 - 
-  category: app-arch
+  category: app-crypt
   description: ""
   license: ""
-  name: libarchive
+  name: gcr
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: glib
+  name: libcap
   
-  version: 2.57.2
+  version: ""
 uri: []
 use_flags:
 - afp

@@ -5,12 +5,47 @@ license: GPL-2
 name: abrt
 requires:
 - 
-  category: gnome-base
+  category: sys-fs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: inotify-tools
   
-  version: 3.15.1
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: elfutils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libreport
+  
+  version: 2.10.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: rpm
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: humanize
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -19,10 +54,52 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gdb
+  
+  version: "7"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: elfutils
+  name: glib
+  
+  version: "2.56"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -40,48 +117,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: humanize
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libreport
-  
-  version: 2.10.0
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: inotify-tools
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -89,19 +124,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: gnome-base
   description: ""
   license: ""
-  name: dbus
+  name: gsettings-desktop-schemas
   
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
+  version: 3.15.1
 - 
   category: x11-libs
   description: ""
@@ -109,34 +137,6 @@ requires:
   name: gtk+
   
   version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: rpm
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
-  
-  version: "7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.56"
 uri:
 - https://github.com/abrt/abrt/archive/2.12.0.tar.gz -> abrt-2.12.0.tar.gz
 use_flags:

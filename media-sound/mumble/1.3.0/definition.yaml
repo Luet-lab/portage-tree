@@ -5,17 +5,24 @@ license: BSD MIT
 name: mumble
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: libX11
   
-  version: 1.0.20
+  version: ""
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libressl
+  name: g15daemon
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
   
   version: ""
 - 
@@ -23,55 +30,6 @@ requires:
   description: ""
   license: ""
   name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: portaudio
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: speech-dispatcher
-  
-  version: 0.8.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0b
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
   
   version: ""
 - 
@@ -92,49 +50,56 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
+  
+  version: 1.2.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0b
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: 1.0.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: portaudio
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: speexdsp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: g15daemon
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
   
   version: ""
 - 
@@ -152,19 +117,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libressl
   
   version: ""
 - 
-  category: media-libs
+  category: net-dns
   description: ""
   license: ""
-  name: opus
+  name: avahi
   
-  version: 1.0.1
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -173,12 +138,47 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: speex
+  name: alsa-lib
   
-  version: 1.2.0
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: speech-dispatcher
+  
+  version: 0.8.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
 uri:
 - https://github.com/mumble-voip/mumble/releases/download/1.3.0/mumble-1.3.0.tar.gz
 - https://dl.mumble.info/mumble-1.3.0.tar.gz

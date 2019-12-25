@@ -5,20 +5,6 @@ license: GPL-2
 name: smokeping
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: SNMP_Session
-  
-  version: "1.13"
-- 
-  category: www-apache
-  description: ""
-  license: ""
-  name: mod_fcgid
-  
-  version: ""
-- 
   category: net-analyzer
   description: ""
   license: ""
@@ -29,28 +15,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Config-Grammar
+  name: CGI
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-OpenSSH
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-libnet
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: fping-2.4_beta2-r2
+  name: Config-Grammar
   
   version: ""
 - 
@@ -64,7 +36,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: perl-ldap
+  name: IO-Tty
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-OpenSSH
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Digest-HMAC
   
   version: ""
 - 
@@ -75,52 +61,24 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: net-analyzer
   description: ""
   license: ""
-  name: Authen-Radius
+  name: fping-2.4_beta2-r2
   
   version: ""
 - 
-  category: net-misc
+  category: virtual
   description: ""
   license: ""
-  name: curl
-  
-  version: 7.21.4
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Digest-HMAC
+  name: perl-libnet
   
   version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Tty
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
+  name: httpd-cgi
   
   version: ""
 - 
@@ -134,21 +92,28 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Net-DNS
+  name: libwww-perl
   
   version: ""
 - 
-  category: net-analyzer
+  category: www-apache
   description: ""
   license: ""
-  name: rrdtool
+  name: mod_perl
   
-  version: "1.2"
+  version: 2.0.1
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: CGI-Session
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-ldap
   
   version: ""
 - 
@@ -162,9 +127,44 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: CGI-Session
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: FCGI
+  
+  version: ""
+- 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_fcgid
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: Socket6
   
   version: "0.20"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-DNS
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Authen-Radius
+  
+  version: ""
 - 
   category: dev-lang
   description: ""
@@ -176,23 +176,23 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: FCGI
+  name: SNMP_Session
   
-  version: ""
+  version: "1.13"
 - 
-  category: virtual
+  category: net-analyzer
   description: ""
   license: ""
-  name: httpd-cgi
+  name: rrdtool
   
-  version: ""
+  version: "1.2"
 - 
-  category: www-apache
+  category: net-misc
   description: ""
   license: ""
-  name: mod_perl
+  name: curl
   
-  version: 2.0.1
+  version: 7.21.4
 uri:
 - https://oss.oetiker.ch/smokeping/pub/smokeping-2.7.2.tar.gz
 use_flags:

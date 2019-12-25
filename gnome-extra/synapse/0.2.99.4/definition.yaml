@@ -5,10 +5,17 @@ license: GPL-3
 name: synapse
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: json-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
   
   version: ""
 - 
@@ -16,6 +23,20 @@ requires:
   description: ""
   license: ""
   name: cairo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.28.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -33,31 +54,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
+  name: rest
   
-  version: 2.28.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
+  version: "0.7"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: libgee
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
   
   version: ""
 - 
@@ -71,28 +78,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: gdk-pixbuf
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rest
-  
-  version: "0.7"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
+  name: pango
   
   version: ""
 - 
@@ -102,6 +95,13 @@ requires:
   name: adwaita-icon-theme
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.0.0
 uri:
 - https://launchpad.net/synapse-project/0.3/0.2.99.4/+download/synapse-0.2.99.4.tar.xz
 use_flags:

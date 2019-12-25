@@ -5,19 +5,12 @@ license: GPL-3+ OFL-1.1
 name: denemo
 requires:
 - 
-  category: dev-scheme
+  category: media-libs
   description: ""
   license: ""
-  name: guile
+  name: fontconfig
   
-  version: "2"
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lilypond
-  
-  version: 2.19.54
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -25,6 +18,20 @@ requires:
   name: alsa-lib
   
   version: 1.1.2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: portaudio
+  
+  version: 19_pre20140130
 - 
   category: sci-libs
   description: ""
@@ -40,20 +47,6 @@ requires:
   
   version: 217-r1
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsmf
-  
-  version: "1.3"
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -64,30 +57,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libsndfile
   
   version: 1.0.28-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
 - 
   category: media-libs
   description: ""
@@ -96,12 +68,40 @@ requires:
   
   version: 0.4.1-r1
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: app-text
   description: ""
   license: ""
   name: evince
   
   version: 3.22.1-r1
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lilypond
+  
+  version: 2.19.54
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsmf
+  
+  version: "1.3"
 - 
   category: media-sound
   description: ""
@@ -120,16 +120,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: portaudio
-  
-  version: 19_pre20140130
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: rubberband
   
   version: 1.8.1-r1
+- 
+  category: dev-scheme
+  description: ""
+  license: ""
+  name: guile
+  
+  version: "2"
 uri:
 - mirror://gnu/denemo/denemo-2.2.0.tar.gz
 use_flags:

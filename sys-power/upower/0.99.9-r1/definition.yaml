@@ -6,12 +6,12 @@ license: GPL-2
 name: upower
 requires:
 - 
-  category: dev-libs
+  category: app-pda
   description: ""
   license: ""
-  name: dbus-glib
+  name: libplist
   
-  version: "0.100"
+  version: "1"
 - 
   category: sys-apps
   description: ""
@@ -19,27 +19,6 @@ requires:
   name: dbus
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-devicekit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.34"
 - 
   category: dev-libs
   description: ""
@@ -69,12 +48,33 @@ requires:
   
   version: "1"
 - 
-  category: app-pda
+  category: dev-libs
   description: ""
   license: ""
-  name: libplist
+  name: dbus-glib
   
-  version: "1"
+  version: "0.100"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.34"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-devicekit
+  
+  version: ""
 uri:
 - https://gitlab.freedesktop.org/upower/upower/uploads/2282c7c0e53fb31816b824c9d1f547e8/upower-0.99.9.tar.xz
 use_flags:

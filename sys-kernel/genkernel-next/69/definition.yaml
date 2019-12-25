@@ -1,6 +1,13 @@
 category: sys-kernel
 conflicts:
 - 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: openrc
+  
+  version: 0.9.9
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -14,22 +21,57 @@ conflicts:
   name: genkernel
   
   version: ""
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: openrc
-  
-  version: 0.9.9
 description: Gentoo automatic kernel building scripts, reloaded
 license: GPL-2
 name: genkernel-next
 requires:
 - 
-  category: app-crypt
+  category: app-text
   description: ""
   license: ""
-  name: gnupg
+  name: asciidoc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: e2fsprogs
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: open-iscsi
   
   version: ""
 - 
@@ -39,6 +81,13 @@ requires:
   name: plymouth
   
   version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: "0.6"
 - 
   category: sys-apps
   description: ""
@@ -61,20 +110,6 @@ requires:
   
   version: 1.0.0_rc16
 - 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: "0.6"
-- 
   category: sys-block
   description: ""
   license: ""
@@ -82,31 +117,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-crypt
   description: ""
   license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: asciidoc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: gnupg
   
   version: ""
 - 
@@ -114,20 +128,6 @@ requires:
   description: ""
   license: ""
   name: cpio
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: open-iscsi
   
   version: ""
 uri:

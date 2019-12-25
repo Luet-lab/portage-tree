@@ -5,69 +5,6 @@ license: GPL-3+
 name: diffoscope
 requires:
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gzip
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: binutils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcaca
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: diffutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: findutils
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: pdftk
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
   license: ""
@@ -75,17 +12,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-db
   description: ""
   license: ""
-  name: tar
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dtc
+  name: sqlite
   
   version: ""
 - 
@@ -96,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: app-arch
   description: ""
   license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: llvm
+  name: xz-utils
   
   version: ""
 - 
@@ -120,28 +43,14 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler
+  name: pdftk
   
   version: ""
 - 
-  category: app-text
+  category: dev-lang
   description: ""
   license: ""
-  name: odt2txt
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-magic
+  name: ghc
   
   version: ""
 - 
@@ -152,52 +61,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-devel
   description: ""
   license: ""
-  name: file
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: mono
+  name: gettext
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: unzip
+  name: cpio
   
   version: ""
 - 
-  category: x11-misc
+  category: app-arch
   description: ""
   license: ""
-  name: colord
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jdk
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
+  name: gzip
   
   version: ""
 - 
@@ -215,17 +96,59 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: llvm
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: distro
+  name: libarchive-c
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: cpio
+  name: bzip2
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: binutils
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dtc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: squashfs-tools
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcaca
   
   version: ""
 - 
@@ -236,10 +159,17 @@ requires:
   
   version: ""
 - 
-  category: app-editors
+  category: sys-apps
   description: ""
   license: ""
-  name: vim-core
+  name: findutils
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: odt2txt
   
   version: ""
 - 
@@ -250,17 +180,45 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: app-arch
   description: ""
   license: ""
-  name: sqlite
+  name: tar
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: libarchive-c
+  name: distro
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-magic
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jdk
   
   version: ""
 - 
@@ -278,10 +236,52 @@ requires:
   
   version: ""
 - 
+  category: app-editors
+  description: ""
+  license: ""
+  name: vim-core
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
-  name: ghc
+  name: mono
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: diffutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: unzip
   
   version: ""
 uri:

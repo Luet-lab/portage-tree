@@ -5,10 +5,10 @@ license: GPL-2
 name: vzctl
 requires:
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: openssh
+  name: libxml2
   
   version: ""
 - 
@@ -19,13 +19,6 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -33,17 +26,24 @@ requires:
   
   version: ""
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: 3.3.0
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: vzquota
-  
-  version: "3.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: quota
   
   version: ""
 - 
@@ -54,26 +54,12 @@ requires:
   
   version: "0.38"
 - 
-  category: net-firewall
+  category: app-arch
   description: ""
   license: ""
-  name: iptables
+  name: tar
   
   version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: bridge-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: 3.3.0
 - 
   category: virtual
   description: ""
@@ -89,6 +75,13 @@ requires:
   
   version: ""
 - 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
   category: sys-cluster
   description: ""
   license: ""
@@ -96,17 +89,10 @@ requires:
   
   version: "1.13"
 - 
-  category: sys-block
+  category: net-misc
   description: ""
   license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: quota
+  name: bridge-utils
   
   version: ""
 - 
@@ -114,6 +100,20 @@ requires:
   description: ""
   license: ""
   name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: vzquota
+  
+  version: "3.1"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
   
   version: ""
 uri:

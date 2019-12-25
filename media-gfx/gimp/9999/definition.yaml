@@ -5,6 +5,34 @@ license: GPL-3 LGPL-3
 name: gimp
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gegl
+  
+  version: 0.4.18
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gexiv2
+  
+  version: 0.10.6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.56.0
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: mypaint-brushes
+  
+  version: 1.3.0
+- 
   category: virtual
   description: ""
   license: ""
@@ -19,38 +47,31 @@ requires:
   
   version: 3.22.29
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libgudev
   
-  version: ""
+  version: "167"
 - 
-  category: x11-themes
+  category: gnome-base
   description: ""
   license: ""
-  name: hicolor-icon-theme
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmng
+  name: gvfs
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libwmf
+  name: libheif
   
-  version: 0.2.8
+  version: 1.3.2
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXpm
+  name: gjs
   
   version: ""
 - 
@@ -61,45 +82,45 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.0
-- 
   category: media-libs
   description: ""
   license: ""
-  name: lcms
+  name: babl
   
-  version: "2.8"
+  version: 0.1.72
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: tiff
+  name: zlib
   
-  version: 3.5.7
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: 2.4.0
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: cairo
   
-  version: 1.42.0
+  version: 1.14.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: aalib
+  name: alsa-lib
+  
+  version: 1.0.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk-mac-integration
+  
+  version: 2.0.0
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
   
   version: ""
 - 
@@ -113,37 +134,58 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gegl
+  name: libwmf
   
-  version: 0.4.18
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: 2.1.0
+  version: 0.2.8
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gjs
+  name: atk
+  
+  version: 2.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.6.25
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: "3.0"
 - 
   category: app-text
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: poppler-data
   
-  version: ""
+  version: 0.4.9
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libunwind
+  name: harfbuzz
   
-  version: 1.1.0
+  version: 0.9.19
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: "2.8"
 - 
   category: media-libs
   description: ""
@@ -155,9 +197,51 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: tiff
   
-  version: 2.1.7
+  version: 3.5.7
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: glib-networking
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libunwind
+  
+  version: 1.1.0
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: hicolor-icon-theme
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: "0.69"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.12.4
 - 
   category: media-libs
   description: ""
@@ -176,107 +260,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk-mac-integration
+  name: pango
   
-  version: 2.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: babl
-  
-  version: 0.1.72
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gexiv2
-  
-  version: 0.10.6
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: ""
+  version: 1.42.0
 - 
   category: app-text
   description: ""
   license: ""
-  name: poppler-data
-  
-  version: 0.4.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.56.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.40.6
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: mypaint-brushes
-  
-  version: 1.3.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.14.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libheif
-  
-  version: 1.3.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: "3.0"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: "0.69"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: ghostscript-gpl
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: 2.1.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmng
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: 5.0.0
 - 
   category: dev-libs
   description: ""
@@ -285,45 +299,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: fontconfig
+  name: librsvg
   
-  version: 2.12.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "167"
+  version: 2.40.6
 - 
   category: media-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: freetype
   
-  version: 0.9.19
+  version: 2.1.7
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpng
-  
-  version: 1.6.25
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: glib-networking
+  name: libXcursor
   
   version: ""
 - 
-  category: dev-lang
+  category: media-libs
   description: ""
   license: ""
-  name: luajit
+  name: aalib
   
   version: ""
 uri: []

@@ -6,31 +6,10 @@ license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD 
 name: gromacs
 requires:
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: hwloc
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: lmfit
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
+  name: blas
   
   version: ""
 - 
@@ -38,13 +17,6 @@ requires:
   description: ""
   license: ""
   name: opencl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
   
   version: ""
 - 
@@ -58,7 +30,7 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: mkl
+  name: lmfit
   
   version: ""
 - 
@@ -69,6 +41,20 @@ requires:
   
   version: ""
 - 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: mkl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -76,10 +62,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: blas
+  name: libICE
   
   version: ""
 - 
@@ -89,6 +75,20 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: 6.5.14
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: ""
 uri: []
 use_flags:
 - X

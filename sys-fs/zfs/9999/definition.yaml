@@ -1,12 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
+  category: <sys-boot
   description: ""
   license: ""
-  name: grep-2.13*
+  name: grub
   
-  version: ""
+  version: 2.00-r2
 - 
   category: <sys-kernel
   description: ""
@@ -18,16 +18,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
+  name: genkernel
   
-  version: 044-r1
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
+  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -46,32 +39,25 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel
+  name: dracut
   
-  version: 3.5.1.1
+  version: 044-r1
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -82,10 +68,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-devel
   description: ""
   license: ""
-  name: util-linux
+  name: bc
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
   
   version: ""
 - 
@@ -103,10 +103,24 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 - 
@@ -117,17 +131,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-fs
   description: ""
   license: ""
-  name: bc
+  name: zfs-kmod
   
-  version: ""
+  version: "9999"
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: parted
+  name: lsscsi
   
   version: ""
 - 
@@ -141,28 +155,14 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: awk
   
   version: ""
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
+  name: openssl
   
   version: ""
 uri: []

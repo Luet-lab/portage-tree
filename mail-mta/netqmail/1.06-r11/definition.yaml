@@ -4,14 +4,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: exim
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
   
   version: ""
 - 
@@ -19,6 +26,13 @@ conflicts:
   description: ""
   license: ""
   name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: msmtp
   
   version: ""
 - 
@@ -39,21 +53,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
+  name: ssmtp
   
   version: ""
 - 
@@ -67,14 +67,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+  name: esmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: exim
+  name: postfix
   
   version: ""
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
@@ -82,10 +82,45 @@ license: public-domain
 name: netqmail
 requires:
 - 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmailr
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: nofiles
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmaill
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmails
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: ucspi-tcp
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: daemontools
   
   version: ""
 - 
@@ -99,77 +134,7 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmaill
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: qmail
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmailp
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ucspi-ssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: nofiles
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: groff
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: cmd5checkpw
-  
-  version: "0.30"
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmaild
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
+  name: qmailq
   
   version: ""
 - 
@@ -180,17 +145,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: checkpassword
+  name: gentoo-functions
   
   version: ""
 - 
   category: acct-user
   description: ""
   license: ""
-  name: qmailr
+  name: qmaild
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmailp
   
   version: ""
 - 
@@ -201,24 +173,52 @@ requires:
   
   version: "1.1"
 - 
-  category: acct-user
+  category: acct-group
   description: ""
   license: ""
-  name: qmailq
+  name: qmail
   
   version: ""
 - 
-  category: acct-user
+  category: sys-apps
   description: ""
   license: ""
-  name: qmails
+  name: groff
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ucspi-ssl
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: daemontools
+  name: checkpassword
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: cmd5checkpw
+  
+  version: "0.30"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

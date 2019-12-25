@@ -4,16 +4,16 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: oslo-config
+  name: requests
   
-  version: 3.18.0
+  version: 2.12.0
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: requests
+  name: oslo-config
   
-  version: 2.12.0
+  version: 3.18.0
 description: A client for the OpenStack Monasca API
 license: Apache-2.0
 name: python-monascaclient
@@ -22,30 +22,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-log
-  
-  version: 3.11.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-service
+  name: oslo-serialization
   
   version: 1.10.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-utils
+  name: iso8601
   
-  version: 3.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: prettytable
-  
-  version: 0.7.1
+  version: 0.1.11
 - 
   category: dev-python
   description: ""
@@ -64,34 +50,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyyaml
-  
-  version: 3.10.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-i18n
-  
-  version: 2.1.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 1.10.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-keystoneclient
-  
-  version: 3.8.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: oslo-concurrency
   
   version: 3.8.0
@@ -99,9 +57,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-middleware
+  name: prettytable
   
-  version: 3.0.0
+  version: 0.7.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyyaml
+  
+  version: 3.10.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-log
+  
+  version: 3.11.0
 - 
   category: dev-python
   description: ""
@@ -113,16 +85,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: iso8601
+  name: oslo-service
   
-  version: 0.1.11
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: prettytable
-  
-  version: "0.8"
+  version: 1.10.0
 - 
   category: dev-python
   description: ""
@@ -134,9 +99,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: oslo-middleware
+  
+  version: 3.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-utils
+  
+  version: 3.18.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-keystoneclient
+  
+  version: 3.8.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: prettytable
+  
+  version: "0.8"
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pbr
   
   version: "1.6"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-i18n
+  
+  version: 2.1.0
 uri:
 - mirror://pypi/p/python-monascaclient/python-monascaclient-1.5.1.tar.gz
 version: 1.5.1

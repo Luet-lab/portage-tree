@@ -13,87 +13,17 @@ license: GPL-3+
 name: xemacs
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.2"
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: freewnn
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXaw3d
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.5.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.1.4
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
+  version: 0.9.6
 - 
-  category: sys-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: gpm
-  
-  version: 1.19.6
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: nas
+  name: xbitmaps
   
   version: ""
 - 
@@ -104,19 +34,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: openssl
+  name: zlib
   
-  version: 0.9.6
+  version: 1.1.4
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: audiofile
+  name: libXaw
   
-  version: 0.2.3
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -132,48 +69,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: dnd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xbitmaps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -181,31 +76,38 @@ requires:
   
   version: "5.2"
 - 
-  category: app-eselect
+  category: x11-libs
   description: ""
   license: ""
-  name: eselect-emacs
+  name: libXmu
   
-  version: "1.15"
+  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm-1.8.3[berkdb(+)]
+  name: db
+  
+  version: "4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gpm
+  
+  version: 1.19.6
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
+  name: libXt
   
   version: ""
 - 
@@ -219,21 +121,119 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.5.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: tiff
   
   version: ""
 - 
-  category: dev-db
+  category: app-i18n
   description: ""
   license: ""
-  name: postgresql
+  name: freewnn
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm-1.8.3[berkdb(+)]
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: nas
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXaw
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: dnd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXaw3d
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: audiofile
+  
+  version: 0.2.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.2"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-emacs
+  
+  version: "1.15"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
   
   version: ""
 uri:

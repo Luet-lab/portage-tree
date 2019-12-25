@@ -8,21 +8,35 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: kmod
   
-  version: "2.21"
+  version: "23"
 - 
-  category: dev-util
+  category: virtual
   description: ""
   license: ""
-  name: strace
+  name: udev
   
   version: ""
 - 
-  category: sys-libs
+  category: app-shells
   description: ""
   license: ""
-  name: libselinux
+  name: bash
+  
+  version: "4.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[xattr(-)]
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dracut
   
   version: ""
 - 
@@ -40,34 +54,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[xattr(-)]
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dracut
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "23"
-- 
   category: app-arch
   description: ""
   license: ""
@@ -75,12 +61,26 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: sys-apps
   description: ""
   license: ""
-  name: bash
+  name: util-linux
   
-  version: "4.0"
+  version: "2.21"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: strace
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
 uri:
 - https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-048.tar.xz
 use_flags:

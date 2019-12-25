@@ -12,31 +12,17 @@ license: GPL-2
 name: pdns-recursor
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: boost
+  name: systemd
   
-  version: "1.35"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.42"
+  version: ""
 - 
   category: net-analyzer
   description: ""
   license: ""
   name: net-snmp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
   
   version: ""
 - 
@@ -50,16 +36,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: protobuf
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.1"
 - 
   category: dev-lang
   description: ""
@@ -71,16 +50,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf
+  name: boost
+  
+  version: "1.42"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: systemd
+  name: libressl
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.35"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.1"
 uri:
 - https://downloads.powerdns.com/releases/pdns-recursor-4.2.0.tar.bz2
 use_flags:

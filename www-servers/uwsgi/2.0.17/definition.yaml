@@ -5,87 +5,10 @@ license: GPL-2
 name: uwsgi
 requires:
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
   license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: pypy
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libyaml
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-uwsgi
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: rrdtool
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: php
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: pam
   
   version: ""
 - 
@@ -96,17 +19,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc
-  
-  version: ""
-- 
   category: dev-lang
   description: ""
   license: ""
-  name: lua
+  name: mono
+  
+  version: "4"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: pypy
   
   version: ""
 - 
@@ -116,6 +39,69 @@ requires:
   name: gevent
   
   version: 1.2.1
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: rrdtool
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ceph
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-uwsgi
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -127,7 +113,70 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libyaml
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: geoip
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -141,56 +190,14 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: sqlite
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: systemd
   
   version: ""
 - 
@@ -204,35 +211,28 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
+  name: tcp-wrappers
   
   version: ""
 - 
   category: dev-lang
   description: ""
   license: ""
-  name: mono
-  
-  version: "4"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: perl
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: openssl
+  name: php
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
   
   version: ""
 uri:

@@ -5,12 +5,19 @@ license: GPL-3+ FDL-1.1
 name: gnote
 requires:
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: libsecret
+  name: util-linux
   
-  version: "0.8"
+  version: "2.16"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
 - 
   category: app-text
   description: ""
@@ -22,9 +29,9 @@ requires:
   category: dev-cpp
   description: ""
   license: ""
-  name: glibmm
+  name: gtkmm
   
-  version: 2.52.1-r1
+  version: "3.18"
 - 
   category: dev-libs
   description: ""
@@ -40,26 +47,12 @@ requires:
   
   version: "2"
 - 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "3.18"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libxslt
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.16"
 - 
   category: x11-libs
   description: ""
@@ -68,12 +61,19 @@ requires:
   
   version: "3.20"
 - 
-  category: gnome-base
+  category: app-crypt
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: libsecret
   
-  version: ""
+  version: "0.8"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.52.1-r1
 uri: []
 use_flags:
 - debug

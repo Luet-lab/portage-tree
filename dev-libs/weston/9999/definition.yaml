@@ -5,19 +5,19 @@ license: MIT CC-BY-SA-3.0
 name: weston
 requires:
 - 
-  category: x11-libs
+  category: x11-base
   description: ""
   license: ""
-  name: libdrm
+  name: xorg-server
   
-  version: 2.4.68
+  version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: lcms
   
-  version: 0.5.0
+  version: ""
 - 
   category: x11-misc
   description: ""
@@ -29,14 +29,56 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: pipewire
+  
+  version: "0.2"
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: gstreamer
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.18"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "17.1"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
   
   version: ""
 - 
@@ -47,13 +89,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -61,33 +96,12 @@ requires:
   
   version: ""
 - 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: pixman
   
-  version: 1.11.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
+  version: 0.25.2
 - 
   category: net-misc
   description: ""
@@ -99,51 +113,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXcursor
   
-  version: "1.9"
+  version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libinput
+  name: systemd
   
-  version: 0.8.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: mtdev
-  
-  version: 1.1.0
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: pipewire
-  
-  version: "0.2"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: 0.25.2
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "136"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.18"
+  version: "209"
 - 
   category: x11-misc
   description: ""
@@ -152,26 +131,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: mtdev
   
-  version: ""
+  version: 1.1.0
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: lcms
+  name: udev
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
+  version: "136"
 - 
   category: sys-apps
   description: ""
@@ -183,9 +155,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: libinput
   
-  version: 1.17.0
+  version: 0.8.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.9"
 - 
   category: x11-libs
   description: ""
@@ -194,17 +180,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: mesa
+  name: wayland
   
-  version: "17.1"
+  version: 1.17.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: mesa
+  name: libwebp
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: 2.4.68
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
   
   version: ""
 - 

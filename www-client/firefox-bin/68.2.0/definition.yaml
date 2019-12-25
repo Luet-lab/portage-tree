@@ -12,12 +12,12 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: firefox-bin
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: cairo-1.10[X]
+  name: freetype
   
-  version: ""
+  version: 2.4.10
 - 
   category: x11-libs
   description: ""
@@ -29,9 +29,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libX11
   
-  version: 3.4.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -40,10 +40,38 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.72"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
+  name: gtk+
+  
+  version: 3.4.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -54,19 +82,19 @@ requires:
   
   version: "0.60"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libXrender
   
-  version: "0.72"
+  version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: libXt
   
-  version: 2.4.10
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -75,10 +103,24 @@ requires:
   
   version: 1.22.0
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: glib
+  
+  version: "2.26"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo-1.10[X]
   
   version: ""
 - 
@@ -86,20 +128,6 @@ requires:
   description: ""
   license: ""
   name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
   
   version: ""
 - 
@@ -114,34 +142,6 @@ requires:
   description: ""
   license: ""
   name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
   
   version: ""
 uri:

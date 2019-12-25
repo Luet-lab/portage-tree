@@ -5,12 +5,54 @@ license: '|| ( GPL-3+ LGPL-3 )'
 name: gegl
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.32"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libraw
+  
+  version: 0.15.4
+- 
   category: media-libs
   description: ""
   license: ""
   name: tiff
   
   version: "4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -22,7 +64,7 @@ requires:
   category: media-video
   description: ""
   license: ""
-  name: ffmpeg
+  name: libav
   
   version: ""
 - 
@@ -33,12 +75,12 @@ requires:
   
   version: 0.2.5
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: libraw
+  name: poppler
   
-  version: 0.15.4
+  version: 0.71.0
 - 
   category: media-libs
   description: ""
@@ -57,79 +99,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
-  
-  version: 0.5.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: babl
-  
-  version: 0.1.62
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libpng
   
   version: 1.6.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: "2.8"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.40.6
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.44"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.12.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.32"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: umfpack
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.0
 - 
   category: x11-libs
   description: ""
@@ -138,19 +110,54 @@ requires:
   
   version: "2.32"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
   category: media-video
   description: ""
   license: ""
-  name: libav
+  name: ffmpeg
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.40.6
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: umfpack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: 0.5.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: babl
+  
+  version: 0.1.62
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.12.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: "2.8"
 - 
   category: media-libs
   description: ""
@@ -158,13 +165,6 @@ requires:
   name: openexr
   
   version: 2.2.0
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: 0.71.0
 uri:
 - http://download.gimp.org/pub/gegl/0.4/gegl-0.4.14.tar.bz2
 use_flags:

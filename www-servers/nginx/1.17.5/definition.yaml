@@ -13,38 +13,10 @@ license: "BSD-2 BSD SSLeay MIT GPL-2 GPL-2+\n\tnginx_modules_http_security? ( Ap
 name: nginx
 requires:
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: brotli
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gd
+  name: libxml2
   
   version: ""
 - 
@@ -58,7 +30,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: apr
+  name: apr-util
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmaxminddb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache
   
   version: ""
 - 
@@ -72,44 +72,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: openssl
   
   version: 1.0.1c
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmaxminddb
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
 - 
   category: dev-lang
   description: ""
@@ -117,13 +82,6 @@ requires:
   name: perl
   
   version: "5.8"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-nginx
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -135,7 +93,42 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: apr
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: brotli
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gd
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
   
   version: ""
 - 
@@ -146,17 +139,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: yajl
+  name: selinux-nginx
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: apr-util
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
   
   version: ""
 uri:

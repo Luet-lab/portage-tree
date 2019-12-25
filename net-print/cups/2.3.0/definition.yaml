@@ -12,24 +12,10 @@ license: Apache-2.0
 name: cups
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: lp
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-cups
+  name: zlib
   
   version: ""
 - 
@@ -40,34 +26,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: xinetd
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -75,10 +33,10 @@ requires:
   
   version: 2.12.23-r6
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: libusb
   
   version: ""
 - 
@@ -89,6 +47,27 @@ requires:
   
   version: 0.6.31-r2
 - 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
   category: app-text
   description: ""
   license: ""
@@ -96,10 +75,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: zlib
+  name: dbus
+  
+  version: 1.6.18-r1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: xinetd
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-cups
   
   version: ""
 - 
@@ -116,6 +109,13 @@ requires:
   name: krb5
   
   version: 0-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 uri:
 - https://github.com/apple/cups/releases/download/v2.3.0/cups-2.3.0-source.tar.gz
 use_flags:

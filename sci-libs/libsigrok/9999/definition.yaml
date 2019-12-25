@@ -6,12 +6,12 @@ license: GPL-3
 name: libsigrok
 requires:
 - 
-  category: dev-embedded
+  category: dev-libs
   description: ""
   license: ""
-  name: libftdi
+  name: glib
   
-  version: "0.16"
+  version: 2.32.0
 - 
   category: sys-libs
   description: ""
@@ -23,23 +23,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib-2.32.0[static-libs(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libserialport-0.1.1[static-libs(+)]
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: glib
+  name: libieee1284[static-libs(+)]
   
-  version: 2.32.0
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -62,6 +55,13 @@ requires:
   
   version: 3.0.0
 - 
+  category: dev-embedded
+  description: ""
+  license: ""
+  name: libftdi
+  
+  version: "0.16"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -76,10 +76,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libieee1284[static-libs(+)]
+  name: glib-2.32.0[static-libs(+)]
   
   version: ""
 - 

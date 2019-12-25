@@ -8,30 +8,58 @@ conflicts:
   
   version: ""
 - 
-  category: net-nds
-  description: ""
-  license: ""
-  name: portmap
-  
-  version: ""
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: openrc
   
   version: 0.13.9
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: portmap
+  
+  version: ""
 description: NFS client and server daemons
 license: GPL-2
 name: nfs-utils
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libevent
+  name: libtirpc
+  
+  version: 0.2.4-r1
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-rpcbind
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "3.3"
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyutils
+  
+  version: 1.5.9
 - 
   category: sys-libs
   description: ""
@@ -40,10 +68,17 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: mit-krb5
+  name: libevent
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
   
   version: ""
 - 
@@ -54,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-rpc
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpcbind
+  name: libxml2
   
   version: ""
 - 
@@ -82,17 +110,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
+  name: selinux-rpc
   
   version: ""
 - 
@@ -100,13 +121,6 @@ requires:
   description: ""
   license: ""
   name: libtirpc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
   
   version: ""
 - 
@@ -117,26 +131,12 @@ requires:
   
   version: 0.2.4
 - 
-  category: net-nds
+  category: app-crypt
   description: ""
   license: ""
-  name: openldap
+  name: mit-krb5
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyutils
-  
-  version: 1.5.9
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.3"
 uri:
 - mirror://sourceforge/nfs/nfs-utils-2.4.2.tar.bz2
 use_flags:

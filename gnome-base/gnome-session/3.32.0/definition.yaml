@@ -8,9 +8,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: libX11
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa[egl,gles2,X(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.76"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.18.0
 - 
   category: gnome-base
   description: ""
@@ -18,6 +46,20 @@ requires:
   name: gnome-desktop
   
   version: "3.18"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: "0.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libepoxy
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -36,7 +78,7 @@ requires:
   category: x11-misc
   description: ""
   license: ""
-  name: xdg-user-dirs-gtk
+  name: xdg-user-dirs
   
   version: ""
 - 
@@ -50,30 +92,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.18.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: libSM
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: "0.10"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.76"
 - 
   category: gnome-base
   description: ""
@@ -82,17 +103,10 @@ requires:
   
   version: 0.1.7
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: consolekit
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa[egl,gles2,X(+)]
+  name: libICE
   
   version: ""
 - 
@@ -102,20 +116,6 @@ requires:
   name: systemd
   
   version: "183"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libepoxy
-  
-  version: ""
 - 
   category: sys-auth
   description: ""
@@ -134,7 +134,7 @@ requires:
   category: x11-misc
   description: ""
   license: ""
-  name: xdg-user-dirs
+  name: xdg-user-dirs-gtk
   
   version: ""
 uri: []

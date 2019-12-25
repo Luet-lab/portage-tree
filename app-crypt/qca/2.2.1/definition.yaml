@@ -5,12 +5,12 @@ license: LGPL-2.1
 name: qca
 requires:
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtcore
+  name: openssl
   
-  version: ""
+  version: 1.0.1
 - 
   category: dev-libs
   description: ""
@@ -19,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: gnupg
+  name: libgcrypt
   
   version: ""
 - 
@@ -43,7 +43,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: pkcs11-helper
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
   
   version: ""
 - 
@@ -57,23 +71,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: pkcs11-helper
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: cyrus-sasl
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1
 uri:
 - mirror://kde/stable/qca/2.2.1/qca-2.2.1.tar.xz
 use_flags:

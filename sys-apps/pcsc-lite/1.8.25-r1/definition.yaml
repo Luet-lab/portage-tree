@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-crypt
-  description: ""
-  license: ""
-  name: ccid
-  
-  version: 1.4.1-r1
-- 
   category: <sys-apps
   description: ""
   license: ""
@@ -21,17 +14,17 @@ conflicts:
   name: openrc
   
   version: 0.11.8
+- 
+  category: <app-crypt
+  description: ""
+  license: ""
+  name: ccid
+  
+  version: 1.4.1-r1
 description: PC/SC Architecture smartcard middleware library
 license: BSD ISC MIT GPL-3+ GPL-2
 name: pcsc-lite
 requires:
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.111"
 - 
   category: sec-policy
   description: ""
@@ -53,6 +46,13 @@ requires:
   name: udev
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.111"
 uri:
 - https://pcsclite.apdu.fr/files/pcsc-lite-1.8.25.tar.bz2
 use_flags:

@@ -5,6 +5,13 @@ license: GPL-2
 name: pacemaker
 requires:
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: docbook-xsl-stylesheets
+  
+  version: ""
+- 
   category: sys-cluster
   description: ""
   license: ""
@@ -15,9 +22,9 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: heartbeat
+  name: corosync
   
-  version: 3.0.0
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -26,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: net-analyzer
   description: ""
   license: ""
-  name: docbook-xsl-stylesheets
+  name: net-snmp
   
   version: ""
 - 
@@ -57,16 +64,9 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: corosync
+  name: heartbeat
   
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
+  version: 3.0.0
 uri:
 - https://github.com/ClusterLabs/pacemaker/archive/Pacemaker-1.1.19.tar.gz
 use_flags:

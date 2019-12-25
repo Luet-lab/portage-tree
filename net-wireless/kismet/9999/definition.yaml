@@ -5,17 +5,10 @@ license: GPL-2
 name: kismet
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: protobuf-python
+  name: libnl
   
   version: ""
 - 
@@ -26,31 +19,31 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libmicrohttpd
+  name: elfutils
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libpcap
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
+  name: zlib
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: protobuf-c
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: ubertooth
   
   version: ""
 - 
@@ -68,17 +61,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: elfutils
+  name: libusb
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcap
+  name: libpcre
   
   version: ""
 - 
@@ -103,17 +96,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libnl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf-c
+  name: libpcap
   
   version: ""
 - 
@@ -124,18 +110,41 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: protobuf-python
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
 uri: []
 use_flags:
+- libusb
 - lm-sensors
-- mousejack
 - networkmanager
 - +pcre
+- rtlsdr
 - selinux
 - +suid
+- ubertooth
 version: "9999"

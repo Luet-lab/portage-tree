@@ -5,17 +5,10 @@ license: GPL-2+
 name: cryptsetup
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux-2.31-r1[static-libs(+)]
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: nettle-2.4[static-libs(+)]
+  name: libgcrypt
   
   version: ""
 - 
@@ -23,62 +16,6 @@ requires:
   description: ""
   license: ""
   name: libpwquality[static-libs(+)]
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2[static-libs(+)]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: 2.31-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error[static-libs(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt[static-libs(+)]
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: argon2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
   
   version: ""
 - 
@@ -92,20 +29,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: "2.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: json-c
   
   version: ""
@@ -113,7 +36,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: libgpg-error[static-libs(+)]
   
   version: ""
 - 
@@ -131,10 +54,87 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: "2.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: argon2
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2[static-libs(+)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: 2.31-r1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux-2.31-r1[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle-2.4[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: popt[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

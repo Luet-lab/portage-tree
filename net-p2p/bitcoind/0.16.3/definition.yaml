@@ -5,12 +5,12 @@ license: MIT
 name: bitcoind
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zeromq
+  name: boost
   
-  version: ""
+  version: 1.52.0
 - 
   category: dev-libs
   description: ""
@@ -19,10 +19,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: bitcoin-leveldb
+  name: univalue
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -33,10 +40,24 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: zeromq
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libsecp256k1
+  
+  version: 0.0.0_pre20151118
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: bitcoin-leveldb
   
   version: ""
 - 
@@ -53,27 +74,6 @@ requires:
   name: miniupnpc
   
   version: 1.9.20150916
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: 1.52.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsecp256k1
-  
-  version: 0.0.0_pre20151118
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: univalue
-  
-  version: ""
 uri:
 - https://github.com/bitcoin/bitcoin/archive/49e34e288005a5b144a642e197b628396f5a0765.tar.gz
   -> bitcoin-v0.16.3.tar.gz

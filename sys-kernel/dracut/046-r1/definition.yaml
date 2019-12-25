@@ -12,10 +12,10 @@ license: GPL-2
 name: dracut
 requires:
 - 
-  category: sec-policy
+  category: virtual
   description: ""
   license: ""
-  name: selinux-dracut
+  name: udev
   
   version: ""
 - 
@@ -23,6 +23,27 @@ requires:
   description: ""
   license: ""
   name: pkgconfig
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: "4.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.21"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dracut
   
   version: ""
 - 
@@ -57,35 +78,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libsepol
+  name: libselinux
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: "4.0"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.21"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libsepol
   
   version: ""
 uri:

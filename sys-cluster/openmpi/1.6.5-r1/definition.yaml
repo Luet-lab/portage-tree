@@ -1,6 +1,27 @@
 category: sys-cluster
 conflicts:
 - 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpich
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpich2
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: pmix
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -18,28 +39,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
   name: mpiexec
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: pmix
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpich2
   
   version: ""
 description: A high-performance message passing library (MPI)
@@ -47,17 +47,10 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: hwloc
-  
-  version: "2"
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
+  name: libltdl
   
   version: ""
 - 
@@ -67,6 +60,34 @@ requires:
   name: dapl
   
   version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: "2"
 - 
   category: sys-cluster
   description: ""
@@ -82,17 +103,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
+  category: sys-fabric
   description: ""
   license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
+  name: infinipath-psm
   
   version: ""
 - 
@@ -100,20 +114,6 @@ requires:
   description: ""
   license: ""
   name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
   
   version: ""
 uri:

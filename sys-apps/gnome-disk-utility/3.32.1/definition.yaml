@@ -5,19 +5,19 @@ license: GPL-2+
 name: gnome-disk-utility
 requires:
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libpwquality
+  name: udisks
   
-  version: 1.0.0
+  version: 2.7.6
 - 
-  category: media-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: libdvdread
+  name: libsecret
   
-  version: 4.2.0
+  version: "0.7"
 - 
   category: app-arch
   description: ""
@@ -26,13 +26,6 @@ requires:
   
   version: 5.0.5
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: "3.8"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -40,40 +33,12 @@ requires:
   
   version: 3.16.0
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.1"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libpwquality
   
-  version: "2.31"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.7"
+  version: 1.0.0
 - 
   category: x11-libs
   description: ""
@@ -89,19 +54,54 @@ requires:
   
   version: "209"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: "3.8"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.31"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.1"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvdread
+  
+  version: 4.2.0
+- 
   category: x11-themes
   description: ""
   license: ""
   name: adwaita-icon-theme
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: 2.7.6
 uri: []
 use_flags:
 - fat

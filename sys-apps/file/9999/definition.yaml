@@ -15,14 +15,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libseccomp
   
-  version: 1.2.8-r1
+  version: ""
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libseccomp
+  name: bzip2
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
@@ -32,8 +39,17 @@ requires:
   name: setuptools
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
 uri: []
 use_flags:
+- bzip2
+- lzma
 - python
 - seccomp
 - static-libs

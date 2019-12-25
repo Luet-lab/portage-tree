@@ -5,19 +5,12 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: sec-policy
+  category: app-misc
   description: ""
   license: ""
-  name: selinux-mutt
+  name: mime-types
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.3"
 - 
   category: dev-db
   description: ""
@@ -26,12 +19,19 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: qdbm
+  name: krb5
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
 - 
   category: dev-libs
   description: ""
@@ -39,6 +39,13 @@ requires:
   name: cyrus-sasl
   
   version: "2"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -54,24 +61,24 @@ requires:
   
   version: 0.9.6
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libressl
+  name: db
   
-  version: ""
+  version: "6.3"
 - 
-  category: app-misc
+  category: dev-db
   description: ""
   license: ""
-  name: mime-types
+  name: kyotocabinet
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
+  name: qdbm
   
   version: ""
 - 
@@ -82,17 +89,31 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: net-dns
   description: ""
   license: ""
-  name: gpgme
+  name: libidn
   
-  version: 0.9.0
+  version: ""
 - 
-  category: sys-libs
+  category: net-mail
   description: ""
   license: ""
-  name: ncurses
+  name: notmuch
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mutt
   
   version: ""
 - 
@@ -110,33 +131,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gnutls
+  name: gpgme
   
-  version: 1.0.17
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
-  
-  version: ""
+  version: 0.9.0
 uri:
 - https://github.com/neomutt/neomutt/archive/20191207.tar.gz -> neomutt-20191207.tar.gz
 use_flags:

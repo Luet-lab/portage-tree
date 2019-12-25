@@ -5,13 +5,6 @@ license: LGPL-2.1+
 name: fwupd
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgusb
-  
-  version: 0.2.9
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -19,10 +12,80 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: elogind
+  name: systemd
+  
+  version: "211"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: gcab
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 1.2.12
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsmbios
+  
+  version: 2.4.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.4.4.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: thunderbolt-software-user-space
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
@@ -33,45 +96,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxmlb
+  name: glib
   
-  version: 0.1.7
+  version: 2.45.8
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libsmbios
+  name: libsoup
   
-  version: 2.4.0
+  version: 2.51.92
 - 
-  category: sys-boot
+  category: app-crypt
   description: ""
   license: ""
-  name: gnu-efi
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gcab
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
+  name: gpgme
   
   version: ""
 - 
@@ -85,16 +127,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: pycairo
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: pygobject
   
   version: ""
 - 
-  category: virtual
+  category: sys-auth
   description: ""
   license: ""
-  name: libelf
+  name: polkit
   
-  version: ""
+  version: "0.103"
 - 
   category: sys-auth
   description: ""
@@ -103,52 +152,38 @@ requires:
   
   version: 1.0.0
 - 
-  category: dev-python
+  category: dev-db
   description: ""
   license: ""
-  name: pycairo
+  name: sqlite
   
   version: ""
 - 
-  category: net-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libsoup
-  
-  version: 2.51.92
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
+  name: elogind
   
   version: ""
 - 
-  category: x11-misc
+  category: sys-boot
   description: ""
   license: ""
-  name: colord
+  name: gnu-efi
   
-  version: 1.2.12
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxmlb
+  
+  version: 0.1.7
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.45.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error
+  name: freetype
   
   version: ""
 - 
@@ -162,49 +197,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: libgusb
   
-  version: ""
+  version: 0.2.9
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
-  
-  version: "211"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: thunderbolt-software-user-space
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.103"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.4.4.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
+  name: libelf
   
   version: ""
 uri:

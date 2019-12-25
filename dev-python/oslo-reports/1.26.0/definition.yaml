@@ -4,16 +4,16 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: jinja
   
-  version: 2.1.0
+  version: 2.9.2
 - 
   category: ~dev-python
   description: ""
   license: ""
   name: jinja
   
-  version: 2.9.2
+  version: 2.9.3
 - 
   category: ~dev-python
   description: ""
@@ -27,14 +27,14 @@ conflicts:
   license: ""
   name: jinja
   
-  version: 2.9.3
+  version: 2.9.4
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: oslo-serialization
+  name: pbr
   
-  version: 2.19.1
+  version: 2.1.0
 - 
   category: ~dev-python
   description: ""
@@ -46,13 +46,27 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: jinja
+  name: oslo-serialization
   
-  version: 2.9.4
+  version: 2.19.1
 description: generified reports for openstack
 license: Apache-2.0
 name: oslo-reports
 requires:
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: psutil
+  
+  version: 3.2.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
 - 
   category: dev-python
   description: ""
@@ -78,9 +92,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: oslo-utils
   
-  version: 2.0.0
+  version: 3.33.0
 - 
   category: dev-python
   description: ""
@@ -88,20 +102,6 @@ requires:
   name: oslo-serialization
   
   version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: psutil
-  
-  version: 3.2.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-utils
-  
-  version: 3.33.0
 uri:
 - mirror://pypi/o/oslo.reports/oslo.reports-1.26.0.tar.gz
 use_flags:

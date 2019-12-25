@@ -5,6 +5,20 @@ license: MIT
 name: corsix-th
 requires:
 - 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: 2.2.3
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: "11.1"
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -12,12 +26,12 @@ requires:
   
   version: "5.1"
 - 
-  category: dev-lua
+  category: media-libs
   description: ""
   license: ""
-  name: lpeg
+  name: sdl2-mixer[midi?]
   
-  version: "0.9"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -26,12 +40,12 @@ requires:
   
   version: 2.5.3
 - 
-  category: media-video
+  category: media-libs
   description: ""
   license: ""
-  name: libav
+  name: libsdl2
   
-  version: "11.1"
+  version: ""
 - 
   category: dev-lua
   description: ""
@@ -43,30 +57,16 @@ requires:
   category: dev-lua
   description: ""
   license: ""
+  name: lpeg
+  
+  version: "0.9"
+- 
+  category: dev-lua
+  description: ""
+  license: ""
   name: luasocket
   
   version: 3.0_rc1-r4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sdl2-mixer[midi?]
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: 2.2.3
 uri:
 - https://github.com/CorsixTH/CorsixTH/archive/v.tar.gz -> corsix-th-0.62.tar.gz
 use_flags:

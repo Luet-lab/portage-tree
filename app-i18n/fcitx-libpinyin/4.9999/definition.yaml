@@ -5,6 +5,13 @@ license: GPL-2+ GPL-3+
 name: fcitx-libpinyin
 requires:
 - 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: fcitx
+  
+  version: 4.2.9
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -12,10 +19,17 @@ requires:
   
   version: ""
 - 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: fcitx-qt5
+  
+  version: "1.1"
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtdbus
   
   version: "5.7"
 - 
@@ -40,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: app-i18n
+  category: virtual
   description: ""
   license: ""
-  name: fcitx-qt5
+  name: libintl
   
-  version: "1.1"
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -57,7 +71,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtgui
   
   version: "5.7"
 - 
@@ -74,20 +88,6 @@ requires:
   name: qtwidgets
   
   version: "5.7"
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: fcitx
-  
-  version: 4.2.9
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
 uri:
 - https://download.fcitx-im.org/data/model.text.20161206.tar.gz -> fcitx-data-model.text.20161206.tar.gz
 use_flags:

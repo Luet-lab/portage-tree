@@ -5,12 +5,26 @@ license: GPL-3+
 name: epiphany
 requires:
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: "0.35"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: json-glib
   
-  version: ""
+  version: 1.2.4
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.14"
 - 
   category: dev-libs
   description: ""
@@ -19,6 +33,20 @@ requires:
   
   version: 2.52.0
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: "3.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: 3.5.5
+- 
   category: net-libs
   description: ""
   license: ""
@@ -26,24 +54,17 @@ requires:
   
   version: 2.21.92
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
-  
-  version: 2.36.5
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
+  name: icu
   
   version: ""
 - 
-  category: x11-themes
+  category: dev-libs
   description: ""
   license: ""
-  name: adwaita-icon-theme
+  name: gmp
   
   version: ""
 - 
@@ -61,33 +82,12 @@ requires:
   
   version: "2.48"
 - 
-  category: dev-libs
+  category: x11-themes
   description: ""
   license: ""
-  name: libxml2
-  
-  version: 2.6.12
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: 3.5.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
+  name: adwaita-icon-theme
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 1.2.4
 - 
   category: x11-libs
   description: ""
@@ -95,13 +95,6 @@ requires:
   name: gtk+
   
   version: 3.22.13
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: "3.2"
 - 
   category: x11-libs
   description: ""
@@ -113,9 +106,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: libdazzle
   
-  version: 1.1.7
+  version: 3.28.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -124,26 +124,26 @@ requires:
   
   version: 0.0.1
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.36.5
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libdazzle
+  name: libxml2
   
-  version: 3.28.0
+  version: 2.6.12
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: iso-codes
+  name: libxslt
   
-  version: "0.35"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.14"
+  version: 1.1.7
 uri: []
 use_flags:
 - test

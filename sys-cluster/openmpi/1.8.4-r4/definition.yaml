@@ -4,6 +4,13 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+  name: mpiexec
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: mpich2
   
   version: ""
@@ -21,17 +28,24 @@ conflicts:
   name: mpich
   
   version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpiexec
-  
-  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -40,10 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: sys-cluster
   description: ""
   license: ""
-  name: ofed
+  name: torque
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
   
   version: ""
 - 
@@ -61,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: dev-util
+  category: sys-cluster
   description: ""
   license: ""
-  name: nvidia-cuda-toolkit
+  name: slurm
   
   version: ""
 - 
@@ -75,31 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
+  name: ofed
   
   version: ""
 uri:

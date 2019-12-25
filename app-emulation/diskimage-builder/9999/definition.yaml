@@ -4,9 +4,9 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: Babel
   
-  version: 2.1.0
+  version: 2.4.0
 - 
   category: dev-python
   description: ""
@@ -18,32 +18,18 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: Babel
+  name: pbr
   
-  version: 2.4.0
+  version: 2.1.0
 description: Golden Disk Image builder.
 license: Apache-2.0
 name: diskimage-builder
 requires:
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
   license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: six
-  
-  version: 1.10.0
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
+  name: gptfdisk
   
   version: ""
 - 
@@ -57,14 +43,35 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: flake8
+  name: networkx
   
-  version: 2.5.4
+  version: "1.10"
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: multipath-tools
+  name: dosfstools
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: networkx
+  
+  version: "2.3"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: flake8
+  
+  version: 2.6.0
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 - 
@@ -82,27 +89,6 @@ requires:
   
   version: 1.20.0
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: networkx
-  
-  version: "1.10"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: networkx
-  
-  version: "2.3"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: flake8
-  
-  version: 2.6.0
-- 
   category: app-emulation
   description: ""
   license: ""
@@ -110,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: gptfdisk
+  name: multipath-tools
   
   version: ""
 - 
@@ -123,6 +109,20 @@ requires:
   name: pbr
   
   version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: flake8
+  
+  version: 2.5.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.10.0
 uri: []
 use_flags:
 - ""

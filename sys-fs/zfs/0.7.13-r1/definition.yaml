@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
-- 
   category: =sys-apps
   description: ""
   license: ""
@@ -15,12 +8,19 @@ conflicts:
   
   version: ""
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: genkernel
   
-  version: 7.1.0
+  version: 3.5.1.1
 - 
   category: sys-fs
   description: ""
@@ -32,16 +32,16 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel
+  name: genkernel-next
   
-  version: 3.5.1.1
+  version: "67"
 - 
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
+  name: bliss-initramfs
   
-  version: "67"
+  version: 7.1.0
 - 
   category: <sys-kernel
   description: ""
@@ -54,10 +54,10 @@ license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: app-misc
+  category: virtual
   description: ""
   license: ""
-  name: pax-utils
+  name: awk
   
   version: ""
 - 
@@ -68,41 +68,6 @@ requires:
   
   version: 0.7.13
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -110,10 +75,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: app-misc
   description: ""
   license: ""
-  name: cpio
+  name: pax-utils
   
   version: ""
 - 
@@ -131,17 +96,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: modutils
+  name: util-linux
   
   version: ""
 - 
-  category: virtual
+  category: sys-block
   description: ""
   license: ""
-  name: awk
+  name: parted
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
   
   version: ""
 - 
@@ -149,6 +121,34 @@ requires:
   description: ""
   license: ""
   name: procps
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

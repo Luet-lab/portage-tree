@@ -5,31 +5,31 @@ license: GPL-2
 name: munin
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-DNS
+  name: HTML-Template
   
   version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: rrdtool
+  
+  version: "1.3"
 - 
   category: dev-perl
   description: ""
   license: ""
   name: Net-SNMP
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Cache-Cache
   
   version: ""
 - 
@@ -43,56 +43,28 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: perl-ldap
+  name: HTTP-Date
   
   version: ""
 - 
-  category: net-analyzer
+  category: dev-perl
   description: ""
   license: ""
-  name: rrdtool
+  name: libwww-perl
   
-  version: "1.3"
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-ldap
+  
+  version: ""
 - 
   category: media-fonts
   description: ""
   license: ""
   name: dejavu
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-munin
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI-Fast
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-Pg
   
   version: ""
 - 
@@ -103,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: freeipmi
+  name: perl
   
-  version: 1.1.6-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.5"
+  version: ""
 - 
   category: dev-perl
   description: ""
@@ -134,7 +99,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: perl-Time-HiRes
+  name: perl-Digest-MD5
   
   version: ""
 - 
@@ -155,77 +120,35 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: HTTP-Date
+  name: IO-Socket-INET6
   
   version: ""
 - 
-  category: acct-user
+  category: sys-libs
   description: ""
   license: ""
-  name: munin
+  name: freeipmi
   
-  version: ""
+  version: 1.1.6-r1
 - 
-  category: dev-lang
+  category: dev-perl
   description: ""
   license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Digest-MD5
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache[apache2_modules_cgi,apache2_modules_cgid,apache2_modules_rewrite]
+  name: DBD-mysql
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: HTML-Template
+  name: URI
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: ssh
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: cron
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: munin
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Date-Manip
+  name: awk
   
   version: ""
 - 
@@ -239,28 +162,56 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Cache-Memcached
+  name: List-MoreUtils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Time-HiRes
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-mysql
+  name: Cache-Cache
   
   version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: postgresql
+  name: jre
   
-  version: ""
+  version: "1.5"
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: IO-Socket-INET6
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: cron
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: munin
   
   version: ""
 - 
@@ -268,6 +219,55 @@ requires:
   description: ""
   license: ""
   name: Net-Netmask
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache[apache2_modules_cgi,apache2_modules_cgid,apache2_modules_rewrite]
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: sphinx
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Cache-Memcached
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: CGI-Fast
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: munin
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Log-Log4perl
   
   version: ""
 - 
@@ -292,45 +292,17 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: sphinx
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: URI
+  name: Net-DNS
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: List-MoreUtils
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Log-Log4perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
+  name: perl-MIME-Base64
   
   version: ""
 - 
@@ -341,10 +313,38 @@ requires:
   
   version: "3"
 - 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-munin
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Date-Manip
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
   name: Net-IRC
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ssh
   
   version: ""
 uri:

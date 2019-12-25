@@ -33,20 +33,6 @@ requires:
   
   version: "2.9"
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.9"
-- 
   category: dev-python
   description: ""
   license: ""
@@ -54,45 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: 1.5.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsemanage
-  
-  version: "2.9"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: pam
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
   
   version: ""
 - 
@@ -109,11 +60,61 @@ requires:
   name: dbus-glib
   
   version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: 1.5.1
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "2.9"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsemanage
+  
+  version: "2.9"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://github.com/SELinuxProject/selinux/releases/download/20190315/policycoreutils-2.9.tar.gz
 - https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2
 use_flags:
 - audit
-- pam
 - dbus
+- pam
+- split-usr
 version: "2.9"

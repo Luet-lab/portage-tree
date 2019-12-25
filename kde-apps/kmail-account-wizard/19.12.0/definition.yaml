@@ -4,14 +4,14 @@ conflicts:
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-common-libs
+  name: kdepim-l10n
   
   version: ""
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-l10n
+  name: kdepim-common-libs
   
   version: ""
 - 
@@ -26,10 +26,38 @@ license: GPL-2+ handbook? ( FDL-1.2+ )
 name: kmail-account-wizard
 requires:
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
+  
+  version: 5.63.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: 5.12.3
+- 
   category: kde-apps
   description: ""
   license: ""
-  name: kidentitymanagement
+  name: kldap
   
   version: ""
 - 
@@ -39,97 +67,6 @@ requires:
   name: libkdepim
   
   version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kitemviews
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kross
-  
-  version: 5.63.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kmailtransport
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knewstuff
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: 5.63.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcmutils
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktexteditor
-  
-  version: 5.63.0
 - 
   category: dev-qt
   description: ""
@@ -141,14 +78,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kross
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
+  name: kxmlgui
   
   version: 5.63.0
 - 
@@ -162,16 +99,9 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwallet
+  name: kcmutils
   
   version: 5.63.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: libkleo
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -183,35 +113,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: 5.63.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kldap
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcrash
+  name: kitemviews
   
   version: 5.63.0
 - 
@@ -228,6 +130,104 @@ requires:
   name: akonadi
   
   version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: libkleo
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kmailtransport
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcrash
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knewstuff
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kidentitymanagement
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwallet
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kservice
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktexteditor
+  
+  version: 5.63.0
 uri: []
 use_flags:
 - ""

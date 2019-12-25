@@ -1,6 +1,13 @@
 category: sys-apps
 conflicts:
 - 
+  category: <app-portage
+  description: ""
+  license: ""
+  name: gentoolkit
+  
+  version: 0.4.6
+- 
   category: <app-admin
   description: ""
   license: ""
@@ -14,52 +21,17 @@ conflicts:
   name: repoman
   
   version: 2.3.10
-- 
-  category: <app-portage
-  description: ""
-  license: ""
-  name: gentoolkit
-  
-  version: 0.4.6
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
 - 
-  category: dev-lang
+  category: app-crypt
   description: ""
   license: ""
-  name: python-exec
+  name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: sys-freebsd
-  description: ""
-  license: ""
-  name: freebsd-bin
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: 0.1.17
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
 - 
   category: sys-apps
   description: ""
@@ -68,19 +40,12 @@ requires:
   
   version: "0.3"
 - 
-  category: app-arch
+  category: app-admin
   description: ""
   license: ""
-  name: tar
+  name: eselect
   
-  version: "1.27"
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gemato
-  
-  version: "14"
+  version: "1.2"
 - 
   category: app-crypt
   description: ""
@@ -96,12 +61,26 @@ requires:
   
   version: ""
 - 
-  category: app-admin
+  category: sys-apps
   description: ""
   license: ""
-  name: eselect
+  name: sed
   
-  version: "1.2"
+  version: 4.0.5
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
+- 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-bin
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -110,17 +89,38 @@ requires:
   
   version: "2.2"
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 0.1.17
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.0.94
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
+  
+  version: "1.27"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
+  
+  version: ""
+- 
   category: app-shells
   description: ""
   license: ""
   name: bash
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
 uri: []

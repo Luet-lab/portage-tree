@@ -5,24 +5,31 @@ license: GPL-2
 name: dracut
 requires:
 - 
-  category: virtual
+  category: app-shells
   description: ""
   license: ""
-  name: pkgconfig
+  name: bash
+  
+  version: "4.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[xattr(-)]
   
   version: ""
 - 
-  category: app-arch
+  category: sys-apps
   description: ""
   license: ""
-  name: cpio
+  name: util-linux
   
-  version: ""
+  version: "2.21"
 - 
-  category: sec-policy
+  category: dev-util
   description: ""
   license: ""
-  name: selinux-dracut
+  name: strace
   
   version: ""
 - 
@@ -50,35 +57,28 @@ requires:
   category: virtual
   description: ""
   license: ""
+  name: pkgconfig
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dracut
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
   name: udev
   
   version: ""
 - 
-  category: app-shells
+  category: app-arch
   description: ""
   license: ""
-  name: bash
-  
-  version: "4.0"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[xattr(-)]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.21"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: strace
+  name: cpio
   
   version: ""
 uri:

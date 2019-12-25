@@ -4,28 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: <mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: msmtp
+mailer
   
   version: ""
 - 
@@ -39,28 +18,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: msmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: sendmail
   
   version: ""
 - 
-  category: '>=mail-mta'
+  category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: fastforward
+  name: esmtp
   
   version: ""
 - 
@@ -74,16 +46,37 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
+  name: courier
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: fastforward
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: qmail-ldap
   
   version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
+  category: <mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -91,64 +84,22 @@ mailer
   name: mini-qmail
   
   version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
 description: A fast and secure drop-in replacement for sendmail
 license: '|| ( IBM EPL-2.0 )'
 name: postfix
 requires:
 - 
-  category: net-nds
+  category: sec-policy
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: 0.9.11
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
+  name: selinux-postfix
   
   version: ""
 - 
@@ -159,10 +110,38 @@ requires:
   
   version: "3.4"
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: 0.9.11
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: icu
   
   version: ""
 - 
@@ -176,28 +155,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: cyrus-sasl
   
-  version: 2.9.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
+  version: "2"
 - 
   category: acct-group
   description: ""
   license: ""
   name: postfix
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -208,17 +180,45 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-db
   description: ""
   license: ""
-  name: memcached
+  name: mysql-connector-c
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: 2.9.1
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "3.2"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -229,10 +229,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: net-misc
   description: ""
   license: ""
-  name: selinux-postfix
+  name: memcached
   
   version: ""
 uri:

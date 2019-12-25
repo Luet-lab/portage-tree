@@ -5,31 +5,17 @@ license: BSD Info-ZIP MIT
 name: gdal
 requires:
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: cfitsio
+  name: armadillo
   
   version: ""
 - 
-  category: sci-libs
+  category: dev-db
   description: ""
   license: ""
-  name: netcdf
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: sqlite
   
   version: ""
 - 
@@ -40,31 +26,10 @@ requires:
   
   version: 2.2.1
 - 
-  category: sci-libs
+  category: media-libs
   description: ""
   license: ""
-  name: hdf5
-  
-  version: 1.6.4
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lzma
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: ogdi
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
+  name: giflib
   
   version: ""
 - 
@@ -75,17 +40,17 @@ requires:
   
   version: ""
 - 
-  category: dev-java
+  category: dev-libs
   description: ""
   license: ""
-  name: jackcess
+  name: xerces-c
   
-  version: ""
+  version: "3.1"
 - 
-  category: media-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libpng
+  name: perl
   
   version: ""
 - 
@@ -96,122 +61,24 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: freexl
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: armadillo
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: giflib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: ogdi
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: unixODBC
+  name: oracle-instantclient
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: spatialite
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.7"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: xerces-c
-  
-  version: "3.1"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
   
   version: ""
 - 
@@ -229,17 +96,87 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-java
   description: ""
   license: ""
-  name: opencl
+  name: jackcess
   
   version: ""
 - 
-  category: dev-db
+  category: app-text
   description: ""
   license: ""
-  name: oracle-instantclient
+  name: poppler
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: freexl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: cfitsio
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5
+  
+  version: 1.6.4
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: netcdf
   
   version: ""
 - 
@@ -250,10 +187,73 @@ requires:
   
   version: "8.4"
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lzma
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zstd
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
+  name: unixODBC
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: spatialite
   
   version: ""
 uri:

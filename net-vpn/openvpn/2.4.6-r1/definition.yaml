@@ -6,20 +6,6 @@ license: GPL-2
 name: openvpn
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: mbedtls
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
@@ -34,10 +20,38 @@ requires:
   
   version: "1.11"
 - 
-  category: sec-policy
+  category: sys-apps
   description: ""
   license: ""
-  name: selinux-openvpn
+  name: net-tools
+  
+  version: 1.60_p20160215155418
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.8
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: mbedtls
   
   version: ""
 - 
@@ -47,13 +61,6 @@ requires:
   name: iproute2
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: net-tools
-  
-  version: 1.60_p20160215155418
 - 
   category: dev-libs
   description: ""
@@ -69,17 +76,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: openssl
-  
-  version: 0.9.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: selinux-openvpn
   
   version: ""
 uri:

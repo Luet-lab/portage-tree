@@ -5,6 +5,13 @@ license: GPL-2
 name: mate-system-monitor
 requires:
 - 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: "2.26"
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -12,19 +19,12 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.35"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libsigc++
   
-  version: "2"
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -43,30 +43,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: gtk+
   
-  version: "3.0"
+  version: "3.22"
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: elogind
+  name: polkit
   
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: "2.26"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
+  version: "0.97"
 - 
   category: virtual
   description: ""
@@ -74,6 +60,13 @@ requires:
   name: libintl
   
   version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: "3.8"
 - 
   category: dev-libs
   description: ""
@@ -85,7 +78,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libsigc++
+  name: libxml2
+  
+  version: "2"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.35"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libwnck
+  
+  version: "3.0"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
   
   version: ""
 - 
@@ -95,20 +109,6 @@ requires:
   name: systemd
   
   version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "3.8"
 uri: []
 use_flags:
 - elogind

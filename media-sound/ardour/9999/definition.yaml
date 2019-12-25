@@ -5,52 +5,24 @@ license: GPL-2
 name: ardour
 requires:
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: libusb
+  name: libsndfile
   
-  version: ""
+  version: 1.0.18
 - 
   category: media-libs
   description: ""
   license: ""
-  name: lilv
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomecanvas
-  
-  version: "2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsoundtouch
+  name: rubberband
   
   version: 1.6.0
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: liblo
+  name: libsigc++
   
   version: ""
 - 
@@ -64,72 +36,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: vamp-plugin-sdk
+  name: alsa-lib
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: "2.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lv2
-  
-  version: 1.4.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: raptor
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.32.0
 - 
   category: dev-cpp
   description: ""
@@ -145,10 +54,31 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: fftw
+  name: libgnomecanvas
+  
+  version: "2"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: liblo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: vamp-plugin-sdk
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
   
   version: ""
 - 
@@ -159,12 +89,124 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: sord
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.32.0
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: libgnomecanvasmm
+  
+  version: "2.26"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: taglib
+  name: libart_lgpl
   
-  version: "1.7"
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lv2
+  
+  version: 1.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: raptor
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lilv
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.10.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: aubio
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: suil
+  
+  version: 0.6.10
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -173,26 +215,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: liblrdf
+  name: taglib
   
-  version: 0.4.0-r20
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.18
+  version: "1.7"
 - 
   category: sys-libs
   description: ""
@@ -208,54 +236,26 @@ requires:
   
   version: 2.8.1
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: sord
+  name: jack
   
   version: ""
 - 
-  category: dev-cpp
+  category: media-libs
   description: ""
   license: ""
-  name: libgnomecanvasmm
+  name: liblrdf
   
-  version: "2.26"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.10.1
+  version: 0.4.0-r20
 - 
   category: media-libs
   description: ""
   license: ""
-  name: suil
-  
-  version: 0.6.10
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: rubberband
+  name: libsoundtouch
   
   version: 1.6.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: aubio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libart_lgpl
-  
-  version: ""
 uri: []
 use_flags:
 - altivec

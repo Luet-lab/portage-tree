@@ -8,16 +8,65 @@ requires:
   category: net-misc
   description: ""
   license: ""
+  name: dhcp
+  
+  version: "4"
+- 
+  category: net-misc
+  description: ""
+  license: ""
   name: dhcpcd
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libndp
   
   version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: dnsmasq
+  
+  version: ""
+- 
+  category: net-dialup
+  description: ""
+  license: ""
+  name: ppp
+  
+  version: 2.4.5
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: "175"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: modemmanager
+  
+  version: 0.7.991
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: 1.0.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "219"
 - 
   category: dev-libs
   description: ""
@@ -29,16 +78,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: newt
+  name: jansson
   
-  version: 0.52.15
-- 
-  category: net-dialup
-  description: ""
-  license: ""
-  name: ppp
-  
-  version: 2.4.5
+  version: "2.5"
 - 
   category: net-dns
   description: ""
@@ -54,13 +96,6 @@ requires:
   
   version: "1.2"
 - 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5"
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -68,47 +103,12 @@ requires:
   
   version: "0.106"
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: libudev
-  
-  version: "175"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
+  name: ofono
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.100"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: "2.5"
 - 
   category: net-misc
   description: ""
@@ -116,6 +116,13 @@ requires:
   name: libteam
   
   version: "1.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.100"
 - 
   category: net-misc
   description: ""
@@ -131,54 +138,33 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: sys-process
   description: ""
   license: ""
-  name: dnsmasq
+  name: audit
   
   version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: dhcp
-  
-  version: "4"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: modemmanager
-  
-  version: 0.7.991
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: newt
+  
+  version: 0.52.15
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnutls
+  name: glib
   
-  version: "2.12"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: ofono
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libndp
-  
-  version: ""
+  version: "2.40"
 - 
   category: net-misc
   description: ""
@@ -194,24 +180,59 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: 1.0.0
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: libgcrypt
   
-  version: "3.11"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: "2.12"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wpa_supplicant
+  
+  version: 0.7.3-r3
 - 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: "5"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: iwd
   
   version: ""
 - 
@@ -222,33 +243,12 @@ requires:
   
   version: ""
 - 
-  category: net-wireless
+  category: dev-libs
   description: ""
   license: ""
-  name: iwd
+  name: nss
   
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wpa_supplicant
-  
-  version: 0.7.3-r3
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "219"
+  version: "3.11"
 uri: []
 use_flags:
 - audit

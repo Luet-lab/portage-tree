@@ -5,19 +5,12 @@ license: GPL-2+
 name: xfce4-settings
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnotify
+  name: glib
   
-  version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: "5"
+  version: "2.24"
 - 
   category: media-libs
   description: ""
@@ -29,23 +22,16 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: garcon
+  name: exo
   
-  version: "0.2"
+  version: "0.11"
 - 
   category: xfce-base
   description: ""
   license: ""
-  name: xfconf
+  name: libxfce4util
   
-  version: "4.13"
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: ""
+  version: "4.12"
 - 
   category: media-libs
   description: ""
@@ -57,9 +43,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libxklavier
   
-  version: ""
+  version: "5"
 - 
   category: x11-libs
   description: ""
@@ -71,9 +57,30 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: libxfce4ui
+  name: xfconf
   
-  version: "4.12"
+  version: "4.13"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: "1.3"
 - 
   category: x11-libs
   description: ""
@@ -85,16 +92,16 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: libxfce4util
+  name: libxfce4ui
   
   version: "4.12"
 - 
-  category: xfce-base
+  category: x11-misc
   description: ""
   license: ""
-  name: exo
+  name: colord
   
-  version: "0.11"
+  version: ""
 - 
   category: x11-drivers
   description: ""
@@ -103,20 +110,6 @@ requires:
   
   version: ""
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.23
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.24"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -124,12 +117,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libXi
+  name: garcon
   
-  version: "1.3"
+  version: "0.2"
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: 0.9.23
 uri:
 - https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.1.tar.bz2
 use_flags:

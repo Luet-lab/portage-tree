@@ -5,10 +5,10 @@ license: GPL-2
 name: nagios-plugin-check_raid
 requires:
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: tw_cli
+  name: lsscsi
   
   version: ""
 - 
@@ -22,21 +22,14 @@ requires:
   category: sys-block
   description: ""
   license: ""
-  name: megacli
+  name: hpacucli
   
   version: ""
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
   license: ""
-  name: megarc
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: mpt-status
+  name: cciss_vol_status
   
   version: ""
 - 
@@ -68,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: lsscsi
+  name: tw_cli
   
   version: ""
 - 
@@ -85,14 +78,21 @@ requires:
   category: sys-block
   description: ""
   license: ""
-  name: hpacucli
+  name: megacli
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-block
   description: ""
   license: ""
-  name: cciss_vol_status
+  name: megarc
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mpt-status
   
   version: ""
 uri:
