@@ -5,38 +5,10 @@ license: icaclient
 name: icaclient
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl-compat
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: fontconfig
   
   version: ""
 - 
@@ -44,97 +16,6 @@ requires:
   description: ""
   license: ""
   name: libvorbis
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: font-misc-misc
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: font-adobe
-  
-  version: 100dpi
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: font-xfree86-type1
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
   
   version: ""
 - 
@@ -148,21 +29,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXmu
   
   version: ""
 - 
-  category: dev-libs
+  category: media-fonts
   description: ""
   license: ""
-  name: glib
+  name: font-misc-misc
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: font-xfree86-type1
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
   
   version: ""
 - 
@@ -173,10 +82,24 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
   
   version: ""
 - 
@@ -190,7 +113,42 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libogg
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl-compat
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
 - 
@@ -198,6 +156,34 @@ requires:
   description: ""
   license: ""
   name: libXaw
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -211,16 +197,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXinerama
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXmu
+  name: libXrender
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: font-adobe
+  
+  version: 100dpi
 - 
   category: media-fonts
   description: ""
@@ -236,10 +236,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libsoup
+  name: libogg
   
   version: ""
 - 
@@ -250,10 +250,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: glib
   
   version: ""
 uri: []

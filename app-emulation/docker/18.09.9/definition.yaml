@@ -5,33 +5,12 @@ license: Apache-2.0
 name: docker
 requires:
 - 
-  category: app-arch
+  category: dev-db
   description: ""
   license: ""
-  name: xz-utils
+  name: sqlite
   
-  version: "4.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: containerd
-  
-  version: 1.2.6
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker-proxy
-  
-  version: 0.8.0_p20190513
+  version: 3.7.9
 - 
   category: sys-fs
   description: ""
@@ -54,26 +33,26 @@ requires:
   
   version: "1.7"
 - 
-  category: sys-process
+  category: app-arch
   description: ""
   license: ""
-  name: procps
+  name: xz-utils
   
-  version: ""
+  version: "4.9"
 - 
-  category: sys-process
+  category: app-emulation
   description: ""
   license: ""
-  name: tini
+  name: containerd
   
-  version: 0.18.0
+  version: 1.2.6
 - 
-  category: dev-db
+  category: app-emulation
   description: ""
   license: ""
-  name: sqlite
+  name: docker-proxy
   
-  version: 3.7.9
+  version: 0.8.0_p20190513
 - 
   category: sys-libs
   description: ""
@@ -88,6 +67,27 @@ requires:
   name: iptables
   
   version: "1.4"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: tini
+  
+  version: 0.18.0
 uri:
 - https://github.com/docker/docker-ce/archive/v18.09.9.tar.gz -> docker-18.09.9.tar.gz
 use_flags:

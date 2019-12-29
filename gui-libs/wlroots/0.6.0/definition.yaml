@@ -5,12 +5,12 @@ license: MIT
 name: wlroots
 requires:
 - 
-  category: virtual
+  category: sys-auth
   description: ""
   license: ""
-  name: libudev
+  name: elogind
   
-  version: ""
+  version: "237"
 - 
   category: sys-apps
   description: ""
@@ -19,17 +19,31 @@ requires:
   
   version: "237"
 - 
-  category: x11-libs
+  category: x11-base
   description: ""
   license: ""
-  name: pixman
+  name: xorg-server
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-wm
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
   
   version: ""
 - 
@@ -43,35 +57,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: xcb-util-image
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 1.9.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
   
   version: ""
 - 
@@ -92,23 +78,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: pixman
   
   version: ""
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: elogind
-  
-  version: "237"
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
+  name: xcb-util-wm
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libinput
+  
+  version: 1.9.0
 uri:
 - https://github.com/swaywm/wlroots/archive/0.6.0.tar.gz -> wlroots-0.6.0.tar.gz
 use_flags:

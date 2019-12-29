@@ -26,6 +26,13 @@ license: GPL-2
 name: lvm2
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: "208"
+- 
   category: sys-block
   description: ""
   license: ""
@@ -57,16 +64,23 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: systemd
   
-  version: "2.16"
+  version: "205"
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: makedev
+  name: baselayout
   
-  version: ""
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.16"
 - 
   category: dev-libs
   description: ""
@@ -78,23 +92,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: makedev
   
-  version: "205"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: "208"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: "2.2"
+  version: ""
 uri: []
 use_flags:
 - readline

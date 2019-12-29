@@ -1,49 +1,35 @@
 category: mail-client
 conflicts:
 - 
-  category: mail-client
-  description: ""
-  license: ""
-  name: pine
-  
-  version: ""
-- 
   category: <=net-mail
   description: ""
   license: ""
   name: uw-imap
   
   version: 2004g
+- 
+  category: mail-client
+  description: ""
+  license: ""
+  name: pine
+  
+  version: ""
 description: An easy to use text-based based mail and news client
 license: Apache-2.0
 name: alpine
 requires:
 - 
-  category: dev-libs
+  category: net-nds
   description: ""
   license: ""
-  name: libressl
+  name: openldap
   
   version: ""
 - 
-  category: net-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: c-client-2007f-r4[chappa=]
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: mit-krb5
   
   version: ""
 - 
@@ -68,19 +54,33 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: dev-libs
   description: ""
   license: ""
-  name: openldap
+  name: libressl
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: mit-krb5
+  name: openssl
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: c-client-2007f-r4[chappa=]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.1"
 uri:
 - ftp://ftp.cac.washington.edu/alpine/alpine-2.00.tar.bz2
 - -> alpine-2.00-chappa-115-all.patch.gz )

@@ -5,26 +5,12 @@ license: GPL-2+ LGPL-2+
 name: thunar
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: gtk+
   
-  version: "0.7"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: 0.20-r1
+  version: "3.22"
 - 
   category: xfce-base
   description: ""
@@ -40,33 +26,26 @@ requires:
   
   version: 0.6.19
 - 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: xfce4-panel
-  
-  version: "4.10"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: gobject-introspection
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gvfs
+  name: libnotify
   
-  version: 1.18.3
+  version: "0.7"
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: glib
+  name: perl
   
-  version: "2.42"
+  version: "5.6"
 - 
   category: xfce-base
   description: ""
@@ -78,9 +57,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: libgudev
   
-  version: "6"
+  version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.12"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: xfce4-panel
+  
+  version: "4.10"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: 0.20-r1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: 1.18.3
 - 
   category: virtual
   description: ""
@@ -88,6 +95,13 @@ requires:
   name: udev
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
 - 
   category: x11-libs
   description: ""
@@ -103,12 +117,12 @@ requires:
   
   version: "0.12"
 - 
-  category: xfce-base
+  category: dev-libs
   description: ""
   license: ""
-  name: libxfce4ui
+  name: libpcre
   
-  version: "4.12"
+  version: "6"
 - 
   category: x11-misc
   description: ""
@@ -116,20 +130,6 @@ requires:
   name: shared-mime-info
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
 uri:
 - https://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 use_flags:

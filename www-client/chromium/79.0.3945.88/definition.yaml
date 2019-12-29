@@ -1,19 +1,19 @@
 category: www-client
 conflicts:
 - 
-  category: <x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-drivers
-  
-  version: "331.20"
-- 
   category: <www-plugins
   description: ""
   license: ""
   name: chrome-binary-plugins
   
   version: "57"
+- 
+  category: <x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-drivers
+  
+  version: "331.20"
 - 
   category: =net-fs
   description: ""
@@ -26,66 +26,66 @@ license: BSD
 name: chromium
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: "2.26"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: openh264
   
-  version: 2.4.0
+  version: 1.6.0
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libjpeg-turbo
+  name: libXcomposite
   
   version: ""
 - 
-  category: virtual
+  category: net-print
   description: ""
   license: ""
-  name: opengl
+  name: cups
   
-  version: ""
+  version: 1.3.11
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: re2
+  name: icu
   
-  version: 0.2016.11.01
+  version: "65"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: "3.12"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: alsa-lib
   
-  version: ""
+  version: 1.0.19
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: ttf-fonts
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
+  name: pciutils
   
   version: ""
 - 
@@ -93,20 +93,6 @@ requires:
   description: ""
   license: ""
   name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
   
   version: ""
 - 
@@ -120,14 +106,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: atk
   
-  version: 2.9.4-r3
+  version: "2.26"
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: udev
+  name: libjpeg-turbo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
   
   version: ""
 - 
@@ -138,38 +131,31 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: libwebp
+  
+  version: 0.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: krb5
+  name: glib
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
+  name: freetype
   
   version: ""
 - 
@@ -183,35 +169,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXi
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: 0.4.0
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "4"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: 1.6.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: pango
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ttf-fonts
   
   version: ""
 - 
@@ -222,45 +201,24 @@ requires:
   
   version: "2.26"
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libXcomposite
+  name: dbus
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXrender
+  name: harfbuzz
   
-  version: ""
+  version: 2.4.0
 - 
-  category: x11-libs
+  category: media-sound
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
+  name: pulseaudio
   
   version: ""
 - 
@@ -278,47 +236,110 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: re2
   
-  version: 1.0.19
+  version: 0.2016.11.01
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: openh264
+  name: ffmpeg
   
-  version: 1.6.0
+  version: "4"
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: pciutils
+  name: libXcursor
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gtk+
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libXrandr
   
-  version: 1.6.0
+  version: ""
 - 
-  category: net-print
+  category: app-arch
   description: ""
   license: ""
-  name: cups
+  name: snappy
   
-  version: 1.3.11
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.9.4-r3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -327,10 +348,24 @@ requires:
   
   version: "3.26"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
   
   version: ""
 - 
@@ -341,45 +376,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnome-keyring
-  
-  version: "3.12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: "65"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libX11
   
   version: ""
 uri:

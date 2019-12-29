@@ -12,17 +12,24 @@ license: GPL-2
 name: virt-manager
 requires:
 - 
-  category: gnome-base
+  category: net-libs
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: gtk-vnc-0.3.8[gtk3(+),introspection]
   
   version: ""
 - 
-  category: dev-python
+  category: app-emulation
   description: ""
   license: ""
-  name: ipaddr
+  name: libvirt-glib
+  
+  version: 1.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -30,6 +37,27 @@ requires:
   description: ""
   license: ""
   name: pygobject
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
   
   version: ""
 - 
@@ -43,7 +71,14 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: dconf
+  name: libgnome-keyring
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -64,56 +99,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: ipaddr
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: libvirt-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: requests
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gtk-vnc-0.3.8[gtk3(+),introspection]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtksourceview
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: libvirt-glib
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: argcomplete
   
   version: ""
 - 
@@ -124,10 +117,17 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: dev-python
   description: ""
   license: ""
-  name: polkit
+  name: argcomplete
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
   
   version: ""
 uri: []

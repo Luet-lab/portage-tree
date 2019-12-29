@@ -12,17 +12,31 @@ license: Apache-2.0
 name: cups
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: acl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: 0-r1
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-cups
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
   
   version: ""
 - 
@@ -33,17 +47,38 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
   category: virtual
   description: ""
   license: ""
   name: libusb
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-cups
   
   version: ""
 - 
@@ -57,51 +92,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: dbus
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: xinetd
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.31-r2
+  version: 1.6.18-r1
 - 
   category: app-text
   description: ""
@@ -113,9 +106,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: xinetd
   
-  version: 1.6.18-r1
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.31-r2
 uri:
 - https://github.com/apple/cups/releases/download/v2.3.1/cups-2.3.1-source.tar.gz
 use_flags:

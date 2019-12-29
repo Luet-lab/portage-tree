@@ -5,12 +5,33 @@ license: GPL-3+
 name: gnome-flashback
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbfile
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-desktop
+  name: gnome-panel
   
-  version: 3.12.0
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -18,13 +39,6 @@ requires:
   name: libcanberra
   
   version: "0.13"
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: ibus
-  
-  version: 1.5.2
 - 
   category: sys-power
   description: ""
@@ -36,7 +50,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXrandr
+  
+  version: 1.5.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libxcb
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 - 
@@ -47,26 +82,33 @@ requires:
   
   version: 1.6.0
 - 
-  category: x11-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: libxkbfile
+  name: xkeyboard-config
+  
+  version: ""
+- 
+  category: x11-wm
+  description: ""
+  license: ""
+  name: metacity
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: gdk-pixbuf
   
-  version: 3.22.0
+  version: 2.32.2
 - 
-  category: sys-auth
+  category: app-i18n
   description: ""
   license: ""
-  name: polkit
+  name: ibus
   
-  version: "0.97"
+  version: 1.5.2
 - 
   category: net-wireless
   description: ""
@@ -89,26 +131,26 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: libXfixes
   
   version: ""
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: pulseaudio
+  name: gtk+
   
-  version: ""
+  version: 3.22.0
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: gnome-desktop
   
-  version: ""
+  version: 3.12.0
 - 
   category: dev-libs
   description: ""
@@ -123,48 +165,6 @@ requires:
   name: gsettings-desktop-schemas
   
   version: 3.24.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-panel
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: 2.32.2
-- 
-  category: x11-wm
-  description: ""
-  license: ""
-  name: metacity
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: 1.5.0
 uri: []
 use_flags:
 - ""

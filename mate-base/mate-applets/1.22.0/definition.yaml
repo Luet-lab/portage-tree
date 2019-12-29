@@ -12,12 +12,54 @@ license: GPL-2 FDL-1.1 LGPL-2
 name: mate-applets
 requires:
 - 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-panel
+  
+  version: 1.17.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: cpupower
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-settings-daemon
+  
+  version: "1.6"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: "2.5"
+  version: "2.50"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgtop
+  
+  version: 2.12.0
 - 
   category: gnome-extra
   description: ""
@@ -25,6 +67,13 @@ requires:
   name: gucharmap
   
   version: "3.0"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wireless-tools
+  
+  version: 28_pre9
 - 
   category: x11-libs
   description: ""
@@ -36,51 +85,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: libwnck
   
-  version: ""
+  version: "3.0"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libxml2
   
-  version: "0.74"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgtop
-  
-  version: 2.12.0
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: 28_pre9
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.1.2
+  version: "2.5"
 - 
   category: x11-libs
   description: ""
@@ -96,34 +110,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-panel
-  
-  version: 1.17.0
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -134,16 +120,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: pango
   
-  version: "3.0"
+  version: ""
 - 
-  category: sys-power
+  category: dev-libs
   description: ""
   license: ""
-  name: upower
+  name: atk
   
-  version: 0.9.23
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.74"
 - 
   category: dev-libs
   description: ""
@@ -155,7 +148,14 @@ requires:
   category: sys-power
   description: ""
   license: ""
-  name: cpupower
+  name: upower
+  
+  version: 0.9.23
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
   
   version: ""
 - 
@@ -166,12 +166,12 @@ requires:
   
   version: ""
 - 
-  category: mate-base
+  category: virtual
   description: ""
   license: ""
-  name: mate-settings-daemon
+  name: libintl
   
-  version: "1.6"
+  version: ""
 uri: []
 use_flags:
 - X

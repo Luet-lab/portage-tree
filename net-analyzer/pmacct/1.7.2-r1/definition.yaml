@@ -5,10 +5,17 @@ license: GPL-2
 name: pmacct
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -22,30 +29,9 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libpcap
+  name: zeromq
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
-  
-  version: 0.8.1-r1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: nDPI
-  
-  version: ""
+  version: 4.2.0
 - 
   category: dev-libs
   description: ""
@@ -57,23 +43,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: mongo-c-driver
-  
-  version: "0.98"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnetfilter_log
+  name: geoip
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: zeromq
-  
-  version: 4.2.0
 - 
   category: dev-libs
   description: ""
@@ -85,7 +57,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: mongo-c-driver
+  
+  version: 0.8.1-r1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: nDPI
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
   
   version: ""
 - 
@@ -96,12 +82,26 @@ requires:
   
   version: "3"
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnetfilter_log
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
+  name: mongo-c-driver
   
-  version: ""
+  version: "0.98"
 uri:
 - http://www.pmacct.net/pmacct-1.7.2.tar.gz
 use_flags:

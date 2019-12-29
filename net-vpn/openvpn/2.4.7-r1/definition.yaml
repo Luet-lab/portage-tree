@@ -6,12 +6,12 @@ license: GPL-2
 name: openvpn
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: net-tools
+  name: pam
   
-  version: 1.60_p20160215155418
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -20,12 +20,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: mbedtls
+  name: pkcs11-helper
   
-  version: ""
+  version: "1.11"
 - 
   category: dev-libs
   description: ""
@@ -55,12 +55,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: pam
+  name: net-tools
   
-  version: ""
+  version: 1.60_p20160215155418
 - 
   category: dev-libs
   description: ""
@@ -69,19 +69,19 @@ requires:
   
   version: 0.9.8
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: mbedtls
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
   name: lz4
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pkcs11-helper
-  
-  version: "1.11"
 uri:
 - https://github.com/OpenVPN/openvpn/archive/v2.4.7.tar.gz -> openvpn-2.4.7.tar.gz
 use_flags:

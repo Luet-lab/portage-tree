@@ -5,26 +5,19 @@ license: GPL-3+
 name: epiphany
 requires:
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: "0.35"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 1.2.4
-- 
   category: app-crypt
   description: ""
   license: ""
   name: libsecret
   
   version: "0.14"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.7
 - 
   category: dev-libs
   description: ""
@@ -40,19 +33,19 @@ requires:
   
   version: "3.2"
 - 
-  category: app-crypt
+  category: x11-libs
   description: ""
   license: ""
-  name: gcr
+  name: cairo
   
-  version: 3.5.5
+  version: "1.2"
 - 
-  category: net-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: webkit-gtk
+  name: gdk-pixbuf
   
-  version: 2.21.92
+  version: 2.36.5
 - 
   category: dev-libs
   description: ""
@@ -64,23 +57,44 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: json-glib
   
-  version: ""
+  version: 1.2.4
 - 
-  category: x11-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libnotify
+  name: sqlite
   
-  version: 0.5.1
+  version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libsoup
+  name: webkit-gtk
   
-  version: "2.48"
+  version: 2.21.92
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdazzle
+  
+  version: 3.28.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 0.0.1
 - 
   category: x11-themes
   description: ""
@@ -96,40 +110,33 @@ requires:
   
   version: 3.22.13
 - 
-  category: x11-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: cairo
+  name: gcr
   
-  version: "1.2"
+  version: 3.5.5
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: libdazzle
+  name: iso-codes
   
-  version: 3.28.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.0.1
+  version: "0.35"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libnotify
   
-  version: 2.36.5
+  version: 0.5.1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.48"
 - 
   category: dev-libs
   description: ""
@@ -137,13 +144,6 @@ requires:
   name: libxml2
   
   version: 2.6.12
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: 1.1.7
 uri: []
 use_flags:
 - test

@@ -5,40 +5,12 @@ license: GPL-3
 name: asymptote
 requires:
 - 
-  category: media-libs
+  category: app-editors
   description: ""
   license: ""
-  name: glm
+  name: emacs
   
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: dvisvgm
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.40"
-- 
-  category: dev-texlive
-  description: ""
-  license: ""
-  name: texlive-latexextra
-  
-  version: "2013"
+  version: "23.1"
 - 
   category: sys-libs
   description: ""
@@ -47,10 +19,10 @@ requires:
   
   version: 5.4-r5
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: mesa[X(+)]
+  name: dvisvgm
   
   version: ""
 - 
@@ -61,31 +33,24 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: 3.0.1
-- 
   category: dev-python
   description: ""
   license: ""
-  name: pycson
+  name: PyQt5
   
   version: ""
 - 
-  category: app-editors
+  category: dev-texlive
   description: ""
   license: ""
-  name: emacs
+  name: texlive-latexextra
   
-  version: "23.1"
+  version: "2013"
 - 
-  category: media-gfx
+  category: media-libs
   description: ""
   license: ""
-  name: imagemagick
+  name: freeglut
   
   version: ""
 - 
@@ -103,26 +68,33 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-python
   description: ""
   license: ""
-  name: latex-base
+  name: pycson
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freeglut
+  name: glm
   
   version: ""
 - 
-  category: media-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: glew
+  name: fftw
   
-  version: ""
+  version: 3.0.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.40"
 - 
   category: dev-libs
   description: ""
@@ -134,7 +106,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: PyQt5
+  name: numpy
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
   
   version: ""
 - 
@@ -144,6 +123,27 @@ requires:
   name: readline
   
   version: 4.3-r5
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa[X(+)]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
 uri: []
 use_flags:
 - +boehm-gc

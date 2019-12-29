@@ -5,115 +5,17 @@ license: GPL-2+
 name: mutter
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: 2.5.3
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: "3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.13"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.42"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 0.12.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.53.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.26"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
+  name: libXinerama
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: zenity
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.9"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: "136"
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
+  name: cairo-1.14[X]
   
   version: ""
 - 
@@ -134,9 +36,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libdrm
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: 0.12.0
 - 
   category: media-libs
   description: ""
@@ -148,21 +57,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: libgudev
   
-  version: 1.13.0
+  version: "232"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
-  
-  version: "0.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
+  name: libXrender
   
   version: ""
 - 
@@ -180,6 +82,62 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.53.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: "3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon-0.4.3[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: "2"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: "3.31"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: "0.4"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: "136"
+- 
   category: x11-misc
   description: ""
   license: ""
@@ -190,14 +148,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: wayland
   
-  version: "232"
+  version: 1.13.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "10.3"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 - 
@@ -211,9 +183,93 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXrandr
   
-  version: "2"
+  version: "1.5"
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: zenity
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: 2.5.3
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.13"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libinput
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.9"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.42"
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.26"
 - 
   category: x11-libs
   description: ""
@@ -225,63 +281,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon-0.4.3[X]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: "10.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.14[X]
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: "3.31"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: "1.5"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
+  name: libXcursor
   
   version: ""
 uri:

@@ -5,6 +5,20 @@ license: GPL-2
 name: gnome-user-share
 requires:
 - 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_dnssd
+  
+  version: "0.6"
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache-2.2[apache2_modules_dav,apache2_modules_dav_fs,apache2_modules_authn_file,apache2_modules_auth_digest,apache2_modules_authz_groupfile]
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -44,20 +58,6 @@ requires:
   description: ""
   license: ""
   name: libcanberra
-  
-  version: ""
-- 
-  category: www-apache
-  description: ""
-  license: ""
-  name: mod_dnssd
-  
-  version: "0.6"
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache-2.2[apache2_modules_dav,apache2_modules_dav_fs,apache2_modules_authn_file,apache2_modules_auth_digest,apache2_modules_authz_groupfile]
   
   version: ""
 uri: []

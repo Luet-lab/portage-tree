@@ -4,7 +4,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: mpiexec
   
   version: ""
 - 
@@ -18,27 +18,20 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpiexec
+mpi
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-mpi
+  name: mpich
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
 - 
   category: sys-apps
   description: ""
@@ -47,10 +40,38 @@ requires:
   
   version: 2.0.2
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
   category: sys-cluster
   description: ""
   license: ""
-  name: torque
+  name: knem
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
   
   version: ""
 - 
@@ -61,12 +82,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-cluster
   description: ""
   license: ""
-  name: jre
+  name: slurm
   
-  version: "1.6"
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -78,14 +99,7 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
+  name: torque
   
   version: ""
 - 
@@ -96,24 +110,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
-- 
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
+  name: librdmacm
   
   version: ""
 uri:

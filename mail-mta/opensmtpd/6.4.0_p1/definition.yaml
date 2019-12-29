@@ -4,13 +4,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: mini-qmail
   
   version: ""
@@ -18,7 +11,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
   
   version: ""
 - 
@@ -39,28 +46,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: courier
   
   version: ""
 - 
@@ -74,7 +60,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
   
   version: ""
 description: Lightweight but featured SMTP daemon from OpenBSD
@@ -82,10 +82,17 @@ license: ISC BSD BSD-1 BSD-2 BSD-4
 name: opensmtpd
 requires:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libasr
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: db
   
   version: ""
 - 
@@ -93,27 +100,6 @@ requires:
   description: ""
   license: ""
   name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: fts-standalone
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 - 
@@ -131,17 +117,31 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: db
+  name: libressl
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libasr
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: fts-standalone
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 uri:

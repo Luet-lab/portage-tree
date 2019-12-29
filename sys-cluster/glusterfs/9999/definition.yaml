@@ -5,17 +5,31 @@ license: '|| ( GPL-2 LGPL-3+ )'
 name: glusterfs
 requires:
 - 
-  category: sys-fabric
+  category: sys-fs
   description: ""
   license: ""
-  name: librdmacm
+  name: lvm2
   
   version: ""
 - 
-  category: net-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libtirpc
+  name: fuse
+  
+  version: 2.7.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc[rpc(-)]
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
   
   version: ""
 - 
@@ -23,27 +37,6 @@ requires:
   description: ""
   license: ""
   name: libaio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: argp-standalone
   
   version: ""
 - 
@@ -61,24 +54,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: userspace-rcu
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: rpcsvc-proto
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
+  name: libtirpc
   
   version: ""
 - 
@@ -96,17 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-fabric
   description: ""
   license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc[rpc(-)]
+  name: librdmacm
   
   version: ""
 - 
@@ -120,21 +92,49 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: userspace-rcu
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: argp-standalone
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libxml2
   
   version: ""
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: fuse
+  name: openssl
   
-  version: 2.7.0
+  version: ""
 - 
-  category: dev-util
+  category: net-libs
   description: ""
   license: ""
-  name: systemtap
+  name: rpcsvc-proto
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 uri: []

@@ -12,31 +12,10 @@ license: GPL-2+
 name: cinnamon-screensaver
 requires:
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: "0.78"
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
+  name: pygobject
   
   version: ""
 - 
@@ -47,31 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: psutil
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.1.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
+  name: libXxf86vm
   
   version: ""
 - 
@@ -82,10 +40,17 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: pygobject
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86misc
   
   version: ""
 - 
@@ -99,7 +64,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gtk+
+  
+  version: 3.1.4
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.6.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
   
   version: ""
 - 
@@ -113,30 +92,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86misc
+  name: libX11
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libXxf86vm
+  name: pam
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: glib
+  name: psutil
   
-  version: 2.37.3
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-desktop
-  
-  version: 2.6.3
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -145,12 +117,19 @@ requires:
   
   version: 0.1.7
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: libgnomekbd
+  name: dbus-glib
   
-  version: "3.6"
+  version: "0.78"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -159,17 +138,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: x11-themes
   description: ""
   license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
+  name: adwaita-icon-theme
   
   version: ""
 - 
@@ -179,6 +151,34 @@ requires:
   name: systemd
   
   version: "31"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.37.3
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
 uri:
 - https://github.com/linuxmint/cinnamon-screensaver/archive/3.8.0.tar.gz -> cinnamon-screensaver-3.8.0.tar.gz
 use_flags:

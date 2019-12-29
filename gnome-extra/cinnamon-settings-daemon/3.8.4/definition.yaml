@@ -5,48 +5,6 @@ license: GPL-2+
 name: cinnamon-settings-daemon
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.11.2
-- 
   category: media-libs
   description: ""
   license: ""
@@ -57,21 +15,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: 3.9.10
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXfixes
   
   version: ""
 - 
@@ -82,26 +33,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-print
   description: ""
   license: ""
-  name: libXext
+  name: cups
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
+  version: "1.4"
 - 
   category: gnome-base
   description: ""
@@ -109,34 +46,6 @@ requires:
   name: libgnomekbd
   
   version: "3.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.9.10
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.11
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.36.2
 - 
   category: gnome-extra
   description: ""
@@ -152,12 +61,40 @@ requires:
   
   version: ""
 - 
-  category: x11-drivers
+  category: sys-auth
   description: ""
   license: ""
-  name: xf86-input-wacom
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.7"
 - 
   category: x11-libs
   description: ""
@@ -166,17 +103,45 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnotify
+  name: nss
   
-  version: 0.7.3
+  version: 3.11.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.36.2
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
   
   version: ""
 - 
@@ -187,12 +152,47 @@ requires:
   
   version: 0.1.27
 - 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: xf86-input-wacom
+  
+  version: ""
+- 
   category: "(\tsys-auth"
   description: ""
   license: ""
   name: elogind
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.38"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.3
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: 0.9.11
 uri:
 - https://github.com/linuxmint/cinnamon-settings-daemon/archive/3.8.4.tar.gz -> cinnamon-settings-daemon-3.8.4.tar.gz
 use_flags:

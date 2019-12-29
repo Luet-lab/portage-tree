@@ -5,45 +5,31 @@ license: HPND BSD GPL-2
 name: net-snmp
 requires:
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: bzip2
+  name: openssl
   
-  version: ""
+  version: 0.9.6d
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: zlib
   
-  version: ""
+  version: 1.1.4
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libnl
   
   version: ""
 - 
-  category: sec-policy
+  category: net-libs
   description: ""
   license: ""
-  name: selinux-snmp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: lm-sensors
+  name: libpcap
   
   version: ""
 - 
@@ -68,34 +54,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.1.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libnl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.6d
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: "7.6"
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -103,10 +61,45 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libpcap
+  name: elfutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: lm-sensors
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Tk
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-snmp
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
   
   version: ""
 - 
@@ -124,12 +117,19 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: dev-libs
   description: ""
   license: ""
-  name: Tk
+  name: libressl
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: "7.6"
 uri:
 - mirror://sourceforge/project/net-snmp/net-snmp/5.8/net-snmp-5.8.tar.gz
 - https://dev.gentoo.org/~jer/net-snmp-5.7.3-patches-3.tar.xz

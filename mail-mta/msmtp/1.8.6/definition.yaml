@@ -4,28 +4,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: courier
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: exim
   
   version: ""
 - 
@@ -46,28 +32,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: postfix
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
+  name: sendmail
   
   version: ""
 - 
@@ -84,33 +56,47 @@ mailer
   name: ssmtp
   
   version: 2.64-r2
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
 license: GPL-3
 name: msmtp
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls[idn?]
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
   category: acct-group
+  description: ""
+  license: ""
+  name: msmtpd
+  
+  version: ""
+- 
+  category: acct-user
   description: ""
   license: ""
   name: msmtpd
@@ -124,6 +110,13 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls[idn?]
+  
+  version: ""
+- 
   category: net-dns
   description: ""
   license: ""
@@ -134,14 +127,21 @@ requires:
   category: virtual
   description: ""
   license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
   name: gsasl
   
   version: ""
 - 
-  category: acct-user
+  category: net-mail
   description: ""
   license: ""
-  name: msmtpd
+  name: mailbase
   
   version: ""
 uri:

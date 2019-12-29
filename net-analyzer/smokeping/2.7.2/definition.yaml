@@ -5,87 +5,17 @@ license: GPL-2
 name: smokeping
 requires:
 - 
-  category: net-analyzer
+  category: dev-lang
   description: ""
   license: ""
-  name: echoping
+  name: perl
   
-  version: 6.0.2
+  version: 5.8.8-r8
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-Grammar
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-SNMP
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Tty
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-OpenSSH
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Digest-HMAC
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: bind-tools
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: fping-2.4_beta2-r2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-libnet
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: httpd-cgi
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-SSL
+  name: Net-DNS
   
   version: ""
 - 
@@ -99,14 +29,7 @@ requires:
   category: www-apache
   description: ""
   license: ""
-  name: mod_perl
-  
-  version: 2.0.1
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
+  name: mod_fcgid
   
   version: ""
 - 
@@ -117,12 +40,75 @@ requires:
   
   version: ""
 - 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_perl
+  
+  version: 2.0.1
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Socket6
+  
+  version: "0.20"
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: fping-2.4_beta2-r2
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-Grammar
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: FCGI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Authen-Radius
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: CGI
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
   name: CGI-Fast
   
   version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: bind-tools
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: SNMP_Session
+  
+  version: "1.13"
 - 
   category: dev-perl
   description: ""
@@ -134,51 +120,9 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: FCGI
+  name: IO-Tty
   
   version: ""
-- 
-  category: www-apache
-  description: ""
-  license: ""
-  name: mod_fcgid
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Socket6
-  
-  version: "0.20"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-DNS
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-Radius
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: 5.8.8-r8
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: SNMP_Session
-  
-  version: "1.13"
 - 
   category: net-analyzer
   description: ""
@@ -187,12 +131,68 @@ requires:
   
   version: "1.2"
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-Socket-SSL
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: httpd-cgi
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: echoping
+  
+  version: 6.0.2
+- 
   category: net-misc
   description: ""
   license: ""
   name: curl
   
   version: 7.21.4
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Digest-HMAC
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-OpenSSH
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-SNMP
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-libnet
+  
+  version: ""
 uri:
 - https://oss.oetiker.ch/smokeping/pub/smokeping-2.7.2.tar.gz
 use_flags:

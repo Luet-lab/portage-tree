@@ -12,34 +12,6 @@ license: LGPL-2.1 MIT
 name: dovecot
 requires:
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: dovenull
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -47,10 +19,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libressl
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -68,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: acct-user
+  description: ""
+  license: ""
+  name: dovecot
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -75,24 +68,38 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: sys-libs
   description: ""
   license: ""
-  name: openldap
+  name: pam
   
   version: ""
 - 
-  category: net-mail
+  category: sec-policy
   description: ""
   license: ""
-  name: vpopmail
+  name: selinux-dovecot
   
   version: ""
 - 
-  category: acct-user
+  category: dev-libs
   description: ""
   license: ""
-  name: dovecot
+  name: libressl
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libexttextcat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
   
   version: ""
 - 
@@ -103,26 +110,19 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: net-nds
   description: ""
   license: ""
-  name: curl
+  name: openldap
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: expat
+  name: clucene
   
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: dovenull
-  
-  version: ""
+  version: "2.3"
 - 
   category: dev-libs
   description: ""
@@ -131,10 +131,38 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: dev-lang
   description: ""
   license: ""
-  name: libexttextcat
+  name: lua
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: dovenull
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -159,52 +187,10 @@ requires:
   
   version: ""
 - 
-  category: net-mail
+  category: acct-group
   description: ""
   license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: clucene
-  
-  version: "2.3"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dovecot
+  name: dovenull
   
   version: ""
 - 
@@ -212,6 +198,20 @@ requires:
   description: ""
   license: ""
   name: sqlite
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: vpopmail
   
   version: ""
 uri:

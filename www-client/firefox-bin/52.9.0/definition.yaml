@@ -12,19 +12,26 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: firefox-bin
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: pango
   
-  version: ""
+  version: 1.22.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.26"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXcomposite
   
-  version: 3.4.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -36,16 +43,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libXt
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: glib
+  name: dbus
   
-  version: "2.26"
+  version: "0.60"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -61,12 +82,26 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.4.10
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: gtk+
   
-  version: ""
+  version: 3.4.0
 - 
   category: virtual
   description: ""
@@ -75,12 +110,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: dbus-glib
   
-  version: "0.60"
+  version: "0.72"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -99,49 +141,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: 1.22.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXfixes
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.72"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: 2.4.10
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
   
   version: ""
 uri:

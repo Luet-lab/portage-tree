@@ -4,20 +4,6 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
-  name: shorewall6-lite
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: shorewall-core
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
   name: shorewall-lite
   
   version: ""
@@ -25,7 +11,7 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
-  name: shorewall-init
+  name: shorewall6-lite
   
   version: ""
 - 
@@ -39,7 +25,21 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
+  name: shorewall-core
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
   name: shorewall6
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: shorewall-init
   
   version: ""
 description: A high-level tool for configuring Netfilter
@@ -47,47 +47,12 @@ license: GPL-2
 name: shorewall
 requires:
 - 
-  category: sys-devel
+  category: net-firewall
   description: ""
   license: ""
-  name: bc
+  name: iptables
   
-  version: 1.06.95
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Digest-SHA
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: 3.8.0
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Socket6
-  
-  version: 0.230.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.16"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils
-  
-  version: "8.20"
+  version: 1.4.20
 - 
   category: sec-policy
   description: ""
@@ -96,12 +61,47 @@ requires:
   
   version: 2.20161023-r3
 - 
-  category: net-firewall
+  category: sys-apps
   description: ""
   license: ""
-  name: iptables
+  name: iproute2
   
-  version: 1.4.20
+  version: 3.8.0
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: 1.06.95
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Socket6
+  
+  version: 0.230.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils
+  
+  version: "8.20"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: "5.16"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Digest-SHA
+  
+  version: ""
 uri:
 - http://www.shorewall.net/pub/shorewall//shorewall-/shorewall-core-5.2.3.4.tar.bz2
 - 'http://www.shorewall.net/pub/shorewall//shorewall-/shorewall-5.2.3.4.tar.bz2 '

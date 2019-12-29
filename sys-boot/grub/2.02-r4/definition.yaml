@@ -4,14 +4,14 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 description: GNU GRUB boot loader
@@ -19,19 +19,12 @@ license: GPL-3 fonts? ( GPL-2-with-font-exception ) themes? ( BitstreamVera )
 name: grub
 requires:
 - 
-  category: app-arch
+  category: media-libs
   description: ""
   license: ""
-  name: xz-utils
+  name: libsdl
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r5
 - 
   category: media-libs
   description: ""
@@ -47,6 +40,13 @@ requires:
   
   version: 1.3.5
 - 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
+- 
   category: sys-devel
   description: ""
   license: ""
@@ -54,12 +54,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libsdl
+  name: xz-utils
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r5
 - 
   category: sys-fs
   description: ""
@@ -79,13 +86,6 @@ requires:
   description: ""
   license: ""
   name: fuse
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
   
   version: ""
 uri:

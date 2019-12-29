@@ -5,26 +5,40 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.2.2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: "1.97"
-- 
   category: media-libs
   description: ""
   license: ""
   name: libbluray
   
   version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.114"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.42.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "229"
 - 
   category: dev-libs
   description: ""
@@ -33,17 +47,10 @@ requires:
   
   version: 1.0.21
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libcdio-paranoia
-  
-  version: 0.78.2
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
+  name: dbus
   
   version: ""
 - 
@@ -57,16 +64,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libcdio
+  name: libxml2
   
   version: ""
 - 
-  category: sys-auth
+  category: app-crypt
   description: ""
   license: ""
-  name: polkit
+  name: libsecret
   
-  version: "0.114"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "147"
 - 
   category: sys-apps
   description: ""
@@ -82,40 +96,19 @@ requires:
   
   version: "1"
 - 
-  category: net-libs
+  category: net-misc
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: openssh
   
-  version: 3.17.1
+  version: ""
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libgdata
+  name: fuse
   
-  version: 0.17.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.57.2
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libimobiledevice
-  
-  version: "1.2"
+  version: 2.8.0
 - 
   category: net-fs
   description: ""
@@ -131,6 +124,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgdata
+  
+  version: 0.17.9
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio-paranoia
+  
+  version: 0.78.2
+- 
   category: net-fs
   description: ""
   license: ""
@@ -138,26 +145,47 @@ requires:
   
   version: 1.9.8
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: openssh
+  name: libgcrypt
   
-  version: ""
+  version: 1.2.2
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: dbus
+  name: udisks
   
-  version: ""
+  version: "1.97"
 - 
-  category: sys-auth
+  category: app-pda
   description: ""
   license: ""
-  name: elogind
+  name: libimobiledevice
   
-  version: "229"
+  version: "1.2"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.57.2
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: "0.6"
 - 
   category: media-libs
   description: ""
@@ -166,47 +194,19 @@ requires:
   
   version: 2.5.0
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: 2.42.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "147"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: 2.8.0
-- 
   category: media-libs
   description: ""
   license: ""
   name: libmtp
   
   version: 1.1.15
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: ""
 uri: []
 use_flags:
 - afp

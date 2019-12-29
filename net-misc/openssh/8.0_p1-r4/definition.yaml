@@ -5,10 +5,10 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
-  category: net-libs
+  category: x11-apps
   description: ""
   license: ""
-  name: ldns[-ecdsa,ssl(+)]
+  name: xauth
   
   version: ""
 - 
@@ -16,27 +16,6 @@ requires:
   description: ""
   license: ""
   name: libedit
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: lksctp-tools
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
   
   version: ""
 - 
@@ -53,6 +32,13 @@ requires:
   name: zlib
   
   version: 1.2.3
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "1.28"
 - 
   category: sys-auth
   description: ""
@@ -71,35 +57,14 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: ldns[ecdsa,ssl(+)]
+  name: ldns[-ecdsa,ssl(+)]
   
   version: ""
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: shadow
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "1.28"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.1.0g
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: lksctp-tools
   
   version: ""
 - 
@@ -110,10 +75,45 @@ requires:
   
   version: ""
 - 
-  category: x11-apps
+  category: virtual
   description: ""
   license: ""
-  name: xauth
+  name: shadow
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns[ecdsa,ssl(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.1.0g
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

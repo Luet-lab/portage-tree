@@ -5,24 +5,31 @@ license: BSD
 name: notebook
 requires:
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: mathjax
+  name: traitlets
   
-  version: "2.4"
+  version: 4.2.1
 - 
   category: dev-python
   description: ""
   license: ""
-  name: ipykernel
+  name: jupyter_core
+  
+  version: 4.4.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: ipython_genutils
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: send2trash
+  name: ipykernel
   
   version: ""
 - 
@@ -36,37 +43,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: ipython_genutils
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: jinja
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: traitlets
-  
-  version: 4.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: nbconvert
-  
-  version: 4.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: terminado
-  
-  version: 0.8.1
 - 
   category: www-servers
   description: ""
@@ -78,16 +57,37 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: jupyter_core
+  name: pyzmq
   
-  version: 4.4.0
+  version: "17"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pyzmq
+  name: nbformat
   
-  version: "17"
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: send2trash
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mathjax
+  
+  version: "2.4"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: terminado
+  
+  version: 0.8.1
 - 
   category: dev-python
   description: ""
@@ -99,9 +99,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: nbformat
+  name: nbconvert
   
-  version: ""
+  version: 4.2.0
 uri:
 - mirror://pypi/n/notebook/notebook-5.7.0.tar.gz
 use_flags:

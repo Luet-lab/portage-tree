@@ -1,28 +1,28 @@
 category: net-print
 conflicts:
 - 
-  category: <=net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.5.9999
-- 
   category: net-print
   description: ""
   license: ""
   name: foomatic-filters
   
   version: ""
+- 
+  category: <=net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: 1.5.9999
 description: Cups filters
 license: MIT GPL-2
 name: cups-filters
 requires:
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: lcms
+  name: dbus
   
   version: ""
 - 
@@ -33,24 +33,31 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: net-dns
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: avahi
   
-  version: "9.09"
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: glib
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
   
   version: ""
 - 
@@ -64,21 +71,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: lcms
   
   version: ""
 - 
@@ -89,10 +82,24 @@ requires:
   
   version: ""
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: "9.09"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: tiff
   
   version: ""
 - 
@@ -110,24 +117,10 @@ requires:
   
   version: ""
 - 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: fontconfig
   
   version: ""
 - 
@@ -137,6 +130,13 @@ requires:
   name: cups
   
   version: 1.7.3
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
 uri:
 - http://www.openprinting.org/download/cups-filters/cups-filters-1.25.13.tar.xz
 use_flags:

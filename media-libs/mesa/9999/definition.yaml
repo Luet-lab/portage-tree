@@ -4,14 +4,14 @@ conflicts:
   category: app-eselect
   description: ""
   license: ""
-  name: eselect-opengl
+  name: eselect-mesa
   
   version: ""
 - 
   category: app-eselect
   description: ""
   license: ""
-  name: eselect-mesa
+  name: eselect-opengl
   
   version: ""
 description: OpenGL-like graphic library for Linux
@@ -22,9 +22,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libdrm-2.4.100[video_cards_radeon]
   
-  version: 1.1.4-r1
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libglvnd
+  
+  version: 1.2.0-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: 1.6.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.13"
 - 
   category: sys-libs
   description: ""
@@ -33,24 +61,10 @@ requires:
   
   version: 1.2.8
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
-  
-  version: 1.3.0
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: ocl-icd
+  name: libclc
   
   version: ""
 - 
@@ -61,47 +75,19 @@ requires:
   
   version: 1.15.0
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: expat
-  
-  version: 2.1.0-r3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.8"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: "1.13"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libva
-  
-  version: 1.7.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: "1.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libclc
+  name: glslang
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxshmfence
+  
+  version: "1.1"
 - 
   category: x11-libs
   description: ""
@@ -117,59 +103,24 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libXfixes
+  name: lm-sensors
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-libs
   description: ""
   license: ""
-  name: clang
+  name: libselinux
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXvMC
-  
-  version: 1.0.8
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libdrm-2.4.100[video_cards_intel]
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: glslang
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: 1.6.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_radeon]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_amdgpu]
   
   version: ""
 - 
@@ -190,9 +141,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxshmfence
+  name: libva
   
-  version: "1.1"
+  version: 1.7.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: 2.1.0-r3
 - 
   category: x11-libs
   description: ""
@@ -201,19 +159,61 @@ requires:
   
   version: 1.1.3
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libglvnd
-  
-  version: 1.2.0-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
+  name: libdrm-2.4.100[video_cards_amdgpu]
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.8"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: 1.1.4-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: clang
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
+  
+  version: 1.3.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: ocl-icd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXvMC
+  
+  version: 1.0.8
 uri: []
 use_flags:
 - video_cards_r100

@@ -5,6 +5,13 @@ license: GPL-2+
 name: xfdashboard
 requires:
 - 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: xfconf
+  
+  version: "4.13"
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -22,16 +29,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXdamage
   
   version: ""
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libXcomposite
+  name: garcon
   
-  version: ""
+  version: 0.2.0
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.10"
 - 
   category: xfce-base
   description: ""
@@ -39,13 +53,6 @@ requires:
   name: libxfce4util
   
   version: "4.10"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: xfconf
-  
-  version: "4.13"
 - 
   category: dev-libs
   description: ""
@@ -64,7 +71,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
   
   version: ""
 - 
@@ -74,20 +88,6 @@ requires:
   name: libXinerama
   
   version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: garcon
-  
-  version: 0.2.0
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.10"
 uri:
 - https://archive.xfce.org/src/apps/xfdashboard/0.7/xfdashboard-0.7.5.tar.bz2
 use_flags:

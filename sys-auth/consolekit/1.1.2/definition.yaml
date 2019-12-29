@@ -5,20 +5,6 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "200"
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -26,17 +12,17 @@ requires:
   
   version: "0.110"
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libX11
+  name: zlib
   
   version: ""
 - 
-  category: app-admin
+  category: sys-apps
   description: ""
   license: ""
-  name: cgmanager
+  name: acl
   
   version: ""
 - 
@@ -46,13 +32,6 @@ requires:
   name: libnih
   
   version: 1.0.2
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -68,13 +47,6 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.19"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -82,10 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
   
   version: ""
 - 
@@ -96,17 +75,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sec-policy
   description: ""
   license: ""
-  name: acl
+  name: selinux-consolekit
   
   version: ""
 - 
-  category: x11-libs
+  category: app-admin
   description: ""
   license: ""
-  name: libdrm
+  name: cgmanager
   
   version: ""
 - 
@@ -117,6 +96,27 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "200"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -124,12 +124,12 @@ requires:
   
   version: "2.40"
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: zlib
+  name: gettext
   
-  version: ""
+  version: "0.19"
 uri:
 - https://github.com/ConsoleKit2/ConsoleKit2/releases/download/1.1.2/ConsoleKit2-1.1.2.tar.bz2
 use_flags:

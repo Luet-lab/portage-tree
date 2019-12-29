@@ -5,41 +5,6 @@ license: LGPL-2+ GPL-2+
 name: udisks
 requires:
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.30"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-devicekit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -61,17 +26,59 @@ requires:
   
   version: "219"
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: lvm2
+  name: glib
+  
+  version: "2.50"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.30"
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: eject
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: eject
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.30"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-devicekit
   
   version: ""
 - 
@@ -89,19 +96,12 @@ requires:
   
   version: "0.110"
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: lvm2
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
 uri:
 - https://github.com/storaged-project/udisks/releases/download/udisks-2.8.2/udisks-2.8.2.tar.bz2
 use_flags:

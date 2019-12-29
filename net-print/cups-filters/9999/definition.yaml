@@ -1,23 +1,51 @@
 category: net-print
 conflicts:
 - 
-  category: net-print
-  description: ""
-  license: ""
-  name: foomatic-filters
-  
-  version: ""
-- 
   category: <=net-print
   description: ""
   license: ""
   name: cups
   
   version: 1.5.9999
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: foomatic-filters
+  
+  version: ""
 description: Cups filters
 license: MIT GPL-2
 name: cups-filters
 requires:
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: qpdf
+  
+  version: 8.3.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -26,24 +54,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: virtual
   description: ""
   license: ""
-  name: mupdf
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.7.3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: jpeg
   
   version: ""
 - 
@@ -57,28 +71,14 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: ghostscript-gpl
-  
-  version: "9.09"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
+  name: mupdf
   
   version: ""
 - 
-  category: sys-devel
+  category: dev-lang
   description: ""
   license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: perl
   
   version: ""
 - 
@@ -89,12 +89,33 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: glib
+  name: bc
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: 1.7.3
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: "9.09"
 - 
   category: media-libs
   description: ""
@@ -106,21 +127,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: tiff
   
   version: ""
 - 
@@ -130,13 +137,6 @@ requires:
   name: avahi
   
   version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: qpdf
-  
-  version: 8.3.0
 uri: []
 use_flags:
 - dbus

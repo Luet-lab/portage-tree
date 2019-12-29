@@ -5,12 +5,19 @@ license: BSD CPL-1.0 GPL-2+ IBM java? ( Apache-2.0 )
 name: sleuthkit
 requires:
 - 
-  category: dev-db
+  category: app-forensics
   description: ""
   license: ""
-  name: postgresql
+  name: afflib
   
   version: ""
+- 
+  category: dev-java
+  description: ""
+  license: ""
+  name: jdbc-postgresql
+  
+  version: "9.4"
 - 
   category: dev-lang
   description: ""
@@ -40,12 +47,12 @@ requires:
   
   version: 0.9.5
 - 
-  category: dev-java
+  category: dev-db
   description: ""
   license: ""
-  name: jdbc-postgresql
+  name: postgresql
   
-  version: "9.4"
+  version: ""
 - 
   category: virtual
   description: ""
@@ -58,13 +65,6 @@ requires:
   description: ""
   license: ""
   name: sqlite
-  
-  version: ""
-- 
-  category: app-forensics
-  description: ""
-  license: ""
-  name: afflib
   
   version: ""
 uri:

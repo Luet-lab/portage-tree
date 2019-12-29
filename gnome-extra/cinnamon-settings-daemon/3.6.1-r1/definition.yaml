@@ -12,47 +12,33 @@ requires:
   
   version: "2.38"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.11
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.36.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.9.10
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libwacom
+  name: libgudev
   
-  version: "0.7"
+  version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: libgnomekbd
+  name: libnotify
   
-  version: "3.6"
+  version: 0.7.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
+  
+  version: ""
 - 
   category: net-print
   description: ""
@@ -61,24 +47,17 @@ requires:
   
   version: "1.4"
 - 
-  category: dev-libs
+  category: x11-drivers
   description: ""
   license: ""
-  name: nss
+  name: xf86-input-wacom
   
-  version: 3.11.2
+  version: ""
 - 
   category: "(\tsys-auth"
   description: ""
   license: ""
   name: elogind
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
   
   version: ""
 - 
@@ -89,6 +68,13 @@ requires:
   
   version: "2.2"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -96,17 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: dbus
   
   version: ""
 - 
@@ -120,14 +99,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
+  name: libXi
   
   version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 0.1.27
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXtst
   
   version: ""
 - 
@@ -138,26 +124,61 @@ requires:
   
   version: 2.8.0
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: gtk+
   
-  version: 0.7.3
+  version: 3.9.10
 - 
-  category: sys-apps
+  category: sys-power
   description: ""
   license: ""
-  name: systemd
+  name: upower
+  
+  version: 0.9.11
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.7"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.36.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: 3.11.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
 - 
   category: x11-libs
   description: ""
@@ -169,28 +190,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.27
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: xf86-input-wacom
+  name: libXext
   
   version: ""
 uri:

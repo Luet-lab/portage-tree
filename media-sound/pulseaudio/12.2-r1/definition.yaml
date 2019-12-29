@@ -5,76 +5,6 @@ license: '!gdbm? ( LGPL-2.1 ) gdbm? ( GPL-2 )'
 name: pulseaudio
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.0.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-pulseaudio
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: 3.2.6
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.12
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sbc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speexdsp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: soxr
-  
-  version: 0.1.1
-- 
   category: media-libs
   description: ""
   license: ""
@@ -82,59 +12,10 @@ requires:
   
   version: "0.2"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libasyncns
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: orc
-  
-  version: 0.4.15
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PyQt5
+  name: libltdl
   
   version: ""
 - 
@@ -152,19 +33,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXtst
+  name: glib
+  
+  version: 2.26.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libasyncns
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: 0.1.1-r1
 - 
   category: net-misc
   description: ""
@@ -173,17 +54,31 @@ requires:
   
   version: "1.13"
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: gdbm
   
-  version: 1.0.20
+  version: ""
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: systemd
+  name: PyQt5
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: orc
+  
+  version: 0.4.15
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -194,24 +89,66 @@ requires:
   
   version: "1.6"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.1-r1
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: "5"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sbc
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: 2.22-r2
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: dbus
   
-  version: ""
+  version: 1.0.0
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: udev-143[hwdb(+)]
+  name: libX11
   
-  version: ""
+  version: 1.4.0
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: libXtst
   
   version: ""
 - 
@@ -222,33 +159,54 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libltdl
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gtk+
   
-  version: 1.4.0
+  version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: libcap
+  name: udev-143[hwdb(+)]
   
-  version: 2.22-r2
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -257,12 +215,54 @@ requires:
   
   version: 1.0.19
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: glib
+  name: systemd
   
-  version: 2.26.0
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: 3.2.6
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.12
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: soxr
+  
+  version: 0.1.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speexdsp
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-pulseaudio
+  
+  version: ""
 uri:
 - https://freedesktop.org/software/pulseaudio/releases/pulseaudio-12.2.tar.xz
 use_flags:

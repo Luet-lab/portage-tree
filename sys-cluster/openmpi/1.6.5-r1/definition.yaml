@@ -11,21 +11,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
   name: pmix
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libotf
   
   version: ""
 - 
@@ -39,7 +25,21 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+  name: mpich2
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: mpiexec
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libotf
   
   version: ""
 description: A high-performance message passing library (MPI)
@@ -47,24 +47,10 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
   category: sys-fabric
   description: ""
   license: ""
   name: dapl
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
   
   version: ""
 - 
@@ -75,13 +61,6 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -89,10 +68,17 @@ requires:
   
   version: "2"
 - 
-  category: sys-cluster
+  category: sys-fabric
   description: ""
   license: ""
-  name: knem
+  name: ofed
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
   
   version: ""
 - 
@@ -103,10 +89,24 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: sys-cluster
   description: ""
   license: ""
-  name: infinipath-psm
+  name: knem
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
   
   version: ""
 - 

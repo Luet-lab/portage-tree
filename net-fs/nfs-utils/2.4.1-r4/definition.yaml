@@ -1,6 +1,13 @@
 category: net-fs
 conflicts:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnfsidmap
+  
+  version: ""
+- 
   category: net-nds
   description: ""
   license: ""
@@ -14,22 +21,22 @@ conflicts:
   name: openrc
   
   version: 0.13.9
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnfsidmap
-  
-  version: ""
 description: NFS client and server daemons
 license: GPL-2
 name: nfs-utils
 requires:
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libtirpc
+  name: util-linux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
   
   version: ""
 - 
@@ -40,6 +47,27 @@ requires:
   
   version: 1.5.9
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-rpc
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -47,17 +75,38 @@ requires:
   
   version: 0.2.4-r1
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
   category: sec-policy
   description: ""
   license: ""
   name: selinux-rpcbind
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -75,41 +124,6 @@ requires:
   
   version: 0.2.4
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpc
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -117,24 +131,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
   category: net-nds
   description: ""
   license: ""
   name: openldap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
   
   version: ""
 uri:

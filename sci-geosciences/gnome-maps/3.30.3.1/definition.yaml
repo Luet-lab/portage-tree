@@ -5,12 +5,26 @@ license: GPL-2+ LGPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0
 name: gnome-maps
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: gobject-introspection
   
-  version: "3.22"
+  version: 0.10.1
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: geoclue
+  
+  version: 0.12.99
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: geocode-glib
+  
+  version: 3.15.2
 - 
   category: net-libs
   description: ""
@@ -23,6 +37,62 @@ requires:
   description: ""
   license: ""
   name: libgfbgraph
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: "0.16"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libchamplain
+  
+  version: 0.12.14
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgweather
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter-gtk
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: folks
+  
+  version: "0.10"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 - 
@@ -47,68 +117,12 @@ requires:
   
   version: 1.50.0
 - 
-  category: app-crypt
+  category: x11-libs
   description: ""
   license: ""
-  name: libsecret
+  name: gtk+
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
-  
-  version: "0.16"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: folks
-  
-  version: "0.10"
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: geocode-glib
-  
-  version: 3.15.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libchamplain
-  
-  version: 0.12.14
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rest
-  
-  version: 0.7.90
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.10.1
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: 0.12.99
+  version: "3.22"
 - 
   category: dev-libs
   description: ""
@@ -117,26 +131,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgweather
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: libsoup
+  name: rest
   
-  version: ""
+  version: 0.7.90
 uri: []
 use_flags:
 - ""

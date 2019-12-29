@@ -5,10 +5,17 @@ license: GPL-2
 name: obs-studio
 requires:
 - 
-  category: virtual
+  category: dev-qt
   description: ""
   license: ""
-  name: jack
+  name: qtdeclarative
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
   
   version: ""
 - 
@@ -16,20 +23,6 @@ requires:
   description: ""
   license: ""
   name: speexdsp
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: mbedtls
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
   
   version: ""
 - 
@@ -43,21 +36,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
+  name: qtx11extras
   
   version: ""
 - 
@@ -68,17 +47,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: luajit
+  name: jack
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: "2.5"
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtwidgets
   
   version: ""
 - 
@@ -86,6 +72,41 @@ requires:
   description: ""
   license: ""
   name: libXcomposite
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 - 
@@ -103,6 +124,34 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
@@ -113,35 +162,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fdk-aac
+  name: alsa-lib
   
   version: ""
 - 
-  category: dev-qt
+  category: net-libs
   description: ""
   license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: vlc
+  name: mbedtls
   
   version: ""
 - 
@@ -149,41 +177,6 @@ requires:
   description: ""
   license: ""
   name: qtsql
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtquickcontrols
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: "2.5"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
   
   version: ""
 - 
@@ -197,7 +190,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: vlc
   
   version: ""
 uri:

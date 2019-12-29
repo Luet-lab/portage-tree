@@ -5,26 +5,40 @@ license: Apache-2.0
 name: salt
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: markupsafe
+  
+  version: ""
+- 
   category: www-servers
   description: ""
   license: ""
   name: tornado
   
-  version: "5.0"
+  version: 4.2.1
 - 
   category: dev-python
   description: ""
   license: ""
-  name: libcloud
+  name: python-neutronclient
   
-  version: 0.14.0
+  version: 2.3.6
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: portage
+  name: pyopenssl
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libnacl
+  
+  version: 1.0.0
 - 
   category: dev-python
   description: ""
@@ -40,80 +54,10 @@ requires:
   
   version: ""
 - 
-  category: www-servers
+  category: sys-apps
   description: ""
   license: ""
-  name: tornado
-  
-  version: 4.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: requests
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pymongo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: markupsafe
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: raet
-  
-  version: 0.6.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jinja
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-ldap
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libvirt-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: ioflo
-  
-  version: 1.1.7
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: keyring
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libnacl
+  name: pciutils
   
   version: ""
 - 
@@ -127,35 +71,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: mysql-python
+  name: raet
   
-  version: ""
+  version: 0.6.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: python-neutronclient
-  
-  version: 2.3.6
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycryptodome
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-gnupg
+  name: pymongo
   
   version: ""
 - 
@@ -164,28 +87,14 @@ requires:
   license: ""
   name: libnacl
   
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mako
-  
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pyopenssl
+  name: ioflo
   
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyzmq
-  
-  version: 2.2.0
+  version: 1.1.7
 - 
   category: dev-python
   description: ""
@@ -197,14 +106,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: redis-py
+  name: mysql-python
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-python
   description: ""
   license: ""
-  name: selinux-salt
+  name: yappi
   
   version: ""
 - 
@@ -218,7 +127,35 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyyaml
+  name: libvirt-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyzmq
+  
+  version: 2.2.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: portage
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-gnupg
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jinja
   
   version: ""
 - 
@@ -232,6 +169,55 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: keyring
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: redis-py
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyyaml
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
+  
+  version: 1.0.0
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: "5.0"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycryptodome
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-salt
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: python-novaclient
   
   version: 2.17.0
@@ -239,14 +225,28 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: yappi
+  name: setuptools
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: pciutils
+  name: libcloud
+  
+  version: 0.14.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mako
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-ldap
   
   version: ""
 uri:

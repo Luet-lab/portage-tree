@@ -5,17 +5,52 @@ license: GPL-2 LGPL-2.1
 name: mate-settings-daemon
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmatemixer
+  
+  version: "1.10"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.74"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: libX11
   
-  version: "5.2"
+  version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libintl
+  name: dbus-glib
+  
+  version: "0.71"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86misc
   
   version: ""
 - 
@@ -26,19 +61,12 @@ requires:
   
   version: "0.7"
 - 
-  category: media-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libcanberra
+  name: polkit
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.74"
+  version: "0.97"
 - 
   category: mate-base
   description: ""
@@ -57,7 +85,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: 0.9.15
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 - 
@@ -67,6 +109,13 @@ requires:
   name: libmatekbd
   
   version: 1.17.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
+  
+  version: "5.2"
 - 
   category: dev-libs
   description: ""
@@ -82,19 +131,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libX11
+  name: libintl
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.71"
 - 
   category: sys-apps
   description: ""
@@ -102,34 +144,6 @@ requires:
   name: dbus
   
   version: 1.1.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86misc
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmatemixer
-  
-  version: "1.10"
 - 
   category: dev-libs
   description: ""
@@ -148,23 +162,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
+  name: cairo
   
   version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: 0.9.15
 uri: []
 use_flags:
 - X

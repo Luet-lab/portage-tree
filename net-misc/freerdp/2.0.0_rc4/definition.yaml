@@ -5,31 +5,10 @@ license: Apache-2.0
 name: freerdp
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
+  name: systemd
   
   version: ""
 - 
@@ -40,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
+  name: libudev
   
   version: ""
 - 
@@ -58,6 +30,20 @@ requires:
   description: ""
   license: ""
   name: dbus-glib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -71,21 +57,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXfixes
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libX11
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXv
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -103,55 +96,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -166,17 +110,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -187,31 +152,24 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: openh264
+  name: libusb
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: libXdamage
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbfile
+  name: libXcursor
   
   version: ""
 - 
@@ -225,7 +183,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbfile
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openh264
   
   version: ""
 uri:

@@ -6,17 +6,17 @@ license: GPL-2 LGPL-2
 name: libguestfs
 requires:
 - 
-  category: app-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: hivex
+  name: db
   
-  version: 1.3.1
+  version: "4.6"
 - 
-  category: app-arch
+  category: sys-fs
   description: ""
   license: ""
-  name: unzip
+  name: fuse
   
   version: ""
 - 
@@ -30,21 +30,35 @@ requires:
   category: dev-lang
   description: ""
   license: ""
+  name: erlang
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: augeas
+  
+  version: 1.8.0
+- 
+  category: dev-lang
+  description: ""
+  license: ""
   name: perl
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: squashfs-tools
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
+  name: unzip
   
   version: ""
 - 
@@ -55,10 +69,66 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: media-gfx
   description: ""
   license: ""
-  name: erlang
+  name: icoutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: fakeroot
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Sys-Virt
+  
+  version: 0.2.4
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
   
   version: ""
 - 
@@ -79,35 +149,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: fakeroot
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lzma
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: netpbm
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: file
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: libvirt
   
   version: ""
 - 
@@ -118,52 +160,24 @@ requires:
   
   version: "2.8"
 - 
-  category: app-crypt
+  category: dev-lang
   description: ""
   license: ""
-  name: gnupg
+  name: ocaml
   
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Sys-Virt
-  
-  version: 0.2.4
+  version: "4.03"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
+  name: libxcrypt
   
   version: ""
 - 
-  category: app-admin
+  category: app-emulation
   description: ""
   license: ""
-  name: augeas
-  
-  version: 1.8.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
+  name: libguestfs-appliance
   
   version: ""
 - 
@@ -174,10 +188,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: libconfig
+  name: gnupg
   
   version: ""
 - 
@@ -188,12 +202,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: gobject-introspection
+  name: perl-Data-Dumper
   
-  version: 1.30.0
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -202,80 +223,17 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: media-libs
   description: ""
   license: ""
-  name: ocaml
-  
-  version: "4.03"
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: libguestfs-appliance
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Data-Dumper
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: icoutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
+  name: netpbm
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libxcrypt
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: String-ShellQuote
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
+  name: readline
   
   version: ""
 - 
@@ -289,30 +247,72 @@ requires:
   category: app-arch
   description: ""
   license: ""
+  name: lzma
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: String-ShellQuote
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: hivex
+  
+  version: 1.3.1
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: libvirt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libconfig
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
   name: cpio
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4.6"
 - 
   category: dev-libs
   description: ""
@@ -321,12 +321,12 @@ requires:
   
   version: 2.0.4
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: gobject-introspection
   
-  version: ""
+  version: 1.30.0
 uri:
 - http://libguestfs.org/download/-stable/libguestfs-1.38.6.tar.gz
 use_flags:

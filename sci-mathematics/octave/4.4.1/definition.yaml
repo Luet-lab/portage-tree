@@ -5,87 +5,10 @@ license: GPL-3
 name: octave
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gl2ps
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: 1.6.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: lapack
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: camd
+  name: readline
   
   version: ""
 - 
@@ -96,20 +19,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -117,24 +26,45 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: qhull
+  name: openssl
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: pstoedit
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: cholmod
+  name: hdf5
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: colamd
+  name: qrupdate
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: ccolamd
   
   version: ""
 - 
@@ -145,17 +75,24 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-misc
   description: ""
   license: ""
-  name: fltk
+  name: curl
   
-  version: "1.3"
+  version: ""
 - 
-  category: media-gfx
+  category: sci-libs
   description: ""
   license: ""
-  name: transfig
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -173,90 +110,6 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: epstool
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sci-visualization
-  description: ""
-  license: ""
-  name: gnuplot
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: qscintilla
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: qrupdate
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: ccolamd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: "7"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: arpack
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
@@ -271,10 +124,185 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: curl
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: epstool
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: qhull
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: colamd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: lapack
+  
+  version: ""
+- 
+  category: sci-visualization
+  description: ""
+  license: ""
+  name: gnuplot
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qthelp
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: qscintilla
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: "7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gl2ps
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: transfig
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: blas
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: arpack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: camd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: 1.6.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: fltk
+  
+  version: "1.3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -288,42 +316,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: pstoedit
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
+  name: qtopengl
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qthelp
+  name: cholmod
   
   version: ""
 uri:

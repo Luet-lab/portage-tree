@@ -5,41 +5,6 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libimobiledevice
-  
-  version: "1.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: 1.0.21
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.57.2
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -50,16 +15,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgdata
+  name: glib
   
-  version: 0.17.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.2.2
+  version: 2.57.2
 - 
   category: media-libs
   description: ""
@@ -67,55 +25,6 @@ requires:
   name: libmtp
   
   version: 1.1.15
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: "1"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgphoto2
-  
-  version: 2.5.0
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: 2.8.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: ""
 - 
   category: net-fs
   description: ""
@@ -131,47 +40,26 @@ requires:
   
   version: 1.9.8
 - 
-  category: sys-apps
+  category: app-crypt
   description: ""
   license: ""
-  name: dbus
+  name: gcr
   
   version: ""
 - 
-  category: net-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libsoup
-  
-  version: 2.58.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
+  name: libarchive
   
   version: ""
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: elogind
+  name: libcdio
   
-  version: "229"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: 3.17.1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "206"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -183,9 +71,44 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: libgdata
   
-  version: "147"
+  version: 0.17.9
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: 2.8.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.58.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: 1.0.21
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgphoto2
+  
+  version: 2.5.0
 - 
   category: sys-fs
   description: ""
@@ -194,19 +117,96 @@ requires:
   
   version: "1.97"
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: libcap
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "206"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "147"
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libplist
+  
+  version: "1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.2
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "229"
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libimobiledevice
+  
+  version: "1.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: "0.6"
 uri: []
 use_flags:
 - afp

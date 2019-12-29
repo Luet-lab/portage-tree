@@ -13,12 +13,19 @@ license: LGPL-2.1
 name: telepathy-gabble
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: glib
   
-  version: ""
+  version: "2.44"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.0
 - 
   category: dev-libs
   description: ""
@@ -27,19 +34,19 @@ requires:
   
   version: "0.82"
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: gnutls
+  name: telepathy-glib
   
-  version: 2.10.2
+  version: 0.19.9
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -55,33 +62,12 @@ requires:
   
   version: 0.0.11
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: gtksourceview
   
-  version: 0.9.8g
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.44"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.1.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-glib
-  
-  version: 0.19.9
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -90,12 +76,26 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.10.2
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
+  version: 0.9.8g
 uri:
 - https://telepathy.freedesktop.org/releases/telepathy-gabble/telepathy-gabble-0.18.4.tar.gz
 use_flags:

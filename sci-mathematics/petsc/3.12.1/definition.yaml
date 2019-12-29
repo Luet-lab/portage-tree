@@ -5,31 +5,17 @@ license: BSD-2
 name: petsc
 requires:
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: lapack
+  name: libafterimage
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: parmetis
-  
-  version: "4"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: scalapack
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: suitesparse
+  name: hdf5[mpi?]
   
   version: ""
 - 
@@ -40,52 +26,17 @@ requires:
   
   version: ""
 - 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: suitesparse
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hypre-2.18.0[mpi?]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: mumps[mpi?]
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: scotch[mpi?]
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: superlu
-  
-  version: "5"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5[mpi?]
+  name: lapack
   
   version: ""
 - 
@@ -93,6 +44,13 @@ requires:
   description: ""
   license: ""
   name: fftw
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: mumps[mpi?]
   
   version: ""
 - 
@@ -106,16 +64,58 @@ requires:
   category: sci-libs
   description: ""
   license: ""
+  name: scotch[mpi?]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: blas
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: parmetis
+  
+  version: "4"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: superlu
+  
+  version: "5"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hypre-2.18.0[mpi?]
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: scalapack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
   name: cholmod
   
   version: 1.7.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libafterimage
-  
-  version: ""
 uri:
 - http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.12.1.tar.gz
 use_flags:

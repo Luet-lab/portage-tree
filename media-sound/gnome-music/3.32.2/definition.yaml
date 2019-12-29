@@ -5,6 +5,13 @@ license: GPL-2+
 name: gnome-music
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: tracker
+  
+  version: 1.99.1
+- 
   category: media-plugins
   description: ""
   license: ""
@@ -12,10 +19,10 @@ requires:
   
   version: 0.3.8
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: libnotify
   
   version: ""
 - 
@@ -26,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: tracker
+  name: gtk+
   
-  version: 1.99.1
+  version: 3.23.1
 - 
   category: media-libs
   description: ""
@@ -40,10 +47,17 @@ requires:
   
   version: 0.3.4
 - 
-  category: x11-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libnotify
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
   
   version: ""
 - 
@@ -54,40 +68,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.54"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: pygobject
   
   version: 3.29.1
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: grilo-plugins
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.23.1
 - 
   category: dev-libs
   description: ""
@@ -103,6 +89,13 @@ requires:
   
   version: 1.9.1
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
@@ -110,19 +103,26 @@ requires:
   
   version: 1.14.0
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-meta
+  name: gstreamer
   
   version: ""
 - 
-  category: net-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: grilo-plugins
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
 uri: []
 use_flags:
 - ""

@@ -5,6 +5,13 @@ license: GPL-2
 name: ecryptfs-utils
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyutils
+  
+  version: 1.5.11-r1
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -19,12 +26,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: pam
+  name: pkcs11-helper
   
-  version: ""
+  version: "1.04"
 - 
   category: app-crypt
   description: ""
@@ -32,13 +39,6 @@ requires:
   name: trousers
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyutils
-  
-  version: 1.5.11-r1
 - 
   category: dev-libs
   description: ""
@@ -61,12 +61,12 @@ requires:
   
   version: 0.9.7
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: pkcs11-helper
+  name: pam
   
-  version: "1.04"
+  version: ""
 uri:
 - https://dev.gentoo.org/~bkohler/dist/ecryptfs-utils-111.tar.gz
 use_flags:

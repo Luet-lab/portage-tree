@@ -1,10 +1,10 @@
 category: sci-libs
 conflicts:
 - 
-  category: app-eselect
+  category: sci-libs
   description: ""
   license: ""
-  name: eselect-cblas
+  name: cblas-reference
   
   version: ""
 - 
@@ -15,10 +15,10 @@ conflicts:
   
   version: ""
 - 
-  category: sci-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: lapacke-reference
+  name: eselect-cblas
   
   version: ""
 - 
@@ -32,20 +32,13 @@ conflicts:
   category: sci-libs
   description: ""
   license: ""
-  name: cblas-reference
+  name: lapacke-reference
   
   version: ""
 description: BLAS,CBLAS,LAPACK,LAPACKE reference implementations
 license: BSD
 name: lapack
 requires:
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-blas
-  
-  version: "0.2"
 - 
   category: virtual
   description: ""
@@ -60,6 +53,13 @@ requires:
   name: blas-docs
   
   version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-blas
+  
+  version: "0.2"
 - 
   category: app-eselect
   description: ""

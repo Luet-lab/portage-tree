@@ -12,12 +12,33 @@ license: GPL-2+ LGPL-2+
 name: gst-plugins-base
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: 2.4.55
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 1.31.1
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: libogg
   
-  version: 1.3.3-r1
+  version: 1.3.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -33,19 +54,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: jpeg
+  name: graphene
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 1.31.1
+  version: 1.4.0
 - 
   category: media-libs
   description: ""
@@ -57,9 +71,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libogg
+  name: libvorbis
   
-  version: 1.3.0
+  version: 1.3.3-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
+  
+  version: 1.0.10
 - 
   category: x11-libs
   description: ""
@@ -71,23 +92,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
+  name: libXext
   
-  version: 2.4.55
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.40.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
+  version: 1.3.2
 - 
   category: media-libs
   description: ""
@@ -103,19 +110,19 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.40.0
+- 
   category: dev-lang
   description: ""
   license: ""
   name: orc
   
   version: 0.4.24
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: 1.1.1
 - 
   category: x11-libs
   description: ""
@@ -124,33 +131,12 @@ requires:
   
   version: 1.6.2
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXext
-  
-  version: 1.3.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXv
-  
-  version: 1.0.10
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
+  name: jpeg
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: graphene
-  
-  version: 1.4.0
 - 
   category: sys-libs
   description: ""
@@ -158,6 +144,20 @@ requires:
   name: zlib
   
   version: 1.2.8-r1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
+  
+  version: 1.1.1
 uri: []
 use_flags:
 - alsa

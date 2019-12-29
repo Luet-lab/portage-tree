@@ -5,31 +5,52 @@ license: GPL-2+ FDL-1.2+
 name: gparted
 requires:
 - 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: "2.24"
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.2"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: ntfs3g
+  
+  version: 2011.4.12
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udftools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
   name: xfsdump
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: multipath-tools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: reiser4progs
   
   version: ""
 - 
@@ -50,7 +71,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
+  name: f2fs-tools
   
   version: ""
 - 
@@ -61,33 +82,12 @@ requires:
   
   version: ""
 - 
-  category: x11-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: xhost
+  name: reiser4progs
   
   version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.102"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.20"
 - 
   category: dev-libs
   description: ""
@@ -99,16 +99,16 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: diskdev_cmds
+  name: btrfs-progs
   
   version: ""
 - 
-  category: kde-plasma
+  category: sys-fs
   description: ""
   license: ""
-  name: kde-cli-tools
+  name: diskdev_cmds
   
-  version: 5.8.6-r1
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -120,7 +120,56 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: xfsprogs
+  name: jfsutils
+  
+  version: ""
+- 
+  category: kde-plasma
+  description: ""
+  license: ""
+  name: kde-cli-tools
+  
+  version: 5.8.6-r1
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xhost
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.20"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: multipath-tools
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mtools
   
   version: ""
 - 
@@ -131,12 +180,12 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-auth
   description: ""
   license: ""
-  name: ntfs3g
+  name: polkit
   
-  version: 2011.4.12
+  version: "0.102"
 - 
   category: dev-cpp
   description: ""
@@ -148,30 +197,9 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: mtools
+  name: e2fsprogs
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: jfsutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: f2fs-tools
-  
-  version: ""
+  version: "1.41"
 - 
   category: sys-fs
   description: ""
@@ -179,34 +207,6 @@ requires:
   name: mdadm
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udftools
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "2.24"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.2"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: "1.41"
 uri:
 - mirror://sourceforge/gparted/gparted-0.33.0.tar.gz
 use_flags:

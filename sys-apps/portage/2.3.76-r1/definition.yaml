@@ -1,19 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-admin
-  description: ""
-  license: ""
-  name: logrotate
-  
-  version: 3.8.0
-- 
   category: <app-portage
   description: ""
   license: ""
   name: gentoolkit
   
   version: 0.4.6
+- 
+  category: <app-admin
+  description: ""
+  license: ""
+  name: logrotate
+  
+  version: 3.8.0
 - 
   category: <app-portage
   description: ""
@@ -26,19 +26,19 @@ license: GPL-2
 name: portage
 requires:
 - 
-  category: app-arch
+  category: sys-apps
   description: ""
   license: ""
-  name: tar
+  name: install-xattr
   
-  version: "1.27"
+  version: "0.3"
 - 
-  category: app-crypt
+  category: app-misc
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: pax-utils
   
-  version: "20180706"
+  version: 0.1.17
 - 
   category: sys-libs
   description: ""
@@ -47,20 +47,6 @@ requires:
   
   version: 2.0.94
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
@@ -68,12 +54,19 @@ requires:
   
   version: "1.2"
 - 
-  category: app-portage
+  category: sys-apps
   description: ""
   license: ""
-  name: gemato
+  name: sandbox
   
-  version: "14"
+  version: "2.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
 - 
   category: sys-freebsd
   description: ""
@@ -82,12 +75,26 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: app-arch
   description: ""
   license: ""
-  name: pax-utils
+  name: tar
   
-  version: 0.1.17
+  version: "1.27"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
 - 
   category: app-crypt
   description: ""
@@ -106,23 +113,16 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: install-xattr
+  name: sed
   
-  version: "0.3"
+  version: 4.0.5
 - 
-  category: dev-lang
+  category: app-shells
   description: ""
   license: ""
-  name: python-exec
+  name: bash
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sandbox
-  
-  version: "2.2"
 uri: []
 use_flags:
 - build

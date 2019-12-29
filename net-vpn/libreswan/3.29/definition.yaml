@@ -1,37 +1,23 @@
 category: net-vpn
 conflicts:
 - 
-  category: net-vpn
-  description: ""
-  license: ""
-  name: strongswan
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: openswan
   
   version: ""
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: strongswan
+  
+  version: ""
 description: IPsec implementation for Linux, fork of Openswan
 license: GPL-2 BSD-4 RSA DES
 name: libreswan
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -40,17 +26,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ipsec
   
   version: ""
 - 
@@ -61,20 +54,6 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss[utils(+)]
-  
-  version: ""
-- 
   category: net-dns
   description: ""
   license: ""
@@ -82,10 +61,10 @@ requires:
   
   version: 1.9.1-r1
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: systemd
+  name: ldns
   
   version: ""
 - 
@@ -99,14 +78,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ipsec
+  name: pam
   
   version: ""
 - 
@@ -127,9 +99,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: nspr
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: nss
   
   version: "3.42"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss[utils(+)]
+  
+  version: ""
 uri:
 - https://download.libreswan.org/libreswan-3.29.tar.gz
 use_flags:

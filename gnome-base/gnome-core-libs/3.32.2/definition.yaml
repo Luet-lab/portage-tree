@@ -5,26 +5,12 @@ license: metapackage
 name: gnome-core-libs
 requires:
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: startup-notification
+  name: dconf
   
-  version: "0.12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: 1.14.4
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: 3.32.1
+  version: 0.32.0
 - 
   category: dev-libs
   description: ""
@@ -39,6 +25,13 @@ requires:
   name: gdk-pixbuf
   
   version: 2.38.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: 1.42.4
 - 
   category: dev-libs
   description: ""
@@ -64,23 +57,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: startup-notification
   
-  version: 1.42.4
+  version: "0.12"
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gvfs
+  name: gstreamer
   
-  version: 1.40.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: 0.32.0
+  version: 1.14.4
 - 
   category: media-libs
   description: ""
@@ -95,6 +81,20 @@ requires:
   name: gst-plugins-good
   
   version: 1.14.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: 3.32.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: 1.40.1
 uri: []
 use_flags:
 - cups

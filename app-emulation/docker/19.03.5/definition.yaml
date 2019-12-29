@@ -5,6 +5,34 @@ license: Apache-2.0
 name: docker
 requires:
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: "1.7"
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: containerd
+  
+  version: 1.2.10
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: tini
+  
+  version: 0.18.0
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -15,23 +43,9 @@ requires:
   category: app-emulation
   description: ""
   license: ""
-  name: containerd
-  
-  version: 1.2.10
-- 
-  category: app-emulation
-  description: ""
-  license: ""
   name: docker-proxy
   
   version: 0.8.0_p20191011
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: tini
-  
-  version: 0.18.0
 - 
   category: dev-db
   description: ""
@@ -40,33 +54,19 @@ requires:
   
   version: 3.7.9
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: 2.2.1
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: git
-  
-  version: "1.7"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: "4.9"
-- 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2
   
   version: 2.02.89
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
+  
+  version: 2.2.1
 - 
   category: sys-libs
   description: ""
@@ -82,12 +82,12 @@ requires:
   
   version: "1.4"
 - 
-  category: sys-process
+  category: app-arch
   description: ""
   license: ""
-  name: procps
+  name: xz-utils
   
-  version: ""
+  version: "4.9"
 uri:
 - https://github.com/docker/docker-ce/archive/v19.03.5.tar.gz -> docker-19.03.5.tar.gz
 use_flags:

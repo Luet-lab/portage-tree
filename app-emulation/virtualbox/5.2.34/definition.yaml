@@ -13,101 +13,10 @@ license: GPL-2 dtrace? ( CDDL )
 name: virtualbox
 requires:
 - 
-  category: sys-fs
+  category: sys-libs
   description: ""
   license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libvncserver
-  
-  version: 0.9.9
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libIDL
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
+  name: zlib
   
   version: ""
 - 
@@ -125,59 +34,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtprintsupport
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: virtualbox-modules
-  
-  version: 5.2.34
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
+  name: openssl
   
   version: ""
 - 
@@ -195,17 +55,73 @@ requires:
   
   version: 1.1.19
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: opus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXmu
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
   
   version: ""
 - 
@@ -219,14 +135,98 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libIDL
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libvncserver
+  
+  version: 0.9.9
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: virtualbox-modules
+  
+  version: 5.2.34
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvpx
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
   
   version: ""
 uri:

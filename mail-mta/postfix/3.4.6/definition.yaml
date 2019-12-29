@@ -18,44 +18,9 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: <mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: opensmtpd
   
   version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -67,9 +32,37 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: exim
   
   version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: msmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: <mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: net-mail
   description: ""
@@ -85,10 +78,17 @@ mailer
   
   version: ""
 - 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+mailer
   
   version: ""
 description: A fast and secure drop-in replacement for sendmail
@@ -96,45 +96,31 @@ license: '|| ( IBM EPL-2.0 )'
 name: postfix
 requires:
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: 0.9.11
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnsl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
-- 
   category: net-nds
   description: ""
   license: ""
   name: openldap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: 2.9.1
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
   
   version: ""
 - 
@@ -145,10 +131,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: icu
+  name: db
+  
+  version: "3.2"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnsl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: 0.9.11
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -159,17 +173,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "3.4"
-- 
   category: dev-db
   description: ""
   license: ""
   name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -183,37 +211,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libpcre
   
-  version: 2.9.1
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
+  version: "3.4"
 uri:
 - ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.4.6.tar.gz
 use_flags:

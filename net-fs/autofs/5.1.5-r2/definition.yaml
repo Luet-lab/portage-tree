@@ -5,10 +5,31 @@ license: GPL-2
 name: autofs
 requires:
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: krb5
+  name: util-linux
+  
+  version: "2.20"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc[rpc(-)]
   
   version: ""
 - 
@@ -29,21 +50,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libxml2
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: krb5
   
   version: ""
 - 
@@ -53,20 +67,6 @@ requires:
   name: libtirpc
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc[rpc(-)]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.20"
 uri:
 - https://www.kernel.org/pub/linux/daemons/autofs/v5/autofs-5.1.5.tar.xz
 use_flags:

@@ -12,45 +12,87 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libcap
-  
-  version: 2.22-r2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sbc
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: speexdsp
+  name: PyQt5
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
+  name: libICE
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.26.0
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: ofono
+  
+  version: "1.13"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: webrtc-audio-processing
+  
+  version: "0.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.6"
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: systemd
   
-  version: 1.0.0
+  version: ""
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fftw
+  name: libltdl
   
   version: ""
 - 
@@ -64,21 +106,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
-  
-  version: "1.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
+  name: libXtst
   
   version: ""
 - 
-  category: app-misc
+  category: virtual
   description: ""
   license: ""
-  name: lirc
+  name: jack
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libasyncns
   
   version: ""
 - 
@@ -89,6 +131,13 @@ requires:
   
   version: 0.4.15
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: 1.4.0
+- 
   category: media-libs
   description: ""
   license: ""
@@ -96,33 +145,47 @@ requires:
   
   version: 0.1.1-r1
 - 
-  category: net-dns
+  category: media-libs
   description: ""
   license: ""
-  name: avahi
+  name: alsa-lib
   
-  version: 0.6.12
+  version: 1.0.19
 - 
-  category: net-wireless
+  category: sys-apps
   description: ""
   license: ""
-  name: bluez
+  name: dbus
   
-  version: "5"
+  version: 1.0.0
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libasyncns
+  name: sbc
   
   version: ""
 - 
-  category: net-misc
+  category: virtual
   description: ""
   license: ""
-  name: ofono
+  name: udev-143[hwdb(+)]
   
-  version: "1.13"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speexdsp
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -130,6 +193,41 @@ requires:
   name: gdbm
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.20
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: 2.22-r2
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.12
 - 
   category: sec-policy
   description: ""
@@ -145,55 +243,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.20
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: webrtc-audio-processing
-  
-  version: "0.2"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: 1.4.0
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -201,19 +250,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: libressl
+  name: bluez
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev-143[hwdb(+)]
-  
-  version: ""
+  version: "5"
 - 
   category: media-libs
   description: ""
@@ -221,48 +263,6 @@ requires:
   name: soxr
   
   version: 0.1.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PyQt5
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.19
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.26.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
 uri:
 - https://freedesktop.org/software/pulseaudio/releases/pulseaudio-12.2.tar.xz
 use_flags:

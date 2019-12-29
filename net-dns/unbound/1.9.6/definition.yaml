@@ -5,6 +5,13 @@ license: BSD GPL-2
 name: unbound
 requires:
 - 
+  category: net-dns
+  description: ""
+  license: ""
+  name: dnssec-root
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,10 +33,17 @@ requires:
   
   version: 2.2.4
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-bind
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -39,13 +53,6 @@ requires:
   name: openssl
   
   version: 1.0.1h-r2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -64,21 +71,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: hiredis
   
   version: ""
 - 
-  category: net-dns
+  category: sec-policy
   description: ""
   license: ""
-  name: dnssec-root
+  name: selinux-bind
   
   version: ""
 uri:

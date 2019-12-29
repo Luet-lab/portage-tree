@@ -5,13 +5,6 @@ license: cadsoft-2
 name: eagle
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -29,23 +22,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXrender
+  
+  version: 0.9.8
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: libxcb
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: glibc
   
-  version: 1.2.8-r1
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -60,13 +60,6 @@ requires:
   name: libXext
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: 0.9.8
 - 
   category: x11-libs
   description: ""
@@ -89,12 +82,19 @@ requires:
   
   version: 1.7.2
 - 
-  category: net-print
+  category: dev-libs
   description: ""
   license: ""
-  name: cups
+  name: openssl
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
 uri:
 - 'ftp://ftp.cadsoft.de/eagle/program/7.7/eagle-lin32-7.7.0.run '
 - 'ftp://ftp.cadsoft.de/eagle/program/7.7/eagle-lin64-7.7.0.run '

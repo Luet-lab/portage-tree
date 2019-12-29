@@ -5,31 +5,38 @@ license: MIT
 name: beets
 requires:
 - 
-  category: media-video
+  category: media-libs
   description: ""
   license: ""
-  name: ffmpeg
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mutagen
+  
+  version: "1.33"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: python-mpd
+  name: pygobject
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: six
-  
-  version: "1.9"
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mp3val
+  name: requests-oauthlib
   
   version: ""
 - 
@@ -40,10 +47,52 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: dev-python
   description: ""
   license: ""
-  name: mp3gain
+  name: unidecode
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-mpd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-pathlib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyyaml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: flask
   
   version: ""
 - 
@@ -61,31 +110,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: gst-plugins-bad
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyyaml
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-pathlib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyxdg
+  name: mp3val
   
   version: ""
 - 
@@ -93,55 +121,6 @@ requires:
   description: ""
   license: ""
   name: chromaprint
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: unidecode
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-enum34
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pylast
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: flask
   
   version: ""
 - 
@@ -155,35 +134,35 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: requests-oauthlib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-libav
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mutagen
-  
-  version: "1.33"
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: discogs-client
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: "1.9"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-enum34
   
   version: ""
 - 
@@ -197,16 +176,37 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: jellyfish
+  name: pylast
   
-  version: 0.7.1
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-libav
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mp3gain
+  
+  version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: pyxdg
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jellyfish
+  
+  version: 0.7.1
 uri:
 - mirror://pypi/b/beets/beets-1.4.9.tar.gz
 use_flags:

@@ -5,12 +5,19 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
-  category: sys-auth
+  category: net-misc
   description: ""
   license: ""
-  name: pambase
+  name: lksctp-tools
   
-  version: "20081028"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -33,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ldns[-ecdsa,ssl(+)]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: lksctp-tools
+  name: libedit
   
   version: ""
 - 
@@ -58,6 +51,27 @@ requires:
   description: ""
   license: ""
   name: openssl
+  
+  version: 1.1.0g
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns[-ecdsa,ssl(+)]
   
   version: ""
 - 
@@ -68,38 +82,17 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: "20081028"
+- 
   category: x11-apps
   description: ""
   license: ""
   name: xauth
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libedit
   
   version: ""
 - 
@@ -115,7 +108,14 @@ requires:
   license: ""
   name: openssl
   
-  version: 1.1.0g
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.3
 uri:
 - mirror://openbsd/OpenSSH/portable/openssh-7.9.tar.gz
 - https://dev.gentoo.org/~whissi/dist/openssh/openssh-7.9p1-patches-1.0.tar.xz

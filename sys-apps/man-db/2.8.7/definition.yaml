@@ -12,17 +12,24 @@ license: GPL-3
 name: man-db
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdbm
+  name: libpipeline
+  
+  version: 1.5.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: groff
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-group
   description: ""
   license: ""
-  name: zlib
+  name: man
   
   version: ""
 - 
@@ -33,10 +40,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sec-policy
   description: ""
   license: ""
-  name: groff
+  name: selinux-mandb
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
   
   version: ""
 - 
@@ -54,26 +68,12 @@ requires:
   
   version: ""
 - 
-  category: acct-group
+  category: sys-libs
   description: ""
   license: ""
-  name: man
+  name: zlib
   
   version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mandb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpipeline
-  
-  version: 1.5.0
 uri:
 - mirror://nongnu/man-db/man-db-2.8.7.tar.xz
 use_flags:

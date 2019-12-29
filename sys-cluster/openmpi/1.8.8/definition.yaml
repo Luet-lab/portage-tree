@@ -4,7 +4,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+  name: mpiexec
   
   version: ""
 - 
@@ -25,7 +25,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpiexec
+  name: pmix
   
   version: ""
 description: A high-performance message passing library (MPI)
@@ -33,10 +33,10 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: sys-cluster
+  category: dev-util
   description: ""
   license: ""
-  name: knem
+  name: nvidia-cuda-toolkit
   
   version: ""
 - 
@@ -47,17 +47,24 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: dev-libs
   description: ""
   license: ""
-  name: ofed
+  name: libltdl
   
   version: ""
 - 
-  category: sys-fabric
+  category: virtual
   description: ""
   license: ""
-  name: infinipath-psm
+  name: jre
+  
+  version: "1.6"
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
   
   version: ""
 - 
@@ -75,13 +82,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -89,26 +89,26 @@ requires:
   
   version: ""
 - 
-  category: dev-util
+  category: sys-fabric
   description: ""
   license: ""
-  name: nvidia-cuda-toolkit
+  name: ofed
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: torque
+  name: knem
   
   version: ""
 - 
-  category: virtual
+  category: sys-fabric
   description: ""
   license: ""
-  name: jre
+  name: infinipath-psm
   
-  version: "1.6"
+  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-1.8.8.tar.bz2
 use_flags:

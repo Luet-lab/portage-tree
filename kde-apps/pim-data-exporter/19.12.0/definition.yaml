@@ -19,24 +19,17 @@ license: GPL-2+ handbook? ( FDL-1.2+ )
 name: pim-data-exporter
 requires:
 - 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: libkdepim
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: kconfig
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcontacts
+  name: kcoreaddons
   
   version: 5.63.0
 - 
@@ -46,6 +39,27 @@ requires:
   name: kdbusaddons
   
   version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: pimcommon
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
 - 
   category: kde-apps
   description: ""
@@ -57,28 +71,7 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: kpimtextedit
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
   name: kmailtransport
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: mailcommon
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: pimcommon
   
   version: ""
 - 
@@ -92,7 +85,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
+  name: kconfigwidgets
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcontacts
   
   version: 5.63.0
 - 
@@ -117,52 +117,17 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-apps
   description: ""
   license: ""
-  name: qtgui
+  name: libkdepim
   
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: 5.63.0
+  version: ""
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kmime
+  name: mailcommon
   
   version: ""
 - 
@@ -179,6 +144,41 @@ requires:
   name: kwidgetsaddons
   
   version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kmime
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kpimtextedit
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.63.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
 uri: []
 use_flags:
 - ""

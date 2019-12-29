@@ -11,34 +11,34 @@ conflicts:
   category: <app-portage
   description: ""
   license: ""
-  name: gentoolkit
+  name: repoman
   
-  version: 0.4.6
+  version: 2.3.10
 - 
   category: <app-portage
   description: ""
   license: ""
-  name: repoman
+  name: gentoolkit
   
-  version: 2.3.10
+  version: 0.4.6
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
 - 
-  category: app-admin
+  category: sys-libs
   description: ""
   license: ""
-  name: eselect
+  name: libselinux
   
-  version: "1.2"
+  version: 2.0.94
 - 
-  category: app-portage
+  category: sys-apps
   description: ""
   license: ""
-  name: gemato
+  name: install-xattr
   
-  version: "14"
+  version: "0.3"
 - 
   category: app-misc
   description: ""
@@ -47,40 +47,12 @@ requires:
   
   version: 0.1.17
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: "1.27"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
-- 
-  category: sys-freebsd
-  description: ""
-  license: ""
-  name: freebsd-bin
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: sandbox
+  name: sed
   
-  version: "2.2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
+  version: 4.0.5
 - 
   category: app-shells
   description: ""
@@ -89,26 +61,33 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: app-portage
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: gemato
   
-  version: "20180706"
+  version: "14"
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: util-linux
   
-  version: 4.0.5
+  version: ""
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libselinux
+  name: python-exec
   
-  version: 2.0.94
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect
+  
+  version: "1.2"
 - 
   category: app-crypt
   description: ""
@@ -120,9 +99,30 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: install-xattr
+  name: sandbox
   
-  version: "0.3"
+  version: "2.2"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
+  
+  version: "1.27"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
+- 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-bin
+  
+  version: ""
 uri: []
 use_flags:
 - build

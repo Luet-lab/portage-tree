@@ -6,18 +6,32 @@ conflicts:
   license: ""
   name: jack-audio-connection-kit
   
-  version: 1.9.9
+  version: 0.122.0
 - 
   category: <media-sound
   description: ""
   license: ""
   name: jack-audio-connection-kit
   
-  version: 0.122.0
+  version: 1.9.9
 description: Driver for IEEE1394 (Firewire) audio interfaces
 license: GPL-2 GPL-3
 name: libffado
 requires:
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libraw1394
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -47,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: x11-misc
   description: ""
   license: ""
-  name: PyQt5
+  name: xdg-utils
   
   version: ""
 - 
@@ -75,24 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libraw1394
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
+  name: PyQt5
   
   version: ""
 uri: []

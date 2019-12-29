@@ -5,10 +5,24 @@ license: LGPL-2.1+
 name: grilo-plugins
 requires:
 - 
-  category: net-misc
+  category: net-dns
   description: ""
   license: ""
-  name: dleyna-server
+  name: avahi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -19,45 +33,10 @@ requires:
   
   version: "2.44"
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libdmapsharing
-  
-  version: 2.9.12
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmediaart
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: totem-pl-parser
-  
-  version: 3.4.1
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: tracker
-  
-  version: 0.10.5
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
+  name: json-glib
   
   version: ""
 - 
@@ -68,12 +47,26 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: totem-pl-parser
   
-  version: 3.17.91
+  version: 3.4.1
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgdata
+  
+  version: 0.9.1
 - 
   category: dev-libs
   description: ""
@@ -81,13 +74,6 @@ requires:
   name: gom
   
   version: 0.3.2-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -103,45 +89,17 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: app-misc
   description: ""
   license: ""
-  name: sqlite
+  name: tracker
   
-  version: ""
+  version: 0.10.5
 - 
-  category: app-arch
+  category: net-misc
   description: ""
   license: ""
-  name: libarchive
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: grilo
-  
-  version: 0.3.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-chromaprint
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: dleyna-connector-dbus
+  name: dleyna-server
   
   version: ""
 - 
@@ -152,12 +110,54 @@ requires:
   
   version: "5.3"
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libgdata
+  name: grilo
   
-  version: 0.9.1
+  version: 0.3.8
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libdmapsharing
+  
+  version: 2.9.12
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmediaart
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: dleyna-connector-dbus
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.91
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-chromaprint
+  
+  version: ""
 uri: []
 use_flags:
 - daap

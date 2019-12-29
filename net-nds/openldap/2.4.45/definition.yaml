@@ -12,26 +12,33 @@ license: OPENLDAP GPL-2
 name: openldap
 requires:
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: gnutls
+  name: selinux-ldap
   
-  version: 2.12.23-r6
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: 1.5.3
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: libressl
   
   version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.0"
 - 
   category: virtual
   description: ""
@@ -43,16 +50,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
+  version: 1.0.1h-r2
 - 
   category: sys-devel
   description: ""
@@ -61,40 +61,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: unixODBC
+  name: lmdb
   
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h-r2
+  version: 0.9.18
 - 
   category: net-libs
   description: ""
@@ -106,16 +78,51 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libgcrypt
+  
+  version: 1.5.3
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: unixODBC
   
-  version: 0.9.18
+  version: ""
 - 
   category: dev-db
   description: ""
@@ -123,13 +130,6 @@ requires:
   name: libiodbc
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.0"
 uri: []
 use_flags:
 - crypt

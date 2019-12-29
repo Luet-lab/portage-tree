@@ -5,10 +5,73 @@ license: LGPL-2.1+
 name: fwupd
 requires:
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.45.8
+- 
   category: dev-libs
   description: ""
   license: ""
   name: libgpg-error
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libelf
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: efivar
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: gnu-efi
   
   version: ""
 - 
@@ -22,30 +85,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: efivar
+  name: libsmbios
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: efivar
-  
-  version: "33"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gcab
-  
-  version: "1.0"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: tpm2-tss
-  
-  version: ""
+  version: 2.4.0
 - 
   category: sys-apps
   description: ""
@@ -54,54 +96,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: freetype
+  name: systemd
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.103"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pillow
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.4.4.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
+  version: "211"
 - 
   category: sys-apps
   description: ""
@@ -110,59 +110,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-db
   description: ""
   license: ""
-  name: libelf
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.45.8
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsmbios
-  
-  version: 2.4.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: gnu-efi
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
+  name: sqlite
   
   version: ""
 - 
@@ -176,30 +127,58 @@ requires:
   category: sys-auth
   description: ""
   license: ""
+  name: polkit
+  
+  version: "0.103"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: tpm2-tss
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
   name: consolekit
   
   version: 1.0.0
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: systemd
-  
-  version: "211"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
+  name: pygobject
   
   version: ""
 - 
-  category: sys-boot
+  category: net-libs
   description: ""
   license: ""
-  name: efibootmgr
+  name: gnutls
   
-  version: ""
+  version: 3.4.4.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: efivar
+  
+  version: "33"
 - 
   category: x11-libs
   description: ""
@@ -208,10 +187,31 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: app-arch
   description: ""
   license: ""
-  name: gpgme
+  name: gcab
+  
+  version: "1.0"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pillow
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri:

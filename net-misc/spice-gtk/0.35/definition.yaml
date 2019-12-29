@@ -13,12 +13,26 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtk+
   
-  version: "1.2"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
 - 
   category: app-emulation
   description: ""
@@ -27,12 +41,33 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: phodav
+  name: acl
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: usbredir
+  
+  version: 0.4.2
 - 
   category: net-libs
   description: ""
@@ -40,6 +75,20 @@ requires:
   name: libsoup
   
   version: 2.49.91
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -55,80 +104,24 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: 0.110-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
+  name: zlib
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.46"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: libgudev
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: usbredir
-  
-  version: 0.4.2
 - 
   category: virtual
   description: ""
   license: ""
   name: libusb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
   
   version: ""
 - 
@@ -142,16 +135,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: gst-plugins-good
   
   version: ""
 - 
-  category: app-arch
+  category: x11-libs
   description: ""
   license: ""
-  name: lz4
+  name: cairo
   
-  version: ""
+  version: "1.2"
 - 
   category: dev-libs
   description: ""
@@ -160,33 +153,40 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: 0.110-r1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: phodav
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: glib
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
+  version: "2.46"
 uri:
 - https://www.spice-space.org/download/gtk/spice-gtk-0.35.tar.bz2
 use_flags:

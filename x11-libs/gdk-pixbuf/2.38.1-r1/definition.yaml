@@ -4,9 +4,9 @@ conflicts:
   category: <gnome-base
   description: ""
   license: ""
-  name: gail
+  name: librsvg
   
-  version: "1000"
+  version: 2.31.0
 - 
   category: <x11-libs
   description: ""
@@ -18,9 +18,9 @@ conflicts:
   category: <gnome-base
   description: ""
   license: ""
-  name: librsvg
+  name: gail
   
-  version: 2.31.0
+  version: "1000"
 - 
   category: <x11-libs
   description: ""
@@ -32,13 +32,6 @@ description: Image loading library for GTK+
 license: LGPL-2+
 name: gdk-pixbuf
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.48.0
 - 
   category: x11-misc
   description: ""
@@ -61,6 +54,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.48.0
+- 
   category: virtual
   description: ""
   license: ""
@@ -74,13 +81,6 @@ requires:
   name: tiff
   
   version: 3.9.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.54"
 uri: []
 use_flags:
 - X

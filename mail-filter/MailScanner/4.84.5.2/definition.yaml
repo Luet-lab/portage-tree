@@ -5,146 +5,6 @@ license: GPL-2
 name: MailScanner
 requires:
 - 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TimeDate
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-File-Temp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: app-antivirus
-  description: ""
-  license: ""
-  name: clamav
-  
-  version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: spamassassin
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTML-Tagset
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-stringy
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-CIDR
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Sys-Hostname-Long
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: tnef
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Convert-BinHex
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-File-Spec
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Sys-Syslog
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-DNS
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: OLE-StorageLite
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -152,10 +12,10 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: mail-mta
   description: ""
   license: ""
-  name: HTML-Parser
+  name: exim
   
   version: ""
 - 
@@ -169,7 +29,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-SQLite
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-DNS
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Filesys-Df
   
   version: ""
 - 
@@ -183,14 +57,42 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Archive-Zip
+  name: DBD-SQLite
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Filesys-Df
+  name: Net-CIDR
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: OLE-StorageLite
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Sys-Hostname-Long
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -204,7 +106,28 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Sys-SigAction
+  name: IO-stringy
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: TimeDate
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Sys-Syslog
+  
+  version: ""
+- 
+  category: app-antivirus
+  description: ""
+  license: ""
+  name: clamav
   
   version: ""
 - 
@@ -212,6 +135,83 @@ requires:
   description: ""
   license: ""
   name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Parser
+  
+  version: ""
+- 
+  category: mail-filter
+  description: ""
+  license: ""
+  name: spamassassin
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Zip
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Spec
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Convert-BinHex
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Temp
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Sys-SigAction
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-Tagset
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: tnef
   
   version: ""
 uri:

@@ -5,47 +5,19 @@ license: imagemagick
 name: imagemagick
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwmf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: liblqr
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: opencl
+  name: jpeg
   
   version: ""
 - 
-  category: media-fonts
+  category: dev-lang
   description: ""
   license: ""
-  name: urw-fonts
+  name: perl
   
-  version: ""
+  version: 5.8.8
 - 
   category: x11-libs
   description: ""
@@ -57,21 +29,49 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
+  name: bzip2
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: corefonts
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: lcms
+  name: fontconfig
   
   version: ""
 - 
-  category: app-text
+  category: media-gfx
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: graphviz
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libraw
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwmf
   
   version: ""
 - 
@@ -82,10 +82,17 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: sys-libs
   description: ""
   license: ""
-  name: djvu
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
   
   version: ""
 - 
@@ -99,14 +106,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: jbigkit
-  
-  version: "2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: libheif
   
   version: ""
 - 
@@ -124,10 +124,45 @@ requires:
   
   version: ""
 - 
-  category: media-fonts
+  category: gnome-base
   description: ""
   license: ""
-  name: corefonts
+  name: librsvg
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: djvu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libfpx
+  
+  version: 1.3.0-r1
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
   
   version: ""
 - 
@@ -141,44 +176,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
+  name: lcms
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openexr
+  name: liblqr
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphviz
+  name: libXext
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libheif
+  name: jbigkit
   
-  version: ""
+  version: "2"
 - 
   category: x11-libs
   description: ""
@@ -187,17 +208,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: media-fonts
   description: ""
   license: ""
-  name: perl
-  
-  version: 5.8.8
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
+  name: urw-fonts
   
   version: ""
 - 
@@ -208,40 +222,26 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: fontconfig
+  name: ghostscript-gpl
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libfpx
-  
-  version: 1.3.0-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libraw
+  name: libwebp
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libXt
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: "2"
 uri:
 - https://github.com/ImageMagick/ImageMagick6/archive/.tar.gz -> imagemagick-6.9.10.78.tar.gz
 use_flags:

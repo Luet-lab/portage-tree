@@ -13,17 +13,10 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: audit
   
   version: ""
 - 
@@ -34,47 +27,12 @@ requires:
   
   version: ""
 - 
-  category: x11-apps
+  category: gnome-base
   description: ""
   license: ""
-  name: xhost
+  name: gnome-shell
   
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: orca
-  
-  version: "3.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "186"
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
+  version: 3.1.90
 - 
   category: media-libs
   description: ""
@@ -83,33 +41,12 @@ requires:
   
   version: "0.4"
 - 
-  category: x11-base
+  category: sys-apps
   description: ""
   license: ""
-  name: xorg-server
+  name: dbus
   
   version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: fprintd
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-shell
-  
-  version: 3.1.90
 - 
   category: sys-apps
   description: ""
@@ -121,16 +58,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXdmcp
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libxcb
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: mousetweaks
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: fprintd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
 - 
   category: sys-apps
   description: ""
@@ -149,23 +107,16 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gnome-session
   
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: 1.0.2-r3
+  version: "3.6"
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: elogind
+  name: pam_fprint
   
-  version: "239.3"
+  version: ""
 - 
   category: app-text
   description: ""
@@ -188,45 +139,24 @@ requires:
   
   version: 2.5.0
 - 
-  category: gnome-extra
+  category: x11-libs
   description: ""
   license: ""
-  name: mousetweaks
+  name: libxcb
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-base
   description: ""
   license: ""
-  name: glib
+  name: xorg-server
   
-  version: "2.44"
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: libXau
   
   version: ""
 - 
@@ -237,19 +167,89 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gnome-settings-daemon
   
-  version: "3.6"
+  version: 3.1.4
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: pam_fprint
+  name: elogind
+  
+  version: "239.3"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xhost
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: 1.0.2-r3
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: orca
+  
+  version: "3.10"
 uri:
 - 'https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz '
 use_flags:

@@ -5,17 +5,10 @@ license: GPL-2
 name: proftpd
 requires:
 - 
-  category: dev-db
+  category: sec-policy
   description: ""
   license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: selinux-ftp
   
   version: ""
 - 
@@ -33,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -43,70 +43,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: net-ftp
-  description: ""
-  license: ""
-  name: ftpbase
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmemcached
-  
-  version: "0.41"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
   
   version: ""
 - 
@@ -117,6 +54,48 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -124,10 +103,31 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: net-ftp
   description: ""
   license: ""
-  name: selinux-ftp
+  name: ftpbase
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmemcached
+  
+  version: "0.41"
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 uri:

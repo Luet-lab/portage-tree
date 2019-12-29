@@ -1,19 +1,12 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: sysvinit
   
-  version: "27"
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-zsh-completions
-  
-  version: "20180228"
+  version: ""
 - 
   category: <sys-process
   description: ""
@@ -22,6 +15,20 @@ conflicts:
   
   version: 3.3.9-r2
 - 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-bashcomp
+  
+  version: "20180302"
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-zsh-completions
+  
+  version: "20180228"
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -29,44 +36,23 @@ conflicts:
   
   version: 2.1-r1
 - 
-  category: sys-apps
+  category: <sys-fs
   description: ""
   license: ""
-  name: sysvinit
+  name: udev-init-scripts
   
-  version: ""
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
+  version: "27"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: ncurses
+  name: selinux-base-policy
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.6"
+  version: 2.20170204-r4
 - 
   category: sec-policy
   description: ""
@@ -78,7 +64,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: ncurses
   
   version: ""
 - 
@@ -89,24 +75,10 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: sys-libs
   description: ""
   license: ""
-  name: bash
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
+  name: pam
   
   version: ""
 - 
@@ -124,12 +96,40 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-auth
   description: ""
   license: ""
-  name: selinux-base-policy
+  name: pambase
   
-  version: 2.20170204-r4
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
 uri: []
 use_flags:
 - audit

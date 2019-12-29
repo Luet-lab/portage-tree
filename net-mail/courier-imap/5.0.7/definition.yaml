@@ -1,6 +1,13 @@
 category: net-mail
 conflicts:
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: uw-imap
+  
+  version: ""
+- 
   category: mail-mta
   description: ""
   license: ""
@@ -21,24 +28,10 @@ conflicts:
   name: cyrus-imapd
   
   version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: uw-imap
-  
-  version: ""
 description: An IMAP daemon designed specifically for maildirs
 license: GPL-3
 name: courier-imap
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -47,19 +40,26 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sec-policy
   description: ""
   license: ""
-  name: fam
+  name: selinux-courier
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gdbm
+  name: gnutls
   
-  version: 1.8.0
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -71,37 +71,30 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: courier-unicode
-  
-  version: "2"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
   name: courier-authlib
   
   version: 0.66.4
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-courier
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-unicode
+  
+  version: "2"
 - 
   category: net-mail
   description: ""
@@ -109,6 +102,13 @@ requires:
   name: mailbase
   
   version: 0.00-r8
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: fam
+  
+  version: ""
 uri:
 - mirror://sourceforge/courier/courier-imap-5.0.7.tar.bz2
 use_flags:

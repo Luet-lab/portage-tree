@@ -6,12 +6,12 @@ license: GPL-3
 name: libsigrok
 requires:
 - 
-  category: dev-libs
+  category: dev-embedded
   description: ""
   license: ""
-  name: glib
+  name: libftdi
   
-  version: 2.32.0
+  version: "0.16"
 - 
   category: sys-libs
   description: ""
@@ -23,7 +23,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libserialport-0.1.1[static-libs(+)]
+  name: glib-2.32.0[static-libs(+)]
   
   version: ""
 - 
@@ -34,12 +34,19 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.4"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libzip
+  name: glib
   
-  version: "0.8"
+  version: 2.32.0
 - 
   category: dev-cpp
   description: ""
@@ -55,12 +62,19 @@ requires:
   
   version: 3.0.0
 - 
-  category: dev-embedded
+  category: dev-libs
   description: ""
   license: ""
-  name: libftdi
+  name: libserialport-0.1.1[static-libs(+)]
   
-  version: "0.16"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: "0.8"
 - 
   category: dev-libs
   description: ""
@@ -75,20 +89,6 @@ requires:
   name: libusb
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib-2.32.0[static-libs(+)]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
 uri: []
 use_flags:
 - cxx

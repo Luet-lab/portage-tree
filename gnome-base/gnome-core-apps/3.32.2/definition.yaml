@@ -5,19 +5,26 @@ license: metapackage
 name: gnome-core-apps
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-keyring
+  
+  version: 3.31.91
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: seahorse
+  
+  version: 3.32.2
+- 
   category: app-editors
   description: ""
   license: ""
   name: gedit
   
   version: 3.32.0
-- 
-  category: x11-terms
-  description: ""
-  license: ""
-  name: gnome-terminal
-  
-  version: 3.32.2
 - 
   category: gnome-extra
   description: ""
@@ -33,10 +40,17 @@ requires:
   
   version: 3.32.2
 - 
-  category: media-video
+  category: x11-themes
   description: ""
   license: ""
-  name: totem
+  name: adwaita-icon-theme
+  
+  version: 3.32.0
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: gnome-color-manager
   
   version: 3.32.0
 - 
@@ -47,45 +61,10 @@ requires:
   
   version: 3.32.1
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-keyring
-  
-  version: 3.31.91
-- 
   category: app-text
   description: ""
   license: ""
   name: evince
-  
-  version: 3.32.0
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: eog
-  
-  version: 3.32.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: 3.32.0
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gnome-contacts
-  
-  version: 3.32.1
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
   
   version: 3.32.0
 - 
@@ -99,7 +78,28 @@ requires:
   category: gnome-extra
   description: ""
   license: ""
-  name: gnome-color-manager
+  name: gnome-contacts
+  
+  version: 3.32.1
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: eog
+  
+  version: 3.32.1
+- 
+  category: x11-terms
+  description: ""
+  license: ""
+  name: gnome-terminal
+  
+  version: 3.32.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
   
   version: 3.32.0
 - 
@@ -117,12 +117,12 @@ requires:
   
   version: 3.32.2
 - 
-  category: app-crypt
+  category: media-video
   description: ""
   license: ""
-  name: seahorse
+  name: totem
   
-  version: 3.32.2
+  version: 3.32.0
 uri: []
 use_flags:
 - +bluetooth

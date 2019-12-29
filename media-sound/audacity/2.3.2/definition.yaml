@@ -5,19 +5,47 @@ license: GPL-2
 name: audacity
 requires:
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: twolame
+  name: libsndfile
+  
+  version: 1.0.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "1.2"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: suil
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: vamp-plugin-sdk
+  name: libsoundtouch
   
-  version: "2.0"
+  version: 1.3.1
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -29,9 +57,44 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libid3tag
+  name: portaudio
+  
+  version: "20"
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: 1.3.1
 - 
   category: media-sound
   description: ""
@@ -50,23 +113,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: suil
+  name: vamp-plugin-sdk
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsbsms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: "1.0"
+  version: "2.0"
 - 
   category: media-libs
   description: ""
@@ -78,9 +127,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: flac
+  name: libid3tag
   
-  version: 1.3.1
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -99,65 +148,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: 1.0.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
+  name: libsbsms
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libvorbis
   
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsoundtouch
-  
-  version: 1.3.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: portaudio
-  
-  version: "20"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "1.2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
+  version: "1.0"
 uri:
 - https://github.com/audacity/audacity/archive/Audacity-2.3.2.tar.gz
 - 'https://dev.gentoo.org/~polynomial-c/dist/audacity-manual-2.3.2.zip '

@@ -1,23 +1,30 @@
 category: media-libs
 conflicts:
 - 
-  category: <media-libs
-  description: ""
-  license: ""
-  name: avidemux-core
-  
-  version: 2.7.4
-- 
   category: <media-video
   description: ""
   license: ""
   name: avidemux
   
   version: 2.7.4
+- 
+  category: <media-libs
+  description: ""
+  license: ""
+  name: avidemux-core
+  
+  version: 2.7.4
 description: Core libraries for simple video cutting, filtering and encoding tasks
 license: GPL-1 GPL-2 MIT PSF-2 public-domain
 name: avidemux-core
 requires:
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
 - 
   category: media-video
   description: ""
@@ -26,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libsdl
+  name: libva
   
   version: ""
 - 
@@ -54,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: media-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libsdl
   
   version: ""
 - 
@@ -67,13 +74,6 @@ requires:
   name: ffmpeg
   
   version: "9"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libva
-  
-  version: ""
 uri:
 - https://github.com/mean00/avidemux2/archive/2.7.4.tar.gz -> avidemux-2.7.4.tar.gz
 use_flags:
