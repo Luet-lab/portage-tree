@@ -12,34 +12,6 @@ license: AGPL-3
 name: bareos
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -47,31 +19,17 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: bareos-fastlzlib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: logwatch
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: mtx
   
   version: ""
 - 
@@ -85,7 +43,14 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: glusterfs
+  name: ceph
+  
+  version: 0.94.2
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
   
   version: ""
 - 
@@ -99,14 +64,63 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: logwatch
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: ncurses
+  name: acl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: lzo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: mt-st
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mtx
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: glusterfs
   
   version: ""
 - 
@@ -114,13 +128,6 @@ requires:
   description: ""
   license: ""
   name: mysql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
   
   version: ""
 - 
@@ -138,24 +145,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: lzo
+  name: ncurses
   
   version: ""
 - 
-  category: sys-cluster
+  category: sys-apps
   description: ""
   license: ""
-  name: ceph
-  
-  version: 0.94.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -166,10 +166,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: mt-st
+  name: libressl
   
   version: ""
 uri:

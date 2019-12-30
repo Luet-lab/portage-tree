@@ -1,6 +1,13 @@
 category: sys-apps
 conflicts:
 - 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: "27"
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -11,9 +18,9 @@ conflicts:
   category: <app-shells
   description: ""
   license: ""
-  name: gentoo-bashcomp
+  name: gentoo-zsh-completions
   
-  version: "20180302"
+  version: "20180228"
 - 
   category: <sys-process
   description: ""
@@ -25,27 +32,13 @@ conflicts:
   category: <app-shells
   description: ""
   license: ""
-  name: gentoo-zsh-completions
+  name: gentoo-bashcomp
   
-  version: "20180228"
-- 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: "27"
+  version: "20180302"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -57,28 +50,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
   
   version: ""
 - 
   category: sys-process
   description: ""
   license: ""
-  name: psmisc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: tmpfiles
-  
-  version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
+  name: audit
   
   version: ""
 - 
@@ -106,9 +92,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: ncurses
   
-  version: "2.6"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: tmpfiles
+  
+  version: ""
 - 
   category: sec-policy
   description: ""
@@ -116,6 +109,13 @@ requires:
   name: selinux-base-policy
   
   version: 2.20170204-r4
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: psmisc
+  
+  version: ""
 uri:
 - https://github.com/openrc/openrc/archive/0.41.2.tar.gz -> openrc-0.41.2.tar.gz
 use_flags:

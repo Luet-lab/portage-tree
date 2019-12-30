@@ -5,12 +5,40 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-auth
+  category: virtual
   description: ""
   license: ""
-  name: polkit
+  name: udev
   
-  version: "0.110"
+  version: "200"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: cgmanager
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libnih
+  
+  version: 1.0.2
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -29,16 +57,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libnih
-  
-  version: 1.0.2
-- 
-  category: sys-libs
-  description: ""
-  license: ""
   name: pam
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.110"
 - 
   category: sys-power
   description: ""
@@ -47,10 +75,38 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.40"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: "0.19"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevdev
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: coreutils[acl?]
   
   version: ""
 - 
@@ -68,68 +124,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[acl?]
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: cgmanager
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevdev
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "200"
-- 
   category: x11-libs
   description: ""
   license: ""
   name: libdrm
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.19"
 uri:
 - https://github.com/ConsoleKit2/ConsoleKit2/releases/download/1.1.2/ConsoleKit2-1.1.2.tar.bz2
 use_flags:

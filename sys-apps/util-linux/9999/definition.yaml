@@ -1,34 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: 2.88-r7
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils
-  
-  version: ""
-- 
-  category: '>=sys-apps'
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: 4.7-r2
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: rfkill
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
@@ -43,19 +15,12 @@ conflicts:
   
   version: 4.7-r2
 - 
-  category: <sys-libs
+  category: '>=sys-apps'
   description: ""
   license: ""
-  name: e2fsprogs-libs
+  name: shadow
   
-  version: 1.41.8
-- 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: 1.41.8
+  version: 4.7-r2
 - 
   category: app-arch
   description: ""
@@ -71,10 +36,24 @@ conflicts:
   
   version: "2.0"
 - 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: bash-completion
+  
+  version: 2.7-r1
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: setarch
+  name: coreutils
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: rfkill
   
   version: ""
 - 
@@ -85,12 +64,33 @@ conflicts:
   
   version: ""
 - 
-  category: <app-shells
+  category: <sys-libs
   description: ""
   license: ""
-  name: bash-completion
+  name: e2fsprogs-libs
   
-  version: 2.7-r1
+  version: 1.41.8
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: setarch
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: 2.88-r7
+- 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: e2fsprogs
+  
+  version: 1.41.8
 description: Various useful Linux utilities
 license: GPL-2 LGPL-2.1 BSD-4 MIT public-domain
 name: util-linux
@@ -99,28 +99,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: zlib
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.2.2-r4
 - 
   category: virtual
   description: ""
   license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
+  name: libintl
   
   version: ""
 - 
@@ -134,7 +120,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libcap-ng
   
   version: ""
 - 
@@ -144,6 +130,20 @@ requires:
   name: ncurses
   
   version: 5.2-r2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.2.2-r4
 - 
   category: sys-apps
   description: ""
@@ -166,10 +166,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: libintl
+  name: pam
   
   version: ""
 - 

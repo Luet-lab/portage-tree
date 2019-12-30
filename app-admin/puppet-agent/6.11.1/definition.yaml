@@ -40,17 +40,17 @@ license: Apache-2.0
 name: puppet-agent
 requires:
 - 
-  category: app-portage
+  category: sys-libs
   description: ""
   license: ""
-  name: eix
+  name: glibc
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: glibc
+  name: ncurses
   
   version: ""
 - 
@@ -61,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: dev-ruby
+  category: app-portage
   description: ""
   license: ""
-  name: puppetdb-termini
+  name: eix
   
-  version: 5.0.1
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -78,16 +78,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
   name: libselinux
   
   version: ""
+- 
+  category: dev-ruby
+  description: ""
+  license: ""
+  name: puppetdb-termini
+  
+  version: 5.0.1
 uri: []
 use_flags:
 - puppetdb

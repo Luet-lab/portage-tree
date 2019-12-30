@@ -4,20 +4,6 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Dist-VersionSync
-  
-  version: 1.1.4
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
-  name: Log-Dispatch-Config-TestLog
-  
-  version: 0.20.0
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
   name: Net-BitTorrent
   
   version: 0.52.0
@@ -25,7 +11,14 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Able
+  name: Test-Builder-Clutch
+  
+  version: 0.70.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-Flatten
   
   version: 0.110.0
 - 
@@ -39,20 +32,6 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Pretty
-  
-  version: 0.320.0
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
-  name: Test-ParallelSubtest
-  
-  version: 0.50.0
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
   name: Test-UseAllModules
   
   version: 0.140.0
@@ -60,9 +39,37 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Builder-Clutch
+  name: Log-Dispatch-Config-TestLog
   
-  version: 0.70.0
+  version: 0.20.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-Alien
+  
+  version: 0.40.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-More-Prefix
+  
+  version: 0.5.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-Wrapper
+  
+  version: 0.3.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-Dist-VersionSync
+  
+  version: 1.1.4
 - 
   category: <=dev-perl
   description: ""
@@ -74,16 +81,23 @@ conflicts:
   category: <dev-perl
   description: ""
   license: ""
-  name: Test-use-ok
+  name: Test-Tester
   
-  version: 0.160.0
+  version: 0.114.0
 - 
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Aggregate
+  name: Moose
   
-  version: 0.373.0
+  version: 2.120.900
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-ParallelSubtest
+  
+  version: 0.50.0
 - 
   category: <=dev-perl
   description: ""
@@ -102,9 +116,16 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Alien
+  name: Test-Clustericious-Cluster
   
-  version: 0.40.0
+  version: 0.300.0
+- 
+  category: <=dev-perl
+  description: ""
+  license: ""
+  name: Test-Aggregate
+  
+  version: 0.373.0
 - 
   category: <=dev-perl
   description: ""
@@ -116,37 +137,9 @@ conflicts:
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-More-Prefix
+  name: Test-Pretty
   
-  version: 0.5.0
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
-  name: Moose
-  
-  version: 2.120.900
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
-  name: Test-Clustericious-Cluster
-  
-  version: 0.300.0
-- 
-  category: <dev-perl
-  description: ""
-  license: ""
-  name: Test-Tester
-  
-  version: 0.114.0
-- 
-  category: <=dev-perl
-  description: ""
-  license: ""
-  name: Test-Flatten
-  
-  version: 0.110.0
+  version: 0.320.0
 - 
   category: <=dev-perl
   description: ""
@@ -155,16 +148,37 @@ conflicts:
   
   version: 0.200.0
 - 
+  category: <dev-perl
+  description: ""
+  license: ""
+  name: Test-use-ok
+  
+  version: 0.160.0
+- 
   category: <=dev-perl
   description: ""
   license: ""
-  name: Test-Wrapper
+  name: Test-Able
   
-  version: 0.3.0
+  version: 0.110.0
 description: Basic utilities for writing tests
 license: ""
 name: Test-Simple
 requires:
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Spec
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Temp
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -179,20 +193,6 @@ requires:
   name: perl-Scalar-List-Utils
   
   version: 1.130.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-File-Temp
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-File-Spec
-  
-  version: ""
 uri: []
 use_flags:
 - ""

@@ -5,38 +5,17 @@ license: BSD-2
 name: petsc
 requires:
 - 
-  category: sci-libs
+  category: virtual
   description: ""
   license: ""
-  name: scalapack
+  name: blas
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: superlu
-  
-  version: "5"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libafterimage
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5[mpi?]
+  name: hypre-2.8.0b[mpi?]
   
   version: ""
 - 
@@ -50,14 +29,14 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: suitesparse
+  name: scalapack
   
   version: ""
 - 
-  category: x11-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: libX11
+  name: suitesparse
   
   version: ""
 - 
@@ -68,10 +47,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: boost
+  name: libafterimage
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5[mpi?]
   
   version: ""
 - 
@@ -85,14 +71,28 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: scotch[mpi?]
+  name: fftw
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: hypre-2.8.0b[mpi?]
+  name: scotch[mpi?]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
   
   version: ""
 - 
@@ -110,12 +110,12 @@ requires:
   
   version: 1.7.0
 - 
-  category: virtual
+  category: sci-libs
   description: ""
   license: ""
-  name: blas
+  name: superlu
   
-  version: ""
+  version: "5"
 uri:
 - http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.11.3.tar.gz
 use_flags:

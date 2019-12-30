@@ -5,17 +5,52 @@ license: GPL-2 LGPL-2.1
 name: inkscape
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libX11
+  name: glib
+  
+  version: "2.28"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libexif
+  name: libpng
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: "7"
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: potrace
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.10.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcdr
   
   version: ""
 - 
@@ -26,26 +61,12 @@ requires:
   
   version: ""
 - 
-  category: app-office
-  description: ""
-  license: ""
-  name: dia
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
-  name: poppler
+  name: aspell
   
-  version: 0.26.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-vfs
-  
-  version: "2.0"
+  version: ""
 - 
   category: app-text
   description: ""
@@ -53,6 +74,20 @@ requires:
   name: gtkspell
   
   version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-vfs
+  
+  version: "2.0"
 - 
   category: media-libs
   description: ""
@@ -65,6 +100,90 @@ requires:
   description: ""
   license: ""
   name: pstoedit
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: dvipsk
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: uniconvertor
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.54.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.0.15
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: lxml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librevenge
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libwpg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: texlive-core
   
   version: ""
 - 
@@ -85,51 +204,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: pango
   
-  version: 2.10.7
+  version: "1.24"
 - 
-  category: media-libs
+  category: app-office
   description: ""
   license: ""
-  name: libcdr
+  name: dia
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: librevenge
+  name: ghostscript-gpl
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: dbus-glib
+  name: poppler
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.54.1
+  version: 0.26.0
 - 
   category: dev-libs
   description: ""
@@ -138,66 +236,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
   category: media-gfx
   description: ""
   license: ""
-  name: potrace
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: "1.24"
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: uniconvertor
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: "7"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: dvipsk
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: texlive-core
+  name: scour
   
   version: ""
 - 
@@ -218,63 +260,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
-  
-  version: 1.0.15
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libwpg
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: aspell
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.28"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libxml2
   
   version: 2.6.20
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: lxml
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: scour
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
+  name: numpy
   
   version: ""
 uri:

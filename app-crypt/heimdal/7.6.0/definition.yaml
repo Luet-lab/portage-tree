@@ -19,19 +19,40 @@ license: BSD
 name: heimdal
 requires:
 - 
-  category: net-fs
+  category: dev-db
   description: ""
   license: ""
-  name: openafs
+  name: lmdb
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: 1.42.9
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.3.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
+  version: 1.0.1h-r2
 - 
   category: sys-libs
   description: ""
@@ -39,6 +60,13 @@ requires:
   name: db
   
   version: 4.8.30-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -54,10 +82,17 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-kerberos
+  name: libressl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -68,47 +103,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sec-policy
   description: ""
   license: ""
-  name: lmdb
+  name: selinux-kerberos
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.8.2
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
-  
-  version: 1.42.9
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h-r2
 - 
   category: sys-libs
   description: ""
@@ -117,19 +117,19 @@ requires:
   
   version: 1.10-r1
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: ncurses
+  name: sqlite
+  
+  version: 3.8.2
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: openafs
   
   version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 2.3.0
 uri:
 - https://github.com/heimdal/heimdal/releases/download/heimdal-7.6.0/heimdal-7.6.0.tar.gz
 use_flags:

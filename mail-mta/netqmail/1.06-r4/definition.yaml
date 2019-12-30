@@ -4,18 +4,11 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: courier
   
   version: ""
 - 
-  category: <mail-mta
+  category: '>=mail-mta'
   description: ""
   license: ""
   name: ssmtp
@@ -25,7 +18,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: postfix
   
   version: ""
 - 
@@ -36,12 +29,12 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
+  category: <mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: ssmtp
   
-  version: ""
+  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -64,12 +57,19 @@ mailer
   
   version: ""
 - 
-  category: '>=mail-mta'
+  category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: mini-qmail
   
-  version: 2.64-r2
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
 - 
   category: mail-mta
   description: ""
@@ -81,7 +81,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: qmail
   
   version: ""
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
@@ -92,23 +92,16 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmailp
+  name: qmailr
   
   version: ""
 - 
-  category: virtual
+  category: net-mail
   description: ""
   license: ""
-  name: daemontools
+  name: dot-forward
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: checkpassword
-  
-  version: ""
+  version: 0.71-r3
 - 
   category: acct-group
   description: ""
@@ -120,30 +113,16 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmailq
+  name: qmailp
   
   version: ""
 - 
-  category: dev-libs
+  category: net-mail
   description: ""
   license: ""
-  name: libressl
+  name: cmd5checkpw
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ucspi-tcp
-  
-  version: 0.88-r17
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-functions
-  
-  version: ""
+  version: "0.30"
 - 
   category: acct-user
   description: ""
@@ -152,38 +131,10 @@ requires:
   
   version: ""
 - 
-  category: net-mail
+  category: virtual
   description: ""
   license: ""
-  name: queue-repair
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: groff
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmaild
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: nofiles
+  name: daemontools
   
   version: ""
 - 
@@ -197,16 +148,16 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmailr
+  name: qmails
   
   version: ""
 - 
-  category: net-mail
+  category: sys-apps
   description: ""
   license: ""
-  name: cmd5checkpw
+  name: groff
   
-  version: "0.30"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -215,17 +166,66 @@ requires:
   
   version: 0.70-r1
 - 
-  category: net-mail
+  category: acct-group
   description: ""
   license: ""
-  name: dot-forward
+  name: nofiles
   
-  version: 0.71-r3
+  version: ""
 - 
   category: acct-user
   description: ""
   license: ""
-  name: qmails
+  name: qmailq
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: queue-repair
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: checkpassword
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-functions
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ucspi-tcp
+  
+  version: 0.88-r17
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmaild
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

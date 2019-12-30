@@ -5,12 +5,12 @@ license: GPL-2 FDL-1.1
 name: gtk-doc
 requires:
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libxml2
+  name: perl
   
-  version: 2.3.6
+  version: "5.18"
 - 
   category: app-text
   description: ""
@@ -22,9 +22,9 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: docbook-xsl-stylesheets
+  name: docbook-dsssl-stylesheets
   
-  version: ""
+  version: "1.40"
 - 
   category: dev-util
   description: ""
@@ -32,6 +32,20 @@ requires:
   name: source-highlight
   
   version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: docbook-sgml-dtd
+  
+  version: "3.0"
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: sys-devel
   description: ""
@@ -54,33 +68,19 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: docbook-dsssl-stylesheets
+  name: libxml2
   
-  version: "1.40"
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.18"
+  version: 2.3.6
 - 
   category: app-text
   description: ""
   license: ""
-  name: docbook-sgml-dtd
+  name: docbook-xsl-stylesheets
   
-  version: "3.0"
+  version: ""
 uri: []
 use_flags:
 - debug

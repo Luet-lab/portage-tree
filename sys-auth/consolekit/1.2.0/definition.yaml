@@ -5,45 +5,24 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-devel
+  category: sys-apps
   description: ""
   license: ""
-  name: gettext
-  
-  version: "0.19"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: cgmanager
+  name: dbus
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libnih
-  
-  version: 1.0.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevdev
+  name: pam
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-apps
   description: ""
   license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
+  name: coreutils[acl?]
   
   version: ""
 - 
@@ -61,10 +40,10 @@ requires:
   
   version: "0.110"
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: coreutils[acl?]
+  name: libselinux
   
   version: ""
 - 
@@ -75,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: zlib
+  name: gettext
   
-  version: ""
+  version: "0.19"
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: acl
+  name: libX11
   
   version: ""
 - 
@@ -96,10 +75,10 @@ requires:
   
   version: "200"
 - 
-  category: sys-libs
+  category: app-admin
   description: ""
   license: ""
-  name: libselinux
+  name: cgmanager
   
   version: ""
 - 
@@ -110,24 +89,45 @@ requires:
   
   version: "2.40"
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: dbus
+  name: zlib
   
   version: ""
 - 
-  category: x11-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libX11
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: libnih
+  
+  version: 1.0.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevdev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
   
   version: ""
 uri:

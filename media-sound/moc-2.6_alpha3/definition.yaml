@@ -5,6 +5,13 @@ license: GPL-2
 name: moc-2.6_alpha3
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: "2"
+- 
   category: media-libs
   description: ""
   license: ""
@@ -15,9 +22,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmad
+  name: libsamplerate
   
-  version: ""
+  version: 0.1.0
 - 
   category: media-libs
   description: ""
@@ -29,37 +36,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsidplay
+  name: speex
   
-  version: 2.1.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.11
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.15.1
+  version: 1.0.0
 - 
   category: media-libs
   description: ""
@@ -75,26 +54,40 @@ requires:
   
   version: "4.31"
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: timidity++
+  name: alsa-lib
+  
+  version: 1.0.11
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4.1"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libogg
+  name: libid3tag
   
-  version: "1.0"
+  version: ""
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libsamplerate
+  name: file
   
-  version: 0.1.0
+  version: ""
 - 
   category: media-sound
   description: ""
@@ -106,72 +99,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: taglib
-  
-  version: "1.5"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libid3tag
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tremor
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
+  name: libogg
   
   version: "1.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libltdl
+  name: popt
   
-  version: "2"
+  version: ""
 - 
-  category: sys-libs
+  category: net-misc
   description: ""
   license: ""
-  name: db
+  name: curl
   
-  version: "4.1"
+  version: 7.15.1
 - 
   category: virtual
   description: ""
@@ -186,6 +130,62 @@ requires:
   name: jack-audio-connection-kit
   
   version: "0.4"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.0
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: timidity++
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: taglib
+  
+  version: "1.5"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsidplay
+  
+  version: 2.1.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tremor
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: "1.0"
 uri:
 - http://ftp.daper.net/pub/soft/moc/unstable/moc-2.6_alpha3-.tar.xz
 use_flags:

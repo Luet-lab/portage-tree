@@ -5,26 +5,12 @@ license: GPL-2
 name: dracut
 requires:
 - 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: "4.0"
-- 
   category: sys-apps
   description: ""
   license: ""
   name: kmod
   
   version: "23"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dracut
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -43,14 +29,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: fts-standalone
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libsepol
+  name: selinux-dracut
   
   version: ""
 - 
@@ -61,10 +47,24 @@ requires:
   
   version: ""
 - 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: "4.0"
+- 
   category: sys-apps
   description: ""
   license: ""
   name: coreutils[xattr(-)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
@@ -74,6 +74,13 @@ requires:
   name: util-linux
   
   version: "2.21"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsepol
+  
+  version: ""
 uri: []
 use_flags:
 - selinux

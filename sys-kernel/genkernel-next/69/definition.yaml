@@ -1,13 +1,6 @@
 category: sys-kernel
 conflicts:
 - 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -21,52 +14,17 @@ conflicts:
   name: openrc
   
   version: 0.9.9
+- 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: ""
 description: Gentoo automatic kernel building scripts, reloaded
 license: GPL-2
 name: genkernel-next
 requires:
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: "0.6"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
 - 
   category: app-text
   description: ""
@@ -78,14 +36,42 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: dmraid
   
   version: 1.0.0_rc16
 - 
-  category: app-portage
+  category: app-crypt
   description: ""
   license: ""
-  name: portage-utils
+  name: gnupg
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: e2fsprogs
   
   version: ""
 - 
@@ -103,17 +89,31 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: e2fsprogs
+  name: pax-utils
+  
+  version: "0.6"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
-  category: app-crypt
+  category: sys-fs
   description: ""
   license: ""
-  name: gnupg
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
@@ -124,10 +124,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-portage
   description: ""
   license: ""
-  name: util-linux
+  name: portage-utils
   
   version: ""
 uri:

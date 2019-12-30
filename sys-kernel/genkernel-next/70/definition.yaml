@@ -1,12 +1,12 @@
 category: sys-kernel
 conflicts:
 - 
-  category: sys-kernel
+  category: <sys-apps
   description: ""
   license: ""
-  name: genkernel
+  name: openrc
   
-  version: ""
+  version: 0.9.9
 - 
   category: sys-fs
   description: ""
@@ -15,12 +15,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-apps
+  category: sys-kernel
   description: ""
   license: ""
-  name: openrc
+  name: genkernel
   
-  version: 0.9.9
+  version: ""
 description: Gentoo automatic kernel building scripts, reloaded
 license: GPL-2
 name: genkernel-next
@@ -40,38 +40,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: dmraid
+  name: pax-utils
   
-  version: 1.0.0_rc16
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: open-iscsi
-  
-  version: ""
+  version: "0.6"
 - 
   category: app-crypt
   description: ""
   license: ""
   name: gnupg
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
   
   version: ""
 - 
@@ -86,6 +65,27 @@ requires:
   description: ""
   license: ""
   name: thin-provisioning-tools
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: open-iscsi
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
@@ -110,24 +110,24 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dmraid
+  
+  version: 1.0.0_rc16
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
   category: sys-boot
   description: ""
   license: ""
   name: plymouth
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: "0.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
   
   version: ""
 uri:

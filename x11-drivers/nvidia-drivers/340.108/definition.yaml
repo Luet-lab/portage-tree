@@ -12,6 +12,13 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.4"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -19,19 +26,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-power
   description: ""
   license: ""
-  name: libXext
+  name: acpid
   
   version: ""
 - 
-  category: app-eselect
+  category: x11-base
   description: ""
   license: ""
-  name: eselect-opengl
+  name: xorg-server
   
-  version: 1.0.9
+  version: 1.20.99
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -61,12 +75,12 @@ requires:
   
   version: 2.6.1
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
   
-  version: "2.4"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -78,30 +92,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXext
   
   version: ""
 - 
-  category: dev-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: glib
+  name: eselect-opengl
   
-  version: ""
+  version: 1.0.9
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXv
+  name: libvdpau
   
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
+  version: 0.3-r1
 - 
   category: dev-libs
   description: ""
@@ -113,28 +120,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango[X]
+  name: libX11
   
   version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libvdpau
+  name: libXv
   
-  version: 0.3-r1
+  version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: zlib
+  name: pango[X]
   
   version: ""
 uri:

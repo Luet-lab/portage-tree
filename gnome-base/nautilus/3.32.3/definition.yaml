@@ -1,19 +1,19 @@
 category: gnome-base
 conflicts:
 - 
-  category: <gnome-extra
-  description: ""
-  license: ""
-  name: nautilus-sendto
-  
-  version: 3.0.1
-- 
   category: <media-video
   description: ""
   license: ""
   name: totem
   
   version: 3.31.91
+- 
+  category: <gnome-extra
+  description: ""
+  license: ""
+  name: nautilus-sendto
+  
+  version: 3.0.1
 description: Default file manager for the GNOME desktop
 license: GPL-3+ LGPL-2.1+
 name: nautilus
@@ -26,19 +26,33 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: app-arch
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gnome-autoar
+  
+  version: 0.2.1
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: tracker
+  
+  version: "2.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libxml2
   
-  version: "1.54"
+  version: 2.7.8
 - 
   category: sys-apps
   description: ""
@@ -47,10 +61,24 @@ requires:
   
   version: 0.3.1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.58.1
+- 
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: gexiv2
+  
+  version: 0.10.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
   
   version: ""
 - 
@@ -67,34 +95,6 @@ requires:
   name: libselinux
   
   version: "2.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.58.1
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: tracker
-  
-  version: "2.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.7.8
 - 
   category: app-admin
   description: ""
@@ -113,23 +113,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gexiv2
-  
-  version: 0.10.0
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gnome-autoar
-  
-  version: 0.2.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
+  name: gstreamer
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
 uri: []
 use_flags:
 - gnome

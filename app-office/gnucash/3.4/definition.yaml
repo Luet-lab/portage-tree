@@ -5,17 +5,52 @@ license: GPL-2
 name: gnucash
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
   category: dev-perl
   description: ""
   license: ""
   name: Date-Manip
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi-drivers
+  
+  version: 0.9.0
+- 
+  category: dev-scheme
+  description: ""
+  license: ""
+  name: guile
+  
+  version: 2.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libofx
+  
+  version: 0.9.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.14.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi
   
   version: ""
 - 
@@ -29,56 +64,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libxml2
   
-  version: 2.46.0
-- 
-  category: dev-scheme
-  description: ""
-  license: ""
-  name: guile
-  
-  version: 2.2.0
+  version: 2.7.0
 - 
   category: sys-libs
   description: ""
   license: ""
   name: gwenhywfar
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi-drivers
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libofx
-  
-  version: 0.9.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
   
   version: ""
 - 
@@ -89,12 +82,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gtk+
+  name: libsecret
   
-  version: 3.14.0
+  version: "0.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi-drivers
+  
+  version: ""
 - 
   category: dev-perl
   description: ""
@@ -113,16 +120,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: 2.7.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.1.4
+  version: 2.46.0
 - 
   category: dev-libs
   description: ""
@@ -134,9 +134,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libxslt
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.1.4
 - 
   category: sys-libs
   description: ""
@@ -144,13 +151,6 @@ requires:
   name: libchipcard
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi-drivers
-  
-  version: 0.9.0
 uri:
 - https://github.com/Gnucash/gnucash/releases/download/3.4/gnucash-3.4.tar.bz2
 - https://github.com/google/googletest/archive/release-1.8.0.tar.gz -> gtest-1.8.0.tar.gz

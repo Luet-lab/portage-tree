@@ -6,59 +6,17 @@ license: GPL-2 LGPL-2
 name: libguestfs
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4.6"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: erlang
+  name: libconfig
   
   version: ""
 - 
-  category: app-admin
+  category: virtual
   description: ""
   license: ""
-  name: augeas
-  
-  version: 1.8.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: unzip
+  name: perl-ExtUtils-MakeMaker
   
   version: ""
 - 
@@ -69,38 +27,17 @@ requires:
   
   version: ""
 - 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: icoutils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libxcrypt
   
   version: ""
 - 
-  category: net-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: libtirpc
+  name: gettext
   
   version: ""
 - 
@@ -108,6 +45,20 @@ requires:
   description: ""
   license: ""
   name: fakeroot
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: augeas
+  
+  version: 1.8.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
   
   version: ""
 - 
@@ -132,24 +83,17 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: sys-fs
   description: ""
   license: ""
-  name: lua
+  name: fuse
   
   version: ""
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: cdrtools
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
+  name: cpio
   
   version: ""
 - 
@@ -160,19 +104,26 @@ requires:
   
   version: "2.8"
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ocaml
-  
-  version: "4.03"
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libxcrypt
+  name: libcap
   
   version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: 2.0.4
 - 
   category: app-emulation
   description: ""
@@ -181,10 +132,31 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: dev-util
   description: ""
   license: ""
-  name: gettext
+  name: systemtap
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: erlang
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
   
   version: ""
 - 
@@ -198,7 +170,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: perl-ExtUtils-MakeMaker
+  name: acl
   
   version: ""
 - 
@@ -209,31 +181,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libselinux
+  name: gobject-introspection
   
-  version: ""
+  version: 1.30.0
 - 
-  category: sys-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: libsemanage
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: netpbm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
+  name: icoutils
   
   version: ""
 - 
@@ -244,12 +202,33 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-apps
   description: ""
   license: ""
-  name: lzma
+  name: file
   
   version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: ocaml
+  
+  version: "4.03"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: hivex
+  
+  version: 1.3.1
 - 
   category: dev-perl
   description: ""
@@ -261,23 +240,37 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
+  name: db
+  
+  version: "4.6"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: unzip
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
+  
+  version: "2.26"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsemanage
   
   version: ""
 - 
-  category: app-misc
+  category: virtual
   description: ""
   license: ""
-  name: hivex
+  name: cdrtools
   
-  version: 1.3.1
+  version: ""
 - 
   category: app-emulation
   description: ""
@@ -293,40 +286,47 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libconfig
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
+  name: squashfs-tools
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: cpio
+  name: lzma
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: yajl
+  name: libselinux
   
-  version: 2.0.4
+  version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: netpbm
   
-  version: 1.30.0
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
 uri:
 - http://libguestfs.org/download/-stable/libguestfs-1.38.6.tar.gz
 use_flags:

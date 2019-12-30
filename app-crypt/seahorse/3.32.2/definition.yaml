@@ -5,19 +5,26 @@ license: GPL-2+ FDL-1.1+
 name: seahorse
 requires:
 - 
-  category: net-nds
+  category: app-crypt
   description: ""
   license: ""
-  name: openldap
+  name: gcr
   
-  version: ""
+  version: 3.11.91
 - 
-  category: net-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libsoup
+  name: gtk+
   
-  version: 2.33.92
+  version: 3.22.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: 2.0.12
 - 
   category: net-dns
   description: ""
@@ -40,20 +47,6 @@ requires:
   
   version: 1.7.0
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.22.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: 2.0.12
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -75,12 +68,19 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: net-nds
   description: ""
   license: ""
-  name: gcr
+  name: openldap
   
-  version: 3.11.91
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.33.92
 uri: []
 use_flags:
 - ldap

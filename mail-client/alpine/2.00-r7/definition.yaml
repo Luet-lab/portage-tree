@@ -19,17 +19,10 @@ license: Apache-2.0
 name: alpine
 requires:
 - 
-  category: net-nds
+  category: dev-libs
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
+  name: libressl
   
   version: ""
 - 
@@ -50,14 +43,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: ncurses
   
-  version: ""
+  version: "5.1"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libressl
+  name: c-client-2007f-r4[chappa=]
   
   version: ""
 - 
@@ -68,19 +61,26 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-nds
   description: ""
   license: ""
-  name: c-client-2007f-r4[chappa=]
+  name: openldap
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: pam
   
-  version: "5.1"
+  version: ""
 uri:
 - ftp://ftp.cac.washington.edu/alpine/alpine-2.00.tar.bz2
 - -> alpine-2.00-chappa-115-all.patch.gz )

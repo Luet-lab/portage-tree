@@ -5,12 +5,33 @@ license: GPL-2+ FDL-1.1 LGPL-2.1+
 name: gnome-panel
 requires:
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "230"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-desktop
+  name: gnome-menus
   
-  version: 2.91.0
+  version: 3.7.90
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: 3.5.3
 - 
   category: sys-apps
   description: ""
@@ -29,14 +50,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libX11
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libX11
+  name: gdm
   
   version: ""
 - 
@@ -61,19 +82,26 @@ requires:
   
   version: 3.22.0
 - 
-  category: gnome-extra
+  category: x11-libs
   description: ""
   license: ""
-  name: evolution-data-server
+  name: cairo-1.0.0[X,glib]
   
-  version: 3.5.3
+  version: ""
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: elogind
+  name: libXrandr
   
-  version: "230"
+  version: 1.3.0
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 2.91.0
 - 
   category: x11-libs
   description: ""
@@ -96,40 +124,12 @@ requires:
   
   version: 3.28.0
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gdm
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-menus
-  
-  version: 3.7.90
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo-1.0.0[X,glib]
+  name: libXi
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: 1.3.0
 uri: []
 use_flags:
 - eds

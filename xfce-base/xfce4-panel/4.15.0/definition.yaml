@@ -5,31 +5,24 @@ license: GPL-2+ LGPL-2.1+
 name: xfce4-panel
 requires:
 - 
-  category: xfce-base
+  category: dev-libs
   description: ""
   license: ""
-  name: garcon
+  name: glib
   
-  version: "0.5"
+  version: "2.42"
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: xfconf
+  name: libX11
   
-  version: "4.13"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: gobject-introspection
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
   
   version: ""
 - 
@@ -43,7 +36,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libwnck
   
   version: ""
 - 
@@ -57,16 +50,23 @@ requires:
   category: xfce-base
   description: ""
   license: ""
+  name: garcon
+  
+  version: "0.5"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
   name: libxfce4ui
   
   version: "4.13"
 - 
-  category: dev-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: glib
+  name: xfconf
   
-  version: "2.42"
+  version: "4.13"
 uri:
 - https://archive.xfce.org/src/xfce/xfce4-panel/4.15/xfce4-panel-4.15.0.tar.bz2
 use_flags:

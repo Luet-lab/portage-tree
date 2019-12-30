@@ -5,10 +5,17 @@ license: GPL-2
 name: catalyst
 requires:
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: libarchive
+  name: cdrtools
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: zisofs-tools
   
   version: ""
 - 
@@ -26,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-arch
   description: ""
   license: ""
-  name: dosfstools
+  name: libarchive
   
   version: ""
 - 
@@ -47,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: cdrtools
+  name: squashfs-tools
   
-  version: ""
+  version: "2.1"
 - 
   category: dev-python
   description: ""
@@ -68,19 +75,12 @@ requires:
   
   version: "0.3"
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: zisofs-tools
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: squashfs-tools
+  name: dosfstools
   
-  version: "2.1"
+  version: ""
 uri:
 - https://gitweb.gentoo.org/proj/catalyst.git/snapshot/catalyst-3.0.8.tar.bz2
 use_flags:

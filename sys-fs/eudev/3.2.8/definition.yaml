@@ -4,13 +4,6 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: gentoo-systemd-integration
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: systemd
   
   version: ""
@@ -21,13 +14,6 @@ conflicts:
   name: lvm2
   
   version: 2.02.103
-- 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
 - 
   category: sys-fs
   description: ""
@@ -42,6 +28,20 @@ conflicts:
   name: glibc
   
   version: "2.11"
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-systemd-integration
+  
+  version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: eudev
@@ -54,13 +54,6 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -68,12 +61,19 @@ requires:
   
   version: "1.38"
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: kmod
+  name: libselinux
   
-  version: "16"
+  version: 2.1.9
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: kvm
+  
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -89,12 +89,12 @@ requires:
   
   version: "2.20"
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libselinux
+  name: kmod
   
-  version: 2.1.9
+  version: "16"
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.8.tar.gz
 use_flags:

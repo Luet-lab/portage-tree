@@ -6,13 +6,6 @@ license: GPL-2
 name: hplip
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
@@ -23,14 +16,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: reportlab
+  name: pillow
   
-  version: ""
+  version: 3.1.1
 - 
-  category: net-print
+  category: virtual
   description: ""
   license: ""
-  name: cups-filters
+  name: jpeg
   
   version: ""
 - 
@@ -48,31 +41,17 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: dev-libs
   description: ""
   license: ""
-  name: net-snmp
+  name: openssl
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pillow
-  
-  version: 3.1.1
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: reportlab
   
   version: ""
 - 
@@ -86,28 +65,28 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: notify2
+  name: PyQt5
   
-  version: ""
+  version: 5.5.1
 - 
-  category: dev-python
+  category: net-print
   description: ""
   license: ""
-  name: reportlab
-  
-  version: "3.2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: cups-filters
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
   
   version: ""
 - 
@@ -118,12 +97,26 @@ requires:
   
   version: 1.2.0-r1
 - 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: PyQt5
+  name: notify2
   
-  version: 5.5.1
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -131,6 +124,13 @@ requires:
   name: polkit
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: reportlab
+  
+  version: "3.2"
 uri:
 - mirror://sourceforge/hplip/hplip-3.18.12.tar.gz
 - https://dev.gentoo.org/~billie/distfiles/hplip-3.18.12-patches-1.tar.xz

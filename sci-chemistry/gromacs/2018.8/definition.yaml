@@ -6,33 +6,12 @@ license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD 
 name: gromacs
 requires:
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libX11
+  name: blas
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 4.2.9-r1
 - 
   category: sys-apps
   description: ""
@@ -48,10 +27,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: blas
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
   
   version: ""
 - 
@@ -82,6 +68,20 @@ requires:
   name: mkl
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 4.2.9-r1
 uri:
 - ftp://ftp.gromacs.org/pub/gromacs/gromacs-2018.8.tar.gz
 - 'http://gerrit.gromacs.org/download/regressiontests-2018.8.tar.gz '

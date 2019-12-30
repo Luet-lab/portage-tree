@@ -8,7 +8,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcompletion
+  name: kcrash
   
   version: 5.63.0
 - 
@@ -33,13 +33,6 @@ requires:
   
   version: 5.63.0
 - 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: 5.63.0
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -47,12 +40,19 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: dev-cpp
   description: ""
   license: ""
-  name: qtwidgets
+  name: eigen
   
-  version: 5.12.3
+  version: "3.2"
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcompletion
+  
+  version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
@@ -64,7 +64,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kparts
+  name: kwidgetsaddons
+  
+  version: 5.63.0
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: cln
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
   
   version: 5.63.0
 - 
@@ -75,17 +96,24 @@ requires:
   
   version: 5.63.0
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.63.0
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtopengl
+  name: qtsvg
   
   version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtwidgets
   
   version: 5.12.3
 - 
@@ -106,14 +134,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcrash
+  name: ki18n
   
   version: 5.63.0
 - 
@@ -127,16 +148,16 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kparts
   
   version: 5.63.0
 - 
-  category: sci-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: cln
+  name: qtopengl
   
-  version: ""
+  version: 5.12.3
 - 
   category: sci-libs
   description: ""
@@ -144,27 +165,6 @@ requires:
   name: libqalculate
   
   version: 0.9.5
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfigwidgets
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.63.0
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: eigen
-  
-  version: "3.2"
 uri: []
 use_flags:
 - +gsl

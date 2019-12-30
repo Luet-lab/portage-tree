@@ -4,13 +4,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: sendmail
   
   version: ""
@@ -18,7 +11,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: ssmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
   
   version: ""
 - 
@@ -39,21 +46,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+mailer
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: opensmtpd
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: esmtp
   
   version: ""
 - 
@@ -67,27 +74,13 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
+  name: msmtp
   
   version: ""
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
 license: public-domain
 name: netqmail
 requires:
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmaill
-  
-  version: ""
 - 
   category: acct-user
   description: ""
@@ -99,7 +92,28 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmails
+  name: qmaild
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: daemontools
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: nofiles
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmaill
   
   version: ""
 - 
@@ -110,17 +124,52 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: acct-user
   description: ""
   license: ""
-  name: libressl
+  name: qmailp
   
   version: ""
 - 
   category: acct-user
   description: ""
   license: ""
-  name: qmaild
+  name: qmailr
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmails
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: checkpassword
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: cmd5checkpw
+  
+  version: "0.30"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ucspi-ssl
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: queue-repair
   
   version: ""
 - 
@@ -145,38 +194,10 @@ requires:
   
   version: ""
 - 
-  category: acct-user
+  category: sys-apps
   description: ""
   license: ""
-  name: qmailp
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: checkpassword
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: cmd5checkpw
-  
-  version: "0.30"
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmailr
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: nofiles
+  name: ucspi-tcp
   
   version: ""
 - 
@@ -187,27 +208,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: daemontools
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ucspi-ssl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: queue-repair
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -215,10 +215,10 @@ requires:
   
   version: "1.1"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: ucspi-tcp
+  name: libressl
   
   version: ""
 uri:

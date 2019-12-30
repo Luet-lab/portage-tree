@@ -1,17 +1,17 @@
 category: sys-cluster
 conflicts:
 - 
-  category: '!games-util'
-  description: ""
-  license: ""
-  name: qstat
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: uthash
+  
+  version: ""
+- 
+  category: '!games-util'
+  description: ""
+  license: ""
+  name: qstat
   
   version: ""
 description: Resource manager and queuing system based on OpenPBS
@@ -19,17 +19,10 @@ license: torque-2.5
 name: torque
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwloc
+  name: zlib
   
   version: ""
 - 
@@ -40,24 +33,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tcl
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
-  name: netkit-rsh
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: openssh
   
   version: ""
 - 
@@ -67,6 +46,13 @@ requires:
   name: readline
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.41"
 - 
   category: sys-auth
   description: ""
@@ -82,24 +68,38 @@ requires:
   
   version: "275"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.41"
-- 
   category: dev-lang
   description: ""
   license: ""
-  name: tk
+  name: tcl
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: openssh
+  name: netkit-rsh
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
   
   version: ""
 uri:

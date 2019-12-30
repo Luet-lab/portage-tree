@@ -1,6 +1,13 @@
 category: sys-apps
 conflicts:
 - 
+  category: <app-portage
+  description: ""
+  license: ""
+  name: gentoolkit
+  
+  version: 0.4.6
+- 
   category: <app-admin
   description: ""
   license: ""
@@ -14,73 +21,17 @@ conflicts:
   name: repoman
   
   version: 2.3.10
-- 
-  category: <app-portage
-  description: ""
-  license: ""
-  name: gentoolkit
-  
-  version: 0.4.6
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libselinux
+  name: tar
   
-  version: 2.0.94
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: install-xattr
-  
-  version: "0.3"
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: 0.1.17
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gemato
-  
-  version: "14"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
+  version: "1.27"
 - 
   category: app-admin
   description: ""
@@ -103,12 +54,26 @@ requires:
   
   version: "2.2"
 - 
-  category: app-arch
+  category: sys-freebsd
   description: ""
   license: ""
-  name: tar
+  name: freebsd-bin
   
-  version: "1.27"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.0.94
 - 
   category: app-crypt
   description: ""
@@ -117,12 +82,47 @@ requires:
   
   version: "20180706"
 - 
-  category: sys-freebsd
+  category: sys-apps
   description: ""
   license: ""
-  name: freebsd-bin
+  name: install-xattr
+  
+  version: "0.3"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: 4.0.5
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 0.1.17
 uri: []
 use_flags:
 - build

@@ -5,19 +5,19 @@ license: GPL-2+ LGPL-2+ FDL-1.1
 name: nemo
 requires:
 - 
-  category: gnome-extra
+  category: media-libs
   description: ""
   license: ""
-  name: cinnamon-desktop
+  name: libexif
   
-  version: 2.6.1
+  version: 0.6.20
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libxml2
+  name: tracker
   
-  version: 2.7.8
+  version: "0.12"
 - 
   category: x11-libs
   description: ""
@@ -26,12 +26,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: xapps
+  name: exempi
   
-  version: 1.0.4
+  version: 2.2.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
 - 
   category: x11-themes
   description: ""
@@ -40,26 +47,12 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
+  category: dev-libs
   description: ""
   license: ""
-  name: cinnamon-translations
+  name: glib
   
-  version: "2.2"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
+  version: 2.37.3
 - 
   category: x11-libs
   description: ""
@@ -75,33 +68,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.37.3
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: dconf
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: 0.6.20
 - 
   category: dev-libs
   description: ""
@@ -110,12 +82,40 @@ requires:
   
   version: 0.6.4
 - 
-  category: app-misc
+  category: gnome-base
   description: ""
   license: ""
-  name: tracker
+  name: gsettings-desktop-schemas
   
-  version: "0.12"
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xapps
+  
+  version: 1.0.4
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-translations
+  
+  version: "2.2"
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.6.1
 - 
   category: x11-libs
   description: ""
@@ -124,12 +124,12 @@ requires:
   
   version: 1.28.3
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: exempi
+  name: libxml2
   
-  version: 2.2.0
+  version: 2.7.8
 uri:
 - https://github.com/linuxmint/nemo/archive/3.8.6.tar.gz -> nemo-3.8.6.tar.gz
 use_flags:

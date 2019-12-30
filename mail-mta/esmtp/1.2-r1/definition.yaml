@@ -4,14 +4,28 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: exim
+  name: postfix
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
   
   version: ""
 - 
@@ -25,14 +39,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+mailer
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: qmail-ldap
   
   version: ""
 - 
@@ -53,28 +67,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: exim
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
+  name: msmtp
   
   version: ""
 description: User configurable relay-only Mail Transfer Agent with a sendmail-like
@@ -83,10 +83,10 @@ license: GPL-2
 name: esmtp
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libressl
+  name: libesmtp
   
   version: ""
 - 
@@ -97,10 +97,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libesmtp
+  name: libressl
   
   version: ""
 uri:

@@ -1,6 +1,13 @@
 category: sys-apps
 conflicts:
 - 
+  category: <app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: 2.3.10
+- 
   category: <app-admin
   description: ""
   license: ""
@@ -14,17 +21,52 @@ conflicts:
   name: gentoolkit
   
   version: 0.4.6
-- 
-  category: <app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: 2.3.10
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
+  
+  version: "1.27"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: 4.0.5
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 0.1.17
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
 - 
   category: app-crypt
   description: ""
@@ -40,13 +82,6 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: "1.27"
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -60,13 +95,6 @@ requires:
   name: util-linux
   
   version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: 0.1.17
 - 
   category: sys-libs
   description: ""
@@ -82,20 +110,6 @@ requires:
   
   version: "0.3"
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
   category: app-admin
   description: ""
   license: ""
@@ -103,26 +117,12 @@ requires:
   
   version: "1.2"
 - 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gemato
-  
-  version: "14"
-- 
   category: sys-apps
   description: ""
   license: ""
   name: sandbox
   
   version: "2.2"
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
 uri: []
 use_flags:
 - build

@@ -1,13 +1,6 @@
 category: kde-apps
 conflicts:
 - 
-  category: <kde-apps
-  description: ""
-  license: ""
-  name: kdepim-runtime
-  
-  version: 18.03.80
-- 
   category: kde-apps
   description: ""
   license: ""
@@ -21,6 +14,13 @@ conflicts:
   name: kdepim-l10n
   
   version: ""
+- 
+  category: <kde-apps
+  description: ""
+  license: ""
+  name: kdepim-runtime
+  
+  version: 18.03.80
 description: Library for akonadi mime types
 license: GPL-2+ LGPL-2.1+
 name: akonadi-mime
@@ -29,37 +29,9 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdbusaddons
+  name: kconfig
   
   version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: akonadi
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -71,7 +43,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kitemmodels
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
   
   version: 5.60.0
 - 
@@ -92,14 +71,35 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kdbusaddons
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
   
   version: 5.60.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: kio
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kitemmodels
   
   version: 5.60.0
 - 
@@ -110,19 +110,19 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kconfig
+  name: qtgui
   
-  version: 5.60.0
+  version: 5.12.3
 - 
-  category: kde-frameworks
+  category: dev-libs
   description: ""
   license: ""
-  name: kcoreaddons
+  name: libxslt
   
-  version: 5.60.0
+  version: ""
 uri: []
 use_flags:
 - ""

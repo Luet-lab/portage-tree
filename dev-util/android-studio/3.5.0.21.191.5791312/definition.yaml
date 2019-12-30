@@ -5,19 +5,12 @@ license: Apache-2.0
 name: android-studio
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: expat
   
-  version: 2.10.92
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: 2.5.5
+  version: 2.1.0-r3
 - 
   category: media-libs
   description: ""
@@ -25,6 +18,13 @@ requires:
   name: libpng
   
   version: 1.2.51
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa-10.2.8[X(+)]
+  
+  version: ""
 - 
   category: dev-java
   description: ""
@@ -47,12 +47,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libffi
+  name: fontconfig
   
-  version: 3.0.13-r1
+  version: 2.10.92
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.5.5
 - 
   category: virtual
   description: ""
@@ -71,16 +78,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: libffi
   
-  version: 2.1.0-r3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa-10.2.8[X(+)]
-  
-  version: ""
+  version: 3.0.13-r1
 uri:
 - https://dl.google.com/dl/android/studio/ide-zips//android-studio-ide--linux.tar.gz
 use_flags:

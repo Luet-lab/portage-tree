@@ -5,13 +5,6 @@ license: Apache-2.0
 name: erlang
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: acct-group
   description: ""
   license: ""
@@ -26,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: app-editors
   description: ""
   license: ""
-  name: unixODBC
+  name: emacs
   
-  version: ""
+  version: "23.1"
 - 
   category: dev-libs
   description: ""
@@ -40,17 +33,17 @@ requires:
   
   version: 0.9.7d
 - 
-  category: net-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: lksctp-tools
+  name: wxGTK
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libressl
+  name: systemd
   
   version: ""
 - 
@@ -58,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: tk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
   
   version: ""
 - 
@@ -82,19 +68,33 @@ requires:
   
   version: ""
 - 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
   category: virtual
   description: ""
   license: ""
   name: jdk
   
   version: "1.8"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: lksctp-tools
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
 uri:
 - https://github.com/erlang/otp/archive/OTP-22.2.tar.gz -> erlang-22.2.tar.gz
 - http://erlang.org/download/otp_doc_man_.tar.gz -> erlang_doc_man_.tar.gz

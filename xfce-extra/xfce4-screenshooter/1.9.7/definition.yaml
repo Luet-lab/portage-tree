@@ -5,10 +5,17 @@ license: GPL-2+
 name: xfce4-screenshooter
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 - 
@@ -25,13 +32,6 @@ requires:
   name: exo
   
   version: "0.11"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.12"
 - 
   category: dev-libs
   description: ""
@@ -54,6 +54,13 @@ requires:
   
   version: "2.16"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: xfce-base
   description: ""
   license: ""
@@ -64,9 +71,9 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: libxfce4util
+  name: libxfce4ui
   
-  version: "4.10"
+  version: "4.12"
 - 
   category: x11-libs
   description: ""
@@ -75,19 +82,12 @@ requires:
   
   version: "3.20"
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libX11
+  name: libxfce4util
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
+  version: "4.10"
 uri:
 - https://archive.xfce.org/src/apps/xfce4-screenshooter/1.9/xfce4-screenshooter-1.9.7.tar.bz2
 use_flags:

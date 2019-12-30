@@ -5,26 +5,12 @@ license: GPL-2+
 name: gnome-session
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libSM
+  name: glib
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libepoxy
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
+  version: 2.46.0
 - 
   category: x11-libs
   description: ""
@@ -32,13 +18,6 @@ requires:
   name: gtk+
   
   version: 3.18.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
 - 
   category: media-libs
   description: ""
@@ -68,31 +47,24 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: sys-auth
   description: ""
   license: ""
-  name: xdg-user-dirs
+  name: consolekit
   
   version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-user-dirs-gtk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.46.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
   
   version: ""
 - 
@@ -110,12 +82,12 @@ requires:
   
   version: "0.10"
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: dbus-glib
+  name: systemd
   
-  version: "0.76"
+  version: "183"
 - 
   category: gnome-base
   description: ""
@@ -124,17 +96,45 @@ requires:
   
   version: 3.23.2
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: systemd
+  name: libX11
   
-  version: "183"
+  version: ""
 - 
-  category: sys-auth
+  category: x11-misc
   description: ""
   license: ""
-  name: consolekit
+  name: xdg-user-dirs-gtk
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libepoxy
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.76"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-user-dirs
   
   version: ""
 uri: []

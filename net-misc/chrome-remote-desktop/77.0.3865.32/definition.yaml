@@ -5,10 +5,10 @@ license: google-chrome
 name: chrome-remote-desktop
 requires:
 - 
-  category: gnome-base
+  category: sys-devel
   description: ""
   license: ""
-  name: gconf
+  name: gcc
   
   version: ""
 - 
@@ -22,13 +22,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libX11
   
   version: ""
@@ -36,84 +29,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xdpyinfo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: sudo
   
   version: ""
 - 
@@ -127,7 +43,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: nss
   
   version: ""
 - 
@@ -138,6 +54,20 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -145,10 +75,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glibc
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
   
   version: ""
 - 
@@ -159,10 +103,38 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: x11-apps
   description: ""
   license: ""
-  name: gcc
+  name: xdpyinfo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
   
   version: ""
 - 
@@ -180,10 +152,38 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: x11-apps
   description: ""
   license: ""
-  name: libXi
+  name: xrandr
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: sudo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: "2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 uri: []

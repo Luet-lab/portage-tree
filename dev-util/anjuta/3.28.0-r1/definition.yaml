@@ -5,19 +5,19 @@ license: GPL-2+
 name: anjuta
 requires:
 - 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: libgda
+  
+  version: "5"
+- 
   category: dev-util
   description: ""
   license: ""
-  name: devhelp
+  name: ctags
   
-  version: 3.7.4
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: "1.8"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -26,12 +26,12 @@ requires:
   
   version: 0.27.6
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: glib
   
-  version: ""
+  version: "2.34"
 - 
   category: x11-libs
   description: ""
@@ -40,33 +40,40 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: libgda
-  
-  version: "5"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXext
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: apr
+  name: gobject-introspection
   
-  version: "1"
+  version: 0.9.5
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: apr-util
+  name: glade
   
-  version: "1"
+  version: "3.12"
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: "1.8"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -89,26 +96,19 @@ requires:
   
   version: "3"
 - 
-  category: x11-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: libXext
+  name: autogen
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libXrender
   
-  version: 0.9.5
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: serf
-  
-  version: "1.2"
+  version: ""
 - 
   category: app-admin
   description: ""
@@ -120,37 +120,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.34"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libxml2
   
   version: 2.4.23
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: autogen
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
-  name: ctags
+  name: devhelp
   
-  version: ""
+  version: 3.7.4
 - 
-  category: dev-util
+  category: net-libs
   description: ""
   license: ""
-  name: glade
+  name: serf
   
-  version: "3.12"
+  version: "1.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: "1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr-util
+  
+  version: "1"
 uri: []
 use_flags:
 - debug

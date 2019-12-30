@@ -1,6 +1,13 @@
 category: net-mail
 conflicts:
 - 
+  category: mail-client
+  description: ""
+  license: ""
+  name: mailx
+  
+  version: ""
+- 
   category: mail-filter
   description: ""
   license: ""
@@ -21,29 +28,15 @@ conflicts:
   name: nmh
   
   version: ""
-- 
-  category: mail-client
-  description: ""
-  license: ""
-  name: mailx
-  
-  version: ""
 description: A useful collection of mail servers, clients, and filters
 license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
+  name: fribidi
   
   version: ""
 - 
@@ -54,26 +47,40 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: db
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: gsasl
+  name: mta
   
   version: ""
 - 
-  category: net-libs
+  category: app-editors
   description: ""
   license: ""
-  name: gnutls
+  name: emacs
   
-  version: ""
+  version: "23.1"
 - 
   category: sys-libs
   description: ""
@@ -89,38 +96,24 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: tcp-wrappers
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
   
   version: ""
 - 
@@ -131,24 +124,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: kyotocabinet
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: pam
   
   version: ""
 - 
@@ -156,13 +135,6 @@ requires:
   description: ""
   license: ""
   name: postgresql
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
   
   version: ""
 - 
@@ -177,6 +149,34 @@ requires:
   description: ""
   license: ""
   name: readline
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: kyotocabinet
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 uri:

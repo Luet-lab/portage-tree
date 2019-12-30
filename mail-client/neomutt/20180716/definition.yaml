@@ -5,45 +5,31 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: sys-libs
+  category: net-mail
   description: ""
   license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
+  name: notmuch
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: slang
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libressl
+  name: db
   
-  version: ""
+  version: "6.3"
 - 
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: tokyocabinet
   
   version: ""
 - 
@@ -54,20 +40,6 @@ requires:
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -75,17 +47,10 @@ requires:
   
   version: 1.0.17
 - 
-  category: app-crypt
+  category: net-dns
   description: ""
   license: ""
-  name: gpgme
-  
-  version: 0.9.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
+  name: libidn
   
   version: ""
 - 
@@ -106,21 +71,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: gdbm
   
-  version: "6.3"
+  version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: kyotocabinet
+  name: krb5
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: slang
+  name: ncurses
   
   version: ""
 - 
@@ -137,6 +102,41 @@ requires:
   name: selinux-mutt
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: kyotocabinet
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 0.9.0
 uri:
 - https://github.com/neomutt/neomutt/archive/neomutt-20180716.tar.gz
 use_flags:

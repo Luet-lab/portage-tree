@@ -5,24 +5,17 @@ license: GPL-2+
 name: system-config-printer
 requires:
 - 
-  category: dev-libs
+  category: net-print
   description: ""
   license: ""
-  name: glib
+  name: cups-pk-helper
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycairo
+  name: libnotify
   
   version: ""
 - 
@@ -40,10 +33,24 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libnotify
+  name: libusb
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycups
   
   version: ""
 - 
@@ -54,19 +61,12 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: virtual
   description: ""
   license: ""
-  name: libsecret
+  name: udev
   
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups-pk-helper
-  
-  version: ""
+  version: "172"
 - 
   category: net-print
   description: ""
@@ -74,20 +74,6 @@ requires:
   name: cups
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "172"
 - 
   category: x11-libs
   description: ""
@@ -106,7 +92,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pycups
+  name: pycairo
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 uri:

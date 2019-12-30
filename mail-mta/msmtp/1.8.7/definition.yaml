@@ -4,28 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
+  name: qmail-ldap
   
   version: ""
 - 
@@ -39,14 +18,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
+  name: courier
   
   version: ""
 - 
@@ -60,7 +32,42 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
   
   version: ""
 - 
@@ -74,14 +81,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
+  name: mini-qmail
   
   version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -96,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: acct-group
+  category: virtual
   description: ""
   license: ""
-  name: msmtpd
+  name: libintl
   
   version: ""
 - 
@@ -110,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-dns
   description: ""
   license: ""
-  name: gnutls[idn?]
+  name: libidn2
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: msmtpd
   
   version: ""
 - 
@@ -124,13 +131,6 @@ requires:
   
   version: ""
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -138,10 +138,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: libintl
+  name: gnutls[idn?]
   
   version: ""
 uri:

@@ -5,33 +5,19 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: virtual
+  category: dev-db
   description: ""
   license: ""
-  name: krb5
+  name: kyotocabinet
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
+  name: lmdb
   
   version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 0.9.0
 - 
   category: net-dns
   description: ""
@@ -54,62 +40,6 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mutt
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.3"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: qdbm
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -124,12 +54,75 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
+  name: tokyocabinet
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.6
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.3"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: qdbm
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 0.9.0
 - 
   category: dev-libs
   description: ""
@@ -137,6 +130,13 @@ requires:
   name: cyrus-sasl
   
   version: "2"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mutt
+  
+  version: ""
 uri:
 - https://github.com/neomutt/neomutt/archive/20191102.tar.gz -> neomutt-20191102.tar.gz
 use_flags:

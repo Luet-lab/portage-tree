@@ -4,7 +4,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
   
   version: ""
 - 
@@ -22,10 +29,45 @@ conflicts:
   
   version: ""
 - 
+  category: <mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
   category: mail-mta
   description: ""
   license: ""
   name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: fastforward
   
   version: ""
 - 
@@ -46,111 +88,13 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: <mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: fastforward
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
+  name: netqmail
   
   version: ""
 description: A fast and secure drop-in replacement for sendmail
 license: '|| ( IBM EPL-2.0 )'
 name: postfix
 requires:
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: 2.9.1
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-postfix
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnsl
-  
-  version: ""
 - 
   category: dev-db
   description: ""
@@ -159,17 +103,10 @@ requires:
   
   version: 0.9.11
 - 
-  category: sys-libs
+  category: net-nds
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: memcached
+  name: openldap
   
   version: ""
 - 
@@ -183,21 +120,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libressl
   
-  version: ""
+  version: 2.9.1
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libpcre
   
-  version: ""
+  version: "3.4"
 - 
   category: dev-lang
   description: ""
   license: ""
   name: perl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "3.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
   
   version: ""
 - 
@@ -208,12 +159,61 @@ requires:
   
   version: "2"
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnsl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-postfix
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: openssl
   
-  version: "3.4"
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: memcached
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
 uri:
 - ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.4.6.tar.gz
 use_flags:

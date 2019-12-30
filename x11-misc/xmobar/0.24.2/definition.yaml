@@ -5,12 +5,26 @@ license: BSD
 name: xmobar
 requires:
 - 
-  category: x11-libs
+  category: dev-haskell
   description: ""
   license: ""
-  name: libXrender
+  name: dbus
+  
+  version: "0.10"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: http-types
   
   version: ""
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: x11-xft
+  
+  version: "0.2"
 - 
   category: dev-haskell
   description: ""
@@ -22,30 +36,30 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: timezone-series
+  name: stm
   
-  version: "0.1"
+  version: "2.5"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: timezone-series
+  name: alsa-mixer
   
-  version: "0.2"
+  version: 0.2.0.2
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: mtl
+  name: x11-xft
   
-  version: "2.3"
+  version: "0.4"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: utf8-string
+  name: parsec
   
-  version: "0.3"
+  version: "3.1"
 - 
   category: x11-libs
   description: ""
@@ -59,35 +73,14 @@ requires:
   license: ""
   name: hinotify
   
-  version: "0.3"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: hinotify
-  
   version: "0.4"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: regex-compat
+  name: timezone-series
   
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ghc
-  
-  version: 7.4.1
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: alsa-core
-  
-  version: "0.5"
+  version: "0.2"
 - 
   category: dev-haskell
   description: ""
@@ -99,70 +92,14 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: dbus
+  name: x11
   
-  version: "0.10"
+  version: 1.6.1
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: libmpd
-  
-  version: "0.10"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: timezone-olson
-  
-  version: "0.2"
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: ""
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: parsec
-  
-  version: "3.2"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: utf8-string
-  
-  version: "1.1"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: alsa-mixer
-  
-  version: 0.2.0.2
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: parsec
-  
-  version: "3.1"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: http-types
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
+  name: old-locale
   
   version: ""
 - 
@@ -176,35 +113,28 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: stm
+  name: hinotify
   
-  version: "2.5"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: x11
-  
-  version: 1.6.1
+  version: "0.3"
 - 
   category: dev-haskell
   description: ""
   license: ""
   name: timezone-olson
   
-  version: "0.1"
+  version: "0.2"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: http
+  name: mtl
   
-  version: 4000.2.4
+  version: "2.1"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: transformers
+  name: regex-compat
   
   version: ""
 - 
@@ -218,30 +148,100 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: x11-xft
+  name: http
   
-  version: "0.4"
+  version: 4000.2.4
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: mtl
+  name: parsec
   
-  version: "2.1"
+  version: "3.2"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: old-locale
+  name: transformers
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
   
   version: ""
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: x11-xft
+  name: mtl
   
-  version: "0.2"
+  version: "2.3"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: utf8-string
+  
+  version: "1.1"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: alsa-core
+  
+  version: "0.5"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: utf8-string
+  
+  version: "0.3"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: libmpd
+  
+  version: "0.10"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: timezone-olson
+  
+  version: "0.1"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: timezone-series
+  
+  version: "0.1"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: wireless-tools
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: ghc
+  
+  version: 7.4.1
 uri:
 - https://hackage.haskell.org/package/xmobar-0.24.2/xmobar-0.24.2.tar.gz
 use_flags:

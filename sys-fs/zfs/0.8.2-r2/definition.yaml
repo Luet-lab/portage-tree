@@ -1,33 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel-next
-  
-  version: "67"
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
-- 
   category: <sys-boot
   description: ""
   license: ""
   name: grub
   
   version: 2.00-r2
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
 - 
   category: =sys-apps
   description: ""
@@ -46,6 +25,27 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
+  name: genkernel-next
+  
+  version: "67"
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: 3.5.1.1
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
   name: bliss-initramfs
   
   version: 7.1.0
@@ -57,14 +57,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
+  name: awk
   
   version: ""
 - 
@@ -89,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: parted
+  name: mdadm
   
   version: ""
 - 
@@ -103,27 +96,6 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.8.2
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -131,10 +103,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: python-cffi
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -142,13 +114,6 @@ requires:
   description: ""
   license: ""
   name: lsscsi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
   
   version: ""
 - 
@@ -163,6 +128,41 @@ requires:
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.8.2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
   
   version: ""
 uri:

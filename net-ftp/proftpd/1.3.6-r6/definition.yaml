@@ -5,10 +5,10 @@ license: GPL-2
 name: proftpd
 requires:
 - 
-  category: net-ftp
+  category: virtual
   description: ""
   license: ""
-  name: ftpbase
+  name: libiconv
   
   version: ""
 - 
@@ -19,19 +19,19 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
   category: net-nds
   description: ""
   license: ""
   name: openldap
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmemcached
+  
+  version: "0.41"
 - 
   category: sys-libs
   description: ""
@@ -47,24 +47,10 @@ requires:
   
   version: ""
 - 
-  category: app-antivirus
-  description: ""
-  license: ""
-  name: clamav
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: libsodium
   
   version: ""
 - 
@@ -75,19 +61,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libcap
+  name: selinux-ftp
   
   version: ""
 - 
-  category: dev-libs
+  category: app-antivirus
   description: ""
   license: ""
-  name: libmemcached
+  name: clamav
   
-  version: "0.41"
+  version: ""
 - 
   category: dev-db
   description: ""
@@ -103,17 +89,31 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-ftp
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-ftp
+  description: ""
+  license: ""
+  name: ftpbase
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: libiconv
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 - 
@@ -124,10 +124,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libsodium
+  name: libcap
   
   version: ""
 uri:

@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-portage
-  description: ""
-  license: ""
-  name: repoman
-  
-  version: 2.3.10
-- 
   category: <app-admin
   description: ""
   license: ""
@@ -21,10 +14,31 @@ conflicts:
   name: gentoolkit
   
   version: 0.4.6
+- 
+  category: <app-portage
+  description: ""
+  license: ""
+  name: repoman
+  
+  version: 2.3.10
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -32,20 +46,6 @@ requires:
   name: tar
   
   version: "1.27"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
 - 
   category: app-shells
   description: ""
@@ -61,13 +61,6 @@ requires:
   
   version: "1.2"
 - 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gemato
-  
-  version: "14"
-- 
   category: sys-freebsd
   description: ""
   license: ""
@@ -75,26 +68,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-lang
   description: ""
   license: ""
-  name: util-linux
+  name: python-exec
   
   version: ""
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: sandbox
   
-  version: "20180706"
+  version: "2.2"
 - 
-  category: app-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: pax-utils
+  name: libselinux
   
-  version: 0.1.17
+  version: 2.0.94
 - 
   category: sys-apps
   description: ""
@@ -106,16 +99,23 @@ requires:
   category: app-crypt
   description: ""
   license: ""
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
   name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
 - 
-  category: sys-apps
+  category: app-misc
   description: ""
   license: ""
-  name: sandbox
+  name: pax-utils
   
-  version: "2.2"
+  version: 0.1.17
 - 
   category: sys-apps
   description: ""

@@ -5,12 +5,12 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
-  category: sys-auth
+  category: x11-apps
   description: ""
   license: ""
-  name: pambase
+  name: xauth
   
-  version: "20081028"
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -19,10 +19,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: lksctp-tools
+  name: libselinux
+  
+  version: "1.28"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libedit
   
   version: ""
 - 
@@ -37,20 +44,6 @@ requires:
   description: ""
   license: ""
   name: openssl
-  
-  version: 1.0.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 - 
@@ -67,13 +60,6 @@ requires:
   name: ldns[-ecdsa,ssl(+)]
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "1.28"
 - 
   category: sys-libs
   description: ""
@@ -96,10 +82,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libedit
+  name: lksctp-tools
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -110,17 +103,24 @@ requires:
   
   version: ""
 - 
-  category: x11-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: xauth
+  name: pambase
   
-  version: ""
+  version: "20081028"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
+  
+  version: 1.0.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

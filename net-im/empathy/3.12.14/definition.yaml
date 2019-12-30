@@ -12,6 +12,48 @@ license: GPL-2 CC-BY-SA-3.0 FDL-1.3 LGPL-2.1
 name: empathy
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: cogl
+  
+  version: "1.14"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-glib
+  
+  version: 0.23.2
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: geoclue
+  
+  version: "2.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter
+  
+  version: 1.7.14
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: cheese
+  
+  version: "3.4"
+- 
   category: media-libs
   description: ""
   license: ""
@@ -19,12 +61,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: clutter-gst
   
-  version: "0.51"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-farstream
+  
+  version: 0.6.0
 - 
   category: app-crypt
   description: ""
@@ -36,30 +85,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: cogl
+  name: libcanberra
   
-  version: "1.14"
+  version: "0.25"
 - 
-  category: net-im
+  category: net-libs
   description: ""
   license: ""
-  name: telepathy-logger
-  
-  version: 0.8.0
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
+  name: farstream
   
   version: ""
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: clutter
+  name: gnome-online-accounts
   
-  version: 1.7.14
+  version: 3.5.1
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: enchant
+  
+  version: "1.2"
 - 
   category: media-plugins
   description: ""
@@ -75,19 +124,117 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: clutter-gst
+  name: libgee
   
   version: ""
+- 
+  category: net-im
+  description: ""
+  license: ""
+  name: telepathy-logger
+  
+  version: 0.8.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.9.4
 - 
   category: net-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: webkit-gtk
   
-  version: 3.5.1
+  version: "2.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter-gtk
+  
+  version: 1.1.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libchamplain
+  
+  version: 0.12.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.48"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: folks
+  
+  version: 0.9.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: iso-codes
+  
+  version: "0.35"
 - 
   category: net-im
   description: ""
@@ -103,13 +250,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.48"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -117,124 +257,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: farstream
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: "2.1"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: cheese
-  
-  version: "3.4"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: "2.10"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: 0.90.3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libchamplain
-  
-  version: 0.12.1
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: "1.2"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: "0.35"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.25"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: 1.1.2
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-farstream
-  
-  version: 0.6.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-glib
-  
-  version: 0.23.2
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgee
+  name: dbus-glib
   
-  version: ""
+  version: "0.51"
 - 
   category: media-libs
   description: ""
@@ -250,6 +278,13 @@ requires:
   
   version: 1.10.0
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
   category: sci-geosciences
   description: ""
   license: ""
@@ -257,47 +292,12 @@ requires:
   
   version: "3.10"
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libxml2
+  name: clutter-gtk
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.9.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: folks
-  
-  version: 0.9.5
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
+  version: 0.90.3
 uri: []
 use_flags:
 - debug

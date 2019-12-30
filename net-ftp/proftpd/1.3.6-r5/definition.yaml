@@ -5,17 +5,10 @@ license: GPL-2
 name: proftpd
 requires:
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-ftp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
+  name: libcap
   
   version: ""
 - 
@@ -26,10 +19,31 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: krb5
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
   
   version: ""
 - 
@@ -50,49 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
+  name: libpcre
   
   version: ""
 - 
@@ -110,6 +82,41 @@ requires:
   
   version: ""
 - 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ftp
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -117,17 +124,10 @@ requires:
   
   version: "0.41"
 - 
-  category: net-nds
+  category: virtual
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
+  name: libiconv
   
   version: ""
 uri:

@@ -19,80 +19,31 @@ license: GPL-2
 name: mythtv
 requires:
 - 
-  category: media-gfx
+  category: x11-libs
   description: ""
   license: ""
-  name: exiv2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-INET6
+  name: libXrandr
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libcdio
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtwidgets
+  name: libxml2
   
-  version: ""
+  version: 2.6.0
 - 
-  category: media-libs
+  category: x11-wm
   description: ""
   license: ""
-  name: taglib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: 1.8.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libass
-  
-  version: 0.9.11
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
+  name: evilwm
   
   version: ""
 - 
@@ -103,24 +54,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libbluray
+  name: qtwebkit
   
   version: ""
 - 
-  category: dev-perl
+  category: sys-libs
   description: ""
   license: ""
-  name: libwww-perl
+  name: libraw1394
   
-  version: "5"
+  version: 1.2.0
 - 
   category: dev-python
   description: ""
   license: ""
   name: mysql-python
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
   
   version: ""
 - 
@@ -134,98 +92,56 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtscript
+  name: qtcore
   
   version: ""
 - 
-  category: dev-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: libcdio
-  
-  version: ""
-- 
-  category: media-tv
-  description: ""
-  license: ""
-  name: xmltv
-  
-  version: 0.5.43
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXv
+  name: fftw
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libdvdcss
+  name: x264
   
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTTP-Message
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: 3.93.1
+  version: 0.0.20111220
 - 
   category: dev-python
   description: ""
   license: ""
-  name: future
+  name: requests-cache
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: xvid
-  
-  version: 1.1.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
+  name: libtheora
   
   version: ""
 - 
-  category: dev-qt
+  category: net-dns
   description: ""
   license: ""
-  name: qtnetwork
+  name: avahi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libXxf86vm
   
   version: ""
 - 
@@ -235,34 +151,6 @@ requires:
   name: alsa-lib
   
   version: 1.0.24
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcec
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libraw1394
-  
-  version: 1.2.0
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -278,73 +166,45 @@ requires:
   
   version: "1.0"
 - 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xset
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libiec61883
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: urlgrabber
-  
-  version: ""
-- 
-  category: x11-wm
-  description: ""
-  license: ""
-  name: evilwm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: openssl
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: libvpx
+  
+  version: 1.8.0
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-Socket-INET6
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: opengl
+  name: libdvdcss
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udisks
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
   
   version: ""
 - 
@@ -358,14 +218,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: LWP-Protocol-https
+  name: HTTP-Message
   
   version: ""
 - 
-  category: dev-python
+  category: x11-apps
   description: ""
   license: ""
-  name: lxml
+  name: xinit
   
   version: ""
 - 
@@ -376,31 +236,80 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: x264
+  name: zlib
   
-  version: 0.0.20111220
+  version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-UPnP
+  name: libwww-perl
+  
+  version: "5"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcec
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-mysql
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-Protocol-https
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: requests-cache
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
+  name: lxml
   
   version: ""
 - 
@@ -414,7 +323,175 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebkit
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: 3.93.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-UPnP
+  
+  version: ""
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xset
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: future
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: dejavu
+  
+  version: ""
+- 
+  category: media-tv
+  description: ""
+  license: ""
+  name: xmltv
+  
+  version: 0.5.43
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libiec61883
+  
+  version: 1.0.0
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lcdproc
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: exiv2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: urlgrabber
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: corefonts
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libass
+  
+  version: 0.9.11
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: xvid
+  
+  version: 1.1.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: taglib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 - 
@@ -428,77 +505,7 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.6.0
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xinit
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: dejavu
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
   name: jack-audio-connection-kit
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lcdproc
   
   version: ""
 - 
@@ -506,13 +513,6 @@ requires:
   description: ""
   license: ""
   name: libva
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: corefonts
   
   version: ""
 uri:

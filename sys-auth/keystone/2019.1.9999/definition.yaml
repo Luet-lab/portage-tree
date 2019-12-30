@@ -4,23 +4,9 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pymysql
+  name: Babel
   
-  version: 0.7.7
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: pymongo
-  
-  version: "3.1"
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: pycadf
-  
-  version: 2.0.0
+  version: 2.4.0
 - 
   category: ~dev-python
   description: ""
@@ -32,6 +18,20 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
+  name: pymysql
+  
+  version: 0.7.7
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: pycadf
+  
+  version: 2.0.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
   name: oslo-serialization
   
   version: 1.19.1
@@ -39,9 +39,9 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: Babel
+  name: pymongo
   
-  version: 2.4.0
+  version: "3.1"
 description: The Openstack authentication, authorization, and service catalog
 license: Apache-2.0
 name: keystone
@@ -50,30 +50,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: scrypt
+  name: flask-restful
   
-  version: 0.8.0
+  version: 0.3.5
 - 
   category: dev-python
   description: ""
   license: ""
-  name: dogpile-cache
+  name: bcrypt
   
-  version: 0.6.2
+  version: 3.1.3
 - 
   category: dev-python
   description: ""
   license: ""
-  name: six
+  name: oslo-context
   
-  version: 1.10.0
+  version: 2.22.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-policy
+  name: oslo-messaging
   
-  version: 1.43.1
+  version: 5.29.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-middleware
+  
+  version: 3.31.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jsonschema
+  
+  version: 3.0.0
 - 
   category: dev-python
   description: ""
@@ -92,20 +106,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: ldappool
-  
-  version: 2.3.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: flask
-  
-  version: 1.0.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: sqlalchemy
   
   version: 1.1.0
@@ -113,107 +113,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-concurrency
+  name: pysaml2
   
-  version: 3.26.0
+  version: 4.5.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-messaging
+  name: jsonschema
   
-  version: 5.29.0
+  version: 2.6.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-utils
+  name: keystonemiddleware
   
-  version: 3.33.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyjwt
-  
-  version: 1.6.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: osprofiler
-  
-  version: 1.4.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: flask-restful
-  
-  version: 0.3.5
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pytz
-  
-  version: "2013.6"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: bcrypt
-  
-  version: 3.1.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-db
-  
-  version: 4.27.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-middleware
-  
-  version: 3.31.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: msgpack
-  
-  version: 0.5.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-memcached
-  
-  version: "1.56"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pbr
-  
-  version: 2.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: passlib
-  
-  version: 1.7.0
+  version: 5.1.0
 - 
   category: dev-python
   description: ""
@@ -225,16 +141,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-context
+  name: oslo-policy
   
-  version: 2.22.0
+  version: 1.43.1
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oauthlib
+  name: osprofiler
   
-  version: 0.6.2
+  version: 1.4.0
 - 
   category: dev-python
   description: ""
@@ -246,9 +162,51 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: Babel
+  
+  version: 2.3.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: webob
   
   version: 1.7.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: scrypt
+  
+  version: 0.8.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-concurrency
+  
+  version: 3.26.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-i18n
+  
+  version: 3.15.3
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-log
+  
+  version: 3.38.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyjwt
+  
+  version: 1.6.1
 - 
   category: dev-python
   description: ""
@@ -267,23 +225,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-i18n
+  name: oslo-upgradecheck
   
-  version: 3.15.3
+  version: 0.1.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pysaml2
+  name: oslo-utils
   
-  version: 4.5.0
+  version: 3.33.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: jsonschema
+  name: oauthlib
   
-  version: 3.0.0
+  version: 0.6.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dogpile-cache
+  
+  version: 0.6.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-db
+  
+  version: 4.27.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.18.0
 - 
   category: dev-python
   description: ""
@@ -302,6 +281,48 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: passlib
+  
+  version: 1.7.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-config
+  
+  version: 5.2.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-memcached
+  
+  version: "1.56"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: flask
+  
+  version: 1.0.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.10.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: sqlalchemy-migrate
   
   version: 0.11.0
@@ -316,44 +337,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: keystonemiddleware
+  name: msgpack
   
-  version: 5.1.0
+  version: 0.5.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-config
+  name: pytz
   
-  version: 5.2.0
+  version: "2013.6"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-log
+  name: ldappool
   
-  version: 3.38.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: Babel
-  
-  version: 2.3.4
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jsonschema
-  
-  version: 2.6.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-upgradecheck
-  
-  version: 0.1.0
+  version: 2.3.1
 uri: []
 use_flags:
 - +sqlite

@@ -1,24 +1,10 @@
 category: mail-mta
 conflicts:
 - 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
   category: net-mail
   description: ""
   license: ""
   name: cyrus-imapd
-  
-  version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: maildrop
   
   version: ""
 - 
@@ -32,14 +18,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
+  name: postfix
   
   version: ""
 - 
@@ -47,34 +26,6 @@ conflicts:
   description: ""
   license: ""
   name: dot-forward
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: bincimap
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: courier-imap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: msmtp
   
   version: ""
 - 
@@ -88,14 +39,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: sendmail
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
   
   version: ""
 - 
@@ -113,6 +71,34 @@ mailer
   
   version: ""
 - 
+  category: mail-filter
+  description: ""
+  license: ""
+  name: maildrop
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: courier-imap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
+- 
   category: net-mail
   description: ""
   license: ""
@@ -123,13 +109,41 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: msmtp
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: bincimap
   
   version: ""
 description: An MTA designed specifically for maildirs
 license: GPL-2
 name: courier
 requires:
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.69.0-r1
 - 
   category: dev-db
   description: ""
@@ -138,19 +152,40 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: app-text
   description: ""
   license: ""
-  name: fam
+  name: aspell
   
   version: ""
 - 
-  category: net-dns
+  category: net-libs
   description: ""
   license: ""
-  name: libidn
+  name: courier-unicode
+  
+  version: "2.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: net-dialup
+  description: ""
+  license: ""
+  name: mgetty
+  
+  version: 1.1.28
 - 
   category: net-nds
   description: ""
@@ -159,17 +194,10 @@ requires:
   
   version: 1.2.11
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
+  name: fam
   
   version: ""
 - 
@@ -187,27 +215,6 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: aspell
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: 0.69.0-r1
-- 
   category: media-libs
   description: ""
   license: ""
@@ -215,12 +222,33 @@ requires:
   
   version: "9.12"
 - 
-  category: net-dialup
+  category: dev-db
   description: ""
   license: ""
-  name: mgetty
+  name: postgresql
   
-  version: 1.1.28
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
 - 
   category: dev-libs
   description: ""
@@ -236,38 +264,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-unicode
-  
-  version: "2.1"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
+  name: perl
   
   version: ""
 uri:

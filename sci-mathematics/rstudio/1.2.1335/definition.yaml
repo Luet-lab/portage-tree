@@ -5,19 +5,54 @@ license: AGPL-3
 name: rstudio
 requires:
 - 
-  category: sys-apps
+  category: dev-qt
   description: ""
   license: ""
-  name: util-linux
+  name: qtprintsupport
+  
+  version: "5.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: "5.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mathjax
+  
+  version: 2.7.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: "5.4"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
   
   version: ""
 - 
-  category: virtual
+  category: dev-qt
   description: ""
   license: ""
-  name: jre
+  name: qtdeclarative
   
-  version: "1.8"
+  version: "5.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: "5.4"
 - 
   category: dev-qt
   description: ""
@@ -40,47 +75,19 @@ requires:
   
   version: "5.4"
 - 
-  category: dev-qt
+  category: sys-libs
   description: ""
   license: ""
-  name: qtopengl
-  
-  version: "5.4"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: "5.4"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: pandoc-citeproc
+  name: zlib
   
   version: ""
 - 
-  category: dev-qt
+  category: virtual
   description: ""
   license: ""
-  name: qtwebengine
+  name: jre
   
-  version: "5.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.63"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: "5.4"
+  version: "1.8"
 - 
   category: dev-qt
   description: ""
@@ -92,35 +99,28 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebchannel
+  name: qtwebengine
   
   version: "5.4"
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtsvg
   
   version: "5.4"
 - 
-  category: app-text
+  category: sys-devel
   description: ""
   license: ""
-  name: pandoc
+  name: clang
   
-  version: 1.19.2.1
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: R
-  
-  version: 2.11.1
+  version: 3.5.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtxml
+  name: qtcore
   
   version: "5.4"
 - 
@@ -130,27 +130,6 @@ requires:
   name: pam
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: "5.4"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: "5.4"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: "5.4"
 - 
   category: dev-libs
   description: ""
@@ -166,47 +145,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: mathjax
+  name: pandoc
   
-  version: 2.7.4
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: clang
-  
-  version: 3.5.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: "5.4"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: "5.4"
+  version: 1.19.2.1
 - 
   category: dev-qt
   description: ""
@@ -214,6 +158,62 @@ requires:
   name: qtxmlpatterns
   
   version: "5.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: "5.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: "5.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebchannel
+  
+  version: "5.4"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: R
+  
+  version: 2.11.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.63"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: "5.4"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: pandoc-citeproc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
 uri:
 - https://github.com/rstudio/rstudio/archive/v1.2.1335.tar.gz -> rstudio-1.2.1335.tar.gz
 - https://s3.amazonaws.com/rstudio-buildtools/gin-2.1.2.zip

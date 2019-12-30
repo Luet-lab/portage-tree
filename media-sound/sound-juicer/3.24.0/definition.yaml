@@ -5,10 +5,17 @@ license: GPL-2+
 name: sound-juicer
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: glib
+  
+  version: 2.49.5
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 - 
@@ -26,45 +33,17 @@ requires:
   
   version: 0.4.0
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-flac
+  name: musicbrainz
   
-  version: ""
+  version: 5.0.1
 - 
   category: gnome-base
   description: ""
   license: ""
   name: gvfs
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.21.6
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
-- 
-  category: app-cdr
-  description: ""
-  license: ""
-  name: brasero
-  
-  version: "2.90"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
   
   version: ""
 - 
@@ -75,19 +54,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: gtk+
   
-  version: 2.49.5
+  version: 3.21.6
+- 
+  category: app-cdr
+  description: ""
+  license: ""
+  name: brasero
+  
+  version: "2.90"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: musicbrainz
+  name: gstreamer
   
-  version: 5.0.1
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-flac
+  
+  version: ""
 uri: []
 use_flags:
 - debug

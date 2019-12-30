@@ -5,10 +5,10 @@ license: LGPL-2.1+
 name: pipewire
 requires:
 - 
-  category: virtual
+  category: media-video
   description: ""
   license: ""
-  name: libudev
+  name: ffmpeg
   
   version: ""
 - 
@@ -16,6 +16,13 @@ requires:
   description: ""
   license: ""
   name: libav
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
   
   version: ""
 - 
@@ -33,20 +40,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -54,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: dbus
+  name: libudev
   
   version: ""
 - 
@@ -68,17 +61,24 @@ requires:
   
   version: ""
 - 
-  category: media-video
+  category: x11-libs
   description: ""
   license: ""
-  name: ffmpeg
+  name: libX11
   
   version: ""
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: gstreamer
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 

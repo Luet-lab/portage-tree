@@ -11,13 +11,6 @@ conflicts:
   category: <dev-qt
   description: ""
   license: ""
-  name: qtwayland
-  
-  version: 5.14.0
-- 
-  category: <dev-qt
-  description: ""
-  license: ""
   name: qtimageformats
   
   version: 5.14.0
@@ -28,78 +21,29 @@ conflicts:
   name: qtsvg
   
   version: 5.14.0
+- 
+  category: <dev-qt
+  description: ""
+  license: ""
+  name: qtwayland
+  
+  version: 5.14.0
 description: The GUI module and platform plugins for the Qt5 framework
 license: ""
 name: qtgui
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: opengl
+  name: libudev
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-renderutil
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.14.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: "1.12"
 - 
   category: x11-libs
   description: ""
   license: ""
   name: xcb-util-wm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
   
   version: ""
 - 
@@ -110,80 +54,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: 5.14.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: 1.6.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: tslib
-  
-  version: "1.21"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon-0.5.0[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-image
+  name: jpeg
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: libinput
   
   version: ""
 - 
@@ -201,12 +82,103 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-keysyms
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.12"
+- 
   category: dev-util
   description: ""
   license: ""
   name: gtk-update-icon-cache
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.6.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon-0.5.0[X]
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.14.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-image
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: 5.14.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: tslib
+  
+  version: "1.21"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-renderutil
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: 1.6.0
 - 
   category: dev-qt
   description: ""
@@ -218,16 +190,44 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-keysyms
+  name: libdrm
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: mesa
   
-  version: 2.6.1
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
 uri: []
 use_flags:
 - accessibility

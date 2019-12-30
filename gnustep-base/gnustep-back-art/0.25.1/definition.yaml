@@ -4,14 +4,14 @@ conflicts:
   category: gnustep-base
   description: ""
   license: ""
-  name: gnustep-back-xlib
+  name: gnustep-back-cairo
   
   version: ""
 - 
   category: gnustep-base
   description: ""
   license: ""
-  name: gnustep-back-cairo
+  name: gnustep-back-xlib
   
   version: ""
 description: libart_lgpl back-end component for the GNUstep GUI Library
@@ -19,12 +19,33 @@ license: LGPL-2.1
 name: gnustep-back-art
 requires:
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: freetype
+  name: opengl
   
-  version: 2.1.9
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: gnustep-base
+  description: ""
+  license: ""
+  name: gnustep-gui
+  
+  version: "0.25"
 - 
   category: x11-libs
   description: ""
@@ -36,7 +57,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libXt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.1.9
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: dejavu
   
   version: ""
 - 
@@ -50,35 +85,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: dejavu
-  
-  version: ""
-- 
-  category: gnustep-base
-  description: ""
-  license: ""
-  name: gnustep-gui
-  
-  version: "0.25"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
+  name: libXi
   
   version: ""
 - 
@@ -88,27 +95,6 @@ requires:
   name: libXmu
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libart_lgpl
-  
-  version: "2.3"
 - 
   category: gnustep-base
   description: ""
@@ -127,9 +113,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libSM
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libart_lgpl
+  
+  version: "2.3"
 uri:
 - ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-back-0.25.1.tar.gz
 use_flags:

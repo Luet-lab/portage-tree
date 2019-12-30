@@ -5,12 +5,12 @@ license: GPL-2 LGPL-2.1
 name: inkscape-1.0_beta2
 requires:
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: double-conversion
+  name: poppler
   
-  version: ""
+  version: 0.57.0
 - 
   category: media-gfx
   description: ""
@@ -22,21 +22,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: lxml
+  name: libX11
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libcdr
+  name: libexif
   
   version: ""
 - 
@@ -44,6 +37,97 @@ requires:
   description: ""
   license: ""
   name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.25
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: double-conversion
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: 1.37.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: app-office
+  description: ""
+  license: ""
+  name: dia
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvisio
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.54.1
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: pangomm
+  
+  version: "2.40"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.4
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: graphicsmagick
   
   version: ""
 - 
@@ -57,37 +141,51 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: aspell
   
   version: ""
 - 
-  category: media-gfx
+  category: app-text
   description: ""
   license: ""
-  name: scour
+  name: gtkspell
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.41"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: lxml
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
-  category: virtual
+  category: app-text
   description: ""
   license: ""
-  name: jpeg
+  name: libwpg
   
   version: ""
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: glibmm
+  name: dbus-glib
   
-  version: 2.54.1
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -99,21 +197,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libcdr
   
   version: ""
 - 
-  category: net-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: libsoup
+  name: imagemagick
+  
+  version: "7"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
 - 
-  category: app-office
+  category: app-text
   description: ""
   license: ""
-  name: dia
+  name: ghostscript-gpl
   
   version: ""
 - 
@@ -123,20 +228,6 @@ requires:
   name: cairomm
   
   version: "1.12"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.41"
 - 
   category: dev-libs
   description: ""
@@ -148,37 +239,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
-  
-  version: 1.1.25
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: popt
   
   version: ""
 - 
-  category: app-text
+  category: media-libs
   description: ""
   license: ""
-  name: libwpg
+  name: libpng
   
   version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphicsmagick
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.7.4
 - 
   category: dev-libs
   description: ""
@@ -187,45 +257,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.37.2
-- 
   category: media-gfx
   description: ""
   license: ""
-  name: imagemagick
-  
-  version: "7"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: gtkspell
+  name: scour
   
   version: ""
 - 
-  category: app-text
+  category: net-libs
   description: ""
   license: ""
-  name: poppler
-  
-  version: 0.57.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
+  name: libsoup
   
   version: ""
 - 
@@ -236,52 +278,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvisio
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
   name: numpy
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: pangomm
-  
-  version: "2.40"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: aspell
   
   version: ""
 uri:

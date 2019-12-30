@@ -8,14 +8,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: libICE
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: rtkit
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
   
   version: ""
 - 
@@ -26,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libICE
+  name: libsndfile
   
-  version: ""
+  version: 1.0.20
 - 
   category: dev-libs
   description: ""
@@ -40,41 +47,6 @@ requires:
   
   version: 2.26.0
 - 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: ofono
-  
-  version: "1.13"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: webrtc-audio-processing
-  
-  version: "0.2"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: "1.6"
-- 
   category: app-misc
   description: ""
   license: ""
@@ -82,17 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
+  name: sbc
   
   version: ""
 - 
@@ -102,6 +67,62 @@ requires:
   name: gconf
   
   version: 3.2.6
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.19
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: orc
+  
+  version: 0.4.15
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speexdsp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -117,19 +138,61 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libasyncns
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: orc
+  name: udev-143[hwdb(+)]
   
-  version: 0.4.15
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.12
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: ofono
+  
+  version: "1.13"
 - 
   category: x11-libs
   description: ""
@@ -145,89 +208,26 @@ requires:
   
   version: 0.1.1-r1
 - 
-  category: media-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: alsa-lib
+  name: bluez
   
-  version: 1.0.19
+  version: "5"
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: dbus
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sbc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev-143[hwdb(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: libasyncns
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: speexdsp
+  name: webrtc-audio-processing
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.20
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: 2.22-r2
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.12
+  version: "0.2"
 - 
   category: sec-policy
   description: ""
@@ -236,26 +236,26 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: rtkit
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libxcb
   
-  version: ""
+  version: "1.6"
 - 
-  category: net-wireless
+  category: sys-libs
   description: ""
   license: ""
-  name: bluez
+  name: libcap
   
-  version: "5"
+  version: 2.22-r2
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
 - 
   category: media-libs
   description: ""

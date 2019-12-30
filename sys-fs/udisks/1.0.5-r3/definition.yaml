@@ -5,20 +5,6 @@ license: GPL-2
 name: udisks
 requires:
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-devicekit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.100"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -29,9 +15,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: sg3_utils
   
-  version: "1.6"
+  version: 1.27.20090411
 - 
   category: virtual
   description: ""
@@ -43,37 +29,23 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
   name: eject
   
   version: ""
 - 
-  category: sys-block
+  category: dev-libs
   description: ""
   license: ""
-  name: parted
+  name: libgudev
   
-  version: "3"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: 2.20.1-r2
+  version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2
   
-  version: 2.02.183
+  version: 2.02.66
 - 
   category: net-dns
   description: ""
@@ -85,16 +57,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libatasmart
+  name: dbus-glib
   
-  version: "0.19"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
+  version: "0.100"
 - 
   category: sys-auth
   description: ""
@@ -103,19 +68,54 @@ requires:
   
   version: "0.110"
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: sg3_utils
+  name: util-linux
   
-  version: 1.27.20090411
+  version: 2.20.1-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: "0.19"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1.6"
 - 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2
   
-  version: 2.02.66
+  version: 2.02.183
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-devicekit
+  
+  version: ""
 uri:
 - https://hal.freedesktop.org/releases/udisks-1.0.5.tar.gz
 use_flags:

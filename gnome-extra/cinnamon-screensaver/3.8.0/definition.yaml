@@ -12,17 +12,38 @@ license: GPL-2+
 name: cinnamon-screensaver
 requires:
 - 
-  category: dev-python
+  category: sys-apps
   description: ""
   license: ""
-  name: pygobject
+  name: systemd
+  
+  version: "31"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: setproctitle
+  name: libXxf86misc
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
   
   version: ""
 - 
@@ -40,17 +61,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86misc
+  name: pygobject
   
   version: ""
 - 
@@ -58,55 +72,6 @@ requires:
   description: ""
   license: ""
   name: xapp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.1.4
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-desktop
-  
-  version: 2.6.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: psutil
   
   version: ""
 - 
@@ -131,10 +96,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
   
   version: ""
 - 
@@ -145,12 +117,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: systemd
+  name: pam
   
-  version: "31"
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: psutil
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -159,24 +138,45 @@ requires:
   
   version: 2.37.3
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomekbd
-  
-  version: "3.6"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: gtk+
+  
+  version: 3.1.4
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.6.3
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: setproctitle
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 uri:

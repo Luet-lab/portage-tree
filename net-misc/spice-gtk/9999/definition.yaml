@@ -13,26 +13,40 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: libusb
+  name: zlib
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libva
+  name: gobject-introspection
   
   version: ""
 - 
-  category: sys-apps
+  category: app-emulation
   description: ""
   license: ""
-  name: acl
+  name: qemu
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: phodav
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.46"
 - 
   category: media-libs
   description: ""
@@ -48,55 +62,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: qemu
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: 0.110-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -104,10 +69,10 @@ requires:
   
   version: 0.17.7
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: gtk+
   
   version: ""
 - 
@@ -118,40 +83,33 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: sys-apps
   description: ""
   license: ""
-  name: pulseaudio
+  name: acl
   
   version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: phodav
+  name: libsoup
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: usbredir
-  
-  version: 0.4.2
+  version: 2.49.91
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: cyrus-sasl
   
-  version: "2.46"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -163,14 +121,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-good
+  name: gst-plugins-base
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: gst-plugins-good
   
   version: ""
 - 
@@ -181,12 +139,54 @@ requires:
   
   version: "1.2"
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: openssl
   
-  version: 2.49.91
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: usbredir
+  
+  version: 0.4.2
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: 0.110-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: ""
 uri: []
 use_flags:
 - +gtk3

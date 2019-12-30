@@ -5,55 +5,6 @@ license: '|| ( LGPL-2 LGPL-3 ) BSD Sleepycat'
 name: evolution-data-server
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: "3.4"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.46"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
-  
-  version: "4.4"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.7
-- 
   category: net-libs
   description: ""
   license: ""
@@ -61,12 +12,12 @@ requires:
   
   version: "3.8"
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: gobject-introspection
+  name: krb5
   
-  version: 0.9.12
+  version: ""
 - 
   category: dev-db
   description: ""
@@ -82,26 +33,26 @@ requires:
   
   version: 3.0.2
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: libiconv
+  name: libsoup
   
-  version: ""
+  version: "2.42"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: icu
   
-  version: 1.0.4
+  version: ""
 - 
-  category: net-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: webkit-gtk
+  name: gtk+
   
-  version: 2.11.91
+  version: "3.10"
 - 
   category: media-libs
   description: ""
@@ -127,6 +78,69 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: nspr
+  
+  version: "4.4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: 1.0.4
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: 2.11.91
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: "3.4"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.5"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.46"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libxml2
   
   version: "2"
@@ -141,30 +155,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libgdata
+  
+  version: 0.17.7
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.10"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4"
 uri: []
 use_flags:
 - berkdb

@@ -5,213 +5,31 @@ license: GPL-2 LGPL-2 BSD-2
 name: qemu
 requires:
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: ncurses
+  name: bzip2
   
   version: ""
 - 
-  category: media-libs
+  category: net-fs
   description: ""
   license: ""
-  name: libsdl2[X]
+  name: libnfs
+  
+  version: 1.9.3
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.13
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dtc
-  
-  version: 1.5.0
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: glusterfs
-  
-  version: 3.4.0
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-qemu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libibverbs
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: lzo
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: 2.1.0
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: vte
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libiscsi
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: ""
-- 
-  category: sys-firmware
-  description: ""
-  license: ""
-  name: ipxe
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: 1-r2
 - 
   category: app-arch
   description: ""
   license: ""
   name: snappy
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: spice
-  
-  version: 0.12.0
-- 
-  category: sys-firmware
-  description: ""
-  license: ""
-  name: sgabios
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.0"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libepoxy
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-firmware
-  description: ""
-  license: ""
-  name: sgabios
-  
-  version: 0.1_pre8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
   
   version: ""
 - 
@@ -222,33 +40,194 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: gnutls
+  name: libibumad
   
-  version: "3.0"
+  version: ""
 - 
-  category: media-sound
+  category: virtual
   description: ""
   license: ""
-  name: pulseaudio
+  name: jpeg
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X]
   
   version: ""
 - 
   category: app-emulation
   description: ""
   license: ""
-  name: libcacard
+  name: spice
   
-  version: 2.5.0
+  version: 0.12.0
 - 
-  category: app-arch
+  category: net-misc
   description: ""
   license: ""
-  name: bzip2
+  name: vde
   
   version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-qemu
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: capstone
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: glusterfs
+  
+  version: 3.4.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: virglrenderer
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: xen-tools
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: ""
+- 
+  category: sys-firmware
+  description: ""
+  license: ""
+  name: seabios
+  
+  version: 1.12.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dtc
+  
+  version: 1.5.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.13
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libepoxy
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: spice-protocol
+  
+  version: 0.12.3
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
+  
+  version: 2.1.0
 - 
   category: net-libs
   description: ""
@@ -260,9 +239,16 @@ requires:
   category: sys-firmware
   description: ""
   license: ""
-  name: edk2-ovmf
+  name: ipxe
   
-  version: "201905"
+  version: 1.0.0_p20190728
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: libcacard
+  
+  version: 2.5.0
 - 
   category: sys-firmware
   description: ""
@@ -274,7 +260,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: capstone
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libiscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
   
   version: ""
 - 
@@ -285,66 +285,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-firmware
   description: ""
   license: ""
-  name: libsdl2
+  name: sgabios
   
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libibumad
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: usbredir
-  
-  version: "0.6"
+  version: 0.1_pre8
 - 
   category: sys-firmware
   description: ""
   license: ""
   name: ipxe
-  
-  version: 1.0.0_p20190728
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: brltty
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.15.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -365,79 +316,128 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: pixman
   
   version: 0.28.0
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: vde
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: libnfs
-  
-  version: 1.9.3
-- 
   category: sys-firmware
   description: ""
   license: ""
-  name: seabios
+  name: edk2-ovmf
   
-  version: 1.12.0
+  version: "201905"
 - 
-  category: media-libs
+  category: acct-group
   description: ""
   license: ""
-  name: virglrenderer
+  name: kvm
   
   version: ""
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: mesa
+  name: gnutls
+  
+  version: "3.0"
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libibverbs
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: 1-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: lzo
   
   version: ""
 - 
-  category: app-emulation
+  category: virtual
   description: ""
   license: ""
-  name: spice-protocol
+  name: opengl
   
-  version: 0.12.3
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-firmware
+  description: ""
+  license: ""
+  name: sgabios
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.0"
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: brltty
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: 7.15.4
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: vte
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ceph
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: usbredir
+  
+  version: "0.6"
 uri:
 - http://wiki.qemu-project.org/download/qemu-4.0.0.tar.xz
 use_flags:

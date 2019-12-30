@@ -5,10 +5,10 @@ license: LGPL-2.1
 name: zbar
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libv4l
+  name: gtk+
   
   version: ""
 - 
@@ -19,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtgui
+  name: libv4l
   
   version: ""
 - 
@@ -30,34 +30,6 @@ requires:
   description: ""
   license: ""
   name: qtx11extras
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXv
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
   
   version: ""
 - 
@@ -78,21 +50,49 @@ requires:
   category: media-gfx
   description: ""
   license: ""
-  name: imagemagick
+  name: graphicsmagick
   
   version: ""
 - 
-  category: media-gfx
+  category: dev-python
   description: ""
   license: ""
-  name: graphicsmagick
+  name: pygtk
+  
+  version: "2"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXv
   
   version: ""
 - 
@@ -103,12 +103,12 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: media-gfx
   description: ""
   license: ""
-  name: pygtk
+  name: imagemagick
   
-  version: "2"
+  version: ""
 uri:
 - https://linuxtv.org/downloads/zbar/zbar-0.20.1.tar.gz
 use_flags:

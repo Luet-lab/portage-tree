@@ -12,26 +12,61 @@ requires:
   
   version: 1.12.2
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: 3.12.9
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.1.9
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: 2.1.25-r3
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: cifs-utils
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: 4.10.2
+- 
   category: net-dns
   description: ""
   license: ""
   name: c-ares
   
-  version: 1.7.4
+  version: 1.10.0-r1
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: bind-tools
+  
+  version: "9.9"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libnl
+  name: popt
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: "2.17"
+  version: "1.16"
 - 
   category: sys-libs
   description: ""
@@ -40,40 +75,40 @@ requires:
   
   version: 0.9.16
 - 
-  category: sys-apps
+  category: app-crypt
   description: ""
   license: ""
-  name: keyutils
+  name: mit-krb5
   
-  version: "1.5"
+  version: 1.10.3
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: nss
-  
-  version: 3.12.9
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.18"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: curl
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ldb
+  name: talloc
   
-  version: 1.1.17-r1
+  version: 2.0.7
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: tdb
+  
+  version: 1.2.9
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.4.30
 - 
   category: dev-libs
   description: ""
@@ -92,9 +127,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libnl
   
-  version: 2.1.25-r3
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ldb
+  
+  version: 1.1.17-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsemanage
+  
+  version: "2.1"
 - 
   category: virtual
   description: ""
@@ -103,26 +159,12 @@ requires:
   
   version: ""
 - 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: 4.10.2
-- 
   category: dev-libs
   description: ""
   license: ""
   name: ding-libs
   
   version: "0.2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: tdb
-  
-  version: 1.2.9
 - 
   category: net-libs
   description: ""
@@ -136,63 +178,7 @@ requires:
   license: ""
   name: c-ares
   
-  version: 1.10.0-r1
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.1.9
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: bind-tools
-  
-  version: "9.9"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: talloc
-  
-  version: 2.0.7
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 2.4.30
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "8.30"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-sssd
-  
-  version: 2.20120725-r9
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: cifs-utils
-  
-  version: ""
+  version: 1.7.4
 - 
   category: sys-libs
   description: ""
@@ -204,23 +190,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: popt
+  name: libpcre
   
-  version: "1.16"
+  version: "8.30"
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: mit-krb5
+  name: keyutils
   
-  version: 1.10.3
+  version: "1.5"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libsemanage
+  name: glibc
   
-  version: "2.1"
+  version: "2.17"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-sssd
+  
+  version: 2.20120725-r9
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: "0.18"
 uri:
 - http://releases.pagure.org/SSSD/sssd/sssd-2.2.0.tar.gz
 use_flags:

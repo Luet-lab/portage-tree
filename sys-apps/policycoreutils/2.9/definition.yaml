@@ -19,17 +19,17 @@ license: GPL-2
 name: policycoreutils
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: libsepol
-  
-  version: "2.9"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: pam
   
   version: ""
 - 
@@ -39,6 +39,13 @@ requires:
   name: libcap-ng
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsepol
+  
+  version: "2.9"
 - 
   category: dev-python
   description: ""
@@ -57,9 +64,23 @@ requires:
   category: sys-libs
   description: ""
   license: ""
+  name: libselinux
+  
+  version: "2.9"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
   name: libsemanage
   
   version: "2.9"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
 - 
   category: app-admin
   description: ""
@@ -68,26 +89,12 @@ requires:
   
   version: 4.2.0
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
   name: audit
   
   version: 1.5.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.9"
 - 
   category: sys-libs
   description: ""
@@ -100,13 +107,6 @@ requires:
   description: ""
   license: ""
   name: dbus
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri:

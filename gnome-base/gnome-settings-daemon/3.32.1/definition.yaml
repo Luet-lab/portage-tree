@@ -4,62 +4,20 @@ conflicts:
   category: <gnome-base
   description: ""
   license: ""
-  name: gdm
+  name: gnome-session
   
   version: 3.27.90
 - 
   category: <gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gdm
   
   version: 3.27.90
 description: Gnome Settings Daemon
 license: GPL-2+ LGPL-2+
 name: gnome-settings-daemon
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.7"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: "1.0"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 3.27.90
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgweather
-  
-  version: 3.9.5
 - 
   category: x11-misc
   description: ""
@@ -68,33 +26,12 @@ requires:
   
   version: 1.0.2
 - 
-  category: sys-power
+  category: dev-libs
   description: ""
   license: ""
-  name: upower
+  name: libwacom
   
-  version: "0.99"
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: geocode-glib
-  
-  version: "3.10"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.11.1
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: "2"
+  version: "0.7"
 - 
   category: x11-libs
   description: ""
@@ -103,26 +40,26 @@ requires:
   
   version: 1.20.0
 - 
-  category: media-libs
+  category: net-print
   description: ""
   license: ""
-  name: fontconfig
+  name: cups
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
+  version: "1.4"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXi
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.11.1
 - 
   category: media-libs
   description: ""
@@ -131,12 +68,19 @@ requires:
   
   version: "2.2"
 - 
-  category: sys-auth
+  category: app-misc
   description: ""
   license: ""
-  name: polkit
+  name: geoclue
   
-  version: "0.114"
+  version: 2.3.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -155,9 +99,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libgweather
   
-  version: "2.56"
+  version: 3.9.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.114"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -166,12 +131,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libgudev
+  name: gsettings-desktop-schemas
   
-  version: ""
+  version: 3.27.90
 - 
   category: media-libs
   description: ""
@@ -179,6 +144,55 @@ requires:
   name: alsa-lib
   
   version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: geocode-glib
+  
+  version: "3.10"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: "0.99"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: "2"
 - 
   category: x11-libs
   description: ""
@@ -190,37 +204,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: libgudev
   
   version: ""
 - 
-  category: x11-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libXi
+  name: networkmanager
   
-  version: ""
+  version: "1.0"
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libX11
+  name: glib
   
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: 2.3.1
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: "1.4"
+  version: "2.56"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gnome-settings-daemon-3.32.1-patchset.tar.xz
 use_flags:

@@ -5,10 +5,17 @@ license: BSD GPL-2
 name: tor
 requires:
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: openssl
+  name: selinux-tor
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: asciidoc
   
   version: ""
 - 
@@ -19,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-libs
   description: ""
   license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: libseccomp
   
   version: ""
 - 
@@ -40,10 +40,31 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: app-arch
   description: ""
   license: ""
-  name: asciidoc
+  name: xz-utils
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libscrypt
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
   
   version: ""
 - 
@@ -61,31 +82,10 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libscrypt
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-tor
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
+  name: openssl
   
   version: ""
 uri:

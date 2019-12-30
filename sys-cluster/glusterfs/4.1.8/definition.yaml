@@ -5,17 +5,17 @@ license: '|| ( GPL-2 LGPL-3+ )'
 name: glusterfs
 requires:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: 2.7.0
+- 
   category: sys-fabric
   description: ""
   license: ""
-  name: libibverbs
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc[rpc(-)]
+  name: librdmacm
   
   version: ""
 - 
@@ -26,59 +26,10 @@ requires:
   
   version: ""
 - 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libxml2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: 2.7.0
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
   
   version: ""
 - 
@@ -96,31 +47,17 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: argp-standalone
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: userspace-rcu
   
   version: ""
 - 
@@ -131,10 +68,73 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-libs
   description: ""
   license: ""
-  name: lvm2
+  name: glibc[rpc(-)]
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: userspace-rcu
+  
+  version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libibverbs
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

@@ -12,17 +12,17 @@ license: GPL-2
 name: iproute2
 requires:
 - 
-  category: sys-libs
+  category: net-firewall
   description: ""
   license: ""
-  name: libselinux
+  name: iptables
   
-  version: ""
+  version: 1.4.20
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libcap
+  name: libmnl
   
   version: ""
 - 
@@ -32,13 +32,6 @@ requires:
   name: libelf
   
   version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: 1.4.20
 - 
   category: sys-libs
   description: ""
@@ -54,6 +47,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libmnl
+  name: libcap
   
   version: ""
 uri:

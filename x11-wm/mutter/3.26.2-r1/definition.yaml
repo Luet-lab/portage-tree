@@ -5,110 +5,12 @@ license: GPL-2+
 name: mutter
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.14[X]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: "0.2"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: "0.99"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 0.12.0
-- 
   category: media-libs
   description: ""
   license: ""
   name: mesa
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "232"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbfile
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.53.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: "3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon-0.4.3[X]
-  
-  version: ""
+  version: "10.3"
 - 
   category: x11-libs
   description: ""
@@ -124,45 +26,10 @@ requires:
   
   version: "3.31"
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libXcomposite
-  
-  version: "0.4"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: "136"
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.13.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: "10.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
+  name: gnome-desktop
   
   version: ""
 - 
@@ -187,10 +54,10 @@ requires:
   
   version: "1.5"
 - 
-  category: gnome-extra
+  category: x11-libs
   description: ""
   license: ""
-  name: zenity
+  name: libxkbcommon-0.4.3[X]
   
   version: ""
 - 
@@ -201,33 +68,40 @@ requires:
   
   version: 2.5.3
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: cairo-1.14[X]
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: startup-notification
   
-  version: ""
+  version: "0.7"
 - 
-  category: sys-apps
+  category: sys-power
   description: ""
   license: ""
-  name: systemd
+  name: upower
   
-  version: ""
+  version: "0.99"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libwacom
+  name: libXcomposite
   
-  version: "0.13"
+  version: "0.4"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: "3"
 - 
   category: dev-libs
   description: ""
@@ -235,34 +109,6 @@ requires:
   name: libinput
   
   version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.9"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.42"
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
 - 
   category: media-libs
   description: ""
@@ -274,9 +120,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: startup-notification
+  name: libSM
   
-  version: "0.7"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "232"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.13.0
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: 0.12.0
 - 
   category: x11-libs
   description: ""
@@ -284,6 +158,132 @@ requires:
   name: libXcursor
   
   version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.53.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.42"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: "136"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.13"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: "0.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbfile
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: zenity
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.9"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/mutter-3.26.2-patchset.tar.xz
 use_flags:

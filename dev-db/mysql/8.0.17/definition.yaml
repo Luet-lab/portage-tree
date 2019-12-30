@@ -11,13 +11,6 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: percona-server
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mysql-cluster
   
   version: ""
@@ -28,36 +21,22 @@ conflicts:
   name: mariadb
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: percona-server
+  
+  version: ""
 description: A fast, multi-threaded, multi-user SQL database server
 license: GPL-2
 name: mysql
 requires:
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
+  name: mecab
   
   version: ""
 - 
@@ -65,6 +44,20 @@ requires:
   description: ""
   license: ""
   name: mysql
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
   
   version: ""
 - 
@@ -82,17 +75,31 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: mecab
+  name: libaio
   
   version: ""
 - 
-  category: sys-process
+  category: dev-libs
   description: ""
   license: ""
-  name: procps
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
   
   version: ""
 - 
@@ -110,34 +117,6 @@ requires:
   
   version: 0_p131
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -152,10 +131,31 @@ requires:
   
   version: 1.2.3
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

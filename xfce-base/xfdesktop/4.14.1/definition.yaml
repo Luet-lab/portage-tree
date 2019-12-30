@@ -5,12 +5,12 @@ license: GPL-2+
 name: xfdesktop
 requires:
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: thunar
+  name: cairo
   
-  version: "1.7"
+  version: "1.12"
 - 
   category: x11-libs
   description: ""
@@ -25,6 +25,34 @@ requires:
   name: libwnck
   
   version: "3.14"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.13"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.13"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
 - 
   category: x11-libs
   description: ""
@@ -47,47 +75,19 @@ requires:
   
   version: "0.6"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: "1.12"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.42"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.13"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4util
-  
-  version: "4.13"
-- 
   category: xfce-base
   description: ""
   license: ""
   name: xfconf
   
   version: 4.12.1
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: thunar
+  
+  version: "1.7"
 uri:
 - https://archive.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.1.tar.bz2
 use_flags:

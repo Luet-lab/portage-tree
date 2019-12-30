@@ -5,13 +5,6 @@ license: LGPL-2.1
 name: ktp-accounts-kcm
 requires:
 - 
-  category: net-im
-  description: ""
-  license: ""
-  name: telepathy-connection-managers
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -22,14 +15,21 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtnetwork
   
   version: 5.12.3
 - 
   category: net-libs
   description: ""
   license: ""
-  name: telepathy-qt[qt5(+)]
+  name: accounts-qt
+  
+  version: ""
+- 
+  category: net-im
+  description: ""
+  license: ""
+  name: telepathy-connection-managers
   
   version: ""
 - 
@@ -37,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: kaccounts-providers
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: signond
   
   version: ""
 - 
@@ -64,21 +57,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kiconthemes
+  name: kcoreaddons
   
   version: 5.63.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: accounts-qt
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: ki18n
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kiconthemes
   
   version: 5.63.0
 - 
@@ -89,19 +82,12 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: net-libs
   description: ""
   license: ""
-  name: qtnetwork
+  name: telepathy-qt[qt5(+)]
   
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: 5.63.0
+  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -117,6 +103,27 @@ requires:
   
   version: 5.63.0
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.63.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: signond
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
@@ -124,19 +131,12 @@ requires:
   
   version: 5.12.3
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: ki18n
+  name: qtwidgets
   
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: 5.63.0
+  version: 5.12.3
 uri: []
 use_flags:
 - experimental

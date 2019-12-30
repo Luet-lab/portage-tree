@@ -12,17 +12,31 @@ license: Apache-2.0 BSD BSD-2 CC-BY-SA-4.0 ISC MIT MPL-2.0
 name: cri-o
 requires:
 - 
-  category: sys-apps
+  category: net-misc
   description: ""
   license: ""
-  name: systemd
+  name: socat
   
   version: ""
 - 
-  category: app-crypt
+  category: sys-fs
   description: ""
   license: ""
-  name: gpgme
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: conntrack-tools
   
   version: ""
 - 
@@ -33,24 +47,10 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: cni-plugins
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
+  name: iproute2
   
   version: ""
 - 
@@ -68,17 +68,31 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: iproute2
+  name: libgpg-error
   
   version: ""
 - 
-  category: sys-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libseccomp
+  name: cni-plugins
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
   
   version: ""
 - 
@@ -89,31 +103,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: socat
+  name: libseccomp
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: conntrack-tools
+  name: btrfs-progs
   
   version: ""
 uri:

@@ -5,26 +5,26 @@ license: LGPL-2.1+
 name: fwupd
 requires:
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: consolekit
-  
-  version: 1.0.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: efivar
+  name: cairo
   
   version: ""
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: libelf
+  name: gcab
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.45.8
 - 
   category: dev-libs
   description: ""
@@ -40,27 +40,6 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -68,19 +47,19 @@ requires:
   
   version: 0.2.9
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pillow
+  name: fontconfig
   
   version: ""
 - 
-  category: net-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libsoup
+  name: elogind
   
-  version: 2.51.92
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -89,52 +68,17 @@ requires:
   
   version: "211"
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: 2.45.8
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.103"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsmbios
-  
-  version: 2.4.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.4.4.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
+  name: json-glib
   
   version: ""
 - 
@@ -152,6 +96,48 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.51.92
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pillow
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.103"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsmbios
+  
+  version: 2.4.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -159,10 +145,31 @@ requires:
   
   version: "33"
 - 
-  category: app-arch
+  category: sys-libs
   description: ""
   license: ""
-  name: libarchive
+  name: efivar
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.4.4.1
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: gnu-efi
   
   version: ""
 - 
@@ -173,19 +180,12 @@ requires:
   
   version: 1.2.12
 - 
-  category: media-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: fontconfig
+  name: consolekit
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
+  version: 1.0.0
 - 
   category: sys-apps
   description: ""
@@ -194,17 +194,17 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: dev-db
   description: ""
   license: ""
-  name: gnu-efi
+  name: sqlite
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: gcab
+  name: libelf
   
   version: ""
 uri:

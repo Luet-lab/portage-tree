@@ -5,17 +5,10 @@ license: GPL-2
 name: xxv
 requires:
 - 
-  category: media-video
+  category: virtual
   description: ""
   license: ""
-  name: vdr
-  
-  version: 1.2.6
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: vdr2jpeg
+  name: mysql
   
   version: ""
 - 
@@ -29,105 +22,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Event
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: GD
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: txt2html
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Template-GD
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Date-Manip
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Digest-HMAC
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: JSON
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MP3-Info
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Amazon
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Proc-ProcessTable
+  name: DBI
   
   version: ""
 - 
@@ -148,7 +43,35 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: XML-RSS
+  name: Linux-Inotify2
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Amazon
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: vdr2jpeg
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: GD
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Template-GD
   
   version: ""
 - 
@@ -162,35 +85,56 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: JSON-XS
+  name: DBD-mysql
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Template-Toolkit
+  name: Encode-Detect
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Event
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: JSON
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: txt2html
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: XML-RSS
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: perl-Time-HiRes
+  name: perl-IO-Compress
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Locale-gettext
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
+  name: Digest-HMAC
   
   version: ""
 - 
@@ -208,31 +152,17 @@ requires:
   
   version: ""
 - 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: xxv-skins
-  
-  version: "1.6"
-- 
   category: virtual
   description: ""
   license: ""
-  name: perl-IO-Compress
+  name: perl-MIME-Base64
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Encode-Detect
+  name: Date-Manip
   
   version: ""
 - 
@@ -246,7 +176,77 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Linux-Inotify2
+  name: Locale-gettext
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: xxv-skins
+  
+  version: "1.6"
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: vdr
+  
+  version: 1.2.6
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: CGI
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Time-HiRes
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: JSON-XS
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Template-Toolkit
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MP3-Info
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Proc-ProcessTable
   
   version: ""
 uri: []

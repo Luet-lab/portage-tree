@@ -5,24 +5,38 @@ license: GPL-2 FDL-1.2
 name: gtkpod
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.0.8
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.7
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libid3tag
+  name: libgpod
   
-  version: "0.15"
+  version: 0.8.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter-gtk
+  
+  version: "1.2"
 - 
   category: media-libs
   description: ""
   license: ""
   name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
   
   version: ""
 - 
@@ -43,21 +57,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: 2.7.7
+  version: "2.31"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: anjuta
+  
+  version: "3.6"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: clutter-gtk
-  
-  version: "1.2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
+  name: libvorbis
   
   version: ""
 - 
@@ -68,19 +82,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gdl
+  name: libid3tag
   
-  version: "3.6"
+  version: "0.15"
 - 
-  category: dev-util
+  category: media-libs
   description: ""
   license: ""
-  name: anjuta
+  name: gstreamer
   
-  version: "3.6"
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -89,52 +103,10 @@ requires:
   
   version: "7.10"
 - 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-meta
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: musicbrainz
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.31"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgpod
-  
-  version: 0.8.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.0.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -144,6 +116,34 @@ requires:
   name: libdiscid
   
   version: 0.2.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: musicbrainz
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gdl
+  
+  version: "3.6"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
 uri:
 - mirror://sourceforge/gtkpod/gtkpod-2.1.5.tar.gz
 use_flags:

@@ -5,12 +5,12 @@ license: MIT
 name: wlroots
 requires:
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: elogind
+  name: libxkbcommon
   
-  version: "237"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -19,6 +19,13 @@ requires:
   
   version: "237"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
   category: x11-base
   description: ""
   license: ""
@@ -26,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: libinput
   
-  version: ""
+  version: 1.9.0
 - 
   category: virtual
   description: ""
@@ -43,7 +50,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
+  name: pixman
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "237"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-wm
   
   version: ""
 - 
@@ -61,6 +82,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
   category: media-video
   description: ""
   license: ""
@@ -74,41 +109,6 @@ requires:
   name: mesa
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-wm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 1.9.0
 uri:
 - https://github.com/swaywm/wlroots/archive/0.6.0.tar.gz -> wlroots-0.6.0.tar.gz
 use_flags:

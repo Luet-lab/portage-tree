@@ -11,14 +11,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: esmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: ssmtp
   
   version: ""
 - 
@@ -39,21 +39,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: sendmail
   
   version: ""
 - 
@@ -67,14 +53,28 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: qmail-ldap
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
   
   version: ""
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
@@ -82,45 +82,24 @@ license: public-domain
 name: netqmail
 requires:
 - 
-  category: acct-user
+  category: net-mail
   description: ""
   license: ""
-  name: qmailp
+  name: queue-repair
   
   version: ""
 - 
   category: acct-user
   description: ""
   license: ""
-  name: qmaild
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmaill
+  name: qmailq
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: "1.1"
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmailr
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: groff
+  name: libressl
   
   version: ""
 - 
@@ -134,14 +113,35 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: qmailq
+  name: alias
   
   version: ""
 - 
-  category: net-dns
+  category: acct-user
   description: ""
   license: ""
-  name: libidn2
+  name: qmaill
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmailr
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmails
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: nofiles
   
   version: ""
 - 
@@ -159,24 +159,10 @@ requires:
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: queue-repair
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: daemontools
+  name: checkpassword
   
   version: ""
 - 
@@ -187,10 +173,31 @@ requires:
   
   version: ""
 - 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmaild
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: "1.1"
+- 
   category: virtual
   description: ""
   license: ""
-  name: checkpassword
+  name: daemontools
   
   version: ""
 - 
@@ -201,24 +208,17 @@ requires:
   
   version: "0.30"
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: nofiles
-  
-  version: ""
-- 
   category: acct-user
   description: ""
   license: ""
-  name: alias
+  name: qmailp
   
   version: ""
 - 
-  category: acct-user
+  category: sys-apps
   description: ""
   license: ""
-  name: qmails
+  name: groff
   
   version: ""
 uri:

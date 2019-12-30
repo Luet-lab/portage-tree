@@ -19,41 +19,6 @@ license: GPL-2 BSD-4 RSA DES
 name: libreswan
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ipsec
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: net-dns
   description: ""
   license: ""
@@ -61,10 +26,10 @@ requires:
   
   version: 1.9.1-r1
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: ldns
+  name: systemd
   
   version: ""
 - 
@@ -78,14 +43,42 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: libseccomp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: nss[utils(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -99,35 +92,42 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: nss
   
   version: "3.42"
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: ldns
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ipsec
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nss[utils(+)]
+  name: gmp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
   
   version: ""
 uri:

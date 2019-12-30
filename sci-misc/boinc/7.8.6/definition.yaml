@@ -12,10 +12,24 @@ license: LGPL-2.1
 name: boinc
 requires:
 - 
-  category: dev-db
+  category: x11-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
 - 
@@ -26,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -40,40 +47,12 @@ requires:
   
   version: "2.1"
 - 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-drivers
-  
-  version: "180.22"
-- 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: ca-certificates
-  
-  version: "20080809"
 - 
   category: net-misc
   description: ""
@@ -89,12 +68,33 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-db
   description: ""
   license: ""
-  name: freeglut
+  name: sqlite
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: ca-certificates
+  
+  version: "20080809"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-drivers
+  
+  version: "180.22"
 uri:
 - https://github.com/BOINC/boinc/archive/client_release//7.8.6.tar.gz -> boinc-7.8.6.tar.gz
 use_flags:

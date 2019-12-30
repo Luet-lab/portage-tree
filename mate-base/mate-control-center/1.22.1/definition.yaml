@@ -8,35 +8,35 @@ requires:
   category: mate-base
   description: ""
   license: ""
-  name: libmatekbd
+  name: caja
   
-  version: 1.17.0
+  version: 1.20.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libXxf86misc
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libxklavier
   
-  version: "2.0"
+  version: "4"
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: "1"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xmodmap
+  name: accountsservice
   
   version: ""
 - 
@@ -50,51 +50,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXi
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86misc
-  
-  version: ""
+  version: "1.5"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libappindicator
   
-  version: "0.73"
+  version: ""
 - 
   category: mate-base
   description: ""
   license: ""
-  name: mate-settings-daemon
+  name: mate-menus
   
-  version: 1.21.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
+  version: 1.21.0
 - 
   category: dev-libs
   description: ""
@@ -110,27 +82,6 @@ requires:
   
   version: 0.13.4
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-desktop
-  
-  version: 1.21.2
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -138,26 +89,12 @@ requires:
   
   version: ""
 - 
-  category: x11-wm
-  description: ""
-  license: ""
-  name: marco
-  
-  version: 1.17.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: libXrandr
   
-  version: "4"
+  version: ""
 - 
   category: virtual
   description: ""
@@ -169,16 +106,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: dbus-glib
   
-  version: "2.50"
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: caja
-  
-  version: 1.20.0
+  version: "0.73"
 - 
   category: media-libs
   description: ""
@@ -187,40 +117,47 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "1"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: libXext
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
-  
-  version: "1.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: libXrender
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-wm
+  description: ""
+  license: ""
+  name: marco
+  
+  version: 1.17.0
 - 
   category: mate-base
   description: ""
   license: ""
-  name: mate-menus
+  name: libmatekbd
   
-  version: 1.21.0
+  version: 1.17.0
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xmodmap
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -229,10 +166,73 @@ requires:
   
   version: "3.22"
 - 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-desktop
+  
+  version: 1.21.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libappindicator
+  name: glib
+  
+  version: "2.50"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.0"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-settings-daemon
+  
+  version: 1.21.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: "1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri: []

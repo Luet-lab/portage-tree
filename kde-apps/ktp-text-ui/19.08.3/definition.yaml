@@ -5,33 +5,33 @@ license: Apache-2.0 || ( AFL-2.1 BSD ) GPL-2+ LGPL-2.1+ MIT
 name: ktp-text-ui
 requires:
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kdbusaddons
+  name: qtwidgets
   
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifyconfig
-  
-  version: 5.60.0
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtspeech
   
   version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kemoticons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.60.0
 - 
   category: dev-qt
   description: ""
@@ -43,7 +43,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcmutils
+  name: kpeople
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kiconthemes
   
   version: 5.60.0
 - 
@@ -51,6 +58,13 @@ requires:
   description: ""
   license: ""
   name: kitemviews
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
   
   version: 5.60.0
 - 
@@ -71,28 +85,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
   
   version: 5.60.0
 - 
@@ -106,51 +99,16 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kpeople
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kemoticons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kiconthemes
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
+  name: kcoreaddons
   
   version: 5.60.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtspeech
+  name: qtwebengine
   
   version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwindowsystem
-  
-  version: 5.60.0
 - 
   category: kde-apps
   description: ""
@@ -169,16 +127,58 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebengine
+  name: qtdbus
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: net-libs
   description: ""
   license: ""
-  name: qtwidgets
+  name: telepathy-qt[qt5(+)]
   
-  version: 5.12.3
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcmutils
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kservice
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwindowsystem
+  
+  version: 5.60.0
 - 
   category: dev-qt
   description: ""
@@ -190,7 +190,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
+  name: kdbusaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
   
   version: 5.60.0
 - 
@@ -200,13 +207,6 @@ requires:
   name: kxmlgui
   
   version: 5.60.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-qt[qt5(+)]
-  
-  version: ""
 uri: []
 use_flags:
 - speech

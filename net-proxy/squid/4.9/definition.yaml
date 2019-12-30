@@ -12,12 +12,26 @@ license: GPL-2
 name: squid
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnetfilter_conntrack
+  name: libltdl
   
   version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-squid
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: "2.16"
 - 
   category: dev-libs
   description: ""
@@ -29,16 +43,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: nettle
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4"
 - 
   category: dev-libs
   description: ""
@@ -57,63 +64,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-squid
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: "2.16"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libecap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.1.5
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
+  name: DBD-Pg
   
   version: ""
 - 
@@ -124,17 +75,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: krb5
+  name: libnetfilter_conntrack
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nettle
+  name: libressl
   
   version: ""
 - 
@@ -145,12 +96,33 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libltdl
+  name: krb5
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libecap
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4"
 - 
   category: dev-lang
   description: ""
@@ -162,9 +134,37 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-Pg
+  name: DBD-mysql
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.1.5
 uri:
 - http://www.squid-cache.org/Versions/v4/squid-4.9.tar.xz
 use_flags:

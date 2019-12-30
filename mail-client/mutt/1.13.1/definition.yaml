@@ -5,26 +5,61 @@ license: GPL-2
 name: mutt
 requires:
 - 
-  category: app-misc
+  category: net-dns
   description: ""
   license: ""
-  name: mime-types
+  name: libidn2
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4"
 - 
   category: dev-db
   description: ""
   license: ""
-  name: tokyocabinet
+  name: lmdb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: openssl
   
-  version: "2"
+  version: 0.9.6
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -36,44 +71,16 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: tokyocabinet
   
   version: ""
 - 
-  category: net-dns
+  category: net-libs
   description: ""
   license: ""
-  name: libidn2
+  name: gnutls
   
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mutt
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: slang
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.2"
+  version: 1.0.17
 - 
   category: sys-libs
   description: ""
@@ -89,27 +96,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -120,16 +106,23 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: slang
   
-  version: "4"
+  version: ""
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: gnutls
+  name: selinux-mutt
   
-  version: 1.0.17
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -137,6 +130,13 @@ requires:
   name: libressl
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: "2"
 uri:
 - ftp://ftp.mutt.org/pub/mutt/mutt-1.13.1.tar.gz
 - https://bitbucket.org/mutt/mutt/downloads/mutt-1.13.1.tar.gz
