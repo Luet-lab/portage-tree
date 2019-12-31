@@ -1,13 +1,6 @@
 category: net-mail
 conflicts:
 - 
-  category: mail-client
-  description: ""
-  license: ""
-  name: mailx
-  
-  version: ""
-- 
   category: mail-filter
   description: ""
   license: ""
@@ -28,22 +21,29 @@ conflicts:
   name: nmh
   
   version: ""
+- 
+  category: mail-client
+  description: ""
+  license: ""
+  name: mailx
+  
+  version: ""
 description: A useful collection of mail servers, clients, and filters
 license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: fribidi
+  name: krb5
   
   version: ""
 - 
-  category: dev-db
+  category: net-nds
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: openldap
   
   version: ""
 - 
@@ -57,14 +57,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
+  name: readline
   
   version: ""
 - 
@@ -75,59 +68,17 @@ requires:
   
   version: ""
 - 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: db
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -138,26 +89,54 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libunistring
+  name: libltdl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: readline
+  name: gdbm
   
   version: ""
 - 
-  category: net-nds
+  category: sys-devel
   description: ""
   license: ""
-  name: openldap
+  name: gettext
   
   version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: dev-db
   description: ""
@@ -166,10 +145,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: gsasl
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libunistring
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 - 
@@ -177,6 +170,13 @@ requires:
   description: ""
   license: ""
   name: ncurses
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
   
   version: ""
 uri:

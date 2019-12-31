@@ -4,14 +4,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: exim
+  name: msmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+  name: ssmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
   
   version: ""
 - 
@@ -25,13 +32,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: sendmail
   
   version: ""
@@ -39,7 +39,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: opensmtpd
   
   version: ""
 - 
@@ -67,20 +67,27 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
+  name: exim
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: postfix
   
   version: ""
 description: Simple relay-only local mail transport agent
 license: GPL-2
 mailer
 requires:
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -93,13 +100,6 @@ requires:
   description: ""
   license: ""
   name: shadow
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
   
   version: ""
 uri:

@@ -5,47 +5,12 @@ license: GPL-2
 name: guitarix
 requires:
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fftw
-  
-  version: 3.1.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: glib
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lilv
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gtk-engines
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.17
 - 
   category: media-libs
   description: ""
@@ -54,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: lv2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
+  name: gtk+
   
   version: ""
 - 
@@ -82,31 +40,38 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.26.0
-- 
   category: net-dns
   description: ""
   license: ""
   name: avahi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.17
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lv2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lilv
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
   
   version: ""
 - 
@@ -120,7 +85,42 @@ requires:
   category: dev-cpp
   description: ""
   license: ""
+  name: glibmm
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: 3.1.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gtk-engines
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
   name: eigen
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
   
   version: ""
 - 
@@ -131,12 +131,12 @@ requires:
   
   version: "3"
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: jack
+  name: curl
   
-  version: ""
+  version: 7.26.0
 uri:
 - mirror://sourceforge/guitarix/guitarix/guitarix2-0.38.1.tar.xz
 use_flags:

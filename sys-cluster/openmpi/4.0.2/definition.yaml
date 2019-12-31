@@ -4,14 +4,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-mpi
+  name: mpich
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+mpi
   
   version: ""
 - 
@@ -33,12 +33,19 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: sys-apps
+  category: sys-cluster
   description: ""
   license: ""
-  name: hwloc
+  name: slurm
   
-  version: 2.0.2
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
 - 
   category: dev-libs
   description: ""
@@ -47,24 +54,38 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: 2.0.2
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
   category: sys-cluster
   description: ""
   license: ""
   name: knem
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
   
   version: ""
 - 
@@ -75,34 +96,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
   category: sys-fabric
   description: ""
   license: ""
@@ -110,12 +103,19 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: sys-cluster
   description: ""
   license: ""
-  name: infinipath-psm
+  name: torque
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-4.0.2.tar.bz2
 use_flags:

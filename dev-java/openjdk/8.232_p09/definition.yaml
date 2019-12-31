@@ -5,17 +5,31 @@ license: GPL-2
 name: openjdk
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout-java
+  
+  version: 0.1.0-r1
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXi
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
+  name: libXrender
   
   version: ""
 - 
@@ -33,17 +47,17 @@ requires:
   
   version: ""
 - 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-java
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
   name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
   
   version: ""
 - 
@@ -57,7 +71,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libXext
   
   version: ""
 - 
@@ -68,26 +82,12 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: x11-libs
   description: ""
   license: ""
-  name: selinux-java
+  name: libXtst
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout-java
-  
-  version: 0.1.0-r1
 uri:
 - https://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk.tar.bz2 -> openjdk-8.232.tar.bz2
 - https://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk.tar.bz2 -> openjdk-corba-8.232.tar.bz2

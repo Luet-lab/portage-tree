@@ -8,12 +8,19 @@ conflicts:
   
   version: 2.00-r2
 - 
-  category: =sys-apps
+  category: <sys-kernel
   description: ""
   license: ""
-  name: grep-2.13*
+  name: genkernel
   
-  version: ""
+  version: 3.5.1.1
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
 - 
   category: sys-fs
   description: ""
@@ -29,19 +36,12 @@ conflicts:
   
   version: "67"
 - 
-  category: <sys-kernel
+  category: =sys-apps
   description: ""
   license: ""
-  name: dracut
+  name: grep-2.13*
   
-  version: 044-r1
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
+  version: ""
 - 
   category: <sys-kernel
   description: ""
@@ -57,35 +57,21 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: python-cffi
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: cpio
+  name: udev
   
   version: ""
 - 
-  category: app-misc
+  category: sys-devel
   description: ""
   license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: bc
   
   version: ""
 - 
@@ -99,14 +85,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: openssl
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: pax-utils
   
   version: ""
 - 
@@ -124,13 +117,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -138,17 +124,17 @@ requires:
   
   version: 0.8.2
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: udev
+  name: cpio
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-apps
   description: ""
   license: ""
-  name: bc
+  name: util-linux
   
   version: ""
 - 
@@ -159,10 +145,24 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: python-cffi
+  name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
   
   version: ""
 uri:

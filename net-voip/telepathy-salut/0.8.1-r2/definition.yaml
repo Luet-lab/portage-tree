@@ -5,6 +5,13 @@ license: LGPL-2.1
 name: telepathy-salut
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -26,24 +33,24 @@ requires:
   
   version: "0.61"
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: dbus
+  name: telepathy-glib
   
-  version: 1.1.0
+  version: 0.17.1
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.22
 - 
   category: net-libs
   description: ""
   license: ""
   name: libsoup
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
   
   version: ""
 - 
@@ -68,19 +75,12 @@ requires:
   
   version: "2.28"
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: telepathy-glib
+  name: dbus
   
-  version: 0.17.1
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.22
+  version: 1.1.0
 uri:
 - https://telepathy.freedesktop.org/releases/telepathy-salut/telepathy-salut-0.8.1.tar.gz
 use_flags:

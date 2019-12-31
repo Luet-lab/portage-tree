@@ -5,31 +5,17 @@ license: GPL-2
 name: snort
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: glibc[rpc(-)]
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
-  
-  version: 1.3.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "8.33"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libdnet
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc[rpc(-)]
   
   version: ""
 - 
@@ -47,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-snort
+  name: libpcre
   
-  version: ""
+  version: "8.33"
 - 
   category: net-libs
   description: ""
@@ -74,6 +60,20 @@ requires:
   name: zlib
   
   version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-snort
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: 1.3.0
 uri:
 - https://www.snort.org/downloads/archive/snort/snort-2.9.12.tar.gz
 use_flags:

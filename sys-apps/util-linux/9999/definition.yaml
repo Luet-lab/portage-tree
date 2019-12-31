@@ -1,55 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: 4.7-r2
-- 
-  category: '>=sys-apps'
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: 4.7-r2
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: hardlink
-  
-  version: ""
-- 
-  category: '>=app-admin'
-  description: ""
-  license: ""
-  name: sysklogd
-  
-  version: "2.0"
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: bash-completion
-  
-  version: 2.7-r1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils
-  
-  version: ""
-- 
   category: net-wireless
   description: ""
   license: ""
@@ -71,12 +22,19 @@ conflicts:
   
   version: 1.41.8
 - 
-  category: sys-apps
+  category: <app-shells
   description: ""
   license: ""
-  name: setarch
+  name: bash-completion
   
-  version: ""
+  version: 2.7-r1
+- 
+  category: '>=app-admin'
+  description: ""
+  license: ""
+  name: sysklogd
+  
+  version: "2.0"
 - 
   category: <sys-apps
   description: ""
@@ -91,6 +49,48 @@ conflicts:
   name: e2fsprogs
   
   version: 1.41.8
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: shadow
+  
+  version: 4.7-r2
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: setarch
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils
+  
+  version: ""
+- 
+  category: '>=sys-apps'
+  description: ""
+  license: ""
+  name: shadow
+  
+  version: 4.7-r2
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: hardlink
+  
+  version: ""
 description: Various useful Linux utilities
 license: GPL-2 LGPL-2.1 BSD-4 MIT public-domain
 name: util-linux
@@ -99,16 +99,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libselinux
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
+  version: 2.2.2-r4
 - 
   category: sys-libs
   description: ""
@@ -117,10 +110,31 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: os-headers
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
   
   version: ""
 - 
@@ -134,35 +148,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.2.2-r4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: os-headers
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
+  name: libintl
   
   version: ""
 - 
@@ -176,7 +162,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: readline
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 uri: []

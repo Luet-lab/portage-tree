@@ -1,6 +1,27 @@
 category: dev-db
 conflicts:
 - 
+  category: =dev-db
+  description: ""
+  license: ""
+  name: mysql-5.7.25*
+  
+  version: ""
+- 
+  category: =dev-db
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: 5.7.27-r0
+- 
+  category: =dev-db
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: 5.7.26-r0
+- 
   category: <dev-db
   description: ""
   license: ""
@@ -18,13 +39,6 @@ conflicts:
   category: =dev-db
   description: ""
   license: ""
-  name: mysql-5.7.25*
-  
-  version: ""
-- 
-  category: =dev-db
-  description: ""
-  license: ""
   name: mysql-5.7.23*
   
   version: ""
@@ -35,31 +49,17 @@ conflicts:
   name: mysql-5.7.24*
   
   version: ""
-- 
-  category: =dev-db
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: 5.7.26-r0
-- 
-  category: =dev-db
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: 5.7.27-r0
 description: C client library for MariaDB/MySQL
 license: GPL-2
 name: mysql-connector-c
 requires:
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: zlib
+  name: lz4
   
-  version: ""
+  version: 0_p131
 - 
   category: dev-libs
   description: ""
@@ -68,12 +68,12 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-libs
   description: ""
   license: ""
-  name: lz4
+  name: zlib
   
-  version: 0_p131
+  version: ""
 - 
   category: dev-libs
   description: ""

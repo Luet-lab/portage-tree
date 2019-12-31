@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: "2.16"
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -15,19 +8,12 @@ conflicts:
   
   version: ""
 - 
-  category: sys-auth
+  category: <sys-libs
   description: ""
   license: ""
-  name: nss-myhostname
+  name: glibc
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
+  version: "2.16"
 - 
   category: <sys-kernel
   description: ""
@@ -42,22 +28,43 @@ conflicts:
   name: openresolv
   
   version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: nss-myhostname
+  
+  version: ""
 description: System and service manager for Linux
 license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
 - 
-  category: acct-group
+  category: sys-libs
   description: ""
   license: ""
-  name: cdrom
+  name: libcap
   
   version: ""
 - 
-  category: acct-group
+  category: sys-apps
   description: ""
   license: ""
-  name: disk
+  name: acl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
   
   version: ""
 - 
@@ -68,47 +75,68 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: net-libs
   description: ""
   license: ""
-  name: cryptsetup
+  name: gnutls
   
-  version: "1.6"
+  version: 3.5.3
 - 
-  category: net-firewall
+  category: acct-group
   description: ""
   license: ""
-  name: iptables
+  name: wheel
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: input
+  name: disk
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-user
   description: ""
   license: ""
-  name: libcap
+  name: systemd-timesync
   
   version: ""
 - 
-  category: net-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: curl
+  name: util-linux[kill(-)]
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: elfutils
+  name: coreutils[kill(-)]
   
-  version: "0.158"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.30"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.1.4
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -124,6 +152,13 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -134,7 +169,28 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: tty
+  name: kmem
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: input
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: "2.2"
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: qrencode
   
   version: ""
 - 
@@ -148,21 +204,63 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: systemd-journal-remote
+  name: systemd-resolve
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: "2"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: kmem
+  name: tty
   
   version: ""
 - 
-  category: acct-user
+  category: acct-group
   description: ""
   license: ""
-  name: systemd-timesync
+  name: kvm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.4.5
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: cdrom
   
   version: ""
 - 
@@ -173,6 +271,20 @@ requires:
   
   version: ""
 - 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-base-policy
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
+  
+  version: ""
+- 
   category: acct-group
   description: ""
   license: ""
@@ -180,24 +292,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: acct-user
   description: ""
   license: ""
-  name: util-linux
+  name: systemd-journal-remote
   
-  version: "2.30"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: 0.9.33
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: kmod
   
-  version: ""
+  version: "15"
 - 
   category: app-arch
   description: ""
   license: ""
-  name: bzip2
+  name: xz-utils
+  
+  version: 5.0.5-r1
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: dialout
   
   version: ""
 - 
@@ -215,87 +341,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.1.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "15"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.5.3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: acct-group
   description: ""
   license: ""
-  name: tape
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: dialout
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[kill(-)]
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
+  name: adm
   
   version: ""
 - 
@@ -306,82 +355,12 @@ requires:
   
   version: ""
 - 
-  category: acct-user
-  description: ""
-  license: ""
-  name: systemd-coredump
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux[kill(-)]
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.5-r1
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: qrencode
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: wheel
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: elfutils
   
-  version: 1.4.5
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: adm
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd
-  
-  version: 0.9.33
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: systemd-resolve
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
+  version: "0.158"
 - 
   category: dev-libs
   description: ""
@@ -390,19 +369,40 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-user
   description: ""
   license: ""
-  name: libselinux
+  name: systemd-coredump
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: baselayout
+  name: cryptsetup
   
-  version: "2.2"
+  version: "1.6"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
 uri:
 - https://github.com/systemd/systemd/archive/v243/systemd-243.tar.gz
 use_flags:

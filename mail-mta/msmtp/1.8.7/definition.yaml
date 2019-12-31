@@ -4,6 +4,41 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: postfix
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: qmail-ldap
   
   version: ""
@@ -18,28 +53,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
+  name: exim
   
   version: ""
 - 
@@ -60,34 +74,27 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: sendmail
   
   version: ""
 - 
-  category: mail-mta
+  category: '>=mail-mta'
   description: ""
   license: ""
-  name: esmtp
+  name: ssmtp
   
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
-  
-  version: ""
+  version: 2.64-r2
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
 license: GPL-3
 name: msmtp
 requires:
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
 - 
   category: net-mail
   description: ""
@@ -96,10 +103,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: acct-user
   description: ""
   license: ""
-  name: libintl
+  name: msmtpd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls[idn?]
   
   version: ""
 - 
@@ -107,6 +121,13 @@ requires:
   description: ""
   license: ""
   name: libsecret
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -121,27 +142,6 @@ requires:
   description: ""
   license: ""
   name: msmtpd
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: msmtpd
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls[idn?]
   
   version: ""
 uri:

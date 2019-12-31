@@ -1,27 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: 2.1-r1
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
-- 
-  category: <sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: 3.3.9-r2
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -36,23 +15,37 @@ conflicts:
   
   version: "20180228"
 - 
+  category: <sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: 3.3.9-r2
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: 2.1-r1
+- 
   category: <sys-fs
   description: ""
   license: ""
   name: udev-init-scripts
   
   version: "27"
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-bashcomp
+  
+  version: "20180302"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
 - 
   category: app-shells
   description: ""
@@ -61,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-process
   description: ""
   license: ""
-  name: sysvinit-2.86-r6[selinux?]
+  name: psmisc
   
   version: ""
 - 
@@ -78,7 +71,7 @@ requires:
   category: sys-process
   description: ""
   license: ""
-  name: psmisc
+  name: audit
   
   version: ""
 - 
@@ -89,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: tmpfiles
+  name: policycoreutils
   
   version: ""
 - 
@@ -117,10 +110,17 @@ requires:
   
   version: "2.6"
 - 
-  category: sys-process
+  category: sys-apps
   description: ""
   license: ""
-  name: audit
+  name: sysvinit-2.86-r6[selinux?]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: tmpfiles
   
   version: ""
 - 

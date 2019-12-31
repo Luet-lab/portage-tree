@@ -5,10 +5,31 @@ license: GPL-2
 name: proftpd
 requires:
 - 
-  category: sys-libs
+  category: net-ftp
   description: ""
   license: ""
-  name: libcap
+  name: ftpbase
+  
+  version: ""
+- 
+  category: app-antivirus
+  description: ""
+  license: ""
+  name: clamav
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmemcached
+  
+  version: "0.41"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
@@ -33,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
   name: sqlite
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ftp
   
   version: ""
 - 
@@ -54,38 +75,10 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-ftp
-  description: ""
-  license: ""
-  name: ftpbase
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
+  name: pam
   
   version: ""
 - 
@@ -96,12 +89,19 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libmemcached
+  name: libressl
   
-  version: "0.41"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -110,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: app-antivirus
+  category: virtual
   description: ""
   license: ""
-  name: clamav
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -121,13 +128,6 @@ requires:
   description: ""
   license: ""
   name: openssl
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ftp
   
   version: ""
 uri:

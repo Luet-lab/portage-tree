@@ -5,12 +5,19 @@ license: LGPL-2.1-with-linking-exception examples? ( lablgtk-examples )
 name: lablgtk
 requires:
 - 
-  category: dev-ml
+  category: gnome-base
   description: ""
   license: ""
-  name: lablgl
+  name: libglade
   
-  version: "0.98"
+  version: 2.0.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: ""
 - 
   category: app-text
   description: ""
@@ -43,16 +50,16 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: libglade
-  
-  version: 2.0.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
   name: libgnomecanvas
   
   version: "2.2"
+- 
+  category: dev-ml
+  description: ""
+  license: ""
+  name: lablgl
+  
+  version: "0.98"
 - 
   category: x11-libs
   description: ""
@@ -60,13 +67,6 @@ requires:
   name: gtkglarea
   
   version: "1.9"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtksourceview
-  
-  version: ""
 uri:
 - https://forge.ocamlcore.org/frs/download.php/1627/lablgtk-2.18.5.tar.gz
 use_flags:

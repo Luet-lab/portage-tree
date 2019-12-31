@@ -5,10 +5,24 @@ license: GPL-3+
 name: diffoscope
 requires:
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: cdrtools
+  name: bzip2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcaca
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: giflib
   
   version: ""
 - 
@@ -19,80 +33,31 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: vim-core
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dtc
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gzip
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ghc
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
-  name: poppler
+  name: pdftk
   
   version: ""
 - 
-  category: dev-lang
+  category: app-arch
   description: ""
   license: ""
-  name: R
+  name: xz-utils
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: distro
+  name: libarchive-c
   
   version: ""
 - 
-  category: app-arch
+  category: app-text
   description: ""
   license: ""
-  name: rpm
+  name: docx2txt
   
   version: ""
 - 
@@ -106,35 +71,14 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: tar
+  name: gzip
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcaca
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: jdk
   
   version: ""
 - 
@@ -145,24 +89,24 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: sys-fs
   description: ""
   license: ""
-  name: libarchive-c
+  name: squashfs-tools
   
   version: ""
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: acl
+  name: unzip
   
   version: ""
 - 
-  category: sys-devel
+  category: app-arch
   description: ""
   license: ""
-  name: binutils
+  name: cpio
   
   version: ""
 - 
@@ -173,17 +117,24 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: dev-python
   description: ""
   license: ""
-  name: pdftk
+  name: distro
   
   version: ""
 - 
-  category: app-text
+  category: sys-fs
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: e2fsprogs
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
   
   version: ""
 - 
@@ -194,10 +145,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: net-analyzer
   description: ""
   license: ""
-  name: unzip
+  name: tcpdump
   
   version: ""
 - 
@@ -211,35 +162,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: diffutils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: fpc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
+  name: acl
   
   version: ""
 - 
@@ -253,35 +176,112 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: dtc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: file
   
   version: ""
 - 
-  category: media-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: giflib
+  name: gnupg
+  
+  version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: vim-core
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: R
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: binutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: diffutils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: ghc
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: jdk
+  name: cdrtools
   
   version: ""
 - 
-  category: net-analyzer
+  category: dev-lang
   description: ""
   license: ""
-  name: tcpdump
+  name: fpc
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: docx2txt
+  name: poppler
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: rpm
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
   
   version: ""
 uri:

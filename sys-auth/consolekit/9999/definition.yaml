@@ -5,10 +5,10 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: app-admin
+  category: sys-libs
   description: ""
   license: ""
-  name: cgmanager
+  name: zlib
   
   version: ""
 - 
@@ -19,13 +19,6 @@ requires:
   
   version: 1.0.2
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevdev
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -33,33 +26,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: glib
+  name: polkit
   
-  version: "2.40"
+  version: "0.110"
 - 
-  category: sys-devel
+  category: sys-power
   description: ""
   license: ""
-  name: gettext
-  
-  version: "0.19"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: pm-utils
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "200"
 - 
   category: sec-policy
   description: ""
@@ -68,24 +47,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: zlib
+  name: gettext
+  
+  version: "0.19"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "200"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevdev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: pm-utils
+  name: libX11
   
   version: ""
 - 
@@ -103,12 +96,19 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: polkit
+  name: glib
   
-  version: "0.110"
+  version: "2.40"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -120,14 +120,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: coreutils[acl?]
   
   version: ""
 - 
-  category: sys-apps
+  category: app-admin
   description: ""
   license: ""
-  name: coreutils[acl?]
+  name: cgmanager
   
   version: ""
 uri: []

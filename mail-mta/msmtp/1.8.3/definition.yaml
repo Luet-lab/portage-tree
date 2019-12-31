@@ -4,7 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+mailer
   
   version: ""
 - 
@@ -18,7 +18,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: exim
   
   version: ""
 - 
@@ -32,14 +32,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
+  name: netqmail
   
   version: ""
 - 
@@ -50,26 +43,33 @@ mailer
   
   version: ""
 - 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
   category: <mail-mta
   description: ""
   license: ""
   name: ssmtp
   
   version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
-  
-  version: ""
 - 
   category: '>=mail-mta'
   description: ""
@@ -81,7 +81,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: exim
+  name: opensmtpd
   
   version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -89,10 +89,10 @@ license: GPL-3
 name: msmtp
 requires:
 - 
-  category: net-dns
+  category: virtual
   description: ""
   license: ""
-  name: libidn2
+  name: gsasl
   
   version: ""
 - 
@@ -103,13 +103,6 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls[idn?]
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -117,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: gsasl
+  name: gnutls[idn?]
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
   
   version: ""
 - 

@@ -5,12 +5,26 @@ license: GPL-2
 name: mate-system-monitor
 requires:
 - 
-  category: gnome-base
+  category: sys-auth
   description: ""
   license: ""
-  name: libgtop
+  name: polkit
   
-  version: 2.23.1
+  version: "0.97"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigc++
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -26,26 +40,12 @@ requires:
   
   version: "3.22"
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: libintl
+  name: libwnck
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: "2.26"
+  version: "3.0"
 - 
   category: dev-cpp
   description: ""
@@ -61,33 +61,19 @@ requires:
   
   version: "2.50"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
-  
-  version: "3.0"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libxml2
   
   version: "2"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgtop
+  
+  version: 2.23.1
 - 
   category: gnome-base
   description: ""
@@ -103,10 +89,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: libsigc++
+  name: glibmm
+  
+  version: "2.26"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
   
   version: ""
 uri: []

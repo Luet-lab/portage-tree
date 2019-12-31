@@ -12,10 +12,17 @@ license: LGPL-2+ GPL-2+
 name: libxfce4ui
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: startup-notification
+  name: libICE
   
   version: ""
 - 
@@ -25,6 +32,20 @@ requires:
   name: xfconf
   
   version: "4.12"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: glade
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -36,21 +57,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libSM
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: glade
   
   version: ""
 - 
@@ -67,13 +74,6 @@ requires:
   name: gobject-introspection
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.42"
 uri:
 - https://archive.xfce.org/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2
 use_flags:

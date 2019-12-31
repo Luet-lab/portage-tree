@@ -1,19 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-admin
-  description: ""
-  license: ""
-  name: logrotate
-  
-  version: 3.8.0
-- 
   category: <app-portage
   description: ""
   license: ""
   name: repoman
   
   version: 2.3.10
+- 
+  category: <app-admin
+  description: ""
+  license: ""
+  name: logrotate
+  
+  version: 3.8.0
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
@@ -25,41 +25,6 @@ requires:
   name: tar
   
   version: "1.27"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect
-  
-  version: "1.2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: install-xattr
-  
-  version: "0.3"
-- 
-  category: sys-freebsd
-  description: ""
-  license: ""
-  name: freebsd-bin
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
 - 
   category: sys-apps
   description: ""
@@ -75,17 +40,10 @@ requires:
   
   version: "20180706"
 - 
-  category: sys-apps
+  category: app-crypt
   description: ""
   license: ""
-  name: sandbox
-  
-  version: "2.2"
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
+  name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
 - 
@@ -96,10 +54,52 @@ requires:
   
   version: "14"
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: gnupg-2.2.4-r2[ssl(-)]
+  name: sandbox
+  
+  version: "2.2"
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 0.1.17
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: install-xattr
+  
+  version: "0.3"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect
+  
+  version: "1.2"
+- 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-bin
   
   version: ""
 - 
@@ -110,12 +110,12 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: pax-utils
+  name: libselinux
   
-  version: 0.1.17
+  version: 2.0.94
 uri: []
 use_flags:
 - build

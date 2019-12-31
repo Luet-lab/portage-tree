@@ -5,6 +5,20 @@ license: GPL-2+
 name: tumbler
 requires:
 - 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: thunar
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
+- 
   category: media-libs
   description: ""
   license: ""
@@ -12,17 +26,17 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
+  category: media-video
   description: ""
   license: ""
-  name: libgsf
+  name: ffmpegthumbnailer
   
-  version: 1.14.20
+  version: 2.0.8
 - 
-  category: media-plugins
+  category: virtual
   description: ""
   license: ""
-  name: gst-plugins-meta
+  name: jpeg
   
   version: ""
 - 
@@ -32,62 +46,6 @@ requires:
   name: libpng
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: "7.25"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpegthumbnailer
-  
-  version: 2.0.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libopenraw
-  
-  version: 0.0.8
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: thunar
-  
-  version: "1.4"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: 0.12.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.42"
 - 
   category: sys-apps
   description: ""
@@ -103,12 +61,54 @@ requires:
   
   version: "2.14"
 - 
-  category: virtual
+  category: media-plugins
   description: ""
   license: ""
-  name: jpeg
+  name: gst-plugins-meta
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: 0.12.4
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libopenraw
+  
+  version: 0.0.8
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: "7.25"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: libgsf
+  
+  version: 1.14.20
 uri:
 - https://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.8.tar.bz2
 use_flags:

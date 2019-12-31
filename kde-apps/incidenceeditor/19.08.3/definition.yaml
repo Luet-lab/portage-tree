@@ -4,104 +4,20 @@ conflicts:
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-l10n
+  name: kdepim-common-libs
   
   version: ""
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-common-libs
+  name: kdepim-l10n
   
   version: ""
 description: Incidence editor for korganizer
 license: GPL-2+
 name: incidenceeditor
 requires:
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: akonadi
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kldap
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kitemmodels
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: calendarsupport
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kmime
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: libkdepim
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcompletion
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcontacts
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kcalutils
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: kdiagram
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfigwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
-  
-  version: 5.60.0
 - 
   category: kde-frameworks
   description: ""
@@ -113,21 +29,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kjobwidgets
+  name: kwidgetsaddons
   
   version: 5.60.0
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: akonadi-contacts
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kdepim-apps-libs
+  name: kldap
   
   version: ""
 - 
@@ -138,31 +47,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcodecs
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
+  name: kio
   
   version: 5.60.0
 - 
@@ -173,12 +61,12 @@ requires:
   
   version: 5.60.0
 - 
-  category: dev-qt
+  category: kde-apps
   description: ""
   license: ""
-  name: qtdbus
+  name: akonadi-contacts
   
-  version: 5.12.3
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -197,14 +85,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
+  name: ktextwidgets
   
   version: 5.60.0
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: akonadi-calendar
+  name: calendarsupport
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kcalutils
   
   version: ""
 - 
@@ -218,21 +113,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: ktextwidgets
+  name: kconfig
   
   version: 5.60.0
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: akonadi-mime
+  name: libkdepim
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kjobwidgets
   
   version: 5.60.0
 - 
@@ -243,12 +145,110 @@ requires:
   
   version: 5.60.0
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcodecs
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcontacts
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi-calendar
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi-mime
+  
+  version: ""
+- 
   category: kde-apps
   description: ""
   license: ""
   name: eventviews
   
   version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kdepim-apps-libs
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: kdiagram
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcompletion
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kmime
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kitemmodels
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
 uri: []
 use_flags:
 - ""

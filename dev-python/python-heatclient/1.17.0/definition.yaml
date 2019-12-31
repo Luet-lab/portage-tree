@@ -11,6 +11,13 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
+  name: oslo-serialization
+  
+  version: 2.19.1
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
   name: Babel
   
   version: 2.4.0
@@ -21,13 +28,6 @@ conflicts:
   name: cliff
   
   version: 2.9.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 2.19.1
 description: OpenStack Orchestration API Client Library
 license: Apache-2.0
 name: python-heatclient
@@ -36,9 +36,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: python-swiftclient
   
-  version: 2.0.0
+  version: 3.2.0
 - 
   category: dev-python
   description: ""
@@ -50,9 +50,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: osc-lib
+  name: prettytable
   
-  version: 1.8.0
+  version: 0.7.2
 - 
   category: dev-python
   description: ""
@@ -64,9 +64,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: cliff
   
-  version: 2.14.2
+  version: 2.8.0
 - 
   category: dev-python
   description: ""
@@ -78,23 +78,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: cliff
+  name: prettytable
   
-  version: 2.8.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: iso8601
-  
-  version: 0.1.11
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 1.18.0
+  version: "0.8"
 - 
   category: dev-python
   description: ""
@@ -106,16 +92,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: prettytable
+  name: requests
   
-  version: 0.7.2
+  version: 2.14.2
 - 
   category: dev-python
   description: ""
   license: ""
-  name: prettytable
+  name: osc-lib
   
-  version: "0.8"
+  version: 1.8.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.18.0
 - 
   category: dev-python
   description: ""
@@ -134,9 +127,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: python-swiftclient
+  name: pbr
   
-  version: 3.2.0
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: iso8601
+  
+  version: 0.1.11
 uri:
 - mirror://pypi/p/python-heatclient/python-heatclient-1.17.0.tar.gz
 use_flags:

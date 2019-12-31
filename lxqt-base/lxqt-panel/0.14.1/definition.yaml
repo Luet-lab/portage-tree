@@ -12,19 +12,26 @@ license: LGPL-2.1+
 name: lxqt-panel
 requires:
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: solid
+  name: qtcore
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libxcb
+  name: qtsvg
   
   version: ""
+- 
+  category: lxqt-base
+  description: ""
+  license: ""
+  name: libsysstat
+  
+  version: 0.4.1
 - 
   category: x11-libs
   description: ""
@@ -33,38 +40,10 @@ requires:
   
   version: ""
 - 
-  category: lxqt-base
-  description: ""
-  license: ""
-  name: lxqt-globalkeys
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt[qt5(+)]
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: alsa-lib
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
   
   version: ""
 - 
@@ -82,34 +61,6 @@ requires:
   
   version: 1.1.0
 - 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwindowsystem
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: lxqt-base
-  description: ""
-  license: ""
-  name: libsysstat
-  
-  version: 0.4.1
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -117,31 +68,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwidgets
   
   version: ""
 - 
-  category: sys-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: lxqt-base
-  description: ""
-  license: ""
-  name: liblxqt
+  name: solid
   
   version: ""
 - 
@@ -155,28 +92,21 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: pavucontrol-qt
+  name: pulseaudio
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtwidgets
+  name: kwindowsystem
   
   version: ""
 - 
-  category: lxde-base
+  category: lxqt-base
   description: ""
   license: ""
-  name: lxmenu-data
-  
-  version: 0.1.5
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
+  name: lxqt-globalkeys
   
   version: ""
 - 
@@ -190,7 +120,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libxcb
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pavucontrol-qt
   
   version: ""
 - 
@@ -201,10 +138,73 @@ requires:
   
   version: 3.3.1
 - 
+  category: lxqt-base
+  description: ""
+  license: ""
+  name: liblxqt
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: lxde-base
+  description: ""
+  license: ""
+  name: lxmenu-data
+  
+  version: 0.1.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdbusmenu-qt[qt5(+)]
   
   version: ""
 uri:

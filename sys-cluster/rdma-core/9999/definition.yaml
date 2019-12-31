@@ -4,7 +4,14 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: libmlx5
+  name: libcxgb3
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libibumad
   
   version: ""
 - 
@@ -18,7 +25,14 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: libibumad
+  name: libmthca
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libmlx5
   
   version: ""
 - 
@@ -32,28 +46,7 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libmthca
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libocrdma
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libibverbs
+  name: srptools
   
   version: ""
 - 
@@ -67,21 +60,7 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: srptools
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libnes
+  name: libibverbs
   
   version: ""
 - 
@@ -95,7 +74,7 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: libcxgb3
+  name: infinipath-psm
   
   version: ""
 - 
@@ -105,24 +84,31 @@ conflicts:
   name: libmlx4
   
   version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libocrdma
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libnes
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
+  
+  version: ""
 description: Userspace components for the Linux Kernel's drivers/infiniband subsystem
 license: '|| ( GPL-2 ( CC0-1.0 MIT BSD BSD-with-attribution ) )'
 name: rdma-core
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libnl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -131,10 +117,24 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libnl
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
   
   version: ""
 uri: []

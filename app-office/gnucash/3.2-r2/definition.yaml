@@ -5,6 +5,13 @@ license: GPL-2
 name: gnucash
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.40.0
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -12,31 +19,24 @@ requires:
   
   version: 1.1.4
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libchipcard
+  name: boost
   
   version: ""
 - 
-  category: dev-perl
+  category: dev-libs
   description: ""
   license: ""
-  name: HTML-TableExtract
+  name: icu
   
   version: ""
 - 
-  category: dev-db
+  category: net-libs
   description: ""
   license: ""
-  name: libdbi-drivers
-  
-  version: 0.9.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gwenhywfar
+  name: webkit-gtk
   
   version: ""
 - 
@@ -50,16 +50,9 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: libdbi
+  name: libdbi-drivers
   
   version: 0.9.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.40.0
 - 
   category: dev-libs
   description: ""
@@ -68,17 +61,31 @@ requires:
   
   version: 2.7.0
 - 
-  category: dev-libs
+  category: dev-scheme
   description: ""
   license: ""
-  name: boost
+  name: guile
+  
+  version: 2.0.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gwenhywfar
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-perl
   description: ""
   license: ""
-  name: libxslt
+  name: Date-Manip
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libchipcard
   
   version: ""
 - 
@@ -89,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: webkit-gtk
+  name: libdbi-drivers
   
   version: ""
 - 
@@ -108,33 +115,12 @@ requires:
   license: ""
   name: libdbi
   
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi-drivers
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Date-Manip
-  
-  version: ""
-- 
-  category: dev-scheme
-  description: ""
-  license: ""
-  name: guile
-  
-  version: 2.0.0
+  version: 0.9.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libxslt
   
   version: ""
 - 
@@ -151,6 +137,20 @@ requires:
   name: gtk+
   
   version: 3.14.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTML-TableExtract
+  
+  version: ""
 uri:
 - https://github.com/Gnucash/gnucash/releases/download/3.2/gnucash-3.2.tar.bz2
 - https://github.com/google/googletest/archive/release-1.8.0.tar.gz -> gtest-1.8.0.tar.gz

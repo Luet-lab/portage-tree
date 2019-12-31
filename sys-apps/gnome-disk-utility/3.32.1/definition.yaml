@@ -5,26 +5,12 @@ license: GPL-2+
 name: gnome-disk-utility
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.31"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: libdvdread
   
-  version: "0.1"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: 5.0.5
+  version: 4.2.0
 - 
   category: sys-apps
   description: ""
@@ -33,6 +19,34 @@ requires:
   
   version: "209"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.16.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: "3.8"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.31"
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -40,12 +54,19 @@ requires:
   
   version: 2.7.6
 - 
-  category: x11-libs
+  category: app-arch
   description: ""
   license: ""
-  name: gtk+
+  name: xz-utils
   
-  version: 3.16.0
+  version: 5.0.5
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "209"
 - 
   category: app-crypt
   description: ""
@@ -61,19 +82,12 @@ requires:
   
   version: 1.0.0
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "209"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libdvdread
+  name: libcanberra
   
-  version: 4.2.0
+  version: "0.1"
 - 
   category: x11-libs
   description: ""
@@ -88,20 +102,6 @@ requires:
   name: adwaita-icon-theme
   
   version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dosfstools
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: "3.8"
 uri: []
 use_flags:
 - fat

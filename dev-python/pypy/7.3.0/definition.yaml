@@ -12,20 +12,6 @@ license: MIT
 name: pypy
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -53,16 +39,29 @@ requires:
   name: tix
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
 uri:
 - https://bitbucket.org/pypy/pypy/downloads/pypy2.7-v7.3.0-src.tar.bz2
-- https://dev.gentoo.org/~mgorny/dist/python-gentoo-patches-2.7.17.tar.xz
+- https://dev.gentoo.org/~mgorny/dist/python/python-gentoo-patches-2.7.17-r1.tar.xz
 use_flags:
 - bzip2
 - gdbm
 - +jit
 - libressl
 - ncurses
-- sandbox
 - sqlite
 - tk
 version: 7.3.0

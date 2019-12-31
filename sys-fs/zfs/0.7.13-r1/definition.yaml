@@ -4,23 +4,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
+  name: bliss-initramfs
   
-  version: "67"
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
+  version: 7.1.0
 - 
   category: =sys-apps
   description: ""
@@ -39,9 +25,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: genkernel-next
   
-  version: 7.1.0
+  version: "67"
 - 
   category: <sys-kernel
   description: ""
@@ -49,6 +35,20 @@ conflicts:
   name: dracut
   
   version: 044-r1
+- 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: 3.5.1.1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
@@ -61,31 +61,10 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-process
   description: ""
   license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
+  name: procps
   
   version: ""
 - 
@@ -96,13 +75,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
@@ -110,10 +82,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: net-libs
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: libtirpc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
   
   version: ""
 - 
@@ -124,10 +103,10 @@ requires:
   
   version: 0.7.13
 - 
-  category: virtual
+  category: sys-block
   description: ""
   license: ""
-  name: awk
+  name: parted
   
   version: ""
 - 
@@ -138,17 +117,38 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: sys-fs
   description: ""
   license: ""
-  name: procps
+  name: lsscsi
   
   version: ""
 - 
-  category: net-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libtirpc
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 uri:

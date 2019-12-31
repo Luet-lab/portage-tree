@@ -4,14 +4,14 @@ conflicts:
   category: <dev-qt
   description: ""
   license: ""
-  name: qtvirtualkeyboard
+  name: qtimageformats
   
   version: 5.14.0
 - 
   category: <dev-qt
   description: ""
   license: ""
-  name: qtimageformats
+  name: qtwayland
   
   version: 5.14.0
 - 
@@ -25,7 +25,7 @@ conflicts:
   category: <dev-qt
   description: ""
   license: ""
-  name: qtwayland
+  name: qtvirtualkeyboard
   
   version: 5.14.0
 description: The GUI module and platform plugins for the Qt5 framework
@@ -33,31 +33,10 @@ license: ""
 name: qtgui
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-wm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: mtdev
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: xcb-util-image
   
   version: ""
 - 
@@ -68,26 +47,33 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpng
+  name: libSM
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: 5.14.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libxcb
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-keysyms
-  
-  version: ""
+  version: "1.12"
 - 
   category: x11-libs
   description: ""
@@ -99,16 +85,44 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: xcb-util-renderutil
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libxkbcommon
   
-  version: "1.12"
+  version: 0.5.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: tslib
+  
+  version: "1.21"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: 1.6.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -120,65 +134,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
-  
-  version: 2.6.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon-0.5.0[X]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.14.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-image
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: 5.14.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: fontconfig
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: tslib
-  
-  version: "1.21"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-renderutil
+  name: libudev
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: libICE
   
-  version: 1.6.0
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -194,31 +166,59 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: mesa
+  name: libxkbcommon-0.5.0[X]
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: xcb-util-keysyms
   
-  version: 0.5.0
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.6.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: mtdev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.14.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-wm
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: glib
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
   
   version: ""
 - 

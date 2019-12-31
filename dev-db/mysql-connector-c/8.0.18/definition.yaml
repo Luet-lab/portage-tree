@@ -1,6 +1,20 @@
 category: dev-db
 conflicts:
 - 
+  category: =dev-db
+  description: ""
+  license: ""
+  name: mysql-5.7.25*
+  
+  version: ""
+- 
+  category: =dev-db
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: 5.7.27-r0
+- 
   category: <dev-db
   description: ""
   license: ""
@@ -27,7 +41,7 @@ conflicts:
   license: ""
   name: mysql
   
-  version: 5.7.27-r0
+  version: 5.7.26-r0
 - 
   category: <dev-db
   description: ""
@@ -35,31 +49,10 @@ conflicts:
   name: percona-server
   
   version: 5.7.26.29-r1
-- 
-  category: =dev-db
-  description: ""
-  license: ""
-  name: mysql-5.7.25*
-  
-  version: ""
-- 
-  category: =dev-db
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: 5.7.26-r0
 description: C client library for MariaDB/MySQL
 license: GPL-2
 name: mysql-connector-c
 requires:
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
 - 
   category: sys-libs
   description: ""
@@ -78,14 +71,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 uri:

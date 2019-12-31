@@ -1,19 +1,19 @@
 category: sys-kernel
 conflicts:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: eudev
-  
-  version: ""
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: openrc
   
   version: 0.9.9
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: eudev
+  
+  version: ""
 - 
   category: sys-kernel
   description: ""
@@ -25,6 +25,34 @@ description: Gentoo automatic kernel building scripts, reloaded
 license: GPL-2
 name: genkernel-next
 requires:
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: portage-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
 - 
   category: app-text
   description: ""
@@ -43,13 +71,6 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: dmraid
   
   version: 1.0.0_rc16
@@ -61,17 +82,17 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: sys-block
   description: ""
   license: ""
-  name: plymouth
+  name: open-iscsi
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: e2fsprogs
+  name: mdadm
   
   version: ""
 - 
@@ -82,13 +103,6 @@ requires:
   
   version: ""
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: thin-provisioning-tools
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
@@ -96,10 +110,10 @@ requires:
   
   version: "0.6"
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: util-linux
+  name: e2fsprogs
   
   version: ""
 - 
@@ -110,24 +124,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
   category: sys-block
   description: ""
   license: ""
-  name: open-iscsi
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
+  name: thin-provisioning-tools
   
   version: ""
 uri:

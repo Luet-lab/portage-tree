@@ -5,13 +5,6 @@ license: GPL-2+ LGPL-2.1+
 name: bluez
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -22,9 +15,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: dbus-python
   
-  version: ""
+  version: "1"
 - 
   category: sys-apps
   description: ""
@@ -33,17 +26,31 @@ requires:
   
   version: "20121202.2"
 - 
-  category: sys-apps
+  category: net-print
   description: ""
   license: ""
-  name: dbus
+  name: cups
   
-  version: "1.6"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libical
   
   version: ""
 - 
@@ -64,13 +71,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libical
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
   
   version: "2.28"
@@ -82,13 +82,6 @@ requires:
   
   version: "0.14"
 - 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -96,12 +89,19 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1.6"
+- 
   category: dev-python
   description: ""
   license: ""
-  name: dbus-python
+  name: pygobject
   
-  version: "1"
+  version: ""
 uri:
 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.51.tar.xz
 use_flags:

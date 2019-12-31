@@ -5,33 +5,19 @@ license: BSD GPL-2
 name: unbound
 requires:
 - 
-  category: dev-libs
+  category: net-dns
   description: ""
   license: ""
-  name: protobuf-c
-  
-  version: 1.0.2-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
+  name: dnssec-root
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libevent
+  name: selinux-bind
   
-  version: 2.0.21
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: 2.2.4
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -50,21 +36,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libressl
+  
+  version: 2.2.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.1h-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf-c
+  
+  version: 1.0.2-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: openssl
   
   version: ""
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: dnssec-root
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-bind
+  name: hiredis
   
   version: ""
 - 
@@ -78,9 +78,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libevent
   
-  version: 1.0.1h-r2
+  version: 2.0.21
 uri:
 - https://nlnetlabs.nl/downloads/unbound/unbound-1.9.6.tar.gz
 use_flags:

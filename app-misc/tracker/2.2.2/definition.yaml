@@ -5,19 +5,33 @@ license: GPL-2+ LGPL-2.1+
 name: tracker
 requires:
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: snowball-stemmer
   
-  version: 3.20.0
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: util-linux
   
-  version: 1.3.2
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.7"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: "0.8"
 - 
   category: dev-libs
   description: ""
@@ -36,34 +50,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: "2.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: snowball-stemmer
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.46"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: json-glib
   
   version: "1.0"
@@ -75,12 +61,26 @@ requires:
   
   version: 2.40.1
 - 
-  category: net-misc
+  category: dev-db
   description: ""
   license: ""
-  name: networkmanager
+  name: sqlite
   
-  version: "0.8"
+  version: 3.20.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.46"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.3.2
 uri: []
 use_flags:
 - gtk-doc

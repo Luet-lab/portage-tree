@@ -1,35 +1,42 @@
 category: mail-client
 conflicts:
 - 
-  category: <=net-mail
-  description: ""
-  license: ""
-  name: uw-imap
-  
-  version: 2004g
-- 
   category: mail-client
   description: ""
   license: ""
   name: pine
   
   version: ""
+- 
+  category: <=net-mail
+  description: ""
+  license: ""
+  name: uw-imap
+  
+  version: 2004g
 description: An easy to use text-based based mail and news client
 license: Apache-2.0
 name: alpine
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
   name: mime-types
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -47,10 +54,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: app-crypt
   description: ""
   license: ""
-  name: aspell
+  name: mit-krb5
   
   version: ""
 - 
@@ -61,17 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-text
   description: ""
   license: ""
-  name: ncurses
-  
-  version: "5.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: aspell
   
   version: ""
 uri:

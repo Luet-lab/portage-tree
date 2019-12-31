@@ -5,24 +5,31 @@ license: Apache-2.0
 name: erlang
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: systemd
+  name: openssl
+  
+  version: 0.9.7d
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
   
   version: ""
 - 
-  category: dev-lang
+  category: acct-group
   description: ""
   license: ""
-  name: tk
+  name: epmd
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: zlib
   
   version: ""
 - 
@@ -32,13 +39,6 @@ requires:
   name: emacs
   
   version: "23.1"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jdk
-  
-  version: "1.8"
 - 
   category: dev-db
   description: ""
@@ -61,17 +61,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: wxGTK
+  name: systemd
   
   version: ""
 - 
-  category: acct-group
+  category: dev-lang
   description: ""
   license: ""
-  name: epmd
+  name: tk
   
   version: ""
 - 
@@ -85,16 +85,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: ncurses
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: openssl
+  name: jdk
   
-  version: 0.9.7d
+  version: "1.8"
 uri:
 - https://github.com/erlang/otp/archive/OTP-22.1.1.tar.gz -> erlang-22.1.1.tar.gz
 - http://erlang.org/download/otp_doc_man_.tar.gz -> erlang_doc_man_.tar.gz

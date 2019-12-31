@@ -4,21 +4,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
 mpi
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpiexec
   
   version: ""
 - 
@@ -32,13 +18,34 @@ mpi
   category: sys-cluster
   description: ""
   license: ""
+  name: mpiexec
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: mpich2
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpich
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
 - 
   category: sys-fabric
   description: ""
@@ -54,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: libevent
+  name: torque
   
-  version: 2.0.22
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -68,13 +75,6 @@ requires:
   
   version: 6.5.19-r1
 - 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -82,26 +82,12 @@ requires:
   
   version: "1.6"
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libltdl
+  name: libevent
   
-  version: ""
+  version: 2.0.22
 - 
   category: sys-libs
   description: ""
@@ -114,6 +100,20 @@ requires:
   description: ""
   license: ""
   name: slurm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
   
   version: ""
 uri:

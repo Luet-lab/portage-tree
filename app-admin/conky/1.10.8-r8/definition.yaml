@@ -5,10 +5,10 @@ license: GPL-3 BSD LGPL-2.1 MIT
 name: conky
 requires:
 - 
-  category: x11-drivers
+  category: x11-libs
   description: ""
   license: ""
-  name: nvidia-drivers
+  name: libXinerama
   
   version: ""
 - 
@@ -19,52 +19,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libircclient
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-lua
-  description: ""
-  license: ""
-  name: toluapp
-  
-  version: 1.0.93
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: wireless-tools
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
+  name: curl
   
   version: ""
 - 
@@ -75,12 +33,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: glib
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: "2"
 - 
   category: x11-libs
   description: ""
@@ -92,35 +57,14 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: xmms2
+  name: cmus
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo[X]
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -131,6 +75,20 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-drivers
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -138,17 +96,59 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: cmus
+  name: libXdamage
   
   version: ""
 - 
-  category: net-misc
+  category: media-sound
   description: ""
   license: ""
-  name: curl
+  name: xmms2
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libircclient
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: imlib2[X]
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo[X]
   
   version: ""
 - 
@@ -166,26 +166,26 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: systemd
   
   version: ""
 - 
-  category: media-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: imlib2[X]
+  name: wireless-tools
   
   version: ""
 - 
-  category: media-libs
+  category: dev-lua
   description: ""
   license: ""
-  name: freetype
+  name: toluapp
   
-  version: "2"
+  version: 1.0.93
 uri:
 - https://github.com/brndnmtthws/conky/archive/v1.10.8.tar.gz -> conky-1.10.8.tar.gz
 use_flags:

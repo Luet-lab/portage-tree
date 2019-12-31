@@ -8,23 +8,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: libselinux
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: "9999"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libsemanage
+  name: libcap
   
-  version: "9999"
+  version: 1.10-r10
 - 
   category: sys-libs
   description: ""
@@ -32,13 +25,6 @@ requires:
   name: libsepol
   
   version: "9999"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: setools
-  
-  version: 4.2.0
 - 
   category: sys-devel
   description: ""
@@ -54,31 +40,52 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: dbus-glib
+  name: dbus
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: pam
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsemanage
   
   version: "9999"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
+  name: libcap-ng
   
-  version: 1.10-r10
+  version: ""
 - 
-  category: app-misc
+  category: app-admin
   description: ""
   license: ""
-  name: pax-utils
+  name: setools
+  
+  version: 4.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
   
   version: ""
 - 
@@ -88,13 +95,6 @@ requires:
   name: audit
   
   version: 1.5.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
 uri:
 - https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2
 use_flags:

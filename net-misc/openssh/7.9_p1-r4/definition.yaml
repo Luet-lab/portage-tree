@@ -5,6 +5,13 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xauth
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -12,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ldns[ecdsa,ssl(+)]
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns[-ecdsa,ssl(+)]
+  name: libedit
   
   version: ""
 - 
@@ -38,28 +38,7 @@ requires:
   license: ""
   name: openssl
   
-  version: 1.1.0g
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libedit
-  
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "1.28"
 - 
   category: dev-libs
   description: ""
@@ -68,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: pam
+  name: krb5
   
   version: ""
 - 
@@ -89,31 +68,52 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns[ecdsa,ssl(+)]
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
   
-  version: ""
+  version: 1.1.0g
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: krb5
+  name: zlib
   
-  version: ""
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xauth
-  
-  version: ""
+  version: 1.2.3
 - 
   category: virtual
   description: ""
   license: ""
   name: shadow
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns[-ecdsa,ssl(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "1.28"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 uri:

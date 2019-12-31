@@ -5,6 +5,27 @@ license: Apache-2.0
 name: netbox
 requires:
 - 
+  category: www-servers
+  description: ""
+  license: ""
+  name: gunicorn
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: django-auth-ldap
+  
+  version: "1.7"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: django-rq
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
@@ -15,23 +36,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: drf-yasg
+  name: jinja
   
-  version: 1.14.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: graphviz
-  
-  version: 0.10.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: django-tables2
-  
-  version: 2.0.3
+  version: "2.10"
 - 
   category: dev-python
   description: ""
@@ -50,58 +57,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: netaddr
+  name: py-gfm
   
-  version: 0.7.19
+  version: 0.1.4
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pillow
+  name: django-tables2
   
-  version: 5.3.0
+  version: 2.0.3
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pycryptodome
+  name: django-taggit
   
-  version: 3.7.2
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: gunicorn
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: django-rq
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: django
-  
-  version: "2.2"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: django-cors-headers
-  
-  version: 2.4.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: django-debug-toolbar
-  
-  version: "1.11"
+  version: 0.23.0
 - 
   category: dev-python
   description: ""
@@ -120,6 +92,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: graphviz
+  
+  version: 0.10.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: markdown
   
   version: 2.6.11
@@ -127,16 +106,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: django-taggit
+  name: pillow
   
-  version: 0.23.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jinja
-  
-  version: "2.10"
+  version: 5.3.0
 - 
   category: dev-python
   description: ""
@@ -148,16 +120,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: py-gfm
+  name: django
   
-  version: 0.1.4
+  version: "2.2"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: django-auth-ldap
+  name: django-debug-toolbar
   
-  version: "1.7"
+  version: "1.11"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycryptodome
+  
+  version: 3.7.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: netaddr
+  
+  version: 0.7.19
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: django-cors-headers
+  
+  version: 2.4.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: drf-yasg
+  
+  version: 1.14.0
 uri:
 - https://github.com/digitalocean/netbox/archive/v2.5.12.tar.gz -> netbox-2.5.12.tar.gz
 use_flags:

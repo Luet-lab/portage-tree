@@ -5,19 +5,12 @@ license: GPL-2+
 name: modemmanager
 requires:
 - 
-  category: net-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libmbim
+  name: polkit
   
-  version: 1.18.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
+  version: "0.106"
 - 
   category: acct-group
   description: ""
@@ -25,13 +18,6 @@ requires:
   name: plugdev
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.36.0
 - 
   category: dev-libs
   description: ""
@@ -47,12 +33,26 @@ requires:
   
   version: 0.9.6
 - 
-  category: sys-auth
+  category: net-libs
   description: ""
   license: ""
-  name: polkit
+  name: libmbim
   
-  version: "0.106"
+  version: 1.18.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.36.0
 - 
   category: net-libs
   description: ""

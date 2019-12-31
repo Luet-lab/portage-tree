@@ -1,12 +1,12 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-fs
+  category: <app-shells
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: gentoo-bashcomp
   
-  version: "27"
+  version: "20180302"
 - 
   category: <sys-apps
   description: ""
@@ -14,6 +14,13 @@ conflicts:
   name: baselayout
   
   version: 2.1-r1
+- 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: "27"
 - 
   category: <app-shells
   description: ""
@@ -28,24 +35,10 @@ conflicts:
   name: procps
   
   version: 3.3.9-r2
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -54,31 +47,17 @@ requires:
   
   version: "2.6"
 - 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-openrc
+  name: selinux-base-policy
   
   version: 2.20170204-r4
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: pambase
+  name: ncurses
   
   version: ""
 - 
@@ -89,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: ncurses
+  name: pambase
   
   version: ""
 - 
@@ -106,9 +85,30 @@ requires:
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-base-policy
+  name: selinux-openrc
   
   version: 2.20170204-r4
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
 - 
   category: sys-process
   description: ""

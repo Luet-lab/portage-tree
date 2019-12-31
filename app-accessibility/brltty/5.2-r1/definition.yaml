@@ -5,10 +5,17 @@ license: GPL-2 LGPL-2.1
 name: brltty
 requires:
 - 
-  category: net-wireless
+  category: virtual
   description: ""
   license: ""
-  name: bluez
+  name: jre
+  
+  version: "1.4"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
@@ -19,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tcl
+  
+  version: 8.4.15
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -26,19 +40,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-wireless
   description: ""
   license: ""
-  name: libusb
+  name: bluez
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
 - 
   category: sys-libs
   description: ""
@@ -46,13 +53,6 @@ requires:
   name: gpm
   
   version: "1.20"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -68,12 +68,12 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: tcl
+  name: libusb
   
-  version: 8.4.15
+  version: ""
 uri:
 - https://brltty.app/archive/brltty-5.2.tar.xz
 use_flags:

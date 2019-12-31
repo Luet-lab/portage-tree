@@ -5,13 +5,6 @@ license: GPL-2+
 name: gramps
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyicu
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -19,12 +12,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: gexiv2
+  name: xdg-utils
   
-  version: "0.5"
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: graphviz[postscript?]
+  
+  version: ""
 - 
   category: app-text
   description: ""
@@ -43,23 +43,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: bsddb3
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: pycairo
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: "3.12"
 - 
   category: gnome-base
   description: ""
@@ -75,19 +61,12 @@ requires:
   
   version: 3.14.8
 - 
-  category: x11-misc
+  category: media-libs
   description: ""
   license: ""
-  name: xdg-utils
+  name: gexiv2
   
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphviz[postscript?]
-  
-  version: ""
+  version: "0.5"
 - 
   category: sci-geosciences
   description: ""
@@ -95,6 +74,27 @@ requires:
   name: osm-gps-map
   
   version: 1.1.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: bsddb3
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: "3.12"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyicu
+  
+  version: ""
 uri:
 - https://github.com/gramps-project/gramps/archive/v5.0.2.tar.gz
 - -> gramps-5.0.2.tar.gz

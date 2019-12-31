@@ -5,6 +5,13 @@ license: GPL-2
 name: snort
 requires:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: 1.3.0
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -12,10 +19,10 @@ requires:
   
   version: "8.33"
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnsl
+  name: libdnet
   
   version: ""
 - 
@@ -26,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libtirpc
+  name: glibc[rpc(-)]
   
   version: ""
 - 
@@ -50,28 +57,21 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libpcap
-  
-  version: 1.3.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
   name: daq
   
   version: 2.0.2
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libdnet
+  name: libnsl
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glibc[rpc(-)]
+  name: libtirpc
   
   version: ""
 uri:

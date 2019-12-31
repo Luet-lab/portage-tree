@@ -5,24 +5,31 @@ license: GPL-2 LGPL-2
 name: lmms
 requires:
 - 
-  category: x11-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: fltk
-  
-  version: 1.3.0_rc3
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
+  name: qtgui
   
   version: ""
 - 
-  category: virtual
+  category: media-plugins
   description: ""
   license: ""
-  name: wine
+  name: caps-plugins
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: tap-plugins
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
   
   version: ""
 - 
@@ -33,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: virtual
   description: ""
   license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: fluidsynth
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: calf
+  name: jack
   
   version: ""
 - 
@@ -64,7 +57,49 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libgig
+  name: libsamplerate
+  
+  version: 0.1.8
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: fltk
+  
+  version: 1.3.0_rc3
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: wine
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -78,63 +113,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsoundio
+  name: portaudio
+  
+  version: 19_pre
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: 1.0.11
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sdl-sound
-  
-  version: 1.0.1
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: caps-plugins
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: tap-plugins
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
+  name: pulseaudio
   
   version: ""
 - 
@@ -148,23 +141,16 @@ requires:
   category: media-plugins
   description: ""
   license: ""
-  name: swh-plugins
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: calf
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: libgig
   
-  version: 0.1.8
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -180,26 +166,40 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: media-sound
   description: ""
   license: ""
-  name: jack
+  name: fluidsynth
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: portaudio
+  name: sdl-sound
   
-  version: 19_pre
+  version: 1.0.1
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtwidgets
+  name: libsoundio
   
   version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: swh-plugins
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.11
 uri:
 - https://github.com/LMMS/lmms/releases/download/v1.2.0/lmms_1.2.0.tar.xz -> lmms-1.2.0.tar.xz
 use_flags:

@@ -6,38 +6,17 @@ license: GPL-3
 name: pulseeffects
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: rubberband
+  name: glib
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: "2.56"
 - 
   category: media-libs
   description: ""
   license: ""
   name: gstreamer
-  
-  version: 1.12.0
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-lv2
-  
-  version: 1.12.0
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-pulse
   
   version: 1.12.0
 - 
@@ -62,20 +41,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libebur128
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -86,16 +51,44 @@ requires:
   category: dev-cpp
   description: ""
   license: ""
+  name: glibmm
+  
+  version: 2.56.0
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
   name: gtkmm
   
   version: "3.20"
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: glib
+  name: dbus
   
-  version: "2.56"
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-lv2
+  
+  version: 1.12.0
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-pulse
+  
+  version: 1.12.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: zita-convolver
+  
+  version: 3.0.0
 - 
   category: media-plugins
   description: ""
@@ -110,6 +103,20 @@ requires:
   name: calf
   
   version: 0.90.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: rubberband
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -132,20 +139,6 @@ requires:
   
   version: 1.12.0
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: zita-convolver
-  
-  version: 3.0.0
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.56.0
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -159,6 +152,13 @@ requires:
   name: lilv
   
   version: 0.24.2-r1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libebur128
+  
+  version: ""
 uri:
 - https://github.com/wwmm/pulseeffects/archive/v4.7.0.tar.gz -> pulseeffects-4.7.0.tar.gz
 use_flags:

@@ -5,129 +5,38 @@ license: GPL-2
 name: qmmp
 requires:
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtdbus
+  name: libcdio-paranoia
   
   version: ""
 - 
-  category: media-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wildmidi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmodplug
-  
-  version: 0.8.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opusfile
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
+  name: udisks
   
   version: ""
 - 
   category: media-sound
   description: ""
   license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: "444"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: mplayer
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
+  name: wavpack
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libcue
-  
-  version: ""
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: enca
+  name: libmms
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
+  name: libshout
   
   version: ""
 - 
@@ -141,21 +50,70 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtgui
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libprojectm
+  name: game-music-emu
   
   version: ""
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: wavpack
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: mplayer
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: ladspa-cmt
   
   version: ""
 - 
@@ -169,56 +127,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbs2b
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio-paranoia
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: ladspa-cmt
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsidplayfp
-  
-  version: 1.1.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
+  name: qtmultimedia
   
   version: ""
 - 
@@ -232,7 +141,35 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: game-music-emu
+  name: taglib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-audio-connection-kit
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: musepack-tools
+  
+  version: "444"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
   
   version: ""
 - 
@@ -246,7 +183,70 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libshout
+  name: faad2
+  
+  version: ""
+- 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: enca
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wildmidi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbs2b
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsidplayfp
+  
+  version: 1.1.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -257,17 +257,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libcdio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: taglib
+  name: qtsql
   
   version: ""
 - 
@@ -275,6 +268,13 @@ requires:
   description: ""
   license: ""
   name: libarchive
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libprojectm
   
   version: ""
 - 
@@ -295,28 +295,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmms
+  name: libmodplug
   
-  version: ""
+  version: 0.8.4
 - 
-  category: sys-fs
+  category: dev-qt
   description: ""
   license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
+  name: qtcore
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcue
   
   version: ""
 uri:

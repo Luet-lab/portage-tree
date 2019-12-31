@@ -5,19 +5,26 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: app-crypt
+  category: media-libs
   description: ""
   license: ""
-  name: gcr
+  name: libgphoto2
   
-  version: ""
+  version: 2.5.0
 - 
-  category: app-arch
+  category: x11-libs
   description: ""
   license: ""
-  name: libarchive
+  name: gtk+
   
-  version: ""
+  version: "3.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "206"
 - 
   category: app-crypt
   description: ""
@@ -25,69 +32,6 @@ requires:
   name: libsecret
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.7
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: "1"
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: "4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "147"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "229"
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libimobiledevice
-  
-  version: "1.2"
 - 
   category: sys-auth
   description: ""
@@ -103,13 +47,6 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -117,19 +54,54 @@ requires:
   
   version: 1.0.21
 - 
-  category: net-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnfs
+  name: libgudev
   
-  version: 1.9.8
+  version: "147"
 - 
-  category: virtual
+  category: net-dns
   description: ""
   license: ""
-  name: libudev
+  name: avahi
+  
+  version: "0.6"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "229"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.42"
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libimobiledevice
+  
+  version: "1.2"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: 2.8.0
 - 
   category: net-libs
   description: ""
@@ -138,19 +110,12 @@ requires:
   
   version: 3.7.1
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: libgdata
   
-  version: 3.17.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: 1.1.12
+  version: 0.17.7
 - 
   category: sys-fs
   description: ""
@@ -169,16 +134,44 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libgphoto2
+  name: libmtp
   
-  version: 2.5.0
+  version: 1.1.12
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: avahi
+  name: libxml2
   
-  version: "0.6"
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: "4"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -187,19 +180,26 @@ requires:
   
   version: "2.51"
 - 
-  category: sys-fs
+  category: media-libs
   description: ""
   license: ""
-  name: fuse
+  name: libbluray
   
-  version: 2.8.0
+  version: ""
 - 
-  category: x11-libs
+  category: net-fs
   description: ""
   license: ""
-  name: gtk+
+  name: libnfs
   
-  version: "3.0"
+  version: 1.9.8
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: libplist
+  
+  version: "1"
 - 
   category: sys-libs
   description: ""
@@ -208,12 +208,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: libudev
   
-  version: "206"
+  version: ""
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gvfs-1.32.2-patchset.tar.xz
 use_flags:

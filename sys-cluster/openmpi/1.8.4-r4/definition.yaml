@@ -4,14 +4,7 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpiexec
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpich
+  name: pmix
   
   version: ""
 - 
@@ -25,13 +18,48 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+  name: mpich
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpiexec
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
+  
+  version: ""
 - 
   category: sys-cluster
   description: ""
@@ -57,42 +85,7 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: torque
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
   name: knem
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
   
   version: ""
 - 
@@ -100,6 +93,13 @@ requires:
   description: ""
   license: ""
   name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
   
   version: ""
 uri:

@@ -5,24 +5,31 @@ license: GPL-2
 name: ktp-call-ui
 requires:
 - 
-  category: media-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: knotifications
+  
+  version: 5.63.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-farstream
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
+  name: telepathy-qt[farstream,qt5(+)]
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtgui
   
   version: 5.12.3
 - 
@@ -36,23 +43,9 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdeclarative
+  name: kiconthemes
   
   version: 5.63.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: qt-gstreamer[qt5(+)]
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-qt[farstream,qt5(+)]
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -64,14 +57,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
+  name: kconfigwidgets
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kwidgetsaddons
   
   version: 5.63.0
 - 
@@ -82,10 +75,17 @@ requires:
   
   version: 5.63.0
 - 
-  category: net-libs
+  category: kde-apps
   description: ""
   license: ""
-  name: telepathy-farstream
+  name: ktp-common-internals
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
@@ -103,17 +103,24 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtgui
+  name: phonon[qt5(+)]
   
-  version: 5.12.3
+  version: ""
 - 
-  category: kde-apps
+  category: kde-frameworks
   description: ""
   license: ""
-  name: ktp-common-internals
+  name: ki18n
+  
+  version: 5.63.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: qt-gstreamer[qt5(+)]
   
   version: ""
 - 
@@ -124,31 +131,24 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: kcoreaddons
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kiconthemes
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
+  name: kdeclarative
   
   version: 5.63.0
 uri: []

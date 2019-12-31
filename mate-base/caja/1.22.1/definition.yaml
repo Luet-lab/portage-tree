@@ -12,26 +12,19 @@ license: GPL-2 LGPL-2 FDL-1.1
 name: caja
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: 0.6.14
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: gobject-introspection
   
-  version: 2.4.7
+  version: 0.6.4
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-desktop
+  
+  version: 1.17.3
 - 
   category: x11-libs
   description: ""
@@ -39,6 +32,13 @@ requires:
   name: cairo
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: 0.6.14
 - 
   category: x11-libs
   description: ""
@@ -57,27 +57,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libSM
   
   version: ""
@@ -86,6 +65,34 @@ requires:
   description: ""
   license: ""
   name: libXext
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.4.7
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -110,13 +117,6 @@ requires:
   
   version: 1.99.5
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -124,12 +124,12 @@ requires:
   
   version: 1.10.1
 - 
-  category: mate-base
+  category: virtual
   description: ""
   license: ""
-  name: mate-desktop
+  name: libintl
   
-  version: 1.17.3
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -148,16 +148,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: atk
   
-  version: 0.6.4
+  version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: glib
+  name: dconf
   
-  version: "2.50"
+  version: ""
 uri: []
 use_flags:
 - +introspection

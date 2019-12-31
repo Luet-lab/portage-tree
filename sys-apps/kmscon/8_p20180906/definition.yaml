@@ -5,24 +5,24 @@ license: MIT LGPL-2.1 BSD-2
 name: kmscon
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libdrm
+  name: mesa[X(+)]
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: 8.0.3
 - 
   category: sys-apps
   description: ""
   license: ""
   name: systemd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
   
   version: ""
 - 
@@ -40,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xkeyboard-config
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -54,19 +47,33 @@ requires:
   
   version: 4.0.0
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: mesa[X(+)]
+  name: libxkbcommon
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: mesa
+  name: libdrm
   
-  version: 8.0.3
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -74,13 +81,6 @@ requires:
   name: udev
   
   version: "172"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: ""
 uri:
 - https://github.com/Aetf/kmscon/archive/01dd0a231e2125a40ceba5f59fd945ff29bf2cdc.tar.gz
   -> kmscon-8.tar.gz

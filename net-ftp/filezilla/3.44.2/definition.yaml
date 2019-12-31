@@ -5,12 +5,26 @@ license: GPL-2
 name: filezilla
 requires:
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: sqlite
+  name: dbus
   
-  version: "3.7"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: "3.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libfilezilla
+  
+  version: 0.19.0
 - 
   category: dev-libs
   description: ""
@@ -18,13 +32,6 @@ requires:
   name: pugixml
   
   version: "1.7"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.5.7
 - 
   category: x11-libs
   description: ""
@@ -40,13 +47,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: app-eselect
   description: ""
   license: ""
@@ -54,12 +54,12 @@ requires:
   
   version: 0.7-r1
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: nettle
+  name: sqlite
   
-  version: "3.1"
+  version: "3.7"
 - 
   category: dev-libs
   description: ""
@@ -68,12 +68,12 @@ requires:
   
   version: 0.18.1
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libfilezilla
+  name: gnutls
   
-  version: 0.19.0
+  version: 3.5.7
 uri:
 - https://download.filezilla-project.org/client/FileZilla_3.44.2_src.tar.bz2
 use_flags:

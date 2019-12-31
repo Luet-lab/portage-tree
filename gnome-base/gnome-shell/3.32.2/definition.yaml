@@ -5,38 +5,24 @@ license: GPL-2+ LGPL-2+
 name: gnome-shell
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gjs
+  name: gst-plugins-base
   
-  version: 1.54.0
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXfixes
   
-  version: 3.15.0
+  version: "5.0"
 - 
-  category: app-crypt
+  category: gnome-base
   description: ""
   license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "31"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: librsvg
   
   version: ""
 - 
@@ -47,55 +33,6 @@ requires:
   
   version: 3.8.3
 - 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: cantarell
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: gnome-bluetooth
-  
-  version: "3.9"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: 0.11.92
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: "5.0"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa[X(+)]
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: timezone-data
-  
-  version: ""
-- 
   category: gnome-extra
   description: ""
   license: ""
@@ -103,12 +40,12 @@ requires:
   
   version: 3.17.2
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: startup-notification
   
-  version: 3.7.90
+  version: "0.11"
 - 
   category: net-misc
   description: ""
@@ -117,38 +54,10 @@ requires:
   
   version: 1.10.4
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: net-im
-  description: ""
-  license: ""
-  name: telepathy-logger
-  
-  version: 0.2.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-glib
-  
-  version: "0.19"
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: ibus
-  
-  version: 1.5.2
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: at-spi2-core
+  name: libical
   
   version: ""
 - 
@@ -159,66 +68,31 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: polkit
-  
-  version: "0.100"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
+  name: timezone-data
   
   version: ""
 - 
-  category: app-accessibility
+  category: app-i18n
   description: ""
   license: ""
-  name: at-spi2-atk
+  name: ibus-1.4.99[dconf(+),gtk,introspection]
   
-  version: 2.5.3
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: "2"
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-session
+  name: gsettings-desktop-schemas
   
-  version: 2.91.91
+  version: 3.27.90
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: 1.49.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: startup-notification
-  
-  version: "0.11"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: mesa[X(+)]
   
   version: ""
 - 
@@ -236,48 +110,6 @@ requires:
   
   version: "0.99"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
-  
-  version: ""
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: ibus-1.4.99[dconf(+),gtk,introspection]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcroco
-  
-  version: 0.6.8
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: 3.7.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.57.2
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -288,7 +120,161 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libical
+  name: libxml2
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
+  
+  version: 2.91.91
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.7.90
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: gnome-bluetooth
+  
+  version: "3.9"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: mobile-broadband-provider-info
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 1.49.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gjs
+  
+  version: 1.54.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.100"
+- 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: ibus
+  
+  version: 1.5.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "31"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "237"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: "2"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: at-spi2-core
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: cantarell
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: 3.7.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.15.0
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: at-spi2-atk
+  
+  version: 2.5.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -299,40 +285,54 @@ requires:
   
   version: "3.26"
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 3.27.90
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "237"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: "2"
-- 
   category: x11-themes
   description: ""
   license: ""
   name: adwaita-icon-theme
   
   version: "3.26"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcroco
+  
+  version: 0.6.8
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.57.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: 0.11.92
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: "2"
+- 
+  category: net-im
+  description: ""
+  license: ""
+  name: telepathy-logger
+  
+  version: 0.2.4
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-glib
+  
+  version: "0.19"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/-patchset.tar.xz
 use_flags:

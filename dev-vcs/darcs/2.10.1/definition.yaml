@@ -8,9 +8,9 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: http
+  name: regex-compat-tdfa
   
-  version: 4000.2.3
+  version: "0.96"
 - 
   category: dev-haskell
   description: ""
@@ -18,41 +18,6 @@ requires:
   name: utf8-string
   
   version: "1.1"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: vector
-  
-  version: "0.11"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 0.7.0.0
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: transformers
-  
-  version: "0.5"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: lcs
-  
-  version: ""
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: cryptohash
-  
-  version: "0.12"
 - 
   category: net-misc
   description: ""
@@ -64,27 +29,6 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: html
-  
-  version: "1.1"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: regex-applicative
-  
-  version: "0.4"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: text
-  
-  version: "1.3"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
   name: http
   
   version: "4000.3"
@@ -92,9 +36,9 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: terminfo
+  name: http
   
-  version: "0.3"
+  version: 4000.2.3
 - 
   category: dev-haskell
   description: ""
@@ -113,30 +57,9 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: base16-bytestring
+  name: data-ordlist
   
-  version: "0.2"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: binary
-  
-  version: "0.8"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: haskeline
-  
-  version: "0.8"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: old-locale
-  
-  version: "1.1"
+  version: "0.5"
 - 
   category: dev-haskell
   description: ""
@@ -148,23 +71,37 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: mmap
+  name: vector
   
-  version: "0.6"
+  version: "0.11"
 - 
-  category: virtual
+  category: dev-haskell
   description: ""
   license: ""
-  name: libiconv
+  name: zip-archive
   
-  version: ""
+  version: "0.3"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: transformers
+  
+  version: "0.5"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: terminfo
+  
+  version: "0.3"
 - 
   category: dev-haskell
   description: ""
   license: ""
   name: network
   
-  version: "2.6"
+  version: "2.3"
 - 
   category: dev-haskell
   description: ""
@@ -176,30 +113,16 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: hashable
+  name: regex-applicative
   
-  version: "1.3"
+  version: "0.4"
 - 
   category: dev-haskell
   description: ""
   license: ""
-  name: regex-compat-tdfa
-  
-  version: "0.96"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: transformers-compat
+  name: unix-compat
   
   version: "0.5"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: zip-archive
-  
-  version: "0.3"
 - 
   category: dev-lang
   description: ""
@@ -211,6 +134,41 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
+  name: lcs
+  
+  version: ""
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: hashable
+  
+  version: "1.3"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: old-locale
+  
+  version: "1.1"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: parsec
+  
+  version: "3.2"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: text
+  
+  version: "1.3"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
   name: terminfo
   
   version: "0.5"
@@ -218,9 +176,65 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: data-ordlist
+  name: mmap
+  
+  version: "0.6"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: old-time
+  
+  version: "1.2"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: random
+  
+  version: "1.2"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: transformers-compat
   
   version: "0.5"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: binary
+  
+  version: "0.8"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: cryptohash
+  
+  version: "0.12"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: haskeline
+  
+  version: "0.8"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: base16-bytestring
+  
+  version: "0.2"
 - 
   category: dev-haskell
   description: ""
@@ -239,37 +253,23 @@ requires:
   category: dev-haskell
   description: ""
   license: ""
-  name: old-time
-  
-  version: "1.2"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: parsec
-  
-  version: "3.2"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: random
-  
-  version: "1.2"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
-  name: unix-compat
-  
-  version: "0.5"
-- 
-  category: dev-haskell
-  description: ""
-  license: ""
   name: network
   
-  version: "2.3"
+  version: "2.6"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: html
+  
+  version: "1.1"
+- 
+  category: dev-haskell
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 0.7.0.0
 uri:
 - https://hackage.haskell.org/package/darcs-2.10.1/darcs-2.10.1.tar.gz
 use_flags:

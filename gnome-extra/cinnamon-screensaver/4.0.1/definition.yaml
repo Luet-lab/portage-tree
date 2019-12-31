@@ -12,19 +12,26 @@ license: GPL-2+
 name: cinnamon-screensaver
 requires:
 - 
-  category: gnome-base
+  category: dev-python
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
+  name: setproctitle
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.37.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.78"
 - 
   category: x11-libs
   description: ""
@@ -43,28 +50,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: libXxf86misc
   
   version: ""
 - 
-  category: dev-python
+  category: x11-themes
   description: ""
   license: ""
-  name: xapp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.1.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
+  name: adwaita-icon-theme
   
   version: ""
 - 
@@ -75,45 +68,31 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
-  name: setproctitle
+  name: psutil
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
+  name: webkit-gtk
   
-  version: 2.37.3
+  version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libX11
+  name: dbus
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86misc
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
+  name: libxklavier
   
   version: ""
 - 
@@ -131,6 +110,41 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.1.4
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: gnome-extra
   description: ""
   license: ""
@@ -141,42 +155,28 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: libgnomekbd
+  name: gsettings-desktop-schemas
   
-  version: "3.6"
+  version: 0.1.7
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: "0.78"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
+  name: libXScrnSaver
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: psutil
+  name: xapp
   
   version: ""
 uri:

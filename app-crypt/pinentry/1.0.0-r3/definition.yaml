@@ -5,12 +5,12 @@ license: GPL-2
 name: pinentry
 requires:
 - 
-  category: dev-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: libassuan
+  name: eselect-pinentry
   
-  version: "2.1"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -19,33 +19,12 @@ requires:
   
   version: 1.6.3
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtgui
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.7-r5
 - 
   category: app-crypt
   description: ""
@@ -54,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: dev-libs
   description: ""
   license: ""
-  name: eselect-pinentry
+  name: libassuan
   
-  version: ""
+  version: "2.1"
 - 
   category: dev-libs
   description: ""
@@ -89,12 +68,33 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtcore
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.7-r5
 uri:
 - mirror://gnupg/pinentry/pinentry-1.0.0.tar.bz2
 use_flags:

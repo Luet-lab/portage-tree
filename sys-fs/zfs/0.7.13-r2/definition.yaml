@@ -11,23 +11,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
-  
-  version: "67"
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
   name: genkernel
   
   version: 3.5.1.1
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: bliss-initramfs
-  
-  version: 7.1.0
 - 
   category: <sys-kernel
   description: ""
@@ -49,22 +35,43 @@ conflicts:
   name: zfs-fuse
   
   version: ""
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: bliss-initramfs
+  
+  version: 7.1.0
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel-next
+  
+  version: "67"
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: parted
+  name: lsscsi
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: mdadm
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
   
   version: ""
 - 
@@ -82,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-devel
   description: ""
   license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
+  name: bc
   
   version: ""
 - 
@@ -103,17 +103,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-process
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
+  name: procps
   
   version: ""
 - 
@@ -124,10 +117,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: libtirpc
+  name: awk
   
   version: ""
 - 
@@ -138,10 +131,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: lsscsi
+  name: parted
   
   version: ""
 - 
@@ -149,6 +142,13 @@ requires:
   description: ""
   license: ""
   name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
   
   version: ""
 uri:

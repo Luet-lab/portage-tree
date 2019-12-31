@@ -5,17 +5,24 @@ license: GPL-2+
 name: sushi
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: clutter
+  name: glib
   
-  version: 1.11.4
+  version: 2.29.14
 - 
   category: media-libs
   description: ""
   license: ""
-  name: musicbrainz
+  name: gstreamer
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
   
   version: ""
 - 
@@ -26,6 +33,27 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter-gtk
+  
+  version: 1.0.1
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: evince
+  
+  version: "3.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.23.0
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -33,24 +61,31 @@ requires:
   
   version: "1.40"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.13.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtksourceview
+  name: gst-plugins-base
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: 3.1.90
 - 
   category: app-office
   description: ""
   license: ""
   name: libreoffice
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
@@ -68,6 +103,13 @@ requires:
   
   version: "1.54"
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: musicbrainz
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -75,61 +117,19 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: evince
-  
-  version: "3.0"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: clutter
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.29.14
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: 1.0.1
+  version: 1.11.4
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: gtk+
   
-  version: 2.23.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: 3.1.90
+  version: 3.13.2
 uri: []
 use_flags:
 - office

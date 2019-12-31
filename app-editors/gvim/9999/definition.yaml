@@ -5,12 +5,12 @@ license: vim
 name: gvim
 requires:
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: motif
+  name: libselinux
   
-  version: "2.3"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -19,17 +19,38 @@ requires:
   
   version: ""
 - 
+  category: app-editors
+  description: ""
+  license: ""
+  name: vim-core
+  
+  version: "9999"
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-vi
+  
+  version: "1.1"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.2-r2
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXft
+  name: libICE
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: neXtaw
   
   version: ""
 - 
@@ -37,6 +58,13 @@ requires:
   description: ""
   license: ""
   name: libXext
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
   
   version: ""
 - 
@@ -50,9 +78,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: neXtaw
+  name: libXaw
   
   version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-scheme
+  description: ""
+  license: ""
+  name: racket
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tcl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: motif
+  
+  version: "2.3"
 - 
   category: dev-util
   description: ""
@@ -64,58 +120,16 @@ requires:
   category: dev-lang
   description: ""
   license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: vim-core
-  
-  version: "9999"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
+  name: luajit
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "2.6"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: libSM
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tcl
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-vi
-  
-  version: "1.1"
 - 
   category: x11-libs
   description: ""
@@ -134,37 +148,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXaw
+  name: libXft
   
   version: ""
 - 
-  category: dev-lang
+  category: x11-libs
   description: ""
   license: ""
-  name: luajit
+  name: gtk+
+  
+  version: "2.6"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
-- 
-  category: dev-scheme
-  description: ""
-  license: ""
-  name: racket
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.2-r2
 uri: []
 use_flags:
 - acl

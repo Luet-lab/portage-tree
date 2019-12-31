@@ -5,26 +5,12 @@ license: BSD
 name: hwloc
 requires:
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: ncurses
+  name: pciutils
   
-  version: 5.9-r3
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libpciaccess
-  
-  version: 0.13.1-r1
+  version: 3.3.0-r2
 - 
   category: dev-libs
   description: ""
@@ -47,19 +33,19 @@ requires:
   
   version: ""
 - 
-  category: x11-drivers
+  category: dev-util
   description: ""
   license: ""
-  name: nvidia-drivers
+  name: nvidia-cuda-toolkit
   
-  version: ""
+  version: 6.5.19-r1
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: pciutils
+  name: libpciaccess
   
-  version: 3.3.0-r2
+  version: 0.13.1-r1
 - 
   category: sys-process
   description: ""
@@ -67,6 +53,20 @@ requires:
   name: numactl
   
   version: 2.0.10-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.9-r3
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-drivers
+  
+  version: ""
 uri:
 - http://www.open-mpi.org/software/hwloc/v/downloads/hwloc-1.11.13.tar.bz2
 use_flags:

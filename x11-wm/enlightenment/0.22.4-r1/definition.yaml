@@ -5,31 +5,31 @@ license: BSD-2
 name: enlightenment
 requires:
 - 
-  category: x11-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: udisks
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: efl[X,wayland]
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-keysyms
+  name: libxcb
   
   version: ""
 - 
-  category: x11-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: xkeyboard-config
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
+  name: efl
   
   version: ""
 - 
@@ -40,24 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: efl
-  
-  version: 1.22.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: efl-1.20.5[eet,X]
+  name: bluez
   
   version: ""
 - 
@@ -71,7 +57,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: efl[X,wayland]
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: efl-1.20.5[eet,X]
   
   version: ""
 - 
@@ -89,38 +96,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: x11-base
   description: ""
   license: ""
-  name: libxcb
+  name: xorg-server
   
   version: ""
 - 
-  category: sys-fs
+  category: x11-misc
   description: ""
   license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: efl
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -134,14 +120,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: efl
+  
+  version: 1.22.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-keysyms
   
   version: ""
 - 
-  category: x11-base
+  category: sys-power
   description: ""
   license: ""
-  name: xorg-server
+  name: acpid
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 uri:

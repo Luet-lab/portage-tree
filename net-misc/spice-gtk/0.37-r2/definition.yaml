@@ -13,24 +13,10 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
-  category: media-libs
+  category: app-emulation
   description: ""
   license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: 0.17.7
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
+  name: qemu
   
   version: ""
 - 
@@ -41,12 +27,19 @@ requires:
   
   version: 0.4.2
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: acl
+  name: libusb
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: 0.110-r1
 - 
   category: net-libs
   description: ""
@@ -58,7 +51,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libva
+  name: cairo
+  
+  version: "1.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
   
   version: ""
 - 
@@ -72,48 +79,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: "1.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: gobject-introspection
   
   version: ""
@@ -121,14 +86,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libressl
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: hwids
+  name: acl
   
   version: ""
 - 
@@ -146,17 +111,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: zlib
+  name: phodav
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libressl
+  name: jpeg
   
   version: ""
 - 
@@ -167,26 +132,61 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
+  category: x11-libs
   description: ""
   license: ""
-  name: qemu
+  name: libva
   
   version: ""
 - 
-  category: sys-auth
+  category: media-libs
   description: ""
   license: ""
-  name: polkit
-  
-  version: 0.110-r1
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: phodav
+  name: gst-plugins-good
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: 0.17.7
 uri:
 - https://www.spice-space.org/download/gtk/spice-gtk-0.37.tar.bz2
 use_flags:

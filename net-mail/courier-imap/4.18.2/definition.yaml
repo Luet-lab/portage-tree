@@ -15,17 +15,17 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
-  
-  version: ""
-- 
   category: net-mail
   description: ""
   license: ""
   name: bincimap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
   
   version: ""
 description: An IMAP daemon designed specifically for maildirs
@@ -33,31 +33,24 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: fam
+  name: gnutls
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gdbm
+  name: courier-authlib
   
-  version: 1.8.0
+  version: 0.66.4
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
+  name: openssl
   
   version: ""
 - 
@@ -68,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: courier-authlib
+  name: libressl
   
-  version: 0.66.4
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -89,19 +82,26 @@ requires:
   
   version: 0.00-r8
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gnutls
+  name: db
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: openssl
+  name: fam
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
 uri:
 - mirror://sourceforge/courier/courier-imap-4.18.2.tar.bz2
 use_flags:

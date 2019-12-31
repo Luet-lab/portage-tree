@@ -12,12 +12,12 @@ license: GPL-2
 name: mate-screensaver
 requires:
 - 
-  category: gnome-base
+  category: mate-base
   description: ""
   license: ""
-  name: dconf
+  name: mate-session-manager
   
-  version: ""
+  version: "1.6"
 - 
   category: mate-base
   description: ""
@@ -26,24 +26,10 @@ requires:
   
   version: 1.17.0
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "0.30"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86misc
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -57,21 +43,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: shadow
-  
-  version: ""
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-session-manager
-  
-  version: "1.6"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-keyring
+  name: systemd
   
   version: ""
 - 
@@ -82,17 +54,24 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: virtual
   description: ""
   license: ""
-  name: consolekit
+  name: opengl
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: elogind
+  name: pam
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: shadow
   
   version: ""
 - 
@@ -103,12 +82,82 @@ requires:
   
   version: "0.71"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-menus
+  
+  version: 1.21.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-keyring
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: dbus
+  
+  version: "0.30"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: "1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
 - 
   category: mate-base
   description: ""
@@ -134,77 +183,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libXxf86misc
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: cairo
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxklavier
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-menus
-  
-  version: 1.21.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: "1"
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libXxf86vm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri: []

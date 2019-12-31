@@ -12,12 +12,12 @@ license: OPENLDAP GPL-2
 name: openldap
 requires:
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: unixODBC
+  name: openssl
   
-  version: ""
+  version: 1.0.1h-r2
 - 
   category: sys-devel
   description: ""
@@ -26,17 +26,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: lmdb
+  name: e2fsprogs-libs
   
-  version: 0.9.18
+  version: ""
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: openslp
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -44,27 +51,6 @@ requires:
   description: ""
   license: ""
   name: krb5
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h-r2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
   
   version: ""
 - 
@@ -78,35 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: 1.5.3
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: openslp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: cyrus-sasl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
   
   version: ""
 - 
@@ -117,17 +75,59 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
   license: ""
-  name: perl
+  name: db
   
-  version: ""
+  version: "6.0"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: 0.9.18
 - 
   category: sec-policy
   description: ""
   license: ""
   name: selinux-ldap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.5.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri: []

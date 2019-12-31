@@ -1,17 +1,17 @@
 category: net-vpn
 conflicts:
 - 
-  category: net-vpn
-  description: ""
-  license: ""
-  name: libreswan
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: openswan
+  
+  version: ""
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: libreswan
   
   version: ""
 description: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
@@ -19,66 +19,24 @@ license: GPL-2 RSA DES
 name: strongswan
 requires:
 - 
-  category: sys-libs
+  category: net-nds
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ipsec
+  name: openldap
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: openssl
   
-  version: ""
+  version: 0.9.8
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: networkmanager
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.3.1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
+  name: pam
   
   version: ""
 - 
@@ -99,28 +57,7 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.8
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: unbound
+  name: networkmanager
   
   version: ""
 - 
@@ -128,6 +65,69 @@ requires:
   description: ""
   license: ""
   name: iproute2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.3.1
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ipsec
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: unbound
   
   version: ""
 uri:

@@ -5,31 +5,38 @@ license: '|| ( GPL-2 GPL-3 Transmission-OpenSSL-exception ) GPL-2 MIT'
 name: transmission
 requires:
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: openssl
+  name: qtnetwork
   
   version: ""
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: miniupnpc
+  name: systemd
   
-  version: "1.7"
+  version: "209"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
+  
+  version: 0.4.90
 - 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
   
   version: ""
 - 
@@ -43,16 +50,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libevent
   
-  version: ""
+  version: 2.0.10
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libnatpmp
+  name: miniupnpc
   
-  version: ""
+  version: "1.7"
 - 
   category: dev-libs
   description: ""
@@ -61,12 +68,47 @@ requires:
   
   version: "2.32"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.4"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libappindicator
+  name: openssl
   
-  version: 0.4.90
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.100"
 - 
   category: dev-qt
   description: ""
@@ -82,26 +124,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libnatpmp
   
-  version: "0.100"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.10
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -109,34 +137,6 @@ requires:
   name: curl
   
   version: 7.16.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
 uri:
 - https://github.com/transmission/transmission-releases/raw/master/transmission-2.94.tar.xz
 use_flags:

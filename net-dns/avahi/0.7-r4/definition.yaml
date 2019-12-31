@@ -4,14 +4,14 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: howl
+  name: mDNSResponder
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: mDNSResponder
+  name: howl
   
   version: ""
 description: System which facilitates service discovery on a local network
@@ -19,38 +19,10 @@ license: LGPL-2.1
 name: avahi
 requires:
 - 
-  category: acct-user
+  category: sys-libs
   description: ""
   license: ""
-  name: avahi-autoipd
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: avahi-autoipd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdaemon
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: libcap
   
   version: ""
 - 
@@ -58,20 +30,6 @@ requires:
   description: ""
   license: ""
   name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: mono
   
   version: ""
 - 
@@ -110,17 +68,31 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libcap
+  name: qtcore
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: pygobject
+  name: gtk+
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: avahi-autoipd
   
   version: ""
 - 
@@ -134,7 +106,14 @@ requires:
   category: acct-user
   description: ""
   license: ""
-  name: avahi
+  name: avahi-autoipd
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -145,17 +124,38 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-lang
   description: ""
   license: ""
-  name: qtcore
+  name: mono
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: dbus
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libdaemon
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 uri:
