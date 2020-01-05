@@ -6,24 +6,10 @@ license: GPL-2
 name: hplip
 requires:
 - 
-  category: net-print
+  category: dev-libs
   description: ""
   license: ""
-  name: cups
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
+  name: openssl
   
   version: ""
 - 
@@ -34,19 +20,19 @@ requires:
   
   version: 1.2.0-r1
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
   name: PyQt5
   
   version: 5.5.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
 - 
   category: dev-python
   description: ""
@@ -55,17 +41,10 @@ requires:
   
   version: "3.2"
 - 
-  category: media-gfx
+  category: sys-auth
   description: ""
   license: ""
-  name: sane-backends
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
+  name: polkit
   
   version: ""
 - 
@@ -76,13 +55,6 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
-- 
   category: net-print
   description: ""
   license: ""
@@ -90,17 +62,31 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: dbus
+  name: libusb
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: sane-backends
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
   
   version: ""
 - 
@@ -118,10 +104,10 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: net-print
   description: ""
   license: ""
-  name: notify2
+  name: cups
   
   version: ""
 - 
@@ -131,6 +117,20 @@ requires:
   name: pillow
   
   version: 3.1.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: notify2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
 uri:
 - mirror://sourceforge/hplip/hplip-3.18.12.tar.gz
 - https://dev.gentoo.org/~billie/distfiles/hplip-3.18.12-patches-1.tar.xz

@@ -5,12 +5,33 @@ license: GPL-2
 name: mixxx
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: portaudio
+  name: libmp4v2
   
-  version: 19_pre
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -19,10 +40,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: "(\tmedia-libs"
   description: ""
   license: ""
-  name: hidapi
+  name: opusfile
   
   version: ""
 - 
@@ -33,80 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: media-video
   description: ""
   license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: ffmpeg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libshout
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
+  name: chromaprint
   
   version: ""
 - 
@@ -127,28 +85,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmp4v2
-  
-  version: ""
-- 
-  category: "(\tmedia-libs"
-  description: ""
-  license: ""
-  name: opusfile
+  name: libid3tag
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
+  name: qtgui
   
   version: ""
 - 
@@ -166,80 +110,45 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: portmidi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
+  name: qtxml
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libmad
+  name: libvorbis
   
   version: ""
 - 
-  category: media-video
+  category: media-libs
   description: ""
   license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: faad2
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
+  name: qtwidgets
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: chromaprint
+  name: rubberband
   
   version: ""
 - 
-  category: media-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: libid3tag
+  name: fftw
   
   version: ""
 - 
@@ -253,7 +162,49 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: rubberband
+  name: portaudio
+  
+  version: 19_pre
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: portmidi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
   
   version: ""
 - 
@@ -264,10 +215,59 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hidapi
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: faad2
+  name: libshout
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 uri:

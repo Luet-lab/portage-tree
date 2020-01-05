@@ -5,19 +5,12 @@ license: GPL-3+
 name: gnome-calendar
 requires:
 - 
-  category: gnome-base
+  category: net-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gnome-online-accounts
   
-  version: 3.21.2
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: evolution-data-server
-  
-  version: 3.17.1
+  version: 3.2.0
 - 
   category: net-libs
   description: ""
@@ -33,6 +26,13 @@ requires:
   
   version: 3.26.1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.58.0
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -40,12 +40,12 @@ requires:
   
   version: 3.22.0
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libgweather
+  name: geoclue
   
-  version: 3.27.2
+  version: "2.4"
 - 
   category: sci-geosciences
   description: ""
@@ -61,26 +61,26 @@ requires:
   
   version: 1.0.1
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 3.21.2
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: 3.17.1
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libgweather
   
-  version: 2.58.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: 3.2.0
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: "2.4"
+  version: 3.27.2
 uri: []
 use_flags:
 - gtk-doc

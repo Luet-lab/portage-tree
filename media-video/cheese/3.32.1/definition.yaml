@@ -5,12 +5,12 @@ license: GPL-2+
 name: cheese
 requires:
 - 
-  category: media-video
+  category: gnome-base
   description: ""
   license: ""
-  name: gnome-video-effects
+  name: gnome-desktop
   
-  version: ""
+  version: 2.91.6
 - 
   category: x11-libs
   description: ""
@@ -36,6 +36,13 @@ requires:
   category: media-plugins
   description: ""
   license: ""
+  name: gst-plugins-jpeg
+  
+  version: "1.4"
+- 
+  category: media-plugins
+  description: ""
+  license: ""
   name: gst-plugins-vpx
   
   version: "1.4"
@@ -47,12 +54,33 @@ requires:
   
   version: 2.39.90
 - 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-v4l2
+  
+  version: "1.4"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: gst-plugins-bad
   
-  version: "0.26"
+  version: "1.4"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: gnome-video-effects
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -64,44 +92,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
-  
-  version: "1.4"
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-v4l2
-  
-  version: "1.4"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 2.91.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: clutter-gst
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: clutter-gst
+  name: libcanberra
   
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-jpeg
-  
-  version: "1.4"
+  version: "0.26"
 uri: []
 use_flags:
 - +introspection

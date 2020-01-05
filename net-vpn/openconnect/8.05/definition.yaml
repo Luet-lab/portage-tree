@@ -12,6 +12,13 @@ license: LGPL-2.1 GPL-2
 name: openconnect
 requires:
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: stoken
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -19,31 +26,24 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: trousers
+  name: libxml2
   
   version: ""
 - 
-  category: app-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: ca-certificates
+  name: zlib
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: pcsc-lite
+  name: libressl
   
   version: ""
 - 
@@ -61,31 +61,45 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libproxy
+  name: openssl
   
-  version: ""
+  version: 1.0.1h
 - 
   category: app-crypt
   description: ""
   license: ""
-  name: stoken
+  name: trousers
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libxml2
+  name: libintl
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libressl
+  name: pcsc-lite
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: ca-certificates
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libproxy
   
   version: ""
 - 
@@ -95,20 +109,6 @@ requires:
   name: lz4
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h
 uri:
 - ftp://ftp.infradead.org/pub/openconnect/openconnect-8.05.tar.gz
 - ftp://ftp.infradead.org/pub/vpnc-scripts/vpnc-scripts-20190611.tar.gz

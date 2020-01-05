@@ -12,10 +12,31 @@ license: GPL-2+ LGPL-2.1+
 name: syslog-ng
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: systemd
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: "0.9"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libesmtp
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnet
   
   version: ""
 - 
@@ -26,19 +47,12 @@ requires:
   
   version: "7.6"
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: openssl
+  name: libdbi
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
+  version: 0.9.0
 - 
   category: net-misc
   description: ""
@@ -50,9 +64,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-c
+  name: librdkafka
   
-  version: "0.9"
+  version: 1.0.0
 - 
   category: net-analyzer
   description: ""
@@ -61,10 +75,59 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "6.1"
+- 
   category: net-libs
   description: ""
   license: ""
-  name: libnet
+  name: rabbitmq-c
+  
+  version: 0.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmaxminddb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mongo-c-driver
+  
+  version: 1.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
+  
+  version: 0.11.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -78,72 +141,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: "6.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmaxminddb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librdkafka
-  
-  version: 1.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: 0.11.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: ivykis
   
   version: 0.42.4
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: 0.9.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
-  
-  version: 1.2.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libesmtp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rabbitmq-c
-  
-  version: 0.8.0
 uri:
 - https://github.com/balabit/syslog-ng/releases/download/syslog-ng-3.24.1/syslog-ng-3.24.1.tar.gz
 use_flags:

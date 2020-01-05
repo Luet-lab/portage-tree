@@ -13,6 +13,13 @@ license: LGPL-2.1
 name: telepathy-gabble
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -23,9 +30,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: dbus-glib
   
-  version: ""
+  version: "0.82"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-glib
+  
+  version: 0.19.9
 - 
   category: dev-db
   description: ""
@@ -37,16 +51,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libressl
   
-  version: "2.44"
+  version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: telepathy-glib
+  name: libsoup
   
-  version: 0.19.9
+  version: "2.42"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -58,23 +79,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: openssl
   
   version: 0.9.8g
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
 - 
   category: net-libs
   description: ""
@@ -89,13 +96,6 @@ requires:
   name: gtksourceview
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.82"
 uri:
 - https://telepathy.freedesktop.org/releases/telepathy-gabble/telepathy-gabble-0.18.4.tar.gz
 use_flags:

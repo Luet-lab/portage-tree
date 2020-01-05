@@ -1,6 +1,20 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-systemd-integration
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: <sys-libs
   description: ""
   license: ""
@@ -15,13 +29,6 @@ conflicts:
   
   version: 2.02.103
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: <sec-policy
   description: ""
   license: ""
@@ -29,17 +36,10 @@ conflicts:
   
   version: 2.20120725-r10
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: gentoo-systemd-integration
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: udev
   
   version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
@@ -47,12 +47,19 @@ license: LGPL-2.1 MIT GPL-2
 name: eudev
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: gobject-introspection
+  name: util-linux
   
-  version: "1.38"
+  version: "2.20"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "16"
 - 
   category: sys-libs
   description: ""
@@ -68,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: util-linux
+  name: gobject-introspection
   
-  version: "2.20"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "16"
+  version: "1.38"
 - 
   category: acct-group
   description: ""

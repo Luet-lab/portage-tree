@@ -19,12 +19,19 @@ license: BSD
 name: heimdal
 requires:
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: gdbm
+  name: sqlite
   
-  version: 1.10-r1
+  version: 3.8.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.1h-r2
 - 
   category: dev-libs
   description: ""
@@ -40,6 +47,13 @@ requires:
   
   version: 4.8.30-r1
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.10-r1
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -50,7 +64,28 @@ requires:
   category: sys-libs
   description: ""
   license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
   name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: 6.2_p5-r1
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: openafs
   
   version: ""
 - 
@@ -68,40 +103,12 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-kerberos
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h-r2
-- 
   category: sys-libs
   description: ""
   license: ""
   name: e2fsprogs-libs
   
   version: 1.42.9
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 6.2_p5-r1
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: openafs
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -110,19 +117,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libcap-ng
+  name: selinux-kerberos
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.8.2
 uri:
 - https://github.com/heimdal/heimdal/releases/download/heimdal-7.5.0/heimdal-7.5.0.tar.gz
 use_flags:

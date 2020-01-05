@@ -5,10 +5,17 @@ license: GPL-2
 name: quota
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc[-rpc(-)]
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
-  name: rpcsvc-proto
+  name: libtirpc
   
   version: ""
 - 
@@ -19,19 +26,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: net-nds
   description: ""
   license: ""
   name: openldap
   
   version: 2.3.35
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -47,24 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: glibc[-rpc(-)]
+  name: e2fsprogs
   
   version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
+  name: rpcsvc-proto
   
   version: ""
 uri:

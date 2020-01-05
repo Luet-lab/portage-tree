@@ -4,6 +4,13 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+  name: mpich
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: mpich2
   
   version: ""
@@ -21,38 +28,10 @@ mpi
   name: pmix
   
   version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpich
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpiexec
-  
-  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -78,7 +57,7 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: infinipath-psm
+  name: ofed
   
   version: ""
 - 
@@ -92,14 +71,35 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
+  name: librdmacm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
   
   version: ""
 - 
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
   
   version: ""
 - 
@@ -109,13 +109,6 @@ requires:
   name: jre
   
   version: "1.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-2.0.4.tar.bz2
 use_flags:

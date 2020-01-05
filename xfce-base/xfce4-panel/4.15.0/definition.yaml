@@ -5,20 +5,6 @@ license: GPL-2+ LGPL-2.1+
 name: xfce4-panel
 requires:
 - 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.13"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: xfconf
-  
-  version: "4.13"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -26,19 +12,19 @@ requires:
   
   version: "1"
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libwnck
+  name: garcon
   
-  version: ""
+  version: "0.5"
 - 
   category: xfce-base
   description: ""
   license: ""
-  name: exo
+  name: xfconf
   
-  version: 0.11.2
+  version: "4.13"
 - 
   category: dev-libs
   description: ""
@@ -57,16 +43,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libwnck
   
   version: ""
 - 
   category: xfce-base
   description: ""
   license: ""
-  name: garcon
+  name: exo
   
-  version: "0.5"
+  version: 0.11.2
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.13"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 uri:
 - https://archive.xfce.org/src/xfce/xfce4-panel/4.15/xfce4-panel-4.15.0.tar.bz2
 use_flags:

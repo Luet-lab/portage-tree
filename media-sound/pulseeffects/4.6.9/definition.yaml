@@ -9,30 +9,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.56"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: 1.12.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: boost
   
   version: "1.41"
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: libsigc++
+  name: glibmm
   
-  version: "2.10"
+  version: 2.56.0
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-bs2b
+  
+  version: 1.12.0
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-ladspa
+  
+  version: 1.12.0
 - 
   category: media-libs
   description: ""
@@ -44,42 +44,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: lsp-plugins
-  
-  version: 1.1.7
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-bs2b
-  
-  version: 1.12.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libebur128
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.56.0
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "3.20"
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-ladspa
+  name: gst-plugins-bad
   
   version: 1.12.0
 - 
@@ -93,23 +58,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: zita-convolver
-  
-  version: 3.0.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: rubberband
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.18"
 - 
   category: media-libs
   description: ""
@@ -118,12 +69,19 @@ requires:
   
   version: 1.12.0
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: pulseaudio
   
-  version: 1.12.0
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 - 
   category: media-plugins
   description: ""
@@ -139,6 +97,48 @@ requires:
   
   version: 1.12.0
 - 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: "3.20"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.56"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigc++
+  
+  version: "2.10"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.18"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lsp-plugins
+  
+  version: 1.1.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: 1.12.0
+- 
   category: media-plugins
   description: ""
   license: ""
@@ -149,14 +149,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: rubberband
+  name: zita-convolver
   
-  version: ""
+  version: 3.0.0
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: pulseaudio
+  name: libebur128
   
   version: ""
 uri:

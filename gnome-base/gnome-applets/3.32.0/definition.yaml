@@ -5,19 +5,12 @@ license: GPL-2+ FDL-1.1
 name: gnome-applets
 requires:
 - 
-  category: gnome-base
+  category: gnome-extra
   description: ""
   license: ""
-  name: libgtop
+  name: gucharmap
   
-  version: 2.11.92
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libwnck
-  
-  version: 3.14.1
+  version: 2.33.0
 - 
   category: x11-libs
   description: ""
@@ -25,13 +18,6 @@ requires:
   name: libnotify
   
   version: "0.7"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.1.2
 - 
   category: x11-themes
   description: ""
@@ -43,9 +29,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libwnck
   
-  version: 3.20.0
+  version: 3.14.1
 - 
   category: dev-libs
   description: ""
@@ -53,6 +39,41 @@ requires:
   name: glib
   
   version: 2.44.0
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgtop
+  
+  version: 2.11.92
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: 0.9.4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.20.0
 - 
   category: gnome-base
   description: ""
@@ -75,27 +96,6 @@ requires:
   
   version: ""
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.5.0
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gucharmap
-  
-  version: 2.33.0
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -103,12 +103,12 @@ requires:
   
   version: "0.74"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: polkit
+  name: libxml2
   
-  version: "0.97"
+  version: 2.5.0
 uri: []
 use_flags:
 - ipv6

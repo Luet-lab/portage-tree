@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -14,13 +21,6 @@ conflicts:
   name: genkernel
   
   version: 3.5.1.1
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
 - 
   category: sys-fs
   description: ""
@@ -36,19 +36,19 @@ conflicts:
   
   version: "67"
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: <sys-kernel
   description: ""
   license: ""
   name: bliss-initramfs
   
   version: 7.1.0
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
@@ -61,10 +61,45 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.8.2
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: udev
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
   
   version: ""
 - 
@@ -78,7 +113,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: awk
   
   version: ""
 - 
@@ -103,34 +138,6 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.8.2
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -145,24 +152,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-process
   description: ""
   license: ""
-  name: mdadm
+  name: procps
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
+  name: modutils
   
   version: ""
 uri:

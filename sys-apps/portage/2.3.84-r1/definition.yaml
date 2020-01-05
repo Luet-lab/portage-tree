@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-admin
-  description: ""
-  license: ""
-  name: logrotate
-  
-  version: 3.8.0
-- 
   category: <app-portage
   description: ""
   license: ""
@@ -21,31 +14,17 @@ conflicts:
   name: gentoolkit
   
   version: 0.4.6
+- 
+  category: <app-admin
+  description: ""
+  license: ""
+  name: logrotate
+  
+  version: 3.8.0
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: openpgp-keys-gentoo-release
-  
-  version: "20180706"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: python-exec
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sandbox
-  
-  version: "2.2"
 - 
   category: app-arch
   description: ""
@@ -61,12 +40,33 @@ requires:
   
   version: "14"
 - 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-bin
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: sandbox
   
-  version: ""
+  version: "2.2"
 - 
   category: app-misc
   description: ""
@@ -75,12 +75,19 @@ requires:
   
   version: 0.1.17
 - 
-  category: sys-freebsd
+  category: sys-apps
   description: ""
   license: ""
-  name: freebsd-bin
+  name: install-xattr
   
-  version: ""
+  version: "0.3"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
 - 
   category: sys-libs
   description: ""
@@ -92,23 +99,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: install-xattr
-  
-  version: "0.3"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: sed
   
   version: 4.0.5
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
 - 
   category: app-admin
   description: ""
@@ -121,6 +114,13 @@ requires:
   description: ""
   license: ""
   name: gnupg-2.2.4-r2[ssl(-)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 uri: []

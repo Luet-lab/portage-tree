@@ -12,12 +12,26 @@ license: BSD GPL-2
 name: shadow
 requires:
 - 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: "2.6"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: skey
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libsemanage
   
-  version: "1.28"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -32,13 +46,6 @@ requires:
   name: acl
   
   version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2.6"
 - 
   category: sys-libs
   description: ""
@@ -61,19 +68,12 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: skey
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libsemanage
+  name: libselinux
   
-  version: ""
+  version: "1.28"
 - 
   category: sys-auth
   description: ""

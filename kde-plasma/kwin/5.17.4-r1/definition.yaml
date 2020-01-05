@@ -5,12 +5,26 @@ license: GPL-2+
 name: kwin
 requires:
 - 
-  category: dev-qt
+  category: x11-libs
   description: ""
   license: ""
-  name: qtmultimedia
+  name: libICE
   
-  version: 5.12.3
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.7.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kirigami
+  
+  version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
@@ -22,126 +36,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: kwindowsystem
   
   version: 5.64.0
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libepoxy
+  name: qtdeclarative
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-keysyms
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwayland
-  
-  version: 5.64.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.7.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-image
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfigwidgets
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kiconthemes
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kinit
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: plasma
-  
-  version: 5.64.0
+  version: 5.12.3
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libX11
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kactivities
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: 5.64.0
-- 
-  category: kde-plasma
-  description: ""
-  license: ""
-  name: kdecoration
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
   
   version: ""
 - 
@@ -155,35 +64,35 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kcmutils
   
   version: 5.64.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: 5.12.3
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: xcb-util-wm
   
-  version: "1.10"
+  version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
+  name: kconfig
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdeclarative
   
   version: 5.64.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols2
+  name: qtgui
   
   version: 5.12.3
 - 
@@ -194,12 +103,40 @@ requires:
   
   version: 5.12.3
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libinput
+  name: libepoxy
   
-  version: "1.9"
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kpackage
+  
+  version: 5.64.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-cursor
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: 5.64.0
 - 
   category: media-libs
   description: ""
@@ -211,7 +148,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kglobalaccel
+  name: kxmlgui
+  
+  version: 5.64.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: 5.12.3
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kiconthemes
   
   version: 5.64.0
 - 
@@ -225,28 +183,56 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols
+  name: qtsensors
   
   version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwindowsystem
+  name: kglobalaccel
   
   version: 5.64.0
+- 
+  category: kde-plasma
+  description: ""
+  license: ""
+  name: kdecoration
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsensors
+  name: qtx11extras
   
   version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwayland
+  
+  version: 5.64.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-wm
+  name: libSM
   
   version: ""
 - 
@@ -260,23 +246,16 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcmutils
+  name: kcoreaddons
   
   version: 5.64.0
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtscript
+  name: knotifications
   
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: 5.12.3
+  version: 5.64.0
 - 
   category: kde-plasma
   description: ""
@@ -285,19 +264,47 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: "1.2"
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kservice
+  
+  version: 5.64.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libXi
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcap
+  name: libxcb
   
-  version: ""
+  version: "1.10"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols2
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
@@ -313,73 +320,66 @@ requires:
   
   version: 5.64.0
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtgui
+  name: knewstuff
   
-  version: 5.12.3
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: plasma
+  
+  version: 5.64.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util-cursor
+  name: xcb-util-keysyms
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdeclarative
+  name: kwidgetsaddons
   
   version: 5.64.0
 - 
-  category: kde-frameworks
+  category: x11-libs
   description: ""
   license: ""
-  name: knotifications
+  name: xcb-util-image
   
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kpackage
-  
-  version: 5.64.0
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdeclarative
+  name: qtquickcontrols
   
   version: 5.12.3
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libudev
+  name: libinput
   
-  version: ""
+  version: "1.9"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: libdrm
   
   version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kirigami
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
+  name: kactivities
   
   version: 5.64.0
 - 
@@ -393,23 +393,23 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knewstuff
+  name: ki18n
   
   version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
+  name: kinit
   
   version: 5.64.0
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: wayland
+  name: qtdbus
   
-  version: "1.2"
+  version: 5.12.3
 uri: []
 use_flags:
 - caps

@@ -11,13 +11,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: courier
   
   version: ""
@@ -40,6 +33,13 @@ conflicts:
   description: ""
   license: ""
   name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
   
   version: ""
 - 
@@ -67,14 +67,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: opensmtpd
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+mailer
   
   version: ""
 - 
@@ -89,17 +89,10 @@ license: GPL-3
 name: msmtp
 requires:
 - 
-  category: virtual
+  category: app-crypt
   description: ""
   license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
+  name: libsecret
   
   version: ""
 - 
@@ -110,17 +103,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-mail
   description: ""
   license: ""
-  name: gnutls[idn?]
+  name: mailbase
   
   version: ""
 - 
-  category: app-crypt
+  category: acct-group
   description: ""
   license: ""
-  name: libsecret
+  name: msmtpd
   
   version: ""
 - 
@@ -131,17 +124,24 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls[idn?]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
   category: net-dns
   description: ""
   license: ""
   name: libidn2
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: msmtpd
   
   version: ""
 uri:

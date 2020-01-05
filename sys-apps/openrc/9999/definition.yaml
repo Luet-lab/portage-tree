@@ -1,12 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-shells
+  category: <sys-process
   description: ""
   license: ""
-  name: gentoo-zsh-completions
+  name: procps
   
-  version: "20180228"
+  version: 3.3.9-r2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: ""
 - 
   category: <sys-apps
   description: ""
@@ -15,13 +22,6 @@ conflicts:
   
   version: 2.1-r1
 - 
-  category: <sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: 3.3.9-r2
-- 
   category: <sys-fs
   description: ""
   license: ""
@@ -29,12 +29,12 @@ conflicts:
   
   version: "27"
 - 
-  category: sys-apps
+  category: <app-shells
   description: ""
   license: ""
-  name: sysvinit
+  name: gentoo-zsh-completions
   
-  version: ""
+  version: "20180228"
 - 
   category: <app-shells
   description: ""
@@ -47,27 +47,6 @@ license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -75,12 +54,12 @@ requires:
   
   version: "2.6"
 - 
-  category: sec-policy
+  category: app-shells
   description: ""
   license: ""
-  name: selinux-base-policy
+  name: bash
   
-  version: 2.20170204-r4
+  version: ""
 - 
   category: virtual
   description: ""
@@ -92,21 +71,21 @@ requires:
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-openrc
+  name: selinux-base-policy
   
   version: 2.20170204-r4
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit-2.86-r6[selinux?]
   
   version: ""
 - 
@@ -124,10 +103,31 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: sys-apps
   description: ""
   license: ""
-  name: bash
+  name: sysvinit-2.86-r6[selinux?]
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-openrc
+  
+  version: 2.20170204-r4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
   
   version: ""
 uri: []

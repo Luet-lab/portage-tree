@@ -6,19 +6,19 @@ license: GPL-2+
 name: xfce4-places-plugin
 requires:
 - 
-  category: dev-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: glib
+  name: exo
   
-  version: "2.42"
+  version: "0.6"
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: gtk+
+  name: libxfce4ui
   
-  version: "3.22"
+  version: "4.13"
 - 
   category: xfce-base
   description: ""
@@ -34,12 +34,12 @@ requires:
   
   version: "4.12"
 - 
-  category: xfce-base
+  category: dev-libs
   description: ""
   license: ""
-  name: xfconf
+  name: glib
   
-  version: "4.12"
+  version: "2.42"
 - 
   category: x11-libs
   description: ""
@@ -51,16 +51,9 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: exo
+  name: xfconf
   
-  version: "0.6"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.13"
+  version: "4.12"
 - 
   category: x11-libs
   description: ""
@@ -68,6 +61,13 @@ requires:
   name: libnotify
   
   version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.22"
 uri:
 - https://archive.xfce.org/src/panel-plugins/xfce4-places-plugin/1.8/xfce4-places-plugin-1.8.1.tar.bz2
 use_flags:

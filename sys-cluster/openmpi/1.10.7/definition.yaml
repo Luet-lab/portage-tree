@@ -4,13 +4,6 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
   name: mpich2
   
   version: ""
@@ -18,14 +11,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+  name: mpich
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: mpiexec
+  name: pmix
   
   version: ""
 - 
@@ -40,55 +33,6 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.21
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
   category: sys-fabric
   description: ""
   license: ""
@@ -99,7 +43,7 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: torque
+  name: slurm
   
   version: ""
 - 
@@ -116,6 +60,55 @@ requires:
   name: jre
   
   version: "1.6"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.21
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-1.10.7.tar.bz2
 use_flags:

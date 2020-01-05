@@ -5,24 +5,10 @@ license: GPL-2
 name: qingy
 requires:
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: 0.75-r11
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
+  name: openssl
   
   version: ""
 - 
@@ -33,19 +19,12 @@ requires:
   
   version: 1.2.1
 - 
-  category: app-editors
+  category: sys-libs
   description: ""
   license: ""
-  name: emacs
+  name: pam
   
-  version: "23.1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
+  version: 0.75-r11
 - 
   category: x11-libs
   description: ""
@@ -61,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -68,12 +54,26 @@ requires:
   
   version: 5.7-r7
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: libX11
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 uri:
 - mirror://sourceforge/qingy/qingy-1.0.0.tar.bz2
 - mirror://gentoo/qingy-gentoo-theme-2.1.tar.bz2

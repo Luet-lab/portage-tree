@@ -1,6 +1,13 @@
 category: mail-client
 conflicts:
 - 
+  category: mail-client
+  description: ""
+  license: ""
+  name: mailx
+  
+  version: ""
+- 
   category: net-mail
   description: ""
   license: ""
@@ -14,24 +21,10 @@ conflicts:
   name: nail
   
   version: ""
-- 
-  category: mail-client
-  description: ""
-  license: ""
-  name: mailx
-  
-  version: ""
 description: Enhanced mailx-compatible mail client based on Hierloom mailx (nail)
 license: BSD BSD-4 ISC RSA
 name: s-nail
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -47,10 +40,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: net-dns
   description: ""
   license: ""
-  name: ncurses
+  name: libidn2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: sys-libs
   description: ""
   license: ""
-  name: libidn2
+  name: ncurses
   
   version: ""
 uri:

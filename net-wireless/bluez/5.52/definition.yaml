@@ -5,12 +5,47 @@ license: GPL-2+ LGPL-2.1+
 name: bluez
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: alsa-lib
   
-  version: "2.28"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "172"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-bluetooth
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: "1"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
+  
+  version: "20121202.2"
 - 
   category: dev-libs
   description: ""
@@ -26,13 +61,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -40,12 +68,19 @@ requires:
   
   version: "1.6"
 - 
-  category: sec-policy
+  category: dev-python
   description: ""
   license: ""
-  name: selinux-bluetooth
+  name: pygobject
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.28"
 - 
   category: net-print
   description: ""
@@ -61,47 +96,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: systemd
+  name: readline
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: "20121202.2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "172"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: "1"
 uri:
 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.52.tar.xz
 use_flags:

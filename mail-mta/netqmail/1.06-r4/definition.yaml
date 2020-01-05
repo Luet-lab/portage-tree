@@ -1,20 +1,6 @@
 category: mail-mta
 conflicts:
 - 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail
-  
-  version: ""
-- 
   category: <mail-mta
   description: ""
   license: ""
@@ -25,14 +11,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: courier
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: mini-qmail
   
   version: ""
 - 
@@ -46,14 +32,35 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: postfix
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: sendmail
+  
+  version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail
   
   version: ""
 - 
@@ -74,25 +81,18 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: qmail-ldap
   
   version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
 license: public-domain
 name: netqmail
 requires:
 - 
-  category: net-mail
+  category: virtual
   description: ""
   license: ""
-  name: queue-repair
+  name: checkpassword
   
   version: ""
 - 
@@ -106,9 +106,58 @@ requires:
   category: acct-user
   description: ""
   license: ""
+  name: alias
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
   name: qmailp
   
   version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmails
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmaild
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmailr
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: queue-repair
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: dot-forward
+  
+  version: 0.71-r3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ucspi-ssl
+  
+  version: 0.70-r1
 - 
   category: dev-libs
   description: ""
@@ -124,75 +173,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ucspi-ssl
-  
-  version: 0.70-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: checkpassword
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmaild
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmails
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: net-mail
   description: ""
   license: ""
-  name: dot-forward
+  name: cmd5checkpw
   
-  version: 0.71-r3
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: qmailq
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ucspi-tcp
-  
-  version: 0.88-r17
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: alias
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: groff
-  
-  version: ""
+  version: "0.30"
 - 
   category: acct-group
   description: ""
@@ -208,6 +194,20 @@ requires:
   
   version: ""
 - 
+  category: acct-user
+  description: ""
+  license: ""
+  name: qmailq
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ucspi-tcp
+  
+  version: 0.88-r17
+- 
   category: virtual
   description: ""
   license: ""
@@ -215,17 +215,17 @@ requires:
   
   version: ""
 - 
-  category: net-mail
+  category: dev-libs
   description: ""
   license: ""
-  name: cmd5checkpw
+  name: libressl
   
-  version: "0.30"
+  version: ""
 - 
-  category: acct-user
+  category: sys-apps
   description: ""
   license: ""
-  name: qmailr
+  name: groff
   
   version: ""
 uri:

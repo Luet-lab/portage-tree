@@ -5,6 +5,13 @@ license: GPL-2
 name: mysql-workbench
 requires:
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
   category: dev-cpp
   description: ""
   license: ""
@@ -12,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: atk
+  name: gtkmm
   
   version: ""
 - 
@@ -25,13 +32,6 @@ requires:
   name: cairo
   
   version: 1.5.12
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: ""
 - 
   category: sci-libs
   description: ""
@@ -47,6 +47,34 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: "2.14"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigc++
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: ctemplate
+  
+  version: "0.95"
+- 
   category: dev-cpp
   description: ""
   license: ""
@@ -61,55 +89,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.6.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libzip
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: "2.14"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -120,7 +99,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: atk
   
   version: ""
 - 
@@ -130,6 +109,20 @@ requires:
   name: libssh
   
   version: 0.8.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -145,12 +138,19 @@ requires:
   
   version: 1.55.0
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: ctemplate
+  name: libxml2
   
-  version: "0.95"
+  version: 2.6.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: ""
 uri:
 - mirror://mysql/Downloads/MySQLGUITools/mysql-workbench-community-8.0.17-src.tar.gz
   https://www.antlr.org/download/antlr-4.7.1-complete.jar

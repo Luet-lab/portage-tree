@@ -4,7 +4,7 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: mailx
+  name: nmh
   
   version: ""
 - 
@@ -18,14 +18,14 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: nail
+  name: mailx
   
   version: ""
 - 
   category: mail-client
   description: ""
   license: ""
-  name: nmh
+  name: nail
   
   version: ""
 description: A useful collection of mail servers, clients, and filters
@@ -33,10 +33,17 @@ license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: readline
+  name: gsasl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
   
   version: ""
 - 
@@ -47,6 +54,48 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: kyotocabinet
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -54,24 +103,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: gnutls
+  name: postgresql
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-db
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: tokyocabinet
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libltdl
+  name: ncurses
   
   version: ""
 - 
@@ -89,17 +138,24 @@ requires:
   
   version: "23.1"
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gdbm
+  name: gnutls
   
   version: ""
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: kyotocabinet
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
   
   version: ""
 - 
@@ -107,62 +163,6 @@ requires:
   description: ""
   license: ""
   name: pam
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
   
   version: ""
 uri:

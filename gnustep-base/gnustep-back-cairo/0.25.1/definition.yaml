@@ -4,55 +4,20 @@ conflicts:
   category: gnustep-base
   description: ""
   license: ""
-  name: gnustep-back-art
+  name: gnustep-back-xlib
   
   version: ""
 - 
   category: gnustep-base
   description: ""
   license: ""
-  name: gnustep-back-xlib
+  name: gnustep-back-art
   
   version: ""
 description: Cairo back-end component for the GNUstep GUI Library
 license: LGPL-2.1
 name: gnustep-back-cairo
 requires:
-- 
-  category: gnustep-base
-  description: ""
-  license: ""
-  name: gnustep-gui
-  
-  version: "0.25"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -64,35 +29,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXft
+  name: libXmu
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo-1.2.0[X]
+  name: libXrender
   
   version: ""
+- 
+  category: gnustep-base
+  description: ""
+  license: ""
+  name: gnustep-gui
+  
+  version: "0.25"
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
   
   version: ""
 - 
@@ -106,7 +64,35 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo-1.2.0[X]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
   
   version: ""
 - 
@@ -116,6 +102,20 @@ requires:
   name: freetype
   
   version: 2.1.9
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
 uri:
 - ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-back-0.25.1.tar.gz
 use_flags:

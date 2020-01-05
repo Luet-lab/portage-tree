@@ -4,14 +4,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: percona-server
+  name: mariadb
   
   version: ""
 - 
@@ -32,14 +25,21 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
+  name: mariadb-connector-c
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-connector-c
+  name: mariadb-galera
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: percona-server
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
@@ -47,19 +47,12 @@ license: GPL-2
 name: mysql
 requires:
 - 
-  category: acct-user
+  category: dev-libs
   description: ""
   license: ""
-  name: mysql
+  name: libevent
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: "4"
 - 
   category: sys-apps
   description: ""
@@ -71,84 +64,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: ncurses
   
-  version: 1.2.3
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: jemalloc
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: mecab
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
   
   version: ""
 - 
@@ -159,17 +82,24 @@ requires:
   
   version: "1.3"
 - 
-  category: dev-util
+  category: app-text
   description: ""
   license: ""
-  name: google-perftools
+  name: mecab
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: zlib
+  
+  version: 1.2.3
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
   
   version: ""
 - 
@@ -179,6 +109,62 @@ requires:
   name: lz4
   
   version: 0_p131
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
 - 
   category: sys-process
   description: ""
@@ -194,10 +180,24 @@ requires:
   
   version: 1.0.0
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libressl
+  name: curl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
   
   version: ""
 uri:

@@ -5,34 +5,6 @@ license: GPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0 public-domain
 name: sddm
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: 5.9.4
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -40,12 +12,12 @@ requires:
   
   version: 5.9.4
 - 
-  category: dev-qt
+  category: x11-base
   description: ""
   license: ""
-  name: qtnetwork
+  name: xorg-server
   
-  version: 5.9.4
+  version: 1.15.1
 - 
   category: x11-libs
   description: ""
@@ -61,10 +33,38 @@ requires:
   
   version: 0.9.4
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: 5.9.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.9.4
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
   
   version: ""
 - 
@@ -75,19 +75,19 @@ requires:
   
   version: ""
 - 
-  category: x11-base
+  category: dev-qt
   description: ""
   license: ""
-  name: xorg-server
+  name: qtdbus
   
-  version: 1.15.1
+  version: 5.9.4
 - 
-  category: sys-auth
+  category: dev-qt
   description: ""
   license: ""
-  name: elogind
+  name: qtnetwork
   
-  version: ""
+  version: 5.9.4
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.18.1/sddm-0.18.1.tar.xz
 use_flags:

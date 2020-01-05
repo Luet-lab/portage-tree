@@ -5,26 +5,19 @@ license: GPL-2
 name: krfb
 requires:
 - 
-  category: kde-frameworks
+  category: dev-qt
   description: ""
   license: ""
-  name: kconfig
+  name: qtnetwork
   
-  version: 5.60.0
+  version: 5.12.3
 - 
-  category: kde-frameworks
+  category: x11-libs
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: libX11
   
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwindowsystem
-  
-  version: 5.60.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -36,6 +29,13 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
+  name: kdnssd
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
   name: knotifications
   
   version: 5.60.0
@@ -43,21 +43,56 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwidgets
   
   version: 5.12.3
 - 
-  category: net-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libvncserver
+  name: qtx11extras
   
-  version: 0.9.9
+  version: 5.12.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: xdg-desktop-portal
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcrash
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.60.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libxcb
   
   version: ""
 - 
@@ -75,33 +110,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-qt
   description: ""
   license: ""
-  name: xdg-desktop-portal
+  name: qtdbus
   
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: 5.60.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: 5.60.0
+  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
@@ -120,7 +134,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcrash
+  name: kcoreaddons
   
   version: 5.60.0
 - 
@@ -134,51 +148,37 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdnssd
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kwallet
   
   version: 5.60.0
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtdbus
+  name: kwindowsystem
   
-  version: 5.12.3
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.60.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtgui
   
   version: 5.12.3
 - 
-  category: dev-qt
+  category: net-libs
   description: ""
   license: ""
-  name: qtwidgets
+  name: libvncserver
   
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: 5.12.3
+  version: 0.9.9
 uri: []
 use_flags:
 - wayland

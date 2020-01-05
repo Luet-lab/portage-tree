@@ -5,17 +5,17 @@ license: GPL-2 LGPL-2.1
 name: inkscape
 requires:
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: libxml2
+  name: glibmm
   
-  version: 2.6.20
+  version: 2.54.1
 - 
-  category: media-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libpng
+  name: lxml
   
   version: ""
 - 
@@ -26,38 +26,66 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: app-text
   description: ""
   license: ""
-  name: gnome-vfs
+  name: aspell
   
-  version: "2.0"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvisio
+  
+  version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: libwpg
+  name: dvipsk
   
   version: ""
 - 
-  category: dev-libs
+  category: app-office
   description: ""
   license: ""
-  name: dbus-glib
+  name: dia
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: 0.26.0
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: cairomm
+  
+  version: 1.9.8
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: potrace
   
   version: ""
 - 
   category: media-gfx
   description: ""
   license: ""
-  name: imagemagick
+  name: scour
   
-  version: "7"
+  version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: lcms
+  name: librevenge
   
   version: ""
 - 
@@ -68,47 +96,12 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: texlive-core
-  
-  version: ""
-- 
   category: dev-cpp
   description: ""
   license: ""
   name: gtkmm
   
   version: 2.18.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: 1.0.15
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.10.7
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librevenge
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvisio
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -124,52 +117,59 @@ requires:
   
   version: "2.28"
 - 
-  category: media-gfx
+  category: x11-libs
   description: ""
   license: ""
-  name: potrace
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
+  name: libX11
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: gtkspell
+  name: libwpg
   
   version: ""
 - 
   category: media-gfx
   description: ""
   license: ""
-  name: pstoedit
+  name: imagemagick
   
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: cairomm
-  
-  version: 1.9.8
+  version: "7"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libsigc++
+  name: libxslt
   
-  version: 2.0.12
+  version: 1.0.15
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: popt
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: pango
+  
+  version: "1.24"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
   
   version: ""
 - 
@@ -183,42 +183,21 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: texlive-core
   
   version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: 0.26.0
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.54.1
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: "1.24"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: dvipsk
+  name: libpng
   
   version: ""
 - 
@@ -239,44 +218,65 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: aspell
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: lxml
+  name: gtkspell
   
   version: ""
 - 
   category: media-gfx
   description: ""
   license: ""
-  name: scour
+  name: pstoedit
   
   version: ""
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: numpy
+  name: lcms
   
   version: ""
 - 
-  category: app-office
+  category: dev-libs
   description: ""
   license: ""
-  name: dia
+  name: libsigc++
+  
+  version: 2.0.12
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.6.20
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.10.7
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-vfs
+  
+  version: "2.0"
 uri:
 - https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.92.4.tar.bz2
 use_flags:

@@ -12,24 +12,38 @@ license: GPL-2
 name: cups
 requires:
 - 
-  category: net-libs
+  category: net-dns
   description: ""
   license: ""
-  name: gnutls
+  name: avahi
   
-  version: 2.12.23-r6
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
+  version: 0.6.31-r2
 - 
   category: acct-group
   description: ""
   license: ""
   name: lp
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libpaper
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
   
   version: ""
 - 
@@ -43,63 +57,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
   name: attr
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-cups
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libpaper
   
   version: ""
 - 
@@ -123,6 +81,48 @@ requires:
   name: xinetd
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-cups
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.6.18-r1
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: 0-r1
 uri:
 - https://github.com/apple/cups/releases/download/v2.2.13/cups-2.2.13-source.tar.gz
 use_flags:

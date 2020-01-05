@@ -11,13 +11,6 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mysql-connector-c
   
   version: ""
@@ -25,7 +18,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
+  name: mariadb-galera
   
   version: ""
 - 
@@ -33,6 +26,13 @@ conflicts:
   description: ""
   license: ""
   name: mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb
   
   version: ""
 - 
@@ -47,17 +47,24 @@ license: GPL-2
 name: percona-server
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: protobuf
+  name: ncurses
   
   version: ""
 - 
-  category: sys-process
+  category: dev-util
   description: ""
   license: ""
-  name: numactl
+  name: systemtap
+  
+  version: "1.3"
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 
@@ -68,19 +75,82 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-util
   description: ""
   license: ""
-  name: libtirpc
+  name: google-perftools
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: zlib
+  
+  version: 1.2.3
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: mecab
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
 - 
   category: sys-apps
   description: ""
@@ -92,21 +162,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libressl
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
   
   version: ""
 - 
@@ -116,6 +172,20 @@ requires:
   name: lz4
   
   version: 0_p131
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -131,24 +201,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: sed
+  name: protobuf
   
-  version: "4"
+  version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: mecab
+  name: libtirpc
   
   version: ""
 - 
@@ -162,42 +225,7 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: "1.3"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
+  name: snappy
   
   version: ""
 - 
@@ -207,34 +235,6 @@ requires:
   name: openssl
   
   version: 1.0.0
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
 uri:
 - https://www.percona.com/downloads/Percona-Server-/Percona-Server-/source/tarball/percona-server-.tar.gz
 - mirror://sourceforge/boost/boost_1_59_0.tar.gz

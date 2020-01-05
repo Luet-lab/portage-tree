@@ -5,38 +5,52 @@ license: Apache-2.0 GPL-2+ LGPL-2.1+ MIT
 name: mattermost-desktop-bin
 requires:
 - 
-  category: x11-libs
+  category: net-print
   description: ""
   license: ""
-  name: libXext
+  name: cups
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: atk
+  name: nss
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: expat
+  name: gcc
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: freetype
+  name: glibc
   
   version: ""
 - 
@@ -54,38 +68,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libXrender
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc
+  name: alsa-lib
   
   version: ""
 - 
@@ -99,28 +92,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXrandr
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
+  name: gtk+
   
   version: ""
 - 
@@ -134,21 +113,35 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXdamage
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: atk
   
   version: ""
 - 
-  category: net-print
+  category: dev-libs
   description: ""
   license: ""
-  name: cups
+  name: nspr
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -159,10 +152,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: glibc
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
@@ -176,14 +176,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
+  name: pango
   
   version: ""
 - 
@@ -194,10 +187,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 uri:

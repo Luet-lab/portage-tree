@@ -12,19 +12,40 @@ license: GPL-2+
 name: kodi
 requires:
 - 
-  category: dev-libs
+  category: app-pda
   description: ""
   license: ""
-  name: flatbuffers
+  name: libplist
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pillow
   
   version: ""
 - 
-  category: dev-libs
+  category: media-video
   description: ""
   license: ""
-  name: libfmt
+  name: ffmpeg
   
-  version: 3.0.1
+  version: 4.0.4
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.11
 - 
   category: dev-cpp
   description: ""
@@ -33,6 +54,55 @@ requires:
   
   version: 0.2.3
 - 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.9.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: tinyxml
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: "0.94"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: shairplay
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -40,31 +110,38 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: 2.12.4
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mariadb-connector-c
+  name: ttf-fonts
   
   version: ""
 - 
-  category: media-sound
+  category: media-video
   description: ""
   license: ""
-  name: pulseaudio
+  name: ffmpeg[X]
   
   version: ""
 - 
-  category: net-fs
+  category: x11-libs
   description: ""
   license: ""
-  name: samba-3.4.6[smbclient(+)]
+  name: libxkbcommon
+  
+  version: 0.4.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcec-4.0[raspberry-pi?]
   
   version: ""
 - 
@@ -75,31 +152,136 @@ requires:
   
   version: 1.0.2l
 - 
-  category: dev-libs
+  category: net-fs
   description: ""
   license: ""
-  name: libressl
+  name: samba-3.4.6[smbclient(+)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: wayland-protocols
+  name: libinput
   
-  version: "1.7"
+  version: 1.10.5
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libfmt
   
-  version: 1.1.4.1
+  version: 3.0.1
+- 
+  category: "(\tmedia-libs"
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: roboto
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
+  name: mariadb-connector-c
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: libnfs
+  
+  version: 2.0.0
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: flatbuffers
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd-0.9.55[messages(+)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
   
   version: ""
 - 
@@ -110,33 +292,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: fribidi
+  name: mesa
   
-  version: 0.19.7
+  version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: tinyxml
+  name: libX11
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libbluray
-  
-  version: 1.0.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libva
+  name: lcms
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa[egl,X(+)]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.1.4.1
 - 
   category: dev-libs
   description: ""
@@ -152,66 +341,17 @@ requires:
   
   version: "2.8"
 - 
-  category: dev-db
+  category: net-misc
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: curl
   
-  version: ""
+  version: 7.56.1
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: "0.94"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.4.1
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pillow
-  
-  version: ""
-- 
-  category: "(\tmedia-libs"
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
+  name: libva
   
   version: ""
 - 
@@ -222,82 +362,26 @@ requires:
   
   version: 0.13.4
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libva[X]
+  name: taglib
   
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd-0.9.55[messages(+)]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcec-4.0[raspberry-pi?]
-  
-  version: ""
+  version: 1.11.1
 - 
   category: media-libs
   description: ""
   license: ""
-  name: mesa[egl,X(+)]
+  name: libbluray
   
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: 4.0.4
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.56.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: ""
+  version: 1.0.2
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: fribidi
   
-  version: ""
+  version: 0.19.7
 - 
   category: dev-libs
   description: ""
@@ -309,119 +393,49 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: lcms
+  name: fontconfig
+  
+  version: 2.12.4
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva[X]
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: udev
+  name: wayland-protocols
+  
+  version: "1.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
   
   version: ""
 - 
-  category: net-dns
+  category: sys-fs
   description: ""
   license: ""
-  name: avahi
+  name: udisks
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: taglib
-  
-  version: 1.11.1
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg[X]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: roboto
-  
-  version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: libnfs
-  
-  version: 2.0.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.11
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: shairplay
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 1.10.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.9.4
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ttf-fonts
+  name: glu
   
   version: ""
 - 
@@ -429,20 +443,6 @@ requires:
   description: ""
   license: ""
   name: libiconv
-  
-  version: ""
-- 
-  category: app-pda
-  description: ""
-  license: ""
-  name: libplist
-  
-  version: 2.0.0
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
   
   version: ""
 uri:

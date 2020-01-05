@@ -5,80 +5,17 @@ license: GPL-2
 name: uwsgi
 requires:
 - 
-  category: dev-db
+  category: net-analyzer
   description: ""
   license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-uwsgi
+  name: rrdtool
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libyaml
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: gevent
-  
-  version: 1.3.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
+  name: libxml2
   
   version: ""
 - 
@@ -92,9 +29,23 @@ requires:
   category: dev-lang
   description: ""
   license: ""
-  name: php
+  name: mono
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnsl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: gevent
+  
+  version: 1.3.5
 - 
   category: dev-libs
   description: ""
@@ -106,35 +57,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libressl
   
   version: ""
 - 
-  category: dev-libs
+  category: net-nds
   description: ""
   license: ""
-  name: geoip
+  name: openldap
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libcap
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: dev-db
+  category: sec-policy
   description: ""
   license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc
+  name: selinux-uwsgi
   
   version: ""
 - 
@@ -148,7 +92,77 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: expat
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: php
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libyaml
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: zeromq
   
   version: ""
 - 
@@ -159,10 +173,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: geoip
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
@@ -170,6 +191,27 @@ requires:
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
   
   version: ""
 - 
@@ -190,63 +232,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: libxslt
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zeromq
+  name: libpcre
   
   version: ""
 - 
-  category: net-misc
+  category: sys-cluster
   description: ""
   license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: rrdtool
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnsl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: mono
+  name: ceph
   
   version: ""
 uri:

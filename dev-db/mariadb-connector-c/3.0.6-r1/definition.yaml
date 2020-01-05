@@ -8,13 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mariadb[client-libs(+)]
-  
-  version: ""
-- 
   category: '>=dev-db'
   description: ""
   license: ""
@@ -39,6 +32,13 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
+  name: mariadb[client-libs(+)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
   name: mysql-cluster[client-libs(+)]
   
   version: ""
@@ -54,12 +54,12 @@ license: LGPL-2.1
 name: mariadb-connector-c
 requires:
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: zlib
+  name: gnutls
   
-  version: ""
+  version: 3.3.24
 - 
   category: virtual
   description: ""
@@ -75,17 +75,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gnutls
-  
-  version: 3.3.24
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: zlib
   
   version: ""
 - 
@@ -100,6 +93,13 @@ requires:
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

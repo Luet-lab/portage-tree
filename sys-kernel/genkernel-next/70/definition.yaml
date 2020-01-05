@@ -26,10 +26,10 @@ license: GPL-2
 name: genkernel-next
 requires:
 - 
-  category: sys-boot
+  category: sys-fs
   description: ""
   license: ""
-  name: plymouth
+  name: mdadm
   
   version: ""
 - 
@@ -40,38 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: dmraid
-  
-  version: 1.0.0_rc16
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
+  name: cpio
   
   version: ""
 - 
@@ -89,6 +61,27 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
   category: sys-block
   description: ""
   license: ""
@@ -96,10 +89,24 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-boot
   description: ""
   license: ""
-  name: cpio
+  name: plymouth
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dmraid
+  
+  version: 1.0.0_rc16
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
   
   version: ""
 - 
@@ -117,17 +124,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
+  name: util-linux
   
   version: ""
 uri:

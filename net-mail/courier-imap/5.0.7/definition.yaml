@@ -18,14 +18,14 @@ conflicts:
   category: net-mail
   description: ""
   license: ""
-  name: bincimap
+  name: uw-imap
   
   version: ""
 - 
   category: net-mail
   description: ""
   license: ""
-  name: uw-imap
+  name: bincimap
   
   version: ""
 description: An IMAP daemon designed specifically for maildirs
@@ -33,54 +33,12 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: courier-authlib
+  name: courier-unicode
   
-  version: 0.66.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
+  version: "2"
 - 
   category: virtual
   description: ""
@@ -99,9 +57,30 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: courier-unicode
+  name: gnutls
   
-  version: "2"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.66.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
 - 
   category: net-mail
   description: ""
@@ -109,6 +88,27 @@ requires:
   name: mailbase
   
   version: 0.00-r8
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
 uri:
 - mirror://sourceforge/courier/courier-imap-5.0.7.tar.bz2
 use_flags:

@@ -5,10 +5,38 @@ license: GPL-3
 name: asymptote
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: 4.3-r5
+- 
   category: media-libs
   description: ""
   license: ""
-  name: mesa[X(+)]
+  name: glew
+  
+  version: ""
+- 
+  category: dev-texlive
+  description: ""
+  license: ""
+  name: texlive-latexextra
+  
+  version: "2013"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigsegv
   
   version: ""
 - 
@@ -29,35 +57,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: latex-base
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.4-r5
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 4.3-r5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigsegv
+  name: PyQt5
   
   version: ""
 - 
@@ -75,6 +75,13 @@ requires:
   
   version: "2.40"
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.4-r5
+- 
   category: media-gfx
   description: ""
   license: ""
@@ -85,14 +92,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freeglut
+  name: mesa[X(+)]
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: glew
+  name: glm
   
   version: ""
 - 
@@ -106,23 +113,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: PyQt5
+  name: numpy
   
   version: ""
 - 
-  category: dev-texlive
+  category: virtual
   description: ""
   license: ""
-  name: texlive-latexextra
-  
-  version: "2013"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glm
+  name: latex-base
   
   version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: app-text
   description: ""
@@ -137,13 +144,6 @@ requires:
   name: gsl
   
   version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
 uri: []
 use_flags:
 - +boehm-gc

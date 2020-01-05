@@ -4,9 +4,30 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: stat
+  name: net-tools
   
   version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: realpath
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: sandbox
+  
+  version: 2.10-r4
 - 
   category: net-mail
   description: ""
@@ -22,19 +43,19 @@ conflicts:
   
   version: ""
 - 
-  category: sys-apps
+  category: <app-forensics
   description: ""
   license: ""
-  name: net-tools
+  name: tct
   
-  version: ""
+  version: 1.18-r1
 - 
-  category: sys-apps
+  category: <net-fs
   description: ""
   license: ""
-  name: util-linux
+  name: netatalk
   
-  version: ""
+  version: 2.0.3-r4
 - 
   category: sys-process
   description: ""
@@ -46,46 +67,25 @@ conflicts:
   category: <sys-apps
   description: ""
   license: ""
-  name: sandbox
-  
-  version: 2.10-r4
-- 
-  category: <net-fs
-  description: ""
-  license: ""
-  name: netatalk
-  
-  version: 2.0.3-r4
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: realpath
-  
-  version: ""
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
   name: util-linux
   
   version: "2.13"
 - 
-  category: <app-forensics
+  category: sys-apps
   description: ""
   license: ""
-  name: tct
+  name: stat
   
-  version: 1.18-r1
+  version: ""
 description: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 license: GPL-3
 name: coreutils
 requires:
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libcap
+  name: attr
   
   version: ""
 - 
@@ -93,6 +93,13 @@ requires:
   description: ""
   license: ""
   name: gmp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -114,13 +121,6 @@ requires:
   description: ""
   license: ""
   name: libintl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
   
   version: ""
 uri:

@@ -1,13 +1,6 @@
 category: net-mail
 conflicts:
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: uw-imap
-  
-  version: ""
-- 
   category: mail-mta
   description: ""
   license: ""
@@ -19,6 +12,13 @@ conflicts:
   description: ""
   license: ""
   name: bincimap
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: uw-imap
   
   version: ""
 - 
@@ -40,38 +40,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: "0.61"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-unicode
-  
-  version: "1.3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: selinux-courier
   
   version: ""
 - 
@@ -82,17 +54,31 @@ requires:
   
   version: "2"
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-unicode
+  
+  version: "1.3"
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: db
   
-  version: 1.8.0
+  version: ""
 - 
-  category: sec-policy
+  category: virtual
   description: ""
   license: ""
-  name: selinux-courier
+  name: fam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -103,12 +89,26 @@ requires:
   
   version: 0.00-r8
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: fam
+  name: libressl
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: "0.61"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
 uri:
 - mirror://sourceforge/courier/courier-imap-4.17.3.tar.bz2
 use_flags:

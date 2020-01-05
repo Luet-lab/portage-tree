@@ -4,7 +4,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
+  name: percona-server
   
   version: ""
 - 
@@ -18,14 +18,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-cluster
+  name: mariadb-galera
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: percona-server
+  name: mysql-cluster
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
@@ -36,21 +36,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libaio
   
   version: ""
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: mecab
+  name: libressl
   
   version: ""
 - 
-  category: sys-process
+  category: dev-libs
   description: ""
   license: ""
-  name: procps
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
   
   version: ""
 - 
@@ -68,24 +75,31 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libtirpc
+  name: icu
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: jemalloc
+  name: libedit
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: protobuf
+  
+  version: "3.8"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
   
   version: ""
 - 
@@ -93,13 +107,6 @@ requires:
   description: ""
   license: ""
   name: google-perftools
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
   
   version: ""
 - 
@@ -124,33 +131,33 @@ requires:
   
   version: 1.2.3
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
-  name: numactl
+  name: procps
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: mecab
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libedit
+  name: jemalloc
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
 - 
   category: dev-db
   description: ""

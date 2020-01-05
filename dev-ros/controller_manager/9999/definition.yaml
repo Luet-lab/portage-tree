@@ -5,24 +5,10 @@ license: BSD
 name: controller_manager
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyyaml
-  
-  version: ""
-- 
   category: dev-ros
   description: ""
   license: ""
-  name: controller_interface
-  
-  version: "0.15"
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: controller_manager_msgs
+  name: hardware_interface
   
   version: 0.10.0
 - 
@@ -43,16 +29,23 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: rosparam
+  name: roslib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: console_bridge
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: hardware_interface
+  name: controller_interface
   
-  version: 0.10.0
+  version: "0.15"
 - 
   category: dev-libs
   description: ""
@@ -64,7 +57,14 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: roslib
+  name: rosparam
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyyaml
   
   version: ""
 - 
@@ -75,12 +75,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-ros
   description: ""
   license: ""
-  name: console_bridge
+  name: controller_manager_msgs
   
-  version: ""
+  version: 0.10.0
 uri: []
 use_flags:
 - ""

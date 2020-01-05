@@ -4,7 +4,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
   
   version: ""
 - 
@@ -14,6 +21,13 @@ mailer
   name: qmail-ldap
   
   version: ""
+- 
+  category: <mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -25,14 +39,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
+  name: mini-qmail
   
   version: ""
 - 
@@ -53,23 +60,16 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: netqmail
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+mailer
   
   version: ""
-- 
-  category: <mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
 - 
   category: '>=mail-mta'
   description: ""
@@ -89,27 +89,6 @@ license: GPL-3
 name: msmtp
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -128,6 +107,27 @@ requires:
   description: ""
   license: ""
   name: libintl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
   
   version: ""
 uri:

@@ -1,26 +1,19 @@
 category: sys-fs
 conflicts:
 - 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
   category: <sys-boot
   description: ""
   license: ""
   name: grub
   
   version: 2.00-r2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -43,37 +36,37 @@ conflicts:
   
   version: 044-r1
 - 
-  category: =sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: grep-2.13*
+  name: zfs-fuse
   
   version: ""
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: 3.5.1.1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: mdadm
+  name: zfs-kmod
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
+  version: "9999"
 - 
   category: sys-fs
   description: ""
@@ -82,10 +75,31 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-fs
   description: ""
   license: ""
-  name: pax-utils
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
@@ -103,17 +117,17 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: virtual
   description: ""
   license: ""
-  name: procps
+  name: modutils
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: modutils
+  name: awk
   
   version: ""
 - 
@@ -124,12 +138,12 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: zfs-kmod
+  name: pax-utils
   
-  version: "9999"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -141,21 +155,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-cffi
+  name: mdadm
   
   version: ""
 - 

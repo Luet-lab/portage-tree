@@ -5,40 +5,12 @@ license: GPL-2+ CC-BY-SA-3.0
 name: evince
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gdk-pixbuf
   
-  version: "1.10"
+  version: 2.36.5
 - 
   category: app-text
   description: ""
@@ -54,19 +26,12 @@ requires:
   
   version: 3.5.22
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: tex-base
+  name: t1lib
   
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libgxps
-  
-  version: 0.2.1
+  version: "5"
 - 
   category: gnome-base
   description: ""
@@ -75,17 +40,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: t1lib
+  name: glib
   
-  version: "5"
+  version: "2.36"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -95,6 +60,13 @@ requires:
   name: gobject-introspection
   
   version: "1"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: 2.91.4
 - 
   category: app-text
   description: ""
@@ -109,27 +81,6 @@ requires:
   name: gspell
   
   version: 1.6.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: 2.36.5
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: 2.91.4
 - 
   category: media-libs
   description: ""
@@ -148,16 +99,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.36"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libxml2
   
   version: "2.5"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -166,10 +124,10 @@ requires:
   
   version: 3.2.0
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: kpathsea
+  name: tex-base
   
   version: ""
 - 
@@ -186,6 +144,48 @@ requires:
   name: gnome-desktop
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: "1.10"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: kpathsea
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.5"
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libgxps
+  
+  version: 0.2.1
 uri: []
 use_flags:
 - djvu

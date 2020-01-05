@@ -5,73 +5,38 @@ license: Apache-2.0
 name: salt
 requires:
 - 
-  category: www-servers
+  category: dev-python
   description: ""
   license: ""
-  name: tornado
-  
-  version: "5.0"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-futures
+  name: pyyaml
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pyopenssl
+  name: mako
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: raet
-  
-  version: 0.6.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pymongo
+  name: libvirt-python
   
   version: ""
 - 
-  category: dev-python
+  category: sys-apps
   description: ""
   license: ""
-  name: redis-py
+  name: portage
   
   version: ""
 - 
-  category: dev-python
+  category: sys-apps
   description: ""
   license: ""
-  name: yappi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: markupsafe
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-neutronclient
-  
-  version: 2.3.6
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jinja
+  name: pciutils
   
   version: ""
 - 
@@ -85,14 +50,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: libnacl
+  name: python-novaclient
   
-  version: 1.0.0
+  version: 2.17.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: keyring
+  name: python-gnupg
   
   version: ""
 - 
@@ -103,10 +68,80 @@ requires:
   
   version: "0.3"
 - 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: 4.2.1
+- 
   category: dev-python
   description: ""
   license: ""
-  name: pyyaml
+  name: libcloud
+  
+  version: 0.14.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyopenssl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: timelib
+  
+  version: ""
+- 
+  category: app-vim
+  description: ""
+  license: ""
+  name: salt-vim
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: markupsafe
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: "5.0"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libnacl
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: yappi
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jinja
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: libnacl
   
   version: ""
 - 
@@ -117,17 +152,10 @@ requires:
   
   version: 1.0.0
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: setuptools
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libvirt-python
+  name: python-futures
   
   version: ""
 - 
@@ -145,52 +173,17 @@ requires:
   
   version: 1.1.7
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: pciutils
+  name: pymongo
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pyzmq
-  
-  version: 2.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycryptodome
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mysql-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: timelib
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-novaclient
-  
-  version: 2.17.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libnacl
+  name: redis-py
   
   version: ""
 - 
@@ -204,51 +197,58 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: python-gnupg
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libcloud
-  
-  version: 0.14.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: cherrypy
   
   version: 3.2.2
 - 
-  category: app-vim
+  category: dev-python
   description: ""
   license: ""
-  name: salt-vim
+  name: mysql-python
   
   version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: tornado
-  
-  version: 4.2.1
 - 
   category: dev-python
   description: ""
   license: ""
-  name: mako
+  name: python-neutronclient
+  
+  version: 2.3.6
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: setuptools
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: portage
+  name: raet
+  
+  version: 0.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycryptodome
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: keyring
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyzmq
+  
+  version: 2.2.0
 uri:
 - mirror://pypi/s/salt/salt-2018.3.4.tar.gz
 use_flags:

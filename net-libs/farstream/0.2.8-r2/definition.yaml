@@ -6,13 +6,6 @@ license: LGPL-2.1+
 name: farstream
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: "1.4"
-- 
   category: media-plugins
   description: ""
   license: ""
@@ -23,16 +16,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: gstreamer
   
   version: "1.4"
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnice
+  name: glib
   
-  version: 0.1.8
+  version: "2.32"
 - 
   category: dev-libs
   description: ""
@@ -51,23 +44,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: gst-plugins-good
   
   version: "1.4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.32"
 - 
   category: media-plugins
   description: ""
@@ -75,6 +54,27 @@ requires:
   name: gst-plugins-srtp
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: "1.4"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnice
+  
+  version: 0.1.8
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: "1.4"
 uri:
 - https://freedesktop.org/software/farstream/releases/farstream/farstream-0.2.8.tar.gz
 use_flags:

@@ -5,12 +5,19 @@ license: GPL-2
 name: mate-user-share
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: dbus-glib
   
-  version: ""
+  version: "0.70"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.1
 - 
   category: x11-libs
   description: ""
@@ -19,26 +26,12 @@ requires:
   
   version: "2"
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache
-  
-  version: "2.2"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: gtk+
   
-  version: ""
+  version: "3.22"
 - 
   category: x11-libs
   description: ""
@@ -47,12 +40,19 @@ requires:
   
   version: "0.7"
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: dbus-glib
+  name: libintl
   
-  version: "0.70"
+  version: ""
+- 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_dnssd
+  
+  version: "0.6"
 - 
   category: dev-libs
   description: ""
@@ -68,19 +68,12 @@ requires:
   
   version: 1.17.1
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: dbus
+  name: libcanberra
   
-  version: 1.1.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -89,12 +82,19 @@ requires:
   
   version: ""
 - 
-  category: www-apache
+  category: x11-libs
   description: ""
   license: ""
-  name: mod_dnssd
+  name: pango
   
-  version: "0.6"
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache
+  
+  version: "2.2"
 uri: []
 use_flags:
 - X

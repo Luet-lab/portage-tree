@@ -5,12 +5,12 @@ license: GPL-2+ LGPL-2.1+ BSD MIT
 name: libvncserver
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnutls
+  name: libgcrypt
   
-  version: 2.12.23-r6
+  version: 1.5.3
 - 
   category: virtual
   description: ""
@@ -19,13 +19,6 @@ requires:
   
   version: 0-r2
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -33,12 +26,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: zlib
   
-  version: 1.5.3
+  version: 1.2.8-r1
 - 
   category: dev-libs
   description: ""
@@ -54,6 +47,13 @@ requires:
   
   version: 2.7.0
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -68,12 +68,12 @@ requires:
   
   version: 1.6.10
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: cyrus-sasl
   
-  version: 1.2.8-r1
+  version: ""
 uri:
 - https://github.com/LibVNC/libvncserver/archive/LibVNCServer-0.9.12.tar.gz
 use_flags:

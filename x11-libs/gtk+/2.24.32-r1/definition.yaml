@@ -1,19 +1,19 @@
 category: x11-libs
 conflicts:
 - 
-  category: <gnome-base
-  description: ""
-  license: ""
-  name: gail
-  
-  version: "1000"
-- 
   category: <dev-util
   description: ""
   license: ""
   name: gtk-builder-convert
   
   version: 2.24.32
+- 
+  category: <gnome-base
+  description: ""
+  license: ""
+  name: gail
+  
+  version: "1000"
 - 
   category: <x11-libs
   description: ""
@@ -26,19 +26,33 @@ license: LGPL-2+
 name: gtk+
 requires:
 - 
-  category: dev-libs
+  category: net-print
   description: ""
   license: ""
-  name: glib
+  name: cups
   
-  version: 2.34.3
+  version: 1.7.1-r2
 - 
-  category: x11-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: shared-mime-info
+  name: libXext
   
-  version: ""
+  version: 1.3.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: 1.1.4-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: 1.1.3
 - 
   category: dev-libs
   description: ""
@@ -57,27 +71,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
-  
-  version: 1.3.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: 1.1.14
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gnome-themes-standard
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXi
   
   version: 1.7.2
@@ -85,30 +78,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libXcomposite
   
-  version: 1.1.4-r1
+  version: 0.4.4-r1
 - 
-  category: x11-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: libXinerama
+  name: shared-mime-info
   
-  version: 1.1.3
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: gtk-update-icon-cache
-  
-  version: "2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.10.92
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -120,23 +99,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libXcursor
   
-  version: "1.5"
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: "3.14"
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.7.1-r2
+  version: 1.1.14
 - 
   category: x11-libs
   description: ""
@@ -145,12 +110,47 @@ requires:
   
   version: 5.0.1
 - 
+  category: dev-util
+  description: ""
+  license: ""
+  name: gtk-update-icon-cache
+  
+  version: "2"
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
+  
+  version: "3.14"
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gnome-themes-standard
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.34.3
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.10.92
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXrandr
   
-  version: 0.4.4-r1
+  version: "1.5"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gtk+-2.24.32-patchset-r1.tar.xz
 use_flags:

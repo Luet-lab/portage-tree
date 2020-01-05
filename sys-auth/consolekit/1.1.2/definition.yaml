@@ -5,12 +5,54 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: zlib
+  name: gettext
+  
+  version: "0.19"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: pm-utils
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.40"
 - 
   category: sys-libs
   description: ""
@@ -22,23 +64,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: pam
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.19"
 - 
   category: virtual
   description: ""
@@ -47,20 +75,6 @@ requires:
   
   version: "200"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -68,31 +82,24 @@ requires:
   
   version: "0.110"
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: coreutils[acl?]
+  name: libselinux
   
   version: ""
 - 
-  category: sys-power
+  category: dev-libs
   description: ""
   license: ""
-  name: pm-utils
+  name: libevdev
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: zlib
   
   version: ""
 - 
@@ -103,20 +110,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
@@ -124,10 +117,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libevdev
+  name: coreutils[acl?]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 uri:

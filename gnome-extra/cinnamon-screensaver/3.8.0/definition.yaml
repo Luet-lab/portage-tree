@@ -12,40 +12,12 @@ license: GPL-2+
 name: cinnamon-screensaver
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: setproctitle
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-desktop
-  
-  version: 2.6.3
-- 
   category: gnome-base
   description: ""
   license: ""
-  name: libgnomekbd
+  name: gsettings-desktop-schemas
   
-  version: "3.6"
+  version: 0.1.7
 - 
   category: dev-libs
   description: ""
@@ -57,42 +29,35 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXxf86misc
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: systemd
+  name: xapp
   
-  version: "31"
+  version: ""
 - 
   category: dev-python
   description: ""
   license: ""
   name: psutil
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.6.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
   
   version: ""
 - 
@@ -103,17 +68,31 @@ requires:
   
   version: ""
 - 
-  category: x11-themes
+  category: sys-auth
   description: ""
   license: ""
-  name: adwaita-icon-theme
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: pygobject
+  name: setproctitle
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -123,13 +102,6 @@ requires:
   name: gtk+
   
   version: 3.1.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -145,17 +117,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: systemd
   
-  version: ""
+  version: "31"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: xapp
+  name: pygobject
   
   version: ""
 - 
@@ -166,19 +138,47 @@ requires:
   
   version: 2.37.3
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: dbus
+  name: webkit-gtk
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libX11
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
 uri:
 - https://github.com/linuxmint/cinnamon-screensaver/archive/3.8.0.tar.gz -> cinnamon-screensaver-3.8.0.tar.gz
 use_flags:

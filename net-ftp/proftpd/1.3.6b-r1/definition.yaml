@@ -5,26 +5,19 @@ license: GPL-2
 name: proftpd
 requires:
 - 
-  category: dev-db
+  category: sec-policy
   description: ""
   license: ""
-  name: postgresql
+  name: selinux-ftp
   
   version: ""
 - 
-  category: net-ftp
+  category: dev-libs
   description: ""
   license: ""
-  name: ftpbase
+  name: libmemcached
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
+  version: "0.41"
 - 
   category: dev-db
   description: ""
@@ -33,10 +26,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libpcre
+  name: libiconv
+  
+  version: ""
+- 
+  category: net-ftp
+  description: ""
+  license: ""
+  name: ftpbase
   
   version: ""
 - 
@@ -57,7 +57,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libsodium
+  name: libpcre
   
   version: ""
 - 
@@ -71,14 +71,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libmemcached
+  name: libressl
   
-  version: "0.41"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: libiconv
+  name: acl
   
   version: ""
 - 
@@ -86,6 +100,20 @@ requires:
   description: ""
   license: ""
   name: libcap
+  
+  version: ""
+- 
+  category: app-antivirus
+  description: ""
+  license: ""
+  name: clamav
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
   
   version: ""
 - 
@@ -99,35 +127,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ftp
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: app-antivirus
-  description: ""
-  license: ""
-  name: clamav
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: postgresql
   
   version: ""
 uri:

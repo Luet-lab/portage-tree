@@ -5,33 +5,19 @@ license: BSD BSD-2 ipadic public-domain unicode
 name: mozc
 requires:
 - 
-  category: app-editors
+  category: dev-libs
   description: ""
   license: ""
-  name: emacs
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: glib
   
   version: ""
 - 
   category: app-i18n
   description: ""
   license: ""
-  name: zinnia
+  name: ibus
   
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
+  version: 1.4.1
 - 
   category: x11-libs
   description: ""
@@ -40,10 +26,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-i18n
   description: ""
   license: ""
-  name: pango
+  name: tegaki-zinnia-japanese
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -61,17 +54,10 @@ requires:
   
   version: ""
 - 
-  category: app-i18n
+  category: x11-libs
   description: ""
   license: ""
-  name: tegaki-zinnia-japanese
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: libxcb
   
   version: ""
 - 
@@ -82,26 +68,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: protobuf
-  
-  version: 3.0.0
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: zinnia-tomoe
+  name: pango
   
   version: ""
 - 
-  category: app-i18n
+  category: app-editors
   description: ""
   license: ""
-  name: ibus
+  name: emacs
   
-  version: 1.4.1
+  version: ""
 - 
   category: app-i18n
   description: ""
@@ -110,12 +89,33 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-i18n
   description: ""
   license: ""
-  name: libxcb
+  name: zinnia
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: zinnia-tomoe
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: 3.0.0
 uri:
 - https://github.com/google/mozc/archive/afb03ddfe72dde4cf2409863a3bfea160f7a66d8.tar.gz
   -> mozc-2.23.2815.102.tar.gz

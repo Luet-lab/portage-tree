@@ -5,10 +5,45 @@ license: MIT
 name: sway
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libpcre
+  name: systemd
+  
+  version: "239"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
+  category: gui-libs
+  description: ""
+  license: ""
+  name: wlroots
+  
+  version: "9999"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -19,52 +54,10 @@ requires:
   
   version: ""
 - 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swaylock
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "239"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
-  
-  version: "0.13"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: wayland
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xkeyboard-config
   
   version: ""
 - 
@@ -78,14 +71,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
+  name: libxcb
   
   version: ""
 - 
@@ -96,12 +82,12 @@ requires:
   
   version: 1.6.0
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: elogind
+  name: libpcre
   
-  version: "239"
+  version: ""
 - 
   category: gui-apps
   description: ""
@@ -117,12 +103,26 @@ requires:
   
   version: ""
 - 
-  category: gui-libs
+  category: gui-apps
   description: ""
   license: ""
-  name: wlroots
+  name: swaylock
   
-  version: "9999"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: "0.13"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: ""
 uri: []
 use_flags:
 - elogind

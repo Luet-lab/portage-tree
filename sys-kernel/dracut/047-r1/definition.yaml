@@ -5,6 +5,20 @@ license: GPL-2
 name: dracut
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: "4.0"
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -26,19 +40,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: kmod
+  name: libselinux
   
-  version: "23"
+  version: ""
 - 
-  category: app-shells
+  category: virtual
   description: ""
   license: ""
-  name: bash
+  name: pkgconfig
   
-  version: "4.0"
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -50,37 +71,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
   name: libsepol
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: pkgconfig
+  name: kmod
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
+  version: "23"
 uri:
 - https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-047.tar.xz
 use_flags:

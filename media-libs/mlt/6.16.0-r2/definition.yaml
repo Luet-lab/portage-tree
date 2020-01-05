@@ -5,12 +5,26 @@ license: GPL-3
 name: mlt
 requires:
 - 
-  category: media-video
+  category: x11-libs
   description: ""
   license: ""
-  name: movit
+  name: pango
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: ladspa-sdk
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.2
 - 
   category: media-libs
   description: ""
@@ -18,6 +32,27 @@ requires:
   name: libebur128
   
   version: 1.2.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.5"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sdl2-image
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -29,7 +64,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: ladspa-sdk
+  name: xine-lib
+  
+  version: 1.1.2_pre20060328-r7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2[X,opengl,video]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: vidstab
   
   version: ""
 - 
@@ -40,10 +89,24 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opencv
+  
+  version: 3.2.0
+- 
   category: dev-qt
   description: ""
   license: ""
   name: qtgui
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
@@ -54,40 +117,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: "2.5"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libsdl2[X,opengl,video]
+  name: rtaudio
   
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sdl2-image
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: vidstab
-  
-  version: ""
+  version: 4.1.2
 - 
   category: sci-libs
   description: ""
@@ -103,24 +138,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opencv
-  
-  version: 3.2.0
-- 
   category: media-video
   description: ""
   license: ""
-  name: libav
-  
-  version: "12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
+  name: movit
   
   version: ""
 - 
@@ -131,31 +152,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: libsamplerate
+  name: libav
   
-  version: 0.1.2
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: 5.1.4-r4
+  version: "12"
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: qtxml
   
   version: ""
 - 
@@ -173,26 +180,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: pango
+  name: lua
+  
+  version: 5.1.4-r4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: rtaudio
-  
-  version: 4.1.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: xine-lib
-  
-  version: 1.1.2_pre20060328-r7
 uri:
 - https://github.com/mltframework/mlt/releases/download/v6.16.0/mlt-6.16.0.tar.gz
 use_flags:

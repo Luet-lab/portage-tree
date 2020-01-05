@@ -4,13 +4,6 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
-  
-  version: 2.1.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
   name: Babel
   
   version: 2.4.0
@@ -21,17 +14,17 @@ conflicts:
   name: dib-utils
   
   version: ""
-description: Golden Disk Image builder.
-license: Apache-2.0
-name: diskimage-builder
-requires:
 - 
-  category: dev-python
+  category: ~dev-python
   description: ""
   license: ""
   name: pbr
   
-  version: 2.0.0
+  version: 2.1.0
+description: Golden Disk Image builder.
+license: Apache-2.0
+name: diskimage-builder
+requires:
 - 
   category: dev-python
   description: ""
@@ -43,9 +36,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: networkx
+  name: stevedore
   
-  version: "1.10"
+  version: 1.20.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dosfstools
+  
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -60,6 +60,20 @@ requires:
   name: flake8
   
   version: 2.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.10.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
 - 
   category: sys-fs
   description: ""
@@ -78,16 +92,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: stevedore
+  name: networkx
   
-  version: 1.20.0
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
+  version: "1.10"
 - 
   category: dev-python
   description: ""
@@ -103,13 +110,6 @@ requires:
   
   version: 2.5.4
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: six
-  
-  version: 1.10.0
-- 
   category: app-emulation
   description: ""
   license: ""
@@ -117,10 +117,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: dosfstools
+  name: parted
   
   version: ""
 uri: []

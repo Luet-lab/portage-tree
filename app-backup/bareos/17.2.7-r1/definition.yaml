@@ -12,17 +12,17 @@ license: AGPL-3
 name: bareos
 requires:
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
   license: ""
-  name: mtx
+  name: logwatch
   
   version: ""
 - 
-  category: dev-db
+  category: sys-cluster
   description: ""
   license: ""
-  name: lmdb
+  name: glusterfs
   
   version: ""
 - 
@@ -36,7 +36,21 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
   
   version: ""
 - 
@@ -47,31 +61,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: logwatch
+  name: acl
   
   version: ""
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: lzo
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: mt-st
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: glusterfs
+  name: ceph
+  
+  version: 0.94.2
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
   
   version: ""
 - 
@@ -89,59 +110,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: mt-st
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: sys-cluster
   description: ""
   license: ""
   name: ceph
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: 0.94.2
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
   
   version: ""
 - 
@@ -152,10 +124,31 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: lzo
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -170,6 +163,13 @@ requires:
   description: ""
   license: ""
   name: gnutls
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mtx
   
   version: ""
 uri:

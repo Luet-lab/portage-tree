@@ -1,13 +1,6 @@
 category: sys-process
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: 2.88-r6
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -21,24 +14,17 @@ conflicts:
   name: util-linux
   
   version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: 2.88-r6
 description: standard informational utilities and process-handling tools
 license: GPL-2
 name: procps
 requires:
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.7-r7
 - 
   category: sys-libs
   description: ""
@@ -53,6 +39,20 @@ requires:
   name: systemd
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.7-r7
 uri:
 - mirror://sourceforge/procps-ng/procps-ng-3.3.15.tar.xz
 use_flags:

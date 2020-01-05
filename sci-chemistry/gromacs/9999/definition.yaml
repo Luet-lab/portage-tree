@@ -1,10 +1,45 @@
 category: sci-chemistry
-conflicts: []
+conflicts:
+- 
+  category: sci-chemistry
+  description: ""
+  license: ""
+  name: gmxapi
+  
+  version: ""
 description: The ultimate molecular dynamics simulation package
 license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD )
   ) cuda? ( LGPL-3 ) threads? ( BSD )
 name: gromacs
 requires:
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: blas
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.14
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -30,6 +65,13 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libICE
   
   version: ""
@@ -38,13 +80,6 @@ requires:
   description: ""
   license: ""
   name: opencl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
   
   version: ""
 - 
@@ -61,34 +96,6 @@ requires:
   name: lmfit
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.14
 uri: []
 use_flags:
 - X
@@ -98,6 +105,7 @@ use_flags:
 - -double-precision
 - +fftw
 - +gmxapi
+- +gmxapi-legacy
 - +hwloc
 - lapack
 - +lmfit
@@ -106,6 +114,7 @@ use_flags:
 - +offensive
 - opencl
 - openmp
+- +python
 - +single-precision
 - test
 - +threads

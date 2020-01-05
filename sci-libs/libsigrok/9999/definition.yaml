@@ -6,19 +6,12 @@ license: GPL-3
 name: libsigrok
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libzip
+  name: libieee1284
   
-  version: "0.8"
-- 
-  category: dev-embedded
-  description: ""
-  license: ""
-  name: libftdi
-  
-  version: "0.16"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -27,10 +20,24 @@ requires:
   
   version: 0.1.1
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: glib-2.32.0[static-libs(+)]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libieee1284[static-libs(+)]
   
   version: ""
 - 
@@ -40,13 +47,6 @@ requires:
   name: libserialport-0.1.1[static-libs(+)]
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.32.0
 - 
   category: dev-cpp
   description: ""
@@ -62,26 +62,12 @@ requires:
   
   version: 3.0.0
 - 
-  category: sys-libs
+  category: dev-embedded
   description: ""
   license: ""
-  name: libieee1284
+  name: libftdi
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libieee1284[static-libs(+)]
-  
-  version: ""
+  version: "0.16"
 - 
   category: virtual
   description: ""
@@ -89,6 +75,20 @@ requires:
   name: jre
   
   version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.32.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libzip
+  
+  version: "0.8"
 uri: []
 use_flags:
 - cxx

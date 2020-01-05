@@ -1,10 +1,10 @@
 category: app-admin
 conflicts:
 - 
-  category: app-admin
+  category: dev-ruby
   description: ""
   license: ""
-  name: augeas
+  name: hiera
   
   version: ""
 - 
@@ -18,14 +18,14 @@ conflicts:
   category: app-admin
   description: ""
   license: ""
-  name: puppet
+  name: augeas
   
   version: ""
 - 
-  category: dev-ruby
+  category: app-admin
   description: ""
   license: ""
-  name: hiera
+  name: puppet
   
   version: ""
 - 
@@ -40,17 +40,10 @@ license: Apache-2.0
 name: puppet-agent
 requires:
 - 
-  category: sys-libs
+  category: app-portage
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-puppet
+  name: eix
   
   version: ""
 - 
@@ -64,14 +57,28 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: glibc
+  name: ncurses
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-puppet
   
   version: ""
 - 
@@ -81,13 +88,6 @@ requires:
   name: puppetdb-termini
   
   version: 5.0.1
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: eix
-  
-  version: ""
 uri: []
 use_flags:
 - puppetdb

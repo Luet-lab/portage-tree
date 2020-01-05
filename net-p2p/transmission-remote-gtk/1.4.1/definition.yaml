@@ -6,31 +6,17 @@ license: GPL-2+
 name: transmission-remote-gtk
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
   
-  version: "3.16"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
+  version: "2.44"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: libappindicator
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: geoip
   
   version: ""
 - 
@@ -58,16 +44,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: json-glib
   
-  version: "2.44"
+  version: 0.12.6
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.16"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: geoip
   
-  version: 0.12.6
+  version: ""
 uri:
 - https://github.com/transmission-remote-gtk/transmission-remote-gtk/releases/download/1.4.1/transmission-remote-gtk-1.4.1.tar.xz
 use_flags:

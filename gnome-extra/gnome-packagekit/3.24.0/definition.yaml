@@ -5,12 +5,40 @@ license: GPL-2
 name: gnome-packagekit
 requires:
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: gtk+
+  name: dbus
   
-  version: 3.15.3
+  version: 1.1.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.10"
 - 
   category: x11-libs
   description: ""
@@ -33,13 +61,6 @@ requires:
   
   version: 0.9.1
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.10"
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -54,20 +75,6 @@ requires:
   
   version: "42"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -75,26 +82,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
-  
-  version: 1.1.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
+  name: gdk-pixbuf
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: gtk+
   
-  version: "2.32"
+  version: 3.15.3
 uri: []
 use_flags:
 - systemd

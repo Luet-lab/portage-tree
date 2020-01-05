@@ -5,10 +5,17 @@ license: GPL-2
 name: systemtap
 requires:
 - 
-  category: dev-db
+  category: app-emulation
   description: ""
   license: ""
-  name: sqlite
+  name: libvirt
+  
+  version: 1.0.2
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
@@ -22,35 +29,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-c
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: nss
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
   
   version: ""
 - 
@@ -68,12 +47,33 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
+  category: dev-db
   description: ""
   license: ""
-  name: libvirt
+  name: sqlite
   
-  version: 1.0.2
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
 uri:
 - https://www.sourceware.org/systemtap/ftp/releases/systemtap-4.0.tar.gz
 use_flags:

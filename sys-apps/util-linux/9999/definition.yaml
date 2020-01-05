@@ -1,17 +1,24 @@
 category: sys-apps
 conflicts:
 - 
-  category: net-wireless
+  category: <sys-apps
   description: ""
   license: ""
-  name: rfkill
+  name: shadow
   
-  version: ""
+  version: 4.7-r2
 - 
   category: sys-process
   description: ""
   license: ""
   name: schedutils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: setarch
   
   version: ""
 - 
@@ -22,19 +29,19 @@ conflicts:
   
   version: 1.41.8
 - 
-  category: <app-shells
+  category: app-arch
   description: ""
   license: ""
-  name: bash-completion
+  name: hardlink
   
-  version: 2.7-r1
+  version: ""
 - 
-  category: '>=app-admin'
+  category: sys-process
   description: ""
   license: ""
-  name: sysklogd
+  name: procps
   
-  version: "2.0"
+  version: ""
 - 
   category: <sys-apps
   description: ""
@@ -50,26 +57,26 @@ conflicts:
   
   version: 1.41.8
 - 
-  category: <sys-apps
+  category: <app-shells
   description: ""
   license: ""
-  name: shadow
+  name: bash-completion
   
-  version: 4.7-r2
+  version: 2.7-r1
 - 
-  category: sys-process
+  category: net-wireless
   description: ""
   license: ""
-  name: procps
+  name: rfkill
   
   version: ""
 - 
-  category: sys-apps
+  category: '>=app-admin'
   description: ""
   license: ""
-  name: setarch
+  name: sysklogd
   
-  version: ""
+  version: "2.0"
 - 
   category: sys-apps
   description: ""
@@ -84,38 +91,10 @@ conflicts:
   name: shadow
   
   version: 4.7-r2
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: hardlink
-  
-  version: ""
 description: Various useful Linux utilities
 license: GPL-2 LGPL-2.1 BSD-4 MIT public-domain
 name: util-linux
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.2.2-r4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: slang
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -127,7 +106,42 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: ncurses
+  
+  version: 5.2-r2
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: slang
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -141,14 +155,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: zlib
   
-  version: 5.2-r2
+  version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: libintl
+  name: cryptsetup
   
   version: ""
 - 
@@ -162,23 +176,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: libselinux
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
+  version: 2.2.2-r4
 uri: []
 use_flags:
 - build

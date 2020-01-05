@@ -5,19 +5,12 @@ license: GPL-2
 name: udisks
 requires:
 - 
-  category: dev-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libatasmart
+  name: polkit
   
-  version: "0.19"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
+  version: "0.110"
 - 
   category: sys-fs
   description: ""
@@ -26,6 +19,13 @@ requires:
   
   version: 2.02.66
 - 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -33,12 +33,12 @@ requires:
   
   version: 2.20.1-r2
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: sg3_utils
+  name: libgudev
   
-  version: 1.27.20090411
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: virtual
   description: ""
   license: ""
-  name: avahi
+  name: eject
   
   version: ""
 - 
@@ -75,19 +75,12 @@ requires:
   
   version: "0.100"
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: glib
+  name: dbus
   
-  version: "2.30"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
+  version: "1.6"
 - 
   category: sys-block
   description: ""
@@ -103,19 +96,26 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: eject
+  name: glib
   
-  version: ""
+  version: "2.30"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: "0.19"
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: sg3_utils
   
-  version: "1.6"
+  version: 1.27.20090411
 uri:
 - https://hal.freedesktop.org/releases/udisks-1.0.5.tar.gz
 use_flags:

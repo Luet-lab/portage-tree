@@ -12,6 +12,27 @@ license: AGPL-3
 name: bareos
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -19,45 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: 0.94.2
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: glusterfs
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
+  name: zlib
   
   version: ""
 - 
@@ -68,17 +54,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-block
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: mt-st
+  name: mtx
   
   version: ""
 - 
@@ -89,17 +68,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: jansson
+  name: glusterfs
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: readline
+  name: mta
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: lzo
   
   version: ""
 - 
@@ -117,24 +110,38 @@ requires:
   
   version: ""
 - 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ceph
+  
+  version: 0.94.2
+- 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: lmdb
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: zlib
+  name: mysql
   
   version: ""
 - 
-  category: sys-block
+  category: dev-libs
   description: ""
   license: ""
-  name: mtx
+  name: jansson
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: mt-st
   
   version: ""
 - 
@@ -145,13 +152,6 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -159,17 +159,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: tcp-wrappers
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: lzo
+  name: libressl
   
   version: ""
 uri:

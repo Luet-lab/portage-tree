@@ -8,28 +8,28 @@ requires:
   category: net-wireless
   description: ""
   license: ""
-  name: iwd
+  name: bluez
   
   version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libnftnl
+  name: libmnl
   
-  version: 1.0.4
-- 
-  category: net-vpn
-  description: ""
-  license: ""
-  name: openconnect
-  
-  version: ""
+  version: 1.0.0
 - 
   category: net-vpn
   description: ""
   license: ""
   name: openvpn
+  
+  version: ""
+- 
+  category: net-dialup
+  description: ""
+  license: ""
+  name: pptpclient
   
   version: ""
 - 
@@ -47,45 +47,17 @@ requires:
   
   version: 1.4.8
 - 
-  category: net-dialup
+  category: net-misc
   description: ""
   license: ""
-  name: xl2tpd
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmnl
-  
-  version: 1.0.0
-- 
-  category: net-dialup
-  description: ""
-  license: ""
-  name: pptpclient
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
+  name: ofono
   
   version: ""
 - 
   category: net-vpn
   description: ""
   license: ""
-  name: vpnc
+  name: openconnect
   
   version: ""
 - 
@@ -96,12 +68,40 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.16"
+- 
   category: sys-apps
   description: ""
   license: ""
   name: dbus
   
   version: 1.2.24
+- 
+  category: net-dialup
+  description: ""
+  license: ""
+  name: xl2tpd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnftnl
+  
+  version: 1.0.4
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: vpnc
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -110,19 +110,19 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: net-wireless
   description: ""
   license: ""
-  name: ofono
+  name: iwd
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
+  name: gnutls
   
-  version: "2.16"
+  version: ""
 uri:
 - https://www.kernel.org/pub/linux/network/connman/connman-1.37.tar.xz
 use_flags:
