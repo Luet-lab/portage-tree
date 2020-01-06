@@ -4,14 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
+  name: mini-qmail
   
   version: ""
 - 
@@ -25,7 +18,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: qmail-ldap
   
   version: ""
 - 
@@ -33,6 +26,13 @@ mailer
   description: ""
   license: ""
   name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
   
   version: ""
 - 
@@ -53,7 +53,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: courier
   
   version: ""
 - 
@@ -67,7 +67,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: postfix
   
   version: ""
 - 
@@ -82,24 +82,10 @@ license: ISC BSD BSD-1 BSD-2 BSD-4
 name: opensmtpd
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libasr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: zlib
   
   version: ""
 - 
@@ -117,17 +103,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: openssl
   
   version: ""
 - 
-  category: net-mail
+  category: sys-libs
   description: ""
   license: ""
-  name: mailbase
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -145,10 +138,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-mail
   description: ""
   license: ""
-  name: libressl
+  name: mailbase
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libasr
   
   version: ""
 uri:

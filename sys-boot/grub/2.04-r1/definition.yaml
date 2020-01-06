@@ -4,14 +4,14 @@ conflicts:
   category: sys-boot
   description: ""
   license: ""
-  name: grub
+  name: grub-static
   
   version: ""
 - 
   category: sys-boot
   description: ""
   license: ""
-  name: grub-static
+  name: grub
   
   version: ""
 description: GNU GRUB boot loader
@@ -20,10 +20,10 @@ license: GPL-3+ BSD MIT fonts? ( GPL-2-with-font-exception ) themes? ( CC-BY-SA-
 name: grub
 requires:
 - 
-  category: sys-devel
+  category: app-arch
   description: ""
   license: ""
-  name: gettext
+  name: xz-utils
   
   version: ""
 - 
@@ -41,20 +41,6 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: xen-tools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -62,12 +48,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-emulation
   description: ""
   license: ""
-  name: ibm-powerpc-utils
+  name: xen-tools
   
-  version: 1.3.5
+  version: ""
 - 
   category: sys-boot
   description: ""
@@ -76,10 +62,10 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-devel
   description: ""
   license: ""
-  name: xz-utils
+  name: gettext
   
   version: ""
 - 
@@ -96,6 +82,20 @@ requires:
   name: lvm2
   
   version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: ibm-powerpc-utils
+  
+  version: 1.3.5
 uri:
 - 'mirror://gnu/grub/grub-2.04.tar.xz fonts? ( mirror://gnu/unifont/unifont-12.1.02/unifont-12.1.02.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

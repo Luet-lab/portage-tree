@@ -5,10 +5,17 @@ license: GPL-2 GPL-2+
 name: openvas-scanner
 requires:
 - 
-  category: net-libs
+  category: net-analyzer
   description: ""
   license: ""
-  name: gnutls
+  name: gvm-libs
+  
+  version: 10.0.1
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
   
   version: ""
 - 
@@ -19,17 +26,31 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
   name: gpgme
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libksba
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh
   
   version: ""
 - 
@@ -46,27 +67,6 @@ requires:
   name: libgcrypt
   
   version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libksba
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: gvm-libs
-  
-  version: 10.0.1
 uri:
 - https://github.com/greenbone/openvas-scanner/archive/v6.0.1.tar.gz -> openvas-scanner-6.0.1.tar.gz
 use_flags:

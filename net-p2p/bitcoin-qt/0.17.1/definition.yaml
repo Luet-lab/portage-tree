@@ -5,26 +5,19 @@ license: MIT
 name: bitcoin-qt
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: protobuf
+  name: zeromq
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: boost
   
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
+  version: 1.52.0
 - 
   category: dev-libs
   description: ""
@@ -40,17 +33,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
+  name: protobuf
   
   version: ""
 - 
@@ -68,26 +54,12 @@ requires:
   
   version: ""
 - 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: qrencode
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: zeromq
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: boost
+  name: univalue
   
-  version: 1.52.0
+  version: 1.0.4
 - 
   category: dev-qt
   description: ""
@@ -96,19 +68,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: univalue
+  name: qtgui
   
-  version: 1.0.4
+  version: ""
 - 
-  category: net-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: miniupnpc
+  name: qtdbus
   
-  version: 1.9.20150916
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -123,6 +102,27 @@ requires:
   name: bitcoin-leveldb
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: qrencode
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: miniupnpc
+  
+  version: 1.9.20150916
 uri:
 - https://github.com/bitcoin/bitcoin/archive/ef70f9b52b851c7997a9f1a0834714e3eebc1fd8.tar.gz
   -> bitcoin-v0.17.1.tar.gz

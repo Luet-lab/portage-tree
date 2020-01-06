@@ -25,28 +25,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
+  name: esmtp
   
   version: ""
 - 
@@ -60,6 +39,27 @@ mailer
   category: mail-mta
   description: ""
   license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: exim
   
   version: ""
@@ -67,14 +67,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
+  name: courier
   
   version: ""
 - 
@@ -84,38 +77,17 @@ mailer
   name: postfix
   
   version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
 license: GPL-3
 name: msmtp
 requires:
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls[idn?]
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: msmtpd
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
 - 
   category: net-dns
   description: ""
@@ -131,10 +103,24 @@ requires:
   
   version: ""
 - 
-  category: net-mail
+  category: net-libs
   description: ""
   license: ""
-  name: mailbase
+  name: gnutls[idn?]
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: msmtpd
   
   version: ""
 - 
@@ -142,6 +128,20 @@ requires:
   description: ""
   license: ""
   name: msmtpd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
   
   version: ""
 uri:

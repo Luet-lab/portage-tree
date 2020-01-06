@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: openrc
+  
+  version: "0.11"
+- 
   category: <sys-fs
   description: ""
   license: ""
@@ -14,31 +21,17 @@ conflicts:
   name: lvm-user
   
   version: ""
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: openrc
-  
-  version: "0.11"
 description: User-land utilities for LVM2 (device-mapper) software
 license: GPL-2
 name: lvm2
 requires:
 - 
-  category: sys-cluster
+  category: sys-libs
   description: ""
   license: ""
-  name: sanlock
+  name: readline
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "205"
 - 
   category: sys-apps
   description: ""
@@ -64,16 +57,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: libaio[static-libs?]
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: readline
+  name: sanlock
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "205"
 - 
   category: virtual
   description: ""
@@ -92,7 +92,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libaio[static-libs?]
+  name: libaio
   
   version: ""
 uri: []

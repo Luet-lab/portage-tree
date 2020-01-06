@@ -12,80 +12,17 @@ license: GPL-3+ FDL-1.3+ BSD HPND MIT W3C unicode PSF-2
 name: emacs
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libotf
-  
-  version: 0.9.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXaw
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: gamestat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.28.6
-- 
   category: net-libs
   description: ""
   license: ""
-  name: gnutls
+  name: liblockfile
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.12.18
 - 
   category: media-libs
   description: ""
   license: ""
   name: alsa-lib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
   
   version: ""
 - 
@@ -99,14 +36,56 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libotf
+  
+  version: 0.9.4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xbitmaps
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.12.18
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
   
   version: ""
 - 
@@ -120,21 +99,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libXext
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: m17n-lib
+  
+  version: 1.5.1
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-emacs
+  
+  version: "1.16"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: giflib
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: libXpm
   
   version: ""
 - 
@@ -152,10 +159,122 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXaw
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.2.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: 2.26.2
+- 
   category: virtual
   description: ""
   license: ""
-  name: acl
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXmu
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: gamestat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
   
   version: ""
 - 
@@ -173,20 +292,6 @@ requires:
   
   version: ""
 - 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: 6.6.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -194,131 +299,26 @@ requires:
   
   version: "2.3"
 - 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-emacs
-  
-  version: "1.16"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xbitmaps
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: 2.2.0
+  version: 2.28.6
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libXrandr
   
   version: ""
 - 
-  category: x11-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: libxcb
+  name: imagemagick
   
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.0"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: m17n-lib
-  
-  version: 1.5.1
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: liblockfile
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: 2.26.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: giflib
-  
-  version: ""
+  version: 6.6.2
 uri:
 - mirror://gnu/emacs/emacs-25.3.tar.xz
 - https://dev.gentoo.org/~ulm/emacs/emacs-25.3-patches-2.tar.xz

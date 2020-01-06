@@ -13,12 +13,33 @@ license: GPL-2 dtrace? ( CDDL )
 name: virtualbox
 requires:
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libxslt
+  name: opengl
   
-  version: 1.1.19
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -30,98 +51,49 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: virtualbox-modules
-  
-  version: 5.2.32
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libIDL
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
   name: qtprintsupport
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.19
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libvpx
+  name: libpng
   
   version: ""
 - 
@@ -139,17 +111,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtcore
   
   version: ""
 - 
@@ -160,24 +125,59 @@ requires:
   
   version: 0.9.9
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openssl
+  name: libX11
   
   version: ""
 - 
-  category: net-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: curl
+  name: libXmu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libIDL
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 - 
@@ -188,6 +188,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -195,10 +202,17 @@ requires:
   
   version: "171"
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: virtualbox-modules
+  
+  version: 5.2.32
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libvpx
   
   version: ""
 - 
@@ -209,24 +223,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freeglut
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
+  name: libxcb
   
   version: ""
 uri:

@@ -5,12 +5,12 @@ license: GPL-2+ LGPL-2+
 name: gnome-keyring
 requires:
 - 
-  category: app-crypt
+  category: sys-libs
   description: ""
   license: ""
-  name: gcr
+  name: libcap-ng
   
-  version: 3.27.90
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -19,31 +19,10 @@ requires:
   
   version: "2.44"
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
   name: ca-certificates
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.2.2
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
   
   version: ""
 - 
@@ -67,6 +46,27 @@ requires:
   name: gnupg
   
   version: 2.0.28
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: 3.27.90
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.2
 uri: []
 use_flags:
 - +caps

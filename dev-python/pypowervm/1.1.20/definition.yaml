@@ -4,13 +4,6 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
-  
-  version: 2.1.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
   name: lxml
   
   version: 3.7.0
@@ -21,6 +14,13 @@ conflicts:
   name: oslo-i18n
   
   version: 3.15.2
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.1.0
 description: Python binding for the PowerVM REST API
 license: Apache-2.0
 name: pypowervm
@@ -29,37 +29,30 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-i18n
+  name: oslo-context
   
-  version: 2.1.0
+  version: 2.14.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: pyasn1
   
-  version: 2.14.2
+  version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: six
+  name: pytz
   
-  version: 1.9.0
+  version: "2013.6"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: lxml
+  name: oslo-log
   
-  version: 3.4.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-concurrency
-  
-  version: 3.8.0
+  version: 3.22.0
 - 
   category: dev-python
   description: ""
@@ -71,9 +64,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pytz
+  name: six
   
-  version: "2013.6"
+  version: 1.9.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: taskflow
+  
+  version: 2.16.0
 - 
   category: dev-python
   description: ""
@@ -92,16 +92,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-context
+  name: oslo-concurrency
   
-  version: 2.14.0
+  version: 3.8.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-log
+  name: oslo-i18n
   
-  version: 3.22.0
+  version: 2.1.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: lxml
+  
+  version: 3.4.1
 - 
   category: dev-python
   description: ""
@@ -113,9 +120,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyasn1
+  name: requests
   
-  version: ""
+  version: 2.14.2
 - 
   category: virtual
   description: ""
@@ -123,13 +130,6 @@ requires:
   name: python-futures
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: taskflow
-  
-  version: 2.16.0
 uri:
 - mirror://pypi/p/pypowervm/pypowervm-1.1.20.tar.gz
 use_flags:

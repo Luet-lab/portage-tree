@@ -11,13 +11,6 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
-  
-  version: 044-r1
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
   name: genkernel-next
   
   version: "67"
@@ -25,9 +18,16 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: dracut
   
-  version: 7.1.0
+  version: 044-r1
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
 - 
   category: <sys-boot
   description: ""
@@ -43,12 +43,12 @@ conflicts:
   
   version: 3.5.1.1
 - 
-  category: sys-fs
+  category: <sys-kernel
   description: ""
   license: ""
-  name: zfs-fuse
+  name: bliss-initramfs
   
-  version: ""
+  version: 7.1.0
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: sys-fs
   description: ""
   license: ""
-  name: bc
+  name: lsscsi
   
   version: ""
 - 
@@ -82,17 +82,10 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-block
   description: ""
   license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
+  name: parted
   
   version: ""
 - 
@@ -110,24 +103,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-devel
   description: ""
   license: ""
-  name: mdadm
+  name: bc
   
   version: ""
 - 
-  category: net-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+  name: pax-utils
   
   version: ""
 - 
@@ -138,10 +124,24 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: mdadm
   
   version: ""
 - 

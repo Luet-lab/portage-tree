@@ -6,12 +6,12 @@ license: GPL-2
 name: packagekit-base
 requires:
 - 
-  category: sys-auth
+  category: app-shells
   description: ""
   license: ""
-  name: polkit
+  name: bash-completion
   
-  version: "0.114"
+  version: "2"
 - 
   category: sys-apps
   description: ""
@@ -19,41 +19,6 @@ requires:
   name: dbus
   
   version: 1.3.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.9
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: portage
-  
-  version: "2.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.74"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.54.0
 - 
   category: sys-auth
   description: ""
@@ -69,13 +34,6 @@ requires:
   
   version: "213"
 - 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
-  
-  version: "2"
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -90,12 +48,54 @@ requires:
   
   version: "234"
 - 
-  category: app-shells
+  category: dev-db
   description: ""
   license: ""
-  name: bash-completion
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.74"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.54.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.114"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.9
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: layman
   
   version: "2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: portage
+  
+  version: "2.2"
 uri:
 - https://www.freedesktop.org/software/PackageKit/releases/PackageKit-1.1.12.tar.xz
 use_flags:

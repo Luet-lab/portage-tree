@@ -5,19 +5,26 @@ license: GPL-3+ LGPL-2+ CC0-1.0
 name: gnome-photos
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libdazzle
+  name: babl
   
-  version: 3.26.0
+  version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libgdata
+  name: jpeg
   
-  version: 0.15.2
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: grilo-plugins
+  
+  version: ""
 - 
   category: app-misc
   description: ""
@@ -26,12 +33,33 @@ requires:
   
   version: "2"
 - 
-  category: sci-geosciences
+  category: net-libs
   description: ""
   license: ""
-  name: geocode-glib
+  name: libgfbgraph
   
-  version: ""
+  version: 0.2.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.36.8
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gegl
+  
+  version: 0.4.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gexiv2
+  
+  version: 0.10.8
 - 
   category: net-libs
   description: ""
@@ -54,27 +82,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.14.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: 2.36.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gexiv2
-  
-  version: 0.10.8
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -89,45 +96,31 @@ requires:
   
   version: 3.22.16
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libgfbgraph
+  name: libdazzle
   
-  version: 0.2.1
+  version: 3.26.0
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: libgdata
   
-  version: ""
+  version: 0.15.2
 - 
-  category: media-plugins
+  category: x11-libs
   description: ""
   license: ""
-  name: grilo-plugins
+  name: cairo
   
-  version: ""
+  version: 1.14.0
 - 
-  category: media-libs
+  category: sci-geosciences
   description: ""
   license: ""
-  name: babl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gegl
-  
-  version: 0.4.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: geocode-glib
   
   version: ""
 - 
@@ -137,6 +130,13 @@ requires:
   name: libpng
   
   version: "1.6"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri: []
 use_flags:
 - flickr

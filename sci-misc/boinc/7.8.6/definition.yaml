@@ -12,17 +12,24 @@ license: LGPL-2.1
 name: boinc
 requires:
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freeglut
+  name: gtk+
   
   version: ""
 - 
@@ -40,10 +47,10 @@ requires:
   
   version: "180.22"
 - 
-  category: net-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+  name: util-linux
   
   version: ""
 - 
@@ -57,7 +64,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libnotify
+  
+  version: "0.7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
 - 
@@ -74,27 +95,6 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: "2.1"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
 uri:
 - https://github.com/BOINC/boinc/archive/client_release//7.8.6.tar.gz -> boinc-7.8.6.tar.gz
 use_flags:

@@ -5,17 +5,17 @@ license: GPL-2+
 name: cheese
 requires:
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: libcanberra
   
-  version: 2.91.6
+  version: "0.26"
 - 
-  category: x11-libs
+  category: media-video
   description: ""
   license: ""
-  name: libXtst
+  name: gnome-video-effects
   
   version: ""
 - 
@@ -25,6 +25,55 @@ requires:
   name: gobject-introspection
   
   version: 0.6.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: "1.4"
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-vpx
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.39.90
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 2.91.6
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: clutter-gst
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -43,20 +92,6 @@ requires:
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-vpx
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.39.90
-- 
-  category: media-plugins
-  description: ""
-  license: ""
   name: gst-plugins-v4l2
   
   version: "1.4"
@@ -64,44 +99,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
-  
-  version: "1.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: gnome-video-effects
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: clutter-gtk
   
   version: 0.91.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gst
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.26"
 uri: []
 use_flags:
 - +introspection

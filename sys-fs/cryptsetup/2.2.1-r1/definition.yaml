@@ -5,45 +5,10 @@ license: GPL-2+
 name: cryptsetup
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux-2.31-r1[static-libs(+)]
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: argon2
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt[static-libs(+)]
+  name: libressl
   
   version: ""
 - 
@@ -54,38 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libgpg-error
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: 2.31-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: "2.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpwquality[static-libs(+)]
+  name: libudev[static-libs(-)]
   
   version: ""
 - 
@@ -99,7 +36,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgpg-error[static-libs(+)]
+  name: libgcrypt
   
   version: ""
 - 
@@ -113,16 +50,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: popt[static-libs(+)]
   
   version: ""
 - 
-  category: virtual
+  category: app-crypt
   description: ""
   license: ""
-  name: libudev[static-libs(-)]
+  name: argon2
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpwquality[static-libs(+)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: 2.31-r1
 - 
   category: dev-libs
   description: ""
@@ -135,6 +86,55 @@ requires:
   description: ""
   license: ""
   name: libudev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux-2.31-r1[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgpg-error[static-libs(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: popt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: "2.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
   
   version: ""
 uri:

@@ -5,24 +5,10 @@ license: Apache-2.0 BSD BSD-2 CC-BY-SA-4.0 ISC MIT MPL-2.0
 name: cri-o
 requires:
 - 
-  category: sys-fs
+  category: app-emulation
   description: ""
   license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: runc
   
   version: ""
 - 
@@ -33,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: iproute2
+  name: lvm2
   
   version: ""
 - 
@@ -50,7 +36,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgpg-error
+  name: libassuan
   
   version: ""
 - 
@@ -61,10 +47,31 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: cni-plugins
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
   
   version: ""
 - 
@@ -75,13 +82,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -89,24 +89,24 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: runc
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libassuan
+  name: libgpg-error
   
   version: ""
 - 
-  category: net-firewall
+  category: net-misc
   description: ""
   license: ""
-  name: iptables
+  name: cni-plugins
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
   
   version: ""
 uri:

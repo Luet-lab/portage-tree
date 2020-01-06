@@ -19,45 +19,17 @@ license: GPL-2 RSA DES
 name: strongswan
 requires:
 - 
-  category: sys-libs
+  category: net-nds
   description: ""
   license: ""
-  name: pam
+  name: openldap
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.8
 - 
   category: dev-db
   description: ""
   license: ""
   name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ipsec
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
   
   version: ""
 - 
@@ -68,17 +40,24 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: net-dns
   description: ""
   license: ""
-  name: networkmanager
+  name: unbound
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: logger
+  name: ldns
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ipsec
   
   version: ""
 - 
@@ -92,7 +71,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: openssl
+  
+  version: 0.9.8
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -103,10 +96,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: ldns
+  name: sqlite
+  
+  version: 3.3.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
   
   version: ""
 - 
@@ -117,17 +124,10 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: sqlite
-  
-  version: 3.3.1
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: unbound
+  name: logger
   
   version: ""
 uri:

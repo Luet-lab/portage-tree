@@ -5,40 +5,12 @@ license: GPL-2+
 name: gnome-session
 requires:
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libX11
+  name: gnome-settings-daemon
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa[egl,gles2,X(+)]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "239.4"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
+  version: 3.23.2
 - 
   category: x11-misc
   description: ""
@@ -46,41 +18,6 @@ requires:
   name: xdg-user-dirs
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.18.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: "0.10"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libepoxy
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.76"
 - 
   category: dev-libs
   description: ""
@@ -99,16 +36,16 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.7
-- 
-  category: gnome-base
-  description: ""
-  license: ""
   name: gnome-desktop
   
   version: "3.18"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libepoxy
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -124,12 +61,68 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: libSM
   
-  version: 3.23.2
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: "0.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa[egl,gles2,X(+)]
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239.4"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.18.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.76"
 - 
   category: sys-apps
   description: ""
@@ -137,6 +130,13 @@ requires:
   name: dbus[X]
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 0.1.7
 uri: []
 use_flags:
 - consolekit

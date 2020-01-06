@@ -12,12 +12,12 @@ license: GPL-2 LGPL-2
 name: gnome-vfs
 requires:
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-mime-data
+  name: libxml2
   
-  version: ""
+  version: 2.9.1-r4
 - 
   category: net-libs
   description: ""
@@ -25,6 +25,20 @@ requires:
   name: gnutls
   
   version: 2.12.23-r6
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-mime-data
+  
+  version: ""
 - 
   category: x11-misc
   description: ""
@@ -36,23 +50,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: dbus-glib
   
-  version: 1.0.1h-r2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.9.1-r4
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: 1.0.6-r4
+  version: 0.100.2
 - 
   category: sys-apps
   description: ""
@@ -75,6 +75,13 @@ requires:
   
   version: 3.6.23-r1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -89,12 +96,12 @@ requires:
   
   version: 2.34.3
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: dbus-glib
+  name: bzip2
   
-  version: 0.100.2
+  version: 1.0.6-r4
 - 
   category: sys-apps
   description: ""
@@ -106,16 +113,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.31-r2
+  version: 1.0.1h-r2
 uri: []
 use_flags:
 - acl

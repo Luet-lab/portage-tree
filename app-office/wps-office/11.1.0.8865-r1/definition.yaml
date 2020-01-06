@@ -5,73 +5,10 @@ license: WPS-EULA
 name: wps-office
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libffi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libbsd
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
+  name: libsndfile
   
   version: ""
 - 
@@ -92,35 +29,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libasyncns
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
+  name: libXau
   
   version: ""
 - 
@@ -131,45 +40,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libcap
+  name: bzip2
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libogg
+  name: expat
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: libpng-compat
+  name: glu
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: flac
+  name: libpcre
   
   version: ""
 - 
-  category: media-sound
+  category: dev-libs
   description: ""
   license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
+  name: libbsd
   
   version: ""
 - 
@@ -183,21 +85,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: libpng-compat
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
+  name: libXtst
   
   version: ""
 - 
-  category: app-arch
+  category: sys-libs
   description: ""
   license: ""
-  name: xz-utils
+  name: libcap
   
   version: ""
 - 
@@ -208,10 +110,24 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: libogg
   
   version: ""
 - 
@@ -222,17 +138,17 @@ requires:
   
   version: ""
 - 
-  category: net-print
+  category: net-libs
   description: ""
   license: ""
-  name: cups
+  name: libasyncns
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: dbus
   
   version: ""
 - 
@@ -240,6 +156,13 @@ requires:
   description: ""
   license: ""
   name: tcp-wrappers
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
   
   version: ""
 - 
@@ -253,7 +176,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
@@ -261,6 +184,83 @@ requires:
   description: ""
   license: ""
   name: glib
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libffi
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdmcp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri: []

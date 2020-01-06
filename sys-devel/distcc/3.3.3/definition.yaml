@@ -12,17 +12,52 @@ license: GPL-2+
 name: distcc
 requires:
 - 
-  category: sys-devel
+  category: dev-libs
   description: ""
   license: ""
-  name: gcc-config
+  name: popt
   
-  version: 1.4.1
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: "0.6"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-distcc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: xinetd
+  
+  version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
   name: libgnome
+  
+  version: "2"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomeui
   
   version: "2"
 - 
@@ -40,13 +75,6 @@ requires:
   
   version: ""
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
-- 
   category: dev-util
   description: ""
   license: ""
@@ -54,40 +82,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-devel
   description: ""
   license: ""
-  name: xinetd
+  name: gcc-config
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomeui
-  
-  version: "2"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-distcc
-  
-  version: ""
+  version: 1.4.1
 uri:
 - https://github.com/distcc/distcc/releases/download/v3.3.3/distcc-3.3.3.tar.gz
 use_flags:

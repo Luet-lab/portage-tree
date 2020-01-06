@@ -5,31 +5,24 @@ license: ""
 name: Mail-DMARC
 requires:
 - 
-  category: virtual
+  category: dev-perl
   description: ""
   license: ""
-  name: perl-CPAN
+  name: IO-Socket-SSL
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Email-MIME
+  name: Mail-DKIM
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-SSLeay
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Socket
+  name: Net-HTTP
   
   version: ""
 - 
@@ -43,70 +36,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: CGI
+  name: Regexp-Common
   
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-Tiny
-  
-  version: ""
+  version: "2013031301"
 - 
   category: virtual
   description: ""
   license: ""
-  name: perl-Encode
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-IP
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-SMTPS
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-SSL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Email-Simple
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-IDN-Encode
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: XML-LibXML
+  name: perl-CPAN
   
   version: ""
 - 
@@ -127,105 +64,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Test-File-ShareDir
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Regexp-Common
-  
-  version: "2013031301"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Mail-DKIM
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Carp
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBIx-Simple
-  
-  version: 1.350.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-HTTP-Tiny
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-IO
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-parent
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-IMAP-Simple
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTTP-Message
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-HTTP
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Sys-Syslog
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: URI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: File-ShareDir
+  name: CGI
   
   version: ""
 - 
@@ -239,7 +78,126 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Test-File-ShareDir
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Server
+  
+  version: "2"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-parent
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Carp
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTTP-Message
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-IP
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Email-Simple
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Sys-Syslog
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: JSON
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-IDN-Encode
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-SSLeay
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: XML-LibXML
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-Tiny
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBIx-Simple
+  
+  version: 1.350.0
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Email-MIME
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: File-ShareDir
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-HTTP-Tiny
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
   
   version: ""
 - 
@@ -253,9 +211,51 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Net-Server
+  name: Net-SMTPS
   
-  version: "2"
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Socket
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: URI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-IMAP-Simple
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Encode
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-IO
+  
+  version: ""
 uri: []
 use_flags:
 - test

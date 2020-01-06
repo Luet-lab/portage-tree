@@ -5,33 +5,26 @@ license: BSD-with-attribution
 name: cyrus-sasl
 requires:
 - 
-  category: net-mail
+  category: sys-libs
   description: ""
   license: ""
-  name: mailbase
+  name: db
   
-  version: ""
+  version: 4.8.30-r1
 - 
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
-  
-  version: 3.8.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: postgresql
   
   version: ""
 - 
-  category: net-nds
+  category: sec-policy
   description: ""
   license: ""
-  name: openldap
+  name: selinux-sasl
   
-  version: 2.4.38-r1
+  version: ""
 - 
   category: dev-db
   description: ""
@@ -50,9 +43,9 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: sqlite
   
-  version: ""
+  version: 3.8.2
 - 
   category: dev-libs
   description: ""
@@ -61,12 +54,12 @@ requires:
   
   version: 1.0.1h-r2
 - 
-  category: sys-libs
+  category: net-mail
   description: ""
   license: ""
-  name: db
+  name: mailbase
   
-  version: 4.8.30-r1
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -82,19 +75,26 @@ requires:
   
   version: 0-r1
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.4.38-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: jdk
   
   version: "1.6"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-sasl
-  
-  version: ""
 uri:
 - https://github.com/cyrusimap/cyrus-sasl/releases/download/cyrus-sasl-2.1.27/cyrus-sasl-2.1.27.tar.gz
 use_flags:

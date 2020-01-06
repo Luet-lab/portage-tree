@@ -5,10 +5,17 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: app-misc
+  category: app-crypt
   description: ""
   license: ""
-  name: mime-types
+  name: gpgme
+  
+  version: 0.9.0
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
 - 
@@ -19,17 +26,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: kyotocabinet
   
-  version: "2"
+  version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: ncurses
+  name: libintl
   
   version: ""
 - 
@@ -40,17 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: db
-  
-  version: "6.3"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: selinux-mutt
   
   version: ""
 - 
@@ -61,12 +61,19 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: virtual
   description: ""
   license: ""
-  name: libidn
+  name: krb5
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: "2"
 - 
   category: sys-libs
   description: ""
@@ -82,19 +89,26 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: net-libs
   description: ""
   license: ""
-  name: qdbm
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: notmuch
   
   version: ""
 - 
-  category: app-crypt
+  category: sys-libs
   description: ""
   license: ""
-  name: gpgme
+  name: ncurses
   
-  version: 0.9.0
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -103,38 +117,24 @@ requires:
   
   version: 0.9.6
 - 
-  category: sec-policy
+  category: app-misc
   description: ""
   license: ""
-  name: selinux-mutt
+  name: mime-types
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.3"
 - 
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
+  name: qdbm
   
   version: ""
 uri:

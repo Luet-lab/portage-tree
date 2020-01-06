@@ -5,31 +5,38 @@ license: GPL-3
 name: qt-creator
 requires:
 - 
-  category: dev-qt
+  category: sys-devel
   description: ""
   license: ""
-  name: qtscript
+  name: autoconf
   
-  version: 5.9.0
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvs
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: designer
+  name: qtprintsupport
   
   version: 5.9.0
 - 
   category: dev-vcs
   description: ""
   license: ""
-  name: bzr
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: cmake[server(+)]
+  name: mercurial
   
   version: ""
 - 
@@ -47,45 +54,10 @@ requires:
   
   version: 5.9.0
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
-  
-  version: 5.9.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: 5.9.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: 5.9.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.9.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qthelp
-  
-  version: 5.9.0
-- 
   category: dev-vcs
   description: ""
   license: ""
-  name: cvs
+  name: bzr
   
   version: ""
 - 
@@ -96,12 +68,12 @@ requires:
   
   version: 5.9.0
 - 
-  category: dev-util
+  category: dev-qt
   description: ""
   license: ""
-  name: qbs
+  name: qtnetwork
   
-  version: 1.12.2
+  version: 5.9.0
 - 
   category: dev-qt
   description: ""
@@ -113,14 +85,42 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols
+  name: qtgui
   
   version: 5.9.0
 - 
-  category: dev-vcs
+  category: dev-qt
   description: ""
   license: ""
-  name: git
+  name: qtxml
+  
+  version: 5.9.0
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: qbs
+  
+  version: 1.12.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: cmake[server(+)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: the_silver_searcher
   
   version: ""
 - 
@@ -128,6 +128,13 @@ requires:
   description: ""
   license: ""
   name: qtcore
+  
+  version: 5.9.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
   
   version: 5.9.0
 - 
@@ -145,48 +152,6 @@ requires:
   
   version: 5.9.0
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.9.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.9.0
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: clang
-  
-  version: "6"
-- 
   category: dev-util
   description: ""
   license: ""
@@ -194,12 +159,12 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: dev-qt
   description: ""
   license: ""
-  name: mercurial
+  name: qtsvg
   
-  version: ""
+  version: 5.9.0
 - 
   category: dev-libs
   description: ""
@@ -211,7 +176,42 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtconcurrent
+  
+  version: 5.9.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: 5.9.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtscript
+  
+  version: 5.9.0
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: clang
+  
+  version: "6"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: designer
+  
+  version: 5.9.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qthelp
   
   version: 5.9.0
 - 
@@ -225,14 +225,14 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: autoconf
+  name: gdb
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-vcs
   description: ""
   license: ""
-  name: the_silver_searcher
+  name: git
   
   version: ""
 uri:

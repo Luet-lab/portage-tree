@@ -5,38 +5,17 @@ license: GPL-2
 name: policycoreutils
 requires:
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: libcap
-  
-  version: 1.10-r10
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsepol
-  
-  version: "3.0"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: setools
-  
-  version: 4.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: ipy
+  name: gettext
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: dbus-glib
+  name: dbus
   
   version: ""
 - 
@@ -64,9 +43,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libsemanage
+  name: libcap
   
-  version: "3.0"
+  version: 1.10-r10
 - 
   category: sys-libs
   description: ""
@@ -75,17 +54,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: dev-python
   description: ""
   license: ""
-  name: gettext
+  name: ipy
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: dbus-glib
   
   version: ""
 - 
@@ -95,6 +74,27 @@ requires:
   name: pax-utils
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsemanage
+  
+  version: "3.0"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsepol
+  
+  version: "3.0"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: setools
+  
+  version: 4.2.0
 uri:
 - https://github.com/SELinuxProject/selinux/releases/download/20191204/policycoreutils-3.0.tar.gz
 - https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2

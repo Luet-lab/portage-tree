@@ -8,10 +8,10 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
+  category: net-mail
   description: ""
   license: ""
-  name: netqmail
+  name: fastforward
   
   version: ""
 - 
@@ -25,21 +25,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: msmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
   
   version: ""
 - 
@@ -50,24 +50,10 @@ mailer
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: fastforward
-  
-  version: ""
-- 
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: ssmtp
   
   version: ""
 - 
@@ -81,7 +67,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
   
   version: ""
 description: A fast and secure drop-in replacement for sendmail
@@ -103,7 +103,28 @@ requires:
   
   version: "2"
 - 
-  category: acct-user
+  category: net-misc
+  description: ""
+  license: ""
+  name: memcached
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: 0.9.11
+- 
+  category: acct-group
   description: ""
   license: ""
   name: postfix
@@ -117,31 +138,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
-- 
   category: dev-db
   description: ""
   license: ""
   name: mysql-connector-c
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: memcached
   
   version: ""
 - 
@@ -152,19 +152,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: postgresql
+  name: openssl
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: 0.9.11
 - 
   category: dev-libs
   description: ""
@@ -173,31 +166,17 @@ requires:
   
   version: 2.9.1
 - 
-  category: acct-group
+  category: sys-libs
   description: ""
   license: ""
-  name: postfix
+  name: db
   
-  version: ""
+  version: "3.2"
 - 
-  category: dev-lang
+  category: dev-db
   description: ""
   license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: postdrop
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
+  name: sqlite
   
   version: ""
 - 
@@ -208,10 +187,24 @@ requires:
   
   version: "3.4"
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: icu
+  name: postgresql
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: postdrop
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: postfix
   
   version: ""
 - 
@@ -222,10 +215,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: openssl
+  name: perl
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
   
   version: ""
 uri:

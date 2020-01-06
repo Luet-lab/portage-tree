@@ -8,19 +8,19 @@ conflicts:
   
   version: 3.3.9-r2
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit
-  
-  version: ""
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: baselayout
   
   version: 2.1-r1
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-bashcomp
+  
+  version: "20180302"
 - 
   category: <sys-fs
   description: ""
@@ -29,19 +29,19 @@ conflicts:
   
   version: "27"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit
+  
+  version: ""
+- 
   category: <app-shells
   description: ""
   license: ""
   name: gentoo-zsh-completions
   
   version: "20180228"
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
@@ -53,6 +53,20 @@ requires:
   name: libselinux
   
   version: "2.6"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
 - 
   category: app-shells
   description: ""
@@ -71,16 +85,9 @@ requires:
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-base-policy
+  name: selinux-openrc
   
   version: 2.20170204-r4
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -99,6 +106,13 @@ requires:
   category: sys-process
   description: ""
   license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
   name: psmisc
   
   version: ""
@@ -110,26 +124,12 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-openrc
+  name: selinux-base-policy
   
   version: 2.20170204-r4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
 uri: []
 use_flags:
 - audit

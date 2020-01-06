@@ -5,12 +5,19 @@ license: GPL-2+
 name: xfce4-settings
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: libXcursor
   
-  version: "2.24"
+  version: "1.1"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: xf86-input-libinput
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -18,6 +25,20 @@ requires:
   name: fontconfig
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: "1.3"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.12"
 - 
   category: x11-misc
   description: ""
@@ -50,13 +71,6 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: exo
-  
-  version: "0.11"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
   name: xfconf
   
   version: "4.13"
@@ -71,37 +85,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4util
-  
-  version: "4.12"
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: xf86-input-libinput
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libxklavier
   
   version: "5"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.24"
 - 
   category: x11-libs
   description: ""
@@ -113,16 +106,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libX11
   
-  version: "1.1"
+  version: ""
 - 
-  category: x11-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libXi
+  name: exo
   
-  version: "1.3"
+  version: "0.11"
 - 
   category: xfce-base
   description: ""
@@ -130,6 +123,13 @@ requires:
   name: libxfce4ui
   
   version: "4.12"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
 uri:
 - https://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.1.tar.bz2
 use_flags:

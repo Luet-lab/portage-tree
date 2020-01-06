@@ -5,33 +5,33 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: seamonkey-bin
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo-1.10[X]
+  name: atk
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "2.14"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libXrender
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.26"
 - 
   category: gnome-base
   description: ""
@@ -39,13 +39,6 @@ requires:
   name: gnome-vfs
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.72"
 - 
   category: media-libs
   description: ""
@@ -57,7 +50,63 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "0.60"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.72"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo-1.10[X]
   
   version: ""
 - 
@@ -71,21 +120,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: 1.22.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
+  name: libX11
   
   version: ""
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gconf
+  name: fontconfig
   
   version: ""
 - 
@@ -99,51 +141,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: gtk+
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "0.60"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
+  version: "2.14"
 - 
   category: x11-libs
   description: ""
@@ -152,12 +152,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: pango
   
-  version: "2.26"
+  version: 1.22.0
 uri:
 - 'http://archive.mozilla.org/pub/mozilla.org/seamonkey/releases/2.49.1/linux-x86_64/en-US/seamonkey-2.49.1.tar.bz2
   -> seamonkey-bin_x86_64-2.49.1.tar.bz2 '

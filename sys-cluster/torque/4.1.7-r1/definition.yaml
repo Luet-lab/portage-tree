@@ -1,17 +1,17 @@
 category: sys-cluster
 conflicts:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: uthash
-  
-  version: ""
-- 
   category: '!games-util'
   description: ""
   license: ""
   name: qstat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: uthash
   
   version: ""
 description: Resource manager and queuing system based on OpenPBS
@@ -19,12 +19,12 @@ license: torque-2.5
 name: torque
 requires:
 - 
-  category: sys-apps
+  category: x11-drivers
   description: ""
   license: ""
-  name: hwloc
+  name: nvidia-drivers
   
-  version: ""
+  version: "275"
 - 
   category: dev-lang
   description: ""
@@ -40,20 +40,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-drivers
-  
-  version: "275"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -61,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: munge
+  name: hwloc
   
   version: ""
 - 
@@ -72,6 +58,20 @@ requires:
   description: ""
   license: ""
   name: tk
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: munge
   
   version: ""
 - 
@@ -89,17 +89,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: openssh
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

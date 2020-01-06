@@ -5,10 +5,10 @@ license: GPL-2
 name: ecryptfs-utils
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: nss
+  name: gtk+
   
   version: ""
 - 
@@ -26,19 +26,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pkcs11-helper
-  
-  version: "1.04"
-- 
   category: sys-apps
   description: ""
   license: ""
   name: keyutils
   
   version: "1.0"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: ""
 - 
   category: app-crypt
   description: ""
@@ -47,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: pkcs11-helper
   
-  version: ""
+  version: "1.04"
 - 
   category: app-crypt
   description: ""
@@ -60,13 +67,6 @@ requires:
   name: trousers
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.2.0
 uri:
 - https://launchpad.net/ecryptfs/trunk/108/+download/ecryptfs-utils_108.orig.tar.gz
 use_flags:

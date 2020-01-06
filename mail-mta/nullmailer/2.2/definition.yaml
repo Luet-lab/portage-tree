@@ -4,21 +4,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: msmtp[mta(+)]
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp[mta(+)]
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
+  name: esmtp
   
   version: ""
 - 
@@ -39,7 +32,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd[mta(+)]
+  name: netqmail
   
   version: ""
 - 
@@ -53,21 +46,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp[mta(+)]
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: courier
   
   version: ""
 - 
@@ -77,10 +56,38 @@ conflicts:
   name: sendmail
   
   version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd[mta(+)]
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: ssmtp[mta(+)]
+  
+  version: ""
 description: Simple relay-only local mail transport agent
 license: GPL-2
 mailer
 requires:
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -93,13 +100,6 @@ requires:
   description: ""
   license: ""
   name: shadow
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
   
   version: ""
 uri:

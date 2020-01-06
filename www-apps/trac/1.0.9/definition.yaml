@@ -5,6 +5,13 @@ license: BSD
 name: trac
 requires:
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.3.4
+- 
   category: dev-python
   description: ""
   license: ""
@@ -19,45 +26,10 @@ requires:
   
   version: 0.9.5
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: docutils
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: genshi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pytz
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: httpd-cgi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: httpd-fastcgi
   
   version: ""
 - 
@@ -75,12 +47,40 @@ requires:
   
   version: "2"
 - 
-  category: dev-db
+  category: dev-python
   description: ""
   license: ""
-  name: sqlite
+  name: genshi
   
-  version: 3.3.4
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pytz
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: docutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: httpd-fastcgi
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
 uri:
 - http://ftp.edgewall.com/pub/trac/Trac-1.0.9.tar.gz
 use_flags:

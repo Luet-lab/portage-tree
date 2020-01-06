@@ -5,6 +5,13 @@ license: metapackage
 name: gnome
 requires:
 - 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: gnome-shell-extensions
+  
+  version: 3.32.1
+- 
   category: x11-wm
   description: ""
   license: ""
@@ -19,12 +26,19 @@ requires:
   
   version: "0.111"
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gnome-backgrounds
+  
+  version: 3.32.0
+- 
   category: app-accessibility
   description: ""
   license: ""
-  name: at-spi2-core
+  name: at-spi2-atk
   
-  version: 2.32.1
+  version: 2.32.0
 - 
   category: app-accessibility
   description: ""
@@ -40,31 +54,10 @@ requires:
   
   version: 3.32.0
 - 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gnome-shell-extensions
-  
-  version: 3.32.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-extra-apps
-  
-  version: 3.32.2
-- 
   category: gnome-base
   description: ""
   license: ""
   name: gdm
-  
-  version: 3.32.0
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gnome-backgrounds
   
   version: 3.32.0
 - 
@@ -78,9 +71,16 @@ requires:
   category: app-accessibility
   description: ""
   license: ""
-  name: at-spi2-atk
+  name: at-spi2-core
   
-  version: 2.32.0
+  version: 2.32.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-extra-apps
+  
+  version: 3.32.2
 uri: []
 use_flags:
 - accessibility

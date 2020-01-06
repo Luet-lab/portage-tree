@@ -11,20 +11,6 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
-  name: shorewall6-lite
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: shorewall6
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
   name: shorewall-lite
   
   version: ""
@@ -32,7 +18,21 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
+  name: shorewall6-lite
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
   name: shorewall-init
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: shorewall6
   
   version: ""
 - 
@@ -47,12 +47,12 @@ license: GPL-2
 name: shorewall
 requires:
 - 
-  category: sys-apps
+  category: dev-lang
   description: ""
   license: ""
-  name: iproute2
+  name: perl
   
-  version: 3.8.0
+  version: "5.16"
 - 
   category: sec-policy
   description: ""
@@ -61,26 +61,19 @@ requires:
   
   version: 2.20161023-r3
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.16"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Digest-SHA
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: coreutils
+  name: iproute2
   
-  version: "8.20"
+  version: 3.8.0
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: 1.06.95
 - 
   category: net-firewall
   description: ""
@@ -89,12 +82,19 @@ requires:
   
   version: 1.4.20
 - 
-  category: sys-devel
+  category: sys-apps
   description: ""
   license: ""
-  name: bc
+  name: coreutils
   
-  version: 1.06.95
+  version: "8.20"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Digest-SHA
+  
+  version: ""
 - 
   category: dev-perl
   description: ""

@@ -8,19 +8,12 @@ conflicts:
   
   version: 3.3.9-r2
 - 
-  category: sys-apps
+  category: <sys-apps
   description: ""
   license: ""
-  name: sysvinit
+  name: baselayout
   
-  version: ""
-- 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-zsh-completions
-  
-  version: "20180228"
+  version: 2.1-r1
 - 
   category: <sys-fs
   description: ""
@@ -32,16 +25,23 @@ conflicts:
   category: <app-shells
   description: ""
   license: ""
+  name: gentoo-zsh-completions
+  
+  version: "20180228"
+- 
+  category: <app-shells
+  description: ""
+  license: ""
   name: gentoo-bashcomp
   
   version: "20180302"
 - 
-  category: <sys-apps
+  category: sys-apps
   description: ""
   license: ""
-  name: baselayout
+  name: sysvinit
   
-  version: 2.1-r1
+  version: ""
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
@@ -54,48 +54,6 @@ requires:
   
   version: ""
 - 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit-2.86-r6[selinux?]
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.6"
-- 
   category: sec-policy
   description: ""
   license: ""
@@ -103,10 +61,10 @@ requires:
   
   version: 2.20170204-r4
 - 
-  category: sys-libs
+  category: sys-process
   description: ""
   license: ""
-  name: ncurses
+  name: audit
   
   version: ""
 - 
@@ -130,6 +88,48 @@ requires:
   name: selinux-base-policy
   
   version: 2.20170204-r4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit-2.86-r6[selinux?]
+  
+  version: ""
 uri:
 - https://github.com/openrc/openrc/archive/0.42.1.tar.gz -> openrc-0.42.1.tar.gz
 use_flags:

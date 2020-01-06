@@ -5,12 +5,40 @@ license: GPL-2
 name: gnucash
 requires:
 - 
-  category: dev-scheme
+  category: app-crypt
   description: ""
   license: ""
-  name: guile
+  name: libsecret
   
-  version: 2.2.0
+  version: "0.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi-drivers
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.46.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -19,12 +47,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gtk+
+  name: webkit-gtk
   
-  version: 3.14.0
+  version: ""
 - 
   category: dev-perl
   description: ""
@@ -32,6 +60,13 @@ requires:
   name: HTML-TableExtract
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi-drivers
+  
+  version: 0.9.0
 - 
   category: dev-libs
   description: ""
@@ -47,26 +82,12 @@ requires:
   
   version: 1.1.4
 - 
-  category: dev-libs
+  category: dev-scheme
   description: ""
   license: ""
-  name: boost
+  name: guile
   
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
+  version: 2.2.0
 - 
   category: dev-perl
   description: ""
@@ -92,9 +113,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: icu
   
-  version: 2.46.0
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -110,26 +131,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: x11-libs
   description: ""
   license: ""
-  name: libdbi-drivers
+  name: gtk+
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: ""
+  version: 3.14.0
 - 
   category: dev-db
   description: ""
@@ -144,13 +151,6 @@ requires:
   name: libofx
   
   version: 0.9.1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi-drivers
-  
-  version: 0.9.0
 uri:
 - https://github.com/Gnucash/gnucash/releases/download/3.5/gnucash-3.5.tar.bz2
 - https://github.com/google/googletest/archive/release-1.8.0.tar.gz -> gtest-1.8.0.tar.gz

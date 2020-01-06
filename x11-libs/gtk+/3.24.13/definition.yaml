@@ -19,26 +19,12 @@ license: LGPL-2+
 name: gtk+
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: libXdamage
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: "1.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.39"
 - 
   category: media-libs
   description: ""
@@ -50,21 +36,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libXinerama
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libXi
   
-  version: "1.5"
+  version: "1.3"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libX11
   
   version: ""
 - 
@@ -96,31 +82,38 @@ requires:
   
   version: ""
 - 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: at-spi2-atk
-  
-  version: 2.5.3
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libXcomposite
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: gobject-introspection
   
-  version: "0.9"
+  version: "1.39"
 - 
   category: x11-misc
   description: ""
   license: ""
   name: shared-mime-info
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: gtk-update-icon-cache
+  
+  version: "3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
@@ -130,6 +123,13 @@ requires:
   name: rest
   
   version: "0.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: "1.0"
 - 
   category: net-print
   description: ""
@@ -145,17 +145,52 @@ requires:
   
   version: "0.2"
 - 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: at-spi2-atk
+  
+  version: 2.5.3
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: "0.9"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXcursor
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libXrandr
+  
+  version: "1.5"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 0.1.9
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
   
   version: ""
 - 
@@ -165,41 +200,6 @@ requires:
   name: fribidi
   
   version: 0.19.7
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.9
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: "1.3"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: gtk-update-icon-cache
-  
-  version: "3"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gtk+-3.24.13-patchset.tar.xz
 use_flags:

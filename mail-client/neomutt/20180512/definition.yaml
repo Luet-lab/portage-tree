@@ -5,19 +5,68 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libintl
+  name: cyrus-sasl
+  
+  version: "2"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mutt
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: gdbm
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.3"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
 - 
   category: dev-libs
   description: ""
@@ -29,7 +78,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: slang
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -40,33 +96,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: net-mail
   description: ""
   license: ""
-  name: slang
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
+  name: notmuch
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: ncurses
   
-  version: "6.3"
+  version: ""
 - 
   category: dev-db
   description: ""
@@ -82,13 +124,6 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
@@ -96,47 +131,12 @@ requires:
   
   version: 0.9.0
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
+  name: libressl
   
   version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mutt
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
 uri:
 - https://github.com/neomutt/neomutt/archive/neomutt-20180512.tar.gz
 use_flags:

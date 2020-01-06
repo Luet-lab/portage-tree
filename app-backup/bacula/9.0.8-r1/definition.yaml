@@ -5,10 +5,17 @@ license: AGPL-3
 name: bacula
 requires:
 - 
-  category: x11-libs
+  category: dev-db
   description: ""
   license: ""
-  name: qwt
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -19,10 +26,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: gmp
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: logwatch
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: qwt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: lzo
   
   version: ""
 - 
@@ -36,49 +71,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libressl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: logwatch
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
   
   version: ""
 - 
@@ -86,13 +79,6 @@ requires:
   description: ""
   license: ""
   name: mysql-connector-c
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
   
   version: ""
 - 
@@ -110,19 +96,33 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: virtual
   description: ""
   license: ""
-  name: qtwidgets
+  name: acl
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: zlib
   
-  version: "7.6"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mtx
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -134,23 +134,23 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: sqlite
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: lzo
+  name: qtsvg
   
   version: ""
 - 
-  category: sys-block
+  category: sys-apps
   description: ""
   license: ""
-  name: mtx
+  name: tcp-wrappers
   
-  version: ""
+  version: "7.6"
 uri:
 - mirror://sourceforge/bacula/bacula-9.0.8.tar.gz
 use_flags:

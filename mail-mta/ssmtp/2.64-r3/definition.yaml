@@ -1,10 +1,17 @@
 category: mail-mta
 conflicts:
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailwrapper
+  
+  version: ""
+- 
   category: mail-mta
   description: ""
   license: ""
-  name: exim
+  name: postfix
   
   version: ""
 - 
@@ -18,21 +25,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
+  name: exim
   
   version: ""
 - 
@@ -53,6 +46,27 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: nbsmtp
   
   version: ""
@@ -64,17 +78,10 @@ conflicts:
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailwrapper
-  
-  version: ""
-- 
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+  name: esmtp
   
   version: ""
 - 
@@ -82,13 +89,6 @@ conflicts:
   description: ""
   license: ""
 mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
   
   version: ""
 description: Extremely simple MTA to get mail off the system to a Mailhub
@@ -110,17 +110,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: net-mail
   description: ""
   license: ""
   name: mailbase
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

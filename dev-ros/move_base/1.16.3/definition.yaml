@@ -5,10 +5,10 @@ license: BSD
 name: move_base
 requires:
 - 
-  category: dev-libs
+  category: dev-ros
   description: ""
   license: ""
-  name: console_bridge
+  name: geometry_msgs
   
   version: ""
 - 
@@ -22,21 +22,7 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: costmap_2d
-  
-  version: 1.15.1
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: dynamic_reconfigure
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: geometry_msgs
+  name: std_srvs
   
   version: ""
 - 
@@ -47,24 +33,24 @@ requires:
   
   version: ""
 - 
-  category: dev-ros
+  category: dev-cpp
   description: ""
   license: ""
-  name: navfn
+  name: eigen
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: tf2_geometry_msgs
+  name: costmap_2d
   
-  version: ""
+  version: 1.15.1
 - 
-  category: dev-ros
+  category: dev-libs
   description: ""
   license: ""
-  name: actionlib
+  name: tinyxml2
   
   version: ""
 - 
@@ -78,63 +64,7 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: tf2_ros
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
   name: visualization_msgs
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: clear_costmap_recovery
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: rotate_recovery
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: pluginlib
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: nav_core
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: tinyxml2
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: std_srvs
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: eigen
   
   version: ""
 - 
@@ -149,6 +79,76 @@ requires:
   description: ""
   license: ""
   name: move_base_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: dynamic_reconfigure
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: tf2_ros
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: clear_costmap_recovery
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: navfn
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: actionlib
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: pluginlib
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: rotate_recovery
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: console_bridge
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: tf2_geometry_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: nav_core
   
   version: ""
 uri: []

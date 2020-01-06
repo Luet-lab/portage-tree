@@ -13,10 +13,24 @@ license: "BSD-2 BSD SSLeay MIT GPL-2 GPL-2+\n\tnginx_modules_http_security? ( Ap
 name: nginx
 requires:
 - 
-  category: sys-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: zlib
+  name: luajit
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap[ssl?]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
   
   version: ""
 - 
@@ -27,24 +41,10 @@ requires:
   
   version: "5.8"
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: apr-util
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: libxslt
   
   version: ""
 - 
@@ -62,24 +62,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: yajl
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache
+  name: curl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libmaxminddb
+  name: openssl
   
   version: ""
 - 
@@ -93,14 +86,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gd
+  name: libmaxminddb
   
   version: ""
 - 
@@ -111,17 +97,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: curl
+  name: apr-util
   
   version: ""
 - 
-  category: net-nds
+  category: www-servers
   description: ""
   license: ""
-  name: openldap[ssl?]
+  name: apache
   
   version: ""
 - 
@@ -137,26 +123,40 @@ requires:
   license: ""
   name: openssl
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
   version: 1.0.1c
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: geoip
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: yajl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gd
   
   version: ""
 uri:

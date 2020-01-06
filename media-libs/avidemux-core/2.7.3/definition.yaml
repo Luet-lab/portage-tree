@@ -1,17 +1,17 @@
 category: media-libs
 conflicts:
 - 
-  category: <media-video
-  description: ""
-  license: ""
-  name: avidemux
-  
-  version: 2.7.3
-- 
   category: <media-libs
   description: ""
   license: ""
   name: avidemux-core
+  
+  version: 2.7.3
+- 
+  category: <media-video
+  description: ""
+  license: ""
+  name: avidemux
   
   version: 2.7.3
 description: Core libraries for simple video cutting, filtering and encoding tasks
@@ -19,38 +19,10 @@ license: GPL-1 GPL-2 MIT PSF-2 public-domain
 name: avidemux-core
 requires:
 - 
-  category: media-video
-  description: ""
-  license: ""
-  name: nvidia_video_sdk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "9"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libva
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: libXv
   
   version: ""
 - 
@@ -68,10 +40,38 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: "9"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXv
+  name: libvdpau
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: nvidia_video_sdk
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 uri:

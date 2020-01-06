@@ -4,20 +4,27 @@ conflicts:
   category: x11-misc
   description: ""
   license: ""
-  name: qtnotifydaemon
+  name: notification-daemon
   
   version: ""
 - 
   category: x11-misc
   description: ""
   license: ""
-  name: notification-daemon
+  name: qtnotifydaemon
   
   version: ""
 description: Canonical's on-screen-display notification agent
 license: GPL-3
 name: notify-osd
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.98"
 - 
   category: dev-libs
   description: ""
@@ -36,14 +43,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: libX11
   
-  version: "3"
+  version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: pixman
   
   version: ""
 - 
@@ -53,13 +60,6 @@ requires:
   name: notify-osd-icons
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.98"
 - 
   category: x11-libs
   description: ""
@@ -71,14 +71,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libwnck
   
-  version: ""
+  version: "3"
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: pixman
+  name: gsettings-desktop-schemas
   
   version: ""
 uri:

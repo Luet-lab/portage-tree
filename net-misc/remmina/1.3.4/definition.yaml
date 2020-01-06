@@ -5,24 +5,31 @@ license: GPL-2+-with-openssl-exception
 name: remmina
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libappindicator
+  name: libvncserver
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: glib
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: json-glib
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-glib
   
   version: ""
 - 
@@ -33,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh
+  
+  version: ""
+- 
   category: net-dns
   description: ""
   license: ""
@@ -40,26 +54,26 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbfile
+  name: libX11
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: freerdp
+  
+  version: 2.0.0_rc4
 - 
   category: dev-libs
   description: ""
@@ -78,35 +92,21 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: telepathy-glib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libvncserver
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: libsoup
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libxkbfile
   
   version: ""
 - 
-  category: x11-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gtk+
+  name: libsecret
   
   version: ""
 - 
@@ -117,24 +117,10 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: virtual
   description: ""
   license: ""
-  name: freerdp
-  
-  version: 2.0.0_rc4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
+  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -142,6 +128,20 @@ requires:
   description: ""
   license: ""
   name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
   
   version: ""
 uri:

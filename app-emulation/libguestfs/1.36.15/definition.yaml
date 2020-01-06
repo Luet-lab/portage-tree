@@ -6,17 +6,17 @@ license: GPL-2 LGPL-2
 name: libguestfs
 requires:
 - 
-  category: dev-perl
+  category: sys-apps
   description: ""
   license: ""
-  name: libintl-perl
+  name: file
   
   version: ""
 - 
-  category: app-emulation
+  category: dev-libs
   description: ""
   license: ""
-  name: libguestfs-appliance
+  name: libconfig
   
   version: ""
 - 
@@ -30,35 +30,42 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: readline
+  name: libsemanage
+  
+  version: ""
+- 
+  category: dev-ml
+  description: ""
+  license: ""
+  name: ocaml-gettext
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: yajl
   
-  version: 1.30.0
+  version: 2.0.4
 - 
-  category: dev-ml
+  category: dev-libs
   description: ""
   license: ""
-  name: findlib
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: erlang
+  name: libxml2
   
   version: ""
 - 
-  category: media-gfx
+  category: sys-libs
   description: ""
   license: ""
-  name: icoutils
+  name: db
+  
+  version: "4.6"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
   
   version: ""
 - 
@@ -69,31 +76,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
   license: ""
-  name: lua
+  name: ncurses
   
   version: ""
 - 
-  category: app-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: hivex
-  
-  version: 1.3.1
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: libpcre
   
   version: ""
 - 
-  category: sys-apps
+  category: app-arch
   description: ""
   license: ""
-  name: file
+  name: cpio
   
   version: ""
 - 
@@ -111,38 +111,24 @@ requires:
   
   version: 0.2.4
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: fuse
+  name: perl-Data-Dumper
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libselinux
+  name: netpbm
   
   version: ""
 - 
-  category: dev-ml
+  category: virtual
   description: ""
   license: ""
-  name: ocaml-gettext
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
+  name: cdrtools
   
   version: ""
 - 
@@ -153,52 +139,59 @@ requires:
   
   version: "2.8"
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libconfig
+  name: readline
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: perl-Data-Dumper
+  name: perl-ExtUtils-MakeMaker
   
   version: ""
 - 
-  category: dev-util
+  category: sys-fs
   description: ""
   license: ""
-  name: systemtap
+  name: fuse
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-ml
   description: ""
   license: ""
-  name: libxml2
+  name: findlib
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: perl-Getopt-Long
+  name: dbus
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: glib
+  name: perl
   
-  version: "2.26"
+  version: ""
 - 
-  category: media-libs
+  category: app-arch
   description: ""
   license: ""
-  name: netpbm
+  name: lzma
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: String-ShellQuote
   
   version: ""
 - 
@@ -216,24 +209,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-emulation
   description: ""
   license: ""
-  name: db
-  
-  version: "4.6"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lzma
+  name: libguestfs-appliance
   
   version: ""
 - 
@@ -251,12 +230,61 @@ requires:
   
   version: ""
 - 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
+  
+  version: ""
+- 
   category: dev-ml
   description: ""
   license: ""
   name: ounit
   
   version: "2"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: hivex
+  
+  version: 1.3.1
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: squashfs-tools
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: ocaml
+  
+  version: "4.02"
 - 
   category: sys-libs
   description: ""
@@ -272,55 +300,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsemanage
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ocaml
-  
-  version: "4.02"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
-  
-  version: 2.0.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: cdrtools
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
@@ -328,24 +307,45 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-ExtUtils-MakeMaker
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
-  name: String-ShellQuote
+  name: libintl-perl
   
   version: ""
 - 
-  category: sys-devel
+  category: dev-libs
   description: ""
   license: ""
-  name: gettext
+  name: glib
+  
+  version: "2.26"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 1.30.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: erlang
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: icoutils
   
   version: ""
 uri:

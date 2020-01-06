@@ -4,9 +4,9 @@ conflicts:
   category: <app-portage
   description: ""
   license: ""
-  name: repoman
+  name: gentoolkit
   
-  version: 2.3.10
+  version: 0.4.6
 - 
   category: <app-admin
   description: ""
@@ -18,34 +18,13 @@ conflicts:
   category: <app-portage
   description: ""
   license: ""
-  name: gentoolkit
+  name: repoman
   
-  version: 0.4.6
+  version: 2.3.10
 description: Portage is the package management and distribution system for Gentoo
 license: GPL-2
 name: portage
 requires:
-- 
-  category: sys-freebsd
-  description: ""
-  license: ""
-  name: freebsd-bin
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sandbox
-  
-  version: "2.2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
 - 
   category: app-arch
   description: ""
@@ -53,34 +32,6 @@ requires:
   name: tar
   
   version: "1.27"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: openpgp-keys-gentoo-release
-  
-  version: "20180706"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: install-xattr
-  
-  version: "0.3"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: eselect
-  
-  version: "1.2"
 - 
   category: app-portage
   description: ""
@@ -93,6 +44,41 @@ requires:
   description: ""
   license: ""
   name: gnupg-2.2.4-r2[ssl(-)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sandbox
+  
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: install-xattr
+  
+  version: "0.3"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: 4.0.5
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
@@ -110,19 +96,33 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: app-admin
   description: ""
   license: ""
-  name: bash
+  name: eselect
+  
+  version: "1.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
+- 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-bin
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: util-linux
+  name: libselinux
   
-  version: ""
+  version: 2.0.94
 uri: []
 use_flags:
 - build

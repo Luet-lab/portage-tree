@@ -5,6 +5,13 @@ license: GPL-3+ cxx? ( LGPL-2.1+ )
 name: gettext
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: 0-r2
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -12,19 +19,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-vcs
   description: ""
   license: ""
-  name: jdk
+  name: git
   
-  version: "1.4"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
+  version: ""
 - 
   category: virtual
   description: ""
@@ -32,13 +32,6 @@ requires:
   name: libiconv
   
   version: 0-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: 0-r2
 - 
   category: dev-libs
   description: ""
@@ -61,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jdk
+  
+  version: "1.4"
+- 
   category: dev-vcs
   description: ""
   license: ""
@@ -68,12 +68,12 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
+  category: virtual
   description: ""
   license: ""
-  name: git
+  name: jre
   
-  version: ""
+  version: "1.4"
 uri:
 - mirror://gnu/gettext/gettext-0.19.8.1.tar.gz
 use_flags:

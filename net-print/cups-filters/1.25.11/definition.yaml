@@ -1,28 +1,56 @@
 category: net-print
 conflicts:
 - 
-  category: <=net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.5.9999
-- 
   category: net-print
   description: ""
   license: ""
   name: foomatic-filters
   
   version: ""
+- 
+  category: <=net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: 1.5.9999
 description: Cups filters
 license: MIT GPL-2
 name: cups-filters
 requires:
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: tiff
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: 1.7.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -40,41 +68,6 @@ requires:
   
   version: 8.3.0
 - 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.7.3
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
@@ -82,12 +75,12 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: net-nds
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: openldap
   
-  version: "9.09"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -96,17 +89,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: tiff
+  name: mupdf
   
   version: ""
 - 
-  category: net-dns
+  category: dev-lang
   description: ""
   license: ""
-  name: avahi
+  name: perl
   
   version: ""
 - 
@@ -120,23 +113,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
-  category: net-nds
+  category: sys-libs
   description: ""
   license: ""
-  name: openldap
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
   category: app-text
   description: ""
   license: ""
-  name: mupdf
+  name: ghostscript-gpl
   
-  version: ""
+  version: "9.09"
 uri:
 - http://www.openprinting.org/download/cups-filters/cups-filters-1.25.11.tar.xz
 use_flags:

@@ -5,38 +5,31 @@ license: GPL-2
 name: asterisk
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libxml2
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-libs
   description: ""
   license: ""
-  name: lua
+  name: openssl
   
   version: ""
 - 
-  category: dev-db
+  category: net-analyzer
   description: ""
   license: ""
-  name: unixODBC
+  name: net-snmp
   
   version: ""
 - 
-  category: net-libs
+  category: net-nds
   description: ""
   license: ""
-  name: osptoolkit
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: portaudio
+  name: openldap
   
   version: ""
 - 
@@ -47,24 +40,45 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: virtual
   description: ""
   license: ""
-  name: selinux-asterisk
+  name: logger
   
   version: ""
 - 
-  category: net-libs
+  category: net-dialup
   description: ""
   license: ""
-  name: neon
+  name: freeradius-client
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: spandsp
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: iksemel
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpri-1.4.12_beta2
   
   version: ""
 - 
@@ -75,17 +89,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libiconv
+  name: popt
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: ncurses
+  name: neon
   
   version: ""
 - 
@@ -103,17 +117,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-wireless
   description: ""
   license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: ilbc-rfc3951
+  name: bluez
   
   version: ""
 - 
@@ -124,101 +131,24 @@ requires:
   
   version: ""
 - 
-  category: net-dialup
+  category: net-libs
   description: ""
   license: ""
-  name: freeradius-client
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: osptoolkit
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: corosync
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpri-1.4.12_beta2
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsrtp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
+  name: ncurses
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
+  name: alsa-lib
   
   version: ""
 - 
@@ -229,6 +159,69 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: ilbc-rfc3951
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: portaudio
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libical
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -236,10 +229,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libressl
+  name: speex
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-asterisk
   
   version: ""
 - 
@@ -253,21 +253,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libical
+  name: iksemel
   
   version: ""
 - 
-  category: media-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: spandsp
+  name: corosync
   
   version: ""
 - 
-  category: dev-db
+  category: net-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libsrtp
   
   version: ""
 uri:

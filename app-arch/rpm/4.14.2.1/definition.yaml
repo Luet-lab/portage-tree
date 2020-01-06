@@ -12,24 +12,24 @@ license: GPL-2 LGPL-2
 name: rpm
 requires:
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: elfutils
+  name: libarchive
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: popt
   
-  version: ""
+  version: "1.7"
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: dbus
   
   version: ""
 - 
@@ -40,75 +40,12 @@ requires:
   
   version: "2.0"
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: "1.2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpm
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: 1.0.1
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: 5.8.8
-- 
   category: sys-libs
   description: ""
   license: ""
   name: db
   
   version: "4.5"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: 5.1.0
 - 
   category: sys-libs
   description: ""
@@ -120,9 +57,72 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: popt
+  name: nss
   
-  version: "1.7"
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: 5.1.0
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-rpm
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: "1.2"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: 5.8.8
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zstd
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: 1.0.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: elfutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
 uri:
 - http://ftp.rpm.org/releases/rpm-.x/rpm-4.14.2.1.tar.bz2
 use_flags:

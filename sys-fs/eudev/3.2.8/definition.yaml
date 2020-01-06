@@ -1,12 +1,19 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-apps
+  category: <sys-fs
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: lvm2
   
-  version: ""
+  version: 2.02.103
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
 - 
   category: sys-apps
   description: ""
@@ -29,23 +36,30 @@ conflicts:
   
   version: "2.11"
 - 
-  category: <sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: lvm2
+  name: gentoo-systemd-integration
   
-  version: 2.02.103
-- 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
+  version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: eudev
 requires:
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: render
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -53,13 +67,6 @@ requires:
   name: util-linux
   
   version: "2.20"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "16"
 - 
   category: sys-libs
   description: ""
@@ -82,19 +89,12 @@ requires:
   
   version: "1.38"
 - 
-  category: acct-group
+  category: sys-apps
   description: ""
   license: ""
-  name: kvm
+  name: kmod
   
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: render
-  
-  version: ""
+  version: "16"
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.8.tar.gz
 use_flags:

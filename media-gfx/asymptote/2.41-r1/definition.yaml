@@ -5,6 +5,13 @@ license: GPL-3
 name: asymptote
 requires:
 - 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -19,12 +26,19 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: sci-libs
   description: ""
   license: ""
-  name: xdg-utils
+  name: fftw
   
-  version: ""
+  version: 3.0.1
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: media-gfx
   description: ""
@@ -33,31 +47,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: 3.0.1
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pillow
+  name: libsigsegv
   
   version: ""
 - 
@@ -68,26 +61,12 @@ requires:
   
   version: "2013"
 - 
-  category: sys-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: ncurses
-  
-  version: 5.4-r5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigsegv
+  name: xdg-utils
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boehm-gc
-  
-  version: "7.0"
 - 
   category: virtual
   description: ""
@@ -96,12 +75,12 @@ requires:
   
   version: ""
 - 
-  category: app-editors
+  category: sys-libs
   description: ""
   license: ""
-  name: emacs
+  name: ncurses
   
-  version: "23.1"
+  version: 5.4-r5
 - 
   category: sys-libs
   description: ""
@@ -109,6 +88,27 @@ requires:
   name: readline
   
   version: 4.3-r5
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boehm-gc
+  
+  version: "7.0"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pillow
+  
+  version: ""
 uri: []
 use_flags:
 - +boehm-gc

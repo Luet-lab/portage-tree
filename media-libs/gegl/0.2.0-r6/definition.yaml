@@ -5,26 +5,12 @@ license: '|| ( GPL-3 LGPL-3 )'
 name: gegl
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: babl
-  
-  version: 0.1.10
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: cairo
   
   version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: "12"
 - 
   category: virtual
   description: ""
@@ -36,16 +22,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: openexr
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: pango
+  name: glib
   
-  version: ""
+  version: "2.28"
 - 
   category: media-video
   description: ""
@@ -57,30 +43,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: libopenraw
   
   version: "0.1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: "2.18"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.14"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: umfpack
-  
-  version: ""
 - 
   category: media-libs
   description: ""
@@ -89,24 +61,45 @@ requires:
   
   version: 0.2.5
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: babl
   
-  version: "2.28"
+  version: 0.1.10
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gdk-pixbuf
+  
+  version: "2.18"
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: "12"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: umfpack
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: openexr
+  name: pango
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -116,6 +109,13 @@ requires:
   name: libsdl
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.14"
 uri:
 - https://download.gimp.org/pub/gegl/0.2/gegl-0.2.0.tar.bz2
 use_flags:

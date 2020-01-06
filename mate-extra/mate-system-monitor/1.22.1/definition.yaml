@@ -5,12 +5,12 @@ license: GPL-2
 name: mate-system-monitor
 requires:
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libwnck
+  name: systemd
   
-  version: "3.0"
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -22,16 +22,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libsigc++
   
-  version: "2"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.35"
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -40,40 +33,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libwnck
   
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgtop
-  
-  version: 2.23.1
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "3.8"
+  version: "3.0"
 - 
   category: dev-libs
   description: ""
@@ -89,12 +54,47 @@ requires:
   
   version: "3.22"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: libintl
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgtop
+  
+  version: 2.23.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.35"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2"
 - 
   category: dev-cpp
   description: ""
@@ -103,12 +103,12 @@ requires:
   
   version: "2.26"
 - 
-  category: x11-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: cairo
+  name: gtkmm
   
-  version: ""
+  version: "3.8"
 uri: []
 use_flags:
 - elogind

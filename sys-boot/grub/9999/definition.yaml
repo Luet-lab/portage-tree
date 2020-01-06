@@ -20,19 +20,12 @@ license: GPL-3+ BSD MIT fonts? ( GPL-2-with-font-exception ) themes? ( CC-BY-SA-
 name: grub
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: ibm-powerpc-utils
+  name: ncurses
   
-  version: 1.3.5
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
+  version: 5.2-r5
 - 
   category: sys-devel
   description: ""
@@ -44,30 +37,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: freetype
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: fuse
+  name: ibm-powerpc-utils
   
-  version: ""
+  version: 1.3.5
 - 
   category: app-emulation
   description: ""
@@ -83,12 +62,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libsdl
   
-  version: 5.2-r5
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -96,6 +75,27 @@ requires:
   name: lvm2
   
   version: 2.02.45
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
 uri:
 - 'mirror://gnu/unifont/unifont-12.1.02/unifont-12.1.02.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

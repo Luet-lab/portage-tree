@@ -8,10 +8,10 @@ conflicts:
   
   version: ""
 - 
-  category: mail-filter
+  category: mail-client
   description: ""
   license: ""
-  name: libsieve
+  name: nail
   
   version: ""
 - 
@@ -22,10 +22,10 @@ conflicts:
   
   version: ""
 - 
-  category: mail-client
+  category: mail-filter
   description: ""
   license: ""
-  name: nail
+  name: libsieve
   
   version: ""
 description: A useful collection of mail servers, clients, and filters
@@ -33,59 +33,10 @@ license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libunistring
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
   name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
   
   version: ""
 - 
@@ -96,24 +47,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: ncurses
+  name: mta
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: gsasl
+  name: krb5
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: gdbm
   
   version: ""
 - 
@@ -124,10 +75,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: pam
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
   
   version: ""
 - 
@@ -138,10 +96,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: fribidi
+  name: db
   
   version: ""
 - 
@@ -152,10 +110,24 @@ requires:
   
   version: "23.1"
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: krb5
+  name: libunistring
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
   
   version: ""
 - 
@@ -166,6 +138,13 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -173,10 +152,31 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gnutls
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 uri:

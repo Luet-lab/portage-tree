@@ -5,10 +5,66 @@ license: '!gdbm? ( LGPL-2.1 ) gdbm? ( GPL-2 )'
 name: pulseaudio
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: rtkit
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.19
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: "5"
+- 
   category: net-libs
   description: ""
   license: ""
   name: libasyncns
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev-143[hwdb(+)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
   
   version: ""
 - 
@@ -18,6 +74,69 @@ requires:
   name: webrtc-audio-processing
   
   version: "0.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: 1.4.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.0.0
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: ofono
+  
+  version: "1.13"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: soxr
+  
+  version: 0.1.1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gconf
+  
+  version: 3.2.6
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speexdsp
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sbc
+  
+  version: ""
 - 
   category: sec-policy
   description: ""
@@ -33,20 +152,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.0.0
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -54,24 +159,24 @@ requires:
   
   version: 2.26.0
 - 
-  category: media-libs
+  category: net-dns
   description: ""
   license: ""
-  name: speexdsp
+  name: avahi
+  
+  version: 0.6.12
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sys-auth
+  category: app-misc
   description: ""
   license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: rtkit
+  name: lirc
   
   version: ""
 - 
@@ -79,6 +184,13 @@ requires:
   description: ""
   license: ""
   name: PyQt5
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: alsa-utils
   
   version: ""
 - 
@@ -96,97 +208,6 @@ requires:
   
   version: 0.1.1-r1
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.19
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev-143[hwdb(+)]
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: ofono
-  
-  version: "1.13"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: soxr
-  
-  version: 0.1.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.12
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sbc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: alsa-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
@@ -194,12 +215,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libX11
+  name: elogind
   
-  version: 1.4.0
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -208,12 +229,26 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.6"
+- 
   category: sys-libs
   description: ""
   license: ""
   name: libcap
   
   version: 2.22-r2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
 - 
   category: dev-lang
   description: ""
@@ -222,45 +257,10 @@ requires:
   
   version: 0.4.15
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gconf
-  
-  version: 3.2.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: "1.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: gdbm
   
   version: ""
 uri:

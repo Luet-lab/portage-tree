@@ -12,17 +12,17 @@ license: LGPL-2.1 CC-BY-SA-3.0 GPL-2 BSD Boost-1.0 MIT
 name: ceph
 requires:
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: jemalloc
+  name: babeltrace
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: bcrypt
+  name: cherrypy
   
   version: ""
 - 
@@ -33,24 +33,66 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: flask
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: werkzeug
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: socat
+  
+  version: ""
+- 
   category: dev-util
   description: ""
   license: ""
-  name: babeltrace
+  name: lttng-ust
   
   version: ""
 - 
-  category: sys-process
+  category: sys-block
   description: ""
   license: ""
-  name: numactl
+  name: parted
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: openssl
+  name: lvm2[-device-mapper-only(-)]
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsprogs
   
   version: ""
 - 
@@ -61,17 +103,45 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: fuse
+  name: jemalloc
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: cryptsetup
+  name: gptfdisk
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: prettytable
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: oath-toolkit
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
   
   version: ""
 - 
@@ -89,38 +159,24 @@ requires:
   
   version: "2.4"
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: gptfdisk
+  name: pecan
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+  name: libudev
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: prettytable
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: socat
+  name: bcrypt
   
   version: ""
 - 
@@ -134,63 +190,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pecan
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: pyopenssl
   
   version: ""
 - 
-  category: dev-python
+  category: sys-fs
   description: ""
   license: ""
-  name: werkzeug
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: oath-toolkit
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: lttng-ust
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: cherrypy
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: flask
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: requests
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
+  name: fuse
   
   version: ""
 - 
@@ -198,13 +205,6 @@ requires:
   description: ""
   license: ""
   name: openldap
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2[-device-mapper-only(-)]
   
   version: ""
 uri:

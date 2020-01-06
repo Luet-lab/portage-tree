@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: <sys-boot
   description: ""
   license: ""
@@ -15,12 +8,12 @@ conflicts:
   
   version: 2.00-r2
 - 
-  category: <sys-kernel
+  category: =sys-apps
   description: ""
   license: ""
-  name: genkernel
+  name: grep-2.13*
   
-  version: 3.5.1.1
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -28,6 +21,20 @@ conflicts:
   name: zfs-fuse
   
   version: ""
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -42,17 +49,24 @@ conflicts:
   name: bliss-initramfs
   
   version: 7.1.0
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -64,28 +78,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: 0.8.2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: udev-init-scripts
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
   
   version: ""
 - 
@@ -96,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
+  name: modutils
   
   version: ""
 - 
@@ -124,10 +110,45 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.8.2
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
   
   version: ""
 - 
@@ -142,27 +163,6 @@ requires:
   description: ""
   license: ""
   name: util-linux
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
   
   version: ""
 uri:

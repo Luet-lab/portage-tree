@@ -5,12 +5,12 @@ license: Apache-2.0
 name: docker
 requires:
 - 
-  category: sys-libs
+  category: net-firewall
   description: ""
   license: ""
-  name: libseccomp
+  name: iptables
   
-  version: 2.2.1
+  version: "1.4"
 - 
   category: app-arch
   description: ""
@@ -19,19 +19,12 @@ requires:
   
   version: "4.9"
 - 
-  category: dev-libs
+  category: app-emulation
   description: ""
   license: ""
-  name: libltdl
+  name: containerd
   
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: tini
-  
-  version: 0.18.0
+  version: 1.2.10
 - 
   category: dev-db
   description: ""
@@ -40,12 +33,12 @@ requires:
   
   version: 3.7.9
 - 
-  category: sys-fs
+  category: sys-libs
   description: ""
   license: ""
-  name: lvm2
+  name: libseccomp
   
-  version: 2.02.89
+  version: 2.2.1
 - 
   category: sys-libs
   description: ""
@@ -54,12 +47,33 @@ requires:
   
   version: ""
 - 
-  category: net-firewall
+  category: dev-libs
   description: ""
   license: ""
-  name: iptables
+  name: libltdl
   
-  version: "1.4"
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker-proxy
+  
+  version: 0.8.0_p20191011
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: tini
+  
+  version: 0.18.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.89
 - 
   category: sys-process
   description: ""
@@ -74,20 +88,6 @@ requires:
   name: git
   
   version: "1.7"
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: containerd
-  
-  version: 1.2.10
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: docker-proxy
-  
-  version: 0.8.0_p20191011
 uri:
 - https://github.com/docker/docker-ce/archive/v19.03.5.tar.gz -> docker-19.03.5.tar.gz
 use_flags:

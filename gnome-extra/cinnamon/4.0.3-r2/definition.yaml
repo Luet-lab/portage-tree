@@ -5,20 +5,6 @@ license: GPL-2+
 name: cinnamon
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
   category: gnome-extra
   description: ""
   license: ""
@@ -26,33 +12,82 @@ requires:
   
   version: "4.0"
 - 
-  category: media-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: cogl
+  name: cinnamon-screensaver
+  
+  version: "4.0"
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: at-spi2-atk
   
   version: ""
 - 
-  category: x11-wm
+  category: dev-libs
   description: ""
   license: ""
-  name: muffin
+  name: gobject-introspection
   
-  version: 4.0.0
+  version: 0.10.1
 - 
   category: gnome-extra
   description: ""
   license: ""
-  name: nemo
+  name: cinnamon-desktop
   
   version: "4.0"
 - 
-  category: x11-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: libnotify
+  name: cinnamon-session
   
-  version: 0.7.3
+  version: "4.0"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gnome-themes-standard
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: keybinder
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: 2.91.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcroco
+  
+  version: 0.6.2
 - 
   category: gnome-base
   description: ""
@@ -61,12 +96,40 @@ requires:
   
   version: 0.4.1
 - 
-  category: dev-python
+  category: media-libs
   description: ""
   license: ""
-  name: pygobject
+  name: gst-plugins-base
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: "0.11"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: nemo
+  
+  version: "4.0"
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-control-center
+  
+  version: "4.0"
 - 
   category: app-misc
   description: ""
@@ -82,45 +145,38 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: gnome-extra
   description: ""
   license: ""
-  name: librsvg
+  name: cjs
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: keybinder
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: caribou
-  
-  version: "0.3"
+  version: 4.0.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: xapps
+  name: libXfixes
   
-  version: ""
+  version: "5.0"
 - 
-  category: x11-themes
+  category: x11-libs
   description: ""
   license: ""
-  name: adwaita-icon-theme
+  name: libnotify
   
-  version: ""
+  version: 0.7.3
 - 
   category: gnome-extra
   description: ""
   license: ""
-  name: polkit-gnome
+  name: cinnamon-settings-daemon
+  
+  version: "4.0"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
   
   version: ""
 - 
@@ -138,45 +194,38 @@ requires:
   
   version: 2.91.91
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: app-accessibility
   description: ""
   license: ""
-  name: at-spi2-atk
+  name: caribou
+  
+  version: "0.3"
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: startup-notification
+  name: json-glib
   
-  version: "0.11"
+  version: 0.13.2
 - 
-  category: gnome-extra
+  category: dev-libs
   description: ""
   license: ""
-  name: cinnamon-session
-  
-  version: "4.0"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
+  name: libxml2
   
   version: ""
 - 
@@ -187,6 +236,20 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: x11-wm
+  description: ""
+  license: ""
+  name: muffin
+  
+  version: 4.0.0
+- 
   category: sys-power
   description: ""
   license: ""
@@ -194,94 +257,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-settings-daemon
-  
-  version: "4.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.35.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.10.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcroco
-  
-  version: 0.6.2
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cjs
-  
-  version: 4.0.0
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-control-center
-  
-  version: "4.0"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-screensaver
-  
-  version: "4.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 0.13.2
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: "5.0"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomekbd
-  
-  version: 2.91.4
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gnome-themes-standard
+  name: xapps
   
   version: ""
 - 
@@ -292,12 +271,33 @@ requires:
   
   version: "4.0"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.35.0
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: cogl
+  
+  version: ""
+- 
   category: gnome-extra
   description: ""
   license: ""
-  name: cinnamon-desktop
+  name: polkit-gnome
   
-  version: "4.0"
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -313,10 +313,10 @@ requires:
   
   version: 3.12.0
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-python
+  name: pango
   
   version: ""
 uri:

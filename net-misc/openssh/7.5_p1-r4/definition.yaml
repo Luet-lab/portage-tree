@@ -5,33 +5,12 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: openssl
+  name: shadow
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "1.28"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: skey
-  
-  version: 1.1.5-r1
 - 
   category: dev-libs
   description: ""
@@ -40,24 +19,31 @@ requires:
   
   version: 1.0.1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: shadow
+  name: krb5
   
   version: ""
 - 
-  category: x11-apps
+  category: sys-process
   description: ""
   license: ""
-  name: xauth
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns[ecdsa,ssl(+)]
+  name: audit
   
   version: ""
 - 
@@ -75,24 +61,24 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: sys-auth
   description: ""
   license: ""
-  name: openldap
+  name: skey
   
-  version: ""
+  version: 1.1.5-r1
 - 
-  category: sys-process
+  category: sys-libs
   description: ""
   license: ""
-  name: audit
+  name: zlib
   
-  version: ""
+  version: 1.2.3
 - 
   category: net-libs
   description: ""
   license: ""
-  name: ldns[-ecdsa,ssl(+)]
+  name: ldns[ecdsa,ssl(+)]
   
   version: ""
 - 
@@ -106,16 +92,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libselinux
   
-  version: 1.2.3
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
+  version: "1.28"
 - 
   category: sys-auth
   description: ""
@@ -124,10 +103,31 @@ requires:
   
   version: "20081028"
 - 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xauth
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
   name: ldns
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns[-ecdsa,ssl(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

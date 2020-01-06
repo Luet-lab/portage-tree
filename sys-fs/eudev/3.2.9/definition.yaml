@@ -1,19 +1,19 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: <sys-fs
   description: ""
   license: ""
   name: lvm2
   
   version: 2.02.103
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
 - 
   category: <sys-libs
   description: ""
@@ -25,21 +25,21 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: systemd
   
   version: ""
-- 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
 - 
   category: sys-fs
   description: ""
   license: ""
   name: udev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-systemd-integration
   
   version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
@@ -57,7 +57,7 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: kvm
+  name: input
   
   version: ""
 - 
@@ -65,6 +65,13 @@ requires:
   description: ""
   license: ""
   name: render
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: kvm
   
   version: ""
 - 
@@ -88,13 +95,6 @@ requires:
   name: kmod
   
   version: "16"
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: input
-  
-  version: ""
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.9.tar.gz
 use_flags:

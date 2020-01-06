@@ -4,21 +4,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: percona-server
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mariadb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mariadb-galera
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: percona-server
   
   version: ""
 - 
@@ -28,36 +21,57 @@ conflicts:
   name: mysql-cluster
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb
+  
+  version: ""
 description: A fast, multi-threaded, multi-user SQL database server
 license: GPL-2
 name: mysql
 requires:
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: icu
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libevent
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: openssl
+  name: mecab
   
-  version: 1.0.0
+  version: ""
 - 
-  category: sec-policy
+  category: sys-process
   description: ""
   license: ""
-  name: selinux-mysql
+  name: numactl
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
   
   version: ""
 - 
@@ -65,20 +79,6 @@ requires:
   description: ""
   license: ""
   name: mysql
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
   
   version: ""
 - 
@@ -96,31 +96,10 @@ requires:
   
   version: "3.8"
 - 
-  category: sys-process
+  category: net-libs
   description: ""
   license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
+  name: libtirpc
   
   version: ""
 - 
@@ -131,6 +110,13 @@ requires:
   
   version: 1.2.3
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
   category: sys-process
   description: ""
   license: ""
@@ -138,17 +124,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libtirpc
+  name: libressl
   
   version: ""
 - 
-  category: app-text
+  category: sec-policy
   description: ""
   license: ""
-  name: mecab
+  name: selinux-mysql
   
   version: ""
 - 
@@ -156,6 +142,20 @@ requires:
   description: ""
   license: ""
   name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 

@@ -5,10 +5,17 @@ license: GPL-2
 name: vzctl
 requires:
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: parted
+  name: vzquota
+  
+  version: "3.1"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: quota
   
   version: ""
 - 
@@ -19,20 +26,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: ed
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -40,31 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ploop
-  
-  version: "1.13"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: quota
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: udev
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: bridge-utils
   
   version: ""
 - 
@@ -82,17 +54,31 @@ requires:
   
   version: 3.3.0
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: vzquota
-  
-  version: "3.1"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libxml2
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: rsync
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 - 
@@ -106,14 +92,28 @@ requires:
   category: net-misc
   description: ""
   license: ""
-  name: openssh
+  name: bridge-utils
   
   version: ""
 - 
-  category: net-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: rsync
+  name: ed
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ploop
+  
+  version: "1.13"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
   
   version: ""
 uri:

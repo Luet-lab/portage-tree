@@ -5,19 +5,40 @@ license: GPL-2+
 name: xfwm4
 requires:
 - 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.12"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: xfconf
+  
+  version: "4.13"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXrender
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: pango
   
   version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.10"
 - 
   category: x11-libs
   description: ""
@@ -43,28 +64,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
+  name: libXext
   
   version: ""
 - 
@@ -78,42 +78,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
-  
-  version: "3.14"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4util
-  
-  version: "4.10"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libepoxy
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.20"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: xfconf
-  
-  version: "4.13"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: startup-notification
+  name: libXcomposite
   
   version: ""
 - 
@@ -124,12 +89,47 @@ requires:
   
   version: ""
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: libxfce4ui
+  name: libwnck
   
-  version: "4.12"
+  version: "3.14"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libepoxy
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
 uri:
 - https://archive.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.0.tar.bz2
 use_flags:

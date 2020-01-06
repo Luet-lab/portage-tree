@@ -1,26 +1,40 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-apps
+  category: app-misc
   description: ""
   license: ""
-  name: mktemp
+  name: realpath
   
   version: ""
 - 
   category: sys-apps
+  description: ""
+  license: ""
+  name: stat
+  
+  version: ""
+- 
+  category: <app-forensics
+  description: ""
+  license: ""
+  name: tct
+  
+  version: 1.18-r1
+- 
+  category: <net-fs
+  description: ""
+  license: ""
+  name: netatalk
+  
+  version: 2.0.3-r4
+- 
+  category: <sys-apps
   description: ""
   license: ""
   name: util-linux
   
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: base64
-  
-  version: ""
+  version: "2.13"
 - 
   category: sys-process
   description: ""
@@ -43,49 +57,42 @@ conflicts:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: realpath
-  
-  version: ""
-- 
-  category: <sys-apps
+  category: sys-apps
   description: ""
   license: ""
   name: util-linux
   
-  version: "2.13"
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: base64
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: stat
+  name: mktemp
   
   version: ""
-- 
-  category: <app-forensics
-  description: ""
-  license: ""
-  name: tct
-  
-  version: 1.18-r1
-- 
-  category: <net-fs
-  description: ""
-  license: ""
-  name: netatalk
-  
-  version: 2.0.3-r4
 description: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 license: GPL-3
 name: coreutils
 requires:
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: libintl
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -103,24 +110,17 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: attr
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
   
   version: ""
 uri:

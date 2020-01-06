@@ -5,26 +5,33 @@ license: GPL-2 LGPL-2.1
 name: gnustep-base
 requires:
 - 
-  category: gnustep-base
+  category: virtual
   description: ""
   license: ""
-  name: gnustep-make
+  name: libffi
   
-  version: 2.6.0
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libxml2
   
-  version: "4.0"
+  version: "2.6"
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxslt
+  name: zlib
   
-  version: "1.1"
+  version: "1.2"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -47,20 +54,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libffi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: "2.6"
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -68,19 +61,26 @@ requires:
   
   version: "4.1"
 - 
-  category: sys-libs
+  category: gnustep-base
   description: ""
   license: ""
-  name: zlib
+  name: gnustep-make
   
-  version: "1.2"
+  version: 2.6.0
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: avahi
+  name: icu
   
-  version: ""
+  version: "4.0"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: "1.1"
 uri:
 - ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-base-1.25.0.tar.gz
 use_flags:

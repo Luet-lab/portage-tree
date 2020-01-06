@@ -5,13 +5,6 @@ license: GPL-3 LGPL-3 Apache-2.0
 name: rsyslog
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -19,19 +12,19 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: gnutls
+  name: rabbitmq-c
   
-  version: 2.12.23
+  version: 0.3.0
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: 5.7.2
 - 
   category: dev-libs
   description: ""
@@ -40,6 +33,27 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libestr
+  
+  version: 0.1.9
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: 7.35.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi
+  
+  version: 0.8.3
+- 
   category: net-libs
   description: ""
   license: ""
@@ -47,19 +61,19 @@ requires:
   
   version: 3.0.2
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: librdkafka
+  name: zlib
   
-  version: 0.9.0.99
+  version: 1.2.5
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libnet
+  name: postgresql
   
-  version: 1.1.6
+  version: 8.4.20
 - 
   category: dev-libs
   description: ""
@@ -75,61 +89,12 @@ requires:
   
   version: "234"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: jemalloc
+  name: libnet
   
-  version: 3.3.1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: 8.4.20
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.35.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libestr
-  
-  version: 0.1.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.8y
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libfastjson
-  
-  version: 0.99.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
-  
-  version: 1.1.10
+  version: 1.1.6
 - 
   category: dev-libs
   description: ""
@@ -138,12 +103,12 @@ requires:
   
   version: 1.0.1
 - 
-  category: net-analyzer
+  category: net-libs
   description: ""
   license: ""
-  name: net-snmp
+  name: gnutls
   
-  version: 5.7.2
+  version: 2.12.23
 - 
   category: dev-libs
   description: ""
@@ -152,40 +117,19 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: libgcrypt
   
-  version: 1.2.5
+  version: 1.5.3
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: hiredis
+  name: jemalloc
   
-  version: 0.11.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: 0.8.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rabbitmq-c
-  
-  version: 0.3.0
+  version: 3.3.1
 - 
   category: dev-libs
   description: ""
@@ -197,9 +141,65 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: libfastjson
   
-  version: 1.5.3
+  version: 0.99.8
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mongo-c-driver
+  
+  version: 1.1.10
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
+  
+  version: 0.11.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.8y
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
 uri:
 - https://www.rsyslog.com/files/download/rsyslog/rsyslog-8.1910.0.tar.gz
 - 'https://www.rsyslog.com/files/download/rsyslog/rsyslog-doc-8.1910.0.tar.gz '

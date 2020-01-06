@@ -8,9 +8,37 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: ladspa-cmt
+  name: flac
   
   version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmodplug
+  
+  version: 0.8.4
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: musepack-tools
+  
+  version: "444"
 - 
   category: media-libs
   description: ""
@@ -22,77 +50,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcue
-  
-  version: ""
-- 
-  category: app-i18n
-  description: ""
-  license: ""
-  name: enca
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: taglib
+  name: soxr
   
   version: ""
 - 
@@ -106,49 +64,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libbs2b
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: game-music-emu
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wildmidi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmodplug
-  
-  version: 0.8.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: alsa-lib
   
   version: ""
 - 
@@ -162,14 +78,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
+  name: qtopengl
   
   version: ""
 - 
@@ -180,10 +89,17 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsql
+  name: qtwidgets
   
   version: ""
 - 
@@ -197,28 +113,21 @@ requires:
   category: media-sound
   description: ""
   license: ""
-  name: mpg123
+  name: jack-audio-connection-kit
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbs2b
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: soxr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
+  name: qtdbus
   
   version: ""
 - 
@@ -232,16 +141,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmms
+  name: libsndfile
   
   version: ""
 - 
-  category: media-sound
+  category: sys-fs
   description: ""
   license: ""
-  name: musepack-tools
+  name: udisks
   
-  version: "444"
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -253,7 +162,63 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtsql
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wildmidi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmms
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: game-music-emu
+  
+  version: ""
+- 
+  category: app-i18n
+  description: ""
+  license: ""
+  name: enca
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
   
   version: ""
 - 
@@ -264,24 +229,24 @@ requires:
   
   version: 0.9.9
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libsidplayfp
-  
-  version: 1.1.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
+  name: qtcore
   
   version: ""
 - 
-  category: media-video
+  category: media-libs
   description: ""
   license: ""
-  name: mplayer
+  name: taglib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
   
   version: ""
 - 
@@ -306,17 +271,52 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: alsa-lib
+  name: mplayer
   
   version: ""
 - 
-  category: app-arch
+  category: dev-qt
   description: ""
   license: ""
-  name: libarchive
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsidplayfp
+  
+  version: 1.1.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcue
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: ladspa-cmt
   
   version: ""
 uri:

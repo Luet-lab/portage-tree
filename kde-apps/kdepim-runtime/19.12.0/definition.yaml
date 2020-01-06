@@ -1,17 +1,17 @@
 category: kde-apps
 conflicts:
 - 
-  category: kde-misc
-  description: ""
-  license: ""
-  name: akonadi-ews
-  
-  version: ""
-- 
   category: kde-apps
   description: ""
   license: ""
   name: kdepim-l10n
+  
+  version: ""
+- 
+  category: kde-misc
+  description: ""
+  license: ""
+  name: akonadi-ews
   
   version: ""
 description: Runtime plugin collection to extend the functionality of KDE PIM
@@ -22,7 +22,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: ki18n
   
   version: 5.63.0
 - 
@@ -36,7 +36,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
+  name: kwallet
   
   version: 5.63.0
 - 
@@ -50,13 +50,6 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: akonadi
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
   name: akonadi-notes
   
   version: ""
@@ -64,21 +57,28 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: kmime
+  name: kmbox
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcompletion
+  name: kcontacts
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kcoreaddons
   
   version: 5.63.0
 - 
@@ -92,21 +92,14 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: kmailtransport
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: pimcommon
+  name: kimap
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwidgets
   
   version: 5.12.3
 - 
@@ -120,14 +113,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcalendarcore
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
+  name: kconfigwidgets
   
   version: 5.63.0
 - 
@@ -138,24 +124,10 @@ requires:
   
   version: 5.63.0
 - 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knotifications
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kservice
-  
-  version: 5.63.0
-- 
   category: kde-apps
   description: ""
   license: ""
-  name: akonadi-contacts
+  name: akonadi
   
   version: ""
 - 
@@ -163,6 +135,62 @@ requires:
   description: ""
   license: ""
   name: kalarmcal
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kdav
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kidentitymanagement
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kjobwidgets
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kcalutils
   
   version: ""
 - 
@@ -190,14 +218,42 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kjobwidgets
+  name: kservice
   
   version: 5.63.0
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kidentitymanagement
+  name: kmailtransport
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: pimcommon
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kholidays
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifyconfig
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: libkgapi
   
   version: ""
 - 
@@ -207,41 +263,6 @@ requires:
   name: qtdbus
   
   version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtspeech
-  
-  version: 5.12.3
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: akonadi-calendar
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kcalutils
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kdav
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kimap
-  
-  version: ""
 - 
   category: dev-qt
   description: ""
@@ -260,42 +281,49 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcontacts
+  name: knotifications
   
   version: 5.63.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kholidays
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
+  name: ktextwidgets
   
   version: 5.63.0
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kmbox
+  name: akonadi-contacts
   
   version: ""
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: libkgapi
+  name: kmime
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcalendarcore
+  
+  version: 5.63.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcompletion
+  
+  version: 5.63.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi-calendar
   
   version: ""
 - 
@@ -309,37 +337,9 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebengine
+  name: qtspeech
   
   version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwallet
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
-  
-  version: 5.63.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktextwidgets
-  
-  version: 5.63.0
 uri: []
 use_flags:
 - ""

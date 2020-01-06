@@ -5,45 +5,38 @@ license: GPL-2
 name: uwsgi
 requires:
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: jansson
+  name: perl
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: gloox
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: sqlite
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -54,24 +47,24 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: sec-policy
   description: ""
   license: ""
-  name: rrdtool
+  name: selinux-uwsgi
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: yajl
   
   version: ""
 - 
@@ -82,10 +75,38 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
@@ -103,24 +124,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: expat
+  name: zlib
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
+  name: jansson
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: krb5
+  name: util-linux
   
   version: ""
 - 
@@ -131,66 +152,24 @@ requires:
   
   version: "4"
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: gevent
-  
-  version: 1.3.5
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gloox
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: openssl
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: zlib
+  name: postgresql
   
   version: ""
 - 
-  category: net-nds
+  category: net-analyzer
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: zeromq
+  name: rrdtool
   
   version: ""
 - 
@@ -208,33 +187,54 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-uwsgi
+  name: libxslt
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: yajl
+  name: libressl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: expat
   
   version: ""
 - 
-  category: dev-lang
+  category: net-libs
   description: ""
   license: ""
-  name: perl
+  name: zeromq
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: gevent
+  
+  version: 1.3.5
 uri:
 - https://github.com/unbit/uwsgi/archive/2.0.17.1.tar.gz -> uwsgi-2.0.17.1.tar.gz
 use_flags:

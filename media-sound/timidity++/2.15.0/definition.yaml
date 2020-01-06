@@ -5,12 +5,33 @@ license: GPL-2
 name: timidity++
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXaw
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
   category: app-editors
   description: ""
   license: ""
   name: emacs
   
   version: "23.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -36,14 +57,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: speex
+  name: libvorbis
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: libvorbis
+  name: jack
   
   version: ""
 - 
@@ -57,16 +78,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libao
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
+  version: 0.8.5
 - 
   category: x11-libs
   description: ""
@@ -74,34 +88,6 @@ requires:
   name: motif
   
   version: "2.3"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXaw
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-timidity
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -113,7 +99,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: speex
   
   version: ""
 - 
@@ -131,12 +117,26 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libao
+  name: libpng
   
-  version: 0.8.5
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-timidity
+  
+  version: ""
 uri:
 - mirror://sourceforge/timidity/TiMidity++-2.15.0.tar.xz
 use_flags:

@@ -5,12 +5,75 @@ license: LGPL-2.1+
 name: fwupd
 requires:
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.103"
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: thunderbolt-software-user-space
   
-  version: "211"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: gnu-efi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsmbios
+  
+  version: 2.4.0
 - 
   category: app-crypt
   description: ""
@@ -19,24 +82,52 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: cairo
+  name: efivar
+  
+  version: "33"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: libarchive
+  name: udev
   
   version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: pygobject
+  name: glib
+  
+  version: 2.45.8
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxmlb
+  
+  version: 0.1.13
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgpg-error
   
   version: ""
 - 
@@ -57,7 +148,28 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: libelf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: efivar
   
   version: ""
 - 
@@ -68,19 +180,19 @@ requires:
   
   version: 1.0.0
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: libsmbios
+  name: gpgme
   
-  version: 2.4.0
+  version: ""
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: gnutls
+  name: systemd
   
-  version: 3.4.4.1
+  version: "211"
 - 
   category: app-arch
   description: ""
@@ -89,118 +201,6 @@ requires:
   
   version: "1.0"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.45.8
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.103"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxmlb
-  
-  version: 0.1.13
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libelf
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: thunderbolt-software-user-space
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: gnu-efi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: efivar
-  
-  version: "33"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: efivar
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -208,12 +208,12 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: net-libs
   description: ""
   license: ""
-  name: efibootmgr
+  name: gnutls
   
-  version: ""
+  version: 3.4.4.1
 uri:
 - https://github.com/hughsie/fwupd/archive/1.3.6.tar.gz -> fwupd-1.3.6.tar.gz
 use_flags:

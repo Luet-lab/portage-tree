@@ -4,14 +4,35 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: exim
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: sendmail
+  
+  version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
   
   version: ""
 - 
@@ -25,6 +46,13 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: postfix
   
   version: ""
@@ -32,14 +60,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
+  name: opensmtpd
   
   version: ""
 - 
@@ -53,21 +74,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
+  name: courier
   
   version: ""
 - 
@@ -77,17 +84,17 @@ conflicts:
 mailer
   
   version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
 license: GPL-3
 name: msmtp
 requires:
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls[idn?]
+  
+  version: ""
 - 
   category: app-crypt
   description: ""
@@ -96,17 +103,17 @@ requires:
   
   version: ""
 - 
-  category: acct-user
+  category: virtual
   description: ""
   license: ""
-  name: msmtpd
+  name: gsasl
   
   version: ""
 - 
-  category: net-mail
+  category: net-dns
   description: ""
   license: ""
-  name: mailbase
+  name: libidn2
   
   version: ""
 - 
@@ -124,24 +131,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: acct-user
   description: ""
   license: ""
-  name: gnutls[idn?]
+  name: msmtpd
   
   version: ""
 - 
-  category: virtual
+  category: net-mail
   description: ""
   license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
+  name: mailbase
   
   version: ""
 uri:

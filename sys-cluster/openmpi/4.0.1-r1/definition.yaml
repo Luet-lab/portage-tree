@@ -4,13 +4,6 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
 mpi
   
   version: ""
@@ -21,10 +14,38 @@ mpi
   name: mpich
   
   version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpich2
+  
+  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -36,30 +57,16 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
+  name: infinipath-psm
   
   version: ""
 - 
-  category: sys-fabric
+  category: virtual
   description: ""
   license: ""
-  name: librdmacm
+  name: jre
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
+  version: "1.6"
 - 
   category: sys-libs
   description: ""
@@ -82,31 +89,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
   category: sys-cluster
   description: ""
   license: ""
   name: slurm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
   
   version: ""
 uri:

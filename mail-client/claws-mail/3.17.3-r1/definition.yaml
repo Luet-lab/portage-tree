@@ -5,47 +5,26 @@ license: GPL-3
 name: claws-mail
 requires:
 - 
-  category: app-text
+  category: x11-libs
   description: ""
   license: ""
-  name: enchant
-  
-  version: 1.0.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.40.5
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: libICE
   
   version: ""
 - 
-  category: net-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: gnutls
+  name: perl
   
-  version: "3.0"
+  version: ""
 - 
-  category: net-nds
+  category: dev-python
   description: ""
   license: ""
-  name: openldap
+  name: pygtk
   
-  version: 2.0.7
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 1.0.0
+  version: 2.10.3
 - 
   category: dev-libs
   description: ""
@@ -54,10 +33,17 @@ requires:
   
   version: 0.17.2
 - 
-  category: dev-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: glib
+  name: gettext
+  
+  version: "0.18"
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
   
   version: ""
 - 
@@ -68,108 +54,17 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: ytnef
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gtk+
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libetpan
-  
-  version: "0.57"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.18"
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
+  version: "2.24"
 - 
   category: app-arch
   description: ""
   license: ""
   name: libarchive
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
   
   version: ""
 - 
@@ -180,26 +75,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-pda
   description: ""
   license: ""
-  name: libICE
+  name: jpilot
+  
+  version: "0.99"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
   
   version: ""
 - 
-  category: x11-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: cairo
+  name: shared-mime-info
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.24"
 - 
   category: net-misc
   description: ""
@@ -207,6 +102,48 @@ requires:
   name: curl
   
   version: 7.9.7
+- 
+  category: www-client
+  description: ""
+  license: ""
+  name: dillo
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.0.7
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libetpan
+  
+  version: "0.57"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
+  
+  version: ""
 - 
   category: mail-filter
   description: ""
@@ -222,17 +159,10 @@ requires:
   
   version: 2.0.0
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: "0.60"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
+  name: dbus
   
   version: ""
 - 
@@ -243,10 +173,38 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: gnome-base
   description: ""
   license: ""
-  name: perl
+  name: librsvg
+  
+  version: 2.40.5
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: ytnef
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
   
   version: ""
 - 
@@ -257,31 +215,59 @@ requires:
   
   version: ""
 - 
-  category: www-client
+  category: dev-libs
   description: ""
   license: ""
-  name: dillo
+  name: dbus-glib
+  
+  version: "0.60"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: "3.0"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
-  category: app-pda
+  category: app-text
   description: ""
   license: ""
-  name: jpilot
+  name: enchant
   
-  version: "0.99"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: startup-notification
-  
-  version: ""
+  version: 1.0.0
 - 
   category: app-antivirus
   description: ""
   license: ""
   name: clamav
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -292,12 +278,26 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: pygtk
+  name: pango
   
-  version: 2.10.3
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 1.0.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: ""
 uri:
 - https://www.claws-mail.org/download.php?file=releases/claws-mail-3.17.3.tar.xz
 use_flags:

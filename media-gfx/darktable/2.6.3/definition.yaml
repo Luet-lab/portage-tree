@@ -5,17 +5,17 @@ license: GPL-3 CC-BY-3.0
 name: darktable
 requires:
 - 
-  category: net-misc
+  category: media-gfx
   description: ""
   license: ""
-  name: curl
+  name: graphicsmagick
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openexr
+  name: libwebp
   
   version: ""
 - 
@@ -26,45 +26,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: lcms
+  name: jpeg
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "3.14"
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
+  name: cairo
   
   version: ""
 - 
-  category: media-gfx
+  category: virtual
   description: ""
   license: ""
-  name: graphicsmagick
+  name: opencl
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: librsvg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: colord-gtk
+  name: pugixml
   
   version: ""
 - 
@@ -78,63 +64,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: exiv2
-  
-  version: 0.25-r2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libgphoto2
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
   
   version: ""
 - 
@@ -152,33 +82,19 @@ requires:
   
   version: ""
 - 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: osm-gps-map
-  
-  version: 1.1.0
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
+  name: openexr
   
   version: ""
 - 
-  category: kde-frameworks
+  category: media-gfx
   description: ""
   license: ""
-  name: kwallet
+  name: exiv2
   
-  version: 5.34.0-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pugixml
-  
-  version: ""
+  version: 0.25-r2
 - 
   category: media-libs
   description: ""
@@ -187,10 +103,66 @@ requires:
   
   version: 0.2.3
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
   name: libsoup
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
   
   version: ""
 - 
@@ -201,12 +173,40 @@ requires:
   
   version: "0.18"
 - 
-  category: virtual
+  category: kde-frameworks
   description: ""
   license: ""
-  name: opencl
+  name: kwallet
+  
+  version: 5.34.0-r1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.14"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: colord-gtk
+  
+  version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: osm-gps-map
+  
+  version: 1.1.0
 uri:
 - https://github.com/darktable-org/darktable/releases/download/release-2.6.3/darktable-2.6.3.tar.xz
 use_flags:

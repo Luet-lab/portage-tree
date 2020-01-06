@@ -5,17 +5,45 @@ license: LGPL-2.1+ FDL-1.1+
 name: clutter
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: glib
   
-  version: 3.22.6
+  version: 2.44.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libinput
+  
+  version: 0.19.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXi
+  
+  version: "1.3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: "0.4"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
   
   version: ""
 - 
@@ -33,26 +61,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: "1.3"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: wayland
   
-  version: 2.44.0
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: cogl
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -64,30 +85,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: gtk+
   
-  version: "0.4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: cogl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 0.19.0
+  version: 3.22.6
 - 
   category: x11-libs
   description: ""
@@ -96,24 +96,10 @@ requires:
   
   version: 1.3.1
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
+  name: libXdamage
   
   version: ""
 - 
@@ -121,6 +107,20 @@ requires:
   description: ""
   license: ""
   name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
 uri: []

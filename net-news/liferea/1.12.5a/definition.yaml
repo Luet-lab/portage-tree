@@ -5,19 +5,19 @@ license: GPL-2+
 name: liferea
 requires:
 - 
-  category: dev-db
+  category: gnome-base
   description: ""
   license: ""
-  name: sqlite
+  name: gsettings-desktop-schemas
   
-  version: 3.7.0
+  version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: gtk+
   
-  version: 2.6.27
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -26,20 +26,6 @@ requires:
   
   version: 1.1.19
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -47,10 +33,10 @@ requires:
   
   version: "2.42"
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gtk+
+  name: webkit-gtk
   
   version: ""
 - 
@@ -61,26 +47,33 @@ requires:
   
   version: 1.4.0
 - 
-  category: media-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gstreamer
+  name: libsecret
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycairo
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: glib
   
-  version: ""
+  version: 2.28.0
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libpeas
+  name: networkmanager
   
-  version: 1.0.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -99,9 +92,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libxml2
   
-  version: 2.28.0
+  version: 2.6.27
 - 
   category: dev-libs
   description: ""
@@ -110,26 +103,33 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: json-glib
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: webkit-gtk
+  name: libpeas
+  
+  version: 1.0.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
   
   version: ""
 - 
-  category: dev-python
+  category: dev-db
   description: ""
   license: ""
-  name: pycairo
+  name: sqlite
   
-  version: ""
+  version: 3.7.0
 uri:
 - https://github.com/lwindolf/liferea/releases/download/v1.12.5/liferea-1.12.5a.tar.bz2
 use_flags:

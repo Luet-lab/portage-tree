@@ -12,12 +12,12 @@ license: GPL-2+ LGPL-2.1+
 name: syslog-ng
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: ivykis
+  name: tcp-wrappers
   
-  version: 0.42.4
+  version: "7.6"
 - 
   category: sys-libs
   description: ""
@@ -29,28 +29,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
-  
-  version: 1.5.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: json-c
   
   version: "0.9"
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: ""
 - 
   category: net-libs
   description: ""
   license: ""
   name: libnet
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
   
   version: ""
 - 
@@ -61,19 +54,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: libressl
   
-  version: "7.6"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: rabbitmq-c
+  
+  version: 0.8.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: geoip
   
-  version: 2.10.1
+  version: 1.5.0
 - 
   category: dev-libs
   description: ""
@@ -89,19 +89,33 @@ requires:
   
   version: 1.0.0
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libesmtp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.10.1
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: hiredis
   
   version: 0.11.0
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -113,30 +127,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: ivykis
+  
+  version: 0.42.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libpcre
   
   version: "6.1"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rabbitmq-c
-  
-  version: 0.8.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libesmtp
-  
-  version: ""
 - 
   category: dev-db
   description: ""

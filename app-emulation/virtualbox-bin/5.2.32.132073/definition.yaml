@@ -1,17 +1,17 @@
 category: app-emulation
 conflicts:
 - 
-  category: '!app-emulation'
-  description: ""
-  license: ""
-  name: virtualbox
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: virtualbox-additions
+  
+  version: ""
+- 
+  category: '!app-emulation'
+  description: ""
+  license: ""
+  name: virtualbox
   
   version: ""
 description: Family of powerful x86 virtualization products for enterprise and home
@@ -20,24 +20,31 @@ license: GPL-2 PUEL
 name: virtualbox-bin
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXdmcp
+  name: freetype
   
   version: ""
 - 
-  category: app-emulation
+  category: media-libs
   description: ""
   license: ""
-  name: virtualbox-modules
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl[X]
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXft
   
   version: ""
 - 
@@ -51,35 +58,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
+  name: libXmu
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libICE
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: libXfixes
   
   version: ""
 - 
@@ -90,10 +83,59 @@ requires:
   
   version: ""
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: virtualbox-modules
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdmcp
   
   version: ""
 - 
@@ -114,28 +156,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
+  name: libXext
   
   version: ""
 - 
@@ -146,38 +167,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl[X]
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
+  name: libXrender
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXmu
+  name: libXt
   
   version: ""
 - 

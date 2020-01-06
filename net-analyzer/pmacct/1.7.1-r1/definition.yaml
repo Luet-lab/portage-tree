@@ -5,17 +5,10 @@ license: GPL-2
 name: pmacct
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -29,7 +22,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libmaxminddb
+  name: jansson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
   
   version: ""
 - 
@@ -47,10 +47,10 @@ requires:
   
   version: "0.98"
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: libmaxminddb
   
   version: ""
 - 
@@ -71,7 +71,14 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libpcap
+  name: zeromq
+  
+  version: 4.2.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: nDPI
   
   version: ""
 - 
@@ -82,26 +89,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: librdkafka
+  name: postgresql
   
   version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: nDPI
+  name: libpcap
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: zeromq
-  
-  version: 4.2.0
 uri:
 - http://www.pmacct.net/pmacct-1.7.1.tar.gz
 use_flags:

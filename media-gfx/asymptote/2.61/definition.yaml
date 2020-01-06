@@ -5,13 +5,6 @@ license: GPL-3
 name: asymptote
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 4.3-r5
-- 
   category: media-libs
   description: ""
   license: ""
@@ -19,10 +12,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: media-libs
   description: ""
   license: ""
-  name: dvisvgm
+  name: glew
   
   version: ""
 - 
@@ -33,45 +26,10 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: 3.0.1
-- 
-  category: dev-texlive
-  description: ""
-  license: ""
-  name: texlive-latexextra
-  
-  version: "2013"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.4-r5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boehm-gc
-  
-  version: "7.0"
-- 
   category: dev-python
   description: ""
   license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycson
+  name: PyQt5
   
   version: ""
 - 
@@ -81,6 +39,13 @@ requires:
   name: emacs
   
   version: "23.1"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.4-r5
 - 
   category: media-gfx
   description: ""
@@ -92,37 +57,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: mesa[X(+)]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: mesa
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: librsvg
+  name: boehm-gc
   
-  version: "2.40"
+  version: "7.0"
 - 
   category: sci-libs
   description: ""
@@ -131,10 +75,38 @@ requires:
   
   version: ""
 - 
+  category: dev-texlive
+  description: ""
+  license: ""
+  name: texlive-latexextra
+  
+  version: "2013"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: 4.3-r5
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glm
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: dvisvgm
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: PyQt5
+  name: numpy
   
   version: ""
 - 
@@ -144,6 +116,34 @@ requires:
   name: latex-base
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa[X(+)]
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: 3.0.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pycson
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.40"
 uri: []
 use_flags:
 - +boehm-gc

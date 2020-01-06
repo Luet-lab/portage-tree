@@ -5,10 +5,10 @@ license: BSD GPL-2 Sendmail-Open-Source
 name: opendkim
 requires:
 - 
-  category: dev-db
+  category: net-nds
   description: ""
   license: ""
-  name: lmdb
+  name: openldap
   
   version: ""
 - 
@@ -16,13 +16,6 @@ requires:
   description: ""
   license: ""
   name: libmemcached
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
   
   version: ""
 - 
@@ -40,27 +33,6 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: opendbx
-  
-  version: 1.4.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
@@ -75,12 +47,33 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: db
+  name: opendbx
   
-  version: "3.2"
+  version: 1.4.0
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
 - 
   category: net-dns
   description: ""
@@ -95,6 +88,13 @@ requires:
   name: ldns
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "3.2"
 uri:
 - https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
 use_flags:

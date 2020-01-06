@@ -5,19 +5,26 @@ license: BSD GPL-2
 name: lighttpd
 requires:
 - 
-  category: sys-fs
+  category: sys-libs
   description: ""
   license: ""
-  name: e2fsprogs
+  name: gdbm
   
   version: ""
 - 
-  category: virtual
+  category: dev-db
   description: ""
   license: ""
-  name: fam
+  name: sqlite
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: "1.1"
 - 
   category: net-nds
   description: ""
@@ -25,13 +32,6 @@ requires:
   name: openldap
   
   version: 2.1.26
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libev
-  
-  version: "4.01"
 - 
   category: dev-libs
   description: ""
@@ -47,40 +47,26 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: postgresql
+  name: openssl
+  
+  version: 0.9.7
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: fam
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libev
   
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
+  version: "4.01"
 - 
   category: dev-lang
   description: ""
@@ -92,9 +78,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: cyrus-sasl
   
-  version: 0.9.7
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: e2fsprogs
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -102,13 +95,6 @@ requires:
   name: attr
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: "1.1"
 - 
   category: net-analyzer
   description: ""
@@ -124,17 +110,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libxml2
+  name: bzip2
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-db
   description: ""
   license: ""
-  name: selinux-apache
+  name: libdbi
   
   version: ""
 - 
@@ -162,7 +148,21 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-apache
   
   version: ""
 uri:

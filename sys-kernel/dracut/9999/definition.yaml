@@ -5,10 +5,31 @@ license: GPL-2
 name: dracut
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[xattr(-)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "23"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.21"
+- 
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: pkgconfig
   
   version: ""
 - 
@@ -16,13 +37,6 @@ requires:
   description: ""
   license: ""
   name: fts-standalone
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dracut
   
   version: ""
 - 
@@ -40,19 +54,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-shells
   description: ""
   license: ""
-  name: coreutils[xattr(-)]
+  name: bash
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.21"
+  version: "4.0"
 - 
   category: sys-libs
   description: ""
@@ -61,24 +68,17 @@ requires:
   
   version: ""
 - 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: "4.0"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "23"
-- 
   category: virtual
   description: ""
   license: ""
-  name: pkgconfig
+  name: udev
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dracut
   
   version: ""
 uri: []

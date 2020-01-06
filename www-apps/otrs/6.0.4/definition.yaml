@@ -6,14 +6,14 @@ conflicts:
   license: ""
   name: SOAP-Lite
   
-  version: "0.712"
+  version: "0.711"
 - 
   category: =dev-perl
   description: ""
   license: ""
   name: SOAP-Lite
   
-  version: "0.711"
+  version: "0.712"
 description: An Open source Ticket Request System
 license: AGPL-3+
 name: otrs
@@ -22,7 +22,35 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DateTime
+  name: DBD-mysql
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: XML-LibXML-Simple
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: XML-Parser
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: YAML-LibYAML
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache
   
   version: ""
 - 
@@ -36,63 +64,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: GD
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
   name: GDTextUtil
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: SOAP-Lite
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-UserAgent-Determined
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Apache-Reload
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Zip
-  
-  version: ""
-- 
-  category: www-apache
-  description: ""
-  license: ""
-  name: mod_perl
   
   version: ""
 - 
@@ -106,56 +78,21 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Mail-POP3Client
+  name: IO-Socket-SSL
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Mail-IMAPClient
+  name: DateTime
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Text-CSV_XS
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: XML-Parser
-  
-  version: ""
-- 
-  category: www-apache
-  description: ""
-  license: ""
-  name: libapreq2
-  
-  version: "2"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: GDGraph
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: YAML-LibYAML
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: JSON-XS
+  name: SOAP-Lite
   
   version: ""
 - 
@@ -173,40 +110,12 @@ requires:
   
   version: ""
 - 
-  category: www-servers
+  category: www-apache
   description: ""
   license: ""
-  name: apache
+  name: libapreq2
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: httpd-cgi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Compress-Raw-Zlib
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-SSL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: XML-LibXML-Simple
-  
-  version: ""
+  version: "2"
 - 
   category: virtual
   description: ""
@@ -218,7 +127,77 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: perl-ldap
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: JSON-XS
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-UserAgent-Determined
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Text-CSV_XS
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: httpd-cgi
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Mail-IMAPClient
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: GD
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Zip
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Apache-Reload
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBI
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Mail-POP3Client
   
   version: ""
 - 
@@ -229,10 +208,31 @@ requires:
   
   version: ""
 - 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_perl
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-Pg
+  name: GDGraph
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-ldap
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Compress-Raw-Zlib
   
   version: ""
 uri:

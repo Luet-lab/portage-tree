@@ -12,12 +12,12 @@ license: GPL-2
 name: seahorse-nautilus
 requires:
 - 
-  category: gnome-base
+  category: app-crypt
   description: ""
   license: ""
-  name: gnome-keyring
+  name: gcr
   
-  version: ""
+  version: "3.4"
 - 
   category: gnome-base
   description: ""
@@ -29,9 +29,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libcryptui
+  name: libnotify
   
-  version: 3.9.90
+  version: "0.3"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 1.0.0
 - 
   category: dev-libs
   description: ""
@@ -39,6 +46,13 @@ requires:
   name: glib
   
   version: "2.28"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-keyring
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -50,9 +64,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: libcryptui
   
-  version: "0.3"
+  version: 3.9.90
 - 
   category: app-crypt
   description: ""
@@ -60,20 +74,6 @@ requires:
   name: gnupg
   
   version: "1.4"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 1.0.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: "3.4"
 - 
   category: dev-libs
   description: ""
