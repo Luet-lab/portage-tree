@@ -6,69 +6,6 @@ license: LGPL-2.1 GPL-2
 name: vlc
 requires:
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.1"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: live
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpostproc
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: chromaprint
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libkate
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
-  
-  version: ""
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -76,10 +13,45 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: sys-libs
   description: ""
   license: ""
-  name: twolame
+  name: libraw1394
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speexdsp
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: "12.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libtar
   
   version: ""
 - 
@@ -93,14 +65,63 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: jpeg
+  name: jack
   
   version: ""
 - 
-  category: dev-libs
+  category: media-sound
   description: ""
   license: ""
-  name: glib
+  name: musepack-tools
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: 4.0.0
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrodns
+  
+  version: 0.0.9
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libv4l
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvpx
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 - 
@@ -111,12 +132,19 @@ requires:
   
   version: 2.0.0_rc0
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: speex
   
-  version: ""
+  version: 1.2.0
 - 
   category: dev-libs
   description: ""
@@ -125,19 +153,40 @@ requires:
   
   version: "1.15"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: libnfs
+  
+  version: 0.10.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libavc1394
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: x264
+  name: libtiger
   
-  version: 0.0.20190214
+  version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libmicrodns
+  name: libmatroska
   
-  version: 0.0.9
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -146,59 +195,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: taglib
-  
-  version: "1.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libprojectm
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fdk-aac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sdl-image
+  name: pulseaudio
   
   version: ""
 - 
@@ -212,6 +212,27 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: live
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libvdpau
   
   version: ""
@@ -219,49 +240,42 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libdca
+  name: zvbi
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libdvbpsi
-  
-  version: 1.2.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcaca
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mpg123
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libvncserver
+  name: libpng
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvpx
+  name: tremor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util-keysyms
   
   version: ""
 - 
@@ -282,142 +296,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: game-music-emu
+  name: opus
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: dejavu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: aribb24
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: dav1d
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: 1.4.5
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: a52dec
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: soxr
-  
-  version: 0.1.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speexdsp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: x265
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ttf-fonts
-  
-  version: ""
+  version: 1.0.3
 - 
   category: media-libs
   description: ""
@@ -426,125 +307,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: 2.5.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libavc1394
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: 1.0.3
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tremor
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: fluidsynth
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libass
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libtar
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmodplug
-  
-  version: 0.8.9.0
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -552,10 +314,10 @@ requires:
   
   version: 1.3.6
 - 
-  category: media-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libpng
+  name: qtcore
   
   version: ""
 - 
@@ -569,51 +331,93 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: speex
+  name: soxr
   
-  version: 1.2.0
+  version: 0.1.2
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gnutls
+  name: x265
   
   version: ""
 - 
-  category: x11-libs
+  category: net-dns
   description: ""
   license: ""
-  name: xcb-util
+  name: libidn
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libtiger
+  name: libcddb
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: zvbi
+  name: ncurses
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtwidgets
   
   version: ""
 - 
-  category: net-fs
+  category: media-libs
   description: ""
   license: ""
-  name: samba
+  name: taglib
   
-  version: 4.0.0
+  version: "1.9"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcaca
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libvncserver
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -625,16 +429,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libv4l
+  name: libvorbis
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libva
+  name: protobuf
   
-  version: ""
+  version: 2.5.0
 - 
   category: media-video
   description: ""
@@ -646,98 +450,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmpeg2
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: xcb-util-keysyms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdvdnav
-  
-  version: "4.9"
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: libnfs
-  
-  version: 0.10.0
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmatroska
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
+  name: wayland-protocols
   
   version: ""
 - 
@@ -751,28 +464,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libtheora
+  name: libmodplug
   
-  version: ""
+  version: 0.8.9.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: "12.2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -783,10 +482,66 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libass
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
   name: libupnp
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvbpsi
+  
+  version: 1.2.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
   
   version: ""
 - 
@@ -800,21 +555,266 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: x264
   
-  version: ""
+  version: 0.0.20190214
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libraw1394
+  name: a52dec
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libogg
+  name: harfbuzz
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: twolame
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: 1.4.5
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libprojectm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmtp
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: fluidsynth
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdca
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mpg123
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmpeg2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpostproc
+  
+  version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: dejavu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: game-music-emu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: chromaprint
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ttf-fonts
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: aribb24
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sdl-image
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvdnav
+  
+  version: "4.9"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: dav1d
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libkate
   
   version: ""
 uri: []

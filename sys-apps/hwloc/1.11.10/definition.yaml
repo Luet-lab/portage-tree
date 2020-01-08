@@ -5,26 +5,12 @@ license: BSD
 name: hwloc
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libltdl
+  name: ncurses
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.12.14-r4[X?,svg?,]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libpciaccess
-  
-  version: 0.13.1-r1
+  version: 5.9-r3
 - 
   category: x11-drivers
   description: ""
@@ -33,12 +19,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: pciutils
+  name: libxml2
   
-  version: 3.3.0-r2
+  version: 2.9.1-r4
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libpciaccess
+  
+  version: 0.13.1-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
 - 
   category: sys-process
   description: ""
@@ -47,19 +47,12 @@ requires:
   
   version: 2.0.10-r1
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: cairo-1.12.14-r4[X?,svg?,]
   
-  version: 2.9.1-r4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.9-r3
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -67,6 +60,13 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: 6.5.19-r1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: pciutils
+  
+  version: 3.3.0-r2
 uri:
 - http://www.open-mpi.org/software/hwloc/v/downloads/hwloc-1.11.10.tar.bz2
 use_flags:

@@ -1,20 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: "2.11"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: <sec-policy
   description: ""
   license: ""
@@ -36,44 +22,37 @@ conflicts:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: <sys-fs
   description: ""
   license: ""
   name: lvm2
   
   version: 2.02.103
+- 
+  category: <sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: "2.11"
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: eudev
 requires:
 - 
-  category: sys-apps
+  category: acct-group
   description: ""
   license: ""
-  name: util-linux
+  name: input
   
-  version: "2.20"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.38"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "16"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.1.9
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -82,12 +61,33 @@ requires:
   
   version: ""
 - 
-  category: acct-group
+  category: dev-libs
   description: ""
   license: ""
-  name: input
+  name: gobject-introspection
   
-  version: ""
+  version: "1.38"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.1.9
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.20"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "16"
 - 
   category: acct-group
   description: ""

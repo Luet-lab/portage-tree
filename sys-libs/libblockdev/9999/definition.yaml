@@ -5,19 +5,12 @@ license: LGPL-2+
 name: libblockdev
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: kmod
+  name: glib
   
-  version: "19"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.1"
+  version: 2.42.2
 - 
   category: dev-libs
   description: ""
@@ -36,28 +29,42 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lvm2
+  name: cryptsetup
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libyaml
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.42.2
+  version: 1.6.7
 - 
   category: dev-libs
   description: ""
   license: ""
   name: libbytesize
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "19"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.27"
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.1"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
   
   version: ""
 - 
@@ -75,19 +82,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: util-linux
+  name: libyaml
   
-  version: "2.27"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: 1.6.7
+  version: ""
 uri: []
 use_flags:
 - bcache

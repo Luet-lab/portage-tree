@@ -6,6 +6,20 @@ license: GPL-3
 name: gnome-dvb-daemon
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
+  
+  version: 1.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: "0.8"
+- 
   category: dev-db
   description: ""
   license: ""
@@ -23,23 +37,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: 1.44.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: glib
   
   version: 2.32.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -48,12 +48,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libgee
+  name: gst-rtsp-server
   
-  version: "0.8"
+  version: 1.4.5
 - 
   category: dev-python
   description: ""
@@ -76,17 +76,24 @@ requires:
   
   version: 1.4.0
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-rtsp-server
+  name: gobject-introspection
   
-  version: 1.4.5
+  version: 1.44.0
 - 
   category: media-plugins
   description: ""
   license: ""
   name: gst-plugins-dvb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -96,13 +103,6 @@ requires:
   name: totem
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: 1.4.0
 uri: []
 use_flags:
 - nls

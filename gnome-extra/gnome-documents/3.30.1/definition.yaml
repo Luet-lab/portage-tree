@@ -5,6 +5,13 @@ license: GPL-2+
 name: gnome-documents
 requires:
 - 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -19,26 +26,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: gobject-introspection
   
-  version: 2.41.3
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: gnome-online-miners
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: ""
+  version: "1.54"
 - 
   category: net-libs
   description: ""
@@ -61,19 +54,12 @@ requires:
   
   version: 3.2.0
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: tracker-miners
-  
-  version: "2"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: cairo
   
-  version: ""
+  version: "1.14"
 - 
   category: app-text
   description: ""
@@ -82,26 +68,26 @@ requires:
   
   version: 3.13.3
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: gjs
+  name: libgepub
   
-  version: 1.48.0
+  version: "0.7"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libsoup
   
-  version: "1.54"
+  version: 2.41.3
 - 
-  category: x11-libs
+  category: app-text
   description: ""
   license: ""
-  name: gtk+
+  name: libgepub
   
-  version: 3.22.15
+  version: "0.6"
 - 
   category: net-libs
   description: ""
@@ -113,30 +99,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: "1.14"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gdk-pixbuf
   
   version: ""
 - 
-  category: app-text
+  category: net-misc
   description: ""
   license: ""
-  name: libgepub
+  name: gnome-online-miners
   
-  version: "0.6"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libgepub
-  
-  version: "0.7"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -144,6 +116,34 @@ requires:
   name: dbus
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gjs
+  
+  version: 1.48.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.22.15
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: tracker-miners
+  
+  version: "2"
 uri: []
 use_flags:
 - ""

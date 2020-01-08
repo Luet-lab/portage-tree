@@ -1,20 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.103
-- 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
-- 
   category: <sys-libs
   description: ""
   license: ""
@@ -25,27 +11,41 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: gentoo-systemd-integration
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: systemd
   
   version: ""
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
+- 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.103
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: udev
 requires:
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libselinux
+  name: util-linux
   
-  version: 2.1.9
+  version: "2.30"
 - 
   category: acct-group
   description: ""
@@ -68,41 +68,6 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: tape
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: lp
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -110,10 +75,17 @@ requires:
   
   version: "16"
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.1.9
+- 
   category: acct-group
   description: ""
   license: ""
-  name: tty
+  name: kmem
   
   version: ""
 - 
@@ -127,7 +99,14 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: kvm
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: dialout
   
   version: ""
 - 
@@ -141,7 +120,21 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: dialout
+  name: render
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tty
   
   version: ""
 - 
@@ -155,7 +148,14 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: render
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
   
   version: ""
 uri: []

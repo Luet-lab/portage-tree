@@ -5,6 +5,13 @@ license: all-rights-reserved
 name: discord-bin
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcxx
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -15,21 +22,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
+  name: libxcb
   
   version: ""
 - 
@@ -43,21 +36,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
+  name: libXrender
   
   version: ""
 - 
@@ -85,21 +64,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
+  name: libXScrnSaver
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: libXdamage
   
   version: ""
 - 
@@ -113,28 +85,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nss
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
+  name: nspr
   
   version: ""
 - 
@@ -148,14 +99,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: pango
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: atk
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
   
   version: ""
 - 
@@ -166,17 +131,45 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: libXcomposite
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcxx
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
   
   version: ""
 - 
@@ -187,6 +180,13 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -194,10 +194,10 @@ requires:
   
   version: ""
 - 
-  category: net-print
+  category: x11-libs
   description: ""
   license: ""
-  name: cups
+  name: libXfixes
   
   version: ""
 uri: []

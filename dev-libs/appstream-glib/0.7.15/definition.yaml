@@ -12,12 +12,26 @@ license: LGPL-2.1+
 name: appstream-glib
 requires:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.51.92
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: snowball-stemmer
   
-  version: "1.54"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -26,31 +40,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-arch
   description: ""
   license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: 2.51.92
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 1.1.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: libarchive
   
   version: ""
 - 
@@ -75,6 +68,20 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -82,19 +89,12 @@ requires:
   
   version: 2.45.8
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: snowball-stemmer
+  name: json-glib
   
-  version: ""
+  version: 1.1.2
 uri:
 - https://people.freedesktop.org/~hughsient/appstream-glib/releases/appstream-glib-0.7.15.tar.xz
 use_flags:

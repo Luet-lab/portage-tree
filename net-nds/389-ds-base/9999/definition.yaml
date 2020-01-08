@@ -5,17 +5,10 @@ license: GPL-3+
 name: 389-ds-base
 requires:
 - 
-  category: dev-perl
+  category: sys-libs
   description: ""
   license: ""
-  name: perl-mozldap
-  
-  version: 1.5.3
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Time-Local
+  name: db
   
   version: ""
 - 
@@ -29,23 +22,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: nss
   
-  version: "3.4"
+  version: "3.22"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: openssl
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: svrcore
-  
-  version: 4.1.2
 - 
   category: dev-libs
   description: ""
@@ -54,45 +40,31 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: virtual
   description: ""
   license: ""
-  name: net-snmp
+  name: perl-MIME-Base64
   
-  version: 5.1.2
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dirsrv
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: icu
   
-  version: "3.22"
+  version: "3.4"
 - 
   category: net-nds
   description: ""
   license: ""
   name: openldap
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: 1.7-r100
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
   
   version: ""
 - 
@@ -110,20 +82,6 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dirsrv
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: NetAddr-IP
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -138,10 +96,52 @@ requires:
   
   version: ""
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
+  
+  version: 1.7-r100
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: svrcore
+  
+  version: 4.1.2
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-mozldap
+  
+  version: 1.5.3
+- 
   category: virtual
   description: ""
   license: ""
-  name: perl-MIME-Base64
+  name: perl-Time-Local
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: 5.1.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: NetAddr-IP
   
   version: ""
 uri: []

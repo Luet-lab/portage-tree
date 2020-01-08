@@ -5,17 +5,31 @@ license: GPL-3+ LGPL-2+ CC0-1.0
 name: gnome-photos
 requires:
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: babl
+  name: gnome-online-accounts
+  
+  version: 3.8.0
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: jpeg
+  name: libgdata
+  
+  version: 0.15.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -26,19 +40,26 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sci-geosciences
   description: ""
   license: ""
-  name: tracker-miners
+  name: geocode-glib
   
-  version: "2"
+  version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libgfbgraph
+  name: grilo
   
-  version: 0.2.1
+  version: 0.3.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.14.0
 - 
   category: x11-libs
   description: ""
@@ -61,27 +82,6 @@ requires:
   
   version: 0.10.8
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnome-online-accounts
-  
-  version: 3.8.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: grilo
-  
-  version: 0.3.5
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -96,33 +96,33 @@ requires:
   
   version: 3.22.16
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libdazzle
+  name: libgfbgraph
   
-  version: 3.26.0
+  version: 0.2.1
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libgdata
-  
-  version: 0.15.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.14.0
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: geocode-glib
+  name: jpeg
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: babl
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: tracker-miners
+  
+  version: "2"
 - 
   category: media-libs
   description: ""
@@ -131,12 +131,12 @@ requires:
   
   version: "1.6"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: libdazzle
   
-  version: ""
+  version: 3.26.0
 uri: []
 use_flags:
 - flickr

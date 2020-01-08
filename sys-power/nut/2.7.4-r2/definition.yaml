@@ -5,10 +5,24 @@ license: GPL-2
 name: nut
 requires:
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libltdl
+  name: udev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
   
   version: ""
 - 
@@ -16,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: pygtk
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: freeipmi
   
   version: ""
 - 
@@ -33,24 +54,17 @@ requires:
   
   version: "1"
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: libusb
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-nut
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
+  name: libltdl
   
   version: ""
 - 
@@ -61,13 +75,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -75,26 +82,19 @@ requires:
   
   version: "2"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: freeipmi
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
   name: neon
   
   version: 0.25.0
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-nut
+  
+  version: ""
 uri:
 - https://networkupstools.org/source/2.7/nut-2.7.4.tar.gz
 use_flags:

@@ -12,45 +12,17 @@ license: LGPL-2.1
 name: boinc
 requires:
 - 
-  category: dev-db
+  category: x11-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libnotify
   
-  version: ""
+  version: "0.7"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freeglut
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: ca-certificates
-  
-  version: "20080809"
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: nvidia-drivers
-  
-  version: "180.22"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+  name: wxGTK
   
   version: ""
 - 
@@ -68,6 +40,34 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -75,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libnotify
+  name: ca-certificates
   
-  version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
-  
-  version: ""
+  version: "20080809"
 - 
   category: dev-util
   description: ""
@@ -95,6 +88,13 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: "2.1"
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: nvidia-drivers
+  
+  version: "180.22"
 uri:
 - 'https://boinc.berkeley.edu/logo/boinc_glossy2_512_F.tif -> boinc.tif ) https://github.com/BOINC/boinc/archive/client_release/7.14/7.14.2.tar.gz
   -> '

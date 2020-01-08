@@ -5,12 +5,26 @@ license: GPL-2
 name: goffice
 requires:
 - 
-  category: gnome-base
+  category: app-text
   description: ""
   license: ""
-  name: librsvg
+  name: libspectre
   
-  version: "2.22"
+  version: 0.2.6
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: "1.24"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -36,23 +50,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gdk-pixbuf
   
   version: "2.22"
 - 
-  category: gnome-extra
+  category: x11-libs
   description: ""
   license: ""
-  name: libgsf
+  name: gtk+
   
-  version: 1.14.23
+  version: "3.20"
 - 
   category: dev-libs
   description: ""
@@ -68,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: pango
+  name: librsvg
   
-  version: "1.24"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.20"
+  version: "2.22"
 - 
   category: dev-libs
   description: ""
@@ -89,12 +89,12 @@ requires:
   
   version: "1"
 - 
-  category: app-text
+  category: gnome-extra
   description: ""
   license: ""
-  name: libspectre
+  name: libgsf
   
-  version: 0.2.6
+  version: 1.14.23
 uri: []
 use_flags:
 - +introspection

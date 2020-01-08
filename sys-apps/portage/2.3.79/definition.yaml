@@ -26,52 +26,17 @@ license: GPL-2
 name: portage
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: "1.27"
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: gemato
-  
-  version: "14"
-- 
   category: app-crypt
   description: ""
   license: ""
-  name: gnupg-2.2.4-r2[ssl(-)]
+  name: openpgp-keys-gentoo-release
   
-  version: ""
+  version: "20180706"
 - 
-  category: sys-apps
+  category: sys-freebsd
   description: ""
   license: ""
-  name: sandbox
-  
-  version: "2.2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: install-xattr
-  
-  version: "0.3"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
+  name: freebsd-bin
   
   version: ""
 - 
@@ -89,12 +54,47 @@ requires:
   
   version: 0.1.17
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
   license: ""
-  name: python-exec
+  name: libselinux
+  
+  version: 2.0.94
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: 4.0.5
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: gemato
+  
+  version: "14"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: tar
+  
+  version: "1.27"
 - 
   category: app-admin
   description: ""
@@ -103,26 +103,26 @@ requires:
   
   version: "1.2"
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: sandbox
   
-  version: "20180706"
+  version: "2.2"
 - 
-  category: sys-freebsd
+  category: sys-apps
   description: ""
   license: ""
-  name: freebsd-bin
+  name: install-xattr
+  
+  version: "0.3"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: python-exec
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
 uri: []
 use_flags:
 - build

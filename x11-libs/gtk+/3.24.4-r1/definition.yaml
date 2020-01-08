@@ -1,30 +1,100 @@
 category: x11-libs
 conflicts:
 - 
-  category: <gnome-base
-  description: ""
-  license: ""
-  name: gail
-  
-  version: "1000"
-- 
   category: <x11-libs
   description: ""
   license: ""
   name: vte
   
   version: 0.31.0
+- 
+  category: <gnome-base
+  description: ""
+  license: ""
+  name: gail
+  
+  version: "1000"
 description: Gimp ToolKit +
 license: LGPL-2+
 name: gtk+
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: "1.0"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libXrandr
+  
+  version: "1.5"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: "1.3"
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: "1.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: "0.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: gtk-update-icon-cache
+  
+  version: "3"
 - 
   category: media-libs
   description: ""
@@ -33,10 +103,17 @@ requires:
   
   version: "0.9"
 - 
-  category: media-libs
+  category: app-accessibility
   description: ""
   license: ""
-  name: mesa[X(+),]
+  name: at-spi2-atk
+  
+  version: 2.5.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -50,98 +127,28 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland-protocols
-  
-  version: "1.12"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.53.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: "1.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: "1.0"
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: "1.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: gobject-introspection
   
   version: "1.39"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.12"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: libXfixes
   
-  version: "0.2"
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: at-spi2-atk
-  
-  version: 2.5.3
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: gtk-update-icon-cache
-  
-  version: "3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: "1.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
+  name: mesa[X(+),]
   
   version: ""
 - 
@@ -152,24 +159,17 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.53.4
+- 
   category: x11-misc
   description: ""
   license: ""
   name: shared-mime-info
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.9.91
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
   
   version: ""
 - 
@@ -187,12 +187,12 @@ requires:
   
   version: 0.1.9
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: wayland
   
-  version: ""
+  version: 1.9.91
 uri: []
 use_flags:
 - aqua

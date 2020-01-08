@@ -5,24 +5,10 @@ license: '|| ( GPL-2 LGPL-3+ )'
 name: glusterfs
 requires:
 - 
-  category: sys-fabric
+  category: sys-libs
   description: ""
   license: ""
-  name: libibverbs
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rpcsvc-proto
+  name: glibc[rpc(-)]
   
   version: ""
 - 
@@ -33,12 +19,26 @@ requires:
   
   version: ""
 - 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
+- 
   category: sys-fs
   description: ""
   license: ""
   name: fuse
   
   version: 2.7.0
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -50,7 +50,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libaio
   
   version: ""
 - 
@@ -64,28 +64,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: glibc[rpc(-)]
+  name: argp-standalone
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
 - 
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
+  name: libibverbs
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: rpcsvc-proto
   
   version: ""
 - 
@@ -99,14 +92,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: libressl
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: argp-standalone
+  name: libtirpc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 uri:

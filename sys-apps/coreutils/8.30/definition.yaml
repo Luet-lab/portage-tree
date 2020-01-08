@@ -1,40 +1,12 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: util-linux
   
   version: "2.13"
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: base64
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: net-tools
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -50,10 +22,10 @@ conflicts:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-process
   description: ""
   license: ""
-  name: realpath
+  name: procps
   
   version: ""
 - 
@@ -63,6 +35,13 @@ conflicts:
   name: sandbox
   
   version: 2.10-r4
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: base64
+  
+  version: ""
 - 
   category: <app-forensics
   description: ""
@@ -77,10 +56,38 @@ conflicts:
   name: netatalk
   
   version: 2.0.3-r4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: net-tools
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: realpath
+  
+  version: ""
 description: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 license: GPL-3
 name: coreutils
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -96,20 +103,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -121,6 +114,13 @@ requires:
   description: ""
   license: ""
   name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 uri:

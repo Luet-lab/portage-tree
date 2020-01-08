@@ -5,12 +5,26 @@ license: GPL-2
 name: filezilla
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: wxGTK
+  name: libfilezilla
   
-  version: 3.0.4
+  version: 0.15.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libfilezilla
+  
+  version: 0.16.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.4.15
 - 
   category: x11-misc
   description: ""
@@ -19,19 +33,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-eselect
   description: ""
   license: ""
-  name: dbus
+  name: eselect-wxwidgets
   
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.4.15
+  version: 0.7-r1
 - 
   category: dev-libs
   description: ""
@@ -50,30 +57,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libfilezilla
-  
-  version: 0.15.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libfilezilla
-  
-  version: 0.16.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: pugixml
   
   version: "1.7"
 - 
-  category: app-eselect
+  category: x11-libs
   description: ""
   license: ""
-  name: eselect-wxwidgets
+  name: wxGTK
   
-  version: 0.7-r1
+  version: 3.0.4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://download.filezilla-project.org/client/FileZilla_3.39.0_src.tar.bz2
 use_flags:

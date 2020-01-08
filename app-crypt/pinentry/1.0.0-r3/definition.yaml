@@ -5,17 +5,10 @@ license: GPL-2
 name: pinentry
 requires:
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libgpg-error
-  
-  version: "1.17"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: qtgui
   
   version: ""
 - 
@@ -29,28 +22,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libassuan
+  name: libgpg-error
   
-  version: "2.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: 1.6.3
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
+  version: "1.17"
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
@@ -61,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: sys-libs
   description: ""
   license: ""
-  name: qtgui
+  name: ncurses
   
   version: ""
 - 
@@ -89,10 +75,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcap
+  name: libassuan
+  
+  version: "2.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.6.3
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 uri:

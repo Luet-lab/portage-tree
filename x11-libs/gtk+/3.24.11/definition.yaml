@@ -19,33 +19,12 @@ license: LGPL-2+
 name: gtk+
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: wayland-protocols
-  
-  version: "1.14"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
+  name: mesa[X(+),]
   
   version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: "2.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.9.91
 - 
   category: x11-libs
   description: ""
@@ -68,12 +47,12 @@ requires:
   
   version: 0.19.7
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: rest
+  name: wayland-protocols
   
-  version: "0.7"
+  version: "1.14"
 - 
   category: app-accessibility
   description: ""
@@ -82,19 +61,40 @@ requires:
   
   version: 2.5.3
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: mesa[X(+),]
+  name: fontconfig
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.39"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: "1.5"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.57.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.9.91
 - 
   category: x11-libs
   description: ""
@@ -106,30 +106,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXfixes
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: json-glib
   
-  version: 2.57.2
+  version: "1.0"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: libX11
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: "0.9"
 - 
   category: x11-misc
   description: ""
@@ -137,6 +130,13 @@ requires:
   name: shared-mime-info
   
   version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 0.1.9
 - 
   category: media-libs
   description: ""
@@ -155,51 +155,51 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: "1.5"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.9
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXcomposite
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: json-glib
+  name: libXdamage
   
-  version: "1.0"
+  version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: harfbuzz
   
-  version: "1.39"
+  version: "0.9"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: rest
+  
+  version: "0.7"
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: "2.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
 uri: []
 use_flags:
 - aqua

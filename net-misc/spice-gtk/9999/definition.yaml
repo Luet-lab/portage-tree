@@ -13,17 +13,10 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
+  name: libusb
   
   version: ""
 - 
@@ -34,83 +27,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: phodav
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: qemu
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.46"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -118,17 +34,10 @@ requires:
   
   version: 2.49.91
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: pixman
-  
-  version: 0.17.7
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
+  name: openssl
   
   version: ""
 - 
@@ -149,21 +58,56 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: libressl
   
   version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: qemu
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: phodav
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.46"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: gst-plugins-good
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: jpeg
+  name: gobject-introspection
   
   version: ""
 - 
@@ -181,12 +125,68 @@ requires:
   
   version: 0.110-r1
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
   name: libva
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: 0.17.7
 uri: []
 use_flags:
 - +gtk3

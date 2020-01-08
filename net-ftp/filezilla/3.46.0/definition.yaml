@@ -5,6 +5,13 @@ license: GPL-2
 name: filezilla
 requires:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.5.7
+- 
   category: app-eselect
   description: ""
   license: ""
@@ -15,16 +22,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: pugixml
+  name: nettle
   
-  version: "1.7"
+  version: "3.1"
 - 
-  category: x11-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: xdg-utils
+  name: libfilezilla
   
-  version: ""
+  version: 0.19.1
 - 
   category: dev-libs
   description: ""
@@ -33,33 +40,12 @@ requires:
   
   version: 0.20.0
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.5.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
-  
-  version: 3.0.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: nettle
+  name: pugixml
   
-  version: "3.1"
+  version: "1.7"
 - 
   category: dev-db
   description: ""
@@ -68,12 +54,26 @@ requires:
   
   version: "3.7"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libfilezilla
+  name: wxGTK
   
-  version: 0.19.1
+  version: 3.0.4
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://download.filezilla-project.org/client/FileZilla_3.46.0_src.tar.bz2
 use_flags:

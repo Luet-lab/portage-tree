@@ -5,12 +5,12 @@ license: GPL-2
 name: dbmail
 requires:
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: libzdb
+  name: glib
   
-  version: ""
+  version: "2.16"
 - 
   category: app-text
   description: ""
@@ -19,17 +19,24 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: xmlto
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
   name: mhash
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmime
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: xmlto
   
   version: ""
 - 
@@ -43,7 +50,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmime
+  name: libevent
   
   version: ""
 - 
@@ -51,6 +58,20 @@ requires:
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libzdb
   
   version: ""
 - 
@@ -67,27 +88,6 @@ requires:
   name: openldap
   
   version: 2.3.33
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
 uri:
 - http://www.dbmail.org/download//dbmail-3.2.3.tar.gz
 use_flags:

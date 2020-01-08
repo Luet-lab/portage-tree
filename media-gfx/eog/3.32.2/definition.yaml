@@ -5,19 +5,19 @@ license: GPL-2+
 name: eog
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libX11
+  name: libexif
+  
+  version: 0.6.14
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 2.91.2
 - 
   category: x11-misc
   description: ""
@@ -29,37 +29,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.22.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.54"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.36.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
+  name: libX11
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 2.91.92
 - 
   category: sys-libs
   description: ""
@@ -68,12 +40,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libexif
+  name: libpeas
   
-  version: 0.6.14
+  version: 0.7.4
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 2.91.92
 - 
   category: media-libs
   description: ""
@@ -85,23 +64,44 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: 2.53.4
+  version: "1.54"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpeas
+  name: glib
   
-  version: 0.7.4
+  version: 2.53.4
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: jpeg
+  name: gtk+
+  
+  version: 3.22.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.36.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 2.91.2
 uri: []
 use_flags:
 - +exif

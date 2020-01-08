@@ -5,12 +5,19 @@ license: Apache-2.0
 name: certbot
 requires:
 - 
-  category: app-crypt
+  category: dev-python
   description: ""
   license: ""
-  name: acme
+  name: configargparse
   
-  version: 0.29.0
+  version: 0.9.3
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: cryptography
+  
+  version: 1.2.3
 - 
   category: dev-python
   description: ""
@@ -36,7 +43,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: zope-component
+  name: pytz
   
   version: ""
 - 
@@ -50,23 +57,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: configargparse
-  
-  version: 0.9.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: configobj
   
   version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: cryptography
-  
-  version: 1.2.3
 - 
   category: dev-python
   description: ""
@@ -85,7 +78,7 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pytz
+  name: zope-component
   
   version: ""
 - 
@@ -95,6 +88,13 @@ requires:
   name: zope-interface
   
   version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: acme
+  
+  version: 0.29.0
 uri:
 - https://github.com/certbot/certbot/archive/v0.39.0.tar.gz -> certbot-0.39.0.tar.gz
 use_flags:

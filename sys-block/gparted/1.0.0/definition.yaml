@@ -5,59 +5,24 @@ license: GPL-2+ FDL-1.2+
 name: gparted
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: 2.10.1
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: e2fsprogs
-  
-  version: 1.44.5
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mtools
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: kde-plasma
-  description: ""
-  license: ""
-  name: kde-cli-tools
-  
-  version: 5.8.6-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
+  name: dosfstools
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: cryptsetup
+  name: hfsutils
   
   version: ""
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: xfsdump
+  name: jfsutils
   
   version: ""
 - 
@@ -71,6 +36,20 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: e2fsprogs
+  
+  version: 1.44.5
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: dmraid
   
   version: ""
@@ -78,7 +57,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: reiserfsprogs
+  name: multipath-tools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udftools
   
   version: ""
 - 
@@ -92,14 +78,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: jfsutils
+  name: f2fs-tools
   
   version: ""
 - 
-  category: x11-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: xhost
+  name: reiser4progs
   
   version: ""
 - 
@@ -113,9 +99,16 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dosfstools
+  name: btrfs-progs
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigc++
+  
+  version: 2.10.1
 - 
   category: sys-fs
   description: ""
@@ -127,21 +120,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: ntfs3g
-  
-  version: 2016.2.22-r2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: reiser4progs
+  name: mdadm
   
   version: ""
 - 
-  category: sys-fs
+  category: x11-apps
   description: ""
   license: ""
-  name: udftools
+  name: xhost
   
   version: ""
 - 
@@ -151,6 +137,41 @@ requires:
   name: polkit
   
   version: "0.102"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: ntfs3g
+  
+  version: 2016.2.22-r2
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.2"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mtools
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: reiserfsprogs
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: xfsdump
+  
+  version: ""
 - 
   category: dev-cpp
   description: ""
@@ -166,24 +187,10 @@ requires:
   
   version: 2.02.116
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: multipath-tools
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: hfsutils
+  name: udev
   
   version: ""
 - 
@@ -194,19 +201,12 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: kde-plasma
   description: ""
   license: ""
-  name: parted
+  name: kde-cli-tools
   
-  version: "3.2"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: f2fs-tools
-  
-  version: ""
+  version: 5.8.6-r1
 uri:
 - mirror://sourceforge/gparted/gparted-1.0.0.tar.gz
 use_flags:

@@ -5,12 +5,12 @@ license: GPL-2
 name: vzctl
 requires:
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: vzquota
+  name: parted
   
-  version: "3.1"
+  version: ""
 - 
   category: sys-fs
   description: ""
@@ -26,6 +26,13 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: bridge-utils
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -33,52 +40,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: vzquota
   
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: 3.3.0
+  version: "3.1"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: libxml2
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: rsync
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
   
   version: ""
 - 
@@ -89,17 +61,31 @@ requires:
   
   version: "0.38"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: 3.3.0
+- 
   category: net-misc
   description: ""
   license: ""
-  name: bridge-utils
+  name: rsync
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: ed
+  name: attr
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
   
   version: ""
 - 
@@ -110,10 +96,24 @@ requires:
   
   version: "1.13"
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: attr
+  name: ed
   
   version: ""
 uri:

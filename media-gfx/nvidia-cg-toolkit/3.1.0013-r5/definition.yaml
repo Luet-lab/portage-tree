@@ -5,19 +5,12 @@ license: NVIDIA-r1
 name: nvidia-cg-toolkit
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: 7.0-r1
-- 
   category: media-libs
   description: ""
   license: ""
-  name: freeglut-2.8.1[abi_x86_32(-)]
+  name: glu
   
-  version: ""
+  version: 9.0.0-r1
 - 
   category: x11-libs
   description: ""
@@ -32,6 +25,27 @@ requires:
   name: libSM
   
   version: 1.2.1-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: 1.1.4
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut-2.8.1[abi_x86_32(-)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: 1.6.2
 - 
   category: x11-libs
   description: ""
@@ -54,26 +68,12 @@ requires:
   
   version: 1.1.1-r1
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXt
+  name: opengl
   
-  version: 1.1.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glu
-  
-  version: 9.0.0-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: 1.6.2
+  version: 7.0-r1
 uri: []
 use_flags:
 - doc

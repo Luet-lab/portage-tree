@@ -5,52 +5,24 @@ license: GPL-3
 name: asymptote
 requires:
 - 
-  category: media-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: freeglut
+  name: fftw
+  
+  version: 3.0.1
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigsegv
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: PyQt5
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.4-r5
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
+  name: glm
   
   version: ""
 - 
@@ -61,41 +33,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boehm-gc
-  
-  version: "7.0"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: dev-texlive
-  description: ""
-  license: ""
-  name: texlive-latexextra
-  
-  version: "2013"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 4.3-r5
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glm
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
@@ -103,19 +40,19 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: numpy
+  name: boehm-gc
   
-  version: ""
+  version: "7.0"
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: latex-base
+  name: ncurses
   
-  version: ""
+  version: 5.4-r5
 - 
   category: media-libs
   description: ""
@@ -124,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: media-libs
   description: ""
   license: ""
-  name: fftw
+  name: glew
   
-  version: 3.0.1
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -144,6 +81,69 @@ requires:
   name: librsvg
   
   version: "2.40"
+- 
+  category: dev-texlive
+  description: ""
+  license: ""
+  name: texlive-latexextra
+  
+  version: "2013"
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigsegv
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: 4.3-r5
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: PyQt5
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
 uri: []
 use_flags:
 - +boehm-gc

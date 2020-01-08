@@ -12,17 +12,10 @@ license: LGPL-2.1
 name: libvirt
 requires:
 - 
-  category: sys-libs
+  category: net-fs
   description: ""
   license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numad
+  name: nfs-utils
   
   version: ""
 - 
@@ -33,24 +26,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-user
   description: ""
   license: ""
-  name: libapparmor
+  name: qemu
   
   version: ""
 - 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: openbsd-netcat
+  
+  version: 1.105-r1
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: ncurses
   
-  version: 2.0.85
+  version: ""
 - 
-  category: virtual
+  category: dev-util
   description: ""
   license: ""
-  name: udev
+  name: systemtap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
   
   version: ""
 - 
@@ -61,17 +68,38 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libpcap
+  name: readline
   
-  version: 1.0.0
+  version: ""
 - 
-  category: sys-apps
+  category: sys-cluster
   description: ""
   license: ""
-  name: iproute2
+  name: ceph
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: radvd
   
   version: ""
 - 
@@ -79,6 +107,41 @@ requires:
   description: ""
   license: ""
   name: scrub
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.6
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libapparmor
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: qemu
+  
+  version: 1.5.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
   
   version: ""
 - 
@@ -99,65 +162,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libnl
   
   version: ""
 - 
-  category: net-analyzer
+  category: net-misc
   description: ""
   license: ""
-  name: openbsd-netcat
+  name: curl
   
-  version: 1.105-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2-2.02.48-r2[-device-mapper-only(-)]
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "1.8"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.9"
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: libvirt
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
-  
-  version: ""
+  version: 7.18.0
 - 
   category: sys-devel
   description: ""
@@ -166,73 +180,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
-  name: numactl
-  
-  version: 2.0.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
+  name: audit
   
   version: ""
 - 
-  category: net-misc
+  category: sys-cluster
   description: ""
   license: ""
-  name: radvd
+  name: glusterfs
   
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: xen
-  
-  version: 4.6.0
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: ebtables
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
+  version: 3.4.1
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: dmidecode
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: firewalld
-  
-  version: 0.6.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
+  name: iproute2
   
   version: ""
 - 
@@ -243,17 +208,38 @@ requires:
   
   version: ""
 - 
-  category: net-fs
+  category: net-libs
   description: ""
   license: ""
-  name: nfs-utils
+  name: libssh2
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.25
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: 2.0.2
 - 
   category: sys-fs
   description: ""
   license: ""
   name: lvm2[-device-mapper-only(-)]
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: libvirt
   
   version: ""
 - 
@@ -264,12 +250,33 @@ requires:
   
   version: 2.8.6
 - 
-  category: sys-cluster
+  category: net-firewall
   description: ""
   license: ""
-  name: glusterfs
+  name: iptables
   
-  version: 3.4.1
+  version: 1.4.10
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: ebtables
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: xen
+  
+  version: 4.6.0
 - 
   category: sys-apps
   description: ""
@@ -285,33 +292,33 @@ requires:
   
   version: 1.18.0
 - 
-  category: acct-user
+  category: sys-block
   description: ""
   license: ""
-  name: qemu
+  name: parted
+  
+  version: "1.8"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: 1.0.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2-2.02.48-r2[-device-mapper-only(-)]
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libxml2
-  
-  version: 2.7.6
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
+  name: numad
   
   version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: 1.4.10
 - 
   category: net-libs
   description: ""
@@ -320,38 +327,31 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: dev-libs
   description: ""
   license: ""
-  name: audit
+  name: cyrus-sasl
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gnutls
+  name: libselinux
   
-  version: 1.0.25
+  version: 2.0.85
 - 
-  category: net-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: curl
+  name: libpciaccess
   
-  version: 7.18.0
+  version: 0.10.9
 - 
-  category: dev-util
+  category: sys-apps
   description: ""
   license: ""
-  name: systemtap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh2
+  name: dmidecode
   
   version: ""
 - 
@@ -362,19 +362,19 @@ requires:
   
   version: "2.17"
 - 
-  category: app-emulation
+  category: net-firewall
   description: ""
   license: ""
-  name: qemu
+  name: firewalld
   
-  version: 1.5.0
+  version: 0.6.3
 - 
-  category: x11-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libpciaccess
+  name: polkit
   
-  version: 0.10.9
+  version: "0.9"
 uri:
 - https://libvirt.org/sources/libvirt-5.6.0.tar.xz
 use_flags:

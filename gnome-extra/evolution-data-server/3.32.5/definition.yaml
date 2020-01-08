@@ -5,33 +5,12 @@ license: '|| ( LGPL-2 LGPL-3 ) BSD Sleepycat'
 name: evolution-data-server
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: "3.4"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.5"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: libxml2
   
-  version: "3.9"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: "2"
 - 
   category: sys-libs
   description: ""
@@ -40,19 +19,33 @@ requires:
   
   version: "4"
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: json-glib
   
-  version: "3.8"
+  version: 1.0.4
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libgdata
   
-  version: 3.7.17
+  version: 0.17.7
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: "3.4"
 - 
   category: dev-libs
   description: ""
@@ -68,41 +61,6 @@ requires:
   
   version: 3.0.2
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
-  
-  version: "4.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: 1.0.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: 2.11.91
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -110,19 +68,19 @@ requires:
   
   version: "3.10"
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libgdata
+  name: libcanberra
   
-  version: 0.17.7
+  version: "0.25"
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: krb5
+  name: gnome-online-accounts
   
-  version: ""
+  version: "3.8"
 - 
   category: net-nds
   description: ""
@@ -138,12 +96,61 @@ requires:
   
   version: "3.10"
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.7.17
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: nss
   
-  version: "2"
+  version: "3.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: "4.4"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: 2.11.91
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.5"
 - 
   category: net-libs
   description: ""
@@ -152,19 +159,12 @@ requires:
   
   version: "2.42"
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: zlib
   
-  version: "0.25"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
+  version: ""
 uri: []
 use_flags:
 - berkdb

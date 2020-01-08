@@ -6,17 +6,17 @@ license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD 
 name: gromacs
 requires:
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libICE
+  name: blas
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: blas
+  name: opencl
   
   version: ""
 - 
@@ -41,10 +41,10 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: virtual
   description: ""
   license: ""
-  name: lmfit
+  name: mpi
   
   version: ""
 - 
@@ -62,17 +62,10 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: mkl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
+  name: libICE
   
   version: ""
 - 
@@ -83,10 +76,17 @@ requires:
   
   version: 6.5.14
 - 
-  category: virtual
+  category: sci-libs
   description: ""
   license: ""
-  name: opencl
+  name: lmfit
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: mkl
   
   version: ""
 uri: []

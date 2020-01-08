@@ -4,14 +4,14 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: ntpsec
+  name: openntpd
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: openntpd
+  name: ntpsec
   
   version: ""
 description: Network Time Protocol suite/programs
@@ -19,31 +19,17 @@ license: HPND BSD ISC
 name: ntp
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: "4.1"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: pps-tools
   
   version: ""
 - 
@@ -61,10 +47,24 @@ requires:
   
   version: ""
 - 
-  category: app-vim
+  category: sec-policy
   description: ""
   license: ""
-  name: ntp-syntax
+  name: selinux-ntp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: "4.1"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -75,24 +75,24 @@ requires:
   
   version: ""
 - 
+  category: app-vim
+  description: ""
+  license: ""
+  name: ntp-syntax
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: pps-tools
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ntp
   
   version: ""
 uri:

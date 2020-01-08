@@ -13,45 +13,10 @@ license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-shell
-  
-  version: 3.1.90
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pam_fprint
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
   name: iso-codes
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
   
   version: ""
 - 
@@ -62,26 +27,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libcanberra
+  name: dconf
   
-  version: "0.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
+  version: "0.20"
 - 
   category: media-libs
   description: ""
@@ -90,6 +41,41 @@ requires:
   
   version: 2.5.0
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239.3"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXau
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -97,24 +83,10 @@ requires:
   
   version: ""
 - 
-  category: sys-boot
+  category: sys-auth
   description: ""
   license: ""
-  name: plymouth
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: "7.6"
-- 
-  category: x11-apps
-  description: ""
-  license: ""
-  name: xhost
+  name: pam_fprint
   
   version: ""
 - 
@@ -128,30 +100,37 @@ requires:
   category: gnome-base
   description: ""
   license: ""
-  name: dconf
+  name: gnome-settings-daemon
   
-  version: "0.20"
+  version: 3.1.4
 - 
-  category: sys-auth
+  category: x11-misc
   description: ""
   license: ""
-  name: elogind
+  name: xdg-utils
   
-  version: "239.3"
+  version: 1.0.2-r3
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libselinux
+  name: gobject-introspection
+  
+  version: 0.9.12
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-process
   description: ""
   license: ""
-  name: gnome-session
+  name: audit
   
-  version: "3.6"
+  version: ""
 - 
   category: sys-auth
   description: ""
@@ -160,17 +139,17 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
+  name: libX11
   
   version: ""
 - 
@@ -188,17 +167,17 @@ requires:
   
   version: 0.6.35
 - 
-  category: dev-libs
+  category: x11-base
   description: ""
   license: ""
-  name: gobject-introspection
+  name: xorg-server
   
-  version: 0.9.12
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXdmcp
   
   version: ""
 - 
@@ -209,45 +188,66 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: xdg-utils
+  name: libselinux
   
-  version: 1.0.2-r3
+  version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: tcp-wrappers
   
-  version: "186"
+  version: "7.6"
 - 
-  category: sys-process
+  category: gnome-base
   description: ""
   license: ""
-  name: audit
+  name: gnome-shell
+  
+  version: 3.1.90
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: mousetweaks
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.4"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libxcb
+  
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
   
   version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gnome-session
   
-  version: ""
+  version: "3.6"
 - 
-  category: sys-apps
+  category: x11-apps
   description: ""
   license: ""
-  name: dbus
+  name: xhost
   
   version: ""
 uri:

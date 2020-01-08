@@ -5,13 +5,6 @@ license: GPL-2+ MIT CC-BY-3.0 CC-BY-SA-3.0 public-domain
 name: sddm
 requires:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -19,19 +12,26 @@ requires:
   
   version: "5.6"
 - 
-  category: dev-qt
+  category: sys-auth
   description: ""
   license: ""
-  name: qtgui
+  name: elogind
   
-  version: "5.6"
+  version: ""
 - 
-  category: dev-qt
+  category: sys-libs
   description: ""
   license: ""
-  name: qtnetwork
+  name: pam
   
-  version: "5.6"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
 - 
   category: x11-base
   description: ""
@@ -46,6 +46,13 @@ requires:
   name: libxcb
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: consolekit
+  
+  version: 0.9.4
 - 
   category: sys-power
   description: ""
@@ -64,30 +71,23 @@ requires:
   category: dev-qt
   description: ""
   license: ""
+  name: qtgui
+  
+  version: "5.6"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
   name: qtdeclarative
   
   version: "5.6"
 - 
-  category: sys-auth
+  category: dev-qt
   description: ""
   license: ""
-  name: consolekit
+  name: qtnetwork
   
-  version: 0.9.4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
+  version: "5.6"
 uri:
 - https://github.com/sddm/sddm/releases/download/v0.15.0/sddm-0.15.0.tar.gz
 use_flags:

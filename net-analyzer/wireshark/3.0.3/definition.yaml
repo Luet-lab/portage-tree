@@ -5,24 +5,24 @@ license: GPL-2
 name: wireshark
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
+  name: libssh
   
-  version: "2.32"
+  version: "0.6"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libnl
+  name: nghttp2
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtprintsupport
+  name: libgcrypt
   
   version: ""
 - 
@@ -36,21 +36,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: bcg729
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: sbc
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsmi
   
   version: ""
 - 
@@ -61,17 +54,59 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: net-dns
   description: ""
   license: ""
-  name: selinux-wireshark
+  name: c-ares
+  
+  version: "1.5"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: krb5
+  name: freedesktop-icon-theme
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: bcg729
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: "5.1"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
   
   version: ""
 - 
@@ -79,6 +114,13 @@ requires:
   description: ""
   license: ""
   name: qtgui
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: snappy
   
   version: ""
 - 
@@ -92,28 +134,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: c-ares
-  
-  version: "1.5"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsmi
+  name: libxml2
   
   version: ""
 - 
@@ -127,14 +148,21 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtprintsupport
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: lz4
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libnl
   
   version: ""
 - 
@@ -159,6 +187,13 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -166,47 +201,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sec-policy
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: selinux-wireshark
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: nghttp2
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libssh
-  
-  version: "0.6"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: "5.1"
 uri:
 - https://www.wireshark.org/download/src/all-versions/wireshark-3.0.3.tar.xz
 use_flags:

@@ -5,73 +5,24 @@ license: GPL-2+ GPL-3+
 name: qgis
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtpositioning
-  
-  version: 5.9.4
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pytz
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.9.4
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: geos
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygments
+  name: gsl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libzip
+  name: fcgi
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtconcurrent
-  
-  version: 5.9.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
+  name: qtserialport
   
   version: 5.9.4
 - 
@@ -89,19 +40,26 @@ requires:
   
   version: 5.9.4
 - 
-  category: dev-qt
+  category: dev-db
   description: ""
   license: ""
-  name: designer
+  name: postgresql
   
-  version: 5.9.4
+  version: ""
 - 
-  category: dev-qt
+  category: dev-python
   description: ""
   license: ""
-  name: qtnetwork
+  name: owslib
   
-  version: 5.9.4
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-dateutil
+  
+  version: ""
 - 
   category: sci-geosciences
   description: ""
@@ -110,12 +68,19 @@ requires:
   
   version: ""
 - 
-  category: sci-geosciences
+  category: dev-db
   description: ""
   license: ""
-  name: grass-7*
+  name: spatialite
   
-  version: ""
+  version: 4.2.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.9.4
 - 
   category: sci-libs
   description: ""
@@ -131,24 +96,24 @@ requires:
   
   version: 6.1.2
 - 
-  category: dev-python
+  category: dev-qt
   description: ""
   license: ""
-  name: six
+  name: qt3d
+  
+  version: 5.9.4
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: netcdf
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: qscintilla-python-2.10.1[qt5(+),]
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: psycopg
+  name: pytz
   
   version: ""
 - 
@@ -159,10 +124,45 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: qtkeychain[qt5(+)]
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtprintsupport
+  
+  version: 5.9.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: markupsafe
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtconcurrent
+  
+  version: 5.9.4
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
   
   version: 5.9.4
 - 
@@ -176,84 +176,35 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyyaml
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
+  name: six
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: sip
+  name: pyyaml
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: qscintilla
-  
-  version: 2.10.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: fcgi
+  name: libzip
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwebkit
+  name: qtgui
   
-  version: 5.9.1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: spatialite
-  
-  version: 4.2.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: qtkeychain[qt5(+)]
-  
-  version: ""
+  version: 5.9.4
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: libspatialindex
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: proj
-  
-  version: 4.9.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: markupsafe
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-dateutil
+  name: geos
   
   version: ""
 - 
@@ -263,6 +214,13 @@ requires:
   name: qtsvg
   
   version: 5.9.4
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: grass-7*
+  
+  version: ""
 - 
   category: sci-libs
   description: ""
@@ -274,16 +232,37 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: httplib2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: qscintilla
+  
+  version: 2.10.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: requests
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-python
   description: ""
   license: ""
-  name: qtdeclarative
+  name: psycopg
   
-  version: 5.9.4
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
 - 
   category: media-gfx
   description: ""
@@ -292,10 +271,31 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtpositioning
+  
+  version: 5.9.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebkit
+  
+  version: 5.9.1
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: proj
+  
+  version: 4.9.3
+- 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: oracle-instantclient
   
   version: ""
 - 
@@ -306,38 +306,31 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-python
   description: ""
   license: ""
-  name: qtserialport
-  
-  version: 5.9.4
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: oracle-instantclient
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gdal
+  name: qscintilla-python-2.10.1[qt5(+),]
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: owslib
+  name: sip
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.9.4
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: netcdf
+  name: gdal
   
   version: ""
 - 
@@ -351,28 +344,35 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: httplib2
+  name: pygments
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qt3d
+  name: designer
+  
+  version: 5.9.4
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: 5.9.4
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
+  name: libspatialindex
   
   version: ""
 uri:

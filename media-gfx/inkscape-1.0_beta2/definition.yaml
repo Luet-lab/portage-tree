@@ -5,17 +5,52 @@ license: GPL-2 LGPL-2.1
 name: inkscape-1.0_beta2
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: popt
+  name: libpng
   
   version: ""
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libX11
+  name: libsoup
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: "7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: aspell
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: lxml
   
   version: ""
 - 
@@ -26,6 +61,34 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvisio
+  
+  version: ""
+- 
+  category: app-office
+  description: ""
+  license: ""
+  name: dia
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: cairomm
+  
+  version: "1.12"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: ""
+- 
   category: dev-cpp
   description: ""
   license: ""
@@ -33,17 +96,10 @@ requires:
   
   version: "2.40"
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: double-conversion
   
   version: ""
 - 
@@ -53,41 +109,6 @@ requires:
   name: boehm-gc
   
   version: "7.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gdl
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: scour
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.37.2
 - 
   category: dev-python
   description: ""
@@ -99,28 +120,7 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: poppler
-  
-  version: 0.57.0
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: cairomm
-  
-  version: "1.12"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libwpg
+  name: ghostscript-gpl
   
   version: ""
 - 
@@ -134,98 +134,7 @@ requires:
   category: media-gfx
   description: ""
   license: ""
-  name: imagemagick
-  
-  version: "7"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: aspell
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: app-office
-  description: ""
-  license: ""
-  name: dia
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.54.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.41"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: double-conversion
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: 1.1.25
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: potrace
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librevenge
+  name: graphicsmagick
   
   version: ""
 - 
@@ -239,14 +148,56 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: gtkspell
+  name: poppler
+  
+  version: 0.57.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.25
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librevenge
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: scour
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvisio
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
   
   version: ""
 - 
@@ -260,28 +211,77 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: gdl
   
-  version: 2.7.4
+  version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: lxml
+  name: popt
   
   version: ""
 - 
   category: media-gfx
   description: ""
   license: ""
-  name: graphicsmagick
+  name: potrace
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: lcms
+  name: pango
+  
+  version: 1.37.2
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libwpg
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: gtkspell
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.41"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.54.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 uri:

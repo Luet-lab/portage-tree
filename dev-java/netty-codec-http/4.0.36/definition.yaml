@@ -5,17 +5,10 @@ license: Apache-2.0
 name: netty-codec-http
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.7"
-- 
   category: dev-java
   description: ""
   license: ""
-  name: netty-transport
+  name: netty-handler
   
   version: 4.0.36
 - 
@@ -29,14 +22,21 @@ requires:
   category: dev-java
   description: ""
   license: ""
-  name: netty-buffer
+  name: protobuf-java
   
-  version: 4.0.36
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.7"
 - 
   category: dev-java
   description: ""
   license: ""
-  name: netty-codec
+  name: netty-buffer
   
   version: 4.0.36
 - 
@@ -50,7 +50,14 @@ requires:
   category: dev-java
   description: ""
   license: ""
-  name: netty-handler
+  name: netty-codec
+  
+  version: 4.0.36
+- 
+  category: dev-java
+  description: ""
+  license: ""
+  name: netty-transport
   
   version: 4.0.36
 - 
@@ -58,13 +65,6 @@ requires:
   description: ""
   license: ""
   name: jzlib
-  
-  version: ""
-- 
-  category: dev-java
-  description: ""
-  license: ""
-  name: protobuf-java
   
   version: ""
 uri:

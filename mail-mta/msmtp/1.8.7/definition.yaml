@@ -4,35 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
+  name: courier
   
   version: ""
 - 
@@ -46,7 +18,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+mailer
   
   version: ""
 - 
@@ -56,6 +28,13 @@ conflicts:
   name: postfix
   
   version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -74,14 +53,35 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: esmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
   
   version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -89,10 +89,10 @@ license: GPL-3
 name: msmtp
 requires:
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: gnutls[idn?]
+  name: gsasl
   
   version: ""
 - 
@@ -103,13 +103,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
   category: net-dns
   description: ""
   license: ""
@@ -117,7 +110,21 @@ requires:
   
   version: ""
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
   category: acct-group
+  description: ""
+  license: ""
+  name: msmtpd
+  
+  version: ""
+- 
+  category: acct-user
   description: ""
   license: ""
   name: msmtpd
@@ -131,17 +138,10 @@ requires:
   
   version: ""
 - 
-  category: acct-user
+  category: net-libs
   description: ""
   license: ""
-  name: msmtpd
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
+  name: gnutls[idn?]
   
   version: ""
 uri:

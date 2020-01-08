@@ -8,9 +8,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libwebp
   
-  version: 1.6.0
+  version: 0.5.0
 - 
   category: virtual
   description: ""
@@ -29,7 +29,7 @@ requires:
   category: media-video
   description: ""
   license: ""
-  name: ffmpeg
+  name: libav
   
   version: ""
 - 
@@ -40,12 +40,26 @@ requires:
   
   version: "1.32"
 - 
-  category: media-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: lensfun
+  name: umfpack
   
-  version: 0.2.5
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: "2.32"
 - 
   category: media-libs
   description: ""
@@ -57,37 +71,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: babl
+  name: lensfun
   
-  version: 0.1.62
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: "4"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: umfpack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libv4l
-  
-  version: 1.0.1
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.40.6
+  version: 0.2.5
 - 
   category: app-text
   description: ""
@@ -96,31 +82,38 @@ requires:
   
   version: 0.71.0
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.40.6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
+  name: babl
   
-  version: 0.5.0
+  version: 0.1.62
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: libpng
   
-  version: 1.2.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: "2.32"
+  version: 1.6.0
 - 
   category: media-video
   description: ""
   license: ""
-  name: libav
+  name: ffmpeg
   
   version: ""
 - 
@@ -134,16 +127,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsdl
+  name: tiff
   
-  version: 1.2.0
+  version: "4"
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: json-glib
+  name: libv4l
   
-  version: ""
+  version: 1.0.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.0
 - 
   category: x11-libs
   description: ""
@@ -159,12 +159,12 @@ requires:
   
   version: 2.2.0
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: libsdl
   
-  version: "2.44"
+  version: 1.2.0
 uri:
 - http://download.gimp.org/pub/gegl/0.4/gegl-0.4.14.tar.bz2
 use_flags:

@@ -5,31 +5,10 @@ license: GPL-3+
 name: gnome-latex
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.56"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: latex-base
-  
-  version: ""
-- 
-  category: dev-tex
-  description: ""
-  license: ""
-  name: latexmk
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: hicolor-icon-theme
+  name: pango
   
   version: ""
 - 
@@ -54,10 +33,17 @@ requires:
   
   version: "4.0"
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: gobject-introspection
+  
+  version: 1.30.0
+- 
+  category: dev-tex
+  description: ""
+  license: ""
+  name: latexmk
   
   version: ""
 - 
@@ -67,6 +53,13 @@ requires:
   name: rubber
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: "0.10"
 - 
   category: gnome-base
   description: ""
@@ -82,26 +75,26 @@ requires:
   
   version: "4.0"
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: pango
+  name: dconf
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: hicolor-icon-theme
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: glib
   
-  version: 1.30.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
-  
-  version: "0.10"
+  version: "2.56"
 - 
   category: x11-libs
   description: ""
@@ -110,10 +103,17 @@ requires:
   
   version: "3.22"
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: dconf
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
   
   version: ""
 uri: []

@@ -11,20 +11,27 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
+mpi
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-mpi
+  name: mpich2
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
 - 
   category: sys-apps
   description: ""
@@ -33,26 +40,12 @@ requires:
   
   version: 2.0.2
 - 
-  category: sys-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: zlib
+  name: ofed
   
-  version: 1.2.8-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
+  version: ""
 - 
   category: sys-fabric
   description: ""
@@ -68,19 +61,26 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: virtual
   description: ""
   license: ""
-  name: librdmacm
+  name: jre
   
-  version: ""
+  version: "1.6"
 - 
-  category: sys-fabric
+  category: sys-libs
   description: ""
   license: ""
-  name: ofed
+  name: zlib
   
-  version: ""
+  version: 1.2.8-r1
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
 - 
   category: sys-cluster
   description: ""
@@ -96,12 +96,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: libevent
+  name: librdmacm
   
-  version: 2.0.22
+  version: ""
 - 
   category: dev-libs
   description: ""

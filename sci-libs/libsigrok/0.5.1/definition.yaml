@@ -6,6 +6,13 @@ license: GPL-3
 name: libsigrok
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -13,19 +20,19 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: jre
+  name: libserialport-0.1.1[static-libs(+)]
   
-  version: "1.4"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libzip
+  name: glib
   
-  version: "0.8"
+  version: 2.32.0
 - 
   category: dev-cpp
   description: ""
@@ -51,23 +58,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib-2.32.0[static-libs(+)]
+  name: libserialport
   
-  version: ""
+  version: 0.1.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libserialport-0.1.1[static-libs(+)]
+  name: libzip
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.32.0
+  version: "0.8"
 - 
   category: dev-python
   description: ""
@@ -79,16 +79,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libserialport
+  name: glib-2.32.0[static-libs(+)]
   
-  version: 0.1.1
+  version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: libusb
+  name: jre
   
-  version: ""
+  version: "1.4"
 uri:
 - https://sigrok.org/download/source/libsigrok/libsigrok-0.5.1.tar.gz
 use_flags:

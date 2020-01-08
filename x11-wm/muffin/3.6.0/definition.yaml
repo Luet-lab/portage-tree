@@ -12,31 +12,24 @@ license: GPL-2+
 name: muffin
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.37.3
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXfixes
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libXrandr
   
   version: ""
 - 
@@ -44,20 +37,6 @@ requires:
   description: ""
   license: ""
   name: opengl
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: zenity
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
   
   version: ""
 - 
@@ -78,37 +57,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
-  
-  version: "0.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: libICE
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: gobject-introspection
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: startup-notification
-  
-  version: "0.7"
+  version: 0.9.5
 - 
   category: x11-libs
   description: ""
@@ -131,19 +89,61 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: glib
   
-  version: 0.9.5
+  version: 2.37.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: zenity
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: "0.3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
 uri:
 - https://github.com/linuxmint/muffin/archive/3.6.0.tar.gz -> muffin-3.6.0.tar.gz
 use_flags:

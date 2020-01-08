@@ -1,6 +1,20 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: bliss-initramfs
+  
+  version: 7.1.0
+- 
   category: =sys-apps
   description: ""
   license: ""
@@ -8,19 +22,12 @@ conflicts:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
+  name: genkernel
   
-  version: "67"
+  version: 3.5.1.1
 - 
   category: <sys-boot
   description: ""
@@ -32,32 +39,25 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel
+  name: genkernel-next
   
-  version: 3.5.1.1
+  version: "67"
 - 
-  category: <sys-kernel
+  category: sys-fs
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: zfs-fuse
   
-  version: 7.1.0
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: udev
+  name: lsscsi
   
   version: ""
 - 
@@ -65,6 +65,13 @@ requires:
   description: ""
   license: ""
   name: mdadm
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
   
   version: ""
 - 
@@ -82,17 +89,17 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
+  category: virtual
   description: ""
   license: ""
-  name: bc
+  name: awk
   
   version: ""
 - 
-  category: app-misc
+  category: virtual
   description: ""
   license: ""
-  name: pax-utils
+  name: udev
   
   version: ""
 - 
@@ -103,13 +110,6 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
@@ -117,24 +117,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
   
   version: ""
 - 
@@ -148,7 +141,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: zfs-kmod
+  
+  version: 0.7.13
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 uri:

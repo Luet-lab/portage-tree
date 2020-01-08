@@ -13,10 +13,17 @@ license: GPL-2 dtrace? ( CDDL )
 name: virtualbox
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: opengl
+  name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
   
   version: ""
 - 
@@ -27,31 +34,52 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtx11extras
+  name: libxslt
+  
+  version: 1.1.19
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl
   
   version: ""
 - 
-  category: dev-qt
+  category: x11-libs
   description: ""
   license: ""
-  name: qtopengl
+  name: libX11
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: zlib
+  name: libXinerama
   
   version: ""
 - 
-  category: dev-qt
+  category: app-emulation
   description: ""
   license: ""
-  name: qtprintsupport
+  name: virtualbox-modules
+  
+  version: 5.2.32
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 - 
@@ -62,19 +90,12 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: libIDL
   
-  version: 1.1.19
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -90,31 +111,17 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: opus
   
   version: ""
 - 
@@ -128,35 +135,42 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXmu
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: opus
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libIDL
+  name: libressl
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libXext
+  name: lvm2
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 - 
@@ -167,24 +181,38 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: jre
+  name: udev
   
-  version: "1.6"
+  version: "171"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvpx
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
+  name: libXt
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libressl
+  name: qtopengl
   
   version: ""
 - 
@@ -198,37 +226,9 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: jre
   
-  version: "171"
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: virtualbox-modules
-  
-  version: 5.2.32
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
+  version: "1.6"
 uri:
 - https://download.virtualbox.org/virtualbox/5.2.32/VirtualBox-5.2.32.tar.bz2
 - https://dev.gentoo.org/~polynomial-c/virtualbox/patchsets/virtualbox-5.2.16-patches-02.tar.xz

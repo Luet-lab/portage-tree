@@ -12,10 +12,10 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: thunderbird-bin
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: atk
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -26,45 +26,10 @@ requires:
   
   version: "0.60"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.72"
-- 
   category: media-libs
   description: ""
   license: ""
   name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: freedesktop-icon-theme
   
   version: ""
 - 
@@ -78,7 +43,63 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: cairo-1.10[X]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.26"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.4.10
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "2.18"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.4.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
   
   version: ""
 - 
@@ -96,40 +117,19 @@ requires:
   
   version: 1.22.0
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: freetype
-  
-  version: 2.4.10
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.10[X]
+  name: freedesktop-icon-theme
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: dbus-glib
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.18"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.4.0
+  version: "0.72"
 uri:
 - 'https://archive.mozilla.org/pub/thunderbird/releases/52.9.1/linux-x86_64/en-US/thunderbird-52.9.1.tar.bz2
   -> thunderbird-bin_x86_64-52.9.1.tar.bz2 '

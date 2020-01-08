@@ -5,12 +5,12 @@ license: GPL-2 LGPL-2.1
 name: inkscape
 requires:
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: glibmm
+  name: dbus-glib
   
-  version: 2.54.1
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -22,111 +22,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.10.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: "1.24"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvisio
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boehm-gc
-  
-  version: "7.1"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: "7"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: uniconvertor
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: lxml
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libwpg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librevenge
-  
-  version: ""
-- 
-  category: app-office
-  description: ""
-  license: ""
-  name: dia
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: cairomm
-  
-  version: 1.9.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libcdr
   
   version: ""
@@ -134,28 +29,7 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: texlive-core
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: potrace
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: aspell
   
   version: ""
 - 
@@ -173,6 +47,48 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: 0.26.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: lxml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: uniconvertor
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -183,35 +99,63 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: libxml2
   
-  version: 1.0.15
+  version: 2.6.20
 - 
-  category: dev-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: popt
+  name: potrace
   
   version: ""
 - 
-  category: dev-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: dbus-glib
+  name: scour
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-vfs
+  name: gtk+
   
-  version: "2.0"
+  version: 2.10.7
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: "1.24"
 - 
   category: app-text
   description: ""
   license: ""
-  name: aspell
+  name: libwpg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvisio
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.54.1
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
   
   version: ""
 - 
@@ -222,12 +166,19 @@ requires:
   
   version: 2.18.0
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: librevenge
   
-  version: 2.6.20
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -236,10 +187,52 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: gnome-base
   description: ""
   license: ""
-  name: jpeg
+  name: gnome-vfs
+  
+  version: "2.0"
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
+  
+  version: "7"
+- 
+  category: app-office
+  description: ""
+  license: ""
+  name: dia
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: texlive-core
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.0.15
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
   
   version: ""
 - 
@@ -250,24 +243,24 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
-  
-  version: 0.26.0
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: scour
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
   name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boehm-gc
+  
+  version: "7.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: popt
   
   version: ""
 - 
@@ -277,6 +270,13 @@ requires:
   name: dvipsk
   
   version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: cairomm
+  
+  version: 1.9.8
 uri:
 - https://inkscape.global.ssl.fastly.net/media/resources/file/inkscape-0.92.4.tar.bz2
 use_flags:

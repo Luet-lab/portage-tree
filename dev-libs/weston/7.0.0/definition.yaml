@@ -5,13 +5,6 @@ license: MIT CC-BY-SA-3.0
 name: weston
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.18"
-- 
   category: x11-misc
   description: ""
   license: ""
@@ -19,24 +12,24 @@ requires:
   
   version: 0.1.27
 - 
-  category: sys-apps
+  category: net-misc
   description: ""
   license: ""
-  name: systemd
+  name: freerdp
   
-  version: "209"
+  version: 2.0.0_rc2
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libX11
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: pango
+  name: lcms
   
   version: ""
 - 
@@ -47,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -61,26 +47,12 @@ requires:
   
   version: 2.4.68
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: mtdev
   
-  version: 0.5.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "136"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
+  version: 1.1.0
 - 
   category: media-video
   description: ""
@@ -88,20 +60,6 @@ requires:
   name: pipewire
   
   version: "0.2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -113,84 +71,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.11.3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: mtdev
-  
-  version: 1.1.0
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: 0.25.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: "17.1"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: freerdp
-  
-  version: 2.0.0_rc2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libinput
   
   version: 0.8.0
 - 
-  category: x11-misc
+  category: sys-auth
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: pambase
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
   
   version: ""
 - 
@@ -201,6 +96,83 @@ requires:
   
   version: "1.6"
 - 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.18"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: 0.25.2
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "17.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -211,9 +183,37 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: libwebp
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "136"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
 uri:
 - https://wayland.freedesktop.org/releases/weston-7.0.0.tar.xz
 use_flags:

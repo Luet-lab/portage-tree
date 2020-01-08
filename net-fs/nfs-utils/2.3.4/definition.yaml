@@ -1,12 +1,12 @@
 category: net-fs
 conflicts:
 - 
-  category: <sys-apps
+  category: net-nds
   description: ""
   license: ""
-  name: openrc
+  name: portmap
   
-  version: 0.13.9
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -15,56 +15,21 @@ conflicts:
   
   version: ""
 - 
-  category: net-nds
+  category: <sys-apps
   description: ""
   license: ""
-  name: portmap
+  name: openrc
   
-  version: ""
+  version: 0.13.9
 description: NFS client and server daemons
 license: GPL-2
 name: nfs-utils
 requires:
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.3"
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
   name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpcbind
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
   
   version: ""
 - 
@@ -82,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-nds
   description: ""
   license: ""
-  name: util-linux
+  name: openldap
   
   version: ""
 - 
@@ -96,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libtirpc
+  name: selinux-rpcbind
   
   version: ""
 - 
@@ -109,6 +74,20 @@ requires:
   name: rpcbind
   
   version: 0.2.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
+  
+  version: ""
 - 
   category: sec-policy
   description: ""
@@ -120,14 +99,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: keyutils
-  
-  version: 1.5.9
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
+  name: util-linux
   
   version: ""
 - 
@@ -137,6 +109,34 @@ requires:
   name: tcp-wrappers
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "3.3"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyutils
+  
+  version: 1.5.9
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: 0.2.4-r1
 uri:
 - mirror://sourceforge/nfs/nfs-utils-2.3.4.tar.bz2
 use_flags:

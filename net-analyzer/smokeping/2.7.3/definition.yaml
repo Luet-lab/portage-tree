@@ -5,12 +5,26 @@ license: GPL-2
 name: smokeping
 requires:
 - 
-  category: net-analyzer
+  category: dev-perl
   description: ""
   license: ""
-  name: rrdtool
+  name: SNMP_Session
   
-  version: "1.2"
+  version: "1.13"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-Socket-SSL
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
 - 
   category: dev-perl
   description: ""
@@ -18,6 +32,41 @@ requires:
   name: Authen-Radius
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Digest-HMAC
+  
+  version: ""
+- 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_fcgid
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: echoping
+  
+  version: 6.0.2
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Socket6
+  
+  version: "0.20"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: 5.8.8-r8
 - 
   category: net-analyzer
   description: ""
@@ -29,44 +78,9 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Digest-HMAC
+  name: CGI
   
   version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: FCGI
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-libnet
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: httpd-cgi
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: 5.8.8-r8
 - 
   category: dev-perl
   description: ""
@@ -82,24 +96,17 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: net-dns
   description: ""
   license: ""
-  name: echoping
+  name: bind-tools
   
-  version: 6.0.2
+  version: ""
 - 
-  category: dev-perl
+  category: virtual
   description: ""
   license: ""
-  name: SNMP_Session
-  
-  version: "1.13"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Tty
+  name: perl-libnet
   
   version: ""
 - 
@@ -107,20 +114,6 @@ requires:
   description: ""
   license: ""
   name: CGI-Fast
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.21.4
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI
   
   version: ""
 - 
@@ -134,7 +127,49 @@ requires:
   category: dev-perl
   description: ""
   license: ""
+  name: Config-Grammar
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: FCGI
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: httpd-cgi
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
   name: Net-OpenSSH
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: rrdtool
+  
+  version: "1.2"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-Tty
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-ldap
   
   version: ""
 - 
@@ -148,51 +183,16 @@ requires:
   category: www-apache
   description: ""
   license: ""
-  name: mod_fcgid
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-SSL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Socket6
-  
-  version: "0.20"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-Grammar
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: perl-ldap
-  
-  version: ""
-- 
-  category: www-apache
-  description: ""
-  license: ""
   name: mod_perl
   
   version: 2.0.1
 - 
-  category: net-dns
+  category: net-misc
   description: ""
   license: ""
-  name: bind-tools
+  name: curl
   
-  version: ""
+  version: 7.21.4
 uri:
 - https://oss.oetiker.ch/smokeping/pub/smokeping-2.7.3.tar.gz
 use_flags:

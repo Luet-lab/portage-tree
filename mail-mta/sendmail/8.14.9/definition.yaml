@@ -4,23 +4,16 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: netqmail
   
   version: ""
 - 
-  category: mail-mta
+  category: <mail-mta
   description: ""
   license: ""
-  name: exim
+  name: ssmtp
   
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
+  version: 2.64-r2
 - 
   category: '>=mail-mta'
   description: ""
@@ -29,10 +22,24 @@ conflicts:
   
   version: 2.64-r2
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: vacation
+  
+  version: ""
+- 
   category: mail-mta
   description: ""
   license: ""
   name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
   
   version: ""
 - 
@@ -53,7 +60,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+  name: postfix
   
   version: ""
 - 
@@ -64,17 +71,17 @@ conflicts:
   
   version: ""
 - 
-  category: <mail-mta
+  category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: qmail-ldap
   
-  version: 2.64-r2
+  version: ""
 - 
-  category: net-mail
+  category: mail-mta
   description: ""
   license: ""
-  name: vacation
+  name: esmtp
   
   version: ""
 - 
@@ -84,17 +91,31 @@ conflicts:
 mailer
   
   version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
 description: Widely-used Mail Transport Agent (MTA)
 license: Sendmail GPL-2
 name: sendmail
 requires:
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
 - 
   category: sys-devel
   description: ""
@@ -130,27 +151,6 @@ requires:
   name: mailbase
   
   version: "0.00"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
 uri:
 - ftp://ftp.sendmail.org/pub/sendmail/sendmail.8.14.9.tar.gz
 use_flags:

@@ -5,19 +5,12 @@ license: LGPL-2.1+
 name: gtk-vnc
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo
+  name: gobject-introspection
   
-  version: "1.2"
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
+  version: 0.9.4
 - 
   category: dev-libs
   description: ""
@@ -40,13 +33,6 @@ requires:
   
   version: 1.5.0
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgpg-error
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -54,19 +40,33 @@ requires:
   
   version: 3.1.18
 - 
-  category: x11-libs
+  category: media-sound
   description: ""
   license: ""
-  name: libX11
+  name: pulseaudio
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libgpg-error
   
-  version: 0.9.4
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: "1.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 uri: []
 use_flags:
 - examples

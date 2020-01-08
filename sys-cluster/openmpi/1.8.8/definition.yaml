@@ -4,14 +4,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: mpich2
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
+  name: mpich
   
   version: ""
 - 
@@ -26,24 +26,24 @@ license: BSD
 name: openmpi
 requires:
 - 
-  category: dev-util
+  category: virtual
   description: ""
   license: ""
-  name: nvidia-cuda-toolkit
+  name: jre
   
-  version: ""
+  version: "1.6"
 - 
-  category: sys-fabric
+  category: dev-libs
   description: ""
   license: ""
-  name: librdmacm
+  name: libevent
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
+  name: libltdl
   
   version: ""
 - 
@@ -58,20 +58,6 @@ requires:
   description: ""
   license: ""
   name: knem
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
   
   version: ""
 - 
@@ -96,12 +82,26 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-util
   description: ""
   license: ""
-  name: jre
+  name: nvidia-cuda-toolkit
   
-  version: "1.6"
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: librdmacm
+  
+  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-1.8.8.tar.bz2
 use_flags:

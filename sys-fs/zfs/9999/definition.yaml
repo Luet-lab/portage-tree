@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
-- 
   category: <sys-kernel
   description: ""
   license: ""
@@ -22,19 +15,26 @@ conflicts:
   
   version: 7.1.0
 - 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
-- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
   
   version: ""
+- 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
 - 
   category: <sys-kernel
   description: ""
@@ -54,6 +54,13 @@ license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
@@ -61,31 +68,31 @@ requires:
   
   version: ""
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: mdadm
   
   version: ""
 - 
-  category: sys-block
+  category: virtual
   description: ""
   license: ""
-  name: parted
+  name: modutils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
   
   version: ""
 - 
@@ -95,6 +102,27 @@ requires:
   name: lsscsi
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
 - 
   category: virtual
   description: ""
@@ -117,24 +145,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-block
   description: ""
   license: ""
-  name: libressl
+  name: parted
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-cffi
+  name: procps
   
   version: ""
 - 
@@ -142,27 +163,6 @@ requires:
   description: ""
   license: ""
   name: bc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
   
   version: ""
 uri: []

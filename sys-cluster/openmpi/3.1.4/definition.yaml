@@ -4,6 +4,13 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+mpi
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: pmix
   
   version: ""
@@ -21,13 +28,6 @@ conflicts:
   name: mpich2
   
   version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-mpi
-  
-  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
@@ -36,44 +36,16 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
+  name: infinipath-psm
   
   version: ""
 - 
   category: sys-fabric
   description: ""
   license: ""
-  name: infinipath-psm
+  name: ofed
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
 - 
   category: sys-cluster
   description: ""
@@ -89,12 +61,33 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
   category: sys-cluster
   description: ""
   license: ""
-  name: slurm
+  name: torque
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
 - 
   category: virtual
   description: ""
@@ -109,6 +102,13 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: 6.5.19-r1
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-3.1.4.tar.bz2
 use_flags:

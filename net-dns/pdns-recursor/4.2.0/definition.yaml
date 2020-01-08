@@ -12,6 +12,13 @@ license: GPL-2
 name: pdns-recursor
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.35"
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -23,6 +30,20 @@ requires:
   description: ""
   license: ""
   name: protobuf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.42"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
@@ -43,7 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
@@ -57,30 +78,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: boost
-  
-  version: "1.42"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: libressl
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.35"
 uri:
 - https://downloads.powerdns.com/releases/pdns-recursor-4.2.0.tar.bz2
 use_flags:

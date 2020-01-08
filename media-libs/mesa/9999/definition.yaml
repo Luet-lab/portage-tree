@@ -4,14 +4,14 @@ conflicts:
   category: app-eselect
   description: ""
   license: ""
-  name: eselect-opengl
+  name: eselect-mesa
   
   version: ""
 - 
   category: app-eselect
   description: ""
   license: ""
-  name: eselect-mesa
+  name: eselect-opengl
   
   version: ""
 description: OpenGL-like graphic library for Linux
@@ -22,28 +22,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libvdpau
+  name: libxshmfence
   
   version: "1.1"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: 1.6.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_radeon]
+  name: libdrm-2.4.100[video_cards_amdgpu]
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libclc
+  name: libselinux
   
   version: ""
 - 
@@ -61,12 +54,12 @@ requires:
   
   version: 1.3.2
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXxf86vm
+  name: libglvnd
   
-  version: 1.1.3
+  version: 1.2.0-r1
 - 
   category: sys-libs
   description: ""
@@ -75,54 +68,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.15.0
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxshmfence
+  name: libX11
   
-  version: "1.1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_amdgpu]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: ocl-icd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: 2.1.0-r3
+  version: 1.6.2
 - 
   category: sys-libs
   description: ""
@@ -130,20 +81,6 @@ requires:
   name: zlib
   
   version: 1.2.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libglvnd
-  
-  version: 1.2.0-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libelf
-  
-  version: ""
 - 
   category: dev-util
   description: ""
@@ -155,23 +92,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
-  
-  version: 1.1.4-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libva
-  
-  version: 1.7.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_intel]
+  name: libdrm-2.4.100[video_cards_radeon]
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: 2.1.0-r3
 - 
   category: app-eselect
   description: ""
@@ -180,12 +117,12 @@ requires:
   
   version: 1.3.0
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: wayland-protocols
+  name: libdrm-2.4.100[video_cards_intel]
   
-  version: "1.8"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -194,12 +131,54 @@ requires:
   
   version: "1.13"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: lm-sensors
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libvdpau
+  
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86vm
+  
+  version: 1.1.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland-protocols
+  
+  version: "1.8"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: ocl-icd
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: 1.7.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.15.0
 - 
   category: sys-devel
   description: ""
@@ -214,6 +193,27 @@ requires:
   name: llvm
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libelf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libclc
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: 1.1.4-r1
 uri: []
 use_flags:
 - video_cards_r100

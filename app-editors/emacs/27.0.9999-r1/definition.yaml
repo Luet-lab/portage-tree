@@ -12,24 +12,24 @@ license: GPL-3+ FDL-1.3+ BSD HPND MIT W3C unicode PSF-2
 name: emacs
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libX11
+  name: alsa-lib
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libXt
+  name: libselinux
   
   version: ""
 - 
-  category: virtual
+  category: x11-misc
   description: ""
   license: ""
-  name: acl
+  name: xbitmaps
   
   version: ""
 - 
@@ -40,13 +40,6 @@ requires:
   
   version: "1.4"
 - 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: 6.6.2
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -54,24 +47,87 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gpm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: libXft
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: libXcomposite
   
   version: ""
 - 
-  category: media-libs
+  category: net-mail
   description: ""
   license: ""
-  name: alsa-lib
+  name: mailutils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.12.18
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.0"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
@@ -85,21 +141,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: ncurses
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libotf
+  name: freetype
   
-  version: 0.9.4
+  version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: harfbuzz
   
   version: ""
 - 
@@ -110,24 +166,80 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: 2.2.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
+  name: libXt
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: dbus
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: liblockfile
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libotf
+  
+  version: 0.9.4
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: gamestat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
   
   version: ""
 - 
@@ -141,28 +253,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: m17n-lib
-  
-  version: 1.5.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpm
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
+  name: gmp
   
   version: ""
 - 
@@ -173,83 +264,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.12.18
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailutils
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: gamestat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.28.6
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -257,12 +271,47 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXinerama
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: motif
+  
+  version: "2.3"
 - 
   category: app-eselect
   description: ""
@@ -271,31 +320,10 @@ requires:
   
   version: "1.16"
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: liblockfile
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xbitmaps
+  name: libXext
   
   version: ""
 - 
@@ -306,75 +334,47 @@ requires:
   
   version: 2.26.2
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: motif
+  name: m17n-lib
   
-  version: "2.3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: 1.5.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: glib
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
+  version: 2.28.6
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gpm
+  name: lcms
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: libxml2
   
-  version: ""
+  version: 2.2.0
 - 
-  category: gnome-base
+  category: media-gfx
   description: ""
   license: ""
-  name: librsvg
+  name: imagemagick
   
-  version: "2.0"
+  version: 6.6.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 uri: []
 use_flags:
 - acl

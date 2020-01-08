@@ -18,7 +18,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: mariadb-galera
   
   version: ""
 - 
@@ -32,14 +32,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
+  name: mariadb-connector-c
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-connector-c
+  name: mysql-connector-c
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
@@ -47,24 +47,31 @@ license: GPL-2
 name: mysql
 requires:
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: curl
+  name: libressl
   
   version: ""
 - 
-  category: sys-apps
+  category: sec-policy
   description: ""
   license: ""
-  name: sed
+  name: selinux-mysql
   
-  version: "4"
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: jemalloc
+  name: libaio
   
   version: ""
 - 
@@ -82,26 +89,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: openssl
-  
-  version: 1.0.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
+  name: google-perftools
   
   version: ""
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: mysql-init-scripts
+  name: texinfo
   
-  version: ""
+  version: 4.7-r1
 - 
   category: sys-libs
   description: ""
@@ -109,13 +109,6 @@ requires:
   name: zlib
   
   version: 1.2.3
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
 - 
   category: app-text
   description: ""
@@ -127,9 +120,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
+  name: openssl
   
-  version: ""
+  version: 1.0.0
 - 
   category: dev-libs
   description: ""
@@ -145,13 +138,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -159,31 +145,45 @@ requires:
   
   version: "1.3"
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libressl
+  name: curl
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: texinfo
+  name: sed
   
-  version: 4.7-r1
+  version: "4"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libaio
+  name: libevent
   
   version: ""
 - 
-  category: dev-util
+  category: sys-libs
   description: ""
   license: ""
-  name: google-perftools
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
   
   version: ""
 uri:

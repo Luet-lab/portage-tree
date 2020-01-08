@@ -5,17 +5,17 @@ license: Apache-2.0 SSPL-1
 name: mongodb
 requires:
 - 
-  category: app-admin
+  category: acct-group
   description: ""
   license: ""
-  name: mms-agent
+  name: mongodb
   
   version: ""
 - 
-  category: dev-libs
+  category: acct-user
   description: ""
   license: ""
-  name: libressl
+  name: mongodb
   
   version: ""
 - 
@@ -33,27 +33,6 @@ requires:
   
   version: "1.60"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "8.41"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -61,24 +40,17 @@ requires:
   
   version: 1.2.11
 - 
-  category: dev-libs
+  category: app-admin
   description: ""
   license: ""
-  name: openssl
-  
-  version: 1.0.1g
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mongodb
+  name: mms-agent
   
   version: ""
 - 
-  category: acct-user
+  category: dev-libs
   description: ""
   license: ""
-  name: mongodb
+  name: libressl
   
   version: ""
 - 
@@ -92,9 +64,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libpcre
+  
+  version: "8.41"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: snowball-stemmer
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.1g
 uri:
 - https://fastdl.mongodb.org/src/mongodb-src-r4.0.14.tar.gz
 use_flags:

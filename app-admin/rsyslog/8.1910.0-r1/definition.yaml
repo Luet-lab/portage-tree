@@ -5,12 +5,19 @@ license: GPL-3 LGPL-3 Apache-2.0
 name: rsyslog
 requires:
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: 7.35.0
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libmaxminddb
+  name: mongo-c-driver
   
-  version: ""
+  version: 1.1.10
 - 
   category: net-libs
   description: ""
@@ -19,19 +26,12 @@ requires:
   
   version: 0.3.0
 - 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: 5.7.2
-- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
   
-  version: ""
+  version: 0.9.8y
 - 
   category: dev-libs
   description: ""
@@ -40,27 +40,6 @@ requires:
   
   version: 0.1.9
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.35.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: 0.8.3
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: czmq
-  
-  version: 3.0.2
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -68,26 +47,47 @@ requires:
   
   version: 1.2.5
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: postgresql
+  name: krb5
   
-  version: 8.4.20
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: librelp
+  name: libmaxminddb
   
-  version: 1.2.17
+  version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: systemd
+  name: liblognorm
   
-  version: "234"
+  version: 2.0.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: 5.7.2
 - 
   category: net-libs
   description: ""
@@ -95,6 +95,13 @@ requires:
   name: libnet
   
   version: 1.1.6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
+  
+  version: 0.11.0
 - 
   category: dev-libs
   description: ""
@@ -110,6 +117,48 @@ requires:
   
   version: 2.12.23
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "234"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: czmq
+  
+  version: 3.0.2
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi
+  
+  version: 0.8.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
+  
+  version: 3.3.1
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -120,84 +169,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: 1.5.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
-  
-  version: 3.3.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: liblognorm
-  
-  version: 2.0.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libfastjson
   
   version: 0.99.8
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: krb5
+  name: libgcrypt
   
-  version: ""
+  version: 1.5.3
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: 8.4.20
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: mongo-c-driver
+  name: librelp
   
-  version: 1.1.10
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: 0.11.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librdkafka
-  
-  version: 0.9.0.99
+  version: 1.2.17
 - 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
-  
-  version: 0.9.8y
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
   
   version: ""
 uri:

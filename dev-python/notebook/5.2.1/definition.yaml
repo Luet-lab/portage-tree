@@ -5,19 +5,19 @@ license: BSD
 name: notebook
 requires:
 - 
-  category: www-servers
+  category: dev-libs
   description: ""
   license: ""
-  name: tornado
+  name: mathjax
   
-  version: "4.0"
+  version: "2.4"
 - 
   category: dev-python
   description: ""
   license: ""
-  name: traitlets
+  name: jinja
   
-  version: 4.2.1
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -29,9 +29,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: jinja
+  name: traitlets
   
-  version: ""
+  version: 4.2.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: nbconvert
+  
+  version: 4.2.0
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: "4.0"
 - 
   category: dev-python
   description: ""
@@ -64,23 +78,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: nbconvert
-  
-  version: 4.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: ipykernel
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mathjax
-  
-  version: "2.4"
 uri:
 - mirror://pypi/n/notebook/notebook-5.2.1.tar.gz
 use_flags:

@@ -6,6 +6,13 @@ license: GPL-3
 name: libsigrok
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.32.0
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -13,19 +20,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libserialport
-  
-  version: 0.1.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib-2.32.0[static-libs(+)]
+  name: libusb
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.4"
 - 
   category: dev-libs
   description: ""
@@ -48,6 +55,13 @@ requires:
   
   version: ""
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: 3.0.0
+- 
   category: dev-embedded
   description: ""
   license: ""
@@ -55,10 +69,17 @@ requires:
   
   version: "0.16"
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libusb
+  name: libserialport
+  
+  version: 0.1.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib-2.32.0[static-libs(+)]
   
   version: ""
 - 
@@ -68,27 +89,6 @@ requires:
   name: libieee1284[static-libs(+)]
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.32.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: 3.0.0
 uri: []
 use_flags:
 - cxx

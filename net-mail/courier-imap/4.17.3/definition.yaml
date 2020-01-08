@@ -8,13 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: uw-imap
-  
-  version: ""
-- 
   category: mail-mta
   description: ""
   license: ""
@@ -28,29 +21,22 @@ conflicts:
   name: cyrus-imapd
   
   version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: uw-imap
+  
+  version: ""
 description: An IMAP daemon designed specifically for maildirs
 license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: "0.61"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
@@ -68,33 +54,33 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: openssl
+  name: selinux-courier
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
 - 
   category: net-libs
   description: ""
   license: ""
-  name: courier-unicode
+  name: gnutls
   
-  version: "2"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: "0.61"
 - 
   category: net-libs
   description: ""
@@ -103,12 +89,26 @@ requires:
   
   version: "1.3"
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-courier
+  name: db
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-unicode
+  
+  version: "2"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
 uri:
 - mirror://sourceforge/courier/courier-imap-4.17.3.tar.bz2
 use_flags:

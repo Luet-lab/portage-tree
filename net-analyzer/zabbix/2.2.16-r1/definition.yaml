@@ -5,6 +5,13 @@ license: GPL-2
 name: zabbix
 requires:
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -15,35 +22,14 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: oracle-instantclient-basic
   
   version: 10.0.0.0
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libssh2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jdk
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: webapp-config
+  name: unixODBC
   
   version: ""
 - 
@@ -54,54 +40,12 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.3.5
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: iksemel
+  name: cyrus-sasl
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: openipmi
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: fping
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
+  version: "2"
 - 
   category: virtual
   description: ""
@@ -113,21 +57,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: unixODBC
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
+  name: libxml2
   
   version: ""
 - 
@@ -138,12 +68,82 @@ requires:
   
   version: 5.3.0
 - 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: ""
+- 
   category: net-misc
   description: ""
   license: ""
   name: curl
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: openipmi
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jdk
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.3.5
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: iksemel
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh2
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: fping
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: webapp-config
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.4"
 uri:
 - https://prdownloads.sourceforge.net/zabbix/zabbix-2.2.16.tar.gz
 use_flags:

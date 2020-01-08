@@ -4,14 +4,14 @@ conflicts:
   category: net-mail
   description: ""
   license: ""
-  name: cyrus-imapd
+  name: bincimap
   
   version: ""
 - 
   category: net-mail
   description: ""
   license: ""
-  name: bincimap
+  name: cyrus-imapd
   
   version: ""
 - 
@@ -33,33 +33,12 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: courier-authlib
+  name: courier-unicode
   
-  version: 0.66.4
+  version: "2"
 - 
   category: net-mail
   description: ""
@@ -67,6 +46,13 @@ requires:
   name: mailbase
   
   version: 0.00-r8
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -82,6 +68,27 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.66.4
+- 
   category: net-dns
   description: ""
   license: ""
@@ -92,16 +99,9 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: gdbm
   
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-unicode
-  
-  version: "2"
+  version: 1.8.0
 - 
   category: sec-policy
   description: ""

@@ -5,33 +5,19 @@ license: GPL-2+ FDL-1.1
 name: gnome-applets
 requires:
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.74"
-- 
   category: x11-themes
   description: ""
   license: ""
   name: adwaita-icon-theme
   
   version: 3.14.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.5.0
 - 
   category: gnome-extra
   description: ""
@@ -43,16 +29,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: gtk+
   
-  version: "0.7"
+  version: 3.20.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libwnck
+  
+  version: 3.14.1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.2
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: dbus-glib
   
-  version: 2.5.0
+  version: "0.74"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.44.0
 - 
   category: dev-libs
   description: ""
@@ -61,19 +68,19 @@ requires:
   
   version: 3.28.0
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
   category: x11-libs
   description: ""
   license: ""
   name: libX11
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.44.0
 - 
   category: gnome-base
   description: ""
@@ -89,26 +96,19 @@ requires:
   
   version: 2.11.92
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.1.2
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libnotify
   
-  version: 3.20.0
+  version: "0.7"
 - 
-  category: x11-libs
+  category: sys-power
   description: ""
   license: ""
-  name: libwnck
+  name: upower
   
-  version: 3.14.1
+  version: 0.9.4
 uri: []
 use_flags:
 - ipv6

@@ -5,19 +5,12 @@ license: GPL-2 LPPL-1.3c TeX
 name: texlive-core
 requires:
 - 
-  category: media-libs
+  category: app-text
   description: ""
   license: ""
-  name: fontconfig
+  name: teckit
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
+  version: 2.5.3
 - 
   category: dev-libs
   description: ""
@@ -26,75 +19,19 @@ requires:
   
   version: "50"
 - 
-  category: dev-tex
+  category: virtual
   description: ""
   license: ""
-  name: bibtexu
+  name: perl-Getopt-Long
   
-  version: 3.71_p20170524
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: pixman
   
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libpaper
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: teckit
-  
-  version: 2.5.3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: 1.4.5
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: graphite2
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ps2pkm
-  
-  version: 1.8_p20170524
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: dvipsk
-  
-  version: "5.997"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Tk
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: "0.18"
 - 
   category: media-libs
   description: ""
@@ -103,17 +40,24 @@ requires:
   
   version: 1.2.43-r2
 - 
-  category: x11-libs
+  category: app-text
   description: ""
   license: ""
-  name: cairo
+  name: libpaper
   
-  version: "1.12"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: mpfr
+  name: gmp
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
@@ -131,31 +75,38 @@ requires:
   
   version: 0.76.1
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gd
+  name: zlib
   
   version: ""
 - 
-  category: x11-libs
+  category: media-gfx
   description: ""
   license: ""
-  name: pixman
+  name: graphite2
   
-  version: "0.18"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: dvipsk
+  
+  version: "5.997"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: zziplib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
   
   version: ""
 - 
@@ -166,12 +117,33 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: "1.12"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
+  name: mpfr
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: 1.4.5
 - 
   category: dev-libs
   description: ""
@@ -179,6 +151,34 @@ requires:
   name: kpathsea
   
   version: 6.2.3
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ps2pkm
+  
+  version: 1.8_p20170524
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Tk
+  
+  version: ""
+- 
+  category: dev-tex
+  description: ""
+  license: ""
+  name: bibtexu
+  
+  version: 3.71_p20170524
 uri:
 - mirror://gentoo/texlive-20190410-source.tar.xz
 - mirror://gentoo/texlive-core-patches-2019-7.tar.xz

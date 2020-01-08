@@ -5,31 +5,10 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-libs
+  category: app-admin
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: cgmanager
   
   version: ""
 - 
@@ -40,10 +19,52 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "200"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libnih
+  
+  version: 1.0.2
+- 
   category: dev-libs
   description: ""
   license: ""
   name: libevdev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[acl?]
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.40"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
   
   version: ""
 - 
@@ -61,52 +82,31 @@ requires:
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.19"
-- 
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: libudev
   
-  version: "200"
+  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libnih
+  name: pam
   
-  version: 1.0.2
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.110"
 - 
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[acl?]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: cgmanager
   
   version: ""
 - 
@@ -117,17 +117,17 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-devel
   description: ""
   license: ""
-  name: selinux-consolekit
+  name: gettext
   
-  version: ""
+  version: "0.19"
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: acl
+  name: zlib
   
   version: ""
 uri:

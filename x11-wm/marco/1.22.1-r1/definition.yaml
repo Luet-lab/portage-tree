@@ -12,48 +12,6 @@ license: GPL-2
 name: marco
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXpresent
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -61,17 +19,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: atk
+  name: zenity
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: pango-1.2[X]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
 - 
@@ -81,27 +46,6 @@ requires:
   name: startup-notification
   
   version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -120,7 +64,63 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango-1.2[X]
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-desktop
+  
+  version: 1.20.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
   
   version: ""
 - 
@@ -134,21 +134,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
+  name: libXpresent
   
   version: ""
 - 
@@ -159,12 +152,19 @@ requires:
   
   version: ""
 - 
-  category: gnome-extra
+  category: x11-libs
   description: ""
   license: ""
-  name: zenity
+  name: libXrender
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
 - 
   category: gnome-base
   description: ""
@@ -173,12 +173,12 @@ requires:
   
   version: "2"
 - 
-  category: mate-base
+  category: x11-libs
   description: ""
   license: ""
-  name: mate-desktop
+  name: gtk+
   
-  version: 1.20.0
+  version: "3.22"
 uri: []
 use_flags:
 - startup-notification

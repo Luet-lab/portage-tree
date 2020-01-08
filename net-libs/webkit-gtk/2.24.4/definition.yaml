@@ -5,19 +5,40 @@ license: LGPL-2+ BSD
 name: webkit-gtk
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: 2.8.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
+  name: libXcomposite
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-opus
+  
+  version: 1.14.4-r1
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: geoclue
+  
+  version: 2.1.5
 - 
   category: x11-libs
   description: ""
@@ -29,65 +50,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libX11
   
   version: ""
 - 
-  category: media-libs
+  category: dev-db
   description: ""
   license: ""
-  name: harfbuzz
-  
-  version: 1.4.2
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
+  name: sqlite
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: 2.1.5
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libtasn1
+  name: libxslt
+  
+  version: 1.1.7
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
   
   version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-opus
-  
-  version: 1.14.4-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.13.0
 - 
   category: sys-libs
   description: ""
@@ -99,23 +85,44 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXdamage
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXcomposite
+  name: jpeg
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXt
+  name: woff2
   
   version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: enchant
+  
+  version: "0.22"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: "1.14"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.9.0
 - 
   category: dev-libs
   description: ""
@@ -127,51 +134,58 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: 2.9.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: 2.2.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: gobject-introspection
   
   version: 1.32.0
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: enchant
+  name: libtasn1
   
-  version: "0.22"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hyphen
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.40"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: 2.8.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: "1.14"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -187,26 +201,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: atk
-  
-  version: 2.8.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: 1.1.7
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hyphen
+  name: opengl
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.13.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.4"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: 2.2.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: 1.4.2
 - 
   category: dev-libs
   description: ""
@@ -214,34 +242,6 @@ requires:
   name: icu
   
   version: 3.8.1-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: "1.14"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-bad
-  
-  version: "1.14"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: woff2
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
 uri:
 - https://www.webkitgtk.org/releases/webkitgtk-2.24.4.tar.xz
 use_flags:

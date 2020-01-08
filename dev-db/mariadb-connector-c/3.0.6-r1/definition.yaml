@@ -4,7 +4,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb[client-libs(+)]
+  name: mysql-cluster[client-libs(+)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -18,7 +25,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-cluster[client-libs(+)]
+  name: percona-server[client-libs(+)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb[client-libs(+)]
   
   version: ""
 - 
@@ -29,24 +43,10 @@ conflicts:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
   category: '>=dev-db'
   description: ""
   license: ""
   name: mariadb-10.2.0[client-libs(+)]
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: percona-server[client-libs(+)]
   
   version: ""
 description: C client library for MariaDB/MySQL
@@ -54,10 +54,17 @@ license: LGPL-2.1
 name: mariadb-connector-c
 requires:
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: zlib
+  name: gnutls
+  
+  version: 3.3.24
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -68,24 +75,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.3.24
-- 
   category: net-misc
   description: ""
   license: ""
   name: curl
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: heimdal
   
   version: ""
 - 
@@ -96,10 +89,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: openssl
+  name: zlib
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: heimdal
   
   version: ""
 uri:

@@ -4,7 +4,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+  name: mpich
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: lcdf-typetools
   
   version: ""
 - 
@@ -18,21 +25,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: mpich2
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: lcdf-typetools
+  name: pmix
   
   version: ""
 description: A high-performance message passing library (MPI)
@@ -40,24 +40,17 @@ license: BSD
 name: openmpi
 requires:
 - 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
   category: sys-fabric
   description: ""
   license: ""
-  name: dapl
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
+  name: librdmacm
   
   version: ""
 - 
@@ -68,10 +61,10 @@ requires:
   
   version: "2"
 - 
-  category: dev-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: libltdl
+  name: dapl
   
   version: ""
 - 
@@ -85,14 +78,7 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
+  name: knem
   
   version: ""
 - 
@@ -103,10 +89,24 @@ requires:
   
   version: ""
 - 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
+  name: infinipath-psm
   
   version: ""
 uri:

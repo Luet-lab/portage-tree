@@ -5,17 +5,17 @@ license: GPL-3
 name: dvisvgm
 requires:
 - 
-  category: app-arch
+  category: media-libs
   description: ""
   license: ""
-  name: brotli
+  name: freetype
   
-  version: 1.0.5
+  version: ""
 - 
-  category: app-text
+  category: virtual
   description: ""
   license: ""
-  name: ghostscript-gpl
+  name: tex-base
   
   version: ""
 - 
@@ -25,6 +25,13 @@ requires:
   name: kpathsea
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: xxhash
+  
+  version: 0.6.5
 - 
   category: media-gfx
   description: ""
@@ -47,26 +54,19 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: tex-base
+  name: brotli
+  
+  version: 1.0.5
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: ghostscript-gpl
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: xxhash
-  
-  version: 0.6.5
 uri:
 - https://github.com/mgieseki/dvisvgm/releases/download/2.7/dvisvgm-2.7.tar.gz
 use_flags:

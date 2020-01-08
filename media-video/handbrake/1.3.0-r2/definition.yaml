@@ -5,80 +5,24 @@ license: GPL-2
 name: handbrake
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-gdkpixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-libav
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: speex
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-good
+  name: libbluray
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
+  version: "1.0"
 - 
   category: media-libs
   description: ""
   license: ""
   name: libtheora
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
   
   version: ""
 - 
@@ -89,6 +33,13 @@ requires:
   
   version: "12.2"
 - 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: 4.2.1
+- 
   category: media-libs
   description: ""
   license: ""
@@ -96,10 +47,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fdk-aac
+  name: libgudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
   
   version: ""
 - 
@@ -127,14 +99,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: x264
   
   version: ""
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-ugly
+  name: gst-plugins-gdkpixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
   
   version: ""
 - 
@@ -148,105 +127,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: a52dec
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdvdnav
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: x264
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-a52dec
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: dav1d
-  
-  version: 0.5.1
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-x264
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libdvdread
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: 4.2.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: "1.0"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: "1.8"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
   
   version: ""
 - 
@@ -257,17 +138,59 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libgudev
+  name: gst-plugins-a52dec
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-libav
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: gtk+
+  
+  version: "3.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-ugly
   
   version: ""
 - 
@@ -281,7 +204,84 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: a52dec
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: dav1d
+  
+  version: 0.5.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvdnav
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: libass
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-x264
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvpx
+  
+  version: "1.8"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
   
   version: ""
 uri:

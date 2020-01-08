@@ -15,16 +15,23 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: sandbox
+  
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: util-linux
   
   version: ""
 - 
-  category: app-misc
+  category: app-arch
   description: ""
   license: ""
-  name: pax-utils
+  name: tar
   
-  version: 0.1.17
+  version: "1.27"
 - 
   category: app-shells
   description: ""
@@ -36,16 +43,16 @@ requires:
   category: app-crypt
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: gnupg-2.2.4-r2[ssl(-)]
   
-  version: "20180706"
+  version: ""
 - 
-  category: sys-apps
+  category: sys-freebsd
   description: ""
   license: ""
-  name: install-xattr
+  name: freebsd-bin
   
-  version: "0.3"
+  version: ""
 - 
   category: app-portage
   description: ""
@@ -57,9 +64,9 @@ requires:
   category: app-crypt
   description: ""
   license: ""
-  name: gnupg-2.2.4-r2[ssl(-)]
+  name: openpgp-keys-gentoo-release
   
-  version: ""
+  version: "20180706"
 - 
   category: app-admin
   description: ""
@@ -68,12 +75,19 @@ requires:
   
   version: "1.2"
 - 
-  category: sys-freebsd
+  category: app-misc
   description: ""
   license: ""
-  name: freebsd-bin
+  name: pax-utils
   
-  version: ""
+  version: 0.1.17
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.0.94
 - 
   category: dev-lang
   description: ""
@@ -89,26 +103,12 @@ requires:
   
   version: 4.0.5
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.0.94
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: tar
-  
-  version: "1.27"
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: sandbox
+  name: install-xattr
   
-  version: "2.2"
+  version: "0.3"
 uri: []
 use_flags:
 - build

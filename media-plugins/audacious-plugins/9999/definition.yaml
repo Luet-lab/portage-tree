@@ -5,69 +5,6 @@ license: GPL-2
 name: audacious-plugins
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: unzip
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faad2
-  
-  version: "2.7"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: bio2jack
-  
-  version: "0.4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmms
-  
-  version: "0.3"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: 1.1.3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: 1.2.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
   category: media-sound
   description: ""
   license: ""
@@ -78,14 +15,42 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libbs2b
+  name: adplug
   
   version: ""
 - 
-  category: media-sound
+  category: dev-libs
   description: ""
   license: ""
-  name: lame
+  name: libcdio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: "1.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
   
   version: ""
 - 
@@ -99,128 +64,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcue
+  name: libogg
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: 1.2.1-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: adplug
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: fluidsynth
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio-paranoia
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsidplayfp
-  
-  version: 1.0.0
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: 1.2.1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: 0.7.3
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: neon
-  
-  version: 0.26.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmodplug
-  
-  version: ""
+  version: 1.1.3
 - 
   category: net-misc
   description: ""
@@ -239,14 +85,77 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libmms
   
-  version: 1.0.16
+  version: "0.3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsidplayfp
+  
+  version: 1.0.0
 - 
   category: dev-qt
   description: ""
   license: ""
   name: qtwidgets
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
+  
+  version: 1.2.1
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: 1.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio-paranoia
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: fluidsynth
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
   
   version: ""
 - 
@@ -257,12 +166,68 @@ requires:
   
   version: 1.12.1
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.16
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcue
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmodplug
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
   name: pulseaudio
   
   version: 0.9.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: neon
+  
+  version: 0.26.4
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: bio2jack
+  
+  version: "0.4"
 - 
   category: media-libs
   description: ""
@@ -281,30 +246,23 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtgui
   
   version: ""
 - 
-  category: dev-qt
+  category: media-sound
   description: ""
   license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
+  name: lame
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: flac
   
-  version: "1.0"
+  version: 1.2.1-r1
 - 
   category: media-libs
   description: ""
@@ -319,6 +277,48 @@ requires:
   name: wavpack
   
   version: 4.50.1-r1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: faad2
+  
+  version: "2.7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbs2b
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: 0.7.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: unzip
+  
+  version: ""
 - 
   category: media-libs
   description: ""

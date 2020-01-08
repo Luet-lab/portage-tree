@@ -4,14 +4,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql
+  name: mytop
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mytop
+  name: mysql
   
   version: ""
 - 
@@ -25,14 +25,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
+  name: mariadb-galera
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
+  name: mariadb
   
   version: ""
 description: An enhanced, drop-in replacement for MySQL
@@ -40,12 +40,12 @@ license: GPL-2
 name: mysql-cluster
 requires:
 - 
-  category: sys-process
+  category: sys-apps
   description: ""
   license: ""
-  name: numactl
+  name: texinfo
   
-  version: ""
+  version: 4.7-r1
 - 
   category: dev-util
   description: ""
@@ -53,55 +53,6 @@ requires:
   name: systemtap
   
   version: "1.3"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Getopt-Long
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: TermReadKey
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -120,9 +71,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: jemalloc
   
   version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.3
 - 
   category: virtual
   description: ""
@@ -131,10 +96,17 @@ requires:
   
   version: "1.6"
 - 
-  category: dev-util
+  category: virtual
   description: ""
   license: ""
-  name: google-perftools
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
@@ -145,10 +117,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-util
   description: ""
   license: ""
-  name: mysql-init-scripts
+  name: google-perftools
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -159,17 +145,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-db
   description: ""
   license: ""
-  name: texinfo
+  name: mysql-init-scripts
   
-  version: 4.7-r1
+  version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: jemalloc
+  name: ncurses
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: TermReadKey
   
   version: ""
 - 
@@ -177,6 +170,13 @@ requires:
   description: ""
   license: ""
   name: perl-Time-HiRes
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
   
   version: ""
 uri:

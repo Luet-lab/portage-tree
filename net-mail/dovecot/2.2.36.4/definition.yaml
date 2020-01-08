@@ -12,19 +12,19 @@ license: LGPL-2.1 MIT
 name: dovecot
 requires:
 - 
-  category: virtual
+  category: net-nds
   description: ""
   license: ""
-  name: krb5
+  name: openldap
   
   version: ""
 - 
-  category: dev-cpp
+  category: app-arch
   description: ""
   license: ""
-  name: clucene
+  name: xz-utils
   
-  version: "2.3"
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -33,10 +33,17 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-dovecot
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -50,42 +57,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: libressl
   
   version: ""
 - 
@@ -103,24 +75,52 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: clucene
+  
+  version: "2.3"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dovecot
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
+  name: bzip2
   
   version: ""
 - 
-  category: net-nds
+  category: virtual
   description: ""
   license: ""
-  name: openldap
+  name: krb5
   
   version: ""
 - 
-  category: app-text
+  category: dev-db
   description: ""
   license: ""
-  name: libexttextcat
+  name: sqlite
   
   version: ""
 - 
@@ -141,28 +141,28 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: sqlite
+  name: mysql-connector-c
   
   version: ""
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libressl
+  name: curl
   
   version: ""
 - 
-  category: net-mail
+  category: sys-apps
   description: ""
   license: ""
-  name: mailbase
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sys-libs
+  category: app-text
   description: ""
   license: ""
-  name: pam
+  name: libexttextcat
   
   version: ""
 uri:

@@ -1,6 +1,20 @@
 category: mail-mta
 conflicts:
 - 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
+  
+  version: ""
+- 
   category: net-mail
   description: ""
   license: ""
@@ -11,9 +25,16 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: opensmtpd
   
   version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: mail-mta
   description: ""
@@ -32,28 +53,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
+  name: mini-qmail
   
   version: ""
 - 
@@ -61,13 +61,6 @@ mailer
   description: ""
   license: ""
   name: postfix
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
   
   version: ""
 - 
@@ -85,16 +78,30 @@ mailer
   
   version: 2.64-r2
 - 
-  category: '>=mail-mta'
+  category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: esmtp
   
-  version: 2.64-r2
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
+  
+  version: ""
 description: Widely-used Mail Transport Agent (MTA)
 license: Sendmail GPL-2
 name: sendmail
 requires:
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: "0.00"
 - 
   category: dev-libs
   description: ""
@@ -103,10 +110,10 @@ requires:
   
   version: 2.1.10
 - 
-  category: net-nds
+  category: sys-apps
   description: ""
   license: ""
-  name: openldap
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -122,26 +129,12 @@ requires:
   license: ""
   name: mailbase
   
-  version: "0.00"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: openssl
   
   version: ""
 - 
@@ -155,7 +148,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
   
   version: ""
 uri:

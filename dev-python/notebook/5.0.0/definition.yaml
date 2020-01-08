@@ -5,10 +5,17 @@ license: BSD
 name: notebook
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mathjax
+  
+  version: "2.4"
+- 
   category: dev-python
   description: ""
   license: ""
-  name: ipykernel
+  name: jinja
   
   version: ""
 - 
@@ -18,6 +25,20 @@ requires:
   name: terminado
   
   version: 0.3.3
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: traitlets
+  
+  version: 4.2.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: nbconvert
+  
+  version: 4.2.0
 - 
   category: www-servers
   description: ""
@@ -36,35 +57,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: traitlets
+  name: jupyter_core
   
-  version: 4.2.1
+  version: ""
 - 
   category: dev-python
   description: ""
   license: ""
   name: jupyter_client
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mathjax
-  
-  version: "2.4"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jinja
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jupyter_core
   
   version: ""
 - 
@@ -78,9 +78,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: nbconvert
+  name: ipykernel
   
-  version: 4.2.0
+  version: ""
 uri:
 - mirror://pypi/n/notebook/notebook-5.0.0.tar.gz
 use_flags:

@@ -5,17 +5,17 @@ license: GPL-2
 name: inspircd
 requires:
 - 
-  category: dev-lang
+  category: dev-db
   description: ""
   license: ""
-  name: perl
+  name: sqlite
   
-  version: ""
+  version: "3.0"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: tre
   
   version: ""
 - 
@@ -23,6 +23,13 @@ requires:
   description: ""
   license: ""
   name: inspircd
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
   
   version: ""
 - 
@@ -47,17 +54,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
   category: net-nds
   description: ""
   license: ""
   name: openldap
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: inspircd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
   
   version: ""
 - 
@@ -75,26 +89,12 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: inspircd
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: tre
+  name: libpcre
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.0"
 uri:
 - https://github.com/inspircd/inspircd/archive/v2.0.28.tar.gz -> inspircd-2.0.28.tar.gz
 use_flags:

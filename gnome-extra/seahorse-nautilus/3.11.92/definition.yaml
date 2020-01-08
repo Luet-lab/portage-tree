@@ -12,19 +12,12 @@ license: GPL-2
 name: seahorse-nautilus
 requires:
 - 
-  category: app-crypt
+  category: x11-libs
   description: ""
   license: ""
-  name: gcr
+  name: libcryptui
   
-  version: "3.4"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: nautilus
-  
-  version: "3"
+  version: 3.9.90
 - 
   category: x11-libs
   description: ""
@@ -32,20 +25,6 @@ requires:
   name: libnotify
   
   version: "0.3"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 1.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.28"
 - 
   category: gnome-base
   description: ""
@@ -61,12 +40,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcryptui
+  name: dbus-glib
   
-  version: 3.9.90
+  version: "0.35"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.28"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: nautilus
+  
+  version: "3"
 - 
   category: app-crypt
   description: ""
@@ -75,12 +68,19 @@ requires:
   
   version: "1.4"
 - 
-  category: dev-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: dbus-glib
+  name: gpgme
   
-  version: "0.35"
+  version: 1.0.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: "3.4"
 uri: []
 use_flags:
 - ""

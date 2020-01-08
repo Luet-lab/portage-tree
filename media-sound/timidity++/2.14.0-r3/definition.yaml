@@ -5,19 +5,12 @@ license: GPL-2
 name: timidity++
 requires:
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: jack
+  name: gtk+
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: nas
-  
-  version: "1.4"
 - 
   category: sys-libs
   description: ""
@@ -36,28 +29,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
+  name: speex
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXaw
   
   version: ""
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: gtk+
+  name: eselect-timidity
   
   version: ""
 - 
@@ -71,6 +57,13 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libao
+  
+  version: 0.8.5
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: flac
   
   version: ""
@@ -78,14 +71,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: motif
+  name: libXext
   
-  version: "2.3"
+  version: ""
 - 
-  category: app-eselect
+  category: app-editors
   description: ""
   license: ""
-  name: eselect-timidity
+  name: emacs
+  
+  version: "23.1"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
   
   version: ""
 - 
@@ -96,17 +103,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXaw
+  name: motif
+  
+  version: "2.3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: nas
+  
+  version: "1.4"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
   
   version: ""
 - 
@@ -116,27 +137,6 @@ requires:
   name: alsa-utils
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libao
-  
-  version: 0.8.5
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
 uri:
 - mirror://sourceforge/timidity/TiMidity++-2.14.0.tar.xz
 use_flags:

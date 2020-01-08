@@ -5,12 +5,54 @@ license: Apache-2.0
 name: docker
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: tini
+  
+  version: 0.18.0
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: "1.4"
+- 
   category: sys-process
   description: ""
   license: ""
   name: procps
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libseccomp
+  
+  version: 2.2.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libapparmor
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: git
+  
+  version: "1.7"
 - 
   category: app-arch
   description: ""
@@ -19,12 +61,12 @@ requires:
   
   version: "4.9"
 - 
-  category: dev-libs
+  category: app-emulation
   description: ""
   license: ""
-  name: libltdl
+  name: containerd
   
-  version: ""
+  version: 1.2.10
 - 
   category: app-emulation
   description: ""
@@ -46,48 +88,6 @@ requires:
   name: lvm2
   
   version: 2.02.89
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: 2.2.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libapparmor
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: "1.4"
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: git
-  
-  version: "1.7"
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: containerd
-  
-  version: 1.2.10
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: tini
-  
-  version: 0.18.0
 uri:
 - https://github.com/docker/docker-ce/archive/v19.03.4.tar.gz -> docker-19.03.4.tar.gz
 use_flags:

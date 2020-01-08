@@ -4,13 +4,6 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mysql-cluster
   
   version: ""
@@ -18,14 +11,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mariadb-connector-c
+  name: mysql
   
   version: ""
 - 
@@ -39,7 +25,21 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql
+  name: mariadb
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb-galera
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb-connector-c
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
@@ -47,12 +47,89 @@ license: GPL-2
 name: percona-server
 requires:
 - 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zstd
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: sed
+  name: texinfo
   
-  version: "4"
+  version: 4.7-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: mecab
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -61,17 +138,24 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: snappy
+  name: protobuf
   
   version: ""
 - 
-  category: net-misc
+  category: net-libs
   description: ""
   license: ""
-  name: curl
+  name: libtirpc
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
@@ -96,19 +180,19 @@ requires:
   
   version: 0_p131
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: mecab
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: jemalloc
   
-  version: 1.0.0
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
 - 
   category: sec-policy
   description: ""
@@ -120,21 +204,21 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: texinfo
+  name: sed
   
-  version: 4.7-r1
+  version: "4"
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: pam
+  name: libaio
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
+  name: snappy
   
   version: ""
 - 
@@ -145,94 +229,10 @@ requires:
   
   version: "1.3"
 - 
-  category: acct-user
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
   name: mysql-init-scripts
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
   
   version: ""
 uri:
