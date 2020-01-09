@@ -1,6 +1,13 @@
 category: www-client
 conflicts:
 - 
+  category: =net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: 4.5.12-r0
+- 
   category: <www-plugins
   description: ""
   license: ""
@@ -14,13 +21,6 @@ conflicts:
   name: nvidia-drivers
   
   version: "331.20"
-- 
-  category: =net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: 4.5.12-r0
 description: Open-source version of Google Chrome web browser
 license: BSD
 name: chromium
@@ -29,7 +29,56 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
+  name: libXi
+  
+  version: 1.6.0
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: 0.4.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.19
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openh264
+  
+  version: 1.6.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -54,101 +103,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: expat
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: harfbuzz
-  
-  version: 2.4.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: "2.26"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: 1.3.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: 0.4.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
+  name: libvpx
   
   version: ""
 - 
@@ -159,87 +124,45 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxslt
+  name: libXcomposite
   
   version: ""
 - 
-  category: dev-libs
+  category: net-print
   description: ""
   license: ""
-  name: nss
+  name: cups
   
-  version: "3.26"
+  version: 1.3.11
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: opus
   
-  version: 1.0.19
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libjpeg-turbo
-  
-  version: ""
+  version: 1.3.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: re2
   
-  version: 2.9.4-r3
+  version: 0.2019.08.01
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: dbus
+  name: harfbuzz
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
+  version: 2.4.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: libXdamage
   
   version: ""
 - 
@@ -253,14 +176,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: fontconfig
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvpx
+  name: libpng
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -270,6 +200,62 @@ requires:
   name: udev
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: "3.26"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
+  
+  version: "3.12"
 - 
   category: x11-libs
   description: ""
@@ -281,30 +267,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libXext
   
-  version: 1.6.0
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: libXfixes
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.3.11
 - 
   category: media-video
   description: ""
@@ -327,61 +299,89 @@ requires:
   
   version: ""
 - 
-  category: app-accessibility
+  category: dev-libs
   description: ""
   license: ""
-  name: at-spi2-atk
+  name: libxml2
+  
+  version: 2.9.4-r3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libjpeg-turbo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
   
   version: "2.26"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXrender
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: re2
-  
-  version: 0.2019.08.01
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
+  name: zlib
   
   version: ""
 - 
-  category: gnome-base
+  category: app-accessibility
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: at-spi2-atk
   
-  version: "3.12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openh264
-  
-  version: 1.6.0
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
+  version: "2.26"
 uri:
 - https://commondatastorage.googleapis.com/chromium-browser-official/chromium-80.0.3987.16.tar.xz
 use_flags:

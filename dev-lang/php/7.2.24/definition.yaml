@@ -6,73 +6,17 @@ license: "PHP-3.01\n\tBSD\n\tZend-2.0\n\tbcmath? ( LGPL-2.1+ )\n\tfpm? ( BSD-2 )
 name: php
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "8.32"
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache[apache2_modules_unixd(+),threads=]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: imap-c-client-2[kerberos=,ssl=]
+  name: readline
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: tokyocabinet
   
   version: ""
 - 
@@ -83,17 +27,31 @@ requires:
   
   version: "2"
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: argon2
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: krb5
+  name: jpeg
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
 - 
   category: dev-db
   description: ""
   license: ""
-  name: freetds
+  name: lmdb
   
   version: ""
 - 
@@ -104,10 +62,80 @@ requires:
   
   version: "0.50"
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libwebp
+  name: oniguruma
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
+  
+  version: 1.8.13
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: recode
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: "5.2"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-phpfpm
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache[apache2_modules_unixd(+),threads=]
   
   version: ""
 - 
@@ -125,45 +153,10 @@ requires:
   
   version: 7.10.5
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: "2.0"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: "5.2"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.7.6.3
-- 
   category: dev-db
   description: ""
   license: ""
   name: firebird
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
   
   version: ""
 - 
@@ -174,6 +167,27 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "8.32"
+- 
   category: dev-db
   description: ""
   license: ""
@@ -181,24 +195,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: postgresql
+  name: mm
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libxml2
   
-  version: ""
+  version: 2.6.8
 - 
-  category: dev-db
+  category: media-libs
   description: ""
   license: ""
-  name: tokyocabinet
+  name: libwebp
   
   version: ""
 - 
@@ -209,17 +223,73 @@ requires:
   
   version: 1.2.0
 - 
-  category: sys-libs
+  category: app-text
   description: ""
   license: ""
-  name: db
+  name: enchant
   
-  version: ""
+  version: "2.0"
 - 
   category: media-libs
   description: ""
   license: ""
   name: libpng
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: imap-c-client-2[kerberos=,ssl=]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.7.6.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: freetds
   
   version: ""
 - 
@@ -233,105 +303,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: 2.6.8
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-phpfpm
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: recode
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: oniguruma
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: argon2
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: lcov
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 1.2.11
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: unixODBC
-  
-  version: 1.8.13
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mm
+  name: openssl
   
   version: ""
 - 
@@ -342,10 +314,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: mta
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: lcov
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 1.2.11
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: oracle-instantclient-basic
   
   version: ""
 uri:

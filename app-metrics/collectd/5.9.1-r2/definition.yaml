@@ -12,33 +12,19 @@ license: MIT GPL-2 GPL-2+ GPL-3 GPL-3+
 name: collectd
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: liboping
+  name: mongo-c-driver
   
-  version: ""
+  version: 1.8.2
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: librouteros
+  name: jre
   
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: tokyotyrant
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libmicrohttpd
-  
-  version: ""
+  version: "1.6"
 - 
   category: dev-libs
   description: ""
@@ -47,17 +33,52 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmemcached
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: libmnl
+  name: rabbitmq-c
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ganglia
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: openipmi
+  
+  version: 2.0.16-r1
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -75,61 +96,12 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: libvirt
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: mongo-c-driver
+  name: protobuf-c
   
-  version: 1.8.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mosquitto
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: 1.4.13
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
+  version: 1.2.1-r1
 - 
   category: sys-fs
   description: ""
@@ -138,94 +110,17 @@ requires:
   
   version: "3.1"
 - 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: rrdtool
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rabbitmq-c
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf-c
-  
-  version: 1.2.1-r1
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libatasmart
+  name: glib
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: librdkafka
-  
-  version: 0.9.0.99
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: varnish
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: libsigrok
-  
-  version: "0.4"
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ganglia
+  name: xfsprogs
   
   version: ""
 - 
@@ -236,6 +131,62 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmemcached
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libesmtp
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: liboping
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libstatgrab
+  
+  version: ""
+- 
   category: sec-policy
   description: ""
   license: ""
@@ -243,17 +194,94 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-db
   description: ""
   license: ""
-  name: perl
+  name: libdbi
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: logger
+  name: libmnl
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: tokyotyrant
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: xen-tools
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mosquitto
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: lm-sensors
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: libvirt
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -270,6 +298,41 @@ requires:
   name: lua
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libatasmart
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: varnish
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: rrdtool
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: libsigrok
+  
+  version: "0.4"
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: 1.4.13
 - 
   category: dev-libs
   description: ""
@@ -292,73 +355,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: xfsprogs
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: openipmi
-  
-  version: 2.0.16-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
-  name: libesmtp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: xen-tools
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
+  name: librouteros
   
   version: ""
 uri:

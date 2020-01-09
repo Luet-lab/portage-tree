@@ -1,17 +1,17 @@
 category: media-libs
 conflicts:
 - 
-  category: <media-libs
-  description: ""
-  license: ""
-  name: avidemux-core
-  
-  version: 2.7.4
-- 
   category: <media-video
   description: ""
   license: ""
   name: avidemux
+  
+  version: 2.7.4
+- 
+  category: <media-libs
+  description: ""
+  license: ""
+  name: avidemux-core
   
   version: 2.7.4
 description: Core libraries for simple video cutting, filtering and encoding tasks
@@ -22,7 +22,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXv
+  name: libvdpau
   
   version: ""
 - 
@@ -47,12 +47,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libva
+  name: ffmpeg
   
-  version: ""
+  version: "9"
 - 
   category: dev-db
   description: ""
@@ -61,17 +61,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: ffmpeg
+  name: libva
   
-  version: "9"
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libvdpau
+  name: libXv
   
   version: ""
 uri:

@@ -5,13 +5,6 @@ license: LGPL-2.1+
 name: knotifications
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
   license: ""
@@ -19,31 +12,24 @@ requires:
   
   version: ""
 - 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtwidgets
   
   version: 5.12.3
 - 
   category: media-libs
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: libcanberra
   
   version: ""
 - 
-  category: x11-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: libXtst
+  name: kwindowsystem
   
   version: ""
 - 
@@ -57,21 +43,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtdbus
   
   version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwindowsystem
-  
-  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtgui
   
   version: 5.12.3
 - 
@@ -85,7 +64,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: phonon[qt5(+)]
   
   version: ""
 - 
@@ -96,12 +75,33 @@ requires:
   
   version: 5.12.3
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
   name: qtx11extras
   
   version: 5.12.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 uri: []
 use_flags:
 - dbus

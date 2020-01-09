@@ -4,14 +4,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-cluster
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql
+  name: mariadb-connector-c
   
   version: ""
 - 
@@ -25,13 +18,6 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mariadb-galera
   
   version: ""
@@ -39,7 +25,21 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-connector-c
+  name: mysql-cluster
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
@@ -47,10 +47,10 @@ license: GPL-2
 name: percona-server
 requires:
 - 
-  category: acct-user
+  category: net-libs
   description: ""
   license: ""
-  name: mysql
+  name: libtirpc
   
   version: ""
 - 
@@ -61,10 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-util
   description: ""
   license: ""
-  name: pam
+  name: google-perftools
   
   version: ""
 - 
@@ -74,6 +74,69 @@ requires:
   name: libressl
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: texinfo
+  
+  version: 4.7-r1
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zstd
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
 - 
   category: acct-group
   description: ""
@@ -85,30 +148,16 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: zstd
+  name: lz4
   
-  version: ""
+  version: 0_p131
 - 
-  category: net-misc
+  category: dev-util
   description: ""
   license: ""
-  name: curl
+  name: systemtap
   
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: texinfo
-  
-  version: 4.7-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
+  version: "1.3"
 - 
   category: sys-libs
   description: ""
@@ -124,19 +173,26 @@ requires:
   
   version: ""
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libevent
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
 - 
   category: dev-libs
   description: ""
@@ -145,17 +201,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
+  name: snappy
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 
@@ -170,69 +233,6 @@ requires:
   description: ""
   license: ""
   name: procps
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: "4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: "1.3"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
   
   version: ""
 uri:

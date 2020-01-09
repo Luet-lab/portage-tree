@@ -5,12 +5,12 @@ license: GPL-2+ FDL-1.1+
 name: seahorse
 requires:
 - 
-  category: net-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: openssh
+  name: gtk+
   
-  version: ""
+  version: 3.22.0
 - 
   category: app-crypt
   description: ""
@@ -33,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: net-misc
   description: ""
   license: ""
-  name: gtk+
+  name: openssh
   
-  version: 3.22.0
+  version: ""
 - 
   category: net-nds
   description: ""
@@ -46,20 +46,6 @@ requires:
   name: openldap
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: 2.33.92
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
 - 
   category: dev-libs
   description: ""
@@ -71,16 +57,30 @@ requires:
   category: app-crypt
   description: ""
   license: ""
-  name: gcr
+  name: gpgme
   
-  version: 3.11.91
+  version: 1.7.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.33.92
 - 
   category: app-crypt
   description: ""
   license: ""
-  name: gpgme
+  name: gcr
   
-  version: 1.7.0
+  version: 3.11.91
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: "0.6"
 uri: []
 use_flags:
 - ldap

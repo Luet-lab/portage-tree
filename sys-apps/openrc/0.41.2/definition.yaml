@@ -1,12 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-fs
+  category: <sys-process
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: procps
   
-  version: "27"
+  version: 3.3.9-r2
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-bashcomp
+  
+  version: "20180302"
 - 
   category: <app-shells
   description: ""
@@ -22,28 +29,28 @@ conflicts:
   
   version: 2.1-r1
 - 
-  category: <app-shells
+  category: <sys-fs
   description: ""
   license: ""
-  name: gentoo-bashcomp
+  name: udev-init-scripts
   
-  version: "20180302"
-- 
-  category: <sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: 3.3.9-r2
+  version: "27"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-process
+  category: sys-apps
   description: ""
   license: ""
-  name: psmisc
+  name: policycoreutils
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
   
   version: ""
 - 
@@ -57,14 +64,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: pam
   
-  version: "2.6"
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: psmisc
+  
+  version: ""
 - 
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-openrc
+  name: selinux-base-policy
   
   version: 2.20170204-r4
 - 
@@ -75,10 +89,17 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: sys-libs
   description: ""
   license: ""
-  name: bash
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: audit
   
   version: ""
 - 
@@ -92,30 +113,9 @@ requires:
   category: sec-policy
   description: ""
   license: ""
-  name: selinux-base-policy
+  name: selinux-openrc
   
   version: 2.20170204-r4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
 uri:
 - https://github.com/openrc/openrc/archive/0.41.2.tar.gz -> openrc-0.41.2.tar.gz
 use_flags:

@@ -5,24 +5,10 @@ license: GPL-2+
 name: polari
 requires:
 - 
-  category: dev-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: gjs
-  
-  version: 1.53.90
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
+  name: libsecret
   
   version: ""
 - 
@@ -32,6 +18,41 @@ requires:
   name: libsoup
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.43.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.50"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: gspell
+  
+  version: 1.4.0
 - 
   category: net-im
   description: ""
@@ -47,33 +68,12 @@ requires:
   
   version: "0.2"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.43.4
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: 3.21.6
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: gspell
-  
-  version: 1.4.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
 - 
   category: net-libs
   description: ""
@@ -85,9 +85,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: gjs
   
-  version: "1.50"
+  version: 1.53.90
 uri: []
 use_flags:
 - test

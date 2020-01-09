@@ -5,31 +5,31 @@ license: GPL-2
 name: ardour
 requires:
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: suil
+  name: gtk+
   
-  version: 0.6.10
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lv2
-  
-  version: 1.4.0
+  version: 2.8.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: boost
   
-  version: 2.10.1
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomecanvas
+  
+  version: "2"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: liblo
   
   version: ""
 - 
@@ -40,6 +40,20 @@ requires:
   
   version: 1.0.18
 - 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: 2.32.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: liblrdf
+  
+  version: 0.4.0-r20
+- 
   category: media-libs
   description: ""
   license: ""
@@ -47,80 +61,10 @@ requires:
   
   version: 1.6.0
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lilv
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: aubio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: "0.1"
-- 
   category: sys-libs
   description: ""
   license: ""
   name: readline
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libart_lgpl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: "2.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
   
   version: ""
 - 
@@ -141,107 +85,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: sratom
+  name: lv2
   
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: libgnomecanvasmm
-  
-  version: "2.26"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: ""
+  version: 1.4.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: liblo
+  name: alsa-lib
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.8.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: liblrdf
-  
-  version: 0.4.0-r20
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: raptor
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: vamp-plugin-sdk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: "2.16"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: taglib
-  
-  version: "1.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: sord
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
-  
-  version: 2.32.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomecanvas
-  
-  version: "2"
 - 
   category: media-libs
   description: ""
@@ -253,9 +106,156 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libsamplerate
+  
+  version: "0.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: raptor
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: "2.16"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: taglib
+  
+  version: "1.7"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: libgnomecanvasmm
+  
+  version: "2.26"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: sord
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lilv
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sratom
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: suil
+  
+  version: 0.6.10
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsigc++
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: aubio
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libart_lgpl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.10.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: libsoundtouch
   
   version: 1.6.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: vamp-plugin-sdk
+  
+  version: ""
 uri:
 - mirror://gentoo/ardour-5.12.tar.bz2
 use_flags:

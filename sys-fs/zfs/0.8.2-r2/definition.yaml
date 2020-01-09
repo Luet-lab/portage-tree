@@ -1,12 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
+  category: <sys-boot
   description: ""
   license: ""
-  name: grep-2.13*
+  name: grub
   
-  version: ""
+  version: 2.00-r2
 - 
   category: <sys-kernel
   description: ""
@@ -18,9 +18,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: dracut
   
-  version: 7.1.0
+  version: 044-r1
 - 
   category: sys-fs
   description: ""
@@ -29,12 +29,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-boot
+  category: =sys-apps
   description: ""
   license: ""
-  name: grub
+  name: grep-2.13*
   
-  version: 2.00-r2
+  version: ""
 - 
   category: <sys-kernel
   description: ""
@@ -46,53 +46,18 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
+  name: bliss-initramfs
   
-  version: 044-r1
+  version: 7.1.0
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: python-cffi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: udev
   
   version: ""
 - 
@@ -106,7 +71,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 - 
@@ -124,34 +96,6 @@ requires:
   
   version: ""
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
@@ -159,10 +103,66 @@ requires:
   
   version: ""
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: mdadm
+  name: lsscsi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
   
   version: ""
 uri:

@@ -5,19 +5,47 @@ license: MIT
 name: sway
 requires:
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpcre
+  name: cairo
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239"
+- 
+  category: gui-apps
+  description: ""
+  license: ""
+  name: swaylock
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "239"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: libxcb
   
   version: ""
+- 
+  category: gui-libs
+  description: ""
+  license: ""
+  name: wlroots
+  
+  version: 0.7.0
 - 
   category: x11-libs
   description: ""
@@ -29,35 +57,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swaybg
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "239"
-- 
-  category: gui-libs
-  description: ""
-  license: ""
-  name: wlroots
-  
-  version: 0.7.0
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xkeyboard-config
+  name: pixman
   
   version: ""
 - 
@@ -71,21 +71,7 @@ requires:
   category: gui-apps
   description: ""
   license: ""
-  name: swaylock
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
+  name: swaybg
   
   version: ""
 - 
@@ -96,17 +82,31 @@ requires:
   
   version: 1.6.0
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo
+  name: wayland
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pixman
+  name: libxkbcommon
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -117,12 +117,12 @@ requires:
   
   version: "0.13"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: elogind
+  name: libpcre
   
-  version: "239"
+  version: ""
 uri:
 - https://github.com/swaywm/sway/archive/1.2.tar.gz -> sway-1.2.tar.gz
 use_flags:

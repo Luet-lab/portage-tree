@@ -5,24 +5,31 @@ license: GPL-3 free-noncomm
 name: shogun
 requires:
 - 
-  category: dev-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: libxml2
+  name: arpack
   
   version: ""
 - 
-  category: dev-lang
+  category: sci-libs
   description: ""
   license: ""
-  name: R
+  name: arprec
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: readline
+  name: cblas
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lzma
   
   version: ""
 - 
@@ -30,41 +37,6 @@ requires:
   description: ""
   license: ""
   name: zlib
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: gzip
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: lzo
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5
   
   version: ""
 - 
@@ -78,21 +50,21 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: cblas
-  
-  version: ""
-- 
-  category: sci-mathematics
-  description: ""
-  license: ""
-  name: lpsolve
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
   name: lapack
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: R
+  
+  version: ""
+- 
+  category: dev-ruby
+  description: ""
+  license: ""
+  name: narray
   
   version: ""
 - 
@@ -100,20 +72,6 @@ requires:
   description: ""
   license: ""
   name: eigen
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: arprec
   
   version: ""
 - 
@@ -127,49 +85,21 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: arpack
+  name: colpack
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: colpack
+  name: nlopt
   
   version: ""
 - 
-  category: dev-ruby
+  category: sys-libs
   description: ""
   license: ""
-  name: narray
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lzma
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
+  name: readline
   
   version: ""
 - 
@@ -180,10 +110,17 @@ requires:
   
   version: 4.2.0
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: nlopt
+  name: lzo
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
   
   version: ""
 - 
@@ -194,10 +131,73 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: snappy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
   name: lua
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: gzip
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5
+  
+  version: ""
+- 
+  category: sci-mathematics
+  description: ""
+  license: ""
+  name: lpsolve
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 uri:

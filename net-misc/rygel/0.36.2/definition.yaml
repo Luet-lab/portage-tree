@@ -5,61 +5,12 @@ license: LGPL-2.1+ CC-BY-SA-3.0
 name: rygel
 requires:
 - 
-  category: dev-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libgee
-  
-  version: "0.8"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.20"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gupnp-av
-  
-  version: 0.12.8
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.44"
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
+  name: gst-plugins-soup
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.5"
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: tracker
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gupnp-dlna
-  
-  version: 0.9.4
 - 
   category: net-libs
   description: ""
@@ -75,12 +26,19 @@ requires:
   
   version: 0.20.14
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: gupnp-av
   
-  version: ""
+  version: 0.12.8
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.20"
 - 
   category: dev-libs
   description: ""
@@ -96,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -106,9 +71,44 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libgee
   
-  version: 2.40.0
+  version: "0.8"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: shared-mime-info
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "3.5"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gupnp-dlna
+  
+  version: 0.9.4
 - 
   category: media-libs
   description: ""
@@ -117,17 +117,17 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: net-libs
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: libsoup
   
-  version: ""
+  version: "2.44"
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: libunistring
+  name: tracker
   
   version: ""
 - 
@@ -148,16 +148,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: "2.7"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
+  version: 2.40.0
 - 
   category: media-libs
   description: ""
@@ -165,6 +158,13 @@ requires:
   name: libmediaart
   
   version: "0.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libunistring
+  
+  version: ""
 uri: []
 use_flags:
 - X

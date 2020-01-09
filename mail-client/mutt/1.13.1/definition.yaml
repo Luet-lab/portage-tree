@@ -5,33 +5,26 @@ license: GPL-2
 name: mutt
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: qdbm
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: slang
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "4"
 - 
   category: dev-db
   description: ""
@@ -40,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libressl
+  name: gnutls
   
-  version: ""
+  version: 1.0.17
 - 
   category: dev-libs
   description: ""
@@ -53,6 +46,20 @@ requires:
   name: openssl
   
   version: 0.9.6
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: "2"
 - 
   category: app-crypt
   description: ""
@@ -68,59 +75,17 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: qdbm
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mutt
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
+  name: libressl
   
   version: ""
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: slang
+  name: gnupg
   
   version: ""
 - 
@@ -134,9 +99,44 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: gdbm
   
-  version: "4"
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mutt
+  
+  version: ""
 uri:
 - ftp://ftp.mutt.org/pub/mutt/mutt-1.13.1.tar.gz
 - https://bitbucket.org/mutt/mutt/downloads/mutt-1.13.1.tar.gz

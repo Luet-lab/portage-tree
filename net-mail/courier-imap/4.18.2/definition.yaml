@@ -1,10 +1,10 @@
 category: net-mail
 conflicts:
 - 
-  category: mail-mta
+  category: net-mail
   description: ""
   license: ""
-  name: courier
+  name: bincimap
   
   version: ""
 - 
@@ -15,10 +15,10 @@ conflicts:
   
   version: ""
 - 
-  category: net-mail
+  category: mail-mta
   description: ""
   license: ""
-  name: bincimap
+  name: courier
   
   version: ""
 - 
@@ -33,20 +33,6 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: 0.66.4
-- 
   category: net-mail
   description: ""
   license: ""
@@ -54,24 +40,17 @@ requires:
   
   version: 0.00-r8
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-courier
   
   version: ""
 - 
@@ -89,17 +68,38 @@ requires:
   
   version: "2"
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.66.4
+- 
   category: virtual
   description: ""
   license: ""
   name: fam
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-courier
   
   version: ""
 uri:

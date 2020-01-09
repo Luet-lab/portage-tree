@@ -5,7 +5,7 @@ license: GPL-3
 name: knot
 requires:
 - 
-  category: acct-user
+  category: acct-group
   description: ""
   license: ""
   name: knot
@@ -19,10 +19,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-python
   description: ""
   license: ""
-  name: gnutls
+  name: lmdb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf-c
   
   version: ""
 - 
@@ -36,7 +43,7 @@ requires:
   category: net-dns
   description: ""
   license: ""
-  name: libidn
+  name: libidn2
   
   version: ""
 - 
@@ -44,20 +51,6 @@ requires:
   description: ""
   license: ""
   name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: userspace-rcu
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: lmdb
   
   version: ""
 - 
@@ -71,11 +64,18 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf-c
+  name: fstrm
   
   version: ""
 - 
-  category: acct-group
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
+- 
+  category: acct-user
   description: ""
   license: ""
   name: knot
@@ -92,14 +92,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: fstrm
+  name: userspace-rcu
   
   version: ""
 - 
-  category: net-dns
+  category: net-libs
   description: ""
   license: ""
-  name: libidn2
+  name: gnutls
   
   version: ""
 uri:

@@ -1,19 +1,19 @@
 category: sys-kernel
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: openrc
-  
-  version: 0.9.9
-- 
   category: sys-fs
   description: ""
   license: ""
   name: eudev
   
   version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: openrc
+  
+  version: 0.9.9
 - 
   category: sys-kernel
   description: ""
@@ -26,10 +26,10 @@ license: GPL-2
 name: genkernel-next
 requires:
 - 
-  category: sys-fs
+  category: app-arch
   description: ""
   license: ""
-  name: mdadm
+  name: cpio
   
   version: ""
 - 
@@ -39,62 +39,6 @@ requires:
   name: pax-utils
   
   version: "0.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: portage-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: e2fsprogs
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: asciidoc
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: open-iscsi
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
 - 
   category: sys-fs
   description: ""
@@ -106,9 +50,23 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: dmraid
+  name: e2fsprogs
   
-  version: 1.0.0_rc16
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
 - 
   category: app-crypt
   description: ""
@@ -117,10 +75,17 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: app-portage
   description: ""
   license: ""
-  name: cpio
+  name: portage-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
   
   version: ""
 - 
@@ -128,6 +93,41 @@ requires:
   description: ""
   license: ""
   name: thin-provisioning-tools
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: asciidoc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dmraid
+  
+  version: 1.0.0_rc16
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: plymouth
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: open-iscsi
   
   version: ""
 uri:

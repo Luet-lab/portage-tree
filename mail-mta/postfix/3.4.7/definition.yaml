@@ -1,13 +1,6 @@
 category: mail-mta
 conflicts:
 - 
-  category: '>=mail-mta'
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
   category: mail-mta
   description: ""
   license: ""
@@ -18,35 +11,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: fastforward
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: msmtp
+  name: qmail-ldap
   
   version: ""
 - 
@@ -60,14 +25,28 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: opensmtpd
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: msmtp
+  
+  version: ""
+- 
+  category: '>=mail-mta'
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
   
   version: ""
 - 
@@ -77,6 +56,27 @@ mailer
   name: ssmtp
   
   version: 2.64-r2
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: fastforward
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
+  
+  version: ""
 - 
   category: mail-mta
   description: ""
@@ -88,7 +88,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
+mailer
   
   version: ""
 description: A fast and secure drop-in replacement for sendmail
@@ -96,40 +96,40 @@ license: '|| ( IBM EPL-2.0 )'
 name: postfix
 requires:
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libnsl
+  name: sqlite
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: memcached
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libpcre
   
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
+  version: "3.4"
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: lmdb
   
-  version: ""
+  version: 0.9.11
 - 
   category: dev-db
   description: ""
@@ -145,59 +145,10 @@ requires:
   
   version: 2.9.1
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-postfix
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: postdrop
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: 0.9.11
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: "3.4"
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: memcached
+  name: icu
   
   version: ""
 - 
@@ -208,6 +159,55 @@ requires:
   
   version: ""
 - 
+  category: acct-group
+  description: ""
+  license: ""
+  name: postfix
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: "2"
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: postfix
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-postfix
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -215,10 +215,17 @@ requires:
   
   version: "3.2"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: icu
+  name: libnsl
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: postdrop
   
   version: ""
 - 
@@ -226,13 +233,6 @@ requires:
   description: ""
   license: ""
   name: perl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
   
   version: ""
 uri:

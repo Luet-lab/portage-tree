@@ -5,10 +5,17 @@ license: LGPL-2+
 name: ostree
 requires:
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: gpgme
+  name: libgpg-error
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
   
   version: ""
 - 
@@ -22,63 +29,14 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libsoup
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
   name: gnutls
   
   version: ""
 - 
-  category: sys-apps
+  category: app-crypt
   description: ""
   license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libassuan
+  name: gpgme
   
   version: ""
 - 
@@ -89,17 +47,38 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
-  name: libarchive
+  name: xz-utils
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgpg-error
+  name: libassuan
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
@@ -113,7 +92,28 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: zlib
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 uri:

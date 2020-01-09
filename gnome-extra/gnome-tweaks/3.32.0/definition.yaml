@@ -5,12 +5,12 @@ license: GPL-3+ CC0-1.0
 name: gnome-tweaks
 requires:
 - 
-  category: gnome-base
+  category: x11-themes
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: sound-theme-freedesktop
   
-  version: "3"
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -19,6 +19,13 @@ requires:
   
   version: "2.58"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.12"
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -26,12 +33,12 @@ requires:
   
   version: "3.30"
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: libnotify
   
-  version: "3.28"
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -40,13 +47,6 @@ requires:
   
   version: "3.24"
 - 
-  category: x11-wm
-  description: ""
-  license: ""
-  name: mutter
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -54,19 +54,12 @@ requires:
   
   version: 3.10.2
 - 
-  category: x11-themes
+  category: gnome-base
   description: ""
   license: ""
-  name: sound-theme-freedesktop
+  name: gnome-settings-daemon
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.12"
+  version: "3"
 - 
   category: net-libs
   description: ""
@@ -75,10 +68,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libnotify
+  name: gsettings-desktop-schemas
+  
+  version: "3.28"
+- 
+  category: x11-wm
+  description: ""
+  license: ""
+  name: mutter
   
   version: ""
 uri: []

@@ -5,17 +5,17 @@ license: ""
 name: qtmultimedia
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: 5.13.2
-- 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui-5.13.2[gles2=]
   
   version: ""
 - 
@@ -29,14 +29,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: gstreamer
   
   version: ""
 - 
-  category: media-sound
+  category: dev-qt
   description: ""
   license: ""
-  name: pulseaudio
+  name: qtdeclarative
+  
+  version: 5.13.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
   
   version: ""
 - 
@@ -61,31 +75,17 @@ requires:
   
   version: 5.13.2
 - 
-  category: media-libs
+  category: media-sound
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: pulseaudio
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
+  name: gst-plugins-bad
   
   version: ""
 - 
@@ -96,10 +96,10 @@ requires:
   
   version: 5.13.2
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtgui-5.13.2[gles2=]
+  name: glib
   
   version: ""
 uri: []

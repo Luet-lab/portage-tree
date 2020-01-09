@@ -5,31 +5,24 @@ license: PSF-2
 name: python
 requires:
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libintl
+  name: expat
+  
+  version: "2.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: db
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.2"
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
+  name: libressl
   
   version: ""
 - 
@@ -40,33 +33,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: openssl
+  name: db
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.3.8
 - 
   category: dev-lang
   description: ""
   license: ""
-  name: tcl
+  name: tk
   
   version: "8.0"
-- 
-  category: dev-tcltk
-  description: ""
-  license: ""
-  name: tix
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-docs
-  
-  version: ""
 - 
   category: dev-tcltk
   description: ""
@@ -85,37 +71,30 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: zlib
+  
+  version: 1.1.3
+- 
+  category: dev-tcltk
+  description: ""
+  license: ""
+  name: tix
   
   version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: sqlite
-  
-  version: 3.3.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: libintl
   
   version: ""
 - 
   category: dev-lang
   description: ""
   license: ""
-  name: tk
+  name: tcl
   
   version: "8.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.1.3
 - 
   category: sys-libs
   description: ""
@@ -124,12 +103,33 @@ requires:
   
   version: "4.1"
 - 
-  category: dev-libs
+  category: app-misc
   description: ""
   license: ""
-  name: expat
+  name: mime-types
   
-  version: "2.1"
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-docs
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.2"
 uri:
 - https://www.python.org/ftp/python/2.7.17/Python-2.7.17.tar.xz
 - https://dev.gentoo.org/~mgorny/dist/python-gentoo-patches-2.7.17.tar.xz

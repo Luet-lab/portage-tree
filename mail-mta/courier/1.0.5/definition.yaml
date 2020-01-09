@@ -4,14 +4,21 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: ssmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: msmtp
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: cyrus-imapd
   
   version: ""
 - 
@@ -25,7 +32,35 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
 mailer
+  
+  version: ""
+- 
+  category: mail-filter
+  description: ""
+  license: ""
+  name: maildrop
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: bincimap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
   
   version: ""
 - 
@@ -36,10 +71,17 @@ mailer
   
   version: ""
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: uw-imap
+  
+  version: ""
+- 
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: postfix
   
   version: ""
 - 
@@ -53,49 +95,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: maildrop
+  name: esmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: msmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: bincimap
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: uw-imap
+  name: mini-qmail
   
   version: ""
 - 
@@ -113,17 +120,10 @@ mailer
   
   version: ""
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: cyrus-imapd
-  
-  version: ""
-- 
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: netqmail
   
   version: ""
 description: An MTA designed specifically for maildirs
@@ -131,19 +131,19 @@ license: GPL-2
 name: courier
 requires:
 - 
-  category: sys-process
+  category: sys-libs
   description: ""
   license: ""
-  name: procps
+  name: pam
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: courier-unicode
+  name: mysql-connector-c
   
-  version: "2.1"
+  version: ""
 - 
   category: net-nds
   description: ""
@@ -152,10 +152,17 @@ requires:
   
   version: 1.2.11
 - 
-  category: dev-lang
+  category: dev-db
   description: ""
   license: ""
-  name: perl
+  name: postgresql
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
 - 
@@ -173,6 +180,34 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.69.0-r1
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: fam
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-unicode
+  
+  version: "2.1"
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -187,62 +222,6 @@ requires:
   
   version: 1.1.28
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: 0.69.0-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
-  
-  version: ""
-- 
   category: app-text
   description: ""
   license: ""
@@ -250,10 +229,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: fam
+  name: libpcre
   
   version: ""
 - 
@@ -264,10 +243,31 @@ requires:
   
   version: "9.12"
 - 
-  category: dev-db
+  category: app-text
   description: ""
   license: ""
-  name: postgresql
+  name: ghostscript-gpl
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
   
   version: ""
 uri:

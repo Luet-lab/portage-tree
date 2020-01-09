@@ -12,34 +12,6 @@ license: GPL-2
 name: virt-manager
 requires:
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: ipaddr
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libvirt-python
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gtk-vnc-0.3.8[gtk3(+),introspection]
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -47,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-auth
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: polkit
   
   version: ""
 - 
@@ -61,12 +33,33 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libosinfo
+  name: ipaddr
   
-  version: 0.2.10
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gtk-vnc-0.3.8[gtk3(+),introspection]
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
+  
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -75,17 +68,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: app-cdr
-  description: ""
-  license: ""
-  name: cdrtools
+  name: libgnome-keyring
   
   version: ""
 - 
@@ -106,23 +92,37 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: libvirt-python
   
   version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: dconf
+  name: gtk+
   
   version: ""
 - 
-  category: sys-auth
+  category: app-cdr
   description: ""
   license: ""
-  name: polkit
+  name: cdrtools
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libosinfo
+  
+  version: 0.2.10
 uri:
 - http://virt-manager.org/download/sources/virt-manager/virt-manager-2.0.0.tar.gz
 use_flags:

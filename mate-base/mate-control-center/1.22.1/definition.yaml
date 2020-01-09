@@ -5,31 +5,45 @@ license: GPL-2
 name: mate-control-center
 requires:
 - 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-settings-daemon
-  
-  version: 1.21.2
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXxf86misc
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: 0.13.4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: freetype
   
-  version: "1"
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: cairo
   
   version: ""
 - 
@@ -39,69 +53,6 @@ requires:
   name: marco
   
   version: 1.17.0
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-menus
-  
-  version: 1.21.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: "1.5"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86misc
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -117,24 +68,31 @@ requires:
   
   version: "0.73"
 - 
-  category: x11-apps
+  category: media-libs
   description: ""
   license: ""
-  name: xmodmap
+  name: fontconfig
+  
+  version: "1"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: caja
+  
+  version: 1.20.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -159,33 +117,40 @@ requires:
   
   version: "2.50"
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: dconf
+  name: libXScrnSaver
   
-  version: 0.13.4
+  version: ""
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: librsvg
+  name: libXcursor
   
-  version: "2.0"
+  version: ""
 - 
-  category: mate-base
+  category: x11-libs
   description: ""
   license: ""
-  name: libmatekbd
+  name: libXext
   
-  version: 1.17.0
+  version: ""
 - 
-  category: mate-base
+  category: x11-libs
   description: ""
   license: ""
-  name: caja
+  name: libXrandr
   
-  version: 1.20.0
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -201,17 +166,38 @@ requires:
   
   version: 1.21.2
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: pango
+  
+  version: ""
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-menus
+  
+  version: 1.21.0
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xmodmap
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -222,19 +208,33 @@ requires:
   
   version: "4"
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: "2.0"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-settings-daemon
+  
+  version: 1.21.2
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: libmatekbd
+  
+  version: 1.17.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: libXi
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libappindicator
-  
-  version: ""
+  version: "1.5"
 uri: []
 use_flags:
 - accountsservice

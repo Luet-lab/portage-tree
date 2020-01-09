@@ -1,10 +1,10 @@
 category: net-mail
 conflicts:
 - 
-  category: mail-filter
+  category: mail-client
   description: ""
   license: ""
-  name: libsieve
+  name: mailx
   
   version: ""
 - 
@@ -15,17 +15,17 @@ conflicts:
   
   version: ""
 - 
-  category: mail-client
+  category: mail-filter
   description: ""
   license: ""
-  name: nail
+  name: libsieve
   
   version: ""
 - 
   category: mail-client
   description: ""
   license: ""
-  name: mailx
+  name: nail
   
   version: ""
 description: A useful collection of mail servers, clients, and filters
@@ -33,17 +33,24 @@ license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: krb5
+  name: readline
   
   version: ""
 - 
-  category: net-nds
+  category: sys-libs
   description: ""
   license: ""
-  name: openldap
+  name: gdbm
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: kyotocabinet
   
   version: ""
 - 
@@ -61,52 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libunistring
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
+  name: tokyocabinet
   
   version: ""
 - 
@@ -127,7 +92,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
+  name: postgresql
   
   version: ""
 - 
@@ -141,14 +106,14 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: libiconv
+  name: krb5
   
   version: ""
 - 
-  category: dev-db
+  category: net-nds
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: openldap
   
   version: ""
 - 
@@ -159,17 +124,17 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: postgresql
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: tokyocabinet
+  name: ncurses
   
   version: ""
 - 
@@ -177,6 +142,41 @@ requires:
   description: ""
   license: ""
   name: libltdl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libunistring
   
   version: ""
 uri:

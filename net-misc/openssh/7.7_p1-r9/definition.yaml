@@ -5,17 +5,10 @@ license: BSD GPL-2
 name: openssh
 requires:
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: skey
-  
-  version: 1.1.5-r1
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns[ecdsa,ssl(+)]
+  name: libedit
   
   version: ""
 - 
@@ -33,26 +26,19 @@ requires:
   
   version: ""
 - 
-  category: x11-apps
+  category: sys-process
   description: ""
   license: ""
-  name: xauth
+  name: audit
   
   version: ""
 - 
-  category: net-misc
+  category: net-libs
   description: ""
   license: ""
-  name: lksctp-tools
+  name: ldns[ecdsa,ssl(+)]
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "1.28"
 - 
   category: dev-libs
   description: ""
@@ -61,17 +47,24 @@ requires:
   
   version: 1.0.1
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libressl
+  name: zlib
   
-  version: ""
+  version: 1.2.3
 - 
-  category: dev-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: libedit
+  name: pambase
+  
+  version: "20081028"
+- 
+  category: x11-apps
+  description: ""
+  license: ""
+  name: xauth
   
   version: ""
 - 
@@ -82,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns[-ecdsa,ssl(+)]
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: libselinux
   
-  version: 1.2.3
+  version: "1.28"
 - 
   category: sys-libs
   description: ""
@@ -103,12 +89,19 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: lksctp-tools
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
-  name: pambase
+  name: skey
   
-  version: "20081028"
+  version: 1.1.5-r1
 - 
   category: virtual
   description: ""
@@ -117,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: net-libs
   description: ""
   license: ""
-  name: audit
+  name: ldns[-ecdsa,ssl(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

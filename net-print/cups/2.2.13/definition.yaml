@@ -12,34 +12,6 @@ license: GPL-2
 name: cups
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
   category: virtual
   description: ""
   license: ""
@@ -47,10 +19,10 @@ requires:
   
   version: 0-r1
 - 
-  category: x11-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: xdg-utils
+  name: pam
   
   version: ""
 - 
@@ -61,10 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: acct-group
   description: ""
   license: ""
-  name: selinux-cups
+  name: lp
   
   version: ""
 - 
@@ -78,35 +50,28 @@ requires:
   category: sys-apps
   description: ""
   license: ""
+  name: dbus
+  
+  version: 1.6.18-r1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: sys-apps
+  description: ""
+  license: ""
   name: systemd
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: lp
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libpaper
+  name: attr
   
   version: ""
 - 
@@ -117,12 +82,47 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-misc
   description: ""
   license: ""
-  name: dbus
+  name: xdg-utils
   
-  version: 1.6.18-r1
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: 0.6.31-r2
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-cups
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libpaper
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
 uri:
 - https://github.com/apple/cups/releases/download/v2.2.13/cups-2.2.13-source.tar.gz
 use_flags:

@@ -5,12 +5,33 @@ license: MIT LGPL-2.1 BSD-2
 name: kmscon
 requires:
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: udev
+  name: libtsm
   
-  version: "172"
+  version: 4.0.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: 8.0.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -19,12 +40,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: mesa
+  name: libdrm
   
-  version: 8.0.3
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -40,6 +61,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
   category: x11-misc
   description: ""
   license: ""
@@ -47,40 +75,12 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libxkbcommon
+  name: udev
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libtsm
-  
-  version: 4.0.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
+  version: "172"
 uri:
 - https://github.com/Aetf/kmscon/archive/01dd0a231e2125a40ceba5f59fd945ff29bf2cdc.tar.gz
   -> kmscon-8.tar.gz

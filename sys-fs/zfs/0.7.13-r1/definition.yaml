@@ -1,12 +1,19 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
+  name: genkernel
   
-  version: 044-r1
+  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -14,6 +21,20 @@ conflicts:
   name: bliss-initramfs
   
   version: 7.1.0
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-fuse
+  
+  version: ""
 - 
   category: =sys-apps
   description: ""
@@ -25,60 +46,32 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
   name: genkernel-next
   
   version: "67"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: lsscsi
+  name: util-linux
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-devel
   description: ""
   license: ""
-  name: mdadm
+  name: bc
   
   version: ""
 - 
-  category: app-misc
+  category: sys-process
   description: ""
   license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
+  name: procps
   
   version: ""
 - 
@@ -86,20 +79,6 @@ requires:
   description: ""
   license: ""
   name: libtirpc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
   
   version: ""
 - 
@@ -117,17 +96,17 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: util-linux
+  name: udev-init-scripts
   
   version: ""
 - 
-  category: sys-devel
+  category: virtual
   description: ""
   license: ""
-  name: bc
+  name: udev
   
   version: ""
 - 
@@ -141,14 +120,35 @@ requires:
   category: sys-fs
   description: ""
   license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
   name: zfs-kmod
   
   version: 0.7.13
 - 
-  category: sys-process
+  category: app-misc
   description: ""
   license: ""
-  name: procps
+  name: pax-utils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
   
   version: ""
 uri:

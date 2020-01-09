@@ -5,6 +5,13 @@ license: MIT
 name: wlroots
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
+- 
   category: virtual
   description: ""
   license: ""
@@ -15,23 +22,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
+  name: libxkbcommon
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: pixman
   
   version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: "237"
 - 
   category: x11-libs
   description: ""
@@ -40,6 +40,13 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "237"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -47,24 +54,17 @@ requires:
   
   version: 1.9.0
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
+  name: libdrm
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: systemd
+  name: elogind
   
   version: "237"
 - 
@@ -85,14 +85,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pixman
+  name: xcb-util-image
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: xcb-util-image
+  name: mesa
   
   version: ""
 uri: []

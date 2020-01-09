@@ -1,10 +1,10 @@
 category: net-mail
 conflicts:
 - 
-  category: net-mail
+  category: mail-mta
   description: ""
   license: ""
-  name: bincimap
+  name: courier
   
   version: ""
 - 
@@ -22,10 +22,10 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
+  category: net-mail
   description: ""
   license: ""
-  name: courier
+  name: bincimap
   
   version: ""
 description: An IMAP daemon designed specifically for maildirs
@@ -39,13 +39,6 @@ requires:
   name: courier-unicode
   
   version: "2"
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: 0.00-r8
 - 
   category: sys-libs
   description: ""
@@ -61,6 +54,27 @@ requires:
   
   version: ""
 - 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: 0.00-r8
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-courier
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -71,14 +85,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 - 
@@ -93,20 +107,6 @@ requires:
   description: ""
   license: ""
   name: libidn
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-courier
   
   version: ""
 uri:

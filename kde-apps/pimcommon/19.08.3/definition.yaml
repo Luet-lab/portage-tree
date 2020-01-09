@@ -4,20 +4,48 @@ conflicts:
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-common-libs
+  name: kdepim-l10n
   
   version: ""
 - 
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-l10n
+  name: kdepim-common-libs
   
   version: ""
 description: Common PIM libraries
 license: GPL-2+ LGPL-2.1+
 name: pimcommon
 requires:
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: karchive
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: akonadi-contacts
+  
+  version: ""
 - 
   category: kde-apps
   description: ""
@@ -36,21 +64,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcompletion
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kdbusaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
+  name: kcontacts
   
   version: 5.60.0
 - 
@@ -58,83 +72,6 @@ requires:
   description: ""
   license: ""
   name: kservice
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kxmlgui
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kjobwidgets
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kitemmodels
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: purpose
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knewstuff
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: akonadi-contacts
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: karchive
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcoreaddons
   
   version: 5.60.0
 - 
@@ -148,7 +85,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: kcompletion
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kjobwidgets
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: 5.60.0
 - 
@@ -158,6 +116,62 @@ requires:
   name: libkdepim
   
   version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kitemmodels
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knewstuff
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.60.0
 - 
   category: dev-qt
   description: ""
@@ -169,7 +183,28 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtprintsupport
+  name: qtxml
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdbusaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: purpose
+  
+  version: 5.60.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
   
   version: 5.12.3
 - 
@@ -177,41 +212,6 @@ requires:
   description: ""
   license: ""
   name: qtwidgets
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcontacts
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kio
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: akonadi
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
   
   version: 5.12.3
 uri: []

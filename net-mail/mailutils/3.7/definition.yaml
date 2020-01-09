@@ -4,14 +4,14 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: mailx
+  name: nail
   
   version: ""
 - 
   category: mail-client
   description: ""
   license: ""
-  name: nail
+  name: nmh
   
   version: ""
 - 
@@ -25,13 +25,34 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: nmh
+  name: mailx
   
   version: ""
 description: A useful collection of mail servers, clients, and filters
 license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
+  
+  version: ""
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: sys-libs
   description: ""
@@ -43,21 +64,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: postgresql
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
   
   version: ""
 - 
@@ -65,48 +72,6 @@ requires:
   description: ""
   license: ""
   name: tcp-wrappers
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
   
   version: ""
 - 
@@ -124,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
+  name: db
   
   version: ""
 - 
@@ -142,6 +100,27 @@ requires:
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: kyotocabinet
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
   
   version: ""
 - 
@@ -159,24 +138,45 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: fribidi
   
   version: ""
 uri:

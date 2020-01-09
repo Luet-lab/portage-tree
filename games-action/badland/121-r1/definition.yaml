@@ -6,12 +6,19 @@ license: all-rights-reserved
 name: badland
 requires:
 - 
-  category: sys-libs
+  category: net-misc
   description: ""
   license: ""
-  name: glibc
+  name: curl[abi_x86_32]
   
-  version: "2.14"
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gcc
+  
+  version: "4.6"
 - 
   category: virtual
   description: ""
@@ -34,26 +41,12 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sys-libs
   description: ""
   license: ""
-  name: curl[abi_x86_32]
+  name: glibc
   
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gcc
-  
-  version: "4.6"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng-compat
-  
-  version: ""
+  version: "2.14"
 - 
   category: dev-db
   description: ""
@@ -73,6 +66,13 @@ requires:
   description: ""
   license: ""
   name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng-compat
   
   version: ""
 uri:

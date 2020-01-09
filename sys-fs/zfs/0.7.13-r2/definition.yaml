@@ -1,19 +1,19 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: <sys-boot
   description: ""
   license: ""
   name: grub
   
   version: 2.00-r2
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel-next
+  
+  version: "67"
 - 
   category: =sys-apps
   description: ""
@@ -22,19 +22,19 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-kernel
+  category: sys-fs
   description: ""
   license: ""
-  name: dracut
+  name: zfs-fuse
   
-  version: 044-r1
+  version: ""
 - 
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
+  name: genkernel
   
-  version: "67"
+  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -46,20 +46,34 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel
+  name: dracut
   
-  version: 3.5.1.1
+  version: 044-r1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-devel
+  category: app-misc
   description: ""
   license: ""
-  name: bc
+  name: pax-utils
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.7.13
 - 
   category: sys-fs
   description: ""
@@ -75,31 +89,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-fs
   description: ""
   license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
+  name: udev-init-scripts
   
   version: ""
 - 
@@ -110,31 +103,24 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-block
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: 0.7.13
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
+  name: parted
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: util-linux
   
   version: ""
 - 
-  category: net-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: libtirpc
+  name: bc
   
   version: ""
 - 
@@ -145,10 +131,24 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: virtual
   description: ""
   license: ""
-  name: parted
+  name: modutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

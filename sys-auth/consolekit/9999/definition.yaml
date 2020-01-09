@@ -5,27 +5,6 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -47,17 +26,38 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: dbus
+  name: polkit
+  
+  version: "0.110"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-power
   description: ""
   license: ""
-  name: zlib
+  name: pm-utils
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevdev
   
   version: ""
 - 
@@ -75,19 +75,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libselinux
+  name: glib
   
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: pm-utils
-  
-  version: ""
+  version: "2.40"
 - 
   category: sys-devel
   description: ""
@@ -96,6 +89,27 @@ requires:
   
   version: "0.19"
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -103,10 +117,10 @@ requires:
   
   version: "200"
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libevdev
+  name: libselinux
   
   version: ""
 - 
@@ -116,20 +130,6 @@ requires:
   name: coreutils[acl?]
   
   version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
 uri: []
 use_flags:
 - acl

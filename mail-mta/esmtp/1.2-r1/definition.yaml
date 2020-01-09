@@ -4,28 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: postfix
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
+  name: courier
   
   version: ""
 - 
@@ -39,21 +18,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
+  name: qmail-ldap
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
+  name: ssmtp
   
   version: ""
 - 
@@ -67,6 +39,20 @@ mailer
   category: mail-mta
   description: ""
   license: ""
+  name: msmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: netqmail
   
   version: ""
@@ -74,7 +60,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: postfix
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
   
   version: ""
 description: User configurable relay-only Mail Transfer Agent with a sendmail-like
@@ -82,13 +82,6 @@ description: User configurable relay-only Mail Transfer Agent with a sendmail-li
 license: GPL-2
 name: esmtp
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
 - 
   category: net-libs
   description: ""
@@ -101,6 +94,13 @@ requires:
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri:

@@ -5,26 +5,12 @@ license: LGPL-2+
 name: gvfs
 requires:
 - 
-  category: dev-libs
+  category: net-fs
   description: ""
   license: ""
-  name: libgcrypt
+  name: libnfs
   
-  version: 1.2.2
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
-  
-  version: 2.8.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
+  version: 1.9.8
 - 
   category: sys-fs
   description: ""
@@ -33,19 +19,96 @@ requires:
   
   version: "1.97"
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: openssh
+  name: glib
+  
+  version: "2.51"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
   
   version: ""
 - 
-  category: sys-auth
+  category: app-crypt
   description: ""
   license: ""
-  name: elogind
+  name: libsecret
   
-  version: "229"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgdata
+  
+  version: 0.17.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmtp
+  
+  version: 1.1.12
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.2
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: "4"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: fuse
+  
+  version: 2.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "147"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.0"
 - 
   category: app-pda
   description: ""
@@ -61,40 +124,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: libcdio-paranoia
   
-  version: "2.42"
+  version: ""
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: polkit
+  name: elogind
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "147"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: "0.6"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: libarchive
-  
-  version: ""
+  version: "229"
 - 
   category: net-libs
   description: ""
@@ -103,19 +145,19 @@ requires:
   
   version: 3.7.1
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: libusb
   
-  version: 3.17.1
+  version: 1.0.21
 - 
-  category: app-pda
+  category: sys-auth
   description: ""
   license: ""
-  name: libimobiledevice
+  name: polkit
   
-  version: "1.2"
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -127,9 +169,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libxml2
   
-  version: "2.51"
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnome-online-accounts
+  
+  version: 3.17.1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.42"
 - 
   category: media-libs
   description: ""
@@ -138,82 +201,19 @@ requires:
   
   version: 2.5.0
 - 
-  category: media-libs
+  category: app-pda
   description: ""
   license: ""
-  name: libbluray
+  name: libimobiledevice
   
-  version: ""
+  version: "1.2"
 - 
-  category: net-fs
+  category: net-dns
   description: ""
   license: ""
-  name: libnfs
+  name: avahi
   
-  version: 1.9.8
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: "4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio-paranoia
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.7
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: 1.0.21
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: 1.1.12
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.0"
+  version: "0.6"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/gvfs-1.32.2-patchset.tar.xz
 use_flags:

@@ -20,13 +20,6 @@ license: GPL-3+ BSD MIT fonts? ( GPL-2-with-font-exception ) themes? ( CC-BY-SA-
 name: grub
 requires:
 - 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: efibootmgr
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
@@ -37,14 +30,14 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: zfs
+  name: lvm2
   
-  version: ""
+  version: 2.02.45
 - 
   category: sys-fs
   description: ""
   license: ""
-  name: fuse
+  name: zfs
   
   version: ""
 - 
@@ -86,9 +79,16 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lvm2
+  name: fuse
   
-  version: 2.02.45
+  version: ""
+- 
+  category: sys-boot
+  description: ""
+  license: ""
+  name: efibootmgr
+  
+  version: ""
 uri:
 - 'mirror://gnu/grub/grub-2.02.tar.xz fonts? ( mirror://gnu/unifont/unifont-9.0.06/unifont-9.0.06.pcf.gz '
 - 'mirror://sourceforge/dejavu/dejavu-sans-ttf-2.37.zip '

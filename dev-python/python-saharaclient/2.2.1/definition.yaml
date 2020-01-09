@@ -4,9 +4,9 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: Babel
   
-  version: 2.1.0
+  version: 2.4.0
 - 
   category: ~dev-python
   description: ""
@@ -18,13 +18,27 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: Babel
+  name: pbr
   
-  version: 2.4.0
+  version: 2.1.0
 description: This is a client for the OpenStack Sahara API, aka HADOOP
 license: Apache-2.0
 name: python-saharaclient
 requires:
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: Babel
+  
+  version: 2.3.4
 - 
   category: dev-python
   description: ""
@@ -43,37 +57,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: keystoneauth
   
-  version: 2.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: osc-lib
-  
-  version: 1.11.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-openstackclient
-  
-  version: 3.12.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: requests
-  
-  version: 2.14.2
+  version: 3.4.0
 - 
   category: dev-python
   description: ""
@@ -85,6 +71,13 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: osc-lib
+  
+  version: 1.11.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: oslo-utils
   
   version: 3.33.0
@@ -92,16 +85,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: Babel
+  name: requests
   
-  version: 2.3.4
+  version: 2.14.2
 - 
   category: dev-python
   description: ""
   license: ""
-  name: keystoneauth
+  name: oslo-serialization
   
-  version: 3.4.0
+  version: 1.18.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-openstackclient
+  
+  version: 3.12.0
 uri:
 - mirror://pypi/p/python-saharaclient/python-saharaclient-2.2.1.tar.gz
 use_flags:

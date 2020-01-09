@@ -12,33 +12,19 @@ license: LGPL-2.1
 name: boinc
 requires:
 - 
-  category: dev-db
+  category: x11-drivers
   description: ""
   license: ""
-  name: sqlite
+  name: nvidia-drivers
+  
+  version: "180.22"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freeglut
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: wxGTK
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: "2.1"
 - 
   category: sys-apps
   description: ""
@@ -47,24 +33,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
   
   version: ""
 - 
@@ -82,19 +54,47 @@ requires:
   
   version: "20080809"
 - 
-  category: x11-drivers
+  category: sys-libs
   description: ""
   license: ""
-  name: nvidia-drivers
-  
-  version: "180.22"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]
+  name: zlib
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: wxGTK
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: "2.1"
 uri:
 - https://github.com/BOINC/boinc/archive/client_release/7.10/7.9.3.tar.gz -> boinc-7.9.3.tar.gz
 use_flags:

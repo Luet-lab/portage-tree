@@ -5,20 +5,6 @@ license: LGPL-2.1
 name: spice-vdagent
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libpciaccess
-  
-  version: "0.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -26,10 +12,17 @@ requires:
   
   version: ""
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: spice-protocol
+  
+  version: 0.14.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libdrm
   
   version: ""
 - 
@@ -47,12 +40,26 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
+  category: sys-apps
   description: ""
   license: ""
-  name: spice-protocol
+  name: dbus
   
-  version: 0.14.0
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-vdagent
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -64,9 +71,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
+  name: libpciaccess
   
-  version: ""
+  version: "0.10"
 - 
   category: x11-libs
   description: ""
@@ -82,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-vdagent
+  name: libX11
   
   version: ""
 uri:

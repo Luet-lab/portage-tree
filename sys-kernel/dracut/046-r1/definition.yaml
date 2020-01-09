@@ -12,19 +12,19 @@ license: GPL-2
 name: dracut
 requires:
 - 
-  category: virtual
+  category: sec-policy
   description: ""
   license: ""
-  name: udev
+  name: selinux-dracut
   
   version: ""
 - 
-  category: virtual
+  category: app-shells
   description: ""
   license: ""
-  name: pkgconfig
+  name: bash
   
-  version: ""
+  version: "4.0"
 - 
   category: sys-apps
   description: ""
@@ -47,27 +47,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "15"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: "4.0"
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -82,10 +61,31 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: virtual
   description: ""
   license: ""
-  name: selinux-dracut
+  name: udev
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: pkgconfig
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "15"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

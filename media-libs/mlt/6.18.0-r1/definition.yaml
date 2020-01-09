@@ -5,24 +5,10 @@ license: GPL-3
 name: mlt
 requires:
 - 
-  category: media-video
+  category: media-plugins
   description: ""
   license: ""
-  name: libav
-  
-  version: "12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2[X,opengl,video]
+  name: frei0r-plugins
   
   version: ""
 - 
@@ -32,6 +18,13 @@ requires:
   name: gtk+
   
   version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: 5.1.4-r4
 - 
   category: dev-libs
   description: ""
@@ -50,14 +43,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: vidstab
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
+  name: libexif
   
   version: ""
 - 
@@ -68,12 +54,47 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: libsdl2[X,opengl,video]
   
-  version: 0.1.2
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: xine-lib
+  
+  version: 1.1.2_pre20060328-r7
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -85,21 +106,35 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
   name: qtsvg
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: movit
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: rtaudio
+  
+  version: 4.1.2
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
   
   version: ""
 - 
@@ -113,48 +148,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: rtaudio
-  
-  version: 4.1.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: xine-lib
-  
-  version: 1.1.2_pre20060328-r7
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: 5.1.4-r4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libebur128
   
   version: 1.2.2
@@ -162,9 +155,23 @@ requires:
   category: media-video
   description: ""
   license: ""
-  name: ffmpeg
+  name: libav
+  
+  version: "12"
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: 0.1.2
 - 
   category: dev-qt
   description: ""
@@ -173,24 +180,17 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: frei0r-plugins
+  name: alsa-lib
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libexif
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: movit
+  name: vidstab
   
   version: ""
 uri:

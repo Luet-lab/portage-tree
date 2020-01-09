@@ -5,31 +5,10 @@ license: GPL-2 LGPL-2.1
 name: mate-settings-daemon
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: dbus-glib
-  
-  version: "0.74"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
+  name: fontconfig
   
   version: ""
 - 
@@ -40,47 +19,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: dbus
+  name: polkit
   
-  version: 1.1.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
+  version: "0.97"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: nss
   
-  version: "2.50"
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: mate-desktop
-  
-  version: 1.21.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmatemixer
-  
-  version: "1.10"
+  version: 3.11.2
 - 
   category: gnome-base
   description: ""
@@ -92,9 +43,23 @@ requires:
   category: mate-base
   description: ""
   license: ""
-  name: libmatekbd
+  name: mate-desktop
   
-  version: 1.17.0
+  version: 1.21.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
 - 
   category: media-sound
   description: ""
@@ -103,31 +68,10 @@ requires:
   
   version: 0.9.15
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.11.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
+  name: libXext
   
   version: ""
 - 
@@ -137,13 +81,6 @@ requires:
   name: libxklavier
   
   version: "5.2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -157,14 +94,77 @@ requires:
   license: ""
   name: dbus-glib
   
-  version: "0.71"
+  version: "0.74"
 - 
-  category: sys-auth
+  category: dev-libs
   description: ""
   license: ""
-  name: polkit
+  name: glib
   
-  version: "0.97"
+  version: "2.50"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.71"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: libmatekbd
+  
+  version: 1.17.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmatemixer
+  
+  version: "1.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: ""
 uri: []
 use_flags:
 - X

@@ -11,6 +11,13 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
   name: mariadb-galera
   
   version: ""
@@ -21,17 +28,24 @@ conflicts:
   name: mysql-cluster
   
   version: ""
+description: Fully compatible, enhanced and open source drop-in replacement for MySQL
+license: GPL-2
+name: percona-server
+requires:
 - 
-  category: dev-db
+  category: acct-group
   description: ""
   license: ""
   name: mysql
   
   version: ""
-description: Fully compatible, enhanced and open source drop-in replacement for MySQL
-license: GPL-2
-name: percona-server
-requires:
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -39,6 +53,13 @@ requires:
   name: protobuf
   
   version: "3.8"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -50,112 +71,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: openssl
   
   version: 1.0.0
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
   name: pam
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: mecab
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libaio
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
   
   version: ""
 - 
@@ -169,7 +92,84 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libedit
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: mecab
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
   
   version: ""
 uri:

@@ -5,45 +5,17 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.38.2-r1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "200"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
   category: sys-apps
   description: ""
   license: ""
   name: coreutils[acl?]
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
   
   version: ""
 - 
@@ -61,12 +33,26 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-consolekit
+  name: pam
   
   version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.110"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.38.2-r1
 - 
   category: sys-libs
   description: ""
@@ -74,6 +60,20 @@ requires:
   name: zlib
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "200"
 uri:
 - https://www.freedesktop.org/software/ConsoleKit/dist/ConsoleKit-0.4.6.tar.xz
 - https://launchpad.net/debian/+archive/primary/+files/consolekit_0.4.6-4.debian.tar.gz

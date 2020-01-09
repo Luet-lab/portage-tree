@@ -12,13 +12,6 @@ license: GPL-2+ LGPL-2.1+
 name: syslog-ng
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -26,10 +19,10 @@ requires:
   
   version: 0.9.0
 - 
-  category: dev-libs
+  category: net-analyzer
   description: ""
   license: ""
-  name: libmaxminddb
+  name: net-snmp
   
   version: ""
 - 
@@ -40,19 +33,54 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libpcre
+  name: libcap
   
-  version: "6.1"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libmaxminddb
   
   version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
+  
+  version: 1.0.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: rabbitmq-c
+  
+  version: 0.8.0
 - 
   category: dev-libs
   description: ""
@@ -68,13 +96,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -85,9 +106,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-c
+  name: libressl
   
-  version: "0.9"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.10.1
 - 
   category: dev-libs
   description: ""
@@ -96,26 +124,12 @@ requires:
   
   version: 0.42.4
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rabbitmq-c
-  
-  version: 0.8.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: librdkafka
+  name: libpcre
   
-  version: 1.0.0
+  version: "6.1"
 - 
   category: dev-libs
   description: ""
@@ -124,26 +138,12 @@ requires:
   
   version: 1.2.0
 - 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: tcp-wrappers
   
   version: "7.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.10.1
 uri:
 - https://github.com/balabit/syslog-ng/releases/download/syslog-ng-3.24.1/syslog-ng-3.24.1.tar.gz
 use_flags:

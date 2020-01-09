@@ -5,17 +5,24 @@ license: GPL-2
 name: policycoreutils
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libcap-ng
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: libsepol
+  
+  version: "3.0"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: ipy
   
   version: ""
 - 
@@ -29,7 +36,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libsepol
+  name: libselinux
   
   version: "3.0"
 - 
@@ -47,13 +54,6 @@ requires:
   
   version: "3.0"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
@@ -68,13 +68,6 @@ requires:
   
   version: ""
 - 
-  category: dev-python
-  description: ""
-  license: ""
-  name: ipy
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -82,12 +75,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libselinux
+  name: dbus-glib
   
-  version: "3.0"
+  version: ""
 - 
   category: sys-process
   description: ""
@@ -95,6 +88,13 @@ requires:
   name: audit
   
   version: 1.5.1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 uri:
 - https://github.com/SELinuxProject/selinux/releases/download/20191204/policycoreutils-3.0.tar.gz
 - https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2

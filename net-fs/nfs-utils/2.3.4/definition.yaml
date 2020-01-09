@@ -1,17 +1,17 @@
 category: net-fs
 conflicts:
 - 
-  category: net-nds
-  description: ""
-  license: ""
-  name: portmap
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
   name: libnfsidmap
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: portmap
   
   version: ""
 - 
@@ -26,17 +26,24 @@ license: GPL-2
 name: nfs-utils
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
   name: libtirpc
   
-  version: ""
+  version: 0.2.4-r1
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: e2fsprogs-libs
+  name: mit-krb5
   
   version: ""
 - 
@@ -47,24 +54,17 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: sys-apps
   description: ""
   license: ""
-  name: openldap
+  name: keyutils
   
-  version: ""
+  version: 1.5.9
 - 
-  category: sys-fs
+  category: net-libs
   description: ""
   license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpcbind
+  name: libtirpc
   
   version: ""
 - 
@@ -75,17 +75,17 @@ requires:
   
   version: 0.2.4
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: libevent
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
   
   version: ""
 - 
@@ -99,14 +99,14 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sys-apps
+  category: sec-policy
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: selinux-rpcbind
   
   version: ""
 - 
@@ -124,19 +124,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-nds
   description: ""
   license: ""
-  name: keyutils
+  name: openldap
   
-  version: 1.5.9
+  version: ""
 - 
-  category: net-libs
+  category: sys-fs
   description: ""
   license: ""
-  name: libtirpc
+  name: lvm2
   
-  version: 0.2.4-r1
+  version: ""
 uri:
 - mirror://sourceforge/nfs/nfs-utils-2.3.4.tar.bz2
 use_flags:

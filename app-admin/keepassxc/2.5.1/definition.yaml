@@ -5,31 +5,17 @@ license: LGPL-2.1 GPL-2 GPL-3
 name: keepassxc
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: quazip
+  name: libsodium
   
-  version: ""
+  version: 1.0.12
 - 
-  category: sys-auth
+  category: media-gfx
   description: ""
   license: ""
-  name: ykpers
+  name: qrencode
   
   version: ""
 - 
@@ -43,7 +29,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtx11extras
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: argon2
   
   version: ""
 - 
@@ -57,49 +50,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: 1.0.12
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: qrencode
+  name: qtnetwork
   
   version: ""
 - 
@@ -124,10 +75,17 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: argon2
+  name: quazip
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: ykpers
   
   version: ""
 - 
@@ -137,11 +95,54 @@ requires:
   name: libgcrypt
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 uri:
 - https://github.com/keepassxreboot/keepassxc/releases/download/2.5.1/keepassxc-2.5.1-src.tar.xz
 use_flags:
 - autotype
 - browser
+- ccache
 - debug
 - keeshare
 - +network

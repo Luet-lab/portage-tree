@@ -5,12 +5,26 @@ license: Apache-2.0
 name: salt
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: pciutils
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: mysql-python
+  name: cherrypy
   
-  version: ""
+  version: 3.2.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: msgpack
+  
+  version: "0.3"
 - 
   category: dev-libs
   description: ""
@@ -22,56 +36,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: mysql-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: timelib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: libnacl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyopenssl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libnacl
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-neutronclient
-  
-  version: 2.3.6
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: pciutils
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: keyring
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-novaclient
-  
-  version: 2.17.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pymongo
   
   version: ""
 - 
@@ -82,45 +61,24 @@ requires:
   
   version: ""
 - 
-  category: www-servers
+  category: sec-policy
   description: ""
   license: ""
-  name: tornado
-  
-  version: 4.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: msgpack
-  
-  version: "0.3"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyyaml
+  name: selinux-salt
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: yappi
   
-  version: 1.0.0
+  version: ""
 - 
-  category: www-servers
+  category: app-vim
   description: ""
   license: ""
-  name: tornado
-  
-  version: "5.0"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-futures
+  name: salt-vim
   
   version: ""
 - 
@@ -141,7 +99,28 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: timelib
+  name: libvirt-python
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyopenssl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: raet
+  
+  version: 0.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: python-gnupg
   
   version: ""
 - 
@@ -152,10 +131,17 @@ requires:
   
   version: ""
 - 
-  category: app-vim
+  category: dev-python
   description: ""
   license: ""
-  name: salt-vim
+  name: libnacl
+  
+  version: 1.0.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: portage
   
   version: ""
 - 
@@ -169,16 +155,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pyzmq
+  name: python-neutronclient
   
-  version: 2.2.0
+  version: 2.3.6
 - 
   category: dev-python
   description: ""
   license: ""
-  name: libvirt-python
+  name: markupsafe
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: requests
+  
+  version: 1.0.0
 - 
   category: dev-python
   description: ""
@@ -190,16 +183,37 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: raet
+  name: pyzmq
   
-  version: 0.6.0
+  version: 2.2.0
 - 
-  category: sys-apps
+  category: dev-python
   description: ""
   license: ""
-  name: portage
+  name: keyring
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pyyaml
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: 4.2.1
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: tornado
+  
+  version: "5.0"
 - 
   category: dev-python
   description: ""
@@ -218,35 +232,21 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: cherrypy
+  name: python-novaclient
   
-  version: 3.2.2
+  version: 2.17.0
 - 
-  category: sec-policy
+  category: virtual
   description: ""
   license: ""
-  name: selinux-salt
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-gnupg
+  name: python-futures
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: yappi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: markupsafe
+  name: pymongo
   
   version: ""
 uri:

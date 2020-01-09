@@ -5,12 +5,19 @@ license: GPL-2
 name: elinks
 requires:
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libX11
+  name: ncurses
   
-  version: ""
+  version: "5.2"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gpm
+  
+  version: 1.20.0-r5
 - 
   category: x11-libs
   description: ""
@@ -29,16 +36,16 @@ requires:
   category: dev-lang
   description: ""
   license: ""
+  name: spidermonkey
+  
+  version: 1.8.5
+- 
+  category: dev-lang
+  description: ""
+  license: ""
   name: lua
   
   version: "5"
-- 
-  category: dev-ruby
-  description: ""
-  license: ""
-  name: rubygems
-  
-  version: ""
 - 
   category: net-fs
   description: ""
@@ -50,35 +57,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: tre
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: zlib
-  
-  version: 1.1.4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.2"
-- 
-  category: dev-scheme
-  description: ""
-  license: ""
-  name: guile
-  
-  version: 1.6.4-r1
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
+  name: libX11
   
   version: ""
 - 
@@ -89,17 +75,10 @@ requires:
   
   version: 1.0.2
 - 
-  category: sys-libs
+  category: net-dns
   description: ""
   license: ""
-  name: gpm
-  
-  version: 1.20.0-r5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: libidn
   
   version: ""
 - 
@@ -110,10 +89,24 @@ requires:
   
   version: ""
 - 
+  category: dev-ruby
+  description: ""
+  license: ""
+  name: rubygems
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: tre
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -124,12 +117,12 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-scheme
   description: ""
   license: ""
-  name: spidermonkey
+  name: guile
   
-  version: 1.8.5
+  version: 1.6.4-r1
 - 
   category: dev-lang
   description: ""
@@ -137,6 +130,13 @@ requires:
   name: perl
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.1.4
 uri: []
 use_flags:
 - bittorrent

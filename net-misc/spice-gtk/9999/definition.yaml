@@ -13,26 +13,26 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: libusb
+  name: zlib
   
   version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: acl
+  name: gtk+
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: gobject-introspection
   
-  version: 2.49.91
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -41,19 +41,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: usbredir
+  name: hwids
   
-  version: 0.4.2
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: 0.110-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: "1.2"
 - 
   category: dev-libs
   description: ""
@@ -69,20 +90,6 @@ requires:
   
   version: ""
 - 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: qemu
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -90,89 +97,19 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.49.91
+- 
   category: dev-libs
   description: ""
   license: ""
   name: glib
   
   version: "2.46"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: "1.2"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: 0.110-r1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libva
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-glib
-  
-  version: ""
 - 
   category: media-libs
   description: ""
@@ -187,6 +124,69 @@ requires:
   name: pixman
   
   version: 0.17.7
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: qemu
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: usbredir
+  
+  version: 0.4.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
+  
+  version: ""
 uri: []
 use_flags:
 - +gtk3

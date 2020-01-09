@@ -5,24 +5,17 @@ license: GPL-3
 name: pcsx2
 requires:
 - 
-  category: app-arch
+  category: media-libs
   description: ""
   license: ""
-  name: xz-utils[abi_x86_32(-)]
+  name: portaudio[abi_x86_32(-)]
   
   version: ""
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: opengl[abi_x86_32(-)]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext[abi_x86_32(-)]
+  name: libpcap[abi_x86_32(-)]
   
   version: ""
 - 
@@ -36,14 +29,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libaio[abi_x86_32(-)]
+  name: libxml2
   
   version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libpcap[abi_x86_32(-)]
+  name: libsdl2[abi_x86_32(-),haptic,joystick,sound]
   
   version: ""
 - 
@@ -57,14 +50,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libICE[abi_x86_32(-)]
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libXext[abi_x86_32(-)]
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils[abi_x86_32(-)]
   
   version: ""
 - 
@@ -82,38 +82,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsdl2[abi_x86_32(-),haptic,joystick,sound]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsoundtouch[abi_x86_32(-)]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: portaudio[abi_x86_32(-)]
+  name: libaio[abi_x86_32(-)]
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: libudev[abi_x86_32(-)]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE[abi_x86_32(-)]
+  name: opengl[abi_x86_32(-)]
   
   version: ""
 - 
@@ -130,6 +109,27 @@ requires:
   name: wxGTK
   
   version: 3.0.4-r301
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsoundtouch[abi_x86_32(-)]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev[abi_x86_32(-)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 uri: []
 use_flags:
 - ""

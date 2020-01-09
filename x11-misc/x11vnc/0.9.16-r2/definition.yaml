@@ -5,19 +5,33 @@ license: GPL-2
 name: x11vnc
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libressl
+  name: libvncserver
+  
+  version: 0.9.8
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXext
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: 1.1.0
 - 
   category: x11-libs
   description: ""
@@ -33,10 +47,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXext
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -44,6 +65,27 @@ requires:
   description: ""
   license: ""
   name: libXfixes
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: tk
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
   
   version: ""
 - 
@@ -60,48 +102,6 @@ requires:
   name: avahi
   
   version: 0.6.4
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libvncserver
-  
-  version: 0.9.8
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: 1.1.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
 uri:
 - https://github.com/LibVNC/x11vnc/archive/0.9.16.tar.gz -> x11vnc-0.9.16.tar.gz
 use_flags:

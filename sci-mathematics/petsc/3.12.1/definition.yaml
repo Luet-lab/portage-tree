@@ -5,10 +5,10 @@ license: BSD-2
 name: petsc
 requires:
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: boost
+  name: lapack
   
   version: ""
 - 
@@ -29,14 +29,14 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: scalapack
+  name: superlu
   
-  version: ""
+  version: "5"
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: lapack
+  name: libX11
   
   version: ""
 - 
@@ -47,6 +47,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
   category: sci-libs
   description: ""
   license: ""
@@ -54,10 +61,38 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: mpi[cxx?,fortran?]
+  
+  version: ""
+- 
   category: sci-libs
   description: ""
   license: ""
   name: scotch[mpi?]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: blas
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5[mpi?]
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: scalapack
   
   version: ""
 - 
@@ -78,44 +113,9 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: superlu
-  
-  version: "5"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5[mpi?]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
   name: parmetis
   
   version: "4"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi[cxx?,fortran?]
-  
-  version: ""
 uri:
 - http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.12.1.tar.gz
 use_flags:

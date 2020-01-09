@@ -5,33 +5,47 @@ license: LGPL-2.1+
 name: dealii
 requires:
 - 
-  category: sci-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: opencascade
+  name: zlib
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: symengine
+  name: hdf5[mpi=]
   
-  version: "0.4"
+  version: ""
 - 
-  category: virtual
+  category: sci-mathematics
   description: ""
   license: ""
-  name: lapack
+  name: slepc[mpi=]
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: parmetis
+  name: sundials
   
   version: "4"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: tbb
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: trilinos
+  
+  version: ""
 - 
   category: sci-libs
   description: ""
@@ -54,13 +68,6 @@ requires:
   
   version: ""
 - 
-  category: sci-mathematics
-  description: ""
-  license: ""
-  name: petsc[mpi=]
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
@@ -68,10 +75,45 @@ requires:
   
   version: ""
 - 
-  category: sci-mathematics
+  category: sci-libs
   description: ""
   license: ""
-  name: slepc[mpi=]
+  name: gmsh
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: lapack
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mpi
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: muParser
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: adolc
   
   version: ""
 - 
@@ -89,24 +131,17 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: tbb
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: trilinos
+  name: opencascade
   
   version: ""
 - 
-  category: dev-cpp
+  category: sci-mathematics
   description: ""
   license: ""
-  name: muParser
+  name: petsc[mpi=]
   
   version: ""
 - 
@@ -120,21 +155,14 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: adolc
+  name: symengine
   
-  version: ""
+  version: "0.4"
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gmsh
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
+  name: boost
   
   version: ""
 - 
@@ -155,37 +183,9 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: hdf5[mpi=]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: sundials
+  name: parmetis
   
   version: "4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
 uri: []
 use_flags:
 - adolc

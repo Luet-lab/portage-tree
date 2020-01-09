@@ -5,52 +5,31 @@ license: google-chrome
 name: google-chrome-unstable
 requires:
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gtk+
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: at-spi2-atk
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -61,31 +40,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
-  
-  version: 1.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -99,51 +57,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: nss
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-chromium
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
+  version: "3.26"
 - 
   category: net-print
   description: ""
@@ -152,38 +68,24 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcap
+  name: libX11
   
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: "3.26"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
+  version: 1.5.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: libXrender
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
   
   version: ""
 - 
@@ -204,28 +106,126 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libXdamage
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: freetype
+  name: atk
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-chromium
+  
+  version: ""
+- 
+  category: app-accessibility
+  description: ""
+  license: ""
+  name: at-spi2-atk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: fontconfig
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 uri: []

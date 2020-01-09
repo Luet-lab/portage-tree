@@ -5,19 +5,12 @@ license: GPL-2+
 name: sushi
 requires:
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: nautilus
+  name: gjs
   
-  version: 3.1.90
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gst
-  
-  version: ""
+  version: "1.40"
 - 
   category: x11-libs
   description: ""
@@ -26,24 +19,52 @@ requires:
   
   version: 3.13.2
 - 
-  category: net-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: webkit-gtk
+  name: nautilus
   
-  version: ""
+  version: 3.1.90
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: evince
+  
+  version: "3.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.23.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gjs
+  name: glib
   
-  version: "1.40"
+  version: 2.29.14
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: harfbuzz
+  
+  version: 0.9.9
 - 
   category: media-libs
   description: ""
   license: ""
   name: musicbrainz
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
   
   version: ""
 - 
@@ -53,34 +74,6 @@ requires:
   name: clutter
   
   version: 1.11.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: 1.0.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: 2.23.0
-- 
-  category: app-office
-  description: ""
-  license: ""
-  name: libreoffice
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -99,23 +92,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: clutter-gst
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: harfbuzz
+  name: clutter-gtk
   
-  version: 0.9.9
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: evince
-  
-  version: "3.0"
+  version: 1.0.1
 - 
   category: media-libs
   description: ""
@@ -124,12 +110,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: gstreamer
   
-  version: 2.29.14
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: app-office
+  description: ""
+  license: ""
+  name: libreoffice
+  
+  version: ""
 uri: []
 use_flags:
 - office

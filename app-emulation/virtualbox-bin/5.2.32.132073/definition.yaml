@@ -1,17 +1,17 @@
 category: app-emulation
 conflicts:
 - 
-  category: '!app-emulation'
-  description: ""
-  license: ""
-  name: virtualbox
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: virtualbox-additions
+  
+  version: ""
+- 
+  category: '!app-emulation'
+  description: ""
+  license: ""
+  name: virtualbox
   
   version: ""
 description: Family of powerful x86 virtualization products for enterprise and home
@@ -19,6 +19,20 @@ description: Family of powerful x86 virtualization products for enterprise and h
 license: GPL-2 PUEL
 name: virtualbox-bin
 requires:
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -37,13 +51,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXrender
   
   version: ""
@@ -51,35 +58,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
+  name: libxml2
   
   version: ""
 - 
@@ -93,35 +72,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
+  name: libXmu
   
   version: ""
 - 
@@ -142,6 +93,13 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: libsdl[X]
   
   version: ""
@@ -149,21 +107,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXau
+  name: libXext
   
   version: ""
 - 
@@ -177,14 +121,70 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: expat
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXmu
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
   
   version: ""
 uri:

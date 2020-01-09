@@ -6,12 +6,19 @@ license: GPL-2
 name: packagekit-base
 requires:
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: sqlite
+  name: entropy
   
-  version: ""
+  version: "234"
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash-completion
+  
+  version: "2"
 - 
   category: dev-libs
   description: ""
@@ -34,6 +41,13 @@ requires:
   
   version: "229.4"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.9
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -41,19 +55,19 @@ requires:
   
   version: "213"
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: consolekit
+  name: portage
+  
+  version: "2.2"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash-completion
-  
-  version: "2"
 - 
   category: dev-libs
   description: ""
@@ -69,13 +83,6 @@ requires:
   
   version: 1.3.0
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.9
-- 
   category: app-portage
   description: ""
   license: ""
@@ -83,19 +90,12 @@ requires:
   
   version: "2"
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: portage
+  name: consolekit
   
-  version: "2.2"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: entropy
-  
-  version: "234"
+  version: ""
 uri:
 - https://www.freedesktop.org/software/PackageKit/releases/PackageKit-1.1.12.tar.xz
 use_flags:

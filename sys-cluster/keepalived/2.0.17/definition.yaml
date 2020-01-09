@@ -5,19 +5,26 @@ license: GPL-2
 name: keepalived
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: popt
+  name: libnfnetlink
   
   version: ""
 - 
-  category: net-analyzer
+  category: sys-apps
   description: ""
   license: ""
-  name: net-snmp
+  name: iproute2
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre2
+  
+  version: "8"
 - 
   category: sys-apps
   description: ""
@@ -40,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-analyzer
   description: ""
   license: ""
-  name: libnl
+  name: net-snmp
   
   version: ""
 - 
@@ -54,26 +61,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libnfnetlink
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
+  name: popt
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre2
+  name: libnl
   
-  version: "8"
+  version: ""
 uri:
 - https://www.keepalived.org/software/keepalived-2.0.17.tar.gz
 use_flags:

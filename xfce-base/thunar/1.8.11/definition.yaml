@@ -5,12 +5,47 @@ license: GPL-2+ LGPL-2+
 name: thunar
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "6"
+- 
   category: dev-lang
   description: ""
   license: ""
   name: perl
   
   version: "5.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: exo
+  
+  version: "0.12"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.12"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: 0.6.19
 - 
   category: virtual
   description: ""
@@ -19,19 +54,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: libpcre
+  name: libxfce4ui
   
-  version: "6"
+  version: "4.12"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: "2.42"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: desktop-file-utils
+  
+  version: 0.20-r1
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: 1.18.3
 - 
   category: x11-libs
   description: ""
@@ -47,26 +103,12 @@ requires:
   
   version: "3.22"
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: libxfce4util
+  name: libnotify
   
-  version: "4.12"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: 0.20-r1
+  version: "0.7"
 - 
   category: x11-misc
   description: ""
@@ -78,23 +120,9 @@ requires:
   category: xfce-base
   description: ""
   license: ""
-  name: libxfce4ui
-  
-  version: "4.12"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
   name: xfconf
   
   version: "4.12"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
 - 
   category: xfce-base
   description: ""
@@ -102,34 +130,6 @@ requires:
   name: xfce4-panel
   
   version: "4.10"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: exo
-  
-  version: "0.12"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: 0.6.19
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: 1.18.3
 uri:
 - https://archive.xfce.org/src/xfce/thunar/1.8/thunar-1.8.11.tar.bz2
 use_flags:

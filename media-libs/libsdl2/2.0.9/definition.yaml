@@ -8,30 +8,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: mesa
   
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: 2.1-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: 1.4.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: 2.4.46
+  version: 9.1.6
 - 
   category: media-libs
   description: ""
@@ -47,12 +26,12 @@ requires:
   
   version: 1.1.4
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: opengl
+  name: libXcursor
   
-  version: 7.0-r1
+  version: 1.1.14
 - 
   category: x11-libs
   description: ""
@@ -61,6 +40,34 @@ requires:
   
   version: 1.3.2
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: 2.4.46
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.2.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: 1.7.2
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -68,19 +75,19 @@ requires:
   
   version: 1.1.3
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: vulkan-loader
+  name: libXScrnSaver
   
-  version: ""
+  version: 1.2.2-r1
 - 
   category: media-libs
   description: ""
   license: ""
-  name: mesa
+  name: libsamplerate
   
-  version: 9.1.6
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -88,6 +95,13 @@ requires:
   name: nas
   
   version: 1.9.4
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: 7.0-r1
 - 
   category: x11-libs
   description: ""
@@ -113,23 +127,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libXrandr
   
-  version: 1.1.14
+  version: 1.4.2
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libXi
+  name: dbus
   
-  version: 1.7.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
+  version: 1.6.18-r1
 - 
   category: virtual
   description: ""
@@ -137,6 +144,13 @@ requires:
   name: glu
   
   version: 9.0-r1
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: 2.1-r1
 - 
   category: x11-libs
   description: ""
@@ -152,26 +166,12 @@ requires:
   
   version: 1.1.3
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: vulkan-loader
   
-  version: 1.2.2-r1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.6.18-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.2.0
+  version: ""
 uri:
 - http://www.libsdl.org/release/SDL2-2.0.9.tar.gz
 use_flags:

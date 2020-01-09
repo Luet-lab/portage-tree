@@ -5,19 +5,40 @@ license: GPL-2 LGPL-2.1
 name: mate-settings-daemon
 requires:
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libXi
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: 3.11.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: 0.13.4
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libnotify
+  name: cairo
   
-  version: "0.7"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -33,40 +54,26 @@ requires:
   
   version: "5.2"
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: dbus-glib
+  name: libintl
   
-  version: "0.71"
+  version: ""
 - 
-  category: sys-apps
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus
+  name: libX11
   
-  version: 1.1.2
+  version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libnotify
   
-  version: "0.74"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: 0.13.4
-- 
-  category: mate-base
-  description: ""
-  license: ""
-  name: libmatekbd
-  
-  version: 1.17.0
+  version: "0.7"
 - 
   category: media-libs
   description: ""
@@ -75,6 +82,13 @@ requires:
   
   version: "1.10"
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: 0.9.15
+- 
   category: media-libs
   description: ""
   license: ""
@@ -82,17 +96,38 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.74"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
+- 
   category: mate-base
   description: ""
   license: ""
-  name: mate-desktop
+  name: libmatekbd
   
-  version: 1.21.1
+  version: 1.17.0
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
   
   version: ""
 - 
@@ -103,12 +138,12 @@ requires:
   
   version: "0.97"
 - 
-  category: x11-libs
+  category: mate-base
   description: ""
   license: ""
-  name: libX11
+  name: mate-desktop
   
-  version: ""
+  version: 1.21.1
 - 
   category: x11-libs
   description: ""
@@ -124,47 +159,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: 0.9.15
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: dbus-glib
   
-  version: "2.50"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.11.2
+  version: "0.71"
 uri: []
 use_flags:
 - X

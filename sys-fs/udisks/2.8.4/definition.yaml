@@ -5,20 +5,6 @@ license: LGPL-2+ GPL-2+
 name: udisks
 requires:
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: eject
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,12 +12,19 @@ requires:
   
   version: "2.50"
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libatasmart
+  name: acl
   
-  version: "0.19"
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "219"
 - 
   category: dev-libs
   description: ""
@@ -40,12 +33,26 @@ requires:
   
   version: "1.30"
 - 
-  category: sys-auth
+  category: sys-fs
   description: ""
   license: ""
-  name: elogind
+  name: lvm2
   
-  version: "219"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "165"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "209"
 - 
   category: sys-apps
   description: ""
@@ -61,12 +68,26 @@ requires:
   
   version: ""
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.110"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: eject
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: libatasmart
   
-  version: "165"
+  version: "0.19"
 - 
   category: virtual
   description: ""
@@ -75,33 +96,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-block
   description: ""
   license: ""
-  name: acl
+  name: parted
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "209"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
+  version: "3"
 uri:
 - https://github.com/storaged-project/udisks/releases/download/udisks-2.8.4/udisks-2.8.4.tar.bz2
 use_flags:

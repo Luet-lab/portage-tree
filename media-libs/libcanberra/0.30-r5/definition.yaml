@@ -5,10 +5,24 @@ license: LGPL-2.1+
 name: libcanberra
 requires:
 - 
-  category: x11-themes
+  category: media-sound
   description: ""
   license: ""
-  name: sound-theme-freedesktop
+  name: pulseaudio
+  
+  version: 0.9.11
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
   
   version: ""
 - 
@@ -22,56 +36,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.32"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
   
   version: ""
 - 
@@ -89,6 +54,41 @@ requires:
   
   version: ""
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: sound-theme-freedesktop
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -96,12 +96,12 @@ requires:
   
   version: 2.20.0
 - 
-  category: media-sound
+  category: x11-libs
   description: ""
   license: ""
-  name: pulseaudio
+  name: libX11
   
-  version: 0.9.11
+  version: ""
 uri:
 - http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz
 use_flags:

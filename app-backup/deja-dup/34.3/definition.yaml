@@ -5,26 +5,19 @@ license: GPL-3
 name: deja-dup
 requires:
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: libpeas
   
-  version: ""
+  version: "1.0"
 - 
-  category: app-backup
+  category: x11-libs
   description: ""
   license: ""
-  name: duplicity
+  name: gtk+
   
-  version: 0.6.23
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: ""
+  version: "3.10"
 - 
   category: gnome-base
   description: ""
@@ -54,26 +47,12 @@ requires:
   
   version: "2.34"
 - 
-  category: dev-libs
+  category: app-backup
   description: ""
   license: ""
-  name: libpeas
+  name: duplicity
   
-  version: "1.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: "0.7"
+  version: 0.6.23
 - 
   category: dev-libs
   description: ""
@@ -81,6 +60,27 @@ requires:
   name: dbus-glib
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: "0.7"
 uri:
 - https://launchpad.net/deja-dup/34/34.3/+download/deja-dup-34.3.tar.xz
 use_flags:

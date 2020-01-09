@@ -1,19 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-fs
+  category: <sys-libs
   description: ""
   license: ""
-  name: udev
+  name: glibc
   
-  version: ""
-- 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.103
+  version: "2.11"
 - 
   category: sys-apps
   description: ""
@@ -29,12 +22,19 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-libs
+  category: <sys-fs
   description: ""
   license: ""
-  name: glibc
+  name: lvm2
   
-  version: "2.11"
+  version: 2.02.103
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
 - 
   category: <sec-policy
   description: ""
@@ -47,12 +47,19 @@ license: LGPL-2.1 MIT GPL-2
 name: eudev
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.38"
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: kmod
   
-  version: "2.20"
+  version: "16"
 - 
   category: sys-libs
   description: ""
@@ -61,12 +68,12 @@ requires:
   
   version: 2.1.9
 - 
-  category: acct-group
+  category: sys-apps
   description: ""
   license: ""
-  name: input
+  name: util-linux
   
-  version: ""
+  version: "2.20"
 - 
   category: acct-group
   description: ""
@@ -82,19 +89,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: acct-group
   description: ""
   license: ""
-  name: gobject-introspection
+  name: input
   
-  version: "1.38"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "16"
+  version: ""
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.8.tar.gz
 use_flags:

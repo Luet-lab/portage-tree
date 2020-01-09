@@ -5,6 +5,34 @@ license: GPL-2
 name: udisks
 requires:
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.66
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -19,61 +47,12 @@ requires:
   
   version: "0.100"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "1.6"
-- 
   category: virtual
   description: ""
   license: ""
   name: libudev
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.30"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.66
 - 
   category: sec-policy
   description: ""
@@ -96,6 +75,13 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1.6"
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -103,12 +89,12 @@ requires:
   
   version: "0.19"
 - 
-  category: sys-block
+  category: sys-auth
   description: ""
   license: ""
-  name: parted
+  name: polkit
   
-  version: "3"
+  version: "0.110"
 - 
   category: sys-fs
   description: ""
@@ -116,6 +102,20 @@ requires:
   name: lvm2
   
   version: 2.02.183
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.30"
 uri:
 - https://hal.freedesktop.org/releases/udisks-1.0.5.tar.gz
 use_flags:

@@ -5,10 +5,10 @@ license: GPL-2
 name: guitarix
 requires:
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: lilv
+  name: jack
   
   version: ""
 - 
@@ -19,10 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
+  category: media-libs
   description: ""
   license: ""
-  name: gtkmm
+  name: zita-resampler
   
   version: ""
 - 
@@ -33,6 +33,34 @@ requires:
   
   version: 7.26.0
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lilv
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.17
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -40,10 +68,31 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-dns
   description: ""
   license: ""
-  name: jack
+  name: avahi
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glibmm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: zita-convolver
+  
+  version: "3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: liblrdf
   
   version: ""
 - 
@@ -61,48 +110,6 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.17
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: zita-convolver
-  
-  version: "3"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: 3.1.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: liblrdf
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
   category: dev-cpp
   description: ""
   license: ""
@@ -113,30 +120,23 @@ requires:
   category: dev-cpp
   description: ""
   license: ""
-  name: glibmm
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: zita-resampler
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: gtkmm
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: boost
+  name: glib
   
   version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: 3.1.2
 uri:
 - mirror://sourceforge/guitarix/guitarix/guitarix2-0.38.1.tar.xz
 use_flags:

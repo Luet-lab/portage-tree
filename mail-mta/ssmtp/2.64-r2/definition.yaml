@@ -4,28 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: nbsmtp
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailwrapper
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
+  name: courier
   
   version: ""
 - 
@@ -53,7 +32,35 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
+  name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: opensmtpd
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailwrapper
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
   
   version: ""
 - 
@@ -74,27 +81,27 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: mini-qmail
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
+  name: nbsmtp
   
   version: ""
 description: Extremely simple MTA to get mail off the system to a Mailhub
 license: GPL-2
 name: ssmtp
 requires:
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -107,13 +114,6 @@ requires:
   description: ""
   license: ""
   name: gnutls
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
   
   version: ""
 uri:

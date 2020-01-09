@@ -5,19 +5,89 @@ license: GPL-2+
 name: cinnamon-settings-daemon
 requires:
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: libgnomekbd
+  name: glib
   
-  version: "3.6"
+  version: "2.38"
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.9.10
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.8.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: fontconfig
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 0.1.27
 - 
   category: x11-libs
   description: ""
@@ -26,10 +96,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: "(\tsys-auth"
   description: ""
   license: ""
-  name: libX11
+  name: elogind
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
   
   version: ""
 - 
@@ -43,37 +120,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXi
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.7"
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: xf86-input-wacom
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.7.3
 - 
   category: x11-libs
   description: ""
@@ -82,68 +131,47 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: sys-power
   description: ""
   license: ""
-  name: colord
+  name: upower
   
-  version: 0.1.27
+  version: 0.9.11
 - 
-  category: net-print
+  category: gnome-base
   description: ""
   license: ""
-  name: cups
+  name: libgnomekbd
   
-  version: "1.4"
+  version: "3.6"
 - 
-  category: "(\tsys-auth"
+  category: gnome-base
   description: ""
   license: ""
-  name: elogind
+  name: librsvg
+  
+  version: 2.36.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
-  category: gnome-extra
+  category: x11-drivers
   description: ""
   license: ""
-  name: cinnamon-desktop
-  
-  version: 2.8.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: xf86-input-wacom
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: nss
   
-  version: "2.38"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
+  version: 3.11.2
 - 
   category: media-libs
   description: ""
@@ -155,44 +183,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.9.10
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
+  name: libXfixes
   
   version: ""
 - 
-  category: gnome-base
+  category: sys-apps
   description: ""
   license: ""
-  name: librsvg
+  name: systemd
   
-  version: 2.36.2
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.11
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.11.2
+  version: ""
 uri:
 - https://github.com/linuxmint/cinnamon-settings-daemon/archive/3.8.4.tar.gz -> cinnamon-settings-daemon-3.8.4.tar.gz
 use_flags:

@@ -5,38 +5,24 @@ license: GPL-2
 name: pdns
 requires:
 - 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 2.0.27-r4
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: 0.5.1
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: geoip
   
   version: ""
 - 
   category: dev-lang
   description: ""
   license: ""
-  name: lua
+  name: luajit
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -44,6 +30,13 @@ requires:
   description: ""
   license: ""
   name: postgresql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
@@ -61,10 +54,24 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: net-misc
   description: ""
   license: ""
-  name: luajit
+  name: curl
+  
+  version: 7.21.3
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.0.27-r4
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
   
   version: ""
 - 
@@ -85,30 +92,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: boost
-  
-  version: "1.35"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
+  name: openssl
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
+  name: boost
+  
+  version: "1.35"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
   
   version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
+  
+  version: 0.5.1
 - 
   category: dev-db
   description: ""
@@ -116,13 +123,6 @@ requires:
   name: tinycdb
   
   version: "0.77"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.21.3
 uri:
 - https://downloads.powerdns.com/releases/pdns-4.2.1.tar.bz2
 use_flags:

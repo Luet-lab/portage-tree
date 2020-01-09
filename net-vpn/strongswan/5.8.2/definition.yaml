@@ -1,17 +1,17 @@
 category: net-vpn
 conflicts:
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openswan
-  
-  version: ""
-- 
   category: net-vpn
   description: ""
   license: ""
   name: libreswan
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openswan
   
   version: ""
 description: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
@@ -19,31 +19,17 @@ license: GPL-2 RSA DES
 name: strongswan
 requires:
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libgcrypt
+  name: mysql-connector-c
   
   version: ""
 - 
-  category: net-nds
+  category: sys-libs
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
+  name: pam
   
   version: ""
 - 
@@ -53,6 +39,34 @@ requires:
   name: logger
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.8
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: 4.1.5
 - 
   category: net-libs
   description: ""
@@ -68,6 +82,20 @@ requires:
   
   version: ""
 - 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -78,7 +106,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: iproute2
+  name: systemd
   
   version: ""
 - 
@@ -92,14 +120,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gmp
-  
-  version: 4.1.5
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
+  name: libgcrypt
   
   version: ""
 - 
@@ -107,27 +128,6 @@ requires:
   description: ""
   license: ""
   name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.8
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri:

@@ -5,19 +5,12 @@ license: LGPL-2.1
 name: shotwell
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libxml2
   
-  version: 3.22.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.5.9
+  version: 2.6.32
 - 
   category: media-libs
   description: ""
@@ -25,6 +18,41 @@ requires:
   name: libgphoto2
   
   version: "2.5"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
+  
+  version: "3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.22.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.40.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
+  
+  version: "2.4"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libexif
+  
+  version: 0.6.16
 - 
   category: x11-libs
   description: ""
@@ -36,30 +64,23 @@ requires:
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-gdkpixbuf
+  name: gst-plugins-meta
   
   version: ""
 - 
-  category: net-libs
+  category: media-libs
   description: ""
   license: ""
-  name: webkit-gtk
+  name: gst-plugins-base
   
-  version: "2.4"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: libgudev
   
-  version: 0.7.6
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.6.32
+  version: "145"
 - 
   category: media-libs
   description: ""
@@ -67,6 +88,13 @@ requires:
   name: libraw
   
   version: 0.13.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgee
+  
+  version: 0.8.5
 - 
   category: x11-libs
   description: ""
@@ -78,58 +106,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gexiv2
-  
-  version: 0.10.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
-  
-  version: 0.6.16
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opencv
-  
-  version: 2.3.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.40.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
-  
-  version: 0.8.5
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: gstreamer
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "145"
 - 
   category: dev-libs
   description: ""
@@ -138,19 +117,40 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: media-libs
   description: ""
   license: ""
-  name: gcr
+  name: opencv
   
-  version: "3"
+  version: 2.3.0
 - 
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-meta
+  name: gst-plugins-gdkpixbuf
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: 0.7.6
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.5.9
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gexiv2
+  
+  version: 0.10.4
 uri: []
 use_flags:
 - opencv

@@ -5,6 +5,20 @@ license: LGPL-2+ GPL-2+
 name: udisks
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
@@ -12,12 +26,19 @@ requires:
   
   version: "219"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: systemd
+  name: gobject-introspection
   
-  version: "209"
+  version: "1.30"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -25,13 +46,6 @@ requires:
   name: util-linux
   
   version: "2.30"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: "165"
 - 
   category: sys-block
   description: ""
@@ -50,13 +64,6 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: "1.30"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
   name: libatasmart
   
   version: "0.19"
@@ -68,26 +75,12 @@ requires:
   
   version: "0.110"
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: systemd
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
+  version: "209"
 - 
   category: sec-policy
   description: ""
@@ -96,10 +89,17 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: "165"
+- 
   category: virtual
   description: ""
   license: ""
-  name: udev
+  name: acl
   
   version: ""
 uri:

@@ -19,10 +19,45 @@ requires:
   
   version: 1.5.0
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: systemd
+  name: librdkafka
+  
+  version: 1.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
+  
+  version: 0.11.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.10.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: ivykis
+  
+  version: 0.42.4
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: libdbi
+  
+  version: 0.9.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libesmtp
   
   version: ""
 - 
@@ -36,16 +71,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: ivykis
+  name: openssl
   
-  version: 0.42.4
+  version: ""
 - 
-  category: net-libs
+  category: net-misc
   description: ""
   license: ""
-  name: rabbitmq-c
+  name: curl
   
-  version: 0.8.0
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
+  
+  version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mongo-c-driver
+  
+  version: 1.2.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -57,9 +113,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: hiredis
+  name: libmaxminddb
   
-  version: 0.11.0
+  version: ""
 - 
   category: net-analyzer
   description: ""
@@ -78,7 +134,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 - 
@@ -89,68 +145,12 @@ requires:
   
   version: "6.1"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
-  
-  version: "0.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librdkafka
-  
-  version: 1.0.0
-- 
   category: net-libs
   description: ""
   license: ""
-  name: libesmtp
+  name: rabbitmq-c
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.10.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmaxminddb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
-  
-  version: 1.2.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libdbi
-  
-  version: 0.9.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
+  version: 0.8.0
 uri:
 - https://github.com/balabit/syslog-ng/releases/download/syslog-ng-3.22.1/syslog-ng-3.22.1.tar.gz
 use_flags:

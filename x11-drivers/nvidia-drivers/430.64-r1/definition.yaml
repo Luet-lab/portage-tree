@@ -12,26 +12,26 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: jansson
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf[X]
+  name: libX11
   
   version: ""
 - 
-  category: x11-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: pango[X]
+  name: eselect-opengl
   
-  version: ""
+  version: 1.0.9
 - 
   category: sys-power
   description: ""
@@ -47,26 +47,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: jansson
+  name: eselect-opencl
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: "1.0"
 - 
   category: x11-libs
   description: ""
@@ -75,17 +61,52 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glibc
+  name: libXext
   
-  version: 2.6.1
+  version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: atk
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: 1.20.99
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: 1.6.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: 1.3.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf[X]
   
   version: ""
 - 
@@ -106,65 +127,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: atk
   
   version: ""
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: 1.20.99
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opencl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
-  
-  version: 1.0.9
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: 1.6.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: 1.3.2
 - 
   category: dev-libs
   description: ""
@@ -172,6 +137,41 @@ requires:
   name: glib
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango[X]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.0"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: 2.6.1
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/430.64/NVIDIA-FreeBSD-x86_64-430.64.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/430.64/NVIDIA-Linux-x86_64-430.64.run '

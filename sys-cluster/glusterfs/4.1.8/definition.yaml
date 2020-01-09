@@ -5,34 +5,6 @@ license: '|| ( GPL-2 LGPL-3+ )'
 name: glusterfs
 requires:
 - 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: rpcsvc-proto
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -47,10 +19,24 @@ requires:
   
   version: ""
 - 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
+- 
   category: net-libs
   description: ""
   license: ""
-  name: libtirpc
+  name: rpcsvc-proto
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
   
   version: ""
 - 
@@ -61,24 +47,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: userspace-rcu
+  name: librdmacm
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libxml2
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: util-linux
+  name: readline
   
   version: ""
 - 
@@ -89,10 +89,10 @@ requires:
   
   version: 2.7.0
 - 
-  category: sys-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: glibc[rpc(-)]
+  name: libibverbs
   
   version: ""
 - 
@@ -110,31 +110,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libaio
+  name: util-linux
   
   version: ""
 - 
-  category: sys-fabric
+  category: sys-libs
   description: ""
   license: ""
-  name: libibverbs
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
+  name: glibc[rpc(-)]
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: userspace-rcu
   
   version: ""
 uri:

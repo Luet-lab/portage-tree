@@ -1,19 +1,19 @@
 category: net-fs
 conflicts:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnfsidmap
-  
-  version: ""
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: openrc
   
   version: 0.13.9
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnfsidmap
+  
+  version: ""
 - 
   category: net-nds
   description: ""
@@ -26,10 +26,66 @@ license: GPL-2
 name: nfs-utils
 requires:
 - 
-  category: app-crypt
+  category: dev-db
   description: ""
   license: ""
-  name: mit-krb5
+  name: sqlite
+  
+  version: "3.3"
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: 0.2.4-r1
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-rpcbind
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
   
   version: ""
 - 
@@ -47,24 +103,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyutils
-  
-  version: 1.5.9
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: libevent
   
   version: ""
 - 
@@ -75,48 +117,6 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.3"
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: 0.2.4-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-rpcbind
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -124,17 +124,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libtirpc
+  name: keyutils
   
-  version: ""
+  version: 1.5.9
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: libcap
+  name: mit-krb5
   
   version: ""
 uri:

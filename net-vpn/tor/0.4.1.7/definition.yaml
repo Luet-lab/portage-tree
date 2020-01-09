@@ -5,10 +5,24 @@ license: BSD GPL-2
 name: tor
 requires:
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: asciidoc
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
@@ -26,17 +40,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: asciidoc
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
-  name: xz-utils
+  name: zstd
   
   version: ""
 - 
@@ -47,17 +54,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: systemd
+  name: libcap
   
   version: ""
 - 
-  category: sec-policy
+  category: app-arch
   description: ""
   license: ""
-  name: selinux-tor
+  name: xz-utils
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: tor
   
   version: ""
 - 
@@ -68,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libcap
+  name: selinux-tor
   
   version: ""
 - 
@@ -88,20 +102,6 @@ requires:
   name: libseccomp
   
   version: 2.4.1
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: tor
-  
-  version: ""
 uri:
 - https://www.torproject.org/dist/tor-.tar.gz
 - https://archive.torproject.org/tor-package-archive/tor-.tar.gz
