@@ -13,6 +13,20 @@ license: "BSD-2 BSD SSLeay MIT GPL-2 GPL-2+\n\tnginx_modules_http_security? ( Ap
 name: nginx
 requires:
 - 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-nginx
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.1c
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -27,13 +41,6 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -44,14 +51,42 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: apr-util
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: yajl
+  name: openssl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: brotli
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -65,21 +100,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: apache
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-nginx
+  name: libpcre
   
   version: ""
 - 
@@ -90,10 +111,24 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: brotli
+  name: libxslt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache
   
   version: ""
 - 
@@ -111,17 +146,10 @@ requires:
   
   version: "5.8"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: apr-util
+  name: libxml2
   
   version: ""
 - 
@@ -129,34 +157,6 @@ requires:
   description: ""
   license: ""
   name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1c
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
   
   version: ""
 uri:

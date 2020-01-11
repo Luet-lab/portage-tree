@@ -13,10 +13,17 @@ license: LGPL-2.1
 name: spice-gtk
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: libgudev
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwids
   
   version: ""
 - 
@@ -27,19 +34,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
   license: ""
-  name: acl
+  name: libsoup
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
+  version: 2.49.91
 - 
   category: media-sound
   description: ""
@@ -48,12 +48,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: pixman
   
-  version: ""
+  version: 0.17.7
 - 
   category: x11-libs
   description: ""
@@ -69,10 +69,17 @@ requires:
   
   version: "2.46"
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: jpeg
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
   
   version: ""
 - 
@@ -83,52 +90,38 @@ requires:
   
   version: 0.110-r1
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: 2.49.91
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: phodav
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: 0.17.7
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: "1.2"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwids
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libressl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -136,20 +129,6 @@ requires:
   description: ""
   license: ""
   name: cyrus-sasl
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: qemu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
   
   version: ""
 - 
@@ -163,23 +142,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: gst-plugins-good
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: opus
+  name: cairo
   
-  version: ""
+  version: "1.2"
 - 
   category: sys-apps
   description: ""
@@ -187,6 +159,34 @@ requires:
   name: usbredir
   
   version: 0.4.2
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: phodav
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: qemu
+  
+  version: ""
 uri:
 - https://www.spice-space.org/download/gtk/spice-gtk-0.35.tar.bz2
 use_flags:

@@ -1,10 +1,10 @@
 category: net-mail
 conflicts:
 - 
-  category: net-mail
+  category: mail-mta
   description: ""
   license: ""
-  name: bincimap
+  name: courier
   
   version: ""
 - 
@@ -15,10 +15,10 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
+  category: net-mail
   description: ""
   license: ""
-  name: courier
+  name: bincimap
   
   version: ""
 - 
@@ -33,12 +33,61 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: fam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
   category: net-mail
   description: ""
   license: ""
   name: mailbase
   
   version: 0.00-r8
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-authlib
+  
+  version: 0.66.4
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: courier-unicode
+  
+  version: "2"
 - 
   category: dev-libs
   description: ""
@@ -51,55 +100,6 @@ requires:
   description: ""
   license: ""
   name: selinux-courier
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-unicode
-  
-  version: "2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: 1.8.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-authlib
-  
-  version: 0.66.4
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: fam
   
   version: ""
 uri:

@@ -12,6 +12,20 @@ requires:
   
   version: ""
 - 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: "1.4"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
   category: app-arch
   description: ""
   license: ""
@@ -26,12 +40,12 @@ requires:
   
   version: 1.2.10
 - 
-  category: app-emulation
+  category: dev-db
   description: ""
   license: ""
-  name: docker-proxy
+  name: sqlite
   
-  version: 0.8.0_p20191011
+  version: 3.7.9
 - 
   category: sys-fs
   description: ""
@@ -47,12 +61,19 @@ requires:
   
   version: 2.2.1
 - 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: docker-proxy
+  
+  version: 0.8.0_p20191011
+- 
   category: sys-process
   description: ""
   license: ""
-  name: procps
+  name: tini
   
-  version: ""
+  version: 0.18.0
 - 
   category: dev-vcs
   description: ""
@@ -67,27 +88,6 @@ requires:
   name: libltdl
   
   version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: tini
-  
-  version: 0.18.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.7.9
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: "1.4"
 uri:
 - https://github.com/docker/docker-ce/archive/v19.03.4.tar.gz -> docker-19.03.4.tar.gz
 use_flags:

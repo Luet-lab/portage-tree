@@ -1,6 +1,20 @@
 category: sys-fs
 conflicts:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: gentoo-systemd-integration
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: <sec-policy
   description: ""
   license: ""
@@ -15,13 +29,6 @@ conflicts:
   
   version: "2.11"
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-systemd-integration
-  
-  version: ""
-- 
   category: <sys-fs
   description: ""
   license: ""
@@ -35,24 +42,17 @@ conflicts:
   name: udev
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 GPL-2
 name: eudev
 requires:
 - 
-  category: sys-apps
+  category: acct-group
   description: ""
   license: ""
-  name: kmod
+  name: kvm
   
-  version: "16"
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -60,6 +60,13 @@ requires:
   name: libselinux
   
   version: 2.1.9
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: input
+  
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -75,19 +82,12 @@ requires:
   
   version: "2.20"
 - 
-  category: acct-group
+  category: sys-apps
   description: ""
   license: ""
-  name: input
+  name: kmod
   
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
+  version: "16"
 uri: []
 use_flags:
 - +blkid

@@ -5,40 +5,12 @@ license: GPL-2
 name: snort
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnsl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-snort
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libpcre
   
   version: "8.33"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: daq
-  
-  version: 2.0.2
 - 
   category: dev-libs
   description: ""
@@ -54,17 +26,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: glibc[rpc(-)]
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
+  name: selinux-snort
   
   version: ""
 - 
@@ -74,6 +39,41 @@ requires:
   name: libpcap
   
   version: 1.3.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: daq
+  
+  version: 2.0.2
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnsl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: glibc[rpc(-)]
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
+  
+  version: ""
 uri:
 - https://www.snort.org/downloads/archive/snort/snort-2.9.12.tar.gz
 use_flags:

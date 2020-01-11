@@ -12,38 +12,10 @@ license: GPL-2
 name: munin
 requires:
 - 
-  category: www-servers
+  category: virtual
   description: ""
   license: ""
-  name: apache[apache2_modules_cgi,apache2_modules_cgid,apache2_modules_rewrite]
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: CGI-Fast
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Cache-Memcached
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
+  name: awk
   
   version: ""
 - 
@@ -54,10 +26,17 @@ requires:
   
   version: "1.5"
 - 
-  category: dev-perl
+  category: dev-lang
   description: ""
   license: ""
-  name: File-Copy-Recursive
+  name: perl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Time-HiRes
   
   version: ""
 - 
@@ -68,10 +47,24 @@ requires:
   
   version: ""
 - 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Cache-Memcached
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: awk
+  name: perl-Sys-Syslog
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-munin
   
   version: ""
 - 
@@ -82,38 +75,38 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Digest-MD5
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: Log-Log4perl
+  name: CGI-Fast
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: perl-Getopt-Long
+  name: mysql
   
   version: ""
 - 
-  category: dev-perl
+  category: sys-libs
   description: ""
   license: ""
-  name: DBD-Pg
+  name: freeipmi
   
-  version: ""
+  version: 1.1.6-r1
 - 
-  category: dev-perl
+  category: media-fonts
   description: ""
   license: ""
-  name: Net-SSLeay
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Sys-Syslog
+  name: dejavu
   
   version: ""
 - 
@@ -131,24 +124,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-perl
   description: ""
   license: ""
-  name: perl-Storable
+  name: Net-DNS
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache[apache2_modules_cgi,apache2_modules_cgid,apache2_modules_rewrite]
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Cache-Cache
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: dejavu
+  name: URI
   
   version: ""
 - 
@@ -156,48 +149,6 @@ requires:
   description: ""
   license: ""
   name: Net-SNMP
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Digest-MD5
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: dhcp
-  
-  version: "3"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTTP-Date
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-IRC
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Text-Balanced
   
   version: ""
 - 
@@ -211,14 +162,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
+  name: HTML-Template
   
   version: ""
 - 
@@ -236,31 +180,45 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: freeipmi
-  
-  version: 1.1.6-r1
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-munin
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: perl-Storable
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-DNS
+  name: HTTP-Date
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-IRC
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-mysql
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Log-Log4perl
   
   version: ""
 - 
@@ -271,10 +229,17 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: sphinx
+  name: perl-Text-Balanced
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
   
   version: ""
 - 
@@ -285,31 +250,17 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: sys-process
   description: ""
   license: ""
-  name: HTML-Template
+  name: procps
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-CIDR
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Time-HiRes
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
+  name: Cache-Cache
   
   version: ""
 - 
@@ -323,7 +274,42 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: URI
+  name: File-Copy-Recursive
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-CIDR
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Getopt-Long
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: dhcp
+  
+  version: "3"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-SSLeay
   
   version: ""
 - 
@@ -333,6 +319,20 @@ requires:
   name: rrdtool
   
   version: "1.3"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-MIME-Base64
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: sphinx
+  
+  version: ""
 - 
   category: virtual
   description: ""

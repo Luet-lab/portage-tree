@@ -6,27 +6,6 @@ license: GPL-3
 name: gnome-dvb-daemon
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: 1.4.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-rtsp-server
-  
-  version: 1.4.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.32.0
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -34,12 +13,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: media-libs
   description: ""
   license: ""
-  name: sqlite
+  name: gst-rtsp-server
   
-  version: "3.4"
+  version: 1.4.5
 - 
   category: x11-libs
   description: ""
@@ -51,14 +30,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: glib
+  
+  version: 2.32.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libgee
   
   version: "0.8"
 - 
-  category: media-plugins
+  category: dev-python
   description: ""
   license: ""
-  name: gst-plugins-dvb
+  name: gst-python
   
   version: ""
 - 
@@ -79,21 +65,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: gst-plugins-bad
   
   version: 1.4.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: gst-plugins-good
   
   version: 1.4.0
 - 
-  category: dev-python
+  category: dev-db
   description: ""
   license: ""
-  name: gst-python
+  name: sqlite
+  
+  version: "3.4"
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-dvb
   
   version: ""
 - 
@@ -103,6 +96,13 @@ requires:
   name: gobject-introspection
   
   version: 1.44.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: 1.4.0
 uri: []
 use_flags:
 - nls

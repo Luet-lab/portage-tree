@@ -5,31 +5,10 @@ license: ZLIB
 name: zathura
 requires:
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.5.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: file
+  name: cairo[X]
   
   version: ""
 - 
@@ -40,12 +19,40 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: texlive-core
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.5.9
+- 
   category: dev-libs
   description: ""
   license: ""
   name: girara
   
   version: 0.3.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.50"
 - 
   category: sys-devel
   description: ""
@@ -57,16 +64,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: cairo[X]
+  name: gtk+
   
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: texlive-core
-  
-  version: ""
+  version: "3.22"
 uri:
 - https://github.com/pwmt/zathura/archive/0.4.4.tar.gz -> zathura-0.4.4.tar.gz
 use_flags:

@@ -5,24 +5,24 @@ license: GPL-2+
 name: gnome-software
 requires:
 - 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: 1.1.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: 2.52.0
-- 
   category: sys-auth
   description: ""
   license: ""
   name: polkit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: fwupd
+  
+  version: 1.0.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
   
   version: ""
 - 
@@ -32,6 +32,20 @@ requires:
   name: gtk+
   
   version: 3.22.4
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: 2.52.0
 - 
   category: gnome-base
   description: ""
@@ -50,30 +64,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: json-glib
   
-  version: "2.56"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: fwupd
-  
-  version: 1.0.3
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 3.18.0
+  version: 1.2.0
 - 
   category: app-text
   description: ""
@@ -82,12 +75,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-admin
   description: ""
   license: ""
-  name: libgudev
+  name: packagekit-base
   
-  version: ""
+  version: 1.1.0
 - 
   category: dev-libs
   description: ""
@@ -99,9 +92,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: glib
   
-  version: 1.2.0
+  version: "2.56"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 3.18.0
 uri: []
 use_flags:
 - +firmware

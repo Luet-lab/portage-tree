@@ -5,33 +5,19 @@ license: GPL-2+ LGPL-2+
 name: thunar
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: "2.14"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
   category: xfce-base
   description: ""
   license: ""
-  name: xfce4-panel
+  name: xfconf
   
-  version: "4.10"
+  version: "4.12"
 - 
-  category: gnome-base
+  category: dev-util
   description: ""
   license: ""
-  name: gvfs
+  name: desktop-file-utils
   
-  version: 1.18.3
+  version: 0.20-r1
 - 
   category: virtual
   description: ""
@@ -47,26 +33,12 @@ requires:
   
   version: "3.22"
 - 
-  category: xfce-base
+  category: x11-misc
   description: ""
   license: ""
-  name: xfconf
+  name: shared-mime-info
   
-  version: "4.12"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.42"
+  version: ""
 - 
   category: xfce-base
   description: ""
@@ -74,6 +46,13 @@ requires:
   name: libxfce4ui
   
   version: "4.12"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: exo
+  
+  version: "0.12"
 - 
   category: media-libs
   description: ""
@@ -85,37 +64,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
-  
-  version: "6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
+  name: gobject-introspection
   
   version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: exo
-  
-  version: "0.12"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4util
-  
-  version: "4.12"
 - 
   category: x11-libs
   description: ""
@@ -124,12 +75,61 @@ requires:
   
   version: "0.7"
 - 
-  category: dev-util
+  category: xfce-base
   description: ""
   license: ""
-  name: desktop-file-utils
+  name: xfce4-panel
   
-  version: 0.20-r1
+  version: "4.10"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: 1.18.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: "2.14"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.12"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: "6"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: "5.6"
 uri:
 - https://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 use_flags:

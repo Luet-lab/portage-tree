@@ -4,14 +4,14 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-galera
+  name: mariadb
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: mysql-cluster
   
   version: ""
 - 
@@ -32,97 +32,20 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb
+  name: mysql-connector-c
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: mysql-cluster
+  name: mariadb-galera
   
   version: ""
 description: A fast, multi-threaded, multi-user SQL database server
 license: GPL-2
 name: percona-server
 requires:
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: "4"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -131,17 +54,31 @@ requires:
   
   version: 4.7-r1
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libaio
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
   
   version: ""
 - 
-  category: sys-process
+  category: sec-policy
   description: ""
   license: ""
-  name: procps
+  name: selinux-mysql
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libtirpc
   
   version: ""
 - 
@@ -159,24 +96,52 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-process
   description: ""
   license: ""
-  name: jemalloc
+  name: procps
   
   version: ""
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: mecab
+  name: protobuf
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: snappy
+  name: zstd
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
   
   version: ""
 - 
@@ -190,9 +155,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libevent
   
-  version: 1.0.0
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -215,6 +180,41 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libaio
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: mecab
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: snappy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -222,10 +222,10 @@ requires:
   
   version: 1.2.3
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libtirpc
+  name: jemalloc
   
   version: ""
 - 

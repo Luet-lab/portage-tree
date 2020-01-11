@@ -12,33 +12,12 @@ license: GPL-3
 name: schroot
 requires:
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: libintl
+  name: util-linux
   
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: btrfs-progs
-  
-  version: 0.19-r2
+  version: "2.16"
 - 
   category: sys-libs
   description: ""
@@ -54,6 +33,13 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -61,12 +47,26 @@ requires:
   
   version: 1.42.0
 - 
-  category: sys-apps
+  category: sys-fs
   description: ""
   license: ""
-  name: util-linux
+  name: btrfs-progs
   
-  version: "2.16"
+  version: 0.19-r2
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs
+  
+  version: ""
 uri:
 - mirror://debian/pool/main/s/schroot/schroot_1.6.10.orig.tar.xz
 - mirror://debian/pool/main/s/schroot/schroot_1.6.10.debian.tar.xz

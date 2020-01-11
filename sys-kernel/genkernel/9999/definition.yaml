@@ -5,19 +5,26 @@ license: GPL-2
 name: genkernel
 requires:
 - 
-  category: app-arch
+  category: sys-devel
   description: ""
   license: ""
-  name: cpio
+  name: automake
   
   version: ""
 - 
-  category: app-misc
+  category: sys-kernel
   description: ""
   license: ""
-  name: pax-utils
+  name: linux-firmware
   
-  version: 1.2.2
+  version: ""
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: elt-patches
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -36,27 +43,6 @@ requires:
   category: sys-devel
   description: ""
   license: ""
-  name: automake
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: pkgconfig
-  
-  version: ""
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: elt-patches
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
   name: autoconf-archive
   
   version: ""
@@ -68,12 +54,26 @@ requires:
   
   version: ""
 - 
-  category: sys-kernel
+  category: virtual
   description: ""
   license: ""
-  name: linux-firmware
+  name: pkgconfig
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 1.2.2
 uri:
 - https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.bz2
 - https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v5.4.tar.xz

@@ -5,17 +5,10 @@ license: GPL-2
 name: handbrake
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: a52dec
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: x264
+  name: glib
   
   version: ""
 - 
@@ -29,14 +22,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: nv-codec-headers
+  name: gst-plugins-base
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: opus
+  name: gst-plugins-bad
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
   
   version: ""
 - 
@@ -47,17 +47,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-a52dec
+  name: zlib
   
   version: ""
 - 
@@ -78,35 +71,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: nv-codec-headers
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: opus
   
   version: ""
 - 
-  category: sys-libs
+  category: media-video
   description: ""
   license: ""
-  name: zlib
+  name: ffmpeg
   
-  version: ""
+  version: "4.1"
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-x264
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
+  name: gstreamer
   
   version: ""
 - 
@@ -117,52 +103,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: x265
-  
-  version: "2.9"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdvdread
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: "12.2"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "4.1"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fdk-aac
+  name: gst-plugins-ugly
   
   version: ""
 - 
@@ -180,31 +124,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: cairo
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gst-plugins-ugly
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libass
+  name: pango
   
   version: ""
 - 
@@ -215,10 +145,24 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.10"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: x264
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-a52dec
   
   version: ""
 - 
@@ -229,12 +173,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: gtk+
+  name: gst-plugins-x264
   
-  version: "3.10"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -246,9 +197,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libbluray
+  name: a52dec
   
-  version: "1.0"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvdread
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -260,9 +218,51 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: x265
+  
+  version: "2.9"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libass
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: "1.0"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: "12.2"
 uri:
 - https://download2.handbrake.fr/1.2.2/HandBrake-1.2.2-source.tar.bz2 -> handbrake-1.2.2.tar.bz2
 use_flags:

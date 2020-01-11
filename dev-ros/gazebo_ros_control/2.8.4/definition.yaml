@@ -5,10 +5,24 @@ license: BSD
 name: gazebo_ros_control
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: urdfdom
+  
+  version: ""
+- 
   category: dev-ros
   description: ""
   license: ""
-  name: roscpp
+  name: controller_manager
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: tinyxml2
   
   version: ""
 - 
@@ -18,13 +32,6 @@ requires:
   name: joint_limits_interface
   
   version: 0.11.0
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: urdf
-  
-  version: 1.12.3-r1
 - 
   category: sci-electronics
   description: ""
@@ -37,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: boost
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: console_bridge
   
   version: ""
 - 
@@ -61,24 +61,17 @@ requires:
   
   version: ""
 - 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: controller_manager
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: transmission_interface
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: tinyxml2
+  name: console_bridge
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: roscpp
   
   version: ""
 - 
@@ -99,16 +92,23 @@ requires:
   category: dev-ros
   description: ""
   license: ""
+  name: transmission_interface
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
   name: pluginlib
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-ros
   description: ""
   license: ""
-  name: urdfdom
+  name: urdf
   
-  version: ""
+  version: 1.12.3-r1
 uri: []
 use_flags:
 - ""

@@ -19,19 +19,26 @@ license: BSD
 name: heimdal
 requires:
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gdbm
+  name: libXau
   
-  version: 1.10-r1
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.8.2
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: readline
   
-  version: ""
+  version: 6.2_p5-r1
 - 
   category: x11-libs
   description: ""
@@ -40,17 +47,24 @@ requires:
   
   version: ""
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: 2.3.0
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
+  version: 1.0.1h-r2
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libcap-ng
   
   version: ""
 - 
@@ -61,10 +75,24 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: 4.8.30-r1
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXau
+  name: libXt
   
   version: ""
 - 
@@ -78,9 +106,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
-  version: 1.0.1h-r2
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.10-r1
 - 
   category: sys-libs
   description: ""
@@ -88,41 +123,6 @@ requires:
   name: e2fsprogs-libs
   
   version: 1.42.9
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 6.2_p5-r1
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 2.3.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: 4.8.30-r1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.8.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
 uri:
 - https://github.com/heimdal/heimdal/releases/download/heimdal-7.5.0/heimdal-7.5.0.tar.gz
 use_flags:

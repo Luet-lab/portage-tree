@@ -4,14 +4,14 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-mpi
+  name: mpich
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+mpi
   
   version: ""
 - 
@@ -25,13 +25,20 @@ mpi
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: pmix
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -40,38 +47,24 @@ requires:
   
   version: "1.6"
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: libevent
   
-  version: 1.2.8-r1
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
+  version: 2.0.22
 - 
   category: sys-cluster
   description: ""
   license: ""
   name: torque
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
   
   version: ""
 - 
@@ -89,24 +82,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libltdl
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libevent
-  
-  version: 2.0.22
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
+  name: libltdl
   
   version: ""
 uri:

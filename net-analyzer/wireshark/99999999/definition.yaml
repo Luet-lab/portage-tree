@@ -5,10 +5,17 @@ license: GPL-2
 name: wireshark
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libxml2
+  name: libpcap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: nghttp2
   
   version: ""
 - 
@@ -19,48 +26,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: sbc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsmi
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
@@ -68,10 +33,17 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: net-dns
   description: ""
   license: ""
-  name: qtwidgets
+  name: c-ares
+  
+  version: "1.5"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmaxminddb
   
   version: ""
 - 
@@ -82,10 +54,45 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: sbc
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsmi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.32"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: brotli
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 - 
@@ -96,13 +103,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: bcg729
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -110,12 +110,54 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-qt
   description: ""
   license: ""
-  name: lua
+  name: qtmultimedia
   
-  version: "5.1"
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: snappy
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-wireshark
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: bcg729
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -131,31 +173,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: gnutls
+  name: qtcore
   
   version: ""
 - 
-  category: net-dns
+  category: dev-lang
   description: ""
   license: ""
-  name: c-ares
+  name: lua
   
-  version: "1.5"
+  version: "5.1"
 - 
-  category: app-arch
+  category: media-libs
   description: ""
   license: ""
-  name: brotli
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
+  name: spandsp
   
   version: ""
 - 
@@ -166,10 +201,10 @@ requires:
   
   version: "0.6"
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: nghttp2
+  name: krb5
   
   version: ""
 - 
@@ -177,41 +212,6 @@ requires:
   description: ""
   license: ""
   name: libnl
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: spandsp
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-wireshark
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.32"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmaxminddb
   
   version: ""
 uri: []

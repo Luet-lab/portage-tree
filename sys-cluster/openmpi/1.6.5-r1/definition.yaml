@@ -8,13 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpich
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -32,6 +25,13 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+  name: mpich
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
   name: pmix
   
   version: ""
@@ -39,6 +39,27 @@ description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
 - 
   category: sys-fabric
   description: ""
@@ -50,7 +71,14 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: torque
+  name: knem
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: lksctp-tools
   
   version: ""
 - 
@@ -61,38 +89,10 @@ requires:
   
   version: "2"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
   category: sys-fabric
   description: ""
   license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: lksctp-tools
+  name: librdmacm
   
   version: ""
 - 
@@ -106,7 +106,7 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: librdmacm
+  name: infinipath-psm
   
   version: ""
 uri:

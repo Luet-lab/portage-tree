@@ -12,38 +12,38 @@ license: GPL-1 GPL-2 MIT PSF-2 public-domain
 name: avidemux-plugins
 requires:
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtgui
+  name: alsa-lib
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libvpx
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: aften
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: x265
+  name: libdca
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: faad2
+  name: libsamplerate
   
   version: ""
 - 
@@ -54,10 +54,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXext
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: x264
   
   version: ""
 - 
@@ -71,70 +78,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: a52dec
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libass
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opencore-amr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: spidermonkey
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fdk-aac
+  name: faad2
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtgui
   
   version: ""
 - 
@@ -155,28 +106,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: faac
+  name: xvid
   
   version: ""
 - 
-  category: media-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libdca
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: spidermonkey
   
   version: ""
 - 
@@ -187,52 +124,45 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: x265
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libass
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opencore-amr
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
   name: lame
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: jack-audio-connection-kit
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: aften
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: dcaenc
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
   
   version: ""
 - 
@@ -246,7 +176,35 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: x264
+  name: libvorbis
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: a52dec
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
   
   version: ""
 - 
@@ -260,6 +218,34 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: faac
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: dcaenc
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: libmp4v2
   
   version: ""
@@ -267,7 +253,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: xvid
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: jack-audio-connection-kit
   
   version: ""
 uri:

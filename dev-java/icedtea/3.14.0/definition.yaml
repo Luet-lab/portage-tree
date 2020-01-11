@@ -20,12 +20,12 @@ license: Apache-1.1 Apache-2.0 GPL-1 GPL-2 GPL-2-with-linking-exception LGPL-2 M
 name: icedtea
 requires:
 - 
-  category: x11-libs
+  category: net-print
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: cups
   
-  version: ""
+  version: 1.2.12
 - 
   category: x11-libs
   description: ""
@@ -37,9 +37,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: atk
+  name: glib
   
-  version: 1.30.0
+  version: "2.26"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 3.12.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: baselayout-java
+  
+  version: 0.1.0-r1
 - 
   category: x11-libs
   description: ""
@@ -47,6 +61,34 @@ requires:
   name: gtk+
   
   version: "2.8"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: 0.9.4
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-java
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: systemtap
+  
+  version: "1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: 1.30.0
 - 
   category: media-libs
   description: ""
@@ -69,6 +111,20 @@ requires:
   
   version: 2.5.3
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: 1.1.3
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -76,10 +132,31 @@ requires:
   
   version: 1.2.3
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: krb5
+  name: pango
+  
+  version: 1.24.5
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.2"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: "2.9"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: lksctp-tools
   
   version: ""
 - 
@@ -90,41 +167,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout-java
-  
-  version: 0.1.0-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: 1.1.3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-java
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.8.8
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -132,19 +174,12 @@ requires:
   
   version: 1.1.3
 - 
-  category: net-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: lksctp-tools
+  name: libXext
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: "1.0"
+  version: 1.1.1
 - 
   category: virtual
   description: ""
@@ -163,65 +198,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: cairo
   
-  version: 0.9.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.26"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: "2.9"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 3.12.2
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: 1.2.12
+  version: 1.8.8
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: gdk-pixbuf
   
-  version: 1.24.5
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: fontconfig
   
-  version: "1.2"
+  version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libXext
+  name: alsa-lib
   
-  version: 1.1.1
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: "1"
+  version: "1.0"
 uri:
 - https://icedtea.classpath.org/download/source/icedtea-.tar.xz
 - https://icedtea.classpath.org/download/drops/icedtea8//openjdk.tar.xz -> icedtea--openjdk-454c6cbb8073.tar.xz

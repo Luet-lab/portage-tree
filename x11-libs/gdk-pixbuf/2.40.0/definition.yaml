@@ -4,13 +4,6 @@ conflicts:
   category: <gnome-base
   description: ""
   license: ""
-  name: gail
-  
-  version: "1000"
-- 
-  category: <gnome-base
-  description: ""
-  license: ""
   name: librsvg
   
   version: 2.31.0
@@ -21,6 +14,13 @@ conflicts:
   name: gtk+
   
   version: 2.90.4
+- 
+  category: <gnome-base
+  description: ""
+  license: ""
+  name: gail
+  
+  version: "1000"
 - 
   category: <x11-libs
   description: ""
@@ -33,12 +33,19 @@ license: LGPL-2+
 name: gdk-pixbuf
 requires:
 - 
-  category: virtual
+  category: x11-misc
   description: ""
   license: ""
-  name: jpeg
+  name: shared-mime-info
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.4"
 - 
   category: media-libs
   description: ""
@@ -46,13 +53,6 @@ requires:
   name: tiff
   
   version: 3.9.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -68,19 +68,19 @@ requires:
   
   version: 2.48.0
 - 
-  category: x11-misc
+  category: virtual
   description: ""
   license: ""
-  name: shared-mime-info
+  name: jpeg
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpng
+  name: libX11
   
-  version: "1.4"
+  version: ""
 uri: []
 use_flags:
 - X

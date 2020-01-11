@@ -1,17 +1,17 @@
 category: app-emulation
 conflicts:
 - 
-  category: '!app-emulation'
-  description: ""
-  license: ""
-  name: virtualbox
-  
-  version: ""
-- 
   category: app-emulation
   description: ""
   license: ""
   name: virtualbox-additions
+  
+  version: ""
+- 
+  category: '!app-emulation'
+  description: ""
+  license: ""
+  name: virtualbox
   
   version: ""
 description: Family of powerful x86 virtualization products for enterprise and home
@@ -19,6 +19,41 @@ description: Family of powerful x86 virtualization products for enterprise and h
 license: GPL-2 PUEL
 name: virtualbox-bin
 requires:
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXmu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl[X]
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -30,28 +65,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libICE
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXdmcp
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: virtualbox-modules
+  name: glib
   
   version: ""
 - 
@@ -65,41 +93,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXfixes
   
   version: ""
@@ -107,35 +100,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
+  name: libXft
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
+  name: libSM
   
   version: ""
 - 
@@ -153,6 +132,48 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: virtualbox-modules
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -160,31 +181,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl[X]
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: libXinerama
   
   version: ""
 uri:

@@ -1,6 +1,13 @@
 category: net-fs
 conflicts:
 - 
+  category: net-nds
+  description: ""
+  license: ""
+  name: portmap
+  
+  version: ""
+- 
   category: <sys-apps
   description: ""
   license: ""
@@ -14,24 +21,31 @@ conflicts:
   name: libnfsidmap
   
   version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: portmap
-  
-  version: ""
 description: NFS client and server daemons
 license: GPL-2
 name: nfs-utils
 requires:
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libxml2
   
-  version: "3.3"
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: rpcbind
+  
+  version: 0.2.4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
 - 
   category: net-nds
   description: ""
@@ -47,24 +61,10 @@ requires:
   
   version: 0.2.4-r1
 - 
-  category: sys-apps
+  category: app-crypt
   description: ""
   license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: mit-krb5
   
   version: ""
 - 
@@ -82,24 +82,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libtirpc
+  name: sqlite
   
-  version: ""
+  version: "3.3"
 - 
-  category: net-nds
+  category: sys-apps
   description: ""
   license: ""
-  name: rpcbind
-  
-  version: 0.2.4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: e2fsprogs-libs
+  name: util-linux
   
   version: ""
 - 
@@ -110,17 +103,17 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: net-libs
   description: ""
   license: ""
-  name: selinux-rpc
+  name: libtirpc
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxml2
+  name: e2fsprogs-libs
   
   version: ""
 - 
@@ -131,10 +124,17 @@ requires:
   
   version: 1.5.9
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: mit-krb5
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-rpc
   
   version: ""
 uri:

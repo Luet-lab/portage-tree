@@ -6,38 +6,24 @@ license: GPL-2
 name: transcode
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libdvdread
+  name: libxml2
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libmpeg2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXaw
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: faac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdv
+  name: libsdl-1.2.5[X?]
   
   version: ""
 - 
@@ -48,10 +34,24 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libv4l
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXpm
+  name: libXaw
   
   version: ""
 - 
@@ -69,10 +69,17 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: alsa-lib
+  name: ffmpeg
+  
+  version: "0.10"
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
   
   version: ""
 - 
@@ -83,59 +90,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: mjpegtools
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: xvid
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: "0.10"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: a52dec
+  name: libmpeg2
   
   version: ""
 - 
@@ -146,10 +104,38 @@ requires:
   
   version: "1"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXpm
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libsdl-1.2.5[X?]
+  name: libdvdread
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: lzo
+  
+  version: "2"
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: mjpegtools
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
   
   version: ""
 - 
@@ -163,30 +149,44 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libv4l
+  name: xvid
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: a52dec
   
   version: ""
 - 
-  category: media-gfx
+  category: media-libs
   description: ""
   license: ""
-  name: imagemagick
+  name: faac
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: lzo
+  name: alsa-lib
   
-  version: "2"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdv
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
 uri:
 - https://www.bitbucket.org/france/transcode-tcforge/downloads/transcode-1.1.7.tar.bz2
 - https://dev.gentoo.org/~mgorny/dist/transcode-1.1.7-patchset.tar.bz2

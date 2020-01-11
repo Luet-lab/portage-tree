@@ -9,30 +9,30 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: entropy
+  name: portage
   
-  version: "234"
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash-completion
-  
-  version: "2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.74"
+  version: "2.2"
 - 
   category: sys-auth
   description: ""
   license: ""
-  name: polkit
+  name: consolekit
   
-  version: "0.114"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: entropy
+  
+  version: "234"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: 1.3.0
 - 
   category: sys-auth
   description: ""
@@ -41,13 +41,6 @@ requires:
   
   version: "229.4"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.9
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -55,12 +48,40 @@ requires:
   
   version: "213"
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: portage
+  name: glib
   
-  version: "2.2"
+  version: 2.54.0
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.114"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.9
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: layman
+  
+  version: "2"
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash-completion
+  
+  version: "2"
 - 
   category: dev-db
   description: ""
@@ -72,30 +93,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: dbus-glib
   
-  version: 2.54.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.3.0
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
-  
-  version: "2"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
+  version: "0.74"
 uri:
 - https://www.freedesktop.org/software/PackageKit/releases/PackageKit-1.1.12.tar.xz
 use_flags:

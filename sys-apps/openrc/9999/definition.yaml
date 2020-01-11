@@ -18,9 +18,9 @@ conflicts:
   category: <app-shells
   description: ""
   license: ""
-  name: gentoo-zsh-completions
+  name: gentoo-bashcomp
   
-  version: "20180228"
+  version: "20180302"
 - 
   category: <sys-process
   description: ""
@@ -39,39 +39,25 @@ conflicts:
   category: <app-shells
   description: ""
   license: ""
-  name: gentoo-bashcomp
+  name: gentoo-zsh-completions
   
-  version: "20180302"
+  version: "20180228"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: tmpfiles
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
   name: psmisc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
   
   version: ""
 - 
@@ -89,10 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: pambase
+  name: sysvinit-2.86-r6[selinux?]
   
   version: ""
 - 
@@ -103,6 +89,27 @@ requires:
   
   version: 2.20170204-r4
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: sys-process
   description: ""
   license: ""
@@ -110,17 +117,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit-2.86-r6[selinux?]
+  name: tmpfiles
   
   version: ""
 - 

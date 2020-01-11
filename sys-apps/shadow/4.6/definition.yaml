@@ -5,31 +5,31 @@ license: BSD GPL-2
 name: shadow
 requires:
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: acl
+  name: cracklib
+  
+  version: 2.7-r3
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libsemanage
+  name: libselinux
   
-  version: ""
+  version: "1.28"
 - 
   category: virtual
   description: ""
   license: ""
   name: libintl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
   
   version: ""
 - 
@@ -47,20 +47,6 @@ requires:
   
   version: "2.6"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: cracklib
-  
-  version: 2.7-r3
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -71,9 +57,23 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libsemanage
   
-  version: "1.28"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
 uri:
 - https://github.com/shadow-maint/shadow/releases/download/4.6/shadow-4.6.tar.gz
 use_flags:

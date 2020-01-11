@@ -5,6 +5,20 @@ license: GPL-2 LGPL-2.1
 name: plasma-nm
 requires:
 - 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: networkmanager-qt
+  
+  version: 5.64.0
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: mobile-broadband-provider-info
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
@@ -15,23 +29,9 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
+  name: kconfigwidgets
   
   version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: modemmanager-qt
-  
-  version: 5.64.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
-  
-  version: 2.1.1
 - 
   category: kde-frameworks
   description: ""
@@ -47,20 +47,6 @@ requires:
   
   version: 5.64.0
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
-  
-  version: ""
-- 
   category: net-vpn
   description: ""
   license: ""
@@ -68,52 +54,24 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
+  name: kcompletion
   
   version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdbusaddons
+  name: kcoreaddons
   
   version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: plasma
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: solid
+  name: kwidgetsaddons
   
   version: 5.64.0
 - 
@@ -123,41 +81,6 @@ requires:
   name: networkmanager[teamd=]
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtquickcontrols2
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kiconthemes
-  
-  version: 5.64.0
-- 
-  category: net-vpn
-  description: ""
-  license: ""
-  name: networkmanager-openconnect
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfigwidgets
-  
-  version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
@@ -176,28 +99,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifications
+  name: kservice
   
   version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcoreaddons
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
+  name: plasma
   
   version: 5.64.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols
+  name: qtdbus
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
   
   version: 5.12.3
 - 
@@ -208,17 +131,17 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtdeclarative
+  name: kconfig
   
-  version: 5.12.3
+  version: 5.64.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcompletion
+  name: kdbusaddons
   
   version: 5.64.0
 - 
@@ -236,12 +159,89 @@ requires:
   
   version: 5.64.0
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: networkmanager-qt
+  name: solid
   
   version: 5.64.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols2
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kiconthemes
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knotifications
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.64.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: 5.12.3
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: 2.1.1
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: modemmanager-qt
+  
+  version: 5.64.0
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: networkmanager-openconnect
+  
+  version: ""
 uri: []
 use_flags:
 - modemmanager

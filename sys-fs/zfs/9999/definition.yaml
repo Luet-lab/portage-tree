@@ -1,20 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
-- 
   category: <sys-kernel
   description: ""
   license: ""
@@ -36,12 +22,12 @@ conflicts:
   
   version: 044-r1
 - 
-  category: <sys-boot
+  category: sys-fs
   description: ""
   license: ""
-  name: grub
+  name: zfs-fuse
   
-  version: 2.00-r2
+  version: ""
 - 
   category: <sys-kernel
   description: ""
@@ -49,22 +35,29 @@ conflicts:
   name: genkernel
   
   version: 3.5.1.1
+- 
+  category: =sys-apps
+  description: ""
+  license: ""
+  name: grep-2.13*
+  
+  version: ""
+- 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: sys-devel
+  category: sys-process
   description: ""
   license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
+  name: procps
   
   version: ""
 - 
@@ -74,27 +67,6 @@ requires:
   name: libressl
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-cffi
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: "9999"
 - 
   category: sys-fs
   description: ""
@@ -110,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: lsscsi
+  name: util-linux
   
   version: ""
 - 
@@ -124,10 +96,45 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
 - 
@@ -138,10 +145,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-block
   description: ""
   license: ""
-  name: util-linux
+  name: parted
   
   version: ""
 - 
@@ -149,13 +156,6 @@ requires:
   description: ""
   license: ""
   name: mdadm
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
   
   version: ""
 - 

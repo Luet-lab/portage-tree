@@ -1,20 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: gentoo-systemd-integration
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: <sys-libs
   description: ""
   license: ""
@@ -22,12 +8,12 @@ conflicts:
   
   version: "2.11"
 - 
-  category: <sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: lvm2
+  name: gentoo-systemd-integration
   
-  version: 2.02.103
+  version: ""
 - 
   category: <sec-policy
   description: ""
@@ -42,31 +28,24 @@ conflicts:
   name: udev
   
   version: ""
-description: Linux dynamic and persistent device naming support (aka userspace devfs)
-license: LGPL-2.1 MIT GPL-2
-name: eudev
-requires:
 - 
-  category: acct-group
+  category: <sys-fs
   description: ""
   license: ""
-  name: kvm
+  name: lvm2
   
-  version: ""
+  version: 2.02.103
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: systemd
   
-  version: "2.20"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.38"
+  version: ""
+description: Linux dynamic and persistent device naming support (aka userspace devfs)
+license: LGPL-2.1 MIT GPL-2
+name: eudev
+requires:
 - 
   category: sys-apps
   description: ""
@@ -92,9 +71,30 @@ requires:
   category: acct-group
   description: ""
   license: ""
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
   name: render
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.38"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.20"
 uri: []
 use_flags:
 - +hwdb

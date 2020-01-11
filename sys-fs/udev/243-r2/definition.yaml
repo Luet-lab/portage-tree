@@ -8,20 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
-- 
-  category: <sys-libs
-  description: ""
-  license: ""
-  name: glibc
-  
-  version: "2.11"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -29,58 +15,30 @@ conflicts:
   
   version: ""
 - 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
+- 
   category: <sys-fs
   description: ""
   license: ""
   name: lvm2
   
   version: 2.02.103
+- 
+  category: <sys-libs
+  description: ""
+  license: ""
+  name: glibc
+  
+  version: "2.11"
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: udev
 requires:
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: cdrom
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: tape
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
 - 
   category: acct-group
   description: ""
@@ -92,28 +50,28 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: input
+  name: audio
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: kvm
+  name: cdrom
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libselinux
+  name: util-linux
   
-  version: 2.1.9
+  version: "2.30"
 - 
   category: acct-group
   description: ""
   license: ""
-  name: dialout
+  name: kmem
   
   version: ""
 - 
@@ -127,7 +85,21 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: lp
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: video
   
   version: ""
 - 
@@ -138,10 +110,38 @@ requires:
   
   version: "16"
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.1.9
+- 
   category: acct-group
   description: ""
   license: ""
-  name: audio
+  name: input
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: dialout
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
   
   version: ""
 - 
@@ -152,10 +152,10 @@ requires:
   
   version: ""
 - 
-  category: acct-group
+  category: sys-libs
   description: ""
   license: ""
-  name: video
+  name: libcap
   
   version: ""
 uri:

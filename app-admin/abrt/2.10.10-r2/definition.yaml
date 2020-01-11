@@ -5,6 +5,34 @@ license: GPL-2
 name: abrt
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.43"
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: inotify-tools
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: argcomplete
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -12,10 +40,17 @@ requires:
   
   version: 3.15.1
 - 
-  category: app-arch
+  category: x11-libs
   description: ""
   license: ""
-  name: cpio
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: argh
   
   version: ""
 - 
@@ -29,49 +64,7 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libreport
-  
-  version: 2.9.5
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: argcomplete
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
-  
-  version: "7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
+  name: dbus
   
   version: ""
 - 
@@ -89,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-arch
   description: ""
   license: ""
-  name: inotify-tools
+  name: cpio
   
   version: ""
 - 
@@ -103,17 +96,31 @@ requires:
   
   version: ""
 - 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gdb
+  
+  version: "7"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libreport
   
-  version: "2.43"
+  version: 2.9.5
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
   
   version: ""
 - 
@@ -123,13 +130,6 @@ requires:
   name: libnotify
   
   version: "0.7"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: argh
-  
-  version: ""
 uri:
 - https://github.com/abrt/abrt/archive/2.10.10.tar.gz -> abrt-2.10.10.tar.gz
 use_flags:

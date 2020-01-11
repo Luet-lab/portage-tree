@@ -5,19 +5,26 @@ license: GPL-2+
 name: ettercap
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.2.2
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libpcre
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: atk
+  name: glib
   
-  version: 1.2.4
+  version: 2.2.2
 - 
   category: media-libs
   description: ""
@@ -29,9 +36,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: cairo
   
-  version: 1.2.3
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -43,9 +50,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: pango
   
-  version: 2.2.2
+  version: 1.2.3
 - 
   category: net-libs
   description: ""
@@ -53,6 +60,13 @@ requires:
   name: libnet
   
   version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: 0.8.1
 - 
   category: sys-libs
   description: ""
@@ -64,23 +78,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: atk
   
-  version: 2.2.2
+  version: 1.2.4
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: cairo
+  name: openssl
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libpcap
+  name: libressl
   
-  version: 0.8.1
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.3"
 - 
   category: net-misc
   description: ""
@@ -95,27 +116,6 @@ requires:
   name: libbsd
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.3"
 uri: []
 use_flags:
 - doc

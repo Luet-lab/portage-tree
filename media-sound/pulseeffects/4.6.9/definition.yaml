@@ -6,12 +6,19 @@ license: GPL-3
 name: pulseeffects
 requires:
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: dev-cpp
   description: ""
   license: ""
-  name: glibmm
+  name: gtkmm
   
-  version: 2.56.0
+  version: "3.20"
 - 
   category: dev-libs
   description: ""
@@ -20,33 +27,47 @@ requires:
   
   version: "2.56"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: lsp-plugins
+  name: gtk+
   
-  version: 1.1.7
+  version: "3.18"
 - 
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-lv2
+  name: gst-plugins-pulse
   
   version: 1.12.0
 - 
-  category: sys-apps
+  category: media-plugins
   description: ""
   license: ""
-  name: dbus
+  name: mda-lv2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: rubberband
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: boost
+  name: libsigc++
   
-  version: "1.41"
+  version: "2.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lsp-plugins
+  
+  version: 1.1.7
 - 
   category: media-libs
   description: ""
@@ -62,47 +83,33 @@ requires:
   
   version: 1.12.0
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: rubberband
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: zita-convolver
-  
-  version: 3.0.0
-- 
   category: media-plugins
   description: ""
   license: ""
-  name: mda-lv2
+  name: gst-plugins-ladspa
+  
+  version: 1.12.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
   category: dev-cpp
   description: ""
   license: ""
-  name: gtkmm
+  name: glibmm
   
-  version: "3.20"
+  version: 2.56.0
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libsigc++
+  name: lilv
   
-  version: "2.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.18"
+  version: 0.24.2-r1
 - 
   category: media-libs
   description: ""
@@ -114,23 +121,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: zita-convolver
   
-  version: 1.12.0
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-ladspa
-  
-  version: 1.12.0
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-pulse
-  
-  version: 1.12.0
+  version: 3.0.0
 - 
   category: media-libs
   description: ""
@@ -139,12 +132,26 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.41"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: lilv
+  name: gst-plugins-bad
   
-  version: 0.24.2-r1
+  version: 1.12.0
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-lv2
+  
+  version: 1.12.0
 - 
   category: media-plugins
   description: ""
@@ -152,13 +159,6 @@ requires:
   name: calf
   
   version: 0.90.0
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
 uri:
 - https://github.com/wwmm/pulseeffects/archive/v4.6.9.tar.gz -> pulseeffects-4.6.9.tar.gz
 use_flags:

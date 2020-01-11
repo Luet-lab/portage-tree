@@ -5,24 +5,17 @@ license: GPL-2
 name: asterisk
 requires:
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: jansson
+  name: selinux-asterisk
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: popt
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
+  name: gmime
   
   version: ""
 - 
@@ -40,31 +33,17 @@ requires:
   
   version: ""
 - 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
-  name: freetds
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: ilbc-rfc3951
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: spandsp
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-asterisk
+  name: postgresql
   
   version: ""
 - 
@@ -75,31 +54,87 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsrtp
+  name: popt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
   category: net-libs
   description: ""
   license: ""
-  name: libpri-1.4.12_beta2
+  name: neon
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: freetds
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gmime
+  name: jansson
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: spandsp
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: newt
+  name: libxml2
   
   version: ""
 - 
@@ -110,10 +145,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: dahdi-tools
+  name: ilbc-rfc3951
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
   
   version: ""
 - 
@@ -124,10 +166,45 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: media-libs
   description: ""
   license: ""
-  name: postgresql
+  name: libvorbis
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: corosync
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpri-1.4.12_beta2
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: dahdi-tools
   
   version: ""
 - 
@@ -152,41 +229,6 @@ requires:
   
   version: ""
 - 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: neon
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: unixODBC
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -201,59 +243,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: libcap
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: corosync
   
   version: ""
 - 
@@ -264,17 +257,24 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: sys-libs
   description: ""
   license: ""
-  name: net-snmp
+  name: zlib
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: logger
+  name: newt
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsrtp
   
   version: ""
 uri:

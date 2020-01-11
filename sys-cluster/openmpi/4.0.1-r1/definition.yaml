@@ -11,41 +11,20 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+mpi
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-mpi
+  name: mpich
   
   version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
 - 
   category: sys-apps
   description: ""
@@ -64,23 +43,30 @@ requires:
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
   name: infinipath-psm
   
   version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: 2.0.22
 - 
   category: dev-libs
   description: ""
@@ -99,16 +85,30 @@ requires:
   category: sys-cluster
   description: ""
   license: ""
-  name: knem
+  name: torque
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-fabric
   description: ""
   license: ""
-  name: libevent
+  name: librdmacm
   
-  version: 2.0.22
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
+  
+  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-4.0.1.tar.bz2
 use_flags:

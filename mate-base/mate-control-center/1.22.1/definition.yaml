@@ -5,38 +5,38 @@ license: GPL-2
 name: mate-control-center
 requires:
 - 
+  category: mate-base
+  description: ""
+  license: ""
+  name: mate-menus
+  
+  version: 1.21.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86misc
+  name: libX11
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxklavier
+  
+  version: "4"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libappindicator
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: 0.13.4
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "1"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
+  name: libxml2
   
   version: ""
 - 
@@ -47,40 +47,33 @@ requires:
   
   version: ""
 - 
-  category: x11-wm
+  category: x11-libs
   description: ""
   license: ""
-  name: marco
-  
-  version: 1.17.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: libXext
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: libXxf86misc
   
-  version: "0.73"
+  version: ""
 - 
-  category: media-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: fontconfig
+  name: librsvg
   
-  version: "1"
+  version: "2.0"
 - 
-  category: mate-base
+  category: x11-apps
   description: ""
   license: ""
-  name: caja
+  name: xmodmap
   
-  version: 1.20.0
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -88,34 +81,6 @@ requires:
   name: libcanberra
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: accountsservice
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
 - 
   category: x11-libs
   description: ""
@@ -131,33 +96,54 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libXext
+  name: dbus-glib
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
+  version: "0.73"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
+  
+  version: "2.50"
+- 
+  category: mate-base
+  description: ""
+  license: ""
+  name: libmatekbd
+  
+  version: 1.17.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: "1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: "1.5"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: accountsservice
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: dconf
+  
+  version: 0.13.4
 - 
   category: mate-base
   description: ""
@@ -169,51 +155,72 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-wm
+  description: ""
+  license: ""
+  name: marco
+  
+  version: 1.17.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libappindicator
   
   version: ""
 - 
   category: mate-base
   description: ""
   license: ""
-  name: mate-menus
+  name: caja
   
-  version: 1.21.0
+  version: 1.20.0
 - 
-  category: x11-apps
+  category: media-libs
   description: ""
   license: ""
-  name: xmodmap
+  name: fontconfig
+  
+  version: "1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: "3.22"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxklavier
+  name: pango
   
-  version: "4"
+  version: ""
 - 
-  category: gnome-base
+  category: virtual
   description: ""
   license: ""
-  name: librsvg
+  name: libintl
   
-  version: "2.0"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
 - 
   category: mate-base
   description: ""
@@ -222,19 +229,12 @@ requires:
   
   version: 1.21.2
 - 
-  category: mate-base
-  description: ""
-  license: ""
-  name: libmatekbd
-  
-  version: 1.17.0
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: gtk+
   
-  version: "1.5"
+  version: "3.22"
 uri: []
 use_flags:
 - accountsservice

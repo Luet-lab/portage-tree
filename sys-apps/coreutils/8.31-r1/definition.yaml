@@ -1,10 +1,10 @@
 category: sys-apps
 conflicts:
 - 
-  category: sys-process
+  category: sys-apps
   description: ""
   license: ""
-  name: procps
+  name: util-linux
   
   version: ""
 - 
@@ -12,20 +12,6 @@ conflicts:
   description: ""
   license: ""
   name: realpath
-  
-  version: ""
-- 
-  category: <app-forensics
-  description: ""
-  license: ""
-  name: tct
-  
-  version: 1.18-r1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
   
   version: ""
 - 
@@ -43,17 +29,31 @@ conflicts:
   
   version: ""
 - 
+  category: <app-forensics
+  description: ""
+  license: ""
+  name: tct
+  
+  version: 1.18-r1
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.13"
+- 
   category: sys-apps
   description: ""
   license: ""
   name: mktemp
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: base64
   
   version: ""
 - 
@@ -64,12 +64,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-apps
+  category: net-mail
   description: ""
   license: ""
-  name: util-linux
+  name: base64
   
-  version: "2.13"
+  version: ""
 - 
   category: <net-fs
   description: ""
@@ -89,24 +89,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: sys-apps
   description: ""
   license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
+  name: attr
   
   version: ""
 - 
@@ -117,10 +103,24 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: attr
+  name: libintl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
   
   version: ""
 uri:

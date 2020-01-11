@@ -5,33 +5,12 @@ license: Apache-2.0
 name: tensorflow
 requires:
 - 
-  category: dev-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: protobuf
+  name: keras-preprocessing
   
-  version: 3.6.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: re2
-  
-  version: 0.2018.04.01
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: gast
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: grpcio
-  
-  version: 1.22.0
+  version: 1.0.5
 - 
   category: sci-visualization
   description: ""
@@ -40,159 +19,19 @@ requires:
   
   version: "1"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nsync
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: giflib
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: google-pasta
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: double-conversion
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: absl-py
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: termcolor
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: "1.16"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: wrapt
-  
-  version: 1.11.1
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: snappy
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: "9.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: flatbuffers
-  
-  version: 1.8.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: astor
-  
-  version: 0.7.1
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: google-cloud-cpp
-  
-  version: 0.10.0
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: keras-applications
-  
-  version: 1.0.8
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libjpeg-turbo
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
   name: sqlite
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: 3.6.1
 - 
   category: sys-apps
   description: ""
@@ -211,23 +50,30 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: six
+  name: termcolor
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: jsoncpp
-  
-  version: 1.9.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cudnn
+  name: lmdb
   
   version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: grpcio
+  
+  version: 1.22.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: google-cloud-cpp
+  
+  version: 0.10.0
 - 
   category: virtual
   description: ""
@@ -239,16 +85,51 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: protobuf-python
+  name: astor
   
-  version: 3.6.1
+  version: 0.7.1
 - 
-  category: sci-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: keras-preprocessing
+  name: double-conversion
   
-  version: 1.0.5
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nsync
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: giflib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cudnn
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -257,10 +138,129 @@ requires:
   
   version: 1.22.0
 - 
+  category: dev-python
+  description: ""
+  license: ""
+  name: wrapt
+  
+  version: 1.11.1
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: keras-applications
+  
+  version: 1.0.8
+- 
   category: sys-libs
   description: ""
   license: ""
   name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: flatbuffers
+  
+  version: 1.8.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: gast
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: snappy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: re2
+  
+  version: 0.2018.04.01
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libjpeg-turbo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: "1.16"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: protobuf-python
+  
+  version: 3.6.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: google-pasta
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jsoncpp
+  
+  version: 1.9.1
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: "9.1"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: absl-py
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
   
   version: ""
 uri:

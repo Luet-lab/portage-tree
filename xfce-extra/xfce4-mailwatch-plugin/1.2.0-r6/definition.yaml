@@ -5,19 +5,12 @@ license: GPL-2
 name: xfce4-mailwatch-plugin
 requires:
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libX11
+  name: gnutls
   
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.15"
+  version: "2"
 - 
   category: dev-libs
   description: ""
@@ -29,9 +22,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: exo[gtk2(+)]
+  
+  version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.15"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: gtk+
   
   version: "2.18"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4util
+  
+  version: "4.10"
 - 
   category: xfce-base
   description: ""
@@ -46,27 +67,6 @@ requires:
   name: libgcrypt
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: "2"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: exo[gtk2(+)]
-  
-  version: ""
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4util
-  
-  version: "4.10"
 uri:
 - https://archive.xfce.org/src/panel-plugins/xfce4-mailwatch-plugin/1.2/xfce4-mailwatch-plugin-1.2.0.tar.bz2
 use_flags:

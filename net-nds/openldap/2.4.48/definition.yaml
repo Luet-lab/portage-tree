@@ -12,31 +12,31 @@ license: OPENLDAP GPL-2
 name: openldap
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.0"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
-  
-  version: 1.5.3
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: cyrus-sasl
   
   version: ""
 - 
-  category: sys-libs
+  category: net-libs
   description: ""
   license: ""
-  name: e2fsprogs-libs
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ldap
   
   version: ""
 - 
@@ -50,28 +50,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: unixODBC
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.1h-r2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
+  name: libiodbc
   
   version: ""
 - 
@@ -82,24 +61,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: gnutls
-  
-  version: 2.12.23-r6
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: libiodbc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
+  name: perl
   
   version: ""
 - 
@@ -120,14 +85,49 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
-  version: ""
+  version: 1.0.1h-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.5.3
 - 
   category: sys-devel
   description: ""
   license: ""
   name: libtool
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: e2fsprogs-libs
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: unixODBC
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.0"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 uri: []

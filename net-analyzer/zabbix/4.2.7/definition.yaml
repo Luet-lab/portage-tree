@@ -5,45 +5,38 @@ license: GPL-2
 name: zabbix
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libxml2
+  name: zlib
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libpcre
   
   version: ""
 - 
-  category: dev-lang
+  category: virtual
   description: ""
   license: ""
-  name: php
+  name: jre
   
-  version: 5.4.0
+  version: "1.4"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh2
+  
+  version: ""
 - 
   category: net-nds
   description: ""
   license: ""
   name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
   
   version: ""
 - 
@@ -54,6 +47,20 @@ requires:
   
   version: 10.0.0.0
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: iksemel
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
   category: net-misc
   description: ""
   license: ""
@@ -61,10 +68,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libssh2
+  name: openipmi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
   
   version: ""
 - 
@@ -85,7 +106,7 @@ requires:
   category: net-analyzer
   description: ""
   license: ""
-  name: net-snmp
+  name: fping
   
   version: ""
 - 
@@ -99,14 +120,35 @@ requires:
   category: dev-db
   description: ""
   license: ""
+  name: sqlite
+  
+  version: 3.3.5
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jdk
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
   name: postgresql
   
   version: "8.1"
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: iksemel
+  name: unixODBC
   
   version: ""
 - 
@@ -117,61 +159,19 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-lang
   description: ""
   license: ""
-  name: sqlite
+  name: php
   
-  version: 3.3.5
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: unixODBC
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: openipmi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jdk
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: fping
-  
-  version: ""
+  version: 5.4.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: cyrus-sasl
   
-  version: ""
+  version: "2"
 uri:
 - https://downloads.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/4.2.7/zabbix-4.2.7.tar.gz
 use_flags:

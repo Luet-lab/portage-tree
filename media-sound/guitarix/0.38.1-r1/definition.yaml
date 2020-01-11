@@ -5,24 +5,31 @@ license: GPL-2
 name: guitarix
 requires:
 - 
-  category: virtual
+  category: sci-libs
   description: ""
   license: ""
-  name: jack
+  name: fftw
+  
+  version: 3.1.2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
   
   version: ""
 - 
-  category: net-wireless
+  category: dev-libs
   description: ""
   license: ""
-  name: bluez
+  name: boost
   
   version: ""
 - 
-  category: media-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: zita-resampler
+  name: eigen
   
   version: ""
 - 
@@ -33,31 +40,10 @@ requires:
   
   version: 7.26.0
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: lilv
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: 1.0.17
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: zita-resampler
   
   version: ""
 - 
@@ -68,17 +54,10 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: glibmm
+  name: glib
   
   version: ""
 - 
@@ -89,17 +68,10 @@ requires:
   
   version: "3"
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: liblrdf
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gtk-engines
+  name: jack
   
   version: ""
 - 
@@ -113,7 +85,42 @@ requires:
   category: dev-cpp
   description: ""
   license: ""
-  name: eigen
+  name: glibmm
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: 1.0.17
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lilv
+  
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: gtk-engines
   
   version: ""
 - 
@@ -124,19 +131,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: liblrdf
   
   version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: 3.1.2
 uri:
 - mirror://sourceforge/guitarix/guitarix/guitarix2-0.38.1.tar.xz
 use_flags:

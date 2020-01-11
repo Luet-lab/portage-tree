@@ -6,12 +6,19 @@ license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD 
 name: gromacs
 requires:
 - 
-  category: sys-apps
+  category: sci-libs
   description: ""
   license: ""
-  name: hwloc
+  name: fftw
   
-  version: "2"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: lapack
+  
+  version: ""
 - 
   category: sci-libs
   description: ""
@@ -19,6 +26,34 @@ requires:
   name: mkl
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: "2"
 - 
   category: virtual
   description: ""
@@ -30,7 +65,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libICE
   
   version: ""
 - 
@@ -47,41 +82,6 @@ requires:
   name: nvidia-cuda-toolkit
   
   version: 4.2.9-r1
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: lapack
-  
-  version: ""
 uri:
 - ftp://ftp.gromacs.org/pub/gromacs/gromacs-2018.8.tar.gz
 - 'http://gerrit.gromacs.org/download/regressiontests-2018.8.tar.gz '

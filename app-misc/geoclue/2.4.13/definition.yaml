@@ -12,12 +12,12 @@ license: LGPL-2
 name: geoclue
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libsoup
   
-  version: 0.9.6
+  version: "2.42"
 - 
   category: net-misc
   description: ""
@@ -36,16 +36,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: json-glib
   
-  version: "2.44"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
+  version: "0.14"
 - 
   category: sys-apps
   description: ""
@@ -57,9 +50,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-glib
+  name: gobject-introspection
   
-  version: "0.14"
+  version: 0.9.6
 - 
   category: x11-libs
   description: ""
@@ -67,6 +60,13 @@ requires:
   name: libnotify
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
 uri:
 - https://gitlab.freedesktop.org/geoclue/geoclue/-/archive/2.4.13/geoclue-2.4.13.tar.bz2
 use_flags:

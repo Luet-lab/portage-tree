@@ -12,19 +12,12 @@ license: GPL-2
 name: pidgin
 requires:
 - 
-  category: dev-libs
+  category: net-dns
   description: ""
   license: ""
-  name: dbus-glib
+  name: avahi
   
-  version: "0.71"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.4.0
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -36,16 +29,93 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: glib
+  
+  version: "2.16"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
   
   version: ""
 - 
   category: dev-lang
   description: ""
   license: ""
-  name: tcl
+  name: tk
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: gtkspell
+  
+  version: 2.0.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: "5.16"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.6.18
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: "3.6"
 - 
   category: sys-libs
   description: ""
@@ -57,58 +127,23 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
+  name: gtk+
   
-  version: ""
+  version: "2.10"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: pango
   
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: ""
+  version: 1.4.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: nss
   
   version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: gtkspell
-  
-  version: 2.0.2
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: evolution-data-server
-  
-  version: "3.6"
 - 
   category: dev-db
   description: ""
@@ -117,52 +152,24 @@ requires:
   
   version: "3.3"
 - 
-  category: dev-lang
+  category: net-libs
   description: ""
   license: ""
-  name: perl
+  name: farstream
   
-  version: "5.16"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: tk
-  
-  version: ""
+  version: 0.2.7
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: dbus-glib
   
-  version: ""
+  version: "0.71"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.6.18
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
+  name: gnutls
   
   version: ""
 - 
@@ -173,24 +180,10 @@ requires:
   
   version: 1.0.1
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: farstream
-  
-  version: 0.2.7
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -201,10 +194,17 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-lang
   description: ""
   license: ""
-  name: networkmanager
+  name: tcl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
   
   version: ""
 uri:

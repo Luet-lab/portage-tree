@@ -11,9 +11,9 @@ conflicts:
   category: <app-i18n
   description: ""
   license: ""
-  name: man-pages-de
+  name: man-pages-pl
   
-  version: 2.12-r1
+  version: 0.7-r1
 - 
   category: <sys-apps
   description: ""
@@ -32,18 +32,32 @@ conflicts:
   category: <app-i18n
   description: ""
   license: ""
-  name: man-pages-pl
+  name: man-pages-de
   
-  version: 0.7-r1
+  version: 2.12-r1
 description: standard informational utilities and process-handling tools
 license: GPL-2
 name: procps
 requires:
 - 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
@@ -53,20 +67,6 @@ requires:
   name: ncurses
   
   version: 5.7-r7
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
 uri:
 - mirror://sourceforge/procps-ng/procps-ng-3.3.16.tar.xz
 use_flags:

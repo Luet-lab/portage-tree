@@ -5,31 +5,10 @@ license: GPL-2+
 name: gnome-session
 requires:
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.23.2
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.7
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-user-dirs-gtk
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: libSM
   
   version: ""
 - 
@@ -39,6 +18,13 @@ requires:
   name: json-glib
   
   version: "0.10"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 0.1.7
 - 
   category: media-libs
   description: ""
@@ -57,49 +43,14 @@ requires:
   category: sys-auth
   description: ""
   license: ""
-  name: elogind
-  
-  version: "239.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus[X]
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
   name: consolekit
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.76"
-- 
   category: x11-misc
   description: ""
   license: ""
-  name: xdg-user-dirs
+  name: xdg-user-dirs-gtk
   
   version: ""
 - 
@@ -124,6 +75,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -137,6 +95,48 @@ requires:
   name: mesa[egl,gles2,X(+)]
   
   version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: 3.23.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus[X]
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xdg-user-dirs
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.76"
 uri: []
 use_flags:
 - consolekit

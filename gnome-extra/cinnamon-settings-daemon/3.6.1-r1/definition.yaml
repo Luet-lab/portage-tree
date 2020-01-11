@@ -5,6 +5,104 @@ license: GPL-2+
 name: cinnamon-settings-daemon
 requires:
 - 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: colord
+  
+  version: 0.1.27
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.38"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.9.10
+- 
+  category: x11-drivers
+  description: ""
+  license: ""
+  name: xf86-input-wacom
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.8.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: 3.11.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomekbd
+  
+  version: "3.6"
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -29,35 +127,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.27
-- 
-  category: x11-drivers
-  description: ""
-  license: ""
-  name: xf86-input-wacom
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.11.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: libXext
   
   version: ""
 - 
@@ -67,69 +137,6 @@ requires:
   name: libXi
   
   version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-desktop
-  
-  version: 2.8.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: "2.2"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.9.11
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.7"
 - 
   category: "(\tsys-auth"
   description: ""
@@ -145,26 +152,26 @@ requires:
   
   version: 2.36.2
 - 
-  category: x11-libs
+  category: sys-auth
   description: ""
   license: ""
-  name: gtk+
+  name: polkit
   
-  version: 3.9.10
+  version: "0.97"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: gdk-pixbuf
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-power
   description: ""
   license: ""
-  name: libnotify
+  name: upower
   
-  version: 0.7.3
+  version: 0.9.11
 - 
   category: net-print
   description: ""
@@ -173,26 +180,19 @@ requires:
   
   version: "1.4"
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: systemd
+  name: libcanberra
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: libXfixes
   
-  version: "2.38"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomekbd
-  
-  version: "3.6"
+  version: ""
 uri:
 - https://github.com/linuxmint/cinnamon-settings-daemon/archive/3.6.1.tar.gz -> cinnamon-settings-daemon-3.6.1.tar.gz
 use_flags:

@@ -12,13 +12,6 @@ license: GPL-2+ LGPL-2.1+
 name: syslog-ng
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmaxminddb
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -29,14 +22,35 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libmaxminddb
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: json-c
+  
+  version: "0.9"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: librdkafka
+  
+  version: 1.0.0
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnet
   
   version: ""
 - 
@@ -54,34 +68,6 @@ requires:
   
   version: "6.1"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: 0.11.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
@@ -92,21 +78,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: json-c
-  
-  version: "0.9"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librdkafka
-  
-  version: 1.0.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnet
+  name: libressl
   
   version: ""
 - 
@@ -127,6 +99,34 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: hiredis
+  
+  version: 0.11.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: mongo-c-driver
   
   version: 1.2.0
@@ -138,10 +138,10 @@ requires:
   
   version: ""
 - 
-  category: net-analyzer
+  category: dev-libs
   description: ""
   license: ""
-  name: net-snmp
+  name: openssl
   
   version: ""
 uri:

@@ -5,26 +5,61 @@ license: GPL-2+ FDL-1.1 LGPL-2.1+
 name: gnome-panel
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.45.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libwnck
+  
+  version: 3.4.6
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: 3.5.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "230"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gdm
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 2.91.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.26.0
+- 
   category: x11-libs
   description: ""
   license: ""
   name: pango
   
   version: 1.15.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.22.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: 0.13.4
 - 
   category: x11-libs
   description: ""
@@ -36,23 +71,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libX11
   
-  version: 2.26.0
+  version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: systemd
+  name: polkit
   
-  version: "230"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgweather
-  
-  version: 3.28.0
+  version: ""
 - 
   category: gnome-base
   description: ""
@@ -60,13 +88,6 @@ requires:
   name: gnome-menus
   
   version: 3.7.90
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: evolution-data-server
-  
-  version: 3.5.3
 - 
   category: sys-auth
   description: ""
@@ -85,37 +106,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libgweather
   
-  version: 2.45.3
+  version: 3.28.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libwnck
+  name: gtk+
   
-  version: 3.4.6
+  version: 3.22.0
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gdm
+  name: dconf
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: ""
+  version: 0.13.4
 - 
   category: x11-libs
   description: ""
@@ -123,13 +130,6 @@ requires:
   name: libXi
   
   version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 2.91.0
 uri: []
 use_flags:
 - eds

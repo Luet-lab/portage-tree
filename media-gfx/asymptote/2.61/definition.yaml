@@ -5,17 +5,73 @@ license: GPL-3
 name: asymptote
 requires:
 - 
-  category: sys-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: ncurses
+  name: librsvg
   
-  version: 5.4-r5
+  version: "2.40"
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: glm
+  name: mesa[X(+)]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freeglut
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
+  
+  version: ""
+- 
+  category: dev-texlive
+  description: ""
+  license: ""
+  name: texlive-latexextra
+  
+  version: "2013"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: 4.3-r5
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: imagemagick
   
   version: ""
 - 
@@ -54,38 +110,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: 4.3-r5
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: imagemagick
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: mesa[X(+)]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freeglut
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: dvisvgm
+  name: glm
   
   version: ""
 - 
@@ -96,41 +124,6 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: "2.40"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: latex-base
-  
-  version: ""
-- 
-  category: dev-texlive
-  description: ""
-  license: ""
-  name: texlive-latexextra
-  
-  version: "2013"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
@@ -138,12 +131,19 @@ requires:
   
   version: 3.0.1
 - 
-  category: app-editors
+  category: sys-libs
   description: ""
   license: ""
-  name: emacs
+  name: ncurses
   
-  version: "23.1"
+  version: 5.4-r5
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: dvisvgm
+  
+  version: ""
 uri: []
 use_flags:
 - +boehm-gc

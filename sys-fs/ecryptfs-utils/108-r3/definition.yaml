@@ -5,12 +5,19 @@ license: GPL-2
 name: ecryptfs-utils
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: pkcs11-helper
+  name: pam
   
-  version: "1.04"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: keyutils
+  
+  version: "1.0"
 - 
   category: dev-libs
   description: ""
@@ -26,6 +33,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.7
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -36,30 +57,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: pkcs11-helper
   
-  version: 0.9.7
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyutils
-  
-  version: "1.0"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
+  version: "1.04"
 - 
   category: app-crypt
   description: ""

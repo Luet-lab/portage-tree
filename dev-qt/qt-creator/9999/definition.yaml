@@ -8,9 +8,23 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtquickcontrols
   
   version: 5.12.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: cvs
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -22,23 +36,9 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtnetwork
   
   version: 5.12.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: elfutils
-  
-  version: ""
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: cvs
-  
-  version: ""
 - 
   category: dev-vcs
   description: ""
@@ -47,55 +47,6 @@ requires:
   
   version: ""
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: clang
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdeclarative
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtprintsupport
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: 5.12.3
-- 
   category: dev-vcs
   description: ""
   license: ""
@@ -103,38 +54,17 @@ requires:
   
   version: ""
 - 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gdb
+  name: the_silver_searcher
   
   version: ""
 - 
   category: dev-util
   description: ""
   license: ""
-  name: cmake
+  name: valgrind
   
   version: ""
 - 
@@ -148,14 +78,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: designer
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qthelp
+  name: qtxml
   
   version: 5.12.3
 - 
@@ -166,12 +89,12 @@ requires:
   
   version: 1.13.1
 - 
-  category: dev-vcs
+  category: dev-qt
   description: ""
   license: ""
-  name: bzr
+  name: qttranslations
   
-  version: ""
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -183,28 +106,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: the_silver_searcher
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtquickcontrols
+  name: qtx11extras
   
   version: 5.12.3
 - 
@@ -218,6 +120,97 @@ requires:
   category: dev-util
   description: ""
   license: ""
+  name: cmake
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: designer
+  
+  version: 5.12.3
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gdb
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdeclarative
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: 5.12.3
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: bzr
+  
+  version: ""
+- 
+  category: dev-vcs
+  description: ""
+  license: ""
+  name: subversion
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: 5.12.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: elfutils
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: clang
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qthelp
+  
+  version: 5.12.3
+- 
+  category: dev-util
+  description: ""
+  license: ""
   name: cppcheck
   
   version: ""
@@ -225,7 +218,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qttranslations
+  name: qtscript
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
   
   version: 5.12.3
 uri: []

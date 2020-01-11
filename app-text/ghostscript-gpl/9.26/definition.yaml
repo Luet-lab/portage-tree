@@ -5,26 +5,33 @@ license: AGPL-3 CPL-1.0
 name: ghostscript-gpl
 requires:
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXext
+  name: jpeg
   
   version: ""
 - 
-  category: sys-apps
+  category: net-dns
   description: ""
   license: ""
-  name: dbus
+  name: libidn
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: fontconfig
   
-  version: 4.0.1
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.6.2
 - 
   category: app-text
   description: ""
@@ -33,12 +40,12 @@ requires:
   
   version: ""
 - 
-  category: net-print
+  category: app-text
   description: ""
   license: ""
-  name: cups
+  name: libpaper
   
-  version: 1.3.8
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -57,23 +64,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
-  
-  version: 1.6.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: openjpeg
   
   version: 2.1.0
 - 
-  category: sys-libs
+  category: net-print
   description: ""
   license: ""
-  name: zlib
+  name: cups
   
-  version: 1.2.7
+  version: 1.3.8
 - 
   category: x11-libs
   description: ""
@@ -85,21 +85,7 @@ requires:
   category: media-fonts
   description: ""
   license: ""
-  name: urw-fonts
-  
-  version: 2.4.9
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libpaper
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: arphicfonts
+  name: kochi-substitute
   
   version: ""
 - 
@@ -110,6 +96,13 @@ requires:
   
   version: ""
 - 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: arphicfonts
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
@@ -117,33 +110,40 @@ requires:
   
   version: 2.4.9
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: jpeg
+  name: zlib
   
-  version: ""
+  version: 1.2.7
 - 
-  category: net-dns
+  category: sys-apps
   description: ""
   license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: kochi-substitute
+  name: dbus
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: tiff
+  
+  version: 4.0.1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: urw-fonts
+  
+  version: 2.4.9
 uri:
 - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs/ghostscript-9.26.tar.xz
 - https://dev.gentoo.org/~dilfridge/distfiles/ghostscript-gpl-9.26-patchset-1.tar.xz

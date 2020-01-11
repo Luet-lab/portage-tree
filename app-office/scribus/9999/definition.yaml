@@ -5,115 +5,10 @@ license: GPL-2
 name: scribus
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: "58.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libmspub
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtprintsupport
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcdr
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: hunspell
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: podofo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pillow[tk?,]
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libqxp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.10.0[X,svg]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: 0.9.42
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libzmf
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvisio
+  name: qtwidgets
   
   version: ""
 - 
@@ -124,24 +19,45 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: app-text
   description: ""
   license: ""
-  name: qtnetwork
+  name: ghostscript-gpl
   
   version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libmspub
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libqxp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: "58.2"
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtgui
   
   version: ""
 - 
-  category: dev-qt
+  category: sys-libs
   description: ""
   license: ""
-  name: qtxml
+  name: zlib
   
   version: ""
 - 
@@ -159,17 +75,17 @@ requires:
   
   version: "1.67"
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: poppler
+  name: hyphen
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: librevenge
+  name: libxml2
   
   version: ""
 - 
@@ -180,10 +96,45 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: harfbuzz
+  
+  version: 0.9.42
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo-1.10.0[X,svg]
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: hunspell
   
   version: ""
 - 
@@ -204,7 +155,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: hyphen
+  name: librevenge
   
   version: ""
 - 
@@ -225,7 +176,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libzmf
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvisio
   
   version: ""
 - 
@@ -236,24 +194,66 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-python
   description: ""
   license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: ghostscript-gpl
+  name: pillow[tk?,]
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: lcms
+  name: libcdr
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: podofo
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: poppler
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtprintsupport
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 uri: []

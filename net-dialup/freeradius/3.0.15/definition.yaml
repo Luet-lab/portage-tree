@@ -4,20 +4,27 @@ conflicts:
   category: net-dialup
   description: ""
   license: ""
-  name: gnuradius
+  name: cistronradius
   
   version: ""
 - 
   category: net-dialup
   description: ""
   license: ""
-  name: cistronradius
+  name: gnuradius
   
   version: ""
 description: Highly configurable free RADIUS server
 license: GPL-2+
 name: freeradius
 requires:
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -30,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: libpcap
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
   
   version: ""
 - 
@@ -57,21 +71,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: libiodbc
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
+  name: oracle-instantclient-basic
   
   version: ""
 - 
@@ -79,20 +79,6 @@ requires:
   description: ""
   license: ""
   name: talloc
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: firebird
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
   
   version: ""
 - 
@@ -110,24 +96,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: libiodbc
   
   version: ""
 - 
@@ -138,10 +110,38 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
-  name: oracle-instantclient-basic
+  name: firebird
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 uri:

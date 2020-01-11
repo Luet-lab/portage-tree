@@ -5,10 +5,17 @@ license: LGPL-2
 name: polkit
 requires:
 - 
-  category: sys-auth
+  category: sec-policy
   description: ""
   license: ""
-  name: elogind
+  name: selinux-policykit
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: spidermonkey
   
   version: ""
 - 
@@ -54,17 +61,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: sys-auth
   description: ""
   license: ""
-  name: selinux-policykit
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: spidermonkey
+  name: elogind
   
   version: ""
 uri:

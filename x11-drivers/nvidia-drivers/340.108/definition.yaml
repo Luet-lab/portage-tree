@@ -12,19 +12,19 @@ license: GPL-2 NVIDIA-r2
 name: nvidia-drivers
 requires:
 - 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opencl
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
   name: gtk+
   
   version: "2.4"
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opencl
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -33,12 +33,40 @@ requires:
   
   version: ""
 - 
-  category: x11-base
+  category: x11-libs
   description: ""
   license: ""
-  name: xorg-server
+  name: libXv
   
-  version: 1.20.99
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
+  
+  version: 1.0.9
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -61,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
+  name: gdk-pixbuf[X]
   
   version: ""
 - 
@@ -72,27 +100,6 @@ requires:
   description: ""
   license: ""
   name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXv
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: 0.3-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf[X]
   
   version: ""
 - 
@@ -110,19 +117,19 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: x11-base
   description: ""
   license: ""
-  name: eselect-opengl
+  name: xorg-server
   
-  version: 1.0.9
+  version: 1.20.99
 - 
-  category: sys-power
+  category: x11-libs
   description: ""
   license: ""
-  name: acpid
+  name: libvdpau
   
-  version: ""
+  version: 0.3-r1
 - 
   category: sys-libs
   description: ""
@@ -130,13 +137,6 @@ requires:
   name: glibc
   
   version: 2.6.1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
 uri:
 - 'https://us.download.nvidia.com/XFree86/FreeBSD-x86_64/340.108/NVIDIA-FreeBSD-x86_64-340.108.tar.gz '
 - 'https://us.download.nvidia.com/XFree86/Linux-x86_64/340.108/NVIDIA-Linux-x86_64-340.108.run '

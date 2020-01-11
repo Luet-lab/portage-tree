@@ -5,12 +5,33 @@ license: LGPL-2+
 name: libblockdev
 requires:
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.1"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: nss
   
-  version: 2.42.2
+  version: 3.18.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: 1.6.7
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: dmraid
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -26,17 +47,17 @@ requires:
   
   version: "19"
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: nss
+  name: util-linux
   
-  version: 3.18.0
+  version: "2.27"
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: dmraid
+  name: udev
   
   version: ""
 - 
@@ -47,19 +68,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: util-linux
+  name: glib
   
-  version: "2.27"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.1"
+  version: 2.42.2
 - 
   category: dev-libs
   description: ""
@@ -71,21 +85,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: cryptsetup
-  
-  version: 1.6.7
-- 
-  category: sys-fs
-  description: ""
-  license: ""
   name: lvm2
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
   
   version: ""
 uri:

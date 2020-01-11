@@ -12,10 +12,17 @@ license: AGPL-3
 name: bareos
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: readline
+  name: bareos-fastlzlib
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 - 
@@ -26,13 +33,6 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: glusterfs
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -40,45 +40,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: logwatch
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sys-block
+  category: sys-libs
   description: ""
   license: ""
-  name: mtx
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
-  
-  version: 0.94.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: lzo
+  name: readline
   
   version: ""
 - 
@@ -96,17 +68,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: postgresql
   
   version: ""
 - 
@@ -124,17 +89,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-cluster
   description: ""
   license: ""
-  name: bareos-fastlzlib
+  name: ceph
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-cluster
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: ceph
+  
+  version: 0.94.2
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: glusterfs
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
   
   version: ""
 - 
@@ -152,17 +131,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
+  category: dev-libs
   description: ""
   license: ""
-  name: ceph
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
+  name: lzo
   
   version: ""
 - 
@@ -170,6 +142,34 @@ requires:
   description: ""
   license: ""
   name: openssl
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mtx
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: logwatch
   
   version: ""
 uri:

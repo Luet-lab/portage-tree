@@ -5,12 +5,12 @@ license: GPL-2
 name: pdns
 requires:
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: openssl
+  name: curl
   
-  version: ""
+  version: 7.21.3
 - 
   category: dev-db
   description: ""
@@ -19,59 +19,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: geoip
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.35"
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tinycdb
-  
-  version: "0.77"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
   name: postgresql
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
   
   version: ""
 - 
@@ -89,12 +47,12 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: curl
+  name: libressl
   
-  version: 7.21.3
+  version: ""
 - 
   category: net-nds
   description: ""
@@ -103,10 +61,52 @@ requires:
   
   version: 2.0.27-r4
 - 
-  category: app-crypt
+  category: dev-cpp
   description: ""
   license: ""
-  name: mit-krb5
+  name: yaml-cpp
+  
+  version: 0.5.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.35"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsodium
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
   
   version: ""
 - 
@@ -117,12 +117,12 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
+  category: dev-db
   description: ""
   license: ""
-  name: yaml-cpp
+  name: tinycdb
   
-  version: 0.5.1
+  version: "0.77"
 uri:
 - https://downloads.powerdns.com/releases/pdns-4.2.0.tar.bz2
 use_flags:

@@ -4,42 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
-  
-  version: ""
-- 
-  category: <mail-mta
-  description: ""
-  license: ""
-  name: ssmtp
-  
-  version: 2.64-r2
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
+  name: postfix
   
   version: ""
 - 
@@ -49,6 +14,13 @@ mailer
   name: sendmail
   
   version: ""
+- 
+  category: <mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: 2.64-r2
 - 
   category: '>=mail-mta'
   description: ""
@@ -67,7 +39,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: postfix
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: netqmail
   
   version: ""
 - 
@@ -75,6 +61,20 @@ mailer
   description: ""
   license: ""
   name: qmail-ldap
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
   
   version: ""
 - 
@@ -89,31 +89,17 @@ license: GPL-3
 name: msmtp
 requires:
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: msmtpd
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: msmtpd
-  
-  version: ""
-- 
   category: app-crypt
   description: ""
   license: ""
   name: libsecret
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
   
   version: ""
 - 
@@ -124,10 +110,10 @@ requires:
   
   version: ""
 - 
-  category: net-dns
+  category: net-mail
   description: ""
   license: ""
-  name: libidn2
+  name: mailbase
   
   version: ""
 - 
@@ -142,6 +128,20 @@ requires:
   description: ""
   license: ""
   name: gnutls[idn?]
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: msmtpd
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: msmtpd
   
   version: ""
 uri:

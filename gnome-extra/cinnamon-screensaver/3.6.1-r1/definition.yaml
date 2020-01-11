@@ -12,6 +12,13 @@ license: GPL-2+
 name: cinnamon-screensaver
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "31"
+- 
   category: dev-python
   description: ""
   license: ""
@@ -19,47 +26,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.37.3
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-desktop
-  
-  version: 2.6.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.78"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: gtk+
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.7
+  version: 3.1.4
 - 
   category: net-libs
   description: ""
@@ -78,7 +50,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86misc
+  name: libXxf86vm
   
   version: ""
 - 
@@ -86,41 +58,6 @@ requires:
   description: ""
   license: ""
   name: elogind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "31"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.1.4
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
   
   version: ""
 - 
@@ -141,16 +78,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: xapp
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: psutil
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.37.3
 - 
   category: gnome-base
   description: ""
@@ -158,6 +95,13 @@ requires:
   name: libgnomekbd
   
   version: "3.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.78"
 - 
   category: x11-libs
   description: ""
@@ -169,6 +113,20 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: cinnamon-desktop
+  
+  version: 2.6.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libX11
   
   version: ""
@@ -176,7 +134,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXxf86misc
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: xapp
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 0.1.7
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 uri:

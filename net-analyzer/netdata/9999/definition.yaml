@@ -5,6 +5,13 @@ license: GPL-3+ MIT BSD
 name: netdata
 requires:
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
@@ -12,31 +19,17 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: stem
+  
+  version: ""
+- 
   category: app-emulation
   description: ""
   license: ""
   name: xen-tools
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: jq
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: freeipmi
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: nfacct
   
   version: ""
 - 
@@ -54,10 +47,31 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-user
   description: ""
   license: ""
-  name: zlib
+  name: netdata
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmnl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: psycopg
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-c
   
   version: ""
 - 
@@ -68,49 +82,14 @@ requires:
   
   version: ""
 - 
-  category: app-shells
+  category: net-firewall
   description: ""
   license: ""
-  name: bash
-  
-  version: "4"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
+  name: nfacct
   
   version: ""
 - 
   category: acct-group
-  description: ""
-  license: ""
-  name: netdata
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: nodejs
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: stem
-  
-  version: ""
-- 
-  category: acct-user
   description: ""
   license: ""
   name: netdata
@@ -124,52 +103,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: json-c
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
+  name: freeipmi
   
   version: ""
 - 
@@ -187,10 +124,59 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: psycopg
+  name: awk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: jq
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: "4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mongo-c-driver
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: nodejs
   
   version: ""
 - 
@@ -201,10 +187,24 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libmnl
+  name: libcap
+  
+  version: ""
+- 
+  category: net-print
+  description: ""
+  license: ""
+  name: cups
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
   
   version: ""
 uri: []

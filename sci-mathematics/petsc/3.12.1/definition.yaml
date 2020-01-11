@@ -8,23 +8,37 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: lapack
+  name: blas
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: fftw
+  name: hdf5[mpi?]
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mpi[cxx?,fortran?]
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: mumps[mpi?]
+  name: cholmod
   
-  version: ""
+  version: 1.7.0
 - 
   category: sci-libs
   description: ""
@@ -32,6 +46,13 @@ requires:
   name: superlu
   
   version: "5"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hypre-2.18.0[mpi?]
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -47,45 +68,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: boost
+  name: fftw
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: hypre-2.18.0[mpi?]
+  name: parmetis
   
-  version: ""
+  version: "4"
 - 
   category: virtual
   description: ""
   license: ""
-  name: mpi[cxx?,fortran?]
+  name: lapack
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: scotch[mpi?]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5[mpi?]
+  name: mumps[mpi?]
   
   version: ""
 - 
@@ -99,23 +106,16 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: suitesparse
+  name: scotch[mpi?]
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: cholmod
+  name: suitesparse
   
-  version: 1.7.0
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: parmetis
-  
-  version: "4"
+  version: ""
 uri:
 - http://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-3.12.1.tar.gz
 use_flags:

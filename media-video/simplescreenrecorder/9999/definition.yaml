@@ -5,17 +5,24 @@ license: GPL-3
 name: simplescreenrecorder
 requires:
 - 
-  category: dev-qt
+  category: virtual
   description: ""
   license: ""
-  name: qtgui
+  name: jack
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtcore
   
   version: ""
 - 
@@ -29,7 +36,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: mesa[,X(+)]
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
@@ -47,24 +61,24 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-qt
   description: ""
   license: ""
-  name: jack
+  name: qtgui
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtwidgets
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libX11
+  name: mesa[,X(+)]
   
   version: ""
 - 
@@ -72,20 +86,6 @@ requires:
   description: ""
   license: ""
   name: glu
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
   
   version: ""
 uri: []

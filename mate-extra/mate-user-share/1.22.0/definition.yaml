@@ -5,19 +5,19 @@ license: GPL-2
 name: mate-user-share
 requires:
 - 
-  category: mate-base
+  category: dev-libs
   description: ""
   license: ""
-  name: caja
+  name: glib
   
-  version: 1.17.1
+  version: "2.50"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libcanberra
   
-  version: "2"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -32,6 +32,20 @@ requires:
   name: libnotify
   
   version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -54,12 +68,12 @@ requires:
   
   version: "0.70"
 - 
-  category: media-libs
+  category: mate-base
   description: ""
   license: ""
-  name: libcanberra
+  name: caja
   
-  version: ""
+  version: 1.17.1
 - 
   category: sys-apps
   description: ""
@@ -71,16 +85,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gdk-pixbuf
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
+  version: "2"
 - 
   category: www-servers
   description: ""
@@ -88,13 +95,6 @@ requires:
   name: apache
   
   version: "2.2"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
 uri: []
 use_flags:
 - X

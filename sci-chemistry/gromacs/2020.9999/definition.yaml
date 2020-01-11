@@ -13,10 +13,10 @@ license: LGPL-2.1 UoI-NCSA !mkl? ( !fftw? ( BSD ) !blas? ( BSD ) !lapack? ( BSD 
 name: gromacs
 requires:
 - 
-  category: virtual
+  category: x11-libs
   description: ""
   license: ""
-  name: mpi
+  name: libX11
   
   version: ""
 - 
@@ -27,6 +27,13 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -34,17 +41,24 @@ requires:
   
   version: ""
 - 
-  category: dev-util
+  category: virtual
   description: ""
   license: ""
-  name: nvidia-cuda-toolkit
+  name: opencl
   
-  version: 6.5.14
+  version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
   name: fftw
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
   
   version: ""
 - 
@@ -69,31 +83,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-util
   description: ""
   license: ""
-  name: libX11
+  name: nvidia-cuda-toolkit
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
+  version: 6.5.14
 - 
   category: virtual
   description: ""
   license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwloc
+  name: mpi
   
   version: ""
 uri: []

@@ -5,12 +5,12 @@ license: LGPL-2.1+ CC-BY-SA-3.0
 name: rygel
 requires:
 - 
-  category: media-plugins
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: glib
   
-  version: ""
+  version: 2.40.0
 - 
   category: net-libs
   description: ""
@@ -26,12 +26,33 @@ requires:
   
   version: 0.20.14
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
-  name: gupnp-av
+  name: libsoup
   
-  version: 0.12.8
+  version: "2.44"
 - 
   category: sys-apps
   description: ""
@@ -39,6 +60,13 @@ requires:
   name: util-linux
   
   version: "2.20"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: shared-mime-info
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -54,47 +82,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-bad
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3"
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libgee
   
   version: "0.8"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.5"
 - 
   category: dev-libs
   description: ""
@@ -106,23 +99,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gupnp-dlna
-  
-  version: 0.9.4
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: gstreamer
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: libunistring
   
-  version: "2.44"
+  version: ""
 - 
   category: app-misc
   description: ""
@@ -134,23 +120,16 @@ requires:
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-twolame
-  
-  version: ""
-- 
-  category: media-plugins
-  description: ""
-  license: ""
   name: gst-plugins-libav
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: glib
+  name: gupnp-dlna
   
-  version: 2.40.0
+  version: 0.9.4
 - 
   category: media-libs
   description: ""
@@ -159,10 +138,31 @@ requires:
   
   version: "0.7"
 - 
-  category: dev-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libunistring
+  name: gst-plugins-soup
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gupnp-av
+  
+  version: 0.12.8
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "3.5"
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-twolame
   
   version: ""
 uri: []

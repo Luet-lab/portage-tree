@@ -5,19 +5,19 @@ license: BSD
 name: osl
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
+  
+  version: 2.2.0
+- 
   category: sys-devel
   description: ""
   license: ""
   name: clang
   
   version: "5"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: partio
-  
-  version: ""
 - 
   category: sys-libs
   description: ""
@@ -29,21 +29,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
   name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
   
   version: ""
 - 
@@ -64,16 +50,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openexr
+  name: openimageio
   
-  version: 2.2.0
+  version: 1.8.5
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openimageio
+  name: partio
   
-  version: 1.8.5
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
 uri:
 - https://github.com/imageworks/OpenShadingLanguage/archive/Release-1.10.5.tar.gz
   -> osl-1.10.5.tar.gz

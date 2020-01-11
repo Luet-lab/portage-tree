@@ -8,20 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: bash-completion
-  
-  version: 2.7-r1
-- 
-  category: '>=app-admin'
-  description: ""
-  license: ""
-  name: sysklogd
-  
-  version: "2.0"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -29,12 +15,12 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-apps
+  category: <sys-libs
   description: ""
   license: ""
-  name: sysvinit
+  name: e2fsprogs-libs
   
-  version: 2.88-r7
+  version: 1.41.8
 - 
   category: <sys-fs
   description: ""
@@ -43,26 +29,19 @@ conflicts:
   
   version: 1.41.8
 - 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: bash-completion
+  
+  version: 2.7-r1
+- 
   category: <sys-apps
   description: ""
   license: ""
-  name: shadow
+  name: sysvinit
   
-  version: 4.7-r2
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: schedutils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: hardlink
-  
-  version: ""
+  version: 2.88-r7
 - 
   category: sys-process
   description: ""
@@ -70,6 +49,13 @@ conflicts:
   name: procps
   
   version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: shadow
+  
+  version: 4.7-r2
 - 
   category: '>=sys-apps'
   description: ""
@@ -85,12 +71,26 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-libs
+  category: app-arch
   description: ""
   license: ""
-  name: e2fsprogs-libs
+  name: hardlink
   
-  version: 1.41.8
+  version: ""
+- 
+  category: '>=app-admin'
+  description: ""
+  license: ""
+  name: sysklogd
+  
+  version: "2.0"
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: schedutils
+  
+  version: ""
 description: Various useful Linux utilities
 license: GPL-2 LGPL-2.1 BSD-4 MIT public-domain
 name: util-linux
@@ -110,34 +110,6 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: 2.2.2-r4
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -151,6 +123,20 @@ requires:
   name: ncurses
   
   version: 5.2-r2
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: slang
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.2.2-r4
 - 
   category: virtual
   description: ""
@@ -166,6 +152,20 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
@@ -173,10 +173,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: slang
+  name: libudev
   
   version: ""
 uri: []

@@ -4,6 +4,13 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
+  name: mpich
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
 mpi
   
   version: ""
@@ -14,13 +21,6 @@ mpi
   name: mpich2
   
   version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: mpich
-  
-  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
@@ -29,9 +29,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libevent
+  
+  version: 2.0.22
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libltdl
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: 2.0.2
 - 
   category: sys-libs
   description: ""
@@ -40,10 +54,10 @@ requires:
   
   version: 1.2.8-r1
 - 
-  category: sys-cluster
+  category: sys-fabric
   description: ""
   license: ""
-  name: torque
+  name: infinipath-psm
   
   version: ""
 - 
@@ -54,19 +68,12 @@ requires:
   
   version: "1.6"
 - 
-  category: sys-cluster
+  category: sys-fabric
   description: ""
   license: ""
-  name: knem
+  name: librdmacm
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
 - 
   category: sys-fabric
   description: ""
@@ -82,10 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fabric
+  category: sys-cluster
   description: ""
   license: ""
-  name: librdmacm
+  name: torque
   
   version: ""
 - 
@@ -96,19 +103,12 @@ requires:
   
   version: 6.5.19-r1
 - 
-  category: sys-fabric
+  category: sys-cluster
   description: ""
   license: ""
-  name: infinipath-psm
+  name: knem
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwloc
-  
-  version: 2.0.2
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-4.0.2.tar.bz2
 use_flags:

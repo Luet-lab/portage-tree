@@ -1,6 +1,13 @@
 category: sys-kernel
 conflicts:
 - 
+  category: sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
@@ -14,17 +21,17 @@ conflicts:
   name: openrc
   
   version: 0.9.9
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: ""
 description: Gentoo automatic kernel building scripts, reloaded
 license: GPL-2
 name: genkernel-next
 requires:
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -33,17 +40,17 @@ requires:
   
   version: ""
 - 
-  category: app-misc
+  category: sys-block
   description: ""
   license: ""
-  name: pax-utils
+  name: thin-provisioning-tools
   
-  version: "0.6"
+  version: ""
 - 
-  category: sys-fs
+  category: app-text
   description: ""
   license: ""
-  name: lvm2
+  name: asciidoc
   
   version: ""
 - 
@@ -54,17 +61,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: libselinux
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: open-iscsi
   
   version: ""
 - 
@@ -89,26 +96,19 @@ requires:
   
   version: ""
 - 
-  category: sys-block
-  description: ""
-  license: ""
-  name: thin-provisioning-tools
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: asciidoc
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
   name: dmraid
   
   version: 1.0.0_rc16
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
 - 
   category: sys-boot
   description: ""
@@ -117,17 +117,17 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: "0.6"
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: cryptsetup
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: open-iscsi
+  name: lvm2
   
   version: ""
 uri:

@@ -5,10 +5,10 @@ license: GPL-2
 name: smokeping
 requires:
 - 
-  category: dev-perl
+  category: net-analyzer
   description: ""
   license: ""
-  name: Digest-HMAC
+  name: fping-2.4_beta2-r2
   
   version: ""
 - 
@@ -19,12 +19,26 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-libnet
+  
+  version: ""
+- 
   category: www-apache
   description: ""
   license: ""
-  name: mod_perl
+  name: mod_fcgid
   
-  version: 2.0.1
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: 7.21.4
 - 
   category: dev-perl
   description: ""
@@ -36,14 +50,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Net-OpenSSH
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Telnet
+  name: Authen-Radius
   
   version: ""
 - 
@@ -54,10 +61,31 @@ requires:
   
   version: "1.13"
 - 
-  category: net-analyzer
+  category: net-dns
   description: ""
   license: ""
-  name: fping-2.4_beta2-r2
+  name: bind-tools
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Config-Grammar
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-DNS
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: libwww-perl
   
   version: ""
 - 
@@ -67,13 +95,6 @@ requires:
   name: httpd-cgi
   
   version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.21.4
 - 
   category: net-analyzer
   description: ""
@@ -96,27 +117,6 @@ requires:
   
   version: ""
 - 
-  category: www-apache
-  description: ""
-  license: ""
-  name: mod_fcgid
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: bind-tools
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: rrdtool
-  
-  version: "1.2"
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -127,35 +127,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Net-DNS
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-libnet
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Authen-Radius
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: 5.8.8-r8
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Config-Grammar
+  name: Digest-HMAC
   
   version: ""
 - 
@@ -166,12 +138,40 @@ requires:
   
   version: ""
 - 
+  category: www-apache
+  description: ""
+  license: ""
+  name: mod_perl
+  
+  version: 2.0.1
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: libwww-perl
+  name: Net-OpenSSH
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Telnet
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: 5.8.8-r8
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: rrdtool
+  
+  version: "1.2"
 uri:
 - https://oss.oetiker.ch/smokeping/pub/smokeping-2.6.9.tar.gz
 use_flags:

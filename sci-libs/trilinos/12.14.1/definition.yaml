@@ -5,87 +5,10 @@ license: BSD LGPL-2.1
 name: trilinos
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: blas
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: eigen
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: matio
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: cxsparse
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtest
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hypre
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: qd
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: scotch
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: tvmet
+  name: superlu
   
   version: ""
 - 
@@ -96,24 +19,10 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: coinor-clp
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: hwloc
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: umfpack
+  name: eigen
   
   version: ""
 - 
@@ -121,69 +30,6 @@ requires:
   description: ""
   license: ""
   name: glpk
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: mkl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: taucs
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: "3.2"
-- 
-  category: sci-mathematics
-  description: ""
-  license: ""
-  name: petsc
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: scalapack
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: tbb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5
   
   version: ""
 - 
@@ -201,10 +47,80 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: binutils-libs
+  name: mpi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: "3.2"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: tvmet
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: blas
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hypre
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: hwloc
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: tbb
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
   
   version: ""
 - 
@@ -222,10 +138,94 @@ requires:
   
   version: ""
 - 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtest
+  
+  version: ""
+- 
   category: sci-libs
   description: ""
   license: ""
-  name: superlu
+  name: qd
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: scotch
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: binutils-libs
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: scalapack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: cxsparse
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: taucs
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: coinor-clp
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: matio
+  
+  version: ""
+- 
+  category: sci-mathematics
+  description: ""
+  license: ""
+  name: petsc
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: umfpack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: mkl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 uri:

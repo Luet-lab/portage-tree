@@ -5,52 +5,10 @@ license: LGPL-2.1+
 name: dealii
 requires:
 - 
-  category: sci-libs
+  category: virtual
   description: ""
   license: ""
-  name: netcdf-cxx
-  
-  version: ""
-- 
-  category: sci-mathematics
-  description: ""
-  license: ""
-  name: slepc[mpi=]
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: umfpack
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: sundials
-  
-  version: "4"
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: gsl
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: parmetis
-  
-  version: "4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: assimp
+  name: mpi
   
   version: ""
 - 
@@ -64,7 +22,14 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: opencascade
+  name: p4est
+  
+  version: ""
+- 
+  category: sci-mathematics
+  description: ""
+  license: ""
+  name: petsc[mpi=]
   
   version: ""
 - 
@@ -75,12 +40,96 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gsl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: lapack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: umfpack
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: opencascade
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: sundials
+  
+  version: "4"
+- 
   category: sci-libs
   description: ""
   license: ""
   name: symengine
   
   version: "0.4"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: arpack[mpi=]
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: gmsh
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: netcdf-cxx
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-sdk
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: muParser
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: trilinos
+  
+  version: ""
 - 
   category: app-arch
   description: ""
@@ -99,56 +148,14 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: gmsh
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5[mpi=]
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: muParser
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: p4est
+  name: adolc
   
   version: ""
 - 
   category: sci-mathematics
   description: ""
   license: ""
-  name: petsc[mpi=]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-sdk
+  name: slepc[mpi=]
   
   version: ""
 - 
@@ -159,33 +166,26 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: media-libs
   description: ""
   license: ""
-  name: trilinos
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: lapack
+  name: assimp
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: adolc
+  name: hdf5[mpi=]
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: arpack[mpi=]
+  name: parmetis
   
-  version: ""
+  version: "4"
 uri:
 - https://github.com/dealii/dealii/releases/download/v9.1.1/dealii-9.1.1.tar.gz ->
   dealii-9.1.1.tar.gz
