@@ -12,10 +12,31 @@ license: GPL-2
 name: nagios-plugins
 requires:
 - 
-  category: games-util
+  category: sec-policy
   description: ""
   license: ""
-  name: qstat
+  name: selinux-nagios
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: bind-tools
   
   version: ""
 - 
@@ -23,13 +44,6 @@ requires:
   description: ""
   license: ""
   name: openssh
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
   
   version: ""
 - 
@@ -47,6 +61,13 @@ requires:
   
   version: ""
 - 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: fping
+  
+  version: ""
+- 
   category: dev-perl
   description: ""
   license: ""
@@ -57,28 +78,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: bind-tools
-  
-  version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -89,31 +89,31 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
-  category: sec-policy
+  category: games-util
   description: ""
   license: ""
-  name: selinux-nagios
+  name: qstat
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
   
   version: ""
 - 
   category: net-analyzer
   description: ""
   license: ""
-  name: fping
+  name: net-snmp
   
   version: ""
 uri:

@@ -1,12 +1,12 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-shells
+  category: <sys-apps
   description: ""
   license: ""
-  name: gentoo-bashcomp
+  name: baselayout
   
-  version: "20180302"
+  version: 2.1-r1
 - 
   category: <sys-fs
   description: ""
@@ -22,13 +22,6 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: 3.3.9-r2
-- 
   category: <app-shells
   description: ""
   license: ""
@@ -36,72 +29,23 @@ conflicts:
   
   version: "20180228"
 - 
-  category: <sys-apps
+  category: <app-shells
   description: ""
   license: ""
-  name: baselayout
+  name: gentoo-bashcomp
   
-  version: 2.1-r1
+  version: "20180302"
+- 
+  category: <sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: 3.3.9-r2
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: psmisc
-  
-  version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: 2.20170204-r4
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.6"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
 - 
   category: sys-process
   description: ""
@@ -113,9 +57,30 @@ requires:
   category: sec-policy
   description: ""
   license: ""
+  name: selinux-base-policy
+  
+  version: 2.20170204-r4
+- 
+  category: sec-policy
+  description: ""
+  license: ""
   name: selinux-openrc
   
   version: 2.20170204-r4
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "2.6"
 - 
   category: sys-apps
   description: ""
@@ -128,6 +93,41 @@ requires:
   description: ""
   license: ""
   name: tmpfiles
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: psmisc
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: policycoreutils
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
   
   version: ""
 uri:

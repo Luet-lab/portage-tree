@@ -4,28 +4,7 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
-  name: shorewall6-lite
-  
-  version: ""
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "214"
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: shorewall-lite
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: shorewall6
+  name: shorewall-init
   
   version: ""
 - 
@@ -39,20 +18,48 @@ conflicts:
   category: net-firewall
   description: ""
   license: ""
-  name: shorewall-init
+  name: shorewall6
   
   version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: shorewall-lite
+  
+  version: ""
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: shorewall6-lite
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "214"
 description: A high-level tool for configuring Netfilter
 license: GPL-2
 name: shorewall
 requires:
 - 
-  category: virtual
+  category: sec-policy
   description: ""
   license: ""
-  name: perl-Digest-SHA
+  name: selinux-shorewall
   
-  version: ""
+  version: 2.20161023-r3
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: 1.06.95
 - 
   category: dev-lang
   description: ""
@@ -67,6 +74,13 @@ requires:
   name: Socket6
   
   version: 0.230.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Digest-SHA
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -88,20 +102,6 @@ requires:
   name: iproute2
   
   version: 3.8.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-shorewall
-  
-  version: 2.20161023-r3
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: 1.06.95
 uri:
 - http://www.shorewall.net/pub/shorewall//shorewall-/shorewall-core-5.2.3.4.tar.bz2
 - 'http://www.shorewall.net/pub/shorewall//shorewall-/shorewall-5.2.3.4.tar.bz2 '

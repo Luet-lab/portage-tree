@@ -6,122 +6,10 @@ license: BSD
 name: opencv
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtkglext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdc1394
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgphoto2
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: xine-lib
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
-  name: hdf5
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libraw1394
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qttest
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: tesseract[opencl=]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
+  name: gdal
   
   version: ""
 - 
@@ -149,49 +37,42 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: tbb
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: vtk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gflags
+  name: qtconcurrent
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libv4l
+  
+  version: 0.8.3
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
   
   version: ""
 - 
@@ -202,17 +83,59 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: x11-libs
   description: ""
   license: ""
-  name: qtconcurrent
+  name: gtk+
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: opengl
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gflags
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: glog
   
   version: ""
 - 
@@ -226,28 +149,105 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openexr
+  name: gst-plugins-base
   
   version: ""
 - 
-  category: dev-cpp
+  category: app-text
   description: ""
   license: ""
-  name: glog
+  name: tesseract[opencl=]
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: nvidia-cuda-toolkit
   
   version: ""
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: gdal
+  name: hdf5
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: libgphoto2
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libraw1394
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: tbb
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openexr
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qttest
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: vtk
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdc1394
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
   
   version: ""
 - 
@@ -261,21 +261,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: xine-lib
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libv4l
+  name: gtkglext
   
-  version: 0.8.3
+  version: ""
 - 
-  category: media-video
+  category: virtual
   description: ""
   license: ""
-  name: ffmpeg
+  name: opengl
   
   version: ""
 uri:

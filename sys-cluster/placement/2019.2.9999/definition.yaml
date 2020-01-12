@@ -6,6 +6,27 @@ conflicts:
   license: ""
   name: setuptools
   
+  version: 34.2.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.3.1
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 36.2.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
   version: 34.0.1
 - 
   category: ~dev-python
@@ -13,7 +34,42 @@ conflicts:
   license: ""
   name: setuptools
   
-  version: 34.3.0
+  version: 34.0.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.0.2
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.0.3
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.1.1
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.3.2
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.19.1
 - 
   category: ~dev-python
   description: ""
@@ -21,6 +77,13 @@ conflicts:
   name: setuptools
   
   version: 24.0.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 34.3.0
 - 
   category: ~dev-python
   description: ""
@@ -42,69 +105,6 @@ conflicts:
   name: pymysql
   
   version: 0.7.7
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.0.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.2.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: oslo-serialization
-  
-  version: 1.19.1
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.1.1
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.3.1
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 36.2.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.0.3
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.3.2
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 34.0.2
 description: A HTTP service for managing, selecting, and claiming cloud resources.
 license: Apache-2.0
 name: placement
@@ -113,23 +113,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: psycopg
+  name: oslo-policy
   
-  version: 2.5.0
+  version: 1.35.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-serialization
+  name: oslo-middleware
   
-  version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: setuptools
-  
-  version: 21.0.0
+  version: 3.31.0
 - 
   category: dev-python
   description: ""
@@ -148,44 +141,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: six
+  name: requests
   
-  version: 1.10.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-config
-  
-  version: 6.7.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: os-resource-classes
-  
-  version: 0.5.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pymysql
-  
-  version: 0.7.6
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: microversion-parse
-  
-  version: 0.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: os-traits
-  
-  version: 0.16.0
+  version: 2.14.2
 - 
   category: dev-python
   description: ""
@@ -204,9 +162,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-middleware
+  name: microversion-parse
   
-  version: 3.31.0
+  version: 0.2.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: psycopg
+  
+  version: 2.5.0
 - 
   category: dev-python
   description: ""
@@ -218,6 +183,41 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: oslo-log
+  
+  version: 3.36.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: setuptools
+  
+  version: 21.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: sqlalchemy
+  
+  version: 1.2.19
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-config
+  
+  version: 6.7.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pymysql
+  
+  version: 0.7.6
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: routes
   
   version: 2.3.1
@@ -225,9 +225,30 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: requests
+  name: os-resource-classes
   
-  version: 2.14.2
+  version: 0.5.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: os-traits
+  
+  version: 0.16.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jsonschema
+  
+  version: 2.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.10.0
 - 
   category: dev-python
   description: ""
@@ -235,6 +256,13 @@ requires:
   name: oslo-concurrency
   
   version: 3.26.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.18.0
 - 
   category: dev-python
   description: ""
@@ -249,34 +277,6 @@ requires:
   name: oslo-upgradecheck
   
   version: 0.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-log
-  
-  version: 3.36.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: sqlalchemy
-  
-  version: 1.2.19
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jsonschema
-  
-  version: 2.6.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-policy
-  
-  version: 1.35.0
 uri: []
 use_flags:
 - mysql

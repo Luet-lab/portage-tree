@@ -12,17 +12,17 @@ license: Apache-2.0
 name: cups
 requires:
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: dbus
+  
+  version: 1.6.18-r1
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
   
   version: ""
 - 
@@ -32,6 +32,27 @@ requires:
   name: lp
   
   version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-cups
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: 0-r1
 - 
   category: sys-libs
   description: ""
@@ -54,31 +75,17 @@ requires:
   
   version: ""
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: 0.6.31-r2
-- 
   category: sys-apps
   description: ""
   license: ""
-  name: dbus
+  name: acl
   
-  version: 1.6.18-r1
+  version: ""
 - 
-  category: virtual
+  category: x11-misc
   description: ""
   license: ""
-  name: krb5
-  
-  version: 0-r1
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-cups
+  name: xdg-utils
   
   version: ""
 - 
@@ -96,26 +103,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: attr
+  name: zlib
   
   version: ""
 - 
-  category: virtual
+  category: net-dns
   description: ""
   license: ""
-  name: libusb
+  name: avahi
   
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: xdg-utils
-  
-  version: ""
+  version: 0.6.31-r2
 uri: []
 use_flags:
 - acl

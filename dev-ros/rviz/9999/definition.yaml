@@ -5,20 +5,6 @@ license: BSD
 name: rviz
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: urdfdom
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -29,14 +15,14 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: image_geometry
+  name: angles
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: image_transport
+  name: laser_geometry
   
   version: ""
 - 
@@ -50,42 +36,7 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: roscpp
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: media_export
-  
-  version: ""
-- 
-  category: dev-games
-  description: ""
-  license: ""
-  name: ogre
-  
-  version: "1.10"
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: eigen
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: map_msgs
+  name: rosconsole
   
   version: ""
 - 
@@ -96,87 +47,24 @@ requires:
   
   version: ""
 - 
-  category: dev-ros
+  category: dev-cpp
   description: ""
   license: ""
-  name: python_qt_binding
-  
-  version: 0.3.0
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: visualization_msgs
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: rosbag
+  name: eigen
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: console_bridge
+  name: urdfdom
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: rospy
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: message_filters
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: nav_msgs
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: assimp
-  
-  version: ""
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: yaml-cpp
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: angles
+  name: image_geometry
   
   version: ""
 - 
@@ -197,14 +85,126 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: std_srvs
+  name: nav_msgs
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: laser_geometry
+  name: std_srvs
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: assimp
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: yaml-cpp
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: roslib
+  
+  version: ""
+- 
+  category: dev-games
+  description: ""
+  license: ""
+  name: ogre
+  
+  version: "1.10"
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: rospy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: console_bridge
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: map_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: std_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: visualization_msgs
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: roscpp
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: urdf
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: image_transport
+  
+  version: ""
+- 
+  category: dev-ros
+  description: ""
+  license: ""
+  name: message_filters
   
   version: ""
 - 
@@ -218,21 +218,14 @@ requires:
   category: dev-ros
   description: ""
   license: ""
-  name: rosconsole
+  name: rosbag
   
   version: ""
 - 
   category: dev-ros
   description: ""
   license: ""
-  name: roslib
-  
-  version: ""
-- 
-  category: dev-ros
-  description: ""
-  license: ""
-  name: urdf
+  name: media_export
   
   version: ""
 - 
@@ -250,12 +243,19 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
   category: dev-ros
   description: ""
   license: ""
-  name: std_msgs
+  name: python_qt_binding
   
-  version: ""
+  version: 0.3.0
 uri: []
 use_flags:
 - ""

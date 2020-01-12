@@ -4,13 +4,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: esmtp
   
   version: ""
@@ -18,21 +11,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-mailer
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
+  name: msmtp
   
   version: ""
 - 
@@ -53,14 +32,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: msmtp
+  name: netqmail
   
   version: ""
 - 
@@ -74,7 +46,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
   
   version: ""
 - 
@@ -82,6 +68,20 @@ mailer
   description: ""
   license: ""
   name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
   
   version: ""
 description: A fast and secure drop-in replacement for sendmail
@@ -92,14 +92,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libpcre
+  name: openssl
   
-  version: "3.4"
+  version: ""
 - 
-  category: net-misc
+  category: dev-lang
   description: ""
   license: ""
-  name: memcached
+  name: perl
   
   version: ""
 - 
@@ -127,30 +127,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: libpcre
+  
+  version: "3.4"
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: postfix
   
   version: ""
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libnsl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
+  name: selinux-postfix
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: icu
   
-  version: 2.9.1
+  version: ""
 - 
   category: acct-group
   description: ""
@@ -166,13 +166,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
-- 
   category: dev-db
   description: ""
   license: ""
@@ -180,17 +173,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libnsl
   
-  version: "2"
+  version: ""
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-postfix
+  name: pam
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: memcached
   
   version: ""
 - 
@@ -204,30 +204,30 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: db
+  
+  version: "3.2"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: cyrus-sasl
   
-  version: ""
+  version: "2"
 - 
-  category: acct-group
+  category: dev-libs
   description: ""
   license: ""
-  name: postfix
+  name: libressl
   
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
+  version: 2.9.1
 uri:
 - ftp://ftp.porcupine.org/mirrors/postfix-release/experimental/postfix-3.5.tar.gz
 use_flags:

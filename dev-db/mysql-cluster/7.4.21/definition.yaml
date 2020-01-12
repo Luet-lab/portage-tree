@@ -4,21 +4,21 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mytop
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mariadb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mariadb-galera
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mytop
   
   version: ""
 - 
@@ -32,69 +32,13 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql
+  name: mariadb
   
   version: ""
 description: An enhanced, drop-in replacement for MySQL
 license: GPL-2
 name: mysql-cluster
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: "4"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: numactl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: systemtap
-  
-  version: "1.3"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Time-HiRes
-  
-  version: ""
 - 
   category: sys-process
   description: ""
@@ -110,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: jre
+  name: libressl
   
-  version: "1.6"
+  version: ""
 - 
   category: virtual
   description: ""
@@ -131,10 +75,45 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.0
+- 
   category: virtual
   description: ""
   license: ""
-  name: perl-Term-ANSIColor
+  name: jre
+  
+  version: "1.6"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Time-HiRes
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
   
   version: ""
 - 
@@ -145,10 +124,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ncurses
+  name: jemalloc
   
   version: ""
 - 
@@ -159,6 +138,27 @@ requires:
   
   version: 1.2.3
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -166,17 +166,17 @@ requires:
   
   version: 4.7-r1
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: jemalloc
+  name: systemtap
   
-  version: ""
+  version: "1.3"
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: libressl
+  name: perl-Term-ANSIColor
   
   version: ""
 uri:

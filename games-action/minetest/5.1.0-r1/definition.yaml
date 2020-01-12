@@ -5,31 +5,10 @@ license: LGPL-2.1+ CC-BY-SA-3.0 OFL-1.1 Apache-2.0
 name: minetest
 requires:
 - 
-  category: media-libs
+  category: dev-db
   description: ""
   license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: minetest
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: minetest
-  
-  version: ""
-- 
-  category: dev-games
-  description: ""
-  license: ""
-  name: irrlicht
+  name: sqlite
   
   version: ""
 - 
@@ -40,31 +19,45 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: libintl
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: leveldb
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: minetest
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
   
   version: ""
 - 
@@ -82,90 +75,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: leveldb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: "9.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: libspatialindex
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jsoncpp
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -176,9 +85,100 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libXxf86vm
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: minetest
+  
+  version: ""
+- 
+  category: dev-games
+  description: ""
+  license: ""
+  name: irrlicht
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: libspatialindex
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jsoncpp
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: "9.5"
 uri:
 - https://github.com/minetest/minetest/archive/5.1.0.tar.gz -> minetest-5.1.0.tar.gz
 use_flags:

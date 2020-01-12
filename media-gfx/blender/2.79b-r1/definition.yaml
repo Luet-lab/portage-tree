@@ -5,38 +5,80 @@ license: '|| ( GPL-2 BL )'
 name: blender
 requires:
 - 
-  category: media-video
+  category: dev-util
   description: ""
   license: ""
-  name: ffmpeg
+  name: nvidia-cuda-toolkit
   
   version: ""
 - 
-  category: dev-cpp
+  category: sci-libs
   description: ""
   license: ""
-  name: tbb
+  name: fftw
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: opensubdiv
   
-  version: ""
+  version: 3.3.0
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: lzo
+  name: c-blosc
+  
+  version: 1.5.2
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsdl2
   
   version: ""
 - 
-  category: dev-util
+  category: media-libs
   description: ""
   license: ""
-  name: nvidia-cuda-toolkit
+  name: openexr
+  
+  version: 2.2.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: 1.10.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: llvm
   
   version: ""
 - 
@@ -50,112 +92,21 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openimageio
-  
-  version: 1.7.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opensubdiv
-  
-  version: 3.3.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: openvdb[,-abi3-compat(-),abi4-compat(+)]
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: spacenavd
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opencl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: c-blosc
-  
-  version: 1.5.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: freetype
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: glew
+  name: libav
   
-  version: ""
+  version: "11.3"
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: opengl
+  name: zlib
   
   version: ""
 - 
@@ -173,17 +124,52 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: fftw
+  name: libXxf86vm
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: spacenavd
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXxf86vm
+  name: libXi
   
   version: ""
 - 
@@ -194,38 +180,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: lzo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
+  name: opencl
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openexr
+  name: openimageio
   
-  version: 2.2.0
+  version: 1.7.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: osl
   
   version: ""
 - 
@@ -236,24 +222,59 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: jpeg
+  name: libiconv
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: openvdb[,-abi3-compat(-),abi4-compat(+)]
+  
+  version: ""
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: tbb
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
   
   version: ""
 - 
   category: dev-python
   description: ""
   license: ""
-  name: numpy
+  name: requests
   
-  version: 1.10.1
+  version: ""
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: requests
+  name: libintl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
   
   version: ""
 - 
@@ -267,13 +288,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: osl
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libsndfile
   
   version: ""
@@ -282,20 +296,6 @@ requires:
   description: ""
   license: ""
   name: valgrind
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: "11.3"
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: llvm
   
   version: ""
 uri:

@@ -4,16 +4,9 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: gentoo-systemd-integration
   
   version: ""
-- 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base
-  
-  version: 2.20120725-r10
 - 
   category: <sys-libs
   description: ""
@@ -25,7 +18,7 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: systemd
   
   version: ""
 - 
@@ -35,6 +28,13 @@ conflicts:
   name: lvm2
   
   version: 2.02.103
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base
+  
+  version: 2.20120725-r10
 - 
   category: sys-fs
   description: ""
@@ -47,12 +47,19 @@ license: LGPL-2.1 MIT GPL-2
 name: eudev
 requires:
 - 
-  category: dev-libs
+  category: acct-group
   description: ""
   license: ""
-  name: gobject-introspection
+  name: kvm
   
-  version: "1.38"
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: render
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -68,13 +75,6 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: render
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -82,19 +82,19 @@ requires:
   
   version: "2.20"
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.38"
+- 
   category: sys-apps
   description: ""
   license: ""
   name: kmod
   
   version: "16"
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.8.tar.gz
 use_flags:

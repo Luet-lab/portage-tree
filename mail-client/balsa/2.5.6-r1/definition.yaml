@@ -5,40 +5,26 @@ license: GPL-2
 name: balsa
 requires:
 - 
-  category: net-libs
+  category: app-text
   description: ""
   license: ""
-  name: gnutls
+  name: gspell
+  
+  version: "1.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.10.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: compface
-  
-  version: 1.5.1
 - 
   category: x11-themes
   description: ""
@@ -54,13 +40,6 @@ requires:
   
   version: 3.2.0
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -71,7 +50,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 - 
@@ -81,48 +60,6 @@ requires:
   name: openldap
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.40.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.10.0
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: hicolor-icon-theme
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 1.5.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: gspell
-  
-  version: "1.2"
 - 
   category: dev-libs
   description: ""
@@ -138,17 +75,31 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: x11-themes
   description: ""
   license: ""
-  name: sqlite
+  name: hicolor-icon-theme
   
-  version: "2.8"
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: mit-krb5
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: libxml2
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: webkit-gtk
   
   version: ""
 - 
@@ -156,6 +107,55 @@ requires:
   description: ""
   license: ""
   name: html2text
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 1.5.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "2.8"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: compface
+  
+  version: 1.5.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.40.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
   
   version: ""
 uri:

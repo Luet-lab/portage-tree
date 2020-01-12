@@ -5,10 +5,17 @@ license: GPL-2
 name: duc
 requires:
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: ncurses
+  name: glfw
+  
+  version: "3.0"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
@@ -22,7 +29,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: cairo
   
   version: ""
 - 
@@ -36,7 +43,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: pango[X]
   
   version: ""
 - 
@@ -47,33 +54,26 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: sqlite
+  name: ncurses
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: pango
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: pango[X]
+  name: libX11
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glfw
-  
-  version: "3.0"
 uri: []
 use_flags:
 - cairo

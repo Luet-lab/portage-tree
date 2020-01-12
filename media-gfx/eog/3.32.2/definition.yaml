@@ -5,12 +5,40 @@ license: GPL-2+
 name: eog
 requires:
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: 2.91.92
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libX11
   
-  version: 3.22.0
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: 0.7.4
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.36.2
 - 
   category: sys-libs
   description: ""
@@ -19,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libX11
+  name: jpeg
   
   version: ""
 - 
@@ -33,12 +61,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: glib
+  name: gnome-desktop
   
-  version: 2.53.4
+  version: 2.91.2
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: shared-mime-info
+  
+  version: "0.20"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.22.0
 - 
   category: media-libs
   description: ""
@@ -54,54 +96,12 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.36.2
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpeas
+  name: glib
   
-  version: 0.7.4
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.54"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 2.91.2
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 2.91.92
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
-  
-  version: "0.20"
+  version: 2.53.4
 uri: []
 use_flags:
 - +exif

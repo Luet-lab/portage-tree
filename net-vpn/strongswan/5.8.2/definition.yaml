@@ -1,17 +1,17 @@
 category: net-vpn
 conflicts:
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openswan
-  
-  version: ""
-- 
   category: net-vpn
   description: ""
   license: ""
   name: libreswan
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openswan
   
   version: ""
 description: IPsec-based VPN solution, supporting IKEv1/IKEv2 and MOBIKE
@@ -19,45 +19,10 @@ license: GPL-2 RSA DES
 name: strongswan
 requires:
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: unbound
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: iproute2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
   name: networkmanager
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns
   
   version: ""
 - 
@@ -68,40 +33,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: 3.3.1
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: sec-policy
   description: ""
   license: ""
   name: selinux-ipsec
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: 4.1.5
 - 
   category: sys-libs
   description: ""
@@ -117,6 +54,62 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: unbound
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: 3.3.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -124,12 +117,19 @@ requires:
   
   version: 0.9.8
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: iproute2
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: 4.1.5
 uri:
 - https://download.strongswan.org/strongswan-5.8.2.tar.bz2
 use_flags:

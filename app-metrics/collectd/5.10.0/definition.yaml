@@ -5,31 +5,52 @@ license: MIT GPL-2 GPL-2+ GPL-3 GPL-3+
 name: collectd
 requires:
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libmnl
+  name: glib
   
   version: ""
 - 
-  category: net-libs
+  category: net-analyzer
   description: ""
   license: ""
-  name: liboping
+  name: net-snmp
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ganglia
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mosquitto
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: mysql-connector-c
   
   version: ""
 - 
-  category: net-libs
+  category: dev-db
   description: ""
   license: ""
-  name: librouteros
+  name: oracle-instantclient-basic
   
   version: ""
 - 
@@ -43,7 +64,91 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: librdkafka
+  
+  version: 0.9.0.99
+- 
+  category: app-emulation
+  description: ""
+  license: ""
+  name: xen-tools
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libpcap
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: openipmi
+  
+  version: 2.0.16-r1
+- 
+  category: net-firewall
+  description: ""
+  license: ""
+  name: iptables
+  
+  version: 1.4.13
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libmodbus
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: librouteros
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libatasmart
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mongo-c-driver
+  
+  version: 1.8.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: lm-sensors
   
   version: ""
 - 
@@ -54,10 +159,10 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libmicrohttpd
+  name: perl
   
   version: ""
 - 
@@ -75,220 +180,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: yajl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hiredis
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: mongo-c-driver
-  
-  version: 1.8.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: 1.4.13
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmemcached
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmodbus
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: owfs
-  
-  version: "3.1"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-collectd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgcrypt
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: logger
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mosquitto
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: nut
-  
-  version: 2.7.2-r2
-- 
-  category: app-emulation
-  description: ""
-  license: ""
-  name: libvirt
-  
-  version: ""
-- 
-  category: sci-geosciences
-  description: ""
-  license: ""
-  name: gpsd
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: openipmi
-  
-  version: 2.0.16-r1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: oracle-instantclient-basic
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: lm-sensors
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: libsigrok
-  
-  version: "0.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: librdkafka
-  
-  version: 0.9.0.99
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf-c
-  
-  version: 1.2.1-r1
-- 
   category: dev-db
   description: ""
   license: ""
   name: libdbi
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libpcap
   
   version: ""
 - 
@@ -299,17 +194,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-nds
   description: ""
   license: ""
-  name: libesmtp
+  name: openldap
   
   version: ""
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libstatgrab
+  name: selinux-collectd
   
   version: ""
 - 
@@ -320,10 +215,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
+  category: dev-libs
   description: ""
   license: ""
-  name: ganglia
+  name: libmemcached
   
   version: ""
 - 
@@ -334,17 +229,122 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: sys-power
   description: ""
   license: ""
-  name: openldap
+  name: nut
+  
+  version: 2.7.2-r2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf-c
+  
+  version: 1.2.1-r1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmicrohttpd
   
   version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: libsigrok
+  
+  version: "0.4"
 - 
   category: app-emulation
   description: ""
   license: ""
-  name: xen-tools
+  name: libvirt
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: yajl
+  
+  version: ""
+- 
+  category: sci-geosciences
+  description: ""
+  license: ""
+  name: gpsd
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libesmtp
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: owfs
+  
+  version: "3.1"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: liboping
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: logger
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libmnl
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hiredis
   
   version: ""
 uri:

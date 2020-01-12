@@ -18,14 +18,14 @@ conflicts:
   category: net-mail
   description: ""
   license: ""
-  name: bincimap
+  name: cyrus-imapd
   
   version: ""
 - 
   category: net-mail
   description: ""
   license: ""
-  name: cyrus-imapd
+  name: bincimap
   
   version: ""
 description: An IMAP daemon designed specifically for maildirs
@@ -33,31 +33,10 @@ license: GPL-3
 name: courier-imap
 requires:
 - 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: 0.00-r8
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 - 
@@ -73,12 +52,40 @@ requires:
   license: ""
   name: courier-unicode
   
-  version: "1.3"
+  version: "2"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libressl
+  name: courier-unicode
+  
+  version: "1.3"
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: 0.00-r8
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: 1.8.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: fam
   
   version: ""
 - 
@@ -89,26 +96,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: courier-unicode
-  
-  version: "2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: fam
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: db
   
-  version: 1.8.0
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
 uri:
 - mirror://sourceforge/courier/courier-imap-4.17.3.tar.bz2
 use_flags:

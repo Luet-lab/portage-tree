@@ -12,20 +12,6 @@ license: GPL-2
 name: pluma
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: "1.6"
-- 
   category: app-text
   description: ""
   license: ""
@@ -36,9 +22,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: "2.5"
+  version: "2.50"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libSM
+  
+  version: "1.0"
 - 
   category: virtual
   description: ""
@@ -47,17 +47,52 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: enchant
+  
+  version: "1.6"
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: atk
   
-  version: 0.9.3
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: 1.2.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.5"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -71,41 +106,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libSM
-  
-  version: "1.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: 1.2.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libX11
   
   version: ""
@@ -113,9 +113,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: "2.50"
+  version: 0.9.3
 uri: []
 use_flags:
 - +introspection

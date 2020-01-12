@@ -1,12 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-fs
+  category: <sys-process
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: procps
   
-  version: "27"
+  version: 3.3.9-r2
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: baselayout
+  
+  version: 2.1-r1
 - 
   category: sys-apps
   description: ""
@@ -22,26 +29,19 @@ conflicts:
   
   version: "20180302"
 - 
-  category: <sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: 3.3.9-r2
-- 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: 2.1-r1
-- 
   category: <app-shells
   description: ""
   license: ""
   name: gentoo-zsh-completions
   
   version: "20180228"
+- 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: "27"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
@@ -54,13 +54,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -68,17 +61,38 @@ requires:
   
   version: "2.6"
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: tmpfiles
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-openrc
+  
+  version: 2.20170204-r4
+- 
   category: app-shells
   description: ""
   license: ""
   name: bash
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit-2.86-r6[selinux?]
   
   version: ""
 - 
@@ -89,17 +103,17 @@ requires:
   
   version: 2.20170204-r4
 - 
-  category: sys-auth
+  category: sys-apps
   description: ""
   license: ""
-  name: pambase
+  name: policycoreutils
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: ncurses
+  name: sysvinit-2.86-r6[selinux?]
   
   version: ""
 - 
@@ -116,20 +130,6 @@ requires:
   name: audit
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: tmpfiles
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-openrc
-  
-  version: 2.20170204-r4
 uri: []
 use_flags:
 - audit

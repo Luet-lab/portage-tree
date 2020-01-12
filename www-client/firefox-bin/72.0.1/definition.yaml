@@ -12,40 +12,26 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: firefox-bin
 requires:
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: freetype
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.4.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.72"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "2.18"
+  version: 2.4.10
 - 
   category: x11-libs
   description: ""
@@ -71,23 +57,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: pango
   
   version: 1.22.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
+  
+  version: ""
 - 
   category: sys-apps
   description: ""
@@ -96,19 +75,19 @@ requires:
   
   version: "0.60"
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: freetype
+  name: cairo-1.10[X]
   
-  version: 2.4.10
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: gtk+
   
-  version: ""
+  version: "2.18"
 - 
   category: x11-libs
   description: ""
@@ -120,14 +99,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXt
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: atk
   
   version: ""
 - 
@@ -138,12 +117,33 @@ requires:
   
   version: "2.26"
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo-1.10[X]
+  name: gdk-pixbuf
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.4.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: "0.72"
 uri:
 - 'https://archive.mozilla.org/pub/mozilla.org/firefox/releases/72.0.1/linux-x86_64/en-US/firefox-72.0.1.tar.bz2
   -> firefox-bin_x86_64-72.0.1.tar.bz2 '

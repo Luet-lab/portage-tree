@@ -4,21 +4,28 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: fastforward
+  name: opensmtpd
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: sendmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: exim
   
   version: ""
 - 
@@ -32,14 +39,21 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: netqmail
+  name: esmtp
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: opensmtpd
+  name: mini-qmail
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: fastforward
   
   version: ""
 - 
@@ -60,28 +74,14 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: mini-qmail
+  name: netqmail
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: sendmail
+  name: qmail-ldap
   
   version: ""
 - 
@@ -96,12 +96,19 @@ license: '|| ( IBM EPL-2.0 )'
 name: postfix
 requires:
 - 
-  category: acct-group
+  category: sec-policy
   description: ""
   license: ""
-  name: postfix
+  name: selinux-postfix
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: 0.9.11
 - 
   category: dev-db
   description: ""
@@ -110,12 +117,54 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: libnsl
+  name: pam
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: 2.9.1
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "3.2"
 - 
   category: dev-libs
   description: ""
@@ -124,24 +173,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: acct-group
   description: ""
   license: ""
-  name: selinux-postfix
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: memcached
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
+  name: postdrop
   
   version: ""
 - 
@@ -159,54 +194,12 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: postdrop
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: icu
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
   category: acct-user
   description: ""
   license: ""
   name: postfix
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: 0.9.11
 - 
   category: dev-libs
   description: ""
@@ -215,13 +208,6 @@ requires:
   
   version: "3.4"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: 2.9.1
-- 
   category: net-nds
   description: ""
   license: ""
@@ -229,12 +215,26 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-group
   description: ""
   license: ""
-  name: db
+  name: postfix
   
-  version: "3.2"
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnsl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: memcached
+  
+  version: ""
 uri:
 - ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.4.7.tar.gz
 use_flags:

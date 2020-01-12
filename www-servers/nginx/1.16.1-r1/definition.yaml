@@ -13,10 +13,38 @@ license: "BSD-2 BSD SSLeay MIT GPL-2 GPL-2+\n\tnginx_modules_http_security? ( Ap
 name: nginx
 requires:
 - 
-  category: sec-policy
+  category: media-libs
   description: ""
   license: ""
-  name: selinux-nginx
+  name: gd
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: apr
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  license: ""
+  name: apache
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: geoip
   
   version: ""
 - 
@@ -34,24 +62,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gd
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: apr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: apr-util
+  name: libxml2
   
   version: ""
 - 
@@ -62,31 +76,17 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: brotli
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
+  name: libressl
   
   version: ""
 - 
-  category: dev-lang
+  category: net-misc
   description: ""
   license: ""
-  name: luajit
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
+  name: curl
   
   version: ""
 - 
@@ -97,17 +97,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libpcre
+  name: selinux-nginx
   
   version: ""
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: libressl
+  name: brotli
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
   
   version: ""
 - 
@@ -118,6 +125,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -125,10 +139,10 @@ requires:
   
   version: ""
 - 
-  category: www-servers
+  category: dev-libs
   description: ""
   license: ""
-  name: apache
+  name: apr-util
   
   version: ""
 - 
@@ -145,20 +159,6 @@ requires:
   name: perl
   
   version: "5.8"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
 uri:
 - https://nginx.org/download/nginx-1.16.1.tar.gz
 - https://github.com/simpl/ngx_devel_kit/archive/v0.3.1.tar.gz -> ngx_devel_kit-0.3.1.tar.gz

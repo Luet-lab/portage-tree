@@ -5,12 +5,19 @@ license: metapackage
 name: gnome-core-apps
 requires:
 - 
-  category: app-crypt
+  category: gnome-extra
   description: ""
   license: ""
-  name: gcr
+  name: gnome-color-manager
   
-  version: 3.28.1
+  version: 3.32.0
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: 3.32.2
 - 
   category: app-crypt
   description: ""
@@ -18,13 +25,6 @@ requires:
   name: seahorse
   
   version: 3.32.2
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gnome-contacts
-  
-  version: 3.32.1
 - 
   category: media-video
   description: ""
@@ -40,12 +40,12 @@ requires:
   
   version: 3.32.2
 - 
-  category: net-wireless
+  category: app-crypt
   description: ""
   license: ""
-  name: gnome-bluetooth
+  name: gcr
   
-  version: 3.32.1
+  version: 3.28.1
 - 
   category: gnome-base
   description: ""
@@ -58,6 +58,27 @@ requires:
   description: ""
   license: ""
   name: gedit
+  
+  version: 3.32.0
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: gnome-contacts
+  
+  version: 3.32.1
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: gnome-user-docs
+  
+  version: 3.32.2
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-session
   
   version: 3.32.0
 - 
@@ -82,27 +103,6 @@ requires:
   
   version: 3.32.2
 - 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: 3.32.0
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-session
-  
-  version: 3.32.0
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gnome-color-manager
-  
-  version: 3.32.0
-- 
   category: gnome-base
   description: ""
   license: ""
@@ -110,19 +110,19 @@ requires:
   
   version: 3.32.1
 - 
-  category: gnome-extra
+  category: x11-themes
   description: ""
   license: ""
-  name: evolution-data-server
+  name: adwaita-icon-theme
   
-  version: 3.32.2
+  version: 3.32.0
 - 
-  category: gnome-extra
+  category: net-wireless
   description: ""
   license: ""
-  name: gnome-user-docs
+  name: gnome-bluetooth
   
-  version: 3.32.2
+  version: 3.32.1
 uri: []
 use_flags:
 - +bluetooth

@@ -5,19 +5,40 @@ license: GPL-3+ cxx? ( LGPL-2.1+ )
 name: gettext
 requires:
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: ncurses
+  name: jre
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.9.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: jdk
+  name: acl
   
-  version: "1.4"
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
 - 
   category: dev-vcs
   description: ""
@@ -29,9 +50,9 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: jre
+  name: libiconv
   
-  version: "1.4"
+  version: 0-r1
 - 
   category: virtual
   description: ""
@@ -43,16 +64,9 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: acl
+  name: jdk
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
+  version: "1.4"
 - 
   category: dev-vcs
   description: ""
@@ -60,20 +74,6 @@ requires:
   name: cvs
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: 0-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.9.3
 uri:
 - mirror://gnu/gettext/gettext-0.20.1.tar.gz
 use_flags:

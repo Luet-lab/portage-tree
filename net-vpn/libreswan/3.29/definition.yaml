@@ -19,17 +19,24 @@ license: GPL-2 BSD-4 RSA DES
 name: libreswan
 requires:
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: gmp
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ldns
+  name: nss[utils(+)]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
   
   version: ""
 - 
@@ -43,23 +50,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: iproute2
+  name: systemd
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: unbound
-  
-  version: 1.9.1-r1
 - 
   category: sec-policy
   description: ""
@@ -71,7 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: libevent
   
   version: ""
 - 
@@ -82,24 +75,10 @@ requires:
   
   version: "3.42"
 - 
-  category: sys-libs
+  category: net-misc
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
+  name: curl
   
   version: ""
 - 
@@ -117,17 +96,38 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: nss[utils(+)]
+  name: libselinux
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: curl
+  name: nspr
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: unbound
+  
+  version: 1.9.1-r1
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns
   
   version: ""
 uri:

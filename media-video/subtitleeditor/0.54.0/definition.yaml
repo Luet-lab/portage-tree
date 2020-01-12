@@ -5,26 +5,40 @@ license: GPL-3+
 name: subtitleeditor
 requires:
 - 
-  category: virtual
+  category: dev-cpp
   description: ""
   license: ""
-  name: libintl
+  name: glibmm
+  
+  version: "2.46"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: libxmlpp
+  
+  version: "2.40"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: cairomm
+  name: libsigc++
   
-  version: "1.12"
+  version: "2.6"
 - 
-  category: dev-cpp
+  category: media-libs
   description: ""
   license: ""
-  name: gstreamermm
+  name: gst-plugins-good
   
-  version: "1.0"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -33,12 +47,26 @@ requires:
   
   version: ""
 - 
+  category: app-text
+  description: ""
+  license: ""
+  name: enchant
+  
+  version: "1.4"
+- 
   category: dev-cpp
   description: ""
   license: ""
-  name: libxmlpp
+  name: cairomm
   
-  version: "2.40"
+  version: "1.12"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
 - 
   category: media-plugins
   description: ""
@@ -54,19 +82,19 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
+  category: media-libs
   description: ""
   license: ""
-  name: glibmm
+  name: gst-plugins-base
   
-  version: "2.46"
+  version: ""
 - 
   category: dev-cpp
   description: ""
   license: ""
-  name: gtkmm
+  name: gstreamermm
   
-  version: "3.18"
+  version: "1.0"
 - 
   category: media-libs
   description: ""
@@ -75,40 +103,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: libsigc++
+  name: gtkmm
   
-  version: "2.6"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: "1.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
+  version: "3.18"
 uri:
 - https://github.com/kitone/subtitleeditor/releases/download/0.54.0/subtitleeditor-0.54.0.tar.gz
 use_flags:

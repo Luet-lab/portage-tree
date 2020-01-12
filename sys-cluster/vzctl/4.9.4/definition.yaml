@@ -5,12 +5,12 @@ license: GPL-2
 name: vzctl
 requires:
 - 
-  category: sys-apps
+  category: net-firewall
   description: ""
   license: ""
-  name: iproute2
+  name: iptables
   
-  version: 3.3.0
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -30,6 +30,55 @@ requires:
   description: ""
   license: ""
   name: quota
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcgroup
+  
+  version: "0.38"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: bridge-utils
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: iproute2
+  
+  version: 3.3.0
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: vzquota
+  
+  version: "3.1"
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
   
   version: ""
 - 
@@ -54,34 +103,6 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: vzquota
-  
-  version: "3.1"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcgroup
-  
-  version: "0.38"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -89,31 +110,10 @@ requires:
   
   version: ""
 - 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: ed
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: bridge-utils
   
   version: ""
 uri:

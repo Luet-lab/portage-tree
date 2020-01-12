@@ -5,6 +5,13 @@ license: GPL-2
 name: neomutt
 requires:
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
@@ -12,26 +19,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
   license: ""
-  name: slang
+  name: gpgme
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
+  version: 0.9.0
 - 
   category: dev-libs
   description: ""
@@ -54,12 +47,47 @@ requires:
   
   version: 0.9.6
 - 
-  category: sec-policy
+  category: dev-db
   description: ""
   license: ""
-  name: selinux-mutt
+  name: lmdb
   
   version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: slang
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "6.3"
 - 
   category: sys-libs
   description: ""
@@ -71,14 +99,21 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: lmdb
+  name: qdbm
   
   version: ""
 - 
-  category: dev-db
+  category: net-libs
   description: ""
   license: ""
-  name: qdbm
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -89,41 +124,6 @@ requires:
   
   version: ""
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "6.3"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 0.9.0
-- 
   category: net-mail
   description: ""
   license: ""
@@ -131,10 +131,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libressl
+  name: selinux-mutt
   
   version: ""
 uri:

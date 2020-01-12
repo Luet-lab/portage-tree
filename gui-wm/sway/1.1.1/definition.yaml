@@ -5,34 +5,6 @@ license: MIT
 name: sway
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "239"
-- 
-  category: gui-libs
-  description: ""
-  license: ""
-  name: wlroots-0.6.0[elogind=,systemd=,X=]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 1.6.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -47,10 +19,45 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "239"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: cairo
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
+  category: gui-libs
+  description: ""
+  license: ""
+  name: wlroots-0.6.0[elogind=,systemd=,X=]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
   
   version: ""
 - 
@@ -65,6 +72,34 @@ requires:
   description: ""
   license: ""
   name: libxcb
+  
+  version: ""
+- 
+  category: gui-apps
+  description: ""
+  license: ""
+  name: swayidle
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libinput
+  
+  version: 1.6.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
   
   version: ""
 - 
@@ -85,42 +120,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: ""
-- 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swayidle
+  name: gdk-pixbuf
   
   version: ""
 uri:

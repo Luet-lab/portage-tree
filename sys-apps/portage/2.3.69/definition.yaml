@@ -19,24 +19,17 @@ license: GPL-2
 name: portage
 requires:
 - 
-  category: app-crypt
+  category: sys-apps
   description: ""
   license: ""
-  name: openpgp-keys-gentoo-release
+  name: sandbox
   
-  version: "20180706"
+  version: "2.2"
 - 
-  category: app-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: pax-utils
-  
-  version: 0.1.17
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
+  name: util-linux
   
   version: ""
 - 
@@ -47,19 +40,26 @@ requires:
   
   version: "14"
 - 
-  category: sys-freebsd
+  category: app-crypt
   description: ""
   license: ""
-  name: freebsd-bin
+  name: openpgp-keys-gentoo-release
+  
+  version: "20180706"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg-2.2.4-r2[ssl(-)]
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: sandbox
+  name: install-xattr
   
-  version: "2.2"
+  version: "0.3"
 - 
   category: app-arch
   description: ""
@@ -75,31 +75,10 @@ requires:
   
   version: ""
 - 
-  category: app-admin
+  category: sys-freebsd
   description: ""
   license: ""
-  name: eselect
-  
-  version: "1.2"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg-2.2.4-r2[ssl(-)]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: 4.0.5
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
+  name: freebsd-bin
   
   version: ""
 - 
@@ -110,12 +89,33 @@ requires:
   
   version: 2.0.94
 - 
+  category: app-shells
+  description: ""
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: eselect
+  
+  version: "1.2"
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: install-xattr
+  name: sed
   
-  version: "0.3"
+  version: 4.0.5
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: 0.1.17
 uri: []
 use_flags:
 - build

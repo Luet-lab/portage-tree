@@ -5,12 +5,12 @@ license: GPL-2+
 name: gnome-system-monitor
 requires:
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: glibmm
+  name: glib
   
-  version: "2.46"
+  version: 2.56.0
 - 
   category: x11-libs
   description: ""
@@ -18,13 +18,6 @@ requires:
   name: gtk+
   
   version: "3.22"
-- 
-  category: dev-cpp
-  description: ""
-  license: ""
-  name: gtkmm
-  
-  version: 3.3.18
 - 
   category: gnome-base
   description: ""
@@ -47,12 +40,12 @@ requires:
   
   version: "2.0"
 - 
-  category: dev-libs
+  category: dev-cpp
   description: ""
   license: ""
-  name: glib
+  name: glibmm
   
-  version: 2.56.0
+  version: "2.46"
 - 
   category: x11-libs
   description: ""
@@ -67,6 +60,13 @@ requires:
   name: systemd
   
   version: "44"
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: gtkmm
+  
+  version: 3.3.18
 uri: []
 use_flags:
 - systemd

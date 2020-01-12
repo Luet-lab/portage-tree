@@ -1,10 +1,10 @@
 category: sys-apps
 conflicts:
 - 
-  category: app-misc
+  category: sys-apps
   description: ""
   license: ""
-  name: realpath
+  name: net-tools
   
   version: ""
 - 
@@ -15,27 +15,6 @@ conflicts:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: mktemp
-  
-  version: ""
-- 
-  category: <app-forensics
-  description: ""
-  license: ""
-  name: tct
-  
-  version: 1.18-r1
-- 
-  category: <net-fs
-  description: ""
-  license: ""
-  name: netatalk
-  
-  version: 2.0.3-r4
-- 
   category: sys-process
   description: ""
   license: ""
@@ -43,17 +22,17 @@ conflicts:
   
   version: ""
 - 
-  category: net-mail
+  category: app-misc
   description: ""
   license: ""
-  name: base64
+  name: realpath
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: util-linux
+  name: mktemp
   
   version: ""
 - 
@@ -64,10 +43,17 @@ conflicts:
   
   version: 2.10-r4
 - 
+  category: <app-forensics
+  description: ""
+  license: ""
+  name: tct
+  
+  version: 1.18-r1
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: net-tools
+  name: util-linux
   
   version: ""
 - 
@@ -77,10 +63,38 @@ conflicts:
   name: util-linux
   
   version: "2.13"
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: base64
+  
+  version: ""
+- 
+  category: <net-fs
+  description: ""
+  license: ""
+  name: netatalk
+  
+  version: 2.0.3-r4
 description: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 license: GPL-3
 name: coreutils
 requires:
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: attr
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -96,13 +110,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -113,14 +120,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
+  name: libselinux
   
   version: ""
 uri:

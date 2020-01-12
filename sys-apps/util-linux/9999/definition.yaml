@@ -1,17 +1,38 @@
 category: sys-apps
 conflicts:
 - 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: rfkill
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: coreutils
+  
+  version: ""
+- 
+  category: <sys-apps
+  description: ""
+  license: ""
+  name: shadow
+  
+  version: 4.7-r2
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: bash-completion
+  
+  version: 2.7-r1
+- 
+  category: '>=sys-apps'
+  description: ""
+  license: ""
+  name: shadow
+  
+  version: 4.7-r2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: setarch
   
   version: ""
 - 
@@ -29,12 +50,26 @@ conflicts:
   
   version: 1.41.8
 - 
-  category: <app-shells
+  category: '>=app-admin'
   description: ""
   license: ""
-  name: bash-completion
+  name: sysklogd
   
-  version: 2.7-r1
+  version: "2.0"
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: rfkill
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: schedutils
+  
+  version: ""
 - 
   category: <sys-apps
   description: ""
@@ -50,45 +85,10 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: 4.7-r2
-- 
-  category: '>=sys-apps'
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: 4.7-r2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: setarch
-  
-  version: ""
-- 
   category: app-arch
   description: ""
   license: ""
   name: hardlink
-  
-  version: ""
-- 
-  category: '>=app-admin'
-  description: ""
-  license: ""
-  name: sysklogd
-  
-  version: "2.0"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: schedutils
   
   version: ""
 description: Various useful Linux utilities
@@ -96,17 +96,24 @@ license: GPL-2 LGPL-2.1 BSD-4 MIT public-domain
 name: util-linux
 requires:
 - 
-  category: virtual
+  category: sys-libs
   description: ""
   license: ""
-  name: os-headers
+  name: libcap-ng
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libcap-ng
+  name: readline
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -127,7 +134,7 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: slang
+  name: pam
   
   version: ""
 - 
@@ -138,24 +145,17 @@ requires:
   
   version: 2.2.2-r4
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
+  name: slang
   
   version: ""
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: os-headers
   
   version: ""
 - 
@@ -166,10 +166,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: readline
+  name: systemd
   
   version: ""
 - 

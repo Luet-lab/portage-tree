@@ -1,13 +1,6 @@
 category: sys-fs
 conflicts:
 - 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
-  
-  version: ""
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -15,26 +8,19 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-boot
+  category: =sys-apps
   description: ""
   license: ""
-  name: grub
+  name: grep-2.13*
   
-  version: 2.00-r2
+  version: ""
 - 
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: genkernel-next
   
-  version: 7.1.0
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
+  version: "67"
 - 
   category: <sys-kernel
   description: ""
@@ -46,27 +32,27 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: genkernel-next
+  name: bliss-initramfs
   
-  version: "67"
+  version: 7.1.0
+- 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel
+  
+  version: 3.5.1.1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -78,42 +64,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: lsscsi
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
+  name: udev
   
   version: ""
 - 
@@ -124,10 +75,38 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
   name: libtirpc
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: awk
   
   version: ""
 - 
@@ -145,10 +124,31 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
   category: sys-fs
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: lsscsi
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
   
   version: ""
 uri:

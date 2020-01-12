@@ -5,40 +5,54 @@ license: LGPL-2+ BSD
 name: webkit-gtk
 requires:
 - 
-  category: media-plugins
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-opus
+  name: icu
   
-  version: 1.14.4-r1
+  version: 3.8.1-r1
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: jpeg
+  name: gstreamer
+  
+  version: "1.14"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxslt
+  name: libxml2
   
-  version: 1.1.7
+  version: 2.8.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: harfbuzz
-  
-  version: 1.4.2
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
+  name: libwebp
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.40"
 - 
   category: app-crypt
   description: ""
@@ -47,12 +61,89 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: geoclue
+  
+  version: 2.1.5
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: libtasn1
   
-  version: 1.32.0
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hyphen
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: "1.4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: woff2
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: 2.13.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -64,9 +155,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: harfbuzz
   
-  version: 2.9.0
+  version: 1.4.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: 1.1.7
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.24.10
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-opus
+  
+  version: 1.14.4-r1
 - 
   category: dev-libs
   description: ""
@@ -85,23 +197,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
+  name: libXrender
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.9.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-bad
+  
+  version: "1.14"
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: gobject-introspection
   
-  version: 3.8.1-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: 1.32.0
 - 
   category: app-text
   description: ""
@@ -113,63 +232,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.8.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.24.10
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libtasn1
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
-  
-  version: "1.14"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libX11
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hyphen
   
   version: ""
 - 
@@ -177,69 +240,6 @@ requires:
   description: ""
   license: ""
   name: mesa
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-bad
-  
-  version: "1.14"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.13.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: "1.4"
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: geoclue
-  
-  version: 2.1.5
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: woff2
   
   version: ""
 uri:

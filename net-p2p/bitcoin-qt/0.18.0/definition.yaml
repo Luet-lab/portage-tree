@@ -5,6 +5,13 @@ license: MIT
 name: bitcoin-qt
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
   category: net-libs
   description: ""
   license: ""
@@ -19,38 +26,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: univalue
-  
-  version: 1.0.4
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: zeromq
   
   version: ""
 - 
@@ -75,10 +54,38 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zeromq
+  name: univalue
+  
+  version: 1.0.4
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
   
   version: ""
 - 
@@ -89,10 +96,17 @@ requires:
   
   version: 1.52.0
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libsecp256k1
+  
+  version: 0.0.0_pre20151118
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtgui
   
   version: ""
 - 
@@ -109,20 +123,6 @@ requires:
   name: qtdbus
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsecp256k1
-  
-  version: 0.0.0_pre20151118
 uri:
 - https://github.com/bitcoin/bitcoin/archive/2472733a24a9364e4c6233ccd04166a26a68cc65.tar.gz
   -> bitcoin-v0.18.0.tar.gz

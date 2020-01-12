@@ -12,6 +12,13 @@ license: GPL-2
 name: gerbera
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lastfmlib
+  
+  version: "0.4"
+- 
   category: dev-db
   description: ""
   license: ""
@@ -19,10 +26,17 @@ requires:
   
   version: "3"
 - 
-  category: dev-libs
+  category: net-misc
   description: ""
   license: ""
-  name: expat
+  name: curl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: file
   
   version: ""
 - 
@@ -33,6 +47,13 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-connector-c
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
   license: ""
@@ -40,24 +61,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lastfmlib
-  
-  version: "0.4"
-- 
   category: media-gfx
   description: ""
   license: ""
   name: exiv2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libexif
   
   version: ""
 - 
@@ -75,10 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-misc
   description: ""
   license: ""
-  name: file
+  name: youtube-dl
   
   version: ""
 - 
@@ -89,12 +96,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: libupnp
+  name: libiconv
   
-  version: 1.8.3
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -103,24 +117,10 @@ requires:
   
   version: "1.11"
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: youtube-dl
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
+  name: libexif
   
   version: ""
 - 
@@ -131,12 +131,12 @@ requires:
   
   version: "2.2"
 - 
-  category: net-misc
+  category: net-libs
   description: ""
   license: ""
-  name: curl
+  name: libupnp
   
-  version: ""
+  version: 1.8.3
 uri:
 - https://github.com/gerbera/gerbera/archive/v1.2.0.tar.gz -> gerbera-1.2.0.tar.gz
 use_flags:

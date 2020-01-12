@@ -12,59 +12,17 @@ license: LGPL-2.1+
 name: lxqt-panel
 requires:
 - 
-  category: lxqt-base
+  category: lxde-base
   description: ""
   license: ""
-  name: libsysstat
+  name: menu-cache
   
-  version: 0.4.1
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: ""
-- 
-  category: lxqt-base
-  description: ""
-  license: ""
-  name: lxqt-globalkeys
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
+  version: 1.1.0
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libstatgrab
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: solid
+  name: libXcomposite
   
   version: ""
 - 
@@ -75,10 +33,31 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
   name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
   
   version: ""
 - 
@@ -89,38 +68,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: lxde-base
   description: ""
   license: ""
-  name: libqtxdg
+  name: lxmenu-data
   
-  version: 3.3.1
+  version: 0.1.5
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdbusmenu-qt[qt5(+)]
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pavucontrol-qt
+  name: libXdamage
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtcore
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsvg
   
   version: ""
 - 
@@ -138,10 +110,52 @@ requires:
   
   version: ""
 - 
+  category: lxqt-base
+  description: ""
+  license: ""
+  name: libsysstat
+  
+  version: 0.4.1
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbcommon
+  name: libxcb
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pavucontrol-qt
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: lxqt-base
+  description: ""
+  license: ""
+  name: lxqt-globalkeys
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libstatgrab
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: solid
   
   version: ""
 - 
@@ -155,28 +169,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: xcb-util
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libqtxdg
+  
+  version: 3.3.1
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsvg
+  name: qtx11extras
   
   version: ""
 - 
@@ -187,26 +194,19 @@ requires:
   
   version: ""
 - 
-  category: lxde-base
+  category: x11-libs
   description: ""
   license: ""
-  name: menu-cache
-  
-  version: 1.1.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
+  name: libxkbcommon
   
   version: ""
 - 
-  category: lxde-base
+  category: dev-libs
   description: ""
   license: ""
-  name: lxmenu-data
+  name: libdbusmenu-qt[qt5(+)]
   
-  version: 0.1.5
+  version: ""
 uri:
 - https://downloads.lxqt.org/downloads/lxqt-panel/0.14.1/lxqt-panel-0.14.1.tar.xz
 use_flags:

@@ -4,20 +4,41 @@ conflicts:
   category: net-misc
   description: ""
   license: ""
-  name: openntpd
+  name: ntpsec
   
   version: ""
 - 
   category: net-misc
   description: ""
   license: ""
-  name: ntpsec
+  name: openntpd
   
   version: ""
 description: Network Time Protocol suite/programs
 license: HPND BSD ISC
 name: ntp
 requires:
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: pps-tools
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-ntp
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -40,27 +61,6 @@ requires:
   
   version: ""
 - 
-  category: net-misc
-  description: ""
-  license: ""
-  name: pps-tools
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-ntp
-  
-  version: ""
-- 
-  category: app-vim
-  description: ""
-  license: ""
-  name: ntp-syntax
-  
-  version: ""
-- 
   category: net-analyzer
   description: ""
   license: ""
@@ -75,10 +75,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-vim
   description: ""
   license: ""
-  name: libressl
+  name: ntp-syntax
   
   version: ""
 uri:

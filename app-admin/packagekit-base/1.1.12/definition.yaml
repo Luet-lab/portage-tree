@@ -6,6 +6,20 @@ license: GPL-2
 name: packagekit-base
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.9
+- 
+  category: app-portage
+  description: ""
+  license: ""
+  name: layman
+  
+  version: "2"
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -16,16 +30,30 @@ requires:
   category: sys-auth
   description: ""
   license: ""
-  name: consolekit
+  name: polkit
+  
+  version: "0.114"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: entropy
+  name: dbus-glib
   
-  version: "234"
+  version: "0.74"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.54.0
 - 
   category: sys-apps
   description: ""
@@ -48,33 +76,12 @@ requires:
   
   version: "213"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.54.0
-- 
   category: sys-auth
   description: ""
   license: ""
-  name: polkit
+  name: consolekit
   
-  version: "0.114"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.9
-- 
-  category: app-portage
-  description: ""
-  license: ""
-  name: layman
-  
-  version: "2"
+  version: ""
 - 
   category: app-shells
   description: ""
@@ -83,19 +90,12 @@ requires:
   
   version: "2"
 - 
-  category: dev-db
+  category: sys-apps
   description: ""
   license: ""
-  name: sqlite
+  name: entropy
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.74"
+  version: "234"
 uri:
 - https://www.freedesktop.org/software/PackageKit/releases/PackageKit-1.1.12.tar.xz
 use_flags:

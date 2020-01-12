@@ -6,14 +6,14 @@ conflicts:
   license: ""
   name: eventlet
   
-  version: 0.21.0
+  version: 0.18.3
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: eventlet
+  name: pbr
   
-  version: 0.18.3
+  version: 2.1.0
 - 
   category: ~dev-python
   description: ""
@@ -27,18 +27,46 @@ conflicts:
   license: ""
   name: eventlet
   
-  version: 0.23.0
+  version: 0.21.0
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: eventlet
   
-  version: 2.1.0
+  version: 0.23.0
 description: OpenStack Cinder brick library for managing local volume attaches
 license: Apache-2.0
 name: os-ken
 requires:
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-config
+  
+  version: 2.5.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: eventlet
+  
+  version: 0.18.2
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.4.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: webob
+  
+  version: "1.2"
 - 
   category: dev-python
   description: ""
@@ -57,41 +85,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: routes
-  
-  version: 2.3.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: six
-  
-  version: 1.4.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: eventlet
-  
-  version: 0.18.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: tinyrpc
-  
-  version: "0.6"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: webob
-  
-  version: "1.2"
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: ovs
   
   version: 2.6.0
@@ -106,9 +99,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-config
+  name: routes
   
-  version: 2.5.0
+  version: 2.3.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: tinyrpc
+  
+  version: "0.6"
 uri:
 - mirror://pypi/o/os-ken/os-ken-0.3.1.tar.gz
 use_flags:

@@ -5,19 +5,12 @@ license: GPL-2+
 name: cheese
 requires:
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libcanberra
+  name: gst-plugins-v4l2
   
-  version: "0.26"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
+  version: "1.4"
 - 
   category: dev-libs
   description: ""
@@ -26,19 +19,40 @@ requires:
   
   version: 2.39.90
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: clutter-gtk
   
-  version: 0.6.7
+  version: 0.91.8
 - 
   category: media-libs
   description: ""
   license: ""
-  name: clutter-gst
+  name: gst-plugins-bad
   
-  version: ""
+  version: "1.4"
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-jpeg
+  
+  version: "1.4"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gnome-desktop
+  
+  version: 2.91.6
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.26"
 - 
   category: media-video
   description: ""
@@ -54,27 +68,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: "1.4"
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-jpeg
-  
-  version: "1.4"
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-v4l2
-  
-  version: "1.4"
-- 
   category: media-plugins
   description: ""
   license: ""
@@ -82,26 +75,33 @@ requires:
   
   version: "1.4"
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: clutter-gst
   
-  version: 2.91.6
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.6.7
 - 
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-bad
+  name: gst-plugins-good
   
   version: "1.4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: clutter-gtk
-  
-  version: 0.91.8
 uri: []
 use_flags:
 - +introspection

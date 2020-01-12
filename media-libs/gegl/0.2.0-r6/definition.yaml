@@ -5,12 +5,19 @@ license: '|| ( GPL-3 LGPL-3 )'
 name: gegl
 requires:
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: lensfun
+  name: libav
   
-  version: 0.2.5
+  version: "12"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -22,13 +29,6 @@ requires:
   category: media-video
   description: ""
   license: ""
-  name: libav
-  
-  version: "12"
-- 
-  category: media-video
-  description: ""
-  license: ""
   name: ffmpeg
   
   version: "4"
@@ -36,42 +36,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: babl
-  
-  version: 0.1.10
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: openexr
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libopenraw
-  
-  version: "0.1"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl
   
   version: ""
 - 
@@ -81,6 +46,20 @@ requires:
   name: librsvg
   
   version: "2.14"
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: umfpack
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -96,13 +75,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
@@ -110,10 +82,38 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: media-libs
   description: ""
   license: ""
-  name: umfpack
+  name: libsdl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: babl
+  
+  version: 0.1.10
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libopenraw
+  
+  version: "0.1"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lensfun
+  
+  version: 0.2.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
   
   version: ""
 uri:

@@ -15,34 +15,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libtheora
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: "1.8"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgudev
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: libvorbis
   
   version: ""
@@ -50,14 +22,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: nv-codec-headers
   
   version: ""
 - 
-  category: media-plugins
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-libav
+  name: glib
   
   version: ""
 - 
@@ -68,54 +40,26 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-a52dec
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fdk-aac
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: libgudev
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: libbluray
+  name: ffmpeg
   
-  version: "1.0"
+  version: 4.2.1
 - 
-  category: sys-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: zlib
+  name: gst-plugins-x264
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-good
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.10"
 - 
   category: media-libs
   description: ""
@@ -127,14 +71,49 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: a52dec
+  name: dav1d
+  
+  version: 0.5.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libdvdnav
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libdvdread
+  name: libvpx
+  
+  version: "1.8"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: x264
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
   
   version: ""
 - 
@@ -144,6 +123,55 @@ requires:
   name: libav
   
   version: "12.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.10"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fdk-aac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-libav
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-gdkpixbuf
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: "1.0"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -162,35 +190,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: nv-codec-headers
+  name: x265
   
-  version: ""
+  version: "3.2"
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: opus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: x264
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: lame
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
+  name: gst-plugins-a52dec
   
   version: ""
 - 
@@ -204,6 +211,13 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: libxml2
   
   version: ""
@@ -211,28 +225,42 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsamplerate
+  name: libdvdread
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: zlib
   
   version: ""
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: pango
+  name: gst-plugins-base
   
   version: ""
 - 
-  category: media-plugins
+  category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-x264
+  name: a52dec
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: lame
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-good
   
   version: ""
 - 
@@ -250,40 +278,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libdvdnav
+  name: gdk-pixbuf
   
   version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: 4.2.1
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-gdkpixbuf
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: dav1d
-  
-  version: 0.5.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: x265
-  
-  version: "3.2"
 uri: []
 use_flags:
 - +fdk

@@ -4,21 +4,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-cluster
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
   name: mariadb
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
   
   version: ""
 - 
@@ -32,7 +18,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mariadb-connector-c
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -42,24 +28,38 @@ conflicts:
   name: mysql
   
   version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-cluster
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mariadb-connector-c
+  
+  version: ""
 description: A fast, multi-threaded, multi-user SQL database server
 license: GPL-2
 name: percona-server
 requires:
 - 
-  category: acct-group
+  category: sys-apps
   description: ""
   license: ""
-  name: mysql
+  name: sed
   
-  version: ""
+  version: "4"
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: ncurses
+  name: texinfo
   
-  version: ""
+  version: 4.7-r1
 - 
   category: app-arch
   description: ""
@@ -71,30 +71,37 @@ requires:
   category: dev-util
   description: ""
   license: ""
-  name: systemtap
-  
-  version: "1.3"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
   name: valgrind
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: sed
+  name: ncurses
   
-  version: "4"
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mysql
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.3
 - 
   category: sys-process
   description: ""
@@ -103,10 +110,17 @@ requires:
   
   version: ""
 - 
-  category: app-text
+  category: app-arch
   description: ""
   license: ""
-  name: mecab
+  name: lz4
+  
+  version: 0_p131
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 
@@ -114,34 +128,6 @@ requires:
   description: ""
   license: ""
   name: pam
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: texinfo
-  
-  version: 4.7-r1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
   
   version: ""
 - 
@@ -159,19 +145,26 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: dev-libs
   description: ""
   license: ""
-  name: selinux-mysql
+  name: protobuf
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: libressl
   
-  version: 1.2.3
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -180,17 +173,24 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-text
   description: ""
   license: ""
-  name: protobuf
+  name: mecab
   
   version: ""
 - 
-  category: sys-process
+  category: dev-util
   description: ""
   license: ""
-  name: numactl
+  name: systemtap
+  
+  version: "1.3"
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 
@@ -201,24 +201,17 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-libs
   description: ""
   license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libtirpc
+  name: libevent
   
   version: ""
 - 
-  category: dev-db
+  category: app-arch
   description: ""
   license: ""
-  name: mysql-init-scripts
+  name: xz-utils
   
   version: ""
 - 
@@ -229,10 +222,17 @@ requires:
   
   version: 1.0.0
 - 
-  category: acct-user
+  category: net-libs
   description: ""
   license: ""
-  name: mysql
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: numactl
   
   version: ""
 uri:

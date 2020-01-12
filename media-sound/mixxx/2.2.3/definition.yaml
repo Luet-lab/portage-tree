@@ -5,20 +5,6 @@ license: GPL-2
 name: mixxx
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: chromaprint
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsndfile
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,38 +12,24 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtscript
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsvg
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: rubberband
+  name: lilv
+  
+  version: 0.24.2-r3
+- 
+  category: "(\tmedia-libs"
+  description: ""
+  license: ""
+  name: opusfile
   
   version: ""
 - 
-  category: virtual
+  category: media-sound
   description: ""
   license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: hidapi
+  name: wavpack
   
   version: ""
 - 
@@ -71,14 +43,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtgui
   
   version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtsql
+  name: qtsvg
   
   version: ""
 - 
@@ -92,42 +64,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: portaudio
-  
-  version: 19_pre
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: taglib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtconcurrent
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: portmidi
   
   version: ""
 - 
@@ -138,17 +75,10 @@ requires:
   
   version: ""
 - 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: portmidi
+  name: libshout
   
   version: ""
 - 
@@ -162,21 +92,49 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtscript
   
   version: ""
 - 
-  category: "(\tmedia-libs"
+  category: dev-qt
   description: ""
   license: ""
-  name: opusfile
+  name: qtsql
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libshout
+  name: libogg
+  
+  version: ""
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libusb
   
   version: ""
 - 
@@ -184,6 +142,13 @@ requires:
   description: ""
   license: ""
   name: libX11
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtx11extras
   
   version: ""
 - 
@@ -201,80 +166,10 @@ requires:
   
   version: ""
 - 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libid3tag
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lilv
-  
-  version: 0.24.2-r3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmad
+  name: qtnetwork
   
   version: ""
 - 
@@ -289,6 +184,111 @@ requires:
   description: ""
   license: ""
   name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libid3tag
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: portaudio
+  
+  version: 19_pre
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: taglib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: hidapi
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtconcurrent
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: chromaprint
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvorbis
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: rubberband
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
   
   version: ""
 uri:

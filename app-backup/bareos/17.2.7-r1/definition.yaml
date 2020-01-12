@@ -12,24 +12,10 @@ license: AGPL-3
 name: bareos
 requires:
 - 
-  category: virtual
+  category: app-arch
   description: ""
   license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: glusterfs
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
+  name: mt-st
   
   version: ""
 - 
@@ -43,14 +29,14 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: bareos-fastlzlib
+  name: jansson
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: zlib
   
   version: ""
 - 
@@ -61,10 +47,38 @@ requires:
   
   version: ""
 - 
+  category: sys-block
+  description: ""
+  license: ""
+  name: mtx
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: lzo
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: ceph
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: glusterfs
   
   version: ""
 - 
@@ -85,7 +99,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: jansson
+  name: bareos-fastlzlib
   
   version: ""
 - 
@@ -96,38 +110,17 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: lzo
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: mtx
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: ceph
+  name: mta
   
   version: ""
 - 
@@ -138,17 +131,17 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: sys-apps
   description: ""
   license: ""
-  name: mt-st
+  name: tcp-wrappers
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: ncurses
+  name: libressl
   
   version: ""
 - 
@@ -162,14 +155,21 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: lmdb
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: zlib
+  name: ncurses
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
   
   version: ""
 uri:

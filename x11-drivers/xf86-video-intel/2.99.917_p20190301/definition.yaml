@@ -19,17 +19,10 @@ requires:
   
   version: ""
 - 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: "1.18"
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libdrm-2.4.52[video_cards_intel]
   
   version: ""
 - 
@@ -37,27 +30,6 @@ requires:
   description: ""
   license: ""
   name: libXinerama
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
   
   version: ""
 - 
@@ -71,7 +43,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: xcb-util
+  name: libXrender
   
   version: ""
 - 
@@ -85,9 +57,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXtst
   
-  version: "1.5"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -95,6 +67,20 @@ requires:
   name: pixman
   
   version: 0.27.1
+- 
+  category: x11-base
+  description: ""
+  license: ""
+  name: xorg-server
+  
+  version: "1.18"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -113,28 +99,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: libXdamage
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libdrm-2.4.52[video_cards_intel]
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
+  name: libudev
   
   version: ""
 - 
@@ -142,6 +121,27 @@ requires:
   description: ""
   license: ""
   name: libXvMC
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.5"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: xcb-util
   
   version: ""
 uri:

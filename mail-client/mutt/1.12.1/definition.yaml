@@ -5,33 +5,26 @@ license: GPL-2
 name: mutt
 requires:
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
+  name: libintl
   
   version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 0.9.0
 - 
   category: sec-policy
   description: ""
@@ -54,6 +47,34 @@ requires:
   
   version: ""
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: qdbm
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
+  
+  version: "2"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -61,31 +82,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: net-mail
   description: ""
   license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: qdbm
+  name: notmuch
   
   version: ""
 - 
@@ -103,19 +103,12 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: virtual
   description: ""
   license: ""
-  name: lmdb
+  name: krb5
   
   version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 0.9.0
 - 
   category: sys-libs
   description: ""
@@ -131,6 +124,13 @@ requires:
   
   version: "5.2"
 - 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -138,12 +138,12 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libintl
+  name: openssl
   
-  version: ""
+  version: 0.9.6
 uri:
 - ftp://ftp.mutt.org/pub/mutt/mutt-1.12.1.tar.gz
 - https://bitbucket.org/mutt/mutt/downloads/mutt-1.12.1.tar.gz

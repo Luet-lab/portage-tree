@@ -5,6 +5,13 @@ license: MIT LGPL-2.1 BSD-2
 name: kmscon
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "172"
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -12,12 +19,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libtsm
+  name: mesa[X(+)]
   
-  version: 4.0.0
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -25,6 +32,13 @@ requires:
   name: libdrm
   
   version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: 8.0.3
 - 
   category: sys-apps
   description: ""
@@ -47,6 +61,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libtsm
+  
+  version: 4.0.0
+- 
   category: x11-libs
   description: ""
   license: ""
@@ -60,27 +81,6 @@ requires:
   name: xkeyboard-config
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "172"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa[X(+)]
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: 8.0.3
 uri:
 - https://github.com/Aetf/kmscon/archive/01dd0a231e2125a40ceba5f59fd945ff29bf2cdc.tar.gz
   -> kmscon-8.tar.gz

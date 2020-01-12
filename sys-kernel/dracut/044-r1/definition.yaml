@@ -12,45 +12,17 @@ license: GPL-2
 name: dracut
 requires:
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: systemd
+  name: udev
   
-  version: "199"
+  version: ""
 - 
   category: app-arch
   description: ""
   license: ""
   name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "5"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.21"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
   
   version: ""
 - 
@@ -60,6 +32,13 @@ requires:
   name: bash
   
   version: "4.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "5"
 - 
   category: dev-util
   description: ""
@@ -71,9 +50,30 @@ requires:
   category: sys-libs
   description: ""
   license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
   name: libsepol
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "199"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.21"
 - 
   category: sec-policy
   description: ""

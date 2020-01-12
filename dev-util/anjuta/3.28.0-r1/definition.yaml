@@ -5,33 +5,47 @@ license: GPL-2+
 name: anjuta
 requires:
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gdl
+  
+  version: 3.5.5
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: "3"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: autogen
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libXext
   
-  version: "3.10"
+  version: ""
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: gobject-introspection
+  name: devhelp
   
-  version: 0.9.5
-- 
-  category: dev-vcs
-  description: ""
-  license: ""
-  name: subversion
-  
-  version: "1.8"
+  version: 3.7.4
 - 
   category: dev-libs
   description: ""
@@ -50,9 +64,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: vte
   
-  version: ""
+  version: 0.27.6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.34"
 - 
   category: dev-libs
   description: ""
@@ -68,41 +89,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: devhelp
-  
-  version: 3.7.4
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gdl
-  
-  version: 3.5.5
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: autogen
-  
-  version: ""
-- 
   category: dev-util
   description: ""
   license: ""
@@ -110,33 +96,40 @@ requires:
   
   version: "3.12"
 - 
-  category: net-libs
+  category: dev-vcs
   description: ""
   license: ""
-  name: serf
+  name: subversion
   
-  version: "1.2"
+  version: "1.8"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gsettings-desktop-schemas
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: vte
+  name: libXrender
   
-  version: 0.27.6
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: "2.34"
+  version: 0.9.5
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: gtk+
   
-  version: "3"
+  version: "3.10"
 - 
   category: gnome-extra
   description: ""
@@ -145,10 +138,17 @@ requires:
   
   version: "5"
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libXext
+  name: serf
+  
+  version: "1.2"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: packagekit-base
   
   version: ""
 uri: []

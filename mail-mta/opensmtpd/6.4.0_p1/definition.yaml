@@ -4,7 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: msmtp
+  name: esmtp
   
   version: ""
 - 
@@ -12,6 +12,20 @@ conflicts:
   description: ""
   license: ""
   name: netqmail
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: ssmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
   
   version: ""
 - 
@@ -39,35 +53,7 @@ mailer
   category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: qmail-ldap
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: courier
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
   
   version: ""
 - 
@@ -77,10 +63,31 @@ mailer
   name: mini-qmail
   
   version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: msmtp
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: qmail-ldap
+  
+  version: ""
 description: Lightweight but featured SMTP daemon from OpenBSD
 license: ISC BSD BSD-1 BSD-2 BSD-4
 name: opensmtpd
 requires:
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -99,7 +106,21 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: zlib
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: mailbase
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
   
   version: ""
 - 
@@ -121,27 +142,6 @@ requires:
   description: ""
   license: ""
   name: ca-certificates
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: mailbase
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
   
   version: ""
 uri:

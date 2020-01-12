@@ -5,12 +5,12 @@ license: GPL-2
 name: elinks
 requires:
 - 
-  category: sys-libs
+  category: dev-scheme
   description: ""
   license: ""
-  name: gpm
+  name: guile
   
-  version: 1.20.0-r5
+  version: 1.6.4-r1
 - 
   category: dev-lang
   description: ""
@@ -19,38 +19,17 @@ requires:
   
   version: 1.8.5
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: ruby
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: "5.2"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libressl
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: tre
+  name: libX11
   
   version: ""
 - 
@@ -68,17 +47,24 @@ requires:
   
   version: 1.95.4
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.1.4
-- 
   category: dev-libs
   description: ""
   license: ""
   name: boehm-gc
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
 - 
@@ -89,31 +75,10 @@ requires:
   
   version: "5"
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: dev-scheme
-  description: ""
-  license: ""
-  name: guile
-  
-  version: 1.6.4-r1
-- 
-  category: dev-ruby
-  description: ""
-  license: ""
-  name: rubygems
+  name: perl
   
   version: ""
 - 
@@ -124,12 +89,19 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libX11
+  name: openssl
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.1.4
 - 
   category: app-arch
   description: ""
@@ -137,6 +109,34 @@ requires:
   name: bzip2
   
   version: 1.0.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: tre
+  
+  version: ""
+- 
+  category: dev-ruby
+  description: ""
+  license: ""
+  name: rubygems
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: ruby
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gpm
+  
+  version: 1.20.0-r5
 uri:
 - http://elinks.or.cz/download/elinks-0.12.tar.bz2
 - https://dev.gentoo.org/~axs/distfiles/elinks-0.12_pre5-js185-patches.tar.bz2

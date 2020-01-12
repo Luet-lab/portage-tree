@@ -5,80 +5,10 @@ license: MIT
 name: sway
 requires:
 - 
-  category: sys-apps
+  category: x11-misc
   description: ""
   license: ""
-  name: systemd
-  
-  version: "239"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swayidle
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 1.6.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swaybg
-  
-  version: ""
-- 
-  category: gui-apps
-  description: ""
-  license: ""
-  name: swaylock
+  name: xkeyboard-config
   
   version: ""
 - 
@@ -96,12 +26,19 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
+  category: x11-libs
   description: ""
   license: ""
-  name: elogind
+  name: pango
   
-  version: "239"
+  version: ""
+- 
+  category: gui-apps
+  description: ""
+  license: ""
+  name: swaylock
+  
+  version: ""
 - 
   category: gui-libs
   description: ""
@@ -110,12 +47,12 @@ requires:
   
   version: 0.7.0
 - 
-  category: x11-misc
+  category: gui-libs
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: wlroots
   
-  version: ""
+  version: 0.9.0
 - 
   category: dev-libs
   description: ""
@@ -123,6 +60,76 @@ requires:
   name: json-c
   
   version: "0.13"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libinput
+  
+  version: 1.6.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: ""
+- 
+  category: gui-apps
+  description: ""
+  license: ""
+  name: swayidle
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: "239"
+- 
+  category: gui-apps
+  description: ""
+  license: ""
+  name: swaybg
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: "239"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
 uri:
 - https://github.com/swaywm/sway/archive/1.2.tar.gz -> sway-1.2.tar.gz
 use_flags:

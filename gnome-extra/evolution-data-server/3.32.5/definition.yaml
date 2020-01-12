@@ -5,19 +5,19 @@ license: '|| ( LGPL-2 LGPL-3 ) BSD Sleepycat'
 name: evolution-data-server
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: json-glib
+  name: db
   
-  version: 1.0.4
+  version: "4"
 - 
-  category: net-nds
+  category: x11-libs
   description: ""
   license: ""
-  name: openldap
+  name: gtk+
   
-  version: "2"
+  version: "3.10"
 - 
   category: app-crypt
   description: ""
@@ -25,34 +25,6 @@ requires:
   name: gcr
   
   version: "3.4"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgdata
-  
-  version: 0.17.7
 - 
   category: dev-libs
   description: ""
@@ -64,9 +36,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: nspr
+  name: nss
   
-  version: "4.4"
+  version: "3.9"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.42"
 - 
   category: dev-libs
   description: ""
@@ -82,26 +61,19 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.25"
-- 
   category: virtual
   description: ""
   license: ""
-  name: krb5
+  name: libiconv
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: libgdata
   
-  version: "0.5"
+  version: 0.17.7
 - 
   category: dev-db
   description: ""
@@ -113,30 +85,30 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgweather
+  name: libical
   
-  version: "3.10"
+  version: 3.0.2
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: nss
+  name: nspr
   
-  version: "3.9"
+  version: "4.4"
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: db
+  name: krb5
   
-  version: "4"
+  version: ""
 - 
-  category: x11-libs
+  category: net-nds
   description: ""
   license: ""
-  name: gtk+
+  name: openldap
   
-  version: "3.10"
+  version: "2"
 - 
   category: net-libs
   description: ""
@@ -144,6 +116,41 @@ requires:
   name: webkit-gtk
   
   version: 2.11.91
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgweather
+  
+  version: "3.10"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.5"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcanberra
+  
+  version: "0.25"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: json-glib
+  
+  version: 1.0.4
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.46"
 - 
   category: net-libs
   description: ""
@@ -155,16 +162,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: gobject-introspection
   
-  version: "2.46"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libical
-  
-  version: 3.0.2
+  version: 0.9.12
 uri: []
 use_flags:
 - berkdb

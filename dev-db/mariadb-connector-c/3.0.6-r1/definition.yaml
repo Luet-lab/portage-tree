@@ -8,17 +8,10 @@ conflicts:
   
   version: ""
 - 
-  category: '>=dev-db'
-  description: ""
-  license: ""
-  name: mariadb-10.2.0[client-libs(+)]
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: mysql[client-libs(+)]
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -26,6 +19,13 @@ conflicts:
   description: ""
   license: ""
   name: mysql-cluster[client-libs(+)]
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql[client-libs(+)]
   
   version: ""
 - 
@@ -43,16 +43,30 @@ conflicts:
   
   version: ""
 - 
-  category: dev-db
+  category: '>=dev-db'
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: mariadb-10.2.0[client-libs(+)]
   
   version: ""
 description: C client library for MariaDB/MySQL
 license: LGPL-2.1
 name: mariadb-connector-c
 requires:
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
 - 
   category: net-misc
   description: ""
@@ -68,20 +82,6 @@ requires:
   
   version: 3.3.24
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: heimdal
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -89,17 +89,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: heimdal
   
   version: ""
 uri:

@@ -5,10 +5,10 @@ license: GPL-2
 name: pinentry
 requires:
 - 
-  category: dev-qt
+  category: app-crypt
   description: ""
   license: ""
-  name: qtwidgets
+  name: gcr
   
   version: ""
 - 
@@ -22,9 +22,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: libgpg-error
   
-  version: 1.6.3
+  version: "1.17"
 - 
   category: app-crypt
   description: ""
@@ -33,10 +33,17 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: gtk+
+  name: qtwidgets
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 - 
@@ -47,19 +54,19 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: 5.7-r5
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
-  
-  version: ""
 - 
   category: app-eselect
   description: ""
@@ -71,9 +78,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgpg-error
+  name: libgcrypt
   
-  version: "1.17"
+  version: 1.6.3
 - 
   category: sys-libs
   description: ""
@@ -82,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
+  name: gtk+
   
   version: ""
 uri:

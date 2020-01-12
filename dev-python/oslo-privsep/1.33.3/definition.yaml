@@ -12,12 +12,26 @@ license: Apache-2.0
 name: oslo-privsep
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-enum34
+  
+  version: ""
+- 
   category: dev-python
   description: ""
   license: ""
-  name: msgpack
+  name: cffi
   
-  version: 0.5.0
+  version: 1.7.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-futures
+  
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -36,23 +50,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-utils
-  
-  version: 3.33.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: eventlet
   
   version: 0.18.4
 - 
-  category: virtual
+  category: dev-python
   description: ""
   license: ""
-  name: python-futures
+  name: greenlet
   
-  version: ""
+  version: 0.4.10
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: msgpack
+  
+  version: 0.5.0
 - 
   category: dev-python
   description: ""
@@ -61,26 +75,12 @@ requires:
   
   version: 3.36.0
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-enum34
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
-  name: cffi
+  name: oslo-utils
   
-  version: 1.7.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: greenlet
-  
-  version: 0.4.10
+  version: 3.33.0
 uri:
 - mirror://pypi/o/oslo.privsep/oslo.privsep-1.33.3.tar.gz
 use_flags:

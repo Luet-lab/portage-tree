@@ -6,54 +6,19 @@ license: GPL-2 LGPL-2.1
 name: xmms2
 requires:
 - 
+  category: net-dns
+  description: ""
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
   category: media-sound
   description: ""
   license: ""
   name: cdparanoia
   
   version: 3.9.8
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: speex
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libofa
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.15.1
 - 
   category: media-libs
   description: ""
@@ -62,17 +27,24 @@ requires:
   
   version: ""
 - 
-  category: media-sound
+  category: virtual
   description: ""
   license: ""
-  name: mpg123
+  name: jack
   
-  version: 1.5.1
+  version: ""
 - 
   category: media-sound
   description: ""
   license: ""
   name: musepack-tools
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libofa
   
   version: ""
 - 
@@ -86,16 +58,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: opusfile
+  name: libsamplerate
   
   version: ""
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: "4.2"
 - 
   category: media-libs
   description: ""
@@ -104,10 +69,31 @@ requires:
   
   version: "2.0"
 - 
-  category: net-dns
+  category: net-misc
   description: ""
   license: ""
-  name: avahi
+  name: curl
+  
+  version: 7.15.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmms
+  
+  version: "0.3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmad
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: sidplay
   
   version: ""
 - 
@@ -118,6 +104,20 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.32"
+- 
   category: dev-db
   description: ""
   license: ""
@@ -125,10 +125,52 @@ requires:
   
   version: 3.3.4
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libcdio-paranoia
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: mac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: resid
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: 5.8.8
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
   
   version: ""
 - 
@@ -142,42 +184,28 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmodplug
+  name: libsndfile
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: wavpack
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libmad
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: resid
+  name: libao
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.32"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: libcdio-paranoia
   
   version: ""
 - 
@@ -188,17 +216,45 @@ requires:
   
   version: ""
 - 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: "4.2"
+- 
   category: media-libs
   description: ""
   license: ""
-  name: libmms
+  name: libdiscid
   
-  version: "0.3"
+  version: 0.1.1
 - 
   category: media-sound
   description: ""
   license: ""
-  name: sidplay
+  name: mpg123
+  
+  version: 1.5.1
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -219,63 +275,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: 5.8.8
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdiscid
-  
-  version: 0.1.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: mac
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: wavpack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libao
+  name: libmodplug
   
   version: ""
 uri:

@@ -5,12 +5,54 @@ license: GPL-2 BSD-2
 name: amavisd-new
 requires:
 - 
-  category: app-antivirus
+  category: app-arch
   description: ""
   license: ""
-  name: clamav
+  name: p7zip
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Unix-Syslog
+  
+  version: ""
+- 
+  category: net-analyzer
+  description: ""
+  license: ""
+  name: net-snmp
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-Server
+  
+  version: "0.91"
+- 
+  category: mail-filter
+  description: ""
+  license: ""
+  name: razor
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-UserAgent-Determined
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Archive-Zip
+  
+  version: "1.14"
 - 
   category: dev-perl
   description: ""
@@ -23,41 +65,6 @@ requires:
   description: ""
   license: ""
   name: pax
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: IO-Socket-SSL
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-Server
-  
-  version: "0.91"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-File-Temp
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Time-HiRes
-  
-  version: "1.49"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zoo
   
   version: ""
 - 
@@ -78,175 +85,7 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: JSON
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-UserAgent-Determined
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: ZMQ-LibZMQ3
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: razor
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: HTTP-Message
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Digest-MD5
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-IO-Compress
-  
-  version: "1.35"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Archive-Zip
-  
-  version: "1.14"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MailTools
-  
-  version: "1.58"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MIME-tools
-  
-  version: "5.415"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Net-LibIDN
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: 4.4.20
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: p7zip
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: LWP-Protocol-https
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lha
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Convert-BinHex
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: File-LibMagic
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils
-  
-  version: 5.0-r3
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-MIME-Base64
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: spamassassin
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cabextract
+  name: Image-Info
   
   version: ""
 - 
@@ -260,21 +99,49 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Unix-Syslog
+  name: File-LibMagic
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Compress-Raw-Zlib
+  
+  version: "2.017"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cabextract
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: ncompress
+  name: cpio
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: Net-SSLeay
+  name: JSON
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: unarj
   
   version: ""
 - 
@@ -288,51 +155,37 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: gzip
+  name: arc
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: unarj
+  name: lha
   
   version: ""
 - 
   category: dev-perl
   description: ""
   license: ""
-  name: perl-ldap
+  name: MIME-tools
   
-  version: "0.33"
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-Pg
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lrzip
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Mail-DKIM
-  
-  version: "0.31"
+  version: "5.415"
 - 
   category: virtual
   description: ""
   license: ""
-  name: perl-Compress-Raw-Zlib
+  name: perl-MIME-Base64
   
-  version: "2.017"
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: IO-Socket-SSL
+  
+  version: ""
 - 
   category: virtual
   description: ""
@@ -344,7 +197,56 @@ requires:
   category: app-arch
   description: ""
   license: ""
-  name: bzip2
+  name: lrzip
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zoo
+  
+  version: ""
+- 
+  category: app-antivirus
+  description: ""
+  license: ""
+  name: clamav
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: HTTP-Message
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: ZMQ-LibZMQ3
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: perl-ldap
+  
+  version: "0.33"
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: gzip
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: ncompress
   
   version: ""
 - 
@@ -355,19 +257,82 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-perl
   description: ""
   license: ""
-  name: arc
+  name: Convert-BinHex
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Net-LibIDN
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Digest-MD5
   
   version: ""
 - 
   category: app-arch
   description: ""
   license: ""
-  name: cpio
+  name: bzip2
   
   version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MailTools
+  
+  version: "1.58"
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: 4.4.20
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Temp
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-mysql
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils
+  
+  version: 5.0-r3
 - 
   category: app-arch
   description: ""
@@ -376,12 +341,47 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-IO-Compress
+  
+  version: "1.35"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Time-HiRes
+  
+  version: "1.49"
+- 
   category: dev-perl
   description: ""
   license: ""
-  name: Image-Info
+  name: Net-SSLeay
   
   version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: LWP-Protocol-https
+  
+  version: ""
+- 
+  category: mail-filter
+  description: ""
+  license: ""
+  name: spamassassin
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Mail-DKIM
+  
+  version: "0.31"
 uri:
 - https://gitlab.com/amavis/amavis/-/archive/v2.12.0/amavis-v2.12.0.tar.bz2
 use_flags:

@@ -19,20 +19,6 @@ license: MIT
 name: mesa
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libclc
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: "1.1"
-- 
   category: sys-libs
   description: ""
   license: ""
@@ -40,82 +26,19 @@ requires:
   
   version: 1.2.8
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libunwind
+  name: wayland
   
-  version: ""
+  version: 1.15.0
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: lm-sensors
+  name: wayland-protocols
   
-  version: ""
-- 
-  category: app-eselect
-  description: ""
-  license: ""
-  name: eselect-opengl
-  
-  version: 1.3.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_radeon]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: llvm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libelf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdamage
-  
-  version: 1.1.4-r1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: 1.1.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_amdgpu]
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: clang
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXvMC
-  
-  version: 1.0.8
+  version: "1.8"
 - 
   category: dev-util
   description: ""
@@ -127,37 +50,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxshmfence
+  name: libX11
   
-  version: "1.1"
+  version: 1.6.2
 - 
-  category: x11-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libva
-  
-  version: 1.7.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm-2.4.100[video_cards_intel]
+  name: lm-sensors
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libxcb
-  
-  version: "1.13"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
+  name: libclc
   
   version: ""
+- 
+  category: app-eselect
+  description: ""
+  license: ""
+  name: eselect-opengl
+  
+  version: 1.3.0
 - 
   category: dev-libs
   description: ""
@@ -165,13 +81,6 @@ requires:
   name: expat
   
   version: 2.1.0-r3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.15.0
 - 
   category: x11-libs
   description: ""
@@ -183,9 +92,58 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXxf86vm
   
-  version: 1.6.2
+  version: 1.1.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: "1.13"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm-2.4.100[video_cards_radeon]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: "1.1"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: clang
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libva
+  
+  version: 1.7.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxshmfence
+  
+  version: "1.1"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: llvm
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -194,6 +152,20 @@ requires:
   
   version: 1.2.0-r1
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libunwind
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libelf
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -201,12 +173,40 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: wayland-protocols
+  name: libXvMC
   
-  version: "1.8"
+  version: 1.0.8
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: 1.1.4-r1
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm-2.4.100[video_cards_intel]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm-2.4.100[video_cards_amdgpu]
+  
+  version: ""
 uri:
 - https://mesa.freedesktop.org/archive/mesa-19.3.0.tar.xz
 use_flags:

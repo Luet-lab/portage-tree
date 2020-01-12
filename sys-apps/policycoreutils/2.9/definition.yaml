@@ -1,19 +1,19 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: 2.20151208-r6
-- 
   category: <sys-apps
   description: ""
   license: ""
   name: openrc
   
   version: "0.14"
+- 
+  category: <sec-policy
+  description: ""
+  license: ""
+  name: selinux-base-policy
+  
+  version: 2.20151208-r6
 description: SELinux core utilities
 license: GPL-2
 name: policycoreutils
@@ -22,56 +22,14 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libcap
   
-  version: "2.9"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap-ng
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: setools
-  
-  version: 4.2.0
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsepol
-  
-  version: "2.9"
+  version: 1.10-r10
 - 
   category: dev-python
   description: ""
   license: ""
   name: ipy
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
   
   version: ""
 - 
@@ -99,9 +57,16 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: libcap
+  name: libselinux
   
-  version: 1.10-r10
+  version: "2.9"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -109,6 +74,41 @@ requires:
   name: libsemanage
   
   version: "2.9"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap-ng
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: setools
+  
+  version: 4.2.0
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsepol
+  
+  version: "2.9"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://github.com/SELinuxProject/selinux/releases/download/20190315/policycoreutils-2.9.tar.gz
 - https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2

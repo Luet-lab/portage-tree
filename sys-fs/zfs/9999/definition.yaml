@@ -1,12 +1,12 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-kernel
+  category: sys-fs
   description: ""
   license: ""
-  name: genkernel-next
+  name: zfs-fuse
   
-  version: "67"
+  version: ""
 - 
   category: <sys-kernel
   description: ""
@@ -14,20 +14,6 @@ conflicts:
   name: bliss-initramfs
   
   version: 7.1.0
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: 044-r1
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-fuse
-  
-  version: ""
 - 
   category: <sys-kernel
   description: ""
@@ -43,6 +29,20 @@ conflicts:
   
   version: ""
 - 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: genkernel-next
+  
+  version: "67"
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
+- 
   category: <sys-boot
   description: ""
   license: ""
@@ -53,13 +53,6 @@ description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: procps
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -75,34 +68,6 @@ requires:
   
   version: ""
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: awk
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: zfs-kmod
-  
-  version: "9999"
-- 
   category: sys-fs
   description: ""
   license: ""
@@ -113,35 +78,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: python-cffi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
+  name: awk
   
   version: ""
 - 
@@ -159,10 +96,73 @@ requires:
   
   version: ""
 - 
+  category: app-misc
+  description: ""
+  license: ""
+  name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: "9999"
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
   name: modutils
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: python-cffi
   
   version: ""
 uri: []

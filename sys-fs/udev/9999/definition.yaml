@@ -4,7 +4,7 @@ conflicts:
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: gentoo-systemd-integration
   
   version: ""
 - 
@@ -15,12 +15,12 @@ conflicts:
   
   version: 2.02.103
 - 
-  category: <sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: glibc
+  name: systemd
   
-  version: "2.11"
+  version: ""
 - 
   category: <sec-policy
   description: ""
@@ -29,37 +29,16 @@ conflicts:
   
   version: 2.20120725-r10
 - 
-  category: sys-apps
+  category: <sys-libs
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: glibc
   
-  version: ""
+  version: "2.11"
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: udev
 requires:
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: video
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
 - 
   category: sys-apps
   description: ""
@@ -71,9 +50,23 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: tty
+  name: input
   
   version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: 2.1.9
 - 
   category: acct-group
   description: ""
@@ -92,23 +85,30 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: dialout
+  name: render
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: disk
+  name: video
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
+  name: libcap
   
-  version: 2.1.9
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: kmod
+  
+  version: "16"
 - 
   category: acct-group
   description: ""
@@ -120,28 +120,14 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: lp
+  name: tty
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: render
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: tape
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: input
+  name: dialout
   
   version: ""
 - 
@@ -155,9 +141,23 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: kmod
+  name: util-linux
   
-  version: "16"
+  version: "2.30"
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: disk
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
+  
+  version: ""
 uri: []
 use_flags:
 - acl

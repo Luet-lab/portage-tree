@@ -5,33 +5,19 @@ license: AGPL-3 CPL-1.0
 name: ghostscript-gpl
 requires:
 - 
-  category: virtual
+  category: net-print
   description: ""
   license: ""
-  name: jpeg
+  name: cups
+  
+  version: 1.3.8
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
   
   version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: 1.6.2
 - 
   category: app-text
   description: ""
@@ -50,16 +36,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: jbig2dec
+  name: freetype
   
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: "2.6"
+  version: 2.4.9
 - 
   category: media-libs
   description: ""
@@ -68,12 +47,26 @@ requires:
   
   version: 2.1.0
 - 
-  category: net-print
+  category: sys-libs
   description: ""
   license: ""
-  name: cups
+  name: zlib
   
-  version: 1.3.8
+  version: 1.2.7
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: "2.6"
+- 
+  category: media-fonts
+  description: ""
+  license: ""
+  name: kochi-substitute
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -85,9 +78,9 @@ requires:
   category: media-fonts
   description: ""
   license: ""
-  name: kochi-substitute
+  name: urw-fonts
   
-  version: ""
+  version: 2.4.9
 - 
   category: media-fonts
   description: ""
@@ -96,26 +89,40 @@ requires:
   
   version: ""
 - 
-  category: media-fonts
+  category: media-libs
   description: ""
   license: ""
-  name: arphicfonts
+  name: fontconfig
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: jbig2dec
   
-  version: 2.4.9
+  version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: zlib
+  name: jpeg
   
-  version: 1.2.7
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.6.2
 - 
   category: sys-apps
   description: ""
@@ -131,19 +138,12 @@ requires:
   
   version: 4.0.1
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
   category: media-fonts
   description: ""
   license: ""
-  name: urw-fonts
+  name: arphicfonts
   
-  version: 2.4.9
+  version: ""
 uri:
 - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs/ghostscript-9.26.tar.xz
 - https://dev.gentoo.org/~dilfridge/distfiles/ghostscript-gpl-9.26-patchset-1.tar.xz

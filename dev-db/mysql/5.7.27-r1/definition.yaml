@@ -11,7 +11,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: mysql-connector-c
+  name: percona-server
   
   version: ""
 - 
@@ -32,7 +32,7 @@ conflicts:
   category: dev-db
   description: ""
   license: ""
-  name: percona-server
+  name: mysql-connector-c
   
   version: ""
 - 
@@ -47,24 +47,31 @@ license: GPL-2
 name: mysql
 requires:
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: texinfo
-  
-  version: 4.7-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
   category: net-misc
   description: ""
   license: ""
   name: curl
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: mysql-init-scripts
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: mysql
   
   version: ""
 - 
@@ -78,21 +85,49 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: protobuf
   
   version: ""
 - 
-  category: app-arch
+  category: app-text
   description: ""
   license: ""
-  name: lz4
+  name: mecab
   
-  version: 0_p131
+  version: ""
 - 
-  category: sys-process
+  category: dev-libs
   description: ""
   license: ""
-  name: numactl
+  name: openssl
+  
+  version: 1.0.0
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: mysql
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sed
+  
+  version: "4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libevent
   
   version: ""
 - 
@@ -110,48 +145,6 @@ requires:
   
   version: ""
 - 
-  category: acct-group
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mysql
-  
-  version: ""
-- 
-  category: acct-user
-  description: ""
-  license: ""
-  name: mysql
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sed
-  
-  version: "4"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: mecab
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
   category: net-libs
   description: ""
   license: ""
@@ -159,24 +152,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 1.0.0
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-init-scripts
-  
-  version: ""
-- 
   category: sys-process
   description: ""
   license: ""
-  name: procps
+  name: numactl
   
   version: ""
 - 
@@ -190,16 +169,37 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf
+  name: libressl
   
   version: ""
 - 
-  category: dev-util
+  category: sec-policy
   description: ""
   license: ""
-  name: google-perftools
+  name: selinux-mysql
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: texinfo
+  
+  version: 4.7-r1
+- 
+  category: sys-process
+  description: ""
+  license: ""
+  name: procps
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lz4
+  
+  version: 0_p131
 uri:
 - https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.27.tar.gz
 - https://cdn.mysql.com/archives/mysql-5.7/mysql-boost-5.7.27.tar.gz

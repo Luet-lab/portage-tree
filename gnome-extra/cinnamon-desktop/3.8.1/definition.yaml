@@ -5,19 +5,12 @@ license: GPL-2+ FDL-1.1+ LGPL-2+
 name: cinnamon-desktop
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libxkbfile
+  name: glib
   
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: ""
+  version: 2.37.3
 - 
   category: media-sound
   description: ""
@@ -36,6 +29,34 @@ requires:
   category: x11-libs
   description: ""
   license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.9.7
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: "1.1"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
   name: cairo
   
   version: ""
@@ -43,7 +64,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libxkbfile
   
   version: ""
 - 
@@ -61,33 +82,12 @@ requires:
   
   version: 3.5.91
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.7
-- 
   category: sys-apps
   description: ""
   license: ""
   name: accountsservice
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.37.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: "1.1"
 uri:
 - https://github.com/linuxmint/cinnamon-desktop/archive/3.8.1.tar.gz -> cinnamon-desktop-3.8.1.tar.gz
 use_flags:

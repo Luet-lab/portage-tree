@@ -5,26 +5,26 @@ license: GPL-2+
 name: gitg
 requires:
 - 
-  category: gnome-base
+  category: app-crypt
   description: ""
   license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 0.1.1
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
+  name: libsecret
   
   version: ""
 - 
-  category: x11-themes
+  category: dev-libs
   description: ""
   license: ""
-  name: adwaita-icon-theme
+  name: libdazzle
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: "3.10"
 - 
   category: dev-python
   description: ""
@@ -33,12 +33,40 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: glib
+  
+  version: "2.38"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.10.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgit2-glib
+  
+  version: "0.29"
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
   
   version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: glade
+  
+  version: "3.2"
 - 
   category: app-text
   description: ""
@@ -46,13 +74,6 @@ requires:
   name: gtkspell
   
   version: 3.0.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgee
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -68,31 +89,24 @@ requires:
   
   version: 1.5.0
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libxml2
   
-  version: 3.20.0
+  version: 2.9.0
 - 
-  category: dev-util
+  category: gnome-base
   description: ""
   license: ""
-  name: glade
+  name: gsettings-desktop-schemas
   
-  version: "3.2"
+  version: 0.1.1
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: gobject-introspection
-  
-  version: 0.10.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libdazzle
+  name: libgee
   
   version: ""
 - 
@@ -103,33 +117,19 @@ requires:
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: gtk+
   
-  version: "3.10"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgit2-glib
-  
-  version: "0.29"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.9.0
+  version: 3.20.0
 uri: []
 use_flags:
 - glade

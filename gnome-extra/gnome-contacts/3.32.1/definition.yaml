@@ -5,26 +5,19 @@ license: GPL-2+
 name: gnome-contacts
 requires:
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: libgee
   
-  version: "3.0"
+  version: "0.10"
 - 
-  category: net-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-online-accounts
+  name: gtk+
   
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: telepathy-glib
-  
-  version: "0.22"
+  version: 3.23.1
 - 
   category: media-video
   description: ""
@@ -32,6 +25,13 @@ requires:
   name: cheese
   
   version: 3.5.91
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: telepathy-glib
+  
+  version: "0.22"
 - 
   category: gui-libs
   description: ""
@@ -54,19 +54,19 @@ requires:
   
   version: "2.44"
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libgee
+  name: gnome-desktop
   
-  version: "0.10"
+  version: "3.0"
 - 
-  category: x11-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gtk+
+  name: gnome-online-accounts
   
-  version: 3.23.1
+  version: ""
 uri: []
 use_flags:
 - telepathy

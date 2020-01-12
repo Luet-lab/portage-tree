@@ -5,10 +5,45 @@ license: GPL-2 LGPL-2.1
 name: plasma-nm
 requires:
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtquickcontrols2
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kxmlgui
+  name: ki18n
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfigwidgets
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: plasma
   
   version: 5.64.0
 - 
@@ -19,12 +54,40 @@ requires:
   
   version: 5.64.0
 - 
-  category: net-vpn
+  category: dev-qt
   description: ""
   license: ""
-  name: openconnect
+  name: qtdbus
   
-  version: ""
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kservice
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: solid
+  
+  version: 5.64.0
 - 
   category: kde-plasma
   description: ""
@@ -43,72 +106,9 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kiconthemes
-  
-  version: 5.64.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtquickcontrols
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kdeclarative
-  
-  version: 5.64.0
-- 
-  category: net-vpn
-  description: ""
-  license: ""
-  name: networkmanager-openconnect
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: networkmanager-qt
-  
-  version: 5.64.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kio
   
   version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.64.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: mobile-broadband-provider-info
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: 5.12.3
 - 
   category: kde-frameworks
   description: ""
@@ -117,17 +117,24 @@ requires:
   
   version: 5.64.0
 - 
-  category: dev-qt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qtwidgets
+  name: kdbusaddons
   
-  version: 5.12.3
+  version: 5.64.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: 2.1.1
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: kconfig
   
   version: 5.64.0
 - 
@@ -141,16 +148,44 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtquickcontrols2
+  name: qtwidgets
   
   version: 5.12.3
 - 
-  category: app-crypt
+  category: kde-frameworks
   description: ""
   license: ""
-  name: qca
+  name: kiconthemes
   
-  version: 2.1.1
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.64.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: networkmanager-qt
+  
+  version: 5.64.0
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtxml
+  
+  version: 5.12.3
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: networkmanager-openconnect
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -162,21 +197,35 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: plasma
+  name: kitemviews
   
   version: 5.64.0
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager[teamd=]
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: mobile-broadband-provider-info
+  
+  version: ""
+- 
+  category: net-vpn
+  description: ""
+  license: ""
+  name: openconnect
+  
+  version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: solid
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kservice
+  name: kdeclarative
   
   version: 5.64.0
 - 
@@ -191,55 +240,6 @@ requires:
   description: ""
   license: ""
   name: kwindowsystem
-  
-  version: 5.64.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtxml
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kitemviews
-  
-  version: 5.64.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ki18n
-  
-  version: 5.64.0
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager[teamd=]
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kdbusaddons
   
   version: 5.64.0
 uri: []

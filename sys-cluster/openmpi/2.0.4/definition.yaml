@@ -4,13 +4,6 @@ conflicts:
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich2
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
 mpi
   
   version: ""
@@ -18,7 +11,7 @@ mpi
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: mpich2
   
   version: ""
 - 
@@ -28,38 +21,17 @@ mpi
   name: pmix
   
   version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: mpich
+  
+  version: ""
 description: A high-performance message passing library (MPI)
 license: BSD
 name: openmpi
 requires:
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libevent
-  
-  version: 2.0.22
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: knem
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: torque
-  
-  version: ""
 - 
   category: sys-cluster
   description: ""
@@ -75,12 +47,12 @@ requires:
   
   version: "1.6"
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: zlib
+  name: libltdl
   
-  version: 1.2.8-r1
+  version: ""
 - 
   category: dev-util
   description: ""
@@ -89,17 +61,38 @@ requires:
   
   version: 6.5.19-r1
 - 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: knem
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: libltdl
+  name: libevent
   
-  version: ""
+  version: 2.0.22
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
 - 
   category: sys-fabric
   description: ""
   license: ""
-  name: ofed
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: torque
   
   version: ""
 - 
@@ -107,6 +100,13 @@ requires:
   description: ""
   license: ""
   name: librdmacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ofed
   
   version: ""
 uri:

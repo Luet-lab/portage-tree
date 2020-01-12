@@ -5,26 +5,19 @@ license: ""
 name: qtwebengine
 requires:
 - 
-  category: x11-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libXScrnSaver
+  name: qtcore
   
-  version: ""
+  version: 5.13.2
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libevent
+  name: qtgui
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
+  version: 5.13.2
 - 
   category: media-libs
   description: ""
@@ -36,98 +29,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebchannel
-  
-  version: 5.13.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libjpeg-turbo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx
-  
-  version: "1.5"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: re2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: lcms
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: libXcursor
   
   version: ""
 - 
@@ -148,79 +50,51 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtpositioning
+  name: qtprintsupport
   
   version: 5.13.2
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libdrm
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
+  name: libevent
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: icu
+  name: re2
   
-  version: "60.2"
+  version: ""
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
   license: ""
-  name: qtwidgets
+  name: harfbuzz
   
-  version: 5.13.2
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
-  
-  version: 5.13.2
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcomposite
+  name: libXrandr
   
   version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtpositioning
+  
+  version: 5.13.2
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwebchannel
+  
+  version: 5.13.2
 - 
   category: x11-libs
   description: ""
@@ -229,31 +103,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: pciutils
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: libXScrnSaver
   
   version: ""
 - 
@@ -263,6 +116,13 @@ requires:
   name: designer
   
   version: 5.13.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nss
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
@@ -281,35 +141,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: freetype
   
   version: ""
 - 
-  category: media-sound
+  category: media-libs
   description: ""
   license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.13.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXtst
+  name: libwebp
   
   version: ""
 - 
@@ -320,6 +159,153 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: icu
+  
+  version: "60.2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.13.2
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: lcms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libjpeg-turbo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libvpx
+  
+  version: "1.5"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: pciutils
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -327,17 +313,31 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtprintsupport
+  name: libxml2
   
-  version: 5.13.2
+  version: ""
 - 
-  category: media-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libwebp
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXtst
+  
+  version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: ffmpeg
   
   version: ""
 uri: []

@@ -12,24 +12,31 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: firefox-bin
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: atk
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo-1.10[X]
+  name: gtk+
+  
+  version: 3.4.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libXt
   
   version: ""
 - 
@@ -47,12 +54,33 @@ requires:
   
   version: "0.72"
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: cairo-1.10[X]
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: 1.22.0
 - 
   category: sys-apps
   description: ""
@@ -78,13 +106,6 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
-  
-  version: 3.4.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libXcomposite
   
   version: ""
@@ -92,21 +113,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXdamage
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
+  name: libXext
   
   version: ""
 - 
@@ -116,13 +123,6 @@ requires:
   name: glib
   
   version: "2.26"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.22.0
 - 
   category: media-libs
   description: ""
@@ -134,14 +134,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: libX11
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: atk
+  name: libXrender
   
   version: ""
 uri:

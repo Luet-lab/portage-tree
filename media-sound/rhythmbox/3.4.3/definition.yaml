@@ -5,40 +5,12 @@ license: GPL-2
 name: rhythmbox
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: 0.7.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: totem-pl-parser
-  
-  version: "3.2"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: 0.7.0
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: lirc
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libgpod
+  name: gstreamer
   
-  version: 0.7.92
+  version: "1.4"
 - 
   category: media-libs
   description: ""
@@ -47,12 +19,19 @@ requires:
   
   version: "0.3"
 - 
-  category: media-plugins
+  category: x11-libs
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: gtk+
   
-  version: ""
+  version: 3.20.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: "1.4"
 - 
   category: dev-libs
   description: ""
@@ -61,12 +40,19 @@ requires:
   
   version: "0.10"
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gtk+
+  name: libgudev
   
-  version: 3.20.0
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.8
 - 
   category: x11-libs
   description: ""
@@ -74,13 +60,6 @@ requires:
   name: gdk-pixbuf
   
   version: "2.18"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: "1.4"
 - 
   category: app-cdr
   description: ""
@@ -96,33 +75,12 @@ requires:
   
   version: "3.0"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.7.8
-- 
   category: media-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: libgpod
   
-  version: "1.4"
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-soup
-  
-  version: "1.4"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.18"
+  version: 0.7.92
 - 
   category: media-plugins
   description: ""
@@ -131,12 +89,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libsoup
+  name: totem-pl-parser
   
-  version: "2.42"
+  version: "3.2"
 - 
   category: sys-libs
   description: ""
@@ -144,6 +102,13 @@ requires:
   name: tdb
   
   version: 1.2.6
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.42"
 - 
   category: dev-libs
   description: ""
@@ -159,12 +124,26 @@ requires:
   
   version: 2.9.19
 - 
-  category: dev-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: libgudev
+  name: gst-plugins-soup
   
-  version: ""
+  version: "1.4"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.18"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libnotify
+  
+  version: 0.7.0
 - 
   category: dev-libs
   description: ""
@@ -172,6 +151,27 @@ requires:
   name: glib
   
   version: "2.38"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: 0.7.3
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: lirc
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-soup
+  
+  version: ""
 uri: []
 use_flags:
 - cdr

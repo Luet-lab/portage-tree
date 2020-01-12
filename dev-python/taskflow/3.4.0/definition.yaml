@@ -4,16 +4,16 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: oslo-serialization
+  name: pbr
   
-  version: 2.19.1
+  version: 2.1.0
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: oslo-serialization
   
-  version: 2.1.0
+  version: 2.19.1
 description: A library to do [jobs, tasks, flows] in a HA manner using different backends
 license: Apache-2.0
 name: taskflow
@@ -22,16 +22,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: cachetools
   
   version: 2.0.0
 - 
-  category: virtual
+  category: dev-python
   description: ""
   license: ""
-  name: python-enum34
+  name: debtcollector
   
-  version: ""
+  version: 1.2.0
 - 
   category: dev-python
   description: ""
@@ -57,16 +57,51 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: jsonschema
+  
+  version: 2.6.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: jsonschema
+  
+  version: 3.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.18.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pydot
+  
+  version: 1.2.4
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: six
+  
+  version: 1.10.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: stevedore
   
   version: 1.20.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-futures
-  
-  version: ""
 - 
   category: dev-python
   description: ""
@@ -85,44 +120,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: jsonschema
-  
-  version: 2.6.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: jsonschema
-  
-  version: 3.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: tenacity
   
   version: 4.4.0
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: cachetools
+  name: python-enum34
   
-  version: 2.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: debtcollector
-  
-  version: 1.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: six
-  
-  version: 1.10.0
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -131,19 +138,12 @@ requires:
   
   version: "1.10"
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: oslo-serialization
+  name: python-futures
   
-  version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pydot
-  
-  version: 1.2.4
+  version: ""
 uri:
 - mirror://pypi/t/taskflow/taskflow-3.4.0.tar.gz
 use_flags:

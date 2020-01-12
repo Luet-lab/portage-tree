@@ -19,19 +19,12 @@ requires:
   
   version: "0.10"
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gobject-introspection
+  name: telepathy-glib
   
-  version: "1.54"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: evolution-data-server
-  
-  version: 3.13.90
+  version: 0.19.9
 - 
   category: sys-libs
   description: ""
@@ -39,6 +32,13 @@ requires:
   name: readline
   
   version: ""
+- 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: "5"
 - 
   category: net-im
   description: ""
@@ -54,12 +54,19 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: telepathy-glib
+  name: gobject-introspection
   
-  version: 0.19.9
+  version: "1.54"
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: evolution-data-server
+  
+  version: 3.13.90
 - 
   category: dev-libs
   description: ""
@@ -67,13 +74,6 @@ requires:
   name: libxml2
   
   version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5"
 uri: []
 use_flags:
 - bluetooth

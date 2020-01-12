@@ -5,10 +5,38 @@ license: GPL-3
 name: gretl
 requires:
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: numpy
+  name: lapack
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: R
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
   
   version: ""
 - 
@@ -19,10 +47,10 @@ requires:
   
   version: ""
 - 
-  category: app-accessibility
+  category: sci-libs
   description: ""
   license: ""
-  name: flite
+  name: fftw
   
   version: ""
 - 
@@ -36,7 +64,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtksourceview
+  name: gtk+
   
   version: ""
 - 
@@ -47,38 +75,10 @@ requires:
   
   version: ""
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: R
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: mpfr
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: latex-base
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
+  name: glib
   
   version: ""
 - 
@@ -89,6 +89,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: mpfr
+  
+  version: ""
+- 
   category: sci-visualization
   description: ""
   license: ""
@@ -96,24 +103,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: app-accessibility
   description: ""
   license: ""
-  name: lapack
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
+  name: flite
   
   version: ""
 - 
@@ -123,6 +116,13 @@ requires:
   name: emacs
   
   version: "23.1"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
 uri:
 - mirror://sourceforge/gretl/gretl-1.9.14.tar.xz
 use_flags:

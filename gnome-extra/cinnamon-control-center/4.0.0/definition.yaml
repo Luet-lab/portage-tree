@@ -5,68 +5,19 @@ license: GPL-2+
 name: cinnamon-control-center
 requires:
 - 
-  category: dev-libs
+  category: gnome-base
   description: ""
   license: ""
-  name: libxml2
+  name: libgnomekbd
+  
+  version: 2.91.91
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.14
-- 
-  category: net-print
-  description: ""
-  license: ""
-  name: cups
-  
-  version: "1.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.8"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: gnome-color-manager
-  
-  version: "3"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-settings-daemon[input_devices_wacom]
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: cinnamon-menus
-  
-  version: "1.0"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: 2.23.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libwacom
-  
-  version: "0.7"
 - 
   category: net-misc
   description: ""
@@ -89,10 +40,10 @@ requires:
   
   version: 0.7.3
 - 
-  category: x11-libs
+  category: app-admin
   description: ""
   license: ""
-  name: libX11
+  name: openrc-settingsd
   
   version: ""
 - 
@@ -103,10 +54,10 @@ requires:
   
   version: "2.31"
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: fontconfig
+  name: libxml2
   
   version: ""
 - 
@@ -117,26 +68,19 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: net-print
   description: ""
   license: ""
-  name: systemd
+  name: cups
   
-  version: "31"
+  version: "1.4"
 - 
-  category: app-admin
+  category: x11-libs
   description: ""
   license: ""
-  name: system-config-printer
+  name: gtk+
   
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomekbd
-  
-  version: 2.91.91
+  version: "3.8"
 - 
   category: gnome-extra
   description: ""
@@ -145,6 +89,13 @@ requires:
   
   version: "1.0"
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: 2.23.0
+- 
   category: gnome-extra
   description: ""
   license: ""
@@ -152,24 +103,17 @@ requires:
   
   version: 0.9.8
 - 
-  category: sys-auth
+  category: net-misc
   description: ""
   license: ""
-  name: polkit
+  name: modemmanager
   
-  version: "0.103"
+  version: "0.7"
 - 
-  category: sys-auth
+  category: gnome-extra
   description: ""
   license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
+  name: cinnamon-settings-daemon[input_devices_wacom]
   
   version: ""
 - 
@@ -180,24 +124,31 @@ requires:
   
   version: "1.0"
 - 
-  category: x11-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: libXi
+  name: cinnamon-menus
   
-  version: "1.2"
+  version: "1.0"
 - 
-  category: net-misc
+  category: x11-misc
   description: ""
   license: ""
-  name: modemmanager
+  name: colord
   
-  version: "0.7"
+  version: 0.1.14
 - 
-  category: app-admin
+  category: sys-apps
   description: ""
   license: ""
-  name: openrc-settingsd
+  name: systemd
+  
+  version: "31"
+- 
+  category: x11-themes
+  description: ""
+  license: ""
+  name: adwaita-icon-theme
   
   version: ""
 - 
@@ -207,6 +158,55 @@ requires:
   name: cups-pk-helper
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: "1.2"
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: gnome-color-manager
+  
+  version: "3"
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: system-config-printer
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.103"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libwacom
+  
+  version: "0.7"
 uri:
 - https://github.com/linuxmint/cinnamon-control-center/archive/4.0.0.tar.gz -> cinnamon-control-center-4.0.0.tar.gz
 use_flags:

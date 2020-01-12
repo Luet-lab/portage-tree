@@ -11,14 +11,14 @@ mpi
   category: sys-cluster
   description: ""
   license: ""
-  name: mpich
+  name: pmix
   
   version: ""
 - 
   category: sys-cluster
   description: ""
   license: ""
-  name: pmix
+  name: mpich
   
   version: ""
 - 
@@ -33,12 +33,40 @@ license: BSD
 name: openmpi
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.6"
+- 
   category: dev-libs
   description: ""
   license: ""
   name: libevent
   
   version: 2.0.21
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-cluster
+  description: ""
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
 - 
   category: dev-util
   description: ""
@@ -54,45 +82,10 @@ requires:
   
   version: ""
 - 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: slurm
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
-- 
   category: sys-fabric
   description: ""
   license: ""
   name: librdmacm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: ofed
   
   version: ""
 - 
@@ -103,10 +96,17 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
   category: sys-fabric
   description: ""
   license: ""
-  name: infinipath-psm
+  name: ofed
   
   version: ""
 uri:

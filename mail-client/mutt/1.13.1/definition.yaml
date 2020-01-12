@@ -5,17 +5,45 @@ license: GPL-2
 name: mutt
 requires:
 - 
-  category: sec-policy
+  category: sys-libs
   description: ""
   license: ""
-  name: selinux-mutt
+  name: ncurses
+  
+  version: "5.2"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
   
   version: ""
 - 
-  category: dev-db
+  category: sys-libs
   description: ""
   license: ""
-  name: tokyocabinet
+  name: gdbm
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.6
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -33,12 +61,26 @@ requires:
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: 0.9.0
+- 
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: slang
   
-  version: "5.2"
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -54,59 +96,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: slang
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
-- 
   category: dev-db
   description: ""
   license: ""
-  name: qdbm
+  name: tokyocabinet
   
   version: ""
 - 
-  category: net-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
+  name: selinux-mutt
   
   version: ""
 - 
@@ -117,10 +117,10 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: dev-db
   description: ""
   license: ""
-  name: gdbm
+  name: qdbm
   
   version: ""
 - 
@@ -131,12 +131,12 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
+  category: virtual
   description: ""
   license: ""
-  name: gpgme
+  name: krb5
   
-  version: 0.9.0
+  version: ""
 uri:
 - ftp://ftp.mutt.org/pub/mutt/mutt-1.13.1.tar.gz
 - https://bitbucket.org/mutt/mutt/downloads/mutt-1.13.1.tar.gz

@@ -12,12 +12,12 @@ license: GPL-2
 name: atril
 requires:
 - 
-  category: app-text
+  category: dev-libs
   description: ""
   license: ""
-  name: poppler
+  name: gobject-introspection
   
-  version: "0.22"
+  version: "0.6"
 - 
   category: dev-libs
   description: ""
@@ -36,9 +36,16 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libICE
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.9.10
 - 
   category: mate-base
   description: ""
@@ -50,23 +57,44 @@ requires:
   category: app-text
   description: ""
   license: ""
-  name: djvu
+  name: libspectre
   
-  version: 3.5.17
+  version: "0.2"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: t1lib
+  name: tiff
   
-  version: "5"
+  version: "3.6"
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libgxps
+  
+  version: 0.2.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: "2.5"
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: libSM
   
-  version: ""
+  version: "1"
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: djvu
+  
+  version: 3.5.17
 - 
   category: virtual
   description: ""
@@ -82,33 +110,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: webkit-gtk
-  
-  version: 2.4.3
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
-  
-  version: "0.5"
-- 
   category: app-text
   description: ""
   license: ""
-  name: libspectre
+  name: poppler
   
-  version: "0.2"
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libgxps
-  
-  version: 0.2.1
+  version: "0.22"
 - 
   category: dev-libs
   description: ""
@@ -117,26 +124,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libxml2
+  name: webkit-gtk
   
-  version: "2.5"
+  version: 2.4.3
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libICE
+  name: gdk-pixbuf
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: cairo
+  name: libX11
   
-  version: 1.9.10
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -145,26 +152,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "0.6"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: "1"
-- 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: t1lib
   
-  version: "3.6"
+  version: "5"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: "0.5"
 uri: []
 use_flags:
 - caja

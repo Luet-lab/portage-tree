@@ -5,10 +5,24 @@ license: GPL-2
 name: mutt
 requires:
 - 
-  category: dev-db
+  category: net-libs
   description: ""
   license: ""
-  name: qdbm
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.6
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
   
   version: ""
 - 
@@ -26,13 +40,6 @@ requires:
   
   version: "5.2"
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mutt
-  
-  version: ""
-- 
   category: app-misc
   description: ""
   license: ""
@@ -43,7 +50,42 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: gdbm
+  name: db
+  
+  version: "4"
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: notmuch
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
   
   version: ""
 - 
@@ -57,35 +99,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
+  name: qdbm
   
   version: ""
 - 
@@ -96,45 +110,17 @@ requires:
   
   version: ""
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: db
-  
-  version: "4"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
+  name: gdbm
   
   version: ""
 - 
-  category: virtual
+  category: dev-libs
   description: ""
   license: ""
-  name: libiconv
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 1.0.17
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: libressl
   
   version: ""
 - 
@@ -144,6 +130,20 @@ requires:
   name: gpgme
   
   version: 0.9.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-mutt
+  
+  version: ""
 uri:
 - ftp://ftp.mutt.org/pub/mutt/mutt-1.12.2.tar.gz
 - https://bitbucket.org/mutt/mutt/downloads/mutt-1.12.2.tar.gz

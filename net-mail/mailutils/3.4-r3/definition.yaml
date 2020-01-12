@@ -4,7 +4,7 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: nmh
+  name: nail
   
   version: ""
 - 
@@ -15,17 +15,17 @@ conflicts:
   
   version: ""
 - 
-  category: mail-client
-  description: ""
-  license: ""
-  name: nail
-  
-  version: ""
-- 
   category: mail-filter
   description: ""
   license: ""
   name: libsieve
+  
+  version: ""
+- 
+  category: mail-client
+  description: ""
+  license: ""
+  name: nmh
   
   version: ""
 description: A useful collection of mail servers, clients, and filters
@@ -33,10 +33,10 @@ license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
   license: ""
-  name: fribidi
+  name: readline
   
   version: ""
 - 
@@ -47,24 +47,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
   name: pam
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
   
   version: ""
 - 
@@ -78,28 +71,35 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: readline
+  name: db
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: mta
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: fribidi
   
   version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
-  name: db
+  name: gdbm
   
   version: ""
 - 
-  category: net-nds
+  category: virtual
   description: ""
   license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: kyotocabinet
+  name: krb5
   
   version: ""
 - 
@@ -120,35 +120,7 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: mta
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: gdbm
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
+  name: gsasl
   
   version: ""
 - 
@@ -159,10 +131,38 @@ requires:
   
   version: ""
 - 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "23.1"
+- 
   category: dev-db
   description: ""
   license: ""
-  name: tokyocabinet
+  name: kyotocabinet
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 uri:

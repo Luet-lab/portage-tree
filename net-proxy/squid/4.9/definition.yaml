@@ -5,10 +5,17 @@ license: GPL-2
 name: squid
 requires:
 - 
-  category: net-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: samba
+  name: nettle
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
   
   version: ""
 - 
@@ -19,10 +26,38 @@ requires:
   
   version: ""
 - 
-  category: net-nds
+  category: sys-libs
   description: ""
   license: ""
-  name: openldap
+  name: pam
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libnetfilter_conntrack
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: logrotate
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-Pg
   
   version: ""
 - 
@@ -30,6 +65,27 @@ requires:
   description: ""
   license: ""
   name: libressl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libecap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
   
   version: ""
 - 
@@ -47,20 +103,6 @@ requires:
   
   version: "4"
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: logrotate
-  
-  version: ""
-- 
   category: dev-perl
   description: ""
   license: ""
@@ -75,24 +117,10 @@ requires:
   
   version: "2.16"
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: krb5
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libecap
   
   version: ""
 - 
@@ -110,31 +138,17 @@ requires:
   
   version: ""
 - 
-  category: dev-perl
+  category: sec-policy
   description: ""
   license: ""
-  name: DBD-Pg
+  name: selinux-squid
   
   version: ""
 - 
-  category: net-libs
+  category: net-nds
   description: ""
   license: ""
-  name: libnetfilter_conntrack
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
+  name: openldap
   
   version: ""
 - 
@@ -144,20 +158,6 @@ requires:
   name: gnutls
   
   version: 3.1.5
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-squid
-  
-  version: ""
 uri:
 - http://www.squid-cache.org/Versions/v4/squid-4.9.tar.xz
 use_flags:

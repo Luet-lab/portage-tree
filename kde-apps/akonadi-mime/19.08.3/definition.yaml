@@ -1,12 +1,12 @@
 category: kde-apps
 conflicts:
 - 
-  category: <kde-apps
+  category: kde-apps
   description: ""
   license: ""
-  name: kdepim-runtime
+  name: kdepimlibs
   
-  version: 18.03.80
+  version: ""
 - 
   category: kde-apps
   description: ""
@@ -15,12 +15,12 @@ conflicts:
   
   version: ""
 - 
-  category: kde-apps
+  category: <kde-apps
   description: ""
   license: ""
-  name: kdepimlibs
+  name: kdepim-runtime
   
-  version: ""
+  version: 18.03.80
 description: Library for akonadi mime types
 license: GPL-2+ LGPL-2.1+
 name: akonadi-mime
@@ -29,7 +29,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ki18n
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: 5.60.0
 - 
@@ -43,28 +57,21 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kwidgetsaddons
+  name: kconfig
   
   version: 5.60.0
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtdbus
   
   version: 5.12.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: ki18n
+  name: kdbusaddons
   
   version: 5.60.0
 - 
@@ -75,19 +82,19 @@ requires:
   
   version: 5.60.0
 - 
-  category: kde-frameworks
+  category: kde-apps
   description: ""
   license: ""
-  name: kcoreaddons
+  name: kmime
   
-  version: 5.60.0
+  version: ""
 - 
-  category: kde-frameworks
+  category: dev-libs
   description: ""
   license: ""
-  name: kdbusaddons
+  name: libxslt
   
-  version: 5.60.0
+  version: ""
 - 
   category: kde-frameworks
   description: ""
@@ -103,24 +110,17 @@ requires:
   
   version: 5.60.0
 - 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kmime
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtgui
   
   version: 5.12.3
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwidgets
   
   version: 5.12.3
 uri: []

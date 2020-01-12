@@ -5,12 +5,19 @@ license: Apache-2.0
 name: netty-handler
 requires:
 - 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.7"
+- 
   category: dev-java
   description: ""
   license: ""
-  name: netty-tcnative
+  name: netty-buffer
   
-  version: ""
+  version: 4.0.36
 - 
   category: dev-java
   description: ""
@@ -22,7 +29,7 @@ requires:
   category: dev-java
   description: ""
   license: ""
-  name: jetty-alpn-api
+  name: bcprov
   
   version: ""
 - 
@@ -36,14 +43,14 @@ requires:
   category: dev-java
   description: ""
   license: ""
-  name: netty-buffer
+  name: netty-codec
   
   version: 4.0.36
 - 
   category: dev-java
   description: ""
   license: ""
-  name: netty-codec
+  name: netty-common
   
   version: 4.0.36
 - 
@@ -57,23 +64,16 @@ requires:
   category: dev-java
   description: ""
   license: ""
-  name: bcprov
+  name: netty-tcnative
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.7"
 - 
   category: dev-java
   description: ""
   license: ""
-  name: netty-common
+  name: jetty-alpn-api
   
-  version: 4.0.36
+  version: ""
 uri:
 - https://github.com/netty/netty/archive/netty-4.0.36.Final.tar.gz
 use_flags:

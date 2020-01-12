@@ -1,17 +1,24 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.103
+- 
   category: sys-apps
   description: ""
   license: ""
-  name: gentoo-systemd-integration
+  name: systemd
   
   version: ""
 - 
   category: sys-apps
   description: ""
   license: ""
-  name: systemd
+  name: gentoo-systemd-integration
   
   version: ""
 - 
@@ -21,13 +28,6 @@ conflicts:
   name: selinux-base
   
   version: 2.20120725-r10
-- 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.103
 - 
   category: <sys-libs
   description: ""
@@ -43,63 +43,7 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: tty
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: cdrom
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.30"
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kmem
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
   name: disk
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: kvm
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: tape
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: video
   
   version: ""
 - 
@@ -120,7 +64,21 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: input
+  name: tty
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
   
   version: ""
 - 
@@ -134,6 +92,13 @@ requires:
   category: acct-group
   description: ""
   license: ""
+  name: kmem
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
   name: dialout
   
   version: ""
@@ -141,7 +106,14 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: lp
+  name: kvm
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
   
   version: ""
 - 
@@ -152,10 +124,38 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: acct-group
   description: ""
   license: ""
-  name: libcap
+  name: video
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.30"
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: audio
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: input
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
   
   version: ""
 uri:
