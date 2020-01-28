@@ -5,33 +5,19 @@ license: GPL-3
 name: strawberry
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtconcurrent
+  name: qtgui
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: chromaprint
+  name: taglib
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
-  
-  version: ""
+  version: 1.11.1_p20181028
 - 
   category: virtual
   description: ""
@@ -40,17 +26,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libcdio
+  name: libX11
   
   version: ""
 - 
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-meta
+  name: gst-plugins-libmms
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
   
   version: ""
 - 
@@ -71,27 +71,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: gst-plugins-base
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgpod
-  
-  version: 0.8.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: alsa-lib
   
   version: ""
@@ -99,23 +78,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: taglib
-  
-  version: 1.11.1_p20181028
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: chromaprint
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: 1.0.0
 - 
   category: dev-libs
   description: ""
@@ -127,14 +92,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtnetwork
+  name: qtconcurrent
   
   version: ""
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: gst-plugins-base
   
   version: ""
 - 
@@ -145,31 +110,17 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-libmms
+  name: glib
   
   version: ""
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: qca
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
+  name: protobuf
   
   version: ""
 - 
@@ -180,10 +131,17 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: dev-libs
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: libcdio
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
   
   version: ""
 - 
@@ -194,17 +152,52 @@ requires:
   
   version: ""
 - 
-  category: gnome-base
+  category: media-libs
   description: ""
   license: ""
-  name: gvfs
+  name: libmtp
+  
+  version: 1.0.0
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-soup
   
   version: ""
 - 
-  category: sys-fs
+  category: sys-libs
   description: ""
   license: ""
-  name: udisks
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgpod
+  
+  version: 0.8.0
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-meta
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
   
   version: ""
 - 
@@ -218,7 +211,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtnetwork
   
   version: ""
 - 
@@ -226,6 +219,13 @@ requires:
   description: ""
   license: ""
   name: gstreamer
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udisks
   
   version: ""
 uri: []

@@ -5,45 +5,17 @@ license: BSD-2
 name: enlightenment
 requires:
 - 
-  category: x11-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: xcb-util-keysyms
+  name: efl[X,wayland]
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: efl
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: packagekit-base
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pixman
+  name: efl-1.20.5[eet,X]
   
   version: ""
 - 
@@ -54,17 +26,45 @@ requires:
   
   version: ""
 - 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: app-admin
+  description: ""
+  license: ""
+  name: packagekit-base
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udisks
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
   category: x11-misc
   description: ""
   license: ""
   name: xkeyboard-config
-  
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
   
   version: ""
 - 
@@ -78,7 +78,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: efl
+  
+  version: 1.22.0
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: acpid
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
   
   version: ""
 - 
@@ -92,28 +106,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: xcb-util-keysyms
   
   version: ""
 - 
-  category: virtual
+  category: net-wireless
   description: ""
   license: ""
-  name: udev
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: acpid
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: bluez
   
   version: ""
 - 
@@ -122,26 +122,26 @@ requires:
   license: ""
   name: efl
   
-  version: 1.22.0
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libxkbcommon
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: efl[X,wayland]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: efl-1.20.5[eet,X]
   
   version: ""
 uri:

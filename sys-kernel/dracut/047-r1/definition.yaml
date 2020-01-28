@@ -5,6 +5,13 @@ license: GPL-2
 name: dracut
 requires:
 - 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -12,17 +19,10 @@ requires:
   
   version: "2.21"
 - 
-  category: dev-util
+  category: sys-libs
   description: ""
   license: ""
-  name: strace
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dracut
+  name: libselinux
   
   version: ""
 - 
@@ -40,38 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[xattr(-)]
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsepol
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
   name: udev
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
   
   version: ""
 - 
@@ -81,6 +53,34 @@ requires:
   name: bash
   
   version: "4.0"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[xattr(-)]
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: strace
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-dracut
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libsepol
+  
+  version: ""
 uri:
 - https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-047.tar.xz
 use_flags:

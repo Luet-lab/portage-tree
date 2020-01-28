@@ -4,7 +4,49 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: libibverbs
+  name: librdmacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: ibacm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: infinipath-psm
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libcxgb3
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libmlx4
+  
+  version: ""
+- 
+  category: sys-fabric
+  description: ""
+  license: ""
+  name: libnes
+  
+  version: ""
+- 
+  category: '!sys-fabric'
+  description: ""
+  license: ""
+  name: infiniband-diags
   
   version: ""
 - 
@@ -18,7 +60,7 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: srptools
+  name: libibmad
   
   version: ""
 - 
@@ -39,56 +81,14 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: libmlx4
+  name: libibverbs
   
   version: ""
 - 
   category: sys-fabric
   description: ""
   license: ""
-  name: libmlx5
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libnes
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: librdmacm
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libcxgb3
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: infinipath-psm
-  
-  version: ""
-- 
-  category: '!sys-fabric'
-  description: ""
-  license: ""
-  name: infiniband-diags
-  
-  version: ""
-- 
-  category: sys-fabric
-  description: ""
-  license: ""
-  name: libibmad
+  name: srptools
   
   version: ""
 - 
@@ -102,20 +102,13 @@ conflicts:
   category: sys-fabric
   description: ""
   license: ""
-  name: ibacm
+  name: libmlx5
   
   version: ""
 description: Userspace components for the Linux Kernel's drivers/infiniband subsystem
 license: '|| ( GPL-2 ( CC0-1.0 MIT BSD BSD-with-attribution ) )'
 name: rdma-core
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
 - 
   category: dev-util
   description: ""
@@ -128,6 +121,13 @@ requires:
   description: ""
   license: ""
   name: systemd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libudev
   
   version: ""
 - 

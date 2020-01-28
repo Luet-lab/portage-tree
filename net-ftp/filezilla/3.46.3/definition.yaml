@@ -5,19 +5,19 @@ license: GPL-2
 name: filezilla
 requires:
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: "3.7"
+- 
   category: dev-libs
   description: ""
   license: ""
   name: libfilezilla
   
-  version: 0.20.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: pugixml
-  
-  version: "1.7"
+  version: 0.19.3
 - 
   category: x11-libs
   description: ""
@@ -33,12 +33,12 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: app-eselect
   description: ""
   license: ""
-  name: dbus
+  name: eselect-wxwidgets
   
-  version: ""
+  version: 0.7-r1
 - 
   category: dev-libs
   description: ""
@@ -52,7 +52,14 @@ requires:
   license: ""
   name: libfilezilla
   
-  version: 0.19.3
+  version: 0.20.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: pugixml
+  
+  version: "1.7"
 - 
   category: net-libs
   description: ""
@@ -61,19 +68,12 @@ requires:
   
   version: 3.5.7
 - 
-  category: app-eselect
+  category: sys-apps
   description: ""
   license: ""
-  name: eselect-wxwidgets
+  name: dbus
   
-  version: 0.7-r1
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: "3.7"
+  version: ""
 uri:
 - https://download.filezilla-project.org/client/FileZilla_3.46.3_src.tar.bz2
 use_flags:

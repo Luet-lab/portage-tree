@@ -5,12 +5,12 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: sys-libs
+  category: sys-devel
   description: ""
   license: ""
-  name: zlib
+  name: gettext
   
-  version: ""
+  version: "0.19"
 - 
   category: x11-libs
   description: ""
@@ -23,6 +23,48 @@ requires:
   description: ""
   license: ""
   name: cgmanager
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libdrm
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-consolekit
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libnih
+  
+  version: 1.0.2
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: polkit
+  
+  version: "0.110"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
   
   version: ""
 - 
@@ -47,31 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-consolekit
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
+  name: zlib
   
   version: ""
 - 
@@ -96,13 +117,6 @@ requires:
   
   version: ""
 - 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.110"
-- 
   category: sys-apps
   description: ""
   license: ""
@@ -116,20 +130,6 @@ requires:
   name: pm-utils
   
   version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: "0.19"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libnih
-  
-  version: 1.0.2
 uri:
 - https://github.com/ConsoleKit2/ConsoleKit2/releases/download/1.1.2/ConsoleKit2-1.1.2.tar.bz2
 use_flags:

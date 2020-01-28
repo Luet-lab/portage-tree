@@ -5,19 +5,12 @@ license: LGPL-2.1+
 name: gtk-vnc
 requires:
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: gnutls
   
-  version: 1.5.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: "1.2"
+  version: 3.1.18
 - 
   category: x11-libs
   description: ""
@@ -36,9 +29,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: cyrus-sasl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: glib
   
   version: 2.42.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.5.0
 - 
   category: dev-libs
   description: ""
@@ -47,12 +54,12 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: gnutls
+  name: cairo
   
-  version: 3.1.18
+  version: "1.2"
 - 
   category: dev-libs
   description: ""
@@ -60,13 +67,6 @@ requires:
   name: gobject-introspection
   
   version: 0.9.4
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
 uri: []
 use_flags:
 - examples

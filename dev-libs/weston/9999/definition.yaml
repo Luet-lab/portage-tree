@@ -5,19 +5,26 @@ license: MIT CC-BY-SA-3.0
 name: weston
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libinput
+  name: mesa
   
-  version: 0.8.0
+  version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: wayland
+  name: dbus
   
-  version: 1.17.0
+  version: "1.6"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -26,24 +33,38 @@ requires:
   
   version: 2.4.68
 - 
-  category: dev-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: wayland-protocols
+  name: colord
   
-  version: "1.18"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: freerdp
-  
-  version: 2.0.0_rc2
+  version: 0.1.27
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXcursor
+  name: cairo[X,xcb(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
   
   version: ""
 - 
@@ -57,14 +78,35 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: libwebp
   
   version: ""
 - 
-  category: media-libs
+  category: net-misc
   description: ""
   license: ""
-  name: mesa
+  name: freerdp
+  
+  version: 2.0.0_rc2
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon
+  
+  version: 0.5.0
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: mtdev
+  
+  version: 1.1.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
   
   version: ""
 - 
@@ -75,19 +117,12 @@ requires:
   
   version: "1.9"
 - 
-  category: x11-libs
+  category: x11-misc
   description: ""
   license: ""
-  name: pixman
+  name: xkeyboard-config
   
-  version: 0.25.2
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "136"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -103,19 +138,40 @@ requires:
   
   version: ""
 - 
-  category: x11-misc
+  category: x11-base
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: xorg-server
   
   version: ""
 - 
-  category: x11-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: colord
+  name: libinput
   
-  version: 0.1.27
+  version: 0.8.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: 1.11.3
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: "136"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "17.1"
 - 
   category: media-video
   description: ""
@@ -131,54 +187,26 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
   license: ""
-  name: dbus
+  name: wayland-protocols
   
-  version: "1.6"
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.11.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon
-  
-  version: 0.5.0
+  version: "1.18"
 - 
   category: media-libs
   description: ""
   license: ""
-  name: mesa
-  
-  version: "17.1"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
+  name: libpng
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pixman
+  
+  version: 0.25.2
 - 
   category: sys-apps
   description: ""
@@ -186,34 +214,6 @@ requires:
   name: systemd
   
   version: "209"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: mtdev
-  
-  version: 1.1.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
 uri: []
 use_flags:
 - colord

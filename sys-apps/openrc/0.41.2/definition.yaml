@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <app-shells
-  description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
-- 
   category: <sys-process
   description: ""
   license: ""
@@ -21,6 +14,13 @@ conflicts:
   name: udev-init-scripts
   
   version: "27"
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-bashcomp
+  
+  version: "20180302"
 - 
   category: <app-shells
   description: ""
@@ -40,17 +40,24 @@ license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-auth
+  category: sys-libs
   description: ""
   license: ""
-  name: pambase
+  name: libselinux
   
-  version: ""
+  version: "2.6"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-base-policy
+  
+  version: 2.20170204-r4
 - 
   category: sys-process
   description: ""
   license: ""
-  name: audit
+  name: psmisc
   
   version: ""
 - 
@@ -68,38 +75,10 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: 2.20170204-r4
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-openrc
-  
-  version: 2.20170204-r4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.6"
-- 
   category: sys-process
   description: ""
   license: ""
-  name: psmisc
+  name: audit
   
   version: ""
 - 
@@ -113,7 +92,28 @@ requires:
   category: sys-libs
   description: ""
   license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
   name: pam
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-openrc
+  
+  version: 2.20170204-r4
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
   
   version: ""
 uri:

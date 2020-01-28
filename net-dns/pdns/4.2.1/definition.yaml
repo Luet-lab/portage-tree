@@ -5,13 +5,6 @@ license: GPL-2
 name: pdns
 requires:
 - 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
   category: net-misc
   description: ""
   license: ""
@@ -19,10 +12,17 @@ requires:
   
   version: 7.21.3
 - 
+  category: dev-db
+  description: ""
+  license: ""
+  name: opendbx
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf
+  name: geoip
   
   version: ""
 - 
@@ -33,24 +33,17 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: dev-lang
   description: ""
   license: ""
-  name: sqlite
+  name: lua
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-lang
   description: ""
   license: ""
-  name: libsodium
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
+  name: luajit
   
   version: ""
 - 
@@ -71,28 +64,28 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: opendbx
+  name: tinycdb
+  
+  version: "0.77"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: geoip
+  name: libressl
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: boost
-  
-  version: "1.35"
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
+  name: postgresql
   
   version: ""
 - 
@@ -106,7 +99,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: postgresql
+  name: sqlite
   
   version: ""
 - 
@@ -117,12 +110,19 @@ requires:
   
   version: 0.5.1
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: tinycdb
+  name: libsodium
   
-  version: "0.77"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.35"
 uri:
 - https://downloads.powerdns.com/releases/pdns-4.2.1.tar.bz2
 use_flags:

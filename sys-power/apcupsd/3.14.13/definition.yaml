@@ -5,12 +5,12 @@ license: GPL-2
 name: apcupsd
 requires:
 - 
-  category: x11-libs
+  category: net-analyzer
   description: ""
   license: ""
-  name: gtk+
+  name: net-snmp
   
-  version: 2.4.0
+  version: 5.7.2
 - 
   category: dev-libs
   description: ""
@@ -25,34 +25,6 @@ requires:
   name: gconf
   
   version: "2.0"
-- 
-  category: sys-freebsd
-  description: ""
-  license: ""
-  name: freebsd-ubin
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: 5.7.2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: openrc
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -74,6 +46,34 @@ requires:
   name: gd
   
   version: 1.8.4
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 2.4.0
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: openrc
+  
+  version: ""
+- 
+  category: sys-freebsd
+  description: ""
+  license: ""
+  name: freebsd-ubin
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: ""
 uri:
 - mirror://sourceforge/apcupsd/apcupsd-3.14.13.tar.gz
 use_flags:

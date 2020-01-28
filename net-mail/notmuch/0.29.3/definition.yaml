@@ -12,24 +12,17 @@ license: GPL-3
 name: notmuch
 requires:
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: xapian
+  name: sphinx
   
-  version: 1.4.8
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: gmime
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gnupg
   
   version: ""
 - 
@@ -40,10 +33,38 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-perl
   description: ""
   license: ""
-  name: perl-File-Path
+  name: Mail-Box
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: String-ShellQuote
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.22"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmime
+  
+  version: 3.0.3
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: texinfo
   
   version: ""
 - 
@@ -57,84 +78,14 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: Mail-Box
+  name: File-Which
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: perl-Pod-Parser
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.5.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: sphinx
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: texinfo
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "24.1"
 - 
   category: virtual
   description: ""
   license: ""
   name: perl-Digest-SHA
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmime
-  
-  version: 3.0.3
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: File-Which
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: MailTools
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: String-ShellQuote
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Term-ReadLine-Gnu
   
   version: ""
 - 
@@ -148,9 +99,58 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: xapian
   
-  version: "2.22"
+  version: 1.4.8
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.5.2
+- 
+  category: app-editors
+  description: ""
+  license: ""
+  name: emacs
+  
+  version: "24.1"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gnupg
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: MailTools
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: Term-ReadLine-Gnu
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-File-Path
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: perl-Pod-Parser
+  
+  version: ""
 uri:
 - https://notmuchmail.org/releases/notmuch-0.29.3.tar.xz
 - 'https://notmuchmail.org/releases/test-databases/database-v1.tar.xz '

@@ -8,9 +8,23 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: cyrus-sasl
+  name: libressl
   
-  version: ""
+  version: 2.7.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 2.12.23-r6
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.6.10
 - 
   category: sys-apps
   description: ""
@@ -22,16 +36,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libgcrypt
   
-  version: 1.0.2
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 2.12.23-r6
+  version: 1.5.3
 - 
   category: virtual
   description: ""
@@ -47,26 +54,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: 1.6.10
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: cyrus-sasl
   
-  version: 1.5.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: 2.7.0
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -74,6 +67,13 @@ requires:
   name: zlib
   
   version: 1.2.8-r1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 1.0.2
 uri:
 - https://github.com/LibVNC/libvncserver/archive/LibVNCServer-0.9.12.tar.gz
 use_flags:

@@ -4,7 +4,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: courier
+  name: exim
   
   version: ""
 - 
@@ -25,7 +25,7 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: esmtp
+  name: sendmail
   
   version: ""
 - 
@@ -33,6 +33,13 @@ conflicts:
   description: ""
   license: ""
   name: opensmtpd
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: courier
   
   version: ""
 - 
@@ -53,13 +60,6 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: exim
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
   name: mini-qmail
   
   version: ""
@@ -74,20 +74,13 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: esmtp
   
   version: ""
 description: Simple relay-only local mail transport agent
 license: GPL-2
 mailer
 requires:
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: shadow
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -100,6 +93,13 @@ requires:
   description: ""
   license: ""
   name: gnutls
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: shadow
   
   version: ""
 uri:

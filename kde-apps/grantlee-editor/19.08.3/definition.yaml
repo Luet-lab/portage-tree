@@ -4,20 +4,6 @@ conflicts:
   category: kde-apps
   description: ""
   license: ""
-  name: kdepim-l10n
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kmail
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
   name: kdepim-common-libs
   
   version: ""
@@ -28,6 +14,20 @@ conflicts:
   name: kaddressbook
   
   version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kdepim-l10n
+  
+  version: ""
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kmail
+  
+  version: ""
 description: Utilities and tools to manage themes in KDE PIM applications
 license: GPL-2+ handbook? ( FDL-1.2+ )
 name: grantlee-editor
@@ -36,28 +36,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcontacts
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktexteditor
+  name: kcompletion
   
   version: 5.60.0
 - 
@@ -68,17 +47,38 @@ requires:
   
   version: ""
 - 
-  category: kde-apps
+  category: kde-frameworks
   description: ""
   license: ""
-  name: kmime
+  name: kconfigwidgets
   
-  version: ""
+  version: 5.60.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kcompletion
+  name: kwallet
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kpimtextedit
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktexteditor
   
   version: 5.60.0
 - 
@@ -92,7 +92,42 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwebengine
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdbusaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: knewstuff
+  
+  version: 5.60.0
+- 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: messagelib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: 5.12.3
 - 
@@ -113,41 +148,6 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdbusaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: knewstuff
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwallet
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: messagelib
-  
-  version: ""
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: pimcommon
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kcoreaddons
   
   version: 5.60.0
@@ -159,17 +159,24 @@ requires:
   
   version: 5.60.0
 - 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: pimcommon
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kio
+  name: kconfig
   
   version: 5.60.0
 - 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfigwidgets
+  name: kcontacts
   
   version: 5.60.0
 - 
@@ -183,16 +190,9 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: kpimtextedit
+  name: kmime
   
   version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: 5.12.3
 uri: []
 use_flags:
 - ""

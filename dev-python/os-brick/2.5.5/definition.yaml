@@ -4,13 +4,6 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: Babel
-  
-  version: 2.4.0
-- 
-  category: ~dev-python
-  description: ""
-  license: ""
   name: retrying
   
   version: 1.3.0
@@ -18,9 +11,16 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: Babel
   
-  version: 2.1.0
+  version: 2.4.0
+- 
+  category: ~dev-python
+  description: ""
+  license: ""
+  name: oslo-service
+  
+  version: 1.28.1
 - 
   category: ~dev-python
   description: ""
@@ -32,9 +32,9 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: oslo-service
+  name: pbr
   
-  version: 1.28.1
+  version: 2.1.0
 description: OpenStack Cinder brick library for managing local volume attaches
 license: Apache-2.0
 name: os-brick
@@ -43,9 +43,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-service
+  name: pbr
   
-  version: 1.24.0
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-utils
+  
+  version: 3.33.0
 - 
   category: dev-python
   description: ""
@@ -64,51 +71,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
-  
-  version: 2.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: retrying
-  
-  version: 1.2.3
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: six
   
   version: 1.10.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-concurrency
-  
-  version: 3.26.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-log
-  
-  version: 3.26.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-i18n
-  
-  version: 3.15.3.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-utils
-  
-  version: 3.33.0
 - 
   category: dev-python
   description: ""
@@ -127,9 +92,44 @@ requires:
   category: dev-python
   description: ""
   license: ""
+  name: oslo-log
+  
+  version: 3.26.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-i18n
+  
+  version: 3.15.3.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-service
+  
+  version: 1.24.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-concurrency
+  
+  version: 3.26.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
   name: oslo-privsep
   
   version: 1.23.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: retrying
+  
+  version: 1.2.3
 uri:
 - mirror://pypi/o/os-brick/os-brick-2.5.5.tar.gz
 use_flags:

@@ -12,26 +12,12 @@ license: LGPL-2
 name: geoclue
 requires:
 - 
-  category: dev-libs
+  category: net-dns
   description: ""
   license: ""
-  name: glib
+  name: avahi
   
-  version: "2.44"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
-  
-  version: ""
+  version: 0.6.10
 - 
   category: dev-libs
   description: ""
@@ -39,13 +25,6 @@ requires:
   name: json-glib
   
   version: "0.14"
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libsoup
-  
-  version: "2.42"
 - 
   category: dev-libs
   description: ""
@@ -61,12 +40,33 @@ requires:
   
   version: "1.6"
 - 
-  category: net-dns
+  category: x11-libs
   description: ""
   license: ""
-  name: avahi
+  name: libnotify
   
-  version: 0.6.10
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libsoup
+  
+  version: "2.42"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://gitlab.freedesktop.org/geoclue/geoclue/-/archive/2.4.13/geoclue-2.4.13.tar.bz2
 use_flags:

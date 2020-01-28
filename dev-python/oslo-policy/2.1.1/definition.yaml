@@ -4,20 +4,27 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: oslo-serialization
+  name: pbr
   
-  version: 1.19.1
+  version: 2.1.0
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: oslo-serialization
   
-  version: 2.1.0
+  version: 1.19.1
 description: Support for RBAC policy enforcement across all OpenStack services
 license: Apache-2.0
 name: oslo-policy
 requires:
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
 - 
   category: dev-python
   description: ""
@@ -43,13 +50,6 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-serialization
-  
-  version: 1.18.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
   name: pyyaml
   
   version: 3.12.0
@@ -57,9 +57,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: oslo-config
   
-  version: 2.0.0
+  version: 5.2.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-serialization
+  
+  version: 1.18.0
 - 
   category: dev-python
   description: ""
@@ -74,13 +81,6 @@ requires:
   name: stevedore
   
   version: 1.20.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: oslo-config
-  
-  version: 5.2.0
 uri:
 - mirror://pypi/o/oslo.policy/oslo.policy-2.1.1.tar.gz
 use_flags:

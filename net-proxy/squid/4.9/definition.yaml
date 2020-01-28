@@ -5,24 +5,10 @@ license: GPL-2
 name: squid
 requires:
 - 
-  category: dev-libs
+  category: acct-user
   description: ""
   license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
+  name: squid
   
   version: ""
 - 
@@ -33,10 +19,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: net-nds
   description: ""
   license: ""
-  name: libnetfilter_conntrack
+  name: openldap
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: cyrus-sasl
   
   version: ""
 - 
@@ -47,38 +40,10 @@ requires:
   
   version: ""
 - 
-  category: net-fs
+  category: dev-lang
   description: ""
   license: ""
-  name: samba
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-Pg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libecap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
+  name: perl
   
   version: ""
 - 
@@ -86,13 +51,6 @@ requires:
   description: ""
   license: ""
   name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
   
   version: ""
 - 
@@ -106,7 +64,49 @@ requires:
   category: dev-perl
   description: ""
   license: ""
-  name: DBD-mysql
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nettle
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 3.1.5
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: squid
   
   version: ""
 - 
@@ -124,17 +124,45 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: libltdl
+  name: libnetfilter_conntrack
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-libs
   description: ""
   license: ""
-  name: perl
+  name: libressl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libecap
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  license: ""
+  name: samba
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  license: ""
+  name: DBD-mysql
   
   version: ""
 - 
@@ -144,20 +172,6 @@ requires:
   name: selinux-squid
   
   version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: 3.1.5
 uri:
 - http://www.squid-cache.org/Versions/v4/squid-4.9.tar.xz
 use_flags:

@@ -5,12 +5,12 @@ license: GPL-2
 name: rhythmbox
 requires:
 - 
-  category: media-libs
+  category: net-libs
   description: ""
   license: ""
-  name: gstreamer
+  name: libdmapsharing
   
-  version: "1.4"
+  version: 2.9.19
 - 
   category: media-libs
   description: ""
@@ -22,16 +22,9 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: gdk-pixbuf
   
-  version: 3.20.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gst-plugins-base
-  
-  version: "1.4"
+  version: "2.18"
 - 
   category: dev-libs
   description: ""
@@ -43,51 +36,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: libpeas
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.7.8
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: "2.18"
-- 
-  category: app-cdr
-  description: ""
-  license: ""
-  name: brasero
-  
-  version: 2.91.90
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygobject
-  
-  version: "3.0"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgpod
-  
-  version: 0.7.92
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-libmms
-  
-  version: ""
+  version: 0.7.3
 - 
   category: dev-libs
   description: ""
@@ -95,13 +46,6 @@ requires:
   name: totem-pl-parser
   
   version: "3.2"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: tdb
-  
-  version: 1.2.6
 - 
   category: net-libs
   description: ""
@@ -113,16 +57,65 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgpod
+  
+  version: 0.7.92
+- 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-soup
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.38"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: 2.7.8
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.20.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gstreamer
+  
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: json-glib
   
   version: ""
 - 
-  category: net-libs
+  category: app-cdr
   description: ""
   license: ""
-  name: libdmapsharing
+  name: brasero
   
-  version: 2.9.19
+  version: 2.91.90
 - 
   category: media-plugins
   description: ""
@@ -138,26 +131,33 @@ requires:
   
   version: "0.18"
 - 
+  category: media-plugins
+  description: ""
+  license: ""
+  name: gst-plugins-libmms
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
+  
+  version: "1.4"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: tdb
+  
+  version: 1.2.6
+- 
   category: x11-libs
   description: ""
   license: ""
   name: libnotify
   
   version: 0.7.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: 0.7.3
 - 
   category: app-misc
   description: ""
@@ -166,12 +166,12 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: dev-python
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: pygobject
   
-  version: ""
+  version: "3.0"
 uri: []
 use_flags:
 - cdr

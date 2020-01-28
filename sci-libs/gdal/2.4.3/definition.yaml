@@ -5,6 +5,20 @@ license: BSD Info-ZIP MIT
 name: gdal
 requires:
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -12,66 +26,66 @@ requires:
   
   version: ""
 - 
-  category: net-misc
+  category: sci-libs
   description: ""
   license: ""
-  name: curl
+  name: libgeotiff
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib[minizip(+)]
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: xerces-c
+  
+  version: "3.1"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jre
+  
+  version: "1.7"
 - 
   category: sci-libs
   description: ""
   license: ""
-  name: geos
-  
-  version: 2.2.1
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5
-  
-  version: 1.6.4
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: "8.4"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: armadillo
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: giflib
+  name: cfitsio
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: mysql
+  name: opencl
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: oracle-instantclient
+  name: freexl
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: netcdf
   
   version: ""
 - 
@@ -89,47 +103,12 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sci-libs
   description: ""
   license: ""
-  name: xerces-c
+  name: hdf5
   
-  version: "3.1"
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lzma
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.7"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openjpeg
-  
-  version: ""
+  version: 1.6.4
 - 
   category: app-arch
   description: ""
@@ -138,24 +117,10 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
+  category: virtual
   description: ""
   license: ""
-  name: ogdi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: zstd
+  name: mysql
   
   version: ""
 - 
@@ -166,66 +131,24 @@ requires:
   
   version: ""
 - 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: libgeotiff
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib[minizip(+)]
-  
-  version: ""
-- 
-  category: dev-java
-  description: ""
-  license: ""
-  name: jackcess
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: netcdf
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: tiff
+  name: libwebp
   
   version: ""
 - 
-  category: sci-libs
+  category: app-arch
   description: ""
   license: ""
-  name: cfitsio
+  name: zstd
   
   version: ""
 - 
-  category: virtual
+  category: net-misc
   description: ""
   license: ""
-  name: jpeg
+  name: curl
   
   version: ""
 - 
@@ -236,10 +159,73 @@ requires:
   
   version: ""
 - 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: ogdi
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: geos
+  
+  version: 2.2.1
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: postgresql
+  
+  version: "8.4"
+- 
   category: virtual
   description: ""
   license: ""
-  name: opencl
+  name: jpeg
+  
+  version: ""
+- 
+  category: dev-java
+  description: ""
+  license: ""
+  name: jackcess
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: oracle-instantclient
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tiff
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: giflib
   
   version: ""
 - 
@@ -253,7 +239,21 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: freexl
+  name: expat
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: armadillo
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: lzma
   
   version: ""
 uri:

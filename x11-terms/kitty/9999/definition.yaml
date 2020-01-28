@@ -5,17 +5,38 @@ license: GPL-3
 name: kitty
 requires:
 - 
-  category: sys-libs
+  category: media-libs
   description: ""
   license: ""
-  name: zlib
+  name: libpng
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: imagemagick-tools
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: wayland
+  name: wayland-protocols
+  
+  version: "1.17"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
@@ -29,21 +50,14 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: libxkbcommon[X]
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 - 
@@ -54,17 +68,31 @@ requires:
   
   version: 1.5.0
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: libpng
+  name: libXi
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXrandr
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
   
   version: ""
 - 
@@ -82,43 +110,14 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: dbus
   
   version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland-protocols
-  
-  version: "1.17"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: imagemagick-tools
-  
-  version: ""
 uri: []
 use_flags:
 - debug
-- imagemagick
 - wayland
 version: "9999"

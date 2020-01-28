@@ -5,61 +5,12 @@ license: GPL-2
 name: neomutt
 requires:
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: lmdb
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: notmuch
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: "2"
-- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: kyotocabinet
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 0.9.0
 - 
   category: sys-libs
   description: ""
@@ -68,24 +19,10 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: openssl
-  
-  version: 0.9.6
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: mime-types
+  name: selinux-mutt
   
   version: ""
 - 
@@ -103,24 +40,45 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: gnutls
+  name: libintl
   
-  version: 1.0.17
+  version: ""
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: libidn
+  name: cyrus-sasl
+  
+  version: "2"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: mime-types
   
   version: ""
 - 
   category: dev-db
   description: ""
   license: ""
-  name: qdbm
+  name: kyotocabinet
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: lmdb
   
   version: ""
 - 
@@ -131,12 +89,54 @@ requires:
   
   version: ""
 - 
-  category: sec-policy
+  category: app-crypt
   description: ""
   license: ""
-  name: selinux-mutt
+  name: gpgme
+  
+  version: 0.9.0
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: notmuch
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: qdbm
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: 1.0.17
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: openssl
+  
+  version: 0.9.6
 uri:
 - https://github.com/neomutt/neomutt/archive/neomutt-20180716.tar.gz
 use_flags:

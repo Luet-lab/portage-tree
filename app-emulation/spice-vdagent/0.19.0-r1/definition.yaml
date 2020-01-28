@@ -5,17 +5,10 @@ license: LGPL-2.1
 name: spice-vdagent
 requires:
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
   license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-vdagent
+  name: alsa-lib
   
   version: ""
 - 
@@ -25,20 +18,6 @@ requires:
   name: libpciaccess
   
   version: "0.10"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: consolekit
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -61,10 +40,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-auth
   description: ""
   license: ""
-  name: dbus
+  name: consolekit
   
   version: ""
 - 
@@ -75,6 +54,13 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
+- 
   category: app-emulation
   description: ""
   license: ""
@@ -82,17 +68,31 @@ requires:
   
   version: 0.14.0
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libdrm
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libdrm
+  name: libXinerama
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-vdagent
   
   version: ""
 uri:

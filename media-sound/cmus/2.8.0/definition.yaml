@@ -5,13 +5,6 @@ license: GPL-2
 name: cmus
 requires:
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opusfile
-  
-  version: ""
-- 
   category: dev-python
   description: ""
   license: ""
@@ -22,7 +15,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmikmod
+  name: alsa-lib
+  
+  version: 1.0.11
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcddb
   
   version: ""
 - 
@@ -33,52 +33,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: virtual
   description: ""
   license: ""
-  name: tremor
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio-paranoia
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcue
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libcddb
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libdiscid
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: flac
+  name: jack
   
   version: ""
 - 
@@ -92,9 +50,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libmodplug
+  name: libmp4v2
   
-  version: "0.7"
+  version: "1.9"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opusfile
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -110,40 +82,12 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libmp4v2
-  
-  version: "1.9"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
+  name: libcdio-paranoia
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: musepack-tools
-  
-  version: "444"
 - 
   category: media-libs
   description: ""
@@ -169,9 +113,65 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: alsa-lib
+  name: libdiscid
   
-  version: 1.0.11
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmodplug
+  
+  version: "0.7"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmikmod
+  
+  version: ""
+- 
+  category: media-sound
+  description: ""
+  license: ""
+  name: musepack-tools
+  
+  version: "444"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: tremor
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libcue
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
 - 
   category: media-video
   description: ""

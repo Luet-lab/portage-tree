@@ -5,24 +5,17 @@ license: paraview GPL-2
 name: paraview
 requires:
 - 
-  category: sci-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: netcdf
-  
-  version: "4.2"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
+  name: qtwebengine
   
   version: ""
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXext
+  name: jpeg
   
   version: ""
 - 
@@ -36,7 +29,21 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: designer
+  name: qttest
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: cgnslib
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
   
   version: ""
 - 
@@ -47,10 +54,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: pugixml
+  name: zope-interface
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: designer
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qthelp
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libtheora
   
   version: ""
 - 
@@ -61,10 +89,31 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: dev-python
   description: ""
   license: ""
-  name: mpi
+  name: numpy
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: matplotlib
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: mpi4py
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
   
   version: ""
 - 
@@ -72,6 +121,48 @@ requires:
   description: ""
   license: ""
   name: tcl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: protobuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXmu
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: incremental
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygments
   
   version: ""
 - 
@@ -92,9 +183,9 @@ requires:
   category: sci-libs
   description: ""
   license: ""
-  name: cgnslib
+  name: netcdf
   
-  version: ""
+  version: "4.2"
 - 
   category: sys-libs
   description: ""
@@ -103,52 +194,10 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qthelp
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwebengine
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: sqlite
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: netcdf-cxx
-  
-  version: "4.2"
-- 
   category: dev-python
   description: ""
   license: ""
   name: PyQt5
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
   
   version: ""
 - 
@@ -159,19 +208,33 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: expat
+  name: qtx11extras
   
   version: ""
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
   license: ""
-  name: jsoncpp
+  name: glew
   
   version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: hdf5
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: netcdf-cxx
+  
+  version: "4.2"
 - 
   category: media-libs
   description: ""
@@ -180,10 +243,17 @@ requires:
   
   version: ""
 - 
-  category: virtual
+  category: media-libs
   description: ""
   license: ""
-  name: glu
+  name: tiff
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
   
   version: ""
 - 
@@ -201,101 +271,10 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXmu
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXt
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: protobuf
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: tiff
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: hdf5
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qttest
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: mysql-connector-c
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: mpi4py
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtx11extras
+  name: jsoncpp
   
   version: ""
 - 
@@ -306,38 +285,59 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: incremental
+  name: pugixml
   
   version: ""
 - 
-  category: dev-python
+  category: dev-db
   description: ""
   license: ""
-  name: matplotlib
+  name: sqlite
   
   version: ""
 - 
-  category: dev-python
+  category: x11-libs
   description: ""
   license: ""
-  name: numpy
+  name: libX11
   
   version: ""
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: pygments
+  name: mpi
   
   version: ""
 - 
-  category: dev-python
+  category: dev-db
   description: ""
   license: ""
-  name: zope-interface
+  name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
   
   version: ""
 uri:

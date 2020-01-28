@@ -5,13 +5,6 @@ license: GPL-2+
 name: xfce4-power-manager
 requires:
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
   category: xfce-base
   description: ""
   license: ""
@@ -19,12 +12,19 @@ requires:
   
   version: "4.12"
 - 
-  category: dev-libs
+  category: xfce-base
   description: ""
   license: ""
-  name: glib
+  name: libxfce4ui
   
-  version: "2.42"
+  version: "4.12"
+- 
+  category: sys-power
+  description: ""
+  license: ""
+  name: upower
+  
+  version: 0.99.0
 - 
   category: x11-libs
   description: ""
@@ -39,48 +39,6 @@ requires:
   name: libnotify
   
   version: "0.7"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: pm-utils
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrandr
-  
-  version: "1.2"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.12"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: upower
-  
-  version: 0.99.0
 - 
   category: x11-libs
   description: ""
@@ -103,12 +61,54 @@ requires:
   
   version: "4.12"
 - 
+  category: sys-power
+  description: ""
+  license: ""
+  name: pm-utils
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrandr
+  
+  version: "1.2"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.42"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
   category: sys-auth
   description: ""
   license: ""
   name: polkit
   
   version: "0.112"
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
 uri:
 - https://archive.xfce.org/src/xfce/xfce4-power-manager/1.6/xfce4-power-manager-1.6.5.tar.bz2
 use_flags:

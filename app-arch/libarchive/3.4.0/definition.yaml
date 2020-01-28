@@ -5,20 +5,6 @@ license: BSD BSD-2 BSD-4 public-domain
 name: libarchive
 requires:
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: bzip2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
@@ -26,31 +12,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: app-arch
   description: ""
   license: ""
-  name: openssl
+  name: lz4
   
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
+  version: 0_p131
 - 
   category: app-arch
   description: ""
   license: ""
-  name: zstd
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: acl
+  name: xz-utils[threads=,]
   
   version: ""
 - 
@@ -71,14 +43,49 @@ requires:
   category: dev-libs
   description: ""
   license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
   name: nettle
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: zlib
+  name: acl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: bzip2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: zstd
   
   version: ""
 - 
@@ -89,26 +96,19 @@ requires:
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: lz4
-  
-  version: 0_p131
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: xz-utils[threads=,]
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
   name: lzo
   
   version: "2"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
 uri:
 - https://www.libarchive.org/downloads/libarchive-3.4.0.tar.gz
 use_flags:

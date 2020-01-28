@@ -5,27 +5,6 @@ license: GPL-3
 name: mail-notification
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.14"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: libgnomeui
-  
-  version: "2.14"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -33,10 +12,10 @@ requires:
   
   version: 0.4.1
 - 
-  category: gnome-base
+  category: mail-client
   description: ""
   license: ""
-  name: libgnome-keyring
+  name: sylpheed
   
   version: ""
 - 
@@ -54,6 +33,13 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.14"
+- 
   category: gnome-base
   description: ""
   license: ""
@@ -61,10 +47,31 @@ requires:
   
   version: "2.6"
 - 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnomeui
+  
+  version: "2.14"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
   license: ""
   name: gmime
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: libgnome-keyring
   
   version: ""
 - 
@@ -81,13 +88,6 @@ requires:
   name: cyrus-sasl
   
   version: "2"
-- 
-  category: mail-client
-  description: ""
-  license: ""
-  name: sylpheed
-  
-  version: ""
 uri:
 - https://github.com/epienbroek/mail-notification/tarball/9ae8768 -> mail-notification-9ae8768.tar.gz
 use_flags:

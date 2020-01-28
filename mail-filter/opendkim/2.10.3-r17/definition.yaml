@@ -5,6 +5,20 @@ license: BSD GPL-2 Sendmail-Open-Source
 name: opendkim
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: db
+  
+  version: "3.2"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
+  
+  version: ""
+- 
   category: net-nds
   description: ""
   license: ""
@@ -26,26 +40,12 @@ requires:
   
   version: 1.4.1
 - 
-  category: net-dns
+  category: sec-policy
   description: ""
   license: ""
-  name: dnssec-root
+  name: selinux-dkim
   
   version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: ldns
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "3.2"
 - 
   category: dev-db
   description: ""
@@ -53,13 +53,6 @@ requires:
   name: opendbx
   
   version: 1.4.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
 - 
   category: dev-db
   description: ""
@@ -75,6 +68,20 @@ requires:
   
   version: ""
 - 
+  category: net-dns
+  description: ""
+  license: ""
+  name: dnssec-root
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: ldns
+  
+  version: ""
+- 
   category: acct-user
   description: ""
   license: ""
@@ -86,13 +93,6 @@ requires:
   description: ""
   license: ""
   name: psmisc
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dkim
   
   version: ""
 uri:

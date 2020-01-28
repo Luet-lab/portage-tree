@@ -5,12 +5,12 @@ license: GPL-2 GPL-2+ LGPL-2 LGPL-2+ LGPL-2.1+
 name: easytag
 requires:
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: flac
+  name: glib
   
-  version: "1.3"
+  version: "2.38"
 - 
   category: media-libs
   description: ""
@@ -22,13 +22,6 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libid3tag
-  
-  version: 0.15.1b-r4
-- 
-  category: media-libs
-  description: ""
-  license: ""
   name: opus
   
   version: "1.1"
@@ -36,9 +29,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: opusfile
+  name: libcanberra
   
-  version: "0.4"
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: flac
+  
+  version: "1.3"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: speex
+  
+  version: 1.2_rc1
 - 
   category: media-sound
   description: ""
@@ -50,9 +57,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libcanberra
+  name: libvorbis
   
-  version: ""
+  version: 1.3.4
 - 
   category: x11-libs
   description: ""
@@ -64,23 +71,9 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: speex
+  name: libid3tag
   
-  version: 1.2_rc1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: 1.3.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
+  version: 0.15.1b-r4
 - 
   category: media-libs
   description: ""
@@ -99,9 +92,16 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libvorbis
+  name: opusfile
   
-  version: 1.3.4
+  version: "0.4"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libogg
+  
+  version: 1.3.1
 uri: []
 use_flags:
 - flac

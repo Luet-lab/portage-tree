@@ -5,10 +5,45 @@ license: GPL-2
 name: pdns
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost
+  
+  version: "1.35"
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: luajit
+  
+  version: ""
+- 
   category: dev-db
   description: ""
   license: ""
   name: mysql-connector-c
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: opendbx
+  
+  version: ""
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: lua
   
   version: ""
 - 
@@ -36,51 +71,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: libsodium
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: lua
-  
-  version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: luajit
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: 7.21.3
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: mit-krb5
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost
-  
-  version: "1.35"
 - 
   category: dev-db
   description: ""
   license: ""
-  name: opendbx
+  name: tinycdb
   
-  version: ""
+  version: "0.77"
 - 
   category: dev-libs
   description: ""
@@ -92,16 +92,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libressl
+  name: openssl
   
   version: ""
 - 
-  category: dev-db
+  category: net-misc
   description: ""
   license: ""
-  name: sqlite
+  name: curl
   
-  version: ""
+  version: 7.21.3
 - 
   category: dev-libs
   description: ""
@@ -113,16 +113,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libsodium
+  name: libressl
   
   version: ""
 - 
-  category: dev-db
+  category: app-crypt
   description: ""
   license: ""
-  name: tinycdb
+  name: mit-krb5
   
-  version: "0.77"
+  version: ""
 uri:
 - https://downloads.powerdns.com/releases/pdns-4.2.0.tar.bz2
 use_flags:

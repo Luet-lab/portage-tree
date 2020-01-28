@@ -1,13 +1,6 @@
 category: sys-apps
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: 2.1-r1
-- 
   category: <sys-fs
   description: ""
   license: ""
@@ -22,12 +15,12 @@ conflicts:
   
   version: ""
 - 
-  category: <app-shells
+  category: <sys-apps
   description: ""
   license: ""
-  name: gentoo-zsh-completions
+  name: baselayout
   
-  version: "20180228"
+  version: 2.1-r1
 - 
   category: <app-shells
   description: ""
@@ -42,50 +35,22 @@ conflicts:
   name: procps
   
   version: 3.3.9-r2
+- 
+  category: <app-shells
+  description: ""
+  license: ""
+  name: gentoo-zsh-completions
+  
+  version: "20180228"
 description: OpenRC manages the services, startup and shutdown of a host
 license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: 2.20170204-r4
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-openrc
-  
-  version: 2.20170204-r4
-- 
   category: sys-libs
   description: ""
   license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: "2.6"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: sysvinit-2.86-r6[selinux?]
+  name: ncurses
   
   version: ""
 - 
@@ -93,6 +58,13 @@ requires:
   description: ""
   license: ""
   name: tmpfiles
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: pambase
   
   version: ""
 - 
@@ -110,6 +82,20 @@ requires:
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: sysvinit-2.86-r6[selinux?]
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-base-policy
+  
+  version: 2.20170204-r4
+- 
   category: app-shells
   description: ""
   license: ""
@@ -120,16 +106,30 @@ requires:
   category: sys-libs
   description: ""
   license: ""
-  name: ncurses
+  name: pam
   
   version: ""
 - 
-  category: sys-auth
+  category: sys-process
   description: ""
   license: ""
-  name: pambase
+  name: audit
   
   version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: sec-policy
+  description: ""
+  license: ""
+  name: selinux-openrc
+  
+  version: 2.20170204-r4
 uri:
 - https://github.com/openrc/openrc/archive/0.42.1.tar.gz -> openrc-0.42.1.tar.gz
 use_flags:

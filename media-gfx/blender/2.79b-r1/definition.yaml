@@ -5,80 +5,10 @@ license: '|| ( GPL-2 BL )'
 name: blender
 requires:
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: ""
-- 
-  category: sci-libs
-  description: ""
-  license: ""
-  name: fftw
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: opensubdiv
-  
-  version: 3.3.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: c-blosc
-  
-  version: 1.5.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsdl2
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openexr
-  
-  version: 2.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: numpy
-  
-  version: 1.10.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libpng
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: llvm
+  name: glew
   
   version: ""
 - 
@@ -92,91 +22,14 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: freetype
+  name: openexr
   
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: libav
-  
-  version: "11.3"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
+  version: 2.2.0
 - 
   category: media-libs
   description: ""
   license: ""
-  name: opencollada
-  
-  version: 1.6.18
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: opencolorio
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXxf86vm
-  
-  version: ""
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: spacenavd
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: openal
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libsamplerate
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: ffmpeg
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
+  name: libsndfile
   
   version: ""
 - 
@@ -190,51 +43,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: openjpeg
+  name: freetype
   
   version: ""
 - 
-  category: virtual
+  category: media-video
   description: ""
   license: ""
-  name: opencl
+  name: ffmpeg
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: openimageio
+  name: ilmbase
   
-  version: 1.7.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: osl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jemalloc
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libiconv
-  
-  version: ""
+  version: 2.2.0
 - 
   category: media-gfx
   description: ""
@@ -253,9 +78,30 @@ requires:
   category: media-libs
   description: ""
   license: ""
+  name: libsdl2
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
   name: tiff
   
   version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: valgrind
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: numpy
+  
+  version: 1.10.1
 - 
   category: dev-python
   description: ""
@@ -264,10 +110,80 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXxf86vm
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: libintl
+  name: jack
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libiconv
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libsamplerate
+  
+  version: ""
+- 
+  category: sci-libs
+  description: ""
+  license: ""
+  name: fftw
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: jemalloc
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openjpeg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openal
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: osl
   
   version: ""
 - 
@@ -281,23 +197,107 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: ilmbase
+  name: opencolorio
   
-  version: 2.2.0
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opencl
+  
+  version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libsndfile
+  name: opensubdiv
+  
+  version: 3.3.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: opencollada
+  
+  version: 1.6.18
 - 
   category: dev-util
   description: ""
   license: ""
-  name: valgrind
+  name: nvidia-cuda-toolkit
   
   version: ""
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: libav
+  
+  version: "11.3"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: llvm
+  
+  version: ""
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: spacenavd
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: openimageio
+  
+  version: 1.7.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: c-blosc
+  
+  version: 1.5.2
 uri:
 - https://download.blender.org/source/blender-2.79b.tar.gz
 use_flags:

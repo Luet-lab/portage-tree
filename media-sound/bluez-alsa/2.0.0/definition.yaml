@@ -5,12 +5,12 @@ license: MIT
 name: bluez-alsa
 requires:
 - 
-  category: media-libs
+  category: net-wireless
   description: ""
   license: ""
-  name: alsa-lib
+  name: bluez
   
-  version: 1.1.2
+  version: "5.0"
 - 
   category: media-libs
   description: ""
@@ -26,6 +26,27 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libldac
+  
+  version: 2.0.0
+- 
   category: dev-libs
   description: ""
   license: ""
@@ -36,37 +57,23 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: sbc
+  name: alsa-lib
   
-  version: "1.2"
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5.0"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
+  version: 1.1.2
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libldac
+  name: sbc
   
-  version: 2.0.0
+  version: "1.2"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
 uri:
 - https://github.com/Arkq/bluez-alsa/archive/v2.0.0.tar.gz -> bluez-alsa-2.0.0.tar.gz
 use_flags:

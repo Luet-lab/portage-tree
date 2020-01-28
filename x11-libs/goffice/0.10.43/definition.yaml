@@ -5,12 +5,12 @@ license: GPL-2
 name: goffice
 requires:
 - 
-  category: dev-libs
+  category: gnome-extra
   description: ""
   license: ""
-  name: glib
+  name: libgsf
   
-  version: 2.40.0
+  version: 1.14.23
 - 
   category: dev-libs
   description: ""
@@ -19,33 +19,19 @@ requires:
   
   version: 2.4.12
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: libgsf
-  
-  version: 1.14.23
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: libspectre
-  
-  version: 0.2.6
-- 
   category: gnome-base
   description: ""
   license: ""
   name: librsvg
   
   version: "2.22"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXrender
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -78,7 +64,28 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrender
+  name: libXext
+  
+  version: ""
+- 
+  category: app-text
+  description: ""
+  license: ""
+  name: libspectre
+  
+  version: 0.2.6
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.40.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
   
   version: ""
 - 
@@ -88,13 +95,6 @@ requires:
   name: gobject-introspection
   
   version: "1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxslt
-  
-  version: ""
 uri: []
 use_flags:
 - +introspection

@@ -5,61 +5,12 @@ license: GPL-2+
 name: mutter
 requires:
 - 
-  category: x11-libs
+  category: x11-base
   description: ""
   license: ""
-  name: libXdamage
+  name: xorg-server
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbfile
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: "10.3"
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: zenity
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.53.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
-  
-  version: "0.4"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.54"
 - 
   category: x11-libs
   description: ""
@@ -71,44 +22,30 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libXrender
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "10.3"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libxcb
+  name: libXcomposite
   
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: elogind
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libSM
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXfixes
-  
-  version: "3"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libICE
-  
-  version: ""
+  version: "0.4"
 - 
   category: media-libs
   description: ""
@@ -117,33 +54,12 @@ requires:
   
   version: "0.26"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcursor
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXrender
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libinput
+  name: libgudev
   
-  version: "1.4"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
+  version: "232"
 - 
   category: virtual
   description: ""
@@ -155,14 +71,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxkbcommon-0.4.3[X]
+  name: libSM
   
   version: ""
 - 
@@ -176,21 +85,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libX11
+  name: gdk-pixbuf
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXi
+  
+  version: 1.7.4
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
   
   version: ""
 - 
   category: gnome-base
   description: ""
   license: ""
-  name: gnome-settings-daemon
+  name: gnome-desktop
   
   version: ""
 - 
-  category: x11-misc
+  category: x11-libs
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: libxcb
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libICE
   
   version: ""
 - 
@@ -208,40 +145,68 @@ requires:
   
   version: 1.13.0
 - 
-  category: x11-base
+  category: gnome-base
   description: ""
   license: ""
-  name: xorg-server
+  name: gnome-settings-daemon
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcursor
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libgudev
+  name: libinput
   
-  version: "232"
+  version: "1.4"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.53.2
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: startup-notification
+  name: libXfixes
   
-  version: "0.7"
+  version: "3"
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
   license: ""
-  name: gnome-desktop
+  name: libXrandr
+  
+  version: 1.5.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.54"
+- 
+  category: gnome-extra
+  description: ""
+  license: ""
+  name: zenity
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXi
-  
-  version: 1.7.4
 - 
   category: x11-libs
   description: ""
@@ -253,14 +218,49 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXrandr
+  name: libxkbfile
   
-  version: 1.5.0
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  license: ""
+  name: elogind
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
   name: libdrm
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: startup-notification
+  
+  version: "0.7"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXdamage
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: xkeyboard-config
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxkbcommon-0.4.3[X]
   
   version: ""
 uri:

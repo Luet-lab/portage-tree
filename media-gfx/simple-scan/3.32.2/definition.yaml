@@ -5,12 +5,12 @@ license: GPL-3+
 name: simple-scan
 requires:
 - 
-  category: media-gfx
+  category: x11-libs
   description: ""
   license: ""
-  name: sane-backends
+  name: gtk+
   
-  version: 1.0.20
+  version: "3.22"
 - 
   category: sys-libs
   description: ""
@@ -18,13 +18,6 @@ requires:
   name: zlib
   
   version: 1.2.3.1
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
 - 
   category: x11-libs
   description: ""
@@ -54,6 +47,27 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.38"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo
+  
+  version: ""
+- 
+  category: media-gfx
+  description: ""
+  license: ""
+  name: sane-backends
+  
+  version: 1.0.20
+- 
   category: virtual
   description: ""
   license: ""
@@ -67,20 +81,6 @@ requires:
   name: xdg-utils
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
 uri: []
 use_flags:
 - colord

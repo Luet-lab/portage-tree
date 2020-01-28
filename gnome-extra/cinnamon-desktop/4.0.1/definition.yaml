@@ -5,40 +5,12 @@ license: GPL-2+ FDL-1.1+ LGPL-2+
 name: cinnamon-desktop
 requires:
 - 
-  category: dev-python
+  category: x11-misc
   description: ""
   license: ""
-  name: pygobject
+  name: xkeyboard-config
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: 2.37.3
-- 
-  category: media-sound
-  description: ""
-  license: ""
-  name: pulseaudio
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gsettings-desktop-schemas
-  
-  version: 3.5.91
 - 
   category: dev-libs
   description: ""
@@ -54,12 +26,19 @@ requires:
   
   version: ""
 - 
+  category: media-sound
+  description: ""
+  license: ""
+  name: pulseaudio
+  
+  version: ""
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXext
+  name: libxkbfile
   
-  version: "1.1"
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -78,16 +57,37 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libxkbfile
+  name: libX11
   
   version: ""
 - 
-  category: x11-misc
+  category: gnome-base
   description: ""
   license: ""
-  name: xkeyboard-config
+  name: gsettings-desktop-schemas
+  
+  version: 3.5.91
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: 2.37.3
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: "1.1"
 uri:
 - https://github.com/linuxmint/cinnamon-desktop/archive/4.0.1.tar.gz -> cinnamon-desktop-4.0.1.tar.gz
 use_flags:

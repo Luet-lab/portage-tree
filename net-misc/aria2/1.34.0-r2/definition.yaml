@@ -5,24 +5,17 @@ license: GPL-2+-with-openssl-exception
 name: aria2
 requires:
 - 
-  category: net-dns
+  category: dev-libs
   description: ""
   license: ""
-  name: c-ares
-  
-  version: 1.5.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
+  name: openssl
   
   version: ""
 - 
-  category: app-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: ca-certificates
+  name: expat
   
   version: ""
 - 
@@ -32,6 +25,27 @@ requires:
   name: libgcrypt
   
   version: 1.2.2
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libssh2
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: gmp
+  
+  version: "6"
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: google-perftools
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -50,7 +64,7 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: expat
+  name: jemalloc
   
   version: ""
 - 
@@ -64,9 +78,9 @@ requires:
   category: net-libs
   description: ""
   license: ""
-  name: libssh2
+  name: gnutls
   
-  version: ""
+  version: 1.2.9
 - 
   category: dev-libs
   description: ""
@@ -74,20 +88,6 @@ requires:
   name: nettle
   
   version: "2.4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: google-perftools
-  
-  version: ""
 - 
   category: virtual
   description: ""
@@ -110,26 +110,26 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: net-dns
   description: ""
   license: ""
-  name: jemalloc
+  name: c-ares
+  
+  version: 1.5.0
+- 
+  category: app-misc
+  description: ""
+  license: ""
+  name: ca-certificates
   
   version: ""
 - 
-  category: net-libs
+  category: virtual
   description: ""
   license: ""
-  name: gnutls
+  name: libintl
   
-  version: 1.2.9
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: "6"
+  version: ""
 uri:
 - https://github.com/aria2/aria2/releases/download/release-1.34.0/aria2-1.34.0.tar.xz
 use_flags:

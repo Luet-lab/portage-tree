@@ -1,23 +1,16 @@
 category: sys-process
 conflicts: []
 description: A nice way to view information about use of system resources.
-license: GPL-3
+license: GPL-3+
 name: gnome-usage
 requires:
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: libdazzle
   
-  version: 2.38.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.20.10
+  version: "3.30"
 - 
   category: gnome-base
   description: ""
@@ -29,9 +22,16 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libdazzle
+  name: glib
   
-  version: "3.30"
+  version: "2.38"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: 3.20.10
 uri: []
 use_flags:
 - ""

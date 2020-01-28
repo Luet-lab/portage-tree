@@ -8,20 +8,6 @@ conflicts:
   
   version: ""
 - 
-  category: <sys-fs
-  description: ""
-  license: ""
-  name: lvm2
-  
-  version: 2.02.103
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
   category: <sec-policy
   description: ""
   license: ""
@@ -35,6 +21,20 @@ conflicts:
   name: glibc
   
   version: "2.11"
+- 
+  category: <sys-fs
+  description: ""
+  license: ""
+  name: lvm2
+  
+  version: 2.02.103
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: systemd
+  
+  version: ""
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 license: LGPL-2.1 MIT GPL-2
 name: udev
@@ -43,23 +43,9 @@ requires:
   category: sys-apps
   description: ""
   license: ""
-  name: acl
+  name: kmod
   
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: input
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: tape
-  
-  version: ""
+  version: "16"
 - 
   category: sys-libs
   description: ""
@@ -71,14 +57,7 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: audio
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: cdrom
+  name: tty
   
   version: ""
 - 
@@ -96,20 +75,6 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: kmod
-  
-  version: "16"
-- 
   category: acct-group
   description: ""
   license: ""
@@ -120,7 +85,28 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: tty
+  name: disk
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: lp
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: audio
   
   version: ""
 - 
@@ -134,7 +120,7 @@ requires:
   category: acct-group
   description: ""
   license: ""
-  name: kvm
+  name: input
   
   version: ""
 - 
@@ -145,17 +131,31 @@ requires:
   
   version: "2.30"
 - 
-  category: acct-group
+  category: sys-libs
   description: ""
   license: ""
-  name: disk
+  name: libcap
   
   version: ""
 - 
   category: acct-group
   description: ""
   license: ""
-  name: lp
+  name: cdrom
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: kvm
+  
+  version: ""
+- 
+  category: acct-group
+  description: ""
+  license: ""
+  name: tape
   
   version: ""
 uri: []

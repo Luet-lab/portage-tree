@@ -1,9 +1,16 @@
 category: media-plugins
 conflicts: []
 description: 'VDR Plugin: Xinelib PlugIn'
-license: GPL-2
+license: GPL-2+
 name: vdr-xineliboutput
 requires:
+- 
+  category: media-video
+  description: ""
+  license: ""
+  name: vdr
+  
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -19,10 +26,10 @@ requires:
   
   version: "1.2"
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libXext
+  name: jpeg
   
   version: ""
 - 
@@ -30,6 +37,55 @@ requires:
   description: ""
   license: ""
   name: libXrender
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXinerama
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libvdpau
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libcap
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXext
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libbluray
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: dbus-glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
   
   version: ""
 - 
@@ -47,27 +103,6 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libvdpau
-  
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: vdr
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
@@ -75,45 +110,10 @@ requires:
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXinerama
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libcap
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libbluray
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
+  name: libX11
   
   version: ""
 uri: []

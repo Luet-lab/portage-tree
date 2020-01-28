@@ -8,7 +8,28 @@ requires:
   category: kde-apps
   description: ""
   license: ""
-  name: kidentitymanagement
+  name: libkleo
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdbusaddons
+  
+  version: 5.60.0
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libgadu
+  
+  version: 1.8.0
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: latex-base
   
   version: ""
 - 
@@ -19,10 +40,38 @@ requires:
   
   version: 5.60.0
 - 
-  category: virtual
+  category: kde-frameworks
   description: ""
   license: ""
-  name: latex-base
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: sqlite
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxslt
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: meanwhile
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -36,147 +85,14 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: knotifyconfig
-  
-  version: 5.60.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXScrnSaver
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcontacts
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kdbusaddons
-  
-  version: 5.60.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libgadu
-  
-  version: 1.8.0
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: meanwhile
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libotr
-  
-  version: 4.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: 5.12.3
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: libkleo
-  
-  version: ""
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: kcoreaddons
   
   version: 5.60.0
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: phonon[qt5(+)]
-  
-  version: ""
-- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdnssd
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: ktexteditor
-  
-  version: 5.60.0
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kcrash
+  name: kdelibs4support
   
   version: 5.60.0
 - 
@@ -187,17 +103,38 @@ requires:
   
   version: 5.60.0
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXScrnSaver
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpcre
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kparts
+  name: ktexteditor
   
   version: 5.60.0
 - 
-  category: dev-db
+  category: x11-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libX11
   
   version: ""
 - 
@@ -225,16 +162,44 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kdelibs4support
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
   name: ki18n
   
   version: 5.60.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: libotr
+  
+  version: 4.0.0
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gpgme
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtsql
+  
+  version: 5.12.3
 - 
   category: dev-qt
   description: ""
@@ -243,19 +208,54 @@ requires:
   
   version: 5.12.3
 - 
+  category: kde-apps
+  description: ""
+  license: ""
+  name: kidentitymanagement
+  
+  version: ""
+- 
   category: kde-frameworks
   description: ""
   license: ""
-  name: kconfig
+  name: kcontacts
   
   version: 5.60.0
 - 
-  category: dev-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: libxslt
+  name: knotifyconfig
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kparts
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcrash
+  
+  version: 5.60.0
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn
   
   version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kdnssd
+  
+  version: 5.60.0
 uri: []
 use_flags:
 - ssl

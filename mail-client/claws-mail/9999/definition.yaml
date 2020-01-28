@@ -5,31 +5,24 @@ license: GPL-3
 name: claws-mail
 requires:
 - 
-  category: dev-libs
+  category: dev-python
   description: ""
   license: ""
-  name: libical
+  name: pygtk
   
-  version: 2.0.0
+  version: 2.10.3
 - 
-  category: dev-libs
+  category: net-libs
   description: ""
   license: ""
-  name: dbus-glib
+  name: gnutls
   
-  version: "0.60"
+  version: "3.0"
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: poppler
+  name: libnotify
   
   version: ""
 - 
@@ -40,66 +33,17 @@ requires:
   
   version: 1.0.0
 - 
-  category: dev-util
-  description: ""
-  license: ""
-  name: valgrind
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: pango
+  name: startup-notification
   
   version: ""
 - 
-  category: app-misc
+  category: app-text
   description: ""
   license: ""
-  name: mime-types
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: networkmanager
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libindicate
-  
-  version: ""
-- 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: shared-mime-info
-  
-  version: ""
-- 
-  category: www-client
-  description: ""
-  license: ""
-  name: dillo
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libnotify
+  name: poppler
   
   version: ""
 - 
@@ -110,19 +54,33 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: dev-util
   description: ""
   license: ""
-  name: libarchive
+  name: valgrind
   
   version: ""
 - 
-  category: net-misc
+  category: app-misc
   description: ""
   license: ""
-  name: curl
+  name: mime-types
   
-  version: 7.9.7
+  version: ""
+- 
+  category: net-mail
+  description: ""
+  license: ""
+  name: ytnef
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
 - 
   category: mail-filter
   description: ""
@@ -131,12 +89,47 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: gnutls
+  name: libical
   
-  version: "3.0"
+  version: 2.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.36"
+- 
+  category: app-pda
+  description: ""
+  license: ""
+  name: jpilot
+  
+  version: "0.99"
+- 
+  category: x11-misc
+  description: ""
+  license: ""
+  name: shared-mime-info
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: ""
 - 
   category: net-libs
   description: ""
@@ -145,10 +138,31 @@ requires:
   
   version: "0.57"
 - 
-  category: net-misc
+  category: net-nds
   description: ""
   license: ""
-  name: curl
+  name: openldap
+  
+  version: 2.0.7
+- 
+  category: dev-lang
+  description: ""
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: www-client
+  description: ""
+  license: ""
+  name: dillo
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: fontconfig
   
   version: ""
 - 
@@ -159,12 +173,19 @@ requires:
   
   version: ""
 - 
-  category: app-pda
+  category: app-antivirus
   description: ""
   license: ""
-  name: jpilot
+  name: clamav
   
-  version: "0.99"
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
@@ -180,52 +201,10 @@ requires:
   
   version: ""
 - 
-  category: app-text
-  description: ""
-  license: ""
-  name: enchant
-  
-  version: 1.0.0
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: 2.0.7
-- 
   category: x11-libs
   description: ""
   license: ""
-  name: startup-notification
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: librsvg
-  
-  version: 2.40.5
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pygtk
-  
-  version: 2.10.3
-- 
-  category: net-mail
-  description: ""
-  license: ""
-  name: ytnef
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
+  name: libX11
   
   version: ""
 - 
@@ -239,35 +218,35 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: gtk+
+  name: cairo
   
   version: ""
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: curl
+  
+  version: 7.9.7
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: "0.18"
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: librsvg
+  
+  version: 2.40.5
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
-  
-  version: "2.36"
-- 
-  category: app-antivirus
-  description: ""
-  license: ""
-  name: clamav
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
+  name: libindicate
   
   version: ""
 - 
@@ -281,6 +260,13 @@ requires:
   category: app-text
   description: ""
   license: ""
+  name: enchant
+  
+  version: 1.0.0
+- 
+  category: app-text
+  description: ""
+  license: ""
   name: ghostscript-gpl
   
   version: ""
@@ -288,9 +274,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: dbus-glib
   
-  version: ""
+  version: "0.60"
 - 
   category: x11-libs
   description: ""
@@ -299,17 +285,31 @@ requires:
   
   version: "2.24"
 - 
-  category: media-libs
+  category: net-misc
   description: ""
   license: ""
-  name: fontconfig
+  name: curl
   
   version: ""
 - 
-  category: dev-lang
+  category: dev-libs
   description: ""
   license: ""
-  name: perl
+  name: glib
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: libarchive
   
   version: ""
 - 
@@ -320,12 +320,12 @@ requires:
   
   version: "0.10"
 - 
-  category: sys-devel
+  category: dev-libs
   description: ""
   license: ""
-  name: gettext
+  name: libxml2
   
-  version: "0.18"
+  version: ""
 uri: []
 use_flags:
 - archive

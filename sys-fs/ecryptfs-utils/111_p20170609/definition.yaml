@@ -5,13 +5,6 @@ license: GPL-2
 name: ecryptfs-utils
 requires:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -22,9 +15,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: pkcs11-helper
+  name: openssl
   
-  version: "1.04"
+  version: 0.9.7
 - 
   category: app-crypt
   description: ""
@@ -40,6 +33,13 @@ requires:
   
   version: 1.5.11-r1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgcrypt
+  
+  version: 1.2.0
+- 
   category: app-crypt
   description: ""
   license: ""
@@ -50,9 +50,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: openssl
+  name: nss
   
-  version: 0.9.7
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -64,9 +64,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libgcrypt
+  name: pkcs11-helper
   
-  version: 1.2.0
+  version: "1.04"
 uri:
 - https://dev.gentoo.org/~bkohler/dist/ecryptfs-utils-111.tar.gz
 use_flags:

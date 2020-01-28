@@ -5,13 +5,6 @@ license: GPL-2+ GPL-3+
 name: fcitx-libpinyin
 requires:
 - 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtwidgets
-  
-  version: "5.7"
-- 
   category: app-i18n
   description: ""
   license: ""
@@ -19,19 +12,19 @@ requires:
   
   version: 4.2.9
 - 
-  category: dev-qt
+  category: app-i18n
   description: ""
   license: ""
-  name: qtnetwork
+  name: libpinyin
   
-  version: "5.7"
+  version: 2.1.0
 - 
-  category: dev-qt
+  category: sys-apps
   description: ""
   license: ""
-  name: qtwebengine
+  name: dbus
   
-  version: "5.7"
+  version: ""
 - 
   category: virtual
   description: ""
@@ -50,14 +43,21 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtcore
+  name: qtdbus
   
   version: "5.7"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: ""
 - 
   category: dev-qt
   description: ""
   license: ""
-  name: qtdbus
+  name: qtcore
   
   version: "5.7"
 - 
@@ -68,26 +68,26 @@ requires:
   
   version: "5.7"
 - 
-  category: app-i18n
+  category: dev-qt
   description: ""
   license: ""
-  name: libpinyin
+  name: qtnetwork
   
-  version: 2.1.0
+  version: "5.7"
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: glib
+  name: qtwebengine
   
-  version: ""
+  version: "5.7"
 - 
-  category: sys-apps
+  category: dev-qt
   description: ""
   license: ""
-  name: dbus
+  name: qtwidgets
   
-  version: ""
+  version: "5.7"
 uri:
 - https://download.fcitx-im.org/fcitx-libpinyin/fcitx-libpinyin-0.5.3_dict.tar.xz
 use_flags:

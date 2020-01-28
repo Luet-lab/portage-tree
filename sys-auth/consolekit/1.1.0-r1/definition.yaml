@@ -5,13 +5,6 @@ license: GPL-2
 name: consolekit
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: "200"
-- 
   category: app-admin
   description: ""
   license: ""
@@ -26,27 +19,6 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: coreutils[acl?]
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
   license: ""
@@ -54,10 +26,31 @@ requires:
   
   version: "0.110"
 - 
+  category: sys-power
+  description: ""
+  license: ""
+  name: pm-utils
+  
+  version: ""
+- 
   category: sec-policy
   description: ""
   license: ""
   name: selinux-consolekit
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: gettext
+  
+  version: "0.19"
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: dbus
   
   version: ""
 - 
@@ -68,26 +61,12 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: libnih
+  name: udev
   
-  version: 1.0.2
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
-  category: sys-power
-  description: ""
-  license: ""
-  name: pm-utils
-  
-  version: ""
+  version: "200"
 - 
   category: dev-libs
   description: ""
@@ -96,12 +75,33 @@ requires:
   
   version: "2.40"
 - 
-  category: sys-devel
+  category: x11-libs
   description: ""
   license: ""
-  name: gettext
+  name: libX11
   
-  version: "0.19"
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: coreutils[acl?]
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: libnih
+  
+  version: 1.0.2
 uri:
 - https://github.com/ConsoleKit2/ConsoleKit2/releases/download/1.1.0/ConsoleKit2-1.1.0.tar.bz2
 use_flags:

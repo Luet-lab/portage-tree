@@ -5,19 +5,54 @@ license: MPL-2.0 GPL-2 LGPL-2.1
 name: firefox
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: nspr
+  
+  version: "4.24"
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: libXfixes
+  name: gtk+
+  
+  version: 3.4.0
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: 1.22.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libpng
+  
+  version: 1.6.35
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: ffmpeg
   
   version: ""
 - 
-  category: dev-db
+  category: dev-libs
   description: ""
   license: ""
-  name: sqlite
+  name: libevent
   
-  version: 3.30.1
+  version: "2.0"
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
+  
+  version: 1.2.3
 - 
   category: media-sound
   description: ""
@@ -26,24 +61,17 @@ requires:
   
   version: 0.1.9
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: freetype
+  name: nss
   
-  version: 2.4.10
+  version: "3.48"
 - 
   category: dev-libs
   description: ""
   license: ""
   name: dbus-glib
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: ffmpeg
   
   version: ""
 - 
@@ -54,24 +82,38 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: dav1d
-  
-  version: 0.3.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvpx-1.7*
+  name: gdk-pixbuf
   
   version: ""
 - 
-  category: net-misc
+  category: dev-libs
   description: ""
   license: ""
-  name: networkmanager
+  name: glib
+  
+  version: "2.26"
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libjpeg-turbo
+  
+  version: 1.2.1
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: atk
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: cairo-1.10[X]
   
   version: ""
 - 
@@ -89,6 +131,41 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: freetype
+  
+  version: 2.4.10
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: alsa-lib
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXfixes
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libwebp
+  
+  version: 1.0.2
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: jack
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
   license: ""
@@ -103,47 +180,12 @@ requires:
   
   version: 0.19.2
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: libffi
-  
-  version: 3.0.10
-- 
   category: x11-libs
   description: ""
   license: ""
   name: libX11
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libjpeg-turbo
-  
-  version: 1.2.1
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: atk
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: mesa
-  
-  version: "10.2"
 - 
   category: x11-libs
   description: ""
@@ -159,12 +201,40 @@ requires:
   
   version: "64.1"
 - 
-  category: dev-libs
+  category: dev-db
   description: ""
   license: ""
-  name: glib
+  name: sqlite
   
-  version: "2.26"
+  version: 3.30.1
+- 
+  category: net-misc
+  description: ""
+  license: ""
+  name: networkmanager
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: mesa
+  
+  version: "10.2"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: freedesktop-icon-theme
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXcomposite
+  
+  version: ""
 - 
   category: x11-libs
   description: ""
@@ -173,31 +243,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: sec-policy
   description: ""
   license: ""
-  name: libevent
+  name: selinux-mozilla
   
-  version: "2.0"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nspr
-  
-  version: "4.24"
+  version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
   name: expat
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo-1.10[X]
   
   version: ""
 - 
@@ -211,44 +267,23 @@ requires:
   category: virtual
   description: ""
   license: ""
-  name: freedesktop-icon-theme
+  name: libffi
   
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jack
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: "3.48"
+  version: 3.0.10
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: libXext
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: libpng
+  name: dav1d
   
-  version: 1.6.35
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: ""
+  version: 0.3.0
 - 
   category: media-libs
   description: ""
@@ -260,42 +295,7 @@ requires:
   category: media-libs
   description: ""
   license: ""
-  name: libwebp
-  
-  version: 1.0.2
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-mozilla
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.4.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: 1.22.0
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXcomposite
+  name: libvpx-1.7*
   
   version: ""
 uri:

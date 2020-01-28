@@ -5,45 +5,10 @@ license: LGPL-2.1
 name: ktp-accounts-kcm
 requires:
 - 
-  category: net-im
+  category: net-libs
   description: ""
   license: ""
-  name: telepathy-connection-managers
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: 5.12.3
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kconfig
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kitemviews
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kwidgetsaddons
-  
-  version: 5.60.0
-- 
-  category: kde-apps
-  description: ""
-  license: ""
-  name: kaccounts-providers
+  name: signond
   
   version: ""
 - 
@@ -57,7 +22,7 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: ktextwidgets
+  name: kitemviews
   
   version: 5.60.0
 - 
@@ -68,6 +33,13 @@ requires:
   
   version: ""
 - 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: 5.12.3
+- 
   category: net-libs
   description: ""
   license: ""
@@ -75,12 +47,40 @@ requires:
   
   version: ""
 - 
+  category: net-im
+  description: ""
+  license: ""
+  name: telepathy-connection-managers
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kservice
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: 5.60.0
+- 
   category: dev-qt
   description: ""
   license: ""
-  name: qtgui
+  name: qtwidgets
   
   version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
 - 
   category: kde-frameworks
   description: ""
@@ -92,21 +92,28 @@ requires:
   category: kde-frameworks
   description: ""
   license: ""
-  name: kservice
+  name: kiconthemes
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
   
   version: 5.60.0
 - 
   category: net-libs
   description: ""
   license: ""
-  name: signond
+  name: telepathy-qt[qt5(+)]
   
   version: ""
 - 
-  category: net-libs
+  category: kde-apps
   description: ""
   license: ""
-  name: telepathy-qt[qt5(+)]
+  name: kaccounts-providers
   
   version: ""
 - 
@@ -120,7 +127,7 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtnetwork
   
   version: 5.12.3
 - 
@@ -128,13 +135,6 @@ requires:
   description: ""
   license: ""
   name: kcoreaddons
-  
-  version: 5.60.0
-- 
-  category: kde-frameworks
-  description: ""
-  license: ""
-  name: kiconthemes
   
   version: 5.60.0
 uri: []

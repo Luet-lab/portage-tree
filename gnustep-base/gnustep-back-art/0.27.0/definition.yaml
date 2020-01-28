@@ -19,17 +19,24 @@ license: LGPL-2.1
 name: gnustep-back-art
 requires:
 - 
+  category: gnustep-base
+  description: ""
+  license: ""
+  name: gnustep-gui
+  
+  version: "0.27"
+- 
   category: virtual
   description: ""
   license: ""
-  name: glu
+  name: opengl
   
   version: ""
 - 
   category: x11-libs
   description: ""
   license: ""
-  name: libXt
+  name: libX11
   
   version: ""
 - 
@@ -46,27 +53,6 @@ requires:
   name: dejavu
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libart_lgpl
-  
-  version: "2.3"
 - 
   category: x11-libs
   description: ""
@@ -85,7 +71,21 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXmu
+  name: libXi
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXt
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libXft
   
   version: ""
 - 
@@ -96,10 +96,10 @@ requires:
   
   version: 0.5-r1
 - 
-  category: x11-libs
+  category: virtual
   description: ""
   license: ""
-  name: libX11
+  name: glu
   
   version: ""
 - 
@@ -113,7 +113,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: libXi
+  name: libXmu
   
   version: ""
 - 
@@ -124,12 +124,12 @@ requires:
   
   version: ""
 - 
-  category: gnustep-base
+  category: media-libs
   description: ""
   license: ""
-  name: gnustep-gui
+  name: libart_lgpl
   
-  version: "0.27"
+  version: "2.3"
 uri:
 - ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-back-0.27.0.tar.gz
 use_flags:

@@ -1,6 +1,13 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: <sys-kernel
   description: ""
   license: ""
@@ -11,21 +18,14 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
+  name: bliss-initramfs
   
-  version: 044-r1
+  version: 7.1.0
 - 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
-  
-  version: ""
-- 
-  category: =sys-apps
-  description: ""
-  license: ""
-  name: grep-2.13*
   
   version: ""
 - 
@@ -39,60 +39,25 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: bliss-initramfs
+  name: dracut
   
-  version: 7.1.0
+  version: 044-r1
 - 
-  category: <sys-boot
+  category: =sys-apps
   description: ""
   license: ""
-  name: grub
+  name: grep-2.13*
   
-  version: 2.00-r2
+  version: ""
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: udev-init-scripts
-  
-  version: ""
-- 
   category: sys-devel
   description: ""
   license: ""
   name: bc
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: mdadm
   
   version: ""
 - 
@@ -103,17 +68,10 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: zfs-kmod
-  
-  version: 0.8.2
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
+  name: openssl
   
   version: ""
 - 
@@ -121,6 +79,13 @@ requires:
   description: ""
   license: ""
   name: pax-utils
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: lsscsi
   
   version: ""
 - 
@@ -134,7 +99,7 @@ requires:
   category: sys-fs
   description: ""
   license: ""
-  name: lsscsi
+  name: mdadm
   
   version: ""
 - 
@@ -145,6 +110,27 @@ requires:
   
   version: ""
 - 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: zfs-kmod
+  
+  version: 0.8.2
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
@@ -152,17 +138,31 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
   license: ""
-  name: openssl
+  name: python-cffi
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: python-cffi
+  name: udev
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: cpio
   
   version: ""
 uri:

@@ -5,10 +5,24 @@ license: GPL-2
 name: pinentry
 requires:
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtgui
+  name: libgpg-error
+  
+  version: "1.17"
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
   
   version: ""
 - 
@@ -19,19 +33,19 @@ requires:
   
   version: ""
 - 
-  category: app-eselect
+  category: sys-libs
   description: ""
   license: ""
-  name: eselect-pinentry
+  name: ncurses
+  
+  version: 5.7-r5
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: gcr
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libassuan
-  
-  version: "2.1"
 - 
   category: dev-libs
   description: ""
@@ -39,6 +53,13 @@ requires:
   name: libgcrypt
   
   version: 1.6.3
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libassuan
+  
+  version: "2.1"
 - 
   category: sys-libs
   description: ""
@@ -61,38 +82,17 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libgpg-error
-  
-  version: "1.17"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: libsecret
+  name: qtgui
   
   version: ""
 - 
-  category: sys-libs
+  category: app-eselect
   description: ""
   license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.7-r5
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
+  name: eselect-pinentry
   
   version: ""
 uri:

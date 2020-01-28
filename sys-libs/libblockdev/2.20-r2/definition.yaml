@@ -5,19 +5,19 @@ license: LGPL-2+
 name: libblockdev
 requires:
 - 
-  category: sys-apps
+  category: virtual
   description: ""
   license: ""
-  name: util-linux
+  name: udev
   
-  version: "2.27"
+  version: ""
 - 
-  category: sys-fs
+  category: dev-libs
   description: ""
   license: ""
-  name: cryptsetup
+  name: nss
   
-  version: 1.6.7
+  version: 3.18.0
 - 
   category: sys-fs
   description: ""
@@ -32,6 +32,34 @@ requires:
   name: dmraid
   
   version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: util-linux
+  
+  version: "2.27"
+- 
+  category: sys-block
+  description: ""
+  license: ""
+  name: parted
+  
+  version: "3.1"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: volume_key
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: cryptsetup
+  
+  version: 1.6.7
 - 
   category: dev-libs
   description: ""
@@ -60,34 +88,6 @@ requires:
   name: kmod
   
   version: "19"
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: parted
-  
-  version: "3.1"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nss
-  
-  version: 3.18.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: volume_key
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
-  
-  version: ""
 uri:
 - https://github.com/storaged-project/libblockdev/archive/2.20-1.tar.gz -> libblockdev-2.20-1.tar.gz
 use_flags:

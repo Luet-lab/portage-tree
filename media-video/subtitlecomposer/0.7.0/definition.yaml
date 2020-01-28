@@ -5,19 +5,19 @@ license: GPL-2
 name: subtitlecomposer
 requires:
 - 
-  category: media-video
+  category: kde-frameworks
   description: ""
   license: ""
-  name: mpv
+  name: kconfigwidgets
   
-  version: ""
+  version: 5.60.0
 - 
-  category: media-libs
+  category: kde-frameworks
   description: ""
   license: ""
-  name: phonon[qt5(+)]
+  name: ki18n
   
-  version: ""
+  version: 5.60.0
 - 
   category: dev-libs
   description: ""
@@ -26,10 +26,10 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: mpv
   
   version: ""
 - 
@@ -40,13 +40,6 @@ requires:
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: xine-lib
-  
-  version: ""
-- 
   category: x11-libs
   description: ""
   license: ""
@@ -54,12 +47,26 @@ requires:
   
   version: ""
 - 
-  category: x11-libs
+  category: dev-qt
   description: ""
   license: ""
-  name: libxcb
+  name: qtgui
   
-  version: ""
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kross
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: sonnet
+  
+  version: 5.60.0
 - 
   category: media-libs
   description: ""
@@ -71,16 +78,107 @@ requires:
   category: media-video
   description: ""
   license: ""
-  name: libav
+  name: ffmpeg
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libxcb
+  
+  version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcompletion
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcoreaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kio
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: ktextwidgets
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kwidgetsaddons
+  
+  version: 5.60.0
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kxmlgui
+  
+  version: 5.60.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: phonon[qt5(+)]
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: xine-lib
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
+  
+  version: 5.12.3
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kconfig
+  
+  version: 5.60.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: gst-plugins-base
   
   version: ""
 - 
   category: media-video
   description: ""
   license: ""
-  name: ffmpeg
+  name: libav
   
   version: ""
+- 
+  category: kde-frameworks
+  description: ""
+  license: ""
+  name: kcodecs
+  
+  version: 5.60.0
 uri:
 - https://github.com/maxrd2/subtitlecomposer/archive/v0.7.0.tar.gz -> subtitlecomposer-0.7.0.tar.gz
 use_flags:

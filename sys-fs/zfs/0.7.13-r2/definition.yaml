@@ -1,12 +1,26 @@
 category: sys-fs
 conflicts:
 - 
+  category: <sys-boot
+  description: ""
+  license: ""
+  name: grub
+  
+  version: 2.00-r2
+- 
   category: sys-fs
   description: ""
   license: ""
   name: zfs-fuse
   
   version: ""
+- 
+  category: <sys-kernel
+  description: ""
+  license: ""
+  name: dracut
+  
+  version: 044-r1
 - 
   category: =sys-apps
   description: ""
@@ -25,9 +39,9 @@ conflicts:
   category: <sys-kernel
   description: ""
   license: ""
-  name: dracut
+  name: genkernel
   
-  version: 044-r1
+  version: 3.5.1.1
 - 
   category: <sys-kernel
   description: ""
@@ -35,36 +49,15 @@ conflicts:
   name: bliss-initramfs
   
   version: 7.1.0
-- 
-  category: <sys-boot
-  description: ""
-  license: ""
-  name: grub
-  
-  version: 2.00-r2
-- 
-  category: <sys-kernel
-  description: ""
-  license: ""
-  name: genkernel
-  
-  version: 3.5.1.1
 description: Userland utilities for ZFS Linux kernel module
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - 
-  category: virtual
+  category: net-libs
   description: ""
   license: ""
-  name: modutils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
+  name: libtirpc
   
   version: ""
 - 
@@ -75,17 +68,24 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-misc
   description: ""
   license: ""
-  name: mdadm
+  name: pax-utils
   
   version: ""
 - 
-  category: sys-fs
+  category: virtual
   description: ""
   license: ""
-  name: udev-init-scripts
+  name: udev
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  license: ""
+  name: bc
   
   version: ""
 - 
@@ -96,10 +96,17 @@ requires:
   
   version: ""
 - 
-  category: net-libs
+  category: sys-process
   description: ""
   license: ""
-  name: libtirpc
+  name: procps
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: modutils
   
   version: ""
 - 
@@ -117,24 +124,10 @@ requires:
   
   version: 0.7.13
 - 
-  category: app-misc
-  description: ""
-  license: ""
-  name: pax-utils
-  
-  version: ""
-- 
   category: sys-apps
   description: ""
   license: ""
   name: util-linux
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: bc
   
   version: ""
 - 
@@ -145,10 +138,17 @@ requires:
   
   version: ""
 - 
-  category: sys-process
+  category: sys-fs
   description: ""
   license: ""
-  name: procps
+  name: mdadm
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  license: ""
+  name: udev-init-scripts
   
   version: ""
 uri:

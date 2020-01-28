@@ -5,26 +5,26 @@ license: GPL-2
 name: mysql-workbench
 requires:
 - 
-  category: app-crypt
+  category: dev-libs
   description: ""
   license: ""
-  name: libsecret
+  name: libxml2
+  
+  version: 2.6.2
+- 
+  category: dev-cpp
+  description: ""
+  license: ""
+  name: pangomm
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: boost
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: 1.5.12
+  version: 1.55.0
 - 
   category: dev-cpp
   description: ""
@@ -32,13 +32,6 @@ requires:
   name: ctemplate
   
   version: "0.95"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
-  
-  version: ""
 - 
   category: dev-cpp
   description: ""
@@ -54,13 +47,6 @@ requires:
   
   version: 0.8.5
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libsigc++
-  
-  version: ""
-- 
   category: sci-libs
   description: ""
   license: ""
@@ -71,9 +57,9 @@ requires:
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
+  name: glib
   
-  version: 2.6.2
+  version: ""
 - 
   category: dev-cpp
   description: ""
@@ -82,10 +68,10 @@ requires:
   
   version: ""
 - 
-  category: dev-cpp
+  category: dev-libs
   description: ""
   license: ""
-  name: pangomm
+  name: libsigc++
   
   version: ""
 - 
@@ -117,12 +103,19 @@ requires:
   
   version: ""
 - 
-  category: dev-libs
+  category: x11-libs
   description: ""
   license: ""
-  name: boost
+  name: cairo
   
-  version: 1.55.0
+  version: 1.5.12
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
 - 
   category: dev-cpp
   description: ""
@@ -151,9 +144,15 @@ requires:
   name: libpcre
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
 uri:
-- mirror://mysql/Downloads/MySQLGUITools/mysql-workbench-community-8.0.17-src.tar.gz
-  https://www.antlr.org/download/antlr-4.7.1-complete.jar
+- https://cdn.mysql.com/Downloads/MySQLGUITools/mysql-workbench-community-8.0.17-src.tar.gz
 use_flags:
 - debug
 - doc

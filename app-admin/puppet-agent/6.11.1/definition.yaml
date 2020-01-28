@@ -1,10 +1,24 @@
 category: app-admin
 conflicts:
 - 
+  category: app-admin
+  description: ""
+  license: ""
+  name: augeas
+  
+  version: ""
+- 
   category: dev-ruby
   description: ""
   license: ""
   name: hiera
+  
+  version: ""
+- 
+  category: dev-ruby
+  description: ""
+  license: ""
+  name: facter
   
   version: ""
 - 
@@ -18,21 +32,7 @@ conflicts:
   category: app-admin
   description: ""
   license: ""
-  name: augeas
-  
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
   name: puppet
-  
-  version: ""
-- 
-  category: dev-ruby
-  description: ""
-  license: ""
-  name: facter
   
   version: ""
 description: general puppet client utils along with hiera and facter
@@ -40,17 +40,17 @@ license: Apache-2.0
 name: puppet-agent
 requires:
 - 
-  category: app-portage
+  category: sys-libs
   description: ""
   license: ""
-  name: eix
+  name: ncurses
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
   license: ""
-  name: dmidecode
+  name: libselinux
   
   version: ""
 - 
@@ -68,17 +68,17 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: app-portage
   description: ""
   license: ""
-  name: ncurses
+  name: eix
   
   version: ""
 - 
-  category: sys-libs
+  category: sys-apps
   description: ""
   license: ""
-  name: libselinux
+  name: dmidecode
   
   version: ""
 - 

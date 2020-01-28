@@ -1,13 +1,6 @@
 category: net-mail
 conflicts:
 - 
-  category: mail-client
-  description: ""
-  license: ""
-  name: nmh
-  
-  version: ""
-- 
   category: mail-filter
   description: ""
   license: ""
@@ -18,7 +11,7 @@ conflicts:
   category: mail-client
   description: ""
   license: ""
-  name: mailx
+  name: nmh
   
   version: ""
 - 
@@ -28,17 +21,17 @@ conflicts:
   name: nail
   
   version: ""
+- 
+  category: mail-client
+  description: ""
+  license: ""
+  name: mailx
+  
+  version: ""
 description: A useful collection of mail servers, clients, and filters
 license: GPL-2 LGPL-2.1
 name: mailutils
 requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
 - 
   category: dev-libs
   description: ""
@@ -47,31 +40,45 @@ requires:
   
   version: ""
 - 
-  category: sys-libs
+  category: virtual
   description: ""
   license: ""
-  name: gdbm
+  name: mta
   
   version: ""
 - 
   category: virtual
   description: ""
   license: ""
-  name: gsasl
+  name: krb5
   
   version: ""
 - 
-  category: virtual
+  category: dev-db
   description: ""
   license: ""
-  name: libiconv
+  name: kyotocabinet
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-devel
   description: ""
   license: ""
-  name: tcp-wrappers
+  name: gettext
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: dev-db
+  description: ""
+  license: ""
+  name: tokyocabinet
   
   version: ""
 - 
@@ -96,17 +103,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
-  description: ""
-  license: ""
-  name: tokyocabinet
-  
-  version: ""
-- 
   category: virtual
   description: ""
   license: ""
-  name: mta
+  name: libiconv
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libunistring
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: tcp-wrappers
   
   version: ""
 - 
@@ -120,14 +134,7 @@ requires:
   category: dev-db
   description: ""
   license: ""
-  name: kyotocabinet
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
+  name: postgresql
   
   version: ""
 - 
@@ -138,6 +145,13 @@ requires:
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: readline
+  
+  version: ""
+- 
   category: app-editors
   description: ""
   license: ""
@@ -145,38 +159,24 @@ requires:
   
   version: "23.1"
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: gdbm
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: virtual
   description: ""
   license: ""
-  name: krb5
-  
-  version: ""
-- 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: gettext
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
-  license: ""
-  name: postgresql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libunistring
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
+  name: gsasl
   
   version: ""
 uri:

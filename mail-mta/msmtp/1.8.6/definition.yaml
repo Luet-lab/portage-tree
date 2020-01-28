@@ -8,33 +8,12 @@ conflicts:
   
   version: ""
 - 
-  category: mail-mta
+  category: <mail-mta
   description: ""
   license: ""
-  name: qmail-ldap
+  name: ssmtp
   
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: opensmtpd
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: esmtp
-  
-  version: ""
-- 
-  category: mail-mta
-  description: ""
-  license: ""
-  name: exim
-  
-  version: ""
+  version: 2.64-r2
 - 
   category: '>=mail-mta'
   description: ""
@@ -53,14 +32,14 @@ conflicts:
   category: mail-mta
   description: ""
   license: ""
-mailer
+  name: sendmail
   
   version: ""
 - 
   category: mail-mta
   description: ""
   license: ""
-  name: sendmail
+  name: qmail-ldap
   
   version: ""
 - 
@@ -74,53 +53,46 @@ mailer
   category: mail-mta
   description: ""
   license: ""
+  name: exim
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+mailer
+  
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
   name: postfix
   
   version: ""
 - 
-  category: <mail-mta
+  category: mail-mta
   description: ""
   license: ""
-  name: ssmtp
+  name: opensmtpd
   
-  version: 2.64-r2
+  version: ""
+- 
+  category: mail-mta
+  description: ""
+  license: ""
+  name: esmtp
+  
+  version: ""
 description: An SMTP client and SMTP plugin for mail user agents such as Mutt
 license: GPL-3
 name: msmtp
 requires:
 - 
-  category: net-dns
-  description: ""
-  license: ""
-  name: libidn2
-  
-  version: ""
-- 
   category: net-mail
   description: ""
   license: ""
   name: mailbase
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: gsasl
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: msmtpd
   
   version: ""
 - 
@@ -131,10 +103,31 @@ requires:
   
   version: ""
 - 
-  category: acct-user
+  category: virtual
+  description: ""
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  license: ""
+  name: libidn2
+  
+  version: ""
+- 
+  category: acct-group
   description: ""
   license: ""
   name: msmtpd
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: gsasl
   
   version: ""
 - 
@@ -142,6 +135,13 @@ requires:
   description: ""
   license: ""
   name: gnutls[idn?]
+  
+  version: ""
+- 
+  category: acct-user
+  description: ""
+  license: ""
+  name: msmtpd
   
   version: ""
 uri:

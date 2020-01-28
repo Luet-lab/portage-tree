@@ -5,17 +5,10 @@ license: GPL-2
 name: nagios-plugin-check_raid
 requires:
 - 
-  category: sys-fs
+  category: sys-apps
   description: ""
   license: ""
-  name: dmraid
-  
-  version: ""
-- 
-  category: sys-block
-  description: ""
-  license: ""
-  name: hpacucli
+  name: cciss_vol_status
   
   version: ""
 - 
@@ -33,10 +26,10 @@ requires:
   
   version: ""
 - 
-  category: sys-block
+  category: sys-fs
   description: ""
   license: ""
-  name: sas2ircu
+  name: dmraid
   
   version: ""
 - 
@@ -44,6 +37,13 @@ requires:
   description: ""
   license: ""
   name: Module-Pluggable
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  license: ""
+  name: smartmontools
   
   version: ""
 - 
@@ -57,6 +57,13 @@ requires:
   category: sys-block
   description: ""
   license: ""
+  name: tw_cli
+  
+  version: ""
+- 
+  category: sys-block
+  description: ""
+  license: ""
   name: arcconf
   
   version: ""
@@ -64,14 +71,14 @@ requires:
   category: sys-block
   description: ""
   license: ""
-  name: mpt-status
+  name: hpacucli
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-block
   description: ""
   license: ""
-  name: cciss_vol_status
+  name: sas2ircu
   
   version: ""
 - 
@@ -82,17 +89,10 @@ requires:
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: smartmontools
-  
-  version: ""
-- 
   category: sys-block
   description: ""
   license: ""
-  name: tw_cli
+  name: mpt-status
   
   version: ""
 uri:

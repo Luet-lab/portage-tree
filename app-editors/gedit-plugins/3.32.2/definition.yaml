@@ -5,12 +5,40 @@ license: GPL-2+
 name: gedit-plugins
 requires:
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libpeas
+  
+  version: 1.7.0
+- 
   category: x11-libs
   description: ""
   license: ""
-  name: gdk-pixbuf
+  name: gtk+
+  
+  version: "3.9"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: dbus-python
+  
+  version: "0.82"
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pygobject
   
   version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtksourceview
+  
+  version: "3.14"
 - 
   category: gnome-extra
   description: ""
@@ -26,40 +54,12 @@ requires:
   
   version: "0.52"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.9"
-- 
   category: dev-libs
   description: ""
   license: ""
-  name: libpeas
+  name: glib
   
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: "0.82"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: app-editors
-  description: ""
-  license: ""
-  name: gedit
-  
-  version: "3.16"
+  version: "2.32"
 - 
   category: x11-libs
   description: ""
@@ -68,10 +68,24 @@ requires:
   
   version: 4.0.2
 - 
-  category: dev-python
+  category: dev-libs
   description: ""
   license: ""
-  name: pygobject
+  name: libpeas
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: pango
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
   
   version: ""
 - 
@@ -82,19 +96,12 @@ requires:
   
   version: 0.0.6
 - 
-  category: dev-libs
+  category: app-editors
   description: ""
   license: ""
-  name: glib
+  name: gedit
   
-  version: "2.32"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpeas
-  
-  version: 1.7.0
+  version: "3.16"
 - 
   category: dev-python
   description: ""
@@ -102,13 +109,6 @@ requires:
   name: pycairo
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtksourceview
-  
-  version: "3.14"
 uri: []
 use_flags:
 - +python

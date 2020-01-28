@@ -5,24 +5,17 @@ license: MIT
 name: bluez-alsa
 requires:
 - 
-  category: net-wireless
+  category: sys-apps
   description: ""
   license: ""
-  name: bluez
+  name: dbus
   
-  version: "5.0"
+  version: ""
 - 
   category: sys-libs
   description: ""
   license: ""
   name: readline
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libbsd
   
   version: ""
 - 
@@ -33,12 +26,12 @@ requires:
   
   version: 2.0.0
 - 
-  category: dev-libs
+  category: sys-power
   description: ""
   license: ""
-  name: glib
+  name: upower
   
-  version: "2.26"
+  version: ""
 - 
   category: media-libs
   description: ""
@@ -47,6 +40,13 @@ requires:
   
   version: "1.2"
 - 
+  category: net-wireless
+  description: ""
+  license: ""
+  name: bluez
+  
+  version: "5.0"
+- 
   category: media-libs
   description: ""
   license: ""
@@ -54,12 +54,26 @@ requires:
   
   version: 0.1.1
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libbsd
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: glib
+  
+  version: "2.26"
 - 
   category: media-libs
   description: ""
@@ -76,4 +90,5 @@ use_flags:
 - ofono
 - static-libs
 - test
+- upower
 version: "9999"

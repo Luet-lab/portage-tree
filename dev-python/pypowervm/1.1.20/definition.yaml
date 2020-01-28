@@ -4,16 +4,16 @@ conflicts:
   category: ~dev-python
   description: ""
   license: ""
-  name: lxml
+  name: pbr
   
-  version: 3.7.0
+  version: 2.1.0
 - 
   category: ~dev-python
   description: ""
   license: ""
-  name: pbr
+  name: lxml
   
-  version: 2.1.0
+  version: 3.7.0
 - 
   category: ~dev-python
   description: ""
@@ -29,9 +29,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-context
+  name: lxml
   
-  version: 2.14.0
+  version: 3.4.1
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: pbr
+  
+  version: 2.0.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-log
+  
+  version: 3.22.0
 - 
   category: dev-python
   description: ""
@@ -40,26 +54,12 @@ requires:
   
   version: ""
 - 
-  category: dev-python
+  category: virtual
   description: ""
   license: ""
-  name: oslo-concurrency
+  name: python-futures
   
-  version: 3.8.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pytz
-  
-  version: "2013.6"
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: requests
-  
-  version: 2.14.2
+  version: ""
 - 
   category: dev-python
   description: ""
@@ -78,16 +78,9 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: pbr
+  name: oslo-concurrency
   
-  version: 2.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: lxml
-  
-  version: 3.4.1
+  version: 3.8.0
 - 
   category: dev-python
   description: ""
@@ -99,16 +92,23 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: oslo-log
+  name: oslo-utils
   
-  version: 3.22.0
+  version: 3.20.0
 - 
   category: dev-python
   description: ""
   license: ""
-  name: oslo-utils
+  name: six
   
-  version: 3.20.0
+  version: 1.9.0
+- 
+  category: dev-python
+  description: ""
+  license: ""
+  name: oslo-context
+  
+  version: 2.14.0
 - 
   category: dev-python
   description: ""
@@ -120,16 +120,16 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: six
+  name: pytz
   
-  version: 1.9.0
+  version: "2013.6"
 - 
-  category: virtual
+  category: dev-python
   description: ""
   license: ""
-  name: python-futures
+  name: requests
   
-  version: ""
+  version: 2.14.2
 uri:
 - mirror://pypi/p/pypowervm/pypowervm-1.1.20.tar.gz
 use_flags:

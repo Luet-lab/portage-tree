@@ -5,45 +5,10 @@ license: GPL-3
 name: clementine
 requires:
 - 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: qca
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtsql
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libcdio
-  
-  version: ""
-- 
   category: media-libs
   description: ""
   license: ""
-  name: libprojectm
-  
-  version: 1.2.0
-- 
-  category: media-plugins
-  description: ""
-  license: ""
-  name: gst-plugins-libmms
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: crypto++
+  name: chromaprint
   
   version: ""
 - 
@@ -54,115 +19,31 @@ requires:
   
   version: ""
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-base
+  name: gst-plugins-soup
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libmtp
-  
-  version: 1.0.0
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: taglib
-  
-  version: 1.11.1_p20181028
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtdbus
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libgpod
-  
-  version: 0.8.0
 - 
   category: media-plugins
   description: ""
   license: ""
-  name: gst-plugins-taglib
+  name: gst-plugins-libmms
   
   version: ""
 - 
-  category: sys-fs
+  category: dev-db
   description: ""
   license: ""
-  name: udisks
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: chromaprint
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: glu
-  
-  version: ""
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gvfs
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: opengl
+  name: sqlite
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: libxml2
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: protobuf
+  name: glib
   
   version: ""
 - 
@@ -180,19 +61,19 @@ requires:
   
   version: ""
 - 
-  category: dev-qt
+  category: dev-libs
   description: ""
   license: ""
-  name: qtnetwork
+  name: protobuf
   
   version: ""
 - 
   category: media-libs
   description: ""
   license: ""
-  name: liblastfm
+  name: gst-plugins-base
   
-  version: 1.1.0_pre20150206
+  version: ""
 - 
   category: sci-libs
   description: ""
@@ -201,10 +82,24 @@ requires:
   
   version: ""
 - 
-  category: dev-db
+  category: media-plugins
   description: ""
   license: ""
-  name: sqlite
+  name: gst-plugins-taglib
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  license: ""
+  name: gvfs
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtwidgets
   
   version: ""
 - 
@@ -215,6 +110,41 @@ requires:
   
   version: ""
 - 
+  category: media-libs
+  description: ""
+  license: ""
+  name: taglib
+  
+  version: 1.11.1_p20181028
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: libX11
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: opengl
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libgpod
+  
+  version: 0.8.0
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libprojectm
+  
+  version: 1.2.0
+- 
   category: media-plugins
   description: ""
   license: ""
@@ -222,17 +152,80 @@ requires:
   
   version: ""
 - 
-  category: media-plugins
+  category: sys-fs
   description: ""
   license: ""
-  name: gst-plugins-soup
+  name: udisks
   
   version: ""
 - 
   category: dev-libs
   description: ""
   license: ""
-  name: glib
+  name: crypto++
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: glu
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: liblastfm
+  
+  version: 1.1.0_pre20150206
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: libmtp
+  
+  version: 1.0.0
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libcdio
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtdbus
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  license: ""
+  name: glew
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: qca
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libxml2
   
   version: ""
 - 
@@ -246,7 +239,14 @@ requires:
   category: dev-qt
   description: ""
   license: ""
-  name: qtwidgets
+  name: qtsql
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: zlib
   
   version: ""
 uri:

@@ -5,19 +5,26 @@ license: GPL-2
 name: pinentry
 requires:
 - 
+  category: sys-libs
+  description: ""
+  license: ""
+  name: ncurses
+  
+  version: 5.7-r5
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
   license: ""
   name: qtwidgets
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libassuan
-  
-  version: "2.1"
 - 
   category: sys-libs
   description: ""
@@ -29,35 +36,7 @@ requires:
   category: x11-libs
   description: ""
   license: ""
-  name: fltk
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtgui
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
   name: gtk+
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gcr
   
   version: ""
 - 
@@ -78,14 +57,7 @@ requires:
   category: app-crypt
   description: ""
   license: ""
-  name: libsecret
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtcore
+  name: gcr
   
   version: ""
 - 
@@ -96,12 +68,40 @@ requires:
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libassuan
+  
+  version: "2.1"
+- 
   category: sys-libs
   description: ""
   license: ""
   name: ncurses
   
-  version: 5.7-r5
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  license: ""
+  name: qtcore
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: fltk
+  
+  version: ""
+- 
+  category: app-crypt
+  description: ""
+  license: ""
+  name: libsecret
+  
+  version: ""
 uri:
 - mirror://gnupg/pinentry/pinentry-1.1.0.tar.bz2
 use_flags:

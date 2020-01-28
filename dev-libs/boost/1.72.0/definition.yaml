@@ -1,23 +1,30 @@
 category: dev-libs
 conflicts:
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: boost-numpy
-  
-  version: ""
-- 
   category: app-admin
   description: ""
   license: ""
   name: eselect-boost
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: boost-numpy
+  
+  version: ""
 description: Boost Libraries for C++
 license: Boost-1.0
 name: boost
 requires:
+- 
+  category: app-arch
+  description: ""
+  license: ""
+  name: xz-utils
+  
+  version: ""
 - 
   category: sys-libs
   description: ""
@@ -32,13 +39,6 @@ requires:
   name: zstd
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
-  
-  version: 2.0-r4
 - 
   category: app-arch
   description: ""
@@ -61,12 +61,12 @@ requires:
   
   version: ""
 - 
-  category: app-arch
+  category: virtual
   description: ""
   license: ""
-  name: xz-utils
+  name: mpi
   
-  version: ""
+  version: 2.0-r4
 uri:
 - https://dl.bintray.com/boostorg/release/1.72.0/source/boost_.tar.bz2
 use_flags:

@@ -5,19 +5,12 @@ license: GPL-2
 name: catalyst
 requires:
 - 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: squashfs-tools
-  
-  version: "2.1"
-- 
   category: dev-python
   description: ""
   license: ""
-  name: pydecomp
+  name: snakeoil
   
-  version: "0.3"
+  version: 0.6.5
 - 
   category: app-arch
   description: ""
@@ -26,10 +19,17 @@ requires:
   
   version: ""
 - 
-  category: sys-fs
+  category: app-crypt
   description: ""
   license: ""
-  name: dosfstools
+  name: shash
+  
+  version: ""
+- 
+  category: dev-util
+  description: ""
+  license: ""
+  name: ccache
   
   version: ""
 - 
@@ -50,14 +50,14 @@ requires:
   category: dev-python
   description: ""
   license: ""
-  name: snakeoil
+  name: pydecomp
   
-  version: 0.6.5
+  version: "0.3"
 - 
-  category: app-crypt
+  category: sys-fs
   description: ""
   license: ""
-  name: shash
+  name: dosfstools
   
   version: ""
 - 
@@ -75,12 +75,12 @@ requires:
   
   version: "3.72"
 - 
-  category: dev-util
+  category: sys-fs
   description: ""
   license: ""
-  name: ccache
+  name: squashfs-tools
   
-  version: ""
+  version: "2.1"
 uri:
 - https://gitweb.gentoo.org/proj/catalyst.git/snapshot/catalyst-3.0.8.tar.bz2
 use_flags:

@@ -5,19 +5,12 @@ license: GPL-2+ LGPL-2+
 name: thunar
 requires:
 - 
-  category: dev-libs
+  category: dev-util
   description: ""
   license: ""
-  name: libgudev
+  name: desktop-file-utils
   
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.22"
+  version: 0.20-r1
 - 
   category: xfce-base
   description: ""
@@ -33,12 +26,54 @@ requires:
   
   version: "4.12"
 - 
-  category: media-libs
+  category: dev-libs
   description: ""
   license: ""
-  name: libexif
+  name: libpcre
   
-  version: 0.6.19
+  version: "6"
+- 
+  category: dev-libs
+  description: ""
+  license: ""
+  name: libgudev
+  
+  version: ""
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: xfce4-panel
+  
+  version: "4.10"
+- 
+  category: virtual
+  description: ""
+  license: ""
+  name: udev
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gdk-pixbuf
+  
+  version: "2.14"
+- 
+  category: x11-libs
+  description: ""
+  license: ""
+  name: gtk+
+  
+  version: "3.22"
+- 
+  category: xfce-base
+  description: ""
+  license: ""
+  name: libxfce4ui
+  
+  version: "4.12"
 - 
   category: dev-libs
   description: ""
@@ -46,13 +81,6 @@ requires:
   name: gobject-introspection
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libpcre
-  
-  version: "6"
 - 
   category: gnome-base
   description: ""
@@ -68,20 +96,6 @@ requires:
   
   version: "2.42"
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: "2.14"
-- 
-  category: xfce-base
-  description: ""
-  license: ""
-  name: libxfce4ui
-  
-  version: "4.12"
-- 
   category: xfce-base
   description: ""
   license: ""
@@ -89,24 +103,17 @@ requires:
   
   version: "4.12"
 - 
-  category: x11-libs
+  category: media-libs
   description: ""
   license: ""
-  name: libnotify
+  name: libexif
   
-  version: "0.7"
+  version: 0.6.19
 - 
   category: x11-misc
   description: ""
   license: ""
   name: shared-mime-info
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: udev
   
   version: ""
 - 
@@ -117,19 +124,12 @@ requires:
   
   version: "5.6"
 - 
-  category: xfce-base
+  category: x11-libs
   description: ""
   license: ""
-  name: xfce4-panel
+  name: libnotify
   
-  version: "4.10"
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: desktop-file-utils
-  
-  version: 0.20-r1
+  version: "0.7"
 uri:
 - https://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 use_flags:
