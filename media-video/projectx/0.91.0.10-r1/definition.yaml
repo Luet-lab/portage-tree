@@ -1,12 +1,22 @@
 category: media-video
 conflicts: []
 description: Converts, splits and demuxes DVB and other MPEG recordings
+id: 0
 license: GPL-2
 name: projectx
 requires:
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: "1.5"
+- 
   category: dev-java
   description: ""
+  id: 0
   license: ""
   name: commons-net
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: dev-java
   description: ""
+  id: 0
   license: ""
   name: browserlauncher2
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.5"
 uri:
 - https://dev.gentoo.org/~billie/distfiles/projectx-0.91.0.10.tar.xz
 - https://dev.gentoo.org/~billie/distfiles/projectx-idctfast.tar.xz

@@ -1,12 +1,62 @@
 category: sys-apps
 conflicts: []
 description: Utilities to deal with user accounts
+id: 0
 license: BSD GPL-2
 name: shadow
 requires:
 - 
+  category: sys-process
+  description: ""
+  id: 0
+  license: ""
+  name: audit
+  
+  version: "2.6"
+- 
   category: sys-libs
   description: ""
+  id: 0
+  license: ""
+  name: libsemanage
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libintl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: attr
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: pambase
+  
+  version: "20150213"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: acl
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
   license: ""
   name: cracklib
   
@@ -14,34 +64,15 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: pam
   
   version: ""
 - 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsemanage
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: attr
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: acl
-  
-  version: ""
-- 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: skey
   
@@ -49,31 +80,11 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: libselinux
   
   version: "1.28"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libintl
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
-  
-  version: "20150213"
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: "2.6"
 uri:
 - https://github.com/shadow-maint/shadow/releases/download/4.6/shadow-4.6.tar.gz
 use_flags:

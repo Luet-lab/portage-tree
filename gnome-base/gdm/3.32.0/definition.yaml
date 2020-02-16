@@ -3,95 +3,85 @@ conflicts:
 - 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: fast-user-switch-applet
   
   version: ""
 description: GNOME Display Manager for managing graphical display servers and user
   logins
+id: 0
 license: "\n\tGPL-2+\n\tbranding? ( CC-BY-SA-4.0 )\n"
 name: gdm
 requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libXau
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: 2.91.1
-- 
-  category: x11-base
-  description: ""
-  license: ""
-  name: xorg-server
-  
-  version: ""
-- 
-  category: app-text
-  description: ""
-  license: ""
-  name: iso-codes
-  
-  version: ""
-- 
-  category: sys-boot
-  description: ""
-  license: ""
-  name: plymouth
-  
-  version: ""
-- 
-  category: gnome-extra
-  description: ""
-  license: ""
-  name: mousetweaks
+  name: libXext
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: libgudev
+  name: gobject-introspection
   
-  version: ""
+  version: 0.9.12
 - 
-  category: media-libs
+  category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: fontconfig
+  name: gnome-shell
   
-  version: 2.5.0
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
+  version: 3.1.90
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
-  name: fprintd
+  name: pam_fprint
   
   version: ""
 - 
   category: x11-libs
   description: ""
+  id: 0
+  license: ""
+  name: libXdmcp
+  
+  version: ""
+- 
+  category: sys-process
+  description: ""
+  id: 0
+  license: ""
+  name: audit
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcanberra
+  
+  version: "0.4"
+- 
+  category: x11-base
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-server
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -99,34 +89,23 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libXext
+  name: libXau
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libxcb
   
   version: ""
 - 
   category: sys-auth
   description: ""
-  license: ""
-  name: pam_fprint
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.44"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
+  id: 0
   license: ""
   name: elogind
   
@@ -134,55 +113,119 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: systemd
+  name: tcp-wrappers
   
-  version: "186"
+  version: "7.6"
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libXinerama
   
   version: ""
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: gnome-session
+  name: libgudev
   
-  version: "3.6"
+  version: ""
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: gnome-shell
+  name: dconf
   
-  version: 3.1.90
+  version: "0.20"
 - 
   category: gnome-base
   description: ""
-  license: ""
-  name: gnome-settings-daemon
-  
-  version: 3.1.4
-- 
-  category: gnome-base
-  description: ""
+  id: 0
   license: ""
   name: gsettings-desktop-schemas
   
   version: ""
 - 
-  category: media-libs
+  category: sys-boot
   description: ""
+  id: 0
   license: ""
-  name: libcanberra
+  name: plymouth
   
-  version: "0.4"
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: fprintd
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: 2.91.1
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-session
+  
+  version: "3.6"
 - 
   category: sys-apps
   description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "186"
+- 
+  category: app-accessibility
+  description: ""
+  id: 0
+  license: ""
+  name: orca
+  
+  version: "3.10"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.44"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
   license: ""
   name: dbus
   
@@ -190,66 +233,59 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: accountsservice
   
   version: 0.6.35
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: tcp-wrappers
-  
-  version: "7.6"
-- 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: dconf
-  
-  version: "0.20"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXdmcp
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libxcb
-  
-  version: ""
-- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: xdg-utils
   
   version: 1.0.2-r3
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.9.12
-- 
   category: x11-apps
   description: ""
+  id: 0
   license: ""
   name: xhost
   
   version: ""
 - 
-  category: app-accessibility
+  category: gnome-extra
   description: ""
+  id: 0
   license: ""
-  name: orca
+  name: mousetweaks
   
-  version: "3.10"
+  version: ""
+- 
+  category: app-text
+  description: ""
+  id: 0
+  license: ""
+  name: iso-codes
+  
+  version: ""
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-settings-daemon
+  
+  version: 3.1.4
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: fontconfig
+  
+  version: 2.5.0
 uri:
 - 'https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz '
 use_flags:

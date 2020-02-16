@@ -3,38 +3,28 @@ conflicts:
 - 
   category: <media-libs
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-bad
   
   version: 1.13.1
 description: Basepack of plugins for gstreamer
+id: 0
 license: GPL-2+ LGPL-2+
 name: gst-plugins-base
 requires:
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: orc
+  name: zlib
   
-  version: 0.4.24
+  version: 1.2.8-r1
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: pango
-  
-  version: 1.36.3
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libvorbis
-  
-  version: 1.3.3-r1
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: libXv
   
@@ -42,69 +32,15 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libdrm
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 1.31.1
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libogg
-  
-  version: 1.3.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXext
-  
-  version: 1.3.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libdrm
-  
-  version: 2.4.55
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: alsa-lib
-  
-  version: 1.0.27.2
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libX11
-  
-  version: 1.6.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libtheora
-  
-  version: 1.1.1
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: iso-codes
   
@@ -112,27 +48,103 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  
+  version: 1.0.27.2
+- 
+  category: media-libs
+  description: ""
+  id: 0
   license: ""
   name: tremor
   
   version: 0_pre20130223
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libogg
+  
+  version: 1.3.0
+- 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: orc
+  
+  version: 0.4.24
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libvorbis
+  
+  version: 1.3.3-r1
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgudev
   
   version: "147"
 - 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libdrm
+  
+  version: 2.4.55
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libpng
   
   version: ""
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: 1.31.1
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libtheora
+  
+  version: 1.1.1
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  
+  version: 1.6.2
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: wayland
+  
+  version: ""
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: jpeg
   
@@ -140,17 +152,27 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: 2.40.0
 - 
-  category: sys-libs
+  category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: zlib
+  name: pango
   
-  version: 1.2.8-r1
+  version: 1.36.3
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libXext
+  
+  version: 1.3.2
 uri: []
 use_flags:
 - alsa

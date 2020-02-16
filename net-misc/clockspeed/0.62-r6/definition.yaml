@@ -1,21 +1,24 @@
 category: net-misc
 conflicts: []
 description: A simple Network Time Protocol (NTP) client
+id: 0
 license: all-rights-reserved
 name: clockspeed
 requires:
 - 
-  category: net-dns
+  category: sec-policy
   description: ""
+  id: 0
   license: ""
-  name: djbdns
+  name: selinux-clockspeed
   
   version: ""
 - 
-  category: sec-policy
+  category: net-dns
   description: ""
+  id: 0
   license: ""
-  name: selinux-clockspeed
+  name: djbdns
   
   version: ""
 uri:

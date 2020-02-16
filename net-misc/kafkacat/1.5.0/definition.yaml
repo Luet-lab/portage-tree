@@ -1,25 +1,45 @@
 category: net-misc
 conflicts: []
 description: Generic command line non-JVM Apache Kafka producer and consumer
+id: 0
 license: BSD-2
 name: kafkacat
 requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: librdkafka
+  name: avro-c
   
-  version: 0.9.4
+  version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: libserdes
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: yajl
   
   version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: librdkafka
+  
+  version: 0.9.4
 uri:
 - https://github.com/edenhill/kafkacat/archive/1.5.0.tar.gz -> kafkacat-1.5.0.tar.gz
 use_flags:
+- +avro
 - +json
 version: 1.5.0

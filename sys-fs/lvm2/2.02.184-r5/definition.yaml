@@ -1,15 +1,9 @@
 category: sys-fs
 conflicts:
 - 
-  category: <sys-apps
-  description: ""
-  license: ""
-  name: openrc
-  
-  version: "0.11"
-- 
   category: <sys-fs
   description: ""
+  id: 0
   license: ""
   name: cryptsetup
   
@@ -17,17 +11,52 @@ conflicts:
 - 
   category: '!sys-fs'
   description: ""
+  id: 0
   license: ""
   name: lvm-user
   
   version: ""
+- 
+  category: <sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: openrc
+  
+  version: "0.11"
 description: User-land utilities for LVM2 (device-mapper) software
+id: 0
 license: GPL-2
 name: lvm2
 requires:
 - 
+  category: sys-cluster
+  description: ""
+  id: 0
+  license: ""
+  name: sanlock
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "205"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: baselayout
+  
+  version: "2.2"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
   license: ""
   name: util-linux
   
@@ -35,6 +64,7 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: makedev
   
@@ -42,6 +72,7 @@ requires:
 - 
   category: sys-block
   description: ""
+  id: 0
   license: ""
   name: thin-provisioning-tools
   
@@ -49,41 +80,15 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libaio
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "205"
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-  name: sanlock
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: "208"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: baselayout
-  
-  version: "2.2"
-- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libaio[static-libs?]
   
@@ -91,10 +96,19 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: readline
   
   version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libudev
+  
+  version: "208"
 uri: []
 use_flags:
 - readline

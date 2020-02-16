@@ -2,26 +2,30 @@ category: net-vpn
 conflicts: []
 description: Robust and highly flexible tunneling application compatible with many
   OSes
+id: 0
 license: GPL-2
 name: openvpn
 requires:
 - 
-  category: app-arch
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: lz4
+  name: iproute2
   
   version: ""
 - 
-  category: sys-apps
+  category: net-libs
   description: ""
+  id: 0
   license: ""
-  name: systemd
+  name: mbedtls
   
   version: ""
 - 
   category: sec-policy
   description: ""
+  id: 0
   license: ""
   name: selinux-openvpn
   
@@ -29,27 +33,7 @@ requires:
 - 
   category: dev-libs
   description: ""
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: mbedtls
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: lzo
-  
-  version: "1.07"
-- 
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: pkcs11-helper
   
@@ -57,13 +41,15 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: iproute2
+  name: systemd
   
   version: ""
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: net-tools
   
@@ -71,6 +57,7 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: pam
   
@@ -78,10 +65,35 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: openssl
   
   version: 0.9.8
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libressl
+  
+  version: ""
+- 
+  category: app-arch
+  description: ""
+  id: 0
+  license: ""
+  name: lz4
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: lzo
+  
+  version: "1.07"
 uri:
 - https://github.com/OpenVPN/openvpn/archive/v2.4.7.tar.gz -> openvpn-2.4.7.tar.gz
 use_flags:

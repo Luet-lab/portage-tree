@@ -1,12 +1,22 @@
 category: net-firewall
 conflicts: []
 description: IPTables firewall setup script
+id: 0
 license: GPL-2
 name: lutelwall
 requires:
 - 
+  category: net-firewall
+  description: ""
+  id: 0
+  license: ""
+  name: iptables
+  
+  version: 1.2.6
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: gawk
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: iproute2
   
   version: ""
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: 1.2.6
 uri:
 - https://www.lutel.pl/wp-content/uploads/0.99/lutelwall-0.99.tar.gz
 version: 0.99-r1

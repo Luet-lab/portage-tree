@@ -1,12 +1,22 @@
 category: dev-libs
 conflicts: []
 description: Intel Graphics Compute Runtime for OpenCL, for Gen8 (Broadwell) and beyond
+id: 0
 license: MIT
 name: intel-neo
 requires:
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: ocl-icd
+  
+  version: ""
+- 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: intel-graphics-compiler
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gmmlib
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libdrm[video_cards_intel]
   
@@ -28,17 +40,11 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libva
   
   version: 2.0.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: ocl-icd
-  
-  version: ""
 uri:
 - https://github.com/intel/compute-runtime/archive/19.48.14977.tar.gz -> intel-neo-19.48.14977.tar.gz
 use_flags:

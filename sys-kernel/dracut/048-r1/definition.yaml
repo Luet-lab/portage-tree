@@ -1,33 +1,46 @@
 category: sys-kernel
 conflicts: []
 description: Generic initramfs generation tool
+id: 0
 license: GPL-2
 name: dracut
 requires:
 - 
-  category: sys-libs
+  category: dev-util
   description: ""
+  id: 0
   license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libsepol
+  name: strace
   
   version: ""
 - 
   category: sec-policy
   description: ""
+  id: 0
   license: ""
   name: selinux-dracut
   
   version: ""
 - 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: kmod
+  
+  version: "23"
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: pkgconfig
   
@@ -35,20 +48,15 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: udev
   
   version: ""
 - 
-  category: app-arch
-  description: ""
-  license: ""
-  name: cpio
-  
-  version: ""
-- 
   category: app-shells
   description: ""
+  id: 0
   license: ""
   name: bash
   
@@ -56,31 +64,35 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: coreutils[xattr(-)]
   
   version: ""
 - 
-  category: sys-apps
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: util-linux
+  name: libsepol
   
-  version: "2.21"
+  version: ""
 - 
-  category: dev-util
+  category: app-arch
   description: ""
+  id: 0
   license: ""
-  name: strace
+  name: cpio
   
   version: ""
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: kmod
+  name: util-linux
   
-  version: "23"
+  version: "2.21"
 uri:
 - https://www.kernel.org/pub/linux/utils/boot/dracut/dracut-048.tar.xz
 use_flags:

@@ -1,12 +1,22 @@
 category: dev-util
 conflicts: []
 description: GTK+ based fast and lightweight IDE
+id: 0
 license: GPL-2+ HPND
 name: geany
 requires:
 - 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: "3.0"
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: vte
   
   version: ""
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: "3.0"
 uri: []
 use_flags:
 - +gtk3

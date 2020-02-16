@@ -1,12 +1,22 @@
 category: net-libs
 conflicts: []
 description: C library implementing the OAuth secure authentication protocol
+id: 0
 license: '|| ( GPL-2 MIT )'
 name: liboauth
 requires:
 - 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: curl[ssl,curl_ssl_nss]
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: openssl
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libressl
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl[ssl,curl_ssl_openssl]
   
@@ -28,6 +40,7 @@ requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
@@ -35,15 +48,9 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: nss
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl[ssl,curl_ssl_nss]
   
   version: ""
 uri:

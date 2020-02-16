@@ -1,12 +1,22 @@
 category: games-strategy
 conflicts: []
 description: Warcraft II for the Stratagus game engine
+id: 0
 license: GPL-2+
 name: wargus
 requires:
 - 
+  category: games-engines
+  description: ""
+  id: 0
+  license: ""
+  name: stratagus
+  
+  version: 2.4.1
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libpng
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: zlib
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -28,17 +40,11 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11
   
   version: ""
-- 
-  category: games-engines
-  description: ""
-  license: ""
-  name: stratagus
-  
-  version: 2.4.1
 uri:
 - https://github.com/Wargus/wargus/archive/v2.4.1.tar.gz -> wargus-2.4.1.tar.gz
 use_flags:

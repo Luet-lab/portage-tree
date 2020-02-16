@@ -1,26 +1,30 @@
 category: net-proxy
 conflicts: []
 description: A full-featured web proxy cache
+id: 0
 license: GPL-2
 name: squid
 requires:
 - 
-  category: app-admin
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: logrotate
+  name: nettle
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: libltdl
+  name: cyrus-sasl
   
   version: ""
 - 
   category: sec-policy
   description: ""
+  id: 0
   license: ""
   name: selinux-squid
   
@@ -28,111 +32,31 @@ requires:
 - 
   category: sys-libs
   description: ""
-  license: ""
-  name: libcap
-  
-  version: "2.16"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: nettle
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnetfilter_conntrack
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: db
-  
-  version: "4"
-- 
-  category: net-fs
-  description: ""
-  license: ""
-  name: samba
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-mysql
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-SQLite
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
+  id: 0
   license: ""
   name: pam
   
   version: ""
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: krb5
-  
-  version: ""
-- 
   category: dev-libs
   description: ""
-  license: ""
-  name: cyrus-sasl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libecap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: expat
-  
-  version: ""
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: DBD-Pg
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: openssl
   
   version: ""
 - 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libnetfilter_conntrack
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libxml2
   
@@ -140,20 +64,39 @@ requires:
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: gnutls
   
   version: 3.1.5
 - 
-  category: dev-lang
+  category: app-admin
   description: ""
+  id: 0
   license: ""
-  name: perl
+  name: logrotate
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
+  
+  version: ""
+- 
+  category: net-fs
+  description: ""
+  id: 0
+  license: ""
+  name: samba
   
   version: ""
 - 
   category: acct-group
   description: ""
+  id: 0
   license: ""
   name: squid
   
@@ -161,8 +104,89 @@ requires:
 - 
   category: acct-user
   description: ""
+  id: 0
   license: ""
   name: squid
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: DBD-mysql
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: DBD-Pg
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: expat
+  
+  version: ""
+- 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: DBD-SQLite
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcap
+  
+  version: "2.16"
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: krb5
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: db
+  
+  version: "4"
+- 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: ""
+- 
+  category: net-nds
+  description: ""
+  id: 0
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libecap
   
   version: ""
 uri:

@@ -1,12 +1,22 @@
 category: app-crypt
 conflicts: []
 description: The GNU Privacy Assistant (GPA) is a graphical user interface for GnuPG
+id: 0
 license: GPL-3
 name: gpa
 requires:
 - 
+  category: app-crypt
+  description: ""
+  id: 0
+  license: ""
+  name: gpgme
+  
+  version: 1.11.1
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libassuan
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgpg-error
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -28,17 +40,11 @@ requires:
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: gnupg
   
   version: "2"
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: 1.11.1
 uri:
 - mirror://gnupg/gpa/gpa-0.10.0.tar.bz2
 use_flags:

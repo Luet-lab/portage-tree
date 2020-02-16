@@ -1,96 +1,22 @@
 category: app-admin
 conflicts: []
 description: Salt is a remote execution and configuration manager
+id: 0
 license: Apache-2.0
 name: salt
 requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: requests
-  
-  version: 1.0.0
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: tornado
-  
-  version: "5.0"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: portage
+  name: jinja
   
   version: ""
 - 
   category: dev-python
   description: ""
-  license: ""
-  name: python-neutronclient
-  
-  version: 2.3.6
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: pciutils
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: markupsafe
-  
-  version: ""
-- 
-  category: www-servers
-  description: ""
-  license: ""
-  name: tornado
-  
-  version: 4.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libcloud
-  
-  version: 0.14.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyopenssl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pycryptodome
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: cherrypy
-  
-  version: 3.2.2
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: keyring
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: pyyaml
   
@@ -98,34 +24,55 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: python-gnupg
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libnacl
+  name: requests
   
   version: 1.0.0
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: raet
+  name: libcloud
   
-  version: 0.6.0
+  version: 0.14.0
 - 
-  category: app-vim
+  category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: salt-vim
+  name: python-ldap
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: pciutils
   
   version: ""
 - 
   category: dev-python
   description: ""
+  id: 0
+  license: ""
+  name: msgpack
+  
+  version: "0.3"
+- 
+  category: www-servers
+  description: ""
+  id: 0
+  license: ""
+  name: tornado
+  
+  version: "5.0"
+- 
+  category: dev-python
+  description: ""
+  id: 0
   license: ""
   name: mako
   
@@ -133,90 +80,23 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: msgpack
+  name: raet
   
-  version: "0.3"
+  version: 0.6.0
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: setuptools
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libvirt-python
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-salt
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: yappi
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: libnacl
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pyzmq
-  
-  version: 2.2.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: pymongo
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: redis-py
-  
-  version: ""
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-novaclient
-  
-  version: 2.17.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: python-ldap
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: python-futures
+  name: markupsafe
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: openssl
   
@@ -224,6 +104,111 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
+  license: ""
+  name: keyring
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: python-neutronclient
+  
+  version: 2.3.6
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: python-gnupg
+  
+  version: ""
+- 
+  category: www-servers
+  description: ""
+  id: 0
+  license: ""
+  name: tornado
+  
+  version: 4.2.1
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pyopenssl
+  
+  version: ""
+- 
+  category: app-vim
+  description: ""
+  id: 0
+  license: ""
+  name: salt-vim
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: python-futures
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pycryptodome
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: cherrypy
+  
+  version: 3.2.2
+- 
+  category: sec-policy
+  description: ""
+  id: 0
+  license: ""
+  name: selinux-salt
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: libnacl
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: libnacl
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
   license: ""
   name: ioflo
   
@@ -231,8 +216,57 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: jinja
+  name: pyzmq
+  
+  version: 2.2.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: pymongo
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: yappi
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: portage
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: redis-py
+  
+  version: ""
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: python-novaclient
+  
+  version: 2.17.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: libvirt-python
   
   version: ""
 uri:

@@ -3,6 +3,7 @@ conflicts:
 - 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: cargo
   
@@ -10,45 +11,44 @@ conflicts:
 - 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: rustfmt
   
   version: ""
 description: Systems programming language from Mozilla
+id: 0
 license: '|| ( MIT Apache-2.0 ) BSD-1 BSD-2 BSD-4 UoI-NCSA'
 name: rust
 requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
   version: ""
 - 
-  category: sys-devel
-  description: ""
-  license: ""
-  name: llvm
-  
-  version: "10"
-- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: zlib
+  name: libunwind
   
   version: ""
 - 
-  category: dev-libs
+  category: app-eselect
   description: ""
+  id: 0
   license: ""
-  name: openssl
+  name: eselect-rust
   
-  version: ""
+  version: "20190311"
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libressl
   
@@ -56,6 +56,7 @@ requires:
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: libssh2
   
@@ -63,17 +64,35 @@ requires:
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: http-parser
   
   version: ""
 - 
-  category: app-eselect
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: eselect-rust
+  name: zlib
   
-  version: "20190311"
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-devel
+  description: ""
+  id: 0
+  license: ""
+  name: llvm
+  
+  version: "10"
 uri:
 - https://static.rust-lang.org/dist/rustc-1.38.0-src.tar.xz -> rustc-1.38.0-src.tar.xz
 use_flags:

@@ -1,26 +1,38 @@
 category: sys-kernel
 conflicts: []
 description: Generic initramfs generation tool
+id: 0
 license: GPL-2
 name: dracut
 requires:
 - 
-  category: sys-libs
+  category: sec-policy
   description: ""
+  id: 0
   license: ""
-  name: libsepol
+  name: selinux-dracut
   
   version: ""
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: udev
   
   version: ""
 - 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "199"
+- 
   category: app-shells
   description: ""
+  id: 0
   license: ""
   name: bash
   
@@ -28,13 +40,7 @@ requires:
 - 
   category: sys-apps
   description: ""
-  license: ""
-  name: util-linux
-  
-  version: "2.21"
-- 
-  category: sys-apps
-  description: ""
+  id: 0
   license: ""
   name: kmod
   
@@ -42,6 +48,7 @@ requires:
 - 
   category: dev-util
   description: ""
+  id: 0
   license: ""
   name: strace
   
@@ -49,27 +56,15 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: libselinux
+  name: libsepol
   
   version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-dracut
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: "199"
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: pkgconfig
   
@@ -77,8 +72,25 @@ requires:
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: cpio
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  
+  version: "2.21"
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libselinux
   
   version: ""
 uri:

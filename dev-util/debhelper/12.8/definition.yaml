@@ -1,12 +1,22 @@
 category: dev-util
 conflicts: []
 description: Collection of programs that can be used to automate common tasks in debian/rules
+id: 0
 license: GPL-2
 name: debhelper
 requires:
 - 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: "5.10"
+- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: dpkg
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: TimeDate
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: perl-Getopt-Long
   
   version: ""
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: "5.10"
 uri:
 - mirror://debian/pool/main/d/debhelper/debhelper_12.8.tar.xz
 use_flags:

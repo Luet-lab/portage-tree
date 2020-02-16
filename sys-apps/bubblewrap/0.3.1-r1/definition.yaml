@@ -1,12 +1,22 @@
 category: sys-apps
 conflicts: []
 description: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
+id: 0
 license: LGPL-2+
 name: bubblewrap
 requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
+  license: ""
+  name: libseccomp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
   license: ""
   name: libcap
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: libselinux
   
   version: 2.1.9
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
 uri:
 - https://github.com/projectatomic/bubblewrap/releases/download/v0.3.1/bubblewrap-0.3.1.tar.xz
 use_flags:

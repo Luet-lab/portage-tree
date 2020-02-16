@@ -3,6 +3,7 @@ conflicts:
 - 
   category: <=gui-wm
   description: ""
+  id: 0
   license: ""
   name: sway-1.0_beta1
   
@@ -10,17 +11,28 @@ conflicts:
 - 
   category: ~gui-wm
   description: ""
+  id: 0
   license: ""
   name: sway-1.0_beta2
   
   version: ""
 description: Idle management daemon for Wayland
+id: 0
 license: MIT
 name: swayidle
 requires:
 - 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "237"
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: wayland
   
@@ -28,15 +40,9 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: elogind
-  
-  version: "237"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
   
   version: "237"
 uri:

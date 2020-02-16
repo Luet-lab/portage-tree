@@ -1,12 +1,22 @@
 category: sys-fs
 conflicts: []
 description: IBM's tools for support of the ipr SCSI controller
+id: 0
 license: IBM
 name: iprutils
 requires:
 - 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  
+  version: 5.4-r5
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: pciutils
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: udev
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: logger
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.4-r5
 uri:
 - mirror://sourceforge/iprdd/iprutils-2.4.7.tar.gz
 use_flags:

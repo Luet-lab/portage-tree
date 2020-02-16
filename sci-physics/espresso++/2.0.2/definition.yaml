@@ -1,12 +1,22 @@
 category: sci-physics
 conflicts: []
 description: A Modern Multiscale Simulation Package for Soft Matter Systems
+id: 0
 license: GPL-3
 name: espresso++
 requires:
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: mpi
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: boost
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: sci-libs
   description: ""
+  id: 0
   license: ""
   name: fftw
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: mpi4py
   
   version: "2"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: mpi
-  
-  version: ""
 uri:
 - https://github.com/espressopp/espressopp/archive/v2.0.2.tar.gz -> espresso++-2.0.2.tar.gz
 use_flags:

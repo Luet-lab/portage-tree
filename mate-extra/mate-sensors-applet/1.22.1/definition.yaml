@@ -1,19 +1,22 @@
 category: mate-extra
 conflicts: []
 description: MATE panel applet to display readings from hardware sensors
+id: 0
 license: GPL-2
 name: mate-sensors-applet
 requires:
 - 
-  category: sys-apps
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: lm-sensors
+  name: glib
   
-  version: ""
+  version: "2.50"
 - 
   category: mate-base
   description: ""
+  id: 0
   license: ""
   name: mate-panel
   
@@ -21,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
@@ -28,20 +32,31 @@ requires:
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: gdk-pixbuf
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: gtk+
   
   version: "3.22"
 - 
+  category: x11-drivers
+  description: ""
+  id: 0
+  license: ""
+  name: nvidia-drivers
+  
+  version: 100.14.09
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gdk-pixbuf
+  
+  version: ""
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: libintl
   
@@ -49,6 +64,7 @@ requires:
 - 
   category: app-admin
   description: ""
+  id: 0
   license: ""
   name: hddtemp-0.3_beta13
   
@@ -56,24 +72,19 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libnotify
   
   version: "0.7"
 - 
-  category: x11-drivers
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: nvidia-drivers
+  name: lm-sensors
   
-  version: 100.14.09
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.50"
+  version: ""
 uri: []
 use_flags:
 - +dbus

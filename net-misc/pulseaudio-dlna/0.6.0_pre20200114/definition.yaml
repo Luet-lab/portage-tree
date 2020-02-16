@@ -1,12 +1,14 @@
 category: net-misc
 conflicts: []
 description: A lightweight DLNA/UPNP/Chromecast streaming server for PulseAudio
+id: 0
 license: GPL-3
 name: pulseaudio-dlna
 requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: pyroute2
   
@@ -14,13 +16,7 @@ requires:
 - 
   category: dev-python
   description: ""
-  license: ""
-  name: netifaces
-  
-  version: 0.10.0
-- 
-  category: dev-python
-  description: ""
+  id: 0
   license: ""
   name: lxml
   
@@ -28,6 +24,15 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
+  license: ""
+  name: protobuf-python
+  
+  version: 2.5.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
   license: ""
   name: pychromecast
   
@@ -35,48 +40,23 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: requests
+  name: pygobject
   
-  version: 2.2.1
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: psutil
-  
-  version: 5.4.7
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: dbus-python
-  
-  version: 1.0.0
-- 
-  category: dev-python
-  description: ""
-  license: ""
-  name: zeroconf
-  
-  version: 0.17.4
+  version: ""
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: librsvg
   
   version: ""
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: gtk+
-  
-  version: ""
-- 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: docopt
   
@@ -84,13 +64,15 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: chardet
+  name: requests
   
-  version: 3.0.4
+  version: 2.2.1
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
   name: notify2
   
@@ -98,6 +80,23 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
+  license: ""
+  name: chardet
+  
+  version: 3.0.4
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-python
+  
+  version: 1.0.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
   license: ""
   name: setproctitle
   
@@ -105,17 +104,35 @@ requires:
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: pygobject
+  name: psutil
   
-  version: ""
+  version: 5.4.7
 - 
   category: dev-python
   description: ""
+  id: 0
   license: ""
-  name: protobuf-python
+  name: netifaces
   
-  version: 2.5.0
+  version: 0.10.0
+- 
+  category: dev-python
+  description: ""
+  id: 0
+  license: ""
+  name: zeroconf
+  
+  version: 0.17.4
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
 uri:
 - https://github.com/masmu/pulseaudio-dlna/archive/b0db8137224f5a293329a60187365168304c3768.tar.gz
   -> pulseaudio-dlna-0.6.0.tar.gz

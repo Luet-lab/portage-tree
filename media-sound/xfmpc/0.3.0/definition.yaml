@@ -1,12 +1,22 @@
 category: media-sound
 conflicts: []
 description: Music Player Daemon (MPD) client for the Xfce desktop environment
+id: 0
 license: GPL-2+
 name: xfmpc
 requires:
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.18"
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libmpd
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gtk+
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: xfce-base
   description: ""
+  id: 0
   license: ""
   name: libxfce4ui
   
@@ -28,17 +40,11 @@ requires:
 - 
   category: xfce-base
   description: ""
+  id: 0
   license: ""
   name: libxfce4util
   
   version: "4.12"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.18"
 uri:
 - https://archive.xfce.org/src/apps/xfmpc//xfmpc-0.3.0.tar.bz2
 use_flags:

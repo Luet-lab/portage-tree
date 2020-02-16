@@ -1,33 +1,38 @@
 category: sys-fs
 conflicts: []
 description: eCryptfs userspace utilities
+id: 0
 license: GPL-2
 name: ecryptfs-utils
 requires:
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: nss
+  name: keyutils
   
-  version: ""
+  version: "1.0"
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: gpgme
   
   version: ""
 - 
-  category: x11-libs
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: gtk+
+  name: pam
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: pkcs11-helper
   
@@ -35,20 +40,15 @@ requires:
 - 
   category: app-crypt
   description: ""
+  id: 0
   license: ""
   name: trousers
   
   version: ""
 - 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: keyutils
-  
-  version: "1.0"
-- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgcrypt
   
@@ -56,17 +56,27 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: nss
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: openssl
   
   version: 0.9.7
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: pam
-  
-  version: ""
 uri:
 - https://launchpad.net/ecryptfs/trunk/108/+download/ecryptfs-utils_108.orig.tar.gz
 use_flags:

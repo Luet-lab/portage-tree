@@ -2,12 +2,22 @@ category: app-portage
 conflicts: []
 description: Tool to gather relevant perl data useful for bugreport; 'emerge --info'
   for perl
+id: 0
 license: GPL-2
 name: perl-info
 requires:
 - 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: ""
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: perl-Term-ANSIColor
   
@@ -15,17 +25,11 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: PortageXS
   
   version: 0.02.04
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
 uri:
 - mirror://gentoo/perl-info-0.16.tar.gz
 - https://dev.gentoo.org/~tove/files/perl-info-0.16.tar.gz

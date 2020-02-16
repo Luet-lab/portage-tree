@@ -1,12 +1,22 @@
 category: net-mail
 conflicts: []
 description: A web interface for managing a qmail system with virtual domains
+id: 0
 license: GPL-2
 name: qmailadmin
 requires:
 - 
+  category: mail-filter
+  description: ""
+  id: 0
+  license: ""
+  name: maildrop
+  
+  version: 2.0.1
+- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: qmail
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: net-mail
   description: ""
+  id: 0
   license: ""
   name: vpopmail
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: net-mail
   description: ""
+  id: 0
   license: ""
   name: autorespond
   
   version: ""
-- 
-  category: mail-filter
-  description: ""
-  license: ""
-  name: maildrop
-  
-  version: 2.0.1
 uri:
 - mirror://sourceforge/qmailadmin/qmailadmin-1.2.15.tar.gz
 use_flags:

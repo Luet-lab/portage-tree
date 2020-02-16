@@ -1,12 +1,22 @@
 category: app-crypt
 conflicts: []
 description: Provides a standard configuration setup for installing PKCS#11
+id: 0
 license: MIT
 name: p11-kit
 requires:
 - 
+  category: app-misc
+  description: ""
+  id: 0
+  license: ""
+  name: ca-certificates
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libtasn1
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: libffi
   
   version: 3.0.0
-- 
-  category: app-misc
-  description: ""
-  license: ""
-  name: ca-certificates
-  
-  version: ""
 uri:
 - https://github.com/p11-glue/p11-kit/releases/download/0.23.16.1/p11-kit-0.23.16.1.tar.gz
 use_flags:

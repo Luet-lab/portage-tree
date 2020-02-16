@@ -2,12 +2,22 @@ category: app-misc
 conflicts: []
 description: Takes control of the G15 keyboard, through the linux kernel uinput device
   driver
+id: 0
 license: GPL-2
 name: g15daemon
 requires:
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libusb
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libg15
   
@@ -15,6 +25,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libg15render
   
@@ -22,6 +33,7 @@ requires:
 - 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
   
@@ -29,6 +41,7 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: GDGraph
   
@@ -36,17 +49,11 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: Inline
   
   version: "0.4"
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libusb
-  
-  version: ""
 uri: []
 use_flags:
 - perl

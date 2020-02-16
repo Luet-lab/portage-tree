@@ -1,12 +1,22 @@
 category: app-portage
 conflicts: []
 description: 'g-cpan: generate and install CPAN modules using portage'
+id: 0
 license: '|| ( Artistic GPL-2 )'
 name: g-cpan
 requires:
 - 
+  category: dev-perl
+  description: ""
+  id: 0
+  license: ""
+  name: Log-Agent
+  
+  version: ""
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: perl
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: YAML
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: dev-perl
   description: ""
+  id: 0
   license: ""
   name: Shell-EnvImporter
   
   version: 1.70.0-r2
-- 
-  category: dev-perl
-  description: ""
-  license: ""
-  name: Log-Agent
-  
-  version: ""
 uri:
 - https://dev.gentoo.org/~dilfridge/distfiles/g-cpan-0.16.6.tar.gz
 use_flags:

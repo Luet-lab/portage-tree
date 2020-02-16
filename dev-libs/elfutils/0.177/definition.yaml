@@ -3,17 +3,28 @@ conflicts:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libelf
   
   version: ""
 description: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+id: 0
 license: '|| ( GPL-2+ LGPL-3+ ) utils? ( GPL-3+ )'
 name: elfutils
 requires:
 - 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: bzip2
   
@@ -21,17 +32,11 @@ requires:
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: xz-utils
   
   version: 5.0.5-r1
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
 uri:
 - https://sourceware.org/elfutils/ftp/0.177/elfutils-0.177.tar.bz2
 use_flags:

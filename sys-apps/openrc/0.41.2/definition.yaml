@@ -1,8 +1,17 @@
 category: sys-apps
 conflicts:
 - 
+  category: <sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: baselayout
+  
+  version: 2.1-r1
+- 
   category: <sys-process
   description: ""
+  id: 0
   license: ""
   name: procps
   
@@ -10,6 +19,7 @@ conflicts:
 - 
   category: <sys-fs
   description: ""
+  id: 0
   license: ""
   name: udev-init-scripts
   
@@ -17,103 +27,110 @@ conflicts:
 - 
   category: <app-shells
   description: ""
-  license: ""
-  name: gentoo-bashcomp
-  
-  version: "20180302"
-- 
-  category: <app-shells
-  description: ""
+  id: 0
   license: ""
   name: gentoo-zsh-completions
   
   version: "20180228"
 - 
-  category: <sys-apps
+  category: <app-shells
   description: ""
+  id: 0
   license: ""
-  name: baselayout
+  name: gentoo-bashcomp
   
-  version: 2.1-r1
+  version: "20180302"
 description: OpenRC manages the services, startup and shutdown of a host
+id: 0
 license: BSD-2
 name: openrc
 requires:
 - 
-  category: sys-libs
+  category: sys-auth
   description: ""
+  id: 0
   license: ""
-  name: libselinux
-  
-  version: "2.6"
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-base-policy
-  
-  version: 2.20170204-r4
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: psmisc
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: policycoreutils
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: tmpfiles
-  
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
-- 
-  category: app-shells
-  description: ""
-  license: ""
-  name: bash
+  name: pambase
   
   version: ""
 - 
   category: sys-libs
   description: ""
-  license: ""
-  name: ncurses
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
+  id: 0
   license: ""
   name: pam
   
   version: ""
 - 
+  category: sys-process
+  description: ""
+  id: 0
+  license: ""
+  name: psmisc
+  
+  version: ""
+- 
+  category: app-shells
+  description: ""
+  id: 0
+  license: ""
+  name: bash
+  
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: tmpfiles
+  
+  version: ""
+- 
   category: sec-policy
   description: ""
+  id: 0
+  license: ""
+  name: selinux-base-policy
+  
+  version: 2.20170204-r4
+- 
+  category: sec-policy
+  description: ""
+  id: 0
   license: ""
   name: selinux-openrc
   
   version: 2.20170204-r4
 - 
-  category: sys-auth
+  category: sys-process
   description: ""
+  id: 0
   license: ""
-  name: pambase
+  name: audit
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libselinux
+  
+  version: "2.6"
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: policycoreutils
   
   version: ""
 uri:

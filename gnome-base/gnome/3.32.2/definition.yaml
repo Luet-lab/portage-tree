@@ -1,33 +1,22 @@
 category: gnome-base
 conflicts: []
 description: Meta package for GNOME 3, merge this package to install
+id: 0
 license: metapackage
 name: gnome
 requires:
 - 
-  category: gnome-base
+  category: app-accessibility
   description: ""
+  id: 0
   license: ""
-  name: gdm
+  name: at-spi2-core
   
-  version: 3.32.0
-- 
-  category: media-fonts
-  description: ""
-  license: ""
-  name: cantarell
-  
-  version: "0.111"
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: sound-theme-freedesktop
-  
-  version: ""
+  version: 2.32.1
 - 
   category: app-accessibility
   description: ""
+  id: 0
   license: ""
   name: orca
   
@@ -35,41 +24,39 @@ requires:
 - 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: gnome-shell-extensions
   
   version: 3.32.1
 - 
-  category: x11-wm
+  category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: mutter
-  
-  version: 3.32.2
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: gnome-backgrounds
+  name: gdm
   
   version: 3.32.0
 - 
+  category: x11-themes
+  description: ""
+  id: 0
+  license: ""
+  name: sound-theme-freedesktop
+  
+  version: ""
+- 
   category: app-accessibility
   description: ""
+  id: 0
   license: ""
   name: at-spi2-atk
   
   version: 2.32.0
 - 
-  category: app-accessibility
-  description: ""
-  license: ""
-  name: at-spi2-core
-  
-  version: 2.32.1
-- 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: mousetweaks
   
@@ -77,10 +64,35 @@ requires:
 - 
   category: gnome-base
   description: ""
+  id: 0
   license: ""
   name: gnome-extra-apps
   
   version: 3.32.2
+- 
+  category: x11-wm
+  description: ""
+  id: 0
+  license: ""
+  name: mutter
+  
+  version: 3.32.2
+- 
+  category: media-fonts
+  description: ""
+  id: 0
+  license: ""
+  name: cantarell
+  
+  version: "0.111"
+- 
+  category: x11-themes
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-backgrounds
+  
+  version: 3.32.0
 uri: []
 use_flags:
 - accessibility

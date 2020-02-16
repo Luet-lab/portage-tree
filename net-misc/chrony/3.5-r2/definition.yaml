@@ -1,12 +1,22 @@
 category: net-misc
 conflicts: []
 description: NTP client and server programs
+id: 0
 license: GPL-2
 name: chrony
 requires:
 - 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libseccomp
+  
+  version: ""
+- 
   category: sec-policy
   description: ""
+  id: 0
   license: ""
   name: selinux-chronyd
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: libcap
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libedit
   
@@ -28,17 +40,11 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: readline
   
   version: 4.1-r4
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libseccomp
-  
-  version: ""
 uri:
 - https://download.tuxfamily.org/chrony/chrony-3.5.tar.gz
 use_flags:

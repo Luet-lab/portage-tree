@@ -1,33 +1,30 @@
 category: net-analyzer
 conflicts: []
 description: ZABBIX is software for monitoring of your applications, network and servers
+id: 0
 license: GPL-2
 name: zabbix
 requires:
 - 
-  category: virtual
+  category: dev-db
   description: ""
+  id: 0
   license: ""
-  name: jdk
+  name: sqlite
+  
+  version: 3.3.5
+- 
+  category: dev-db
+  description: ""
+  id: 0
+  license: ""
+  name: postgresql
   
   version: ""
 - 
   category: dev-db
   description: ""
-  license: ""
-  name: unixODBC
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: dev-db
-  description: ""
+  id: 0
   license: ""
   name: oracle-instantclient-basic
   
@@ -35,13 +32,23 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libxml2
   
   version: ""
 - 
+  category: net-nds
+  description: ""
+  id: 0
+  license: ""
+  name: openldap
+  
+  version: ""
+- 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
@@ -49,76 +56,71 @@ requires:
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: libssh2
   
   version: ""
 - 
-  category: dev-db
+  category: dev-lang
   description: ""
+  id: 0
   license: ""
-  name: postgresql
+  name: php
   
-  version: ""
-- 
-  category: app-admin
-  description: ""
-  license: ""
-  name: webapp-config
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.4"
+  version: 5.3.0
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: openssl
+  name: cyrus-sasl
   
-  version: ""
+  version: "2"
 - 
   category: net-analyzer
   description: ""
+  id: 0
   license: ""
   name: fping
   
   version: ""
 - 
+  category: app-admin
+  description: ""
+  id: 0
+  license: ""
+  name: webapp-config
+  
+  version: ""
+- 
   category: dev-java
   description: ""
+  id: 0
   license: ""
   name: slf4j-api
   
   version: ""
 - 
-  category: net-analyzer
-  description: ""
-  license: ""
-  name: net-snmp
-  
-  version: ""
-- 
-  category: net-nds
-  description: ""
-  license: ""
-  name: openldap
-  
-  version: ""
-- 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: mysql
   
   version: 5.0.3
 - 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: iksemel
   
@@ -126,38 +128,59 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: openipmi
   
   version: ""
 - 
-  category: dev-libs
+  category: virtual
   description: ""
+  id: 0
   license: ""
-  name: cyrus-sasl
+  name: jdk
   
-  version: "2"
+  version: ""
 - 
   category: dev-db
   description: ""
+  id: 0
   license: ""
-  name: sqlite
+  name: unixODBC
   
-  version: 3.3.5
+  version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: libevent
   
   version: ""
 - 
-  category: dev-lang
+  category: net-analyzer
   description: ""
+  id: 0
   license: ""
-  name: php
+  name: net-snmp
   
-  version: 5.3.0
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: "1.4"
 uri:
 - https://prdownloads.sourceforge.net/zabbix/zabbix-3.4.15.tar.gz
 use_flags:

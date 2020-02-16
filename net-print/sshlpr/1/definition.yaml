@@ -1,12 +1,22 @@
 category: net-print
 conflicts: []
 description: ssh-lpr backend for cups -- print to remote systems over ssh
+id: 0
 license: public-domain
 name: sshlpr
 requires:
 - 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: openssh
+  
+  version: ""
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: shadow
   
@@ -14,15 +24,9 @@ requires:
 - 
   category: net-print
   description: ""
+  id: 0
   license: ""
   name: cups
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: openssh
   
   version: ""
 uri:

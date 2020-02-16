@@ -3,6 +3,7 @@ conflicts:
 - 
   category: media-tv
   description: ""
+  id: 0
   license: ""
   name: v4l2-ctl
   
@@ -10,17 +11,28 @@ conflicts:
 - 
   category: <media-tv
   description: ""
+  id: 0
   license: ""
   name: ivtv-utils
   
   version: 1.4.0-r2
 description: Separate utilities ebuild from upstream v4l-utils package
+id: 0
 license: GPL-2+ LGPL-2.1+
 name: v4l-utils
 requires:
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libudev
+  
+  version: ""
+- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: libv4l
   
@@ -28,6 +40,7 @@ requires:
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtcore
   
@@ -35,13 +48,31 @@ requires:
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtgui
   
   version: ""
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jpeg
+  
+  version: 0-r2
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: libelf
+  
+  version: ""
+- 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtopengl
   
@@ -49,13 +80,7 @@ requires:
 - 
   category: virtual
   description: ""
-  license: ""
-  name: libelf
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
+  id: 0
   license: ""
   name: opengl
   
@@ -63,24 +88,11 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: alsa-lib
   
   version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: 0-r2
 uri:
 - https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.16.6.tar.bz2
 use_flags:

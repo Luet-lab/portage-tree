@@ -1,19 +1,38 @@
 category: media-gfx
 conflicts: []
 description: The Programmers Solid 3D CAD Modeller
+id: 0
 license: GPL-2
 name: openscad
 requires:
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: qtcore
+  name: freetype
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glew
+  
+  version: 2.0.0
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: hidapi
   
   version: ""
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtdbus
   
@@ -21,34 +40,47 @@ requires:
 - 
   category: dev-qt
   description: ""
+  id: 0
+  license: ""
+  name: qtgui
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtopengl
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
   license: ""
   name: qtwidgets
   
   version: ""
 - 
-  category: app-editors
-  description: ""
-  license: ""
-  name: emacs
-  
-  version: "23.1"
-- 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: glib
+  name: double-conversion
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: hidapi
+  name: gmp
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libzip
   
@@ -56,62 +88,23 @@ requires:
 - 
   category: dev-libs
   description: ""
-  license: ""
-  name: double-conversion
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: freetype
-  
-  version: ""
-- 
-  category: sci-mathematics
-  description: ""
-  license: ""
-  name: cgal
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: mpfr
   
   version: ""
 - 
-  category: dev-qt
+  category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: qtmultimedia
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtnetwork
-  
-  version: ""
-- 
-  category: dev-qt
-  description: ""
-  license: ""
-  name: qtopengl
-  
-  version: ""
-- 
-  category: media-gfx
-  description: ""
-  license: ""
-  name: opencsg
+  name: harfbuzz
   
   version: ""
 - 
   category: dev-cpp
   description: ""
+  id: 0
   license: ""
   name: eigen
   
@@ -119,55 +112,15 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: boost
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libspnav
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: harfbuzz
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: ""
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: glew
-  
-  version: 2.0.0
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: qscintilla
-  
-  version: 2.10.3
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gmp
-  
-  version: ""
-- 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
   name: qtconcurrent
   
@@ -175,10 +128,83 @@ requires:
 - 
   category: dev-qt
   description: ""
+  id: 0
   license: ""
-  name: qtgui
+  name: qtcore
   
   version: ""
+- 
+  category: media-gfx
+  description: ""
+  id: 0
+  license: ""
+  name: opencsg
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: fontconfig
+  
+  version: ""
+- 
+  category: sci-mathematics
+  description: ""
+  id: 0
+  license: ""
+  name: cgal
+  
+  version: ""
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: qscintilla
+  
+  version: 2.10.3
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libspnav
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtmultimedia
+  
+  version: ""
+- 
+  category: dev-qt
+  description: ""
+  id: 0
+  license: ""
+  name: qtnetwork
+  
+  version: ""
+- 
+  category: app-editors
+  description: ""
+  id: 0
+  license: ""
+  name: emacs
+  
+  version: "23.1"
 uri:
 - https://github.com/openscad/openscad/releases/download/openscad-2019.05/openscad-2019.05.src.tar.gz
   -> openscad-2019.05.tar.gz

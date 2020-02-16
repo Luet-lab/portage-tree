@@ -1,12 +1,22 @@
 category: media-libs
 conflicts: []
 description: A library that creates colored ASCII-art graphics
+id: 0
 license: GPL-2 ISC LGPL-2.1 WTFPL-2
 name: libcaca-0.99_beta19-r1
 requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
+  license: ""
+  name: libX11
+  
+  version: 1.6.2
+- 
+  category: x11-libs
+  description: ""
+  id: 0
   license: ""
   name: libXt
   
@@ -14,27 +24,23 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
-  name: glu
+  name: jre
   
-  version: 9.0-r1
+  version: "1.5"
 - 
-  category: x11-libs
+  category: dev-lang
   description: ""
+  id: 0
   license: ""
-  name: libX11
+  name: mono
   
-  version: 1.6.2
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: ncurses
-  
-  version: 5.9-r3
+  version: ""
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: opengl
   
@@ -42,6 +48,7 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: freeglut
   
@@ -49,6 +56,7 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: ftgl
   
@@ -56,31 +64,35 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: slang
   
   version: 2.2.4-r1
 - 
-  category: virtual
-  description: ""
-  license: ""
-  name: jre
-  
-  version: "1.5"
-- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: imlib2
   
   version: 1.4.6-r2
 - 
-  category: dev-lang
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: mono
+  name: ncurses
   
-  version: ""
+  version: 5.9-r3
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: glu
+  
+  version: 9.0-r1
 uri:
 - http://libcaca.zoy.org/files/libcaca-0.99_beta19-r1/libcaca-0.99.beta19-r1-.tar.gz
 use_flags:

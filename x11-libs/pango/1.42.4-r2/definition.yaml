@@ -1,19 +1,22 @@
 category: x11-libs
 conflicts: []
 description: Internationalized text layout and rendering library
+id: 0
 license: LGPL-2+ FTL
 name: pango
 requires:
 - 
-  category: dev-libs
+  category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: fribidi
+  name: freetype
   
-  version: 0.19.7
+  version: 2.5.0.1
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: gobject-introspection
   
@@ -21,13 +24,15 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libXrender
+  name: libXft
   
-  version: 0.9.8
+  version: 2.3.1-r1
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -35,38 +40,43 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: freetype
+  name: fontconfig
   
-  version: 2.5.0.1
+  version: 2.12.92
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: fribidi
+  
+  version: 0.19.7
 - 
   category: x11-libs
   description: ""
+  id: 0
+  license: ""
+  name: libXrender
+  
+  version: 0.9.8
+- 
+  category: x11-libs
+  description: ""
+  id: 0
   license: ""
   name: libX11
   
   version: 1.6.2
 - 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: libXft
-  
-  version: 2.3.1-r1
-- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: harfbuzz
   
   version: 1.4.2
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: fontconfig
-  
-  version: 2.12.92
 uri:
 - https://dev.gentoo.org/~leio/distfiles/pango-1.42.4-patchset.tar.xz
 use_flags:

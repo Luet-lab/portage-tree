@@ -1,33 +1,30 @@
 category: dev-util
 conflicts: []
 description: Operating system and container binary deployment and upgrades
+id: 0
 license: LGPL-2+
 name: ostree
 requires:
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: libassuan
+  name: zlib
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-apps
   description: ""
+  id: 0
   license: ""
-  name: gobject-introspection
-  
-  version: ""
-- 
-  category: sys-fs
-  description: ""
-  license: ""
-  name: fuse
+  name: systemd
   
   version: ""
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: libarchive
   
@@ -35,97 +32,39 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: glib
+  name: libassuan
   
   version: ""
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: libsoup
   
   version: ""
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: gnutls
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: systemd
-  
-  version: ""
-- 
-  category: app-crypt
-  description: ""
-  license: ""
-  name: gpgme
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: curl
-  
-  version: ""
-- 
-  category: sys-kernel
-  description: ""
-  license: ""
-  name: dracut
-  
-  version: ""
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: avahi
-  
-  version: ""
-- 
   category: sys-boot
   description: ""
+  id: 0
   license: ""
   name: grub
   
   version: ""
 - 
-  category: sys-libs
+  category: app-crypt
   description: ""
+  id: 0
   license: ""
-  name: zlib
+  name: gpgme
   
   version: ""
 - 
   category: app-arch
   description: ""
+  id: 0
   license: ""
   name: xz-utils
   
@@ -133,6 +72,87 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libselinux
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: ""
+- 
+  category: sys-kernel
+  description: ""
+  id: 0
+  license: ""
+  name: dracut
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gnutls
+  
+  version: ""
+- 
+  category: sys-fs
+  description: ""
+  id: 0
+  license: ""
+  name: fuse
+  
+  version: ""
+- 
+  category: net-dns
+  description: ""
+  id: 0
+  license: ""
+  name: avahi
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: curl
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: libgpg-error
   

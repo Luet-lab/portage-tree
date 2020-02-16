@@ -3,20 +3,7 @@ conflicts:
 - 
   category: sys-cluster
   description: ""
-  license: ""
-  name: mpich
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
-  license: ""
-mpi
-  
-  version: ""
-- 
-  category: sys-cluster
-  description: ""
+  id: 0
   license: ""
   name: pmix
   
@@ -24,38 +11,44 @@ mpi
 - 
   category: sys-cluster
   description: ""
+  id: 0
   license: ""
   name: mpich2
   
   version: ""
-description: A high-performance message passing library (MPI)
-license: BSD
-name: openmpi
-requires:
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.8-r1
 - 
   category: sys-cluster
   description: ""
+  id: 0
   license: ""
-  name: knem
+  name: mpich
   
   version: ""
 - 
   category: sys-cluster
   description: ""
+  id: 0
   license: ""
-  name: torque
+mpi
+  
+  version: ""
+description: A high-performance message passing library (MPI)
+id: 0
+license: BSD
+name: openmpi
+requires:
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
   
   version: ""
 - 
   category: sys-fabric
   description: ""
+  id: 0
   license: ""
   name: ofed
   
@@ -63,41 +56,47 @@ requires:
 - 
   category: sys-cluster
   description: ""
+  id: 0
   license: ""
-  name: slurm
+  name: knem
   
   version: ""
 - 
-  category: virtual
+  category: sys-cluster
   description: ""
+  id: 0
   license: ""
-  name: jre
-  
-  version: "1.6"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libltdl
+  name: torque
   
   version: ""
-- 
-  category: dev-util
-  description: ""
-  license: ""
-  name: nvidia-cuda-toolkit
-  
-  version: 6.5.19-r1
 - 
   category: sys-fabric
   description: ""
+  id: 0
   license: ""
   name: infinipath-psm
   
   version: ""
 - 
+  category: dev-util
+  description: ""
+  id: 0
+  license: ""
+  name: nvidia-cuda-toolkit
+  
+  version: 6.5.19-r1
+- 
+  category: sys-cluster
+  description: ""
+  id: 0
+  license: ""
+  name: slurm
+  
+  version: ""
+- 
   category: sys-fabric
   description: ""
+  id: 0
   license: ""
   name: librdmacm
   
@@ -105,10 +104,27 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libevent
   
   version: 2.0.22
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: 1.2.8-r1
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jre
+  
+  version: "1.6"
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-3.1.4.tar.bz2
 use_flags:

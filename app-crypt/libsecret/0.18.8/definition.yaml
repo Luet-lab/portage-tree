@@ -1,12 +1,22 @@
 category: app-crypt
 conflicts: []
 description: GObject library for accessing the freedesktop.org Secret Service API
+id: 0
 license: LGPL-2.1+ Apache-2.0
 name: libsecret
 requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: "1.29"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: glib
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgcrypt
   
   version: 1.2.2
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: "1.29"
 uri: []
 use_flags:
 - +crypt

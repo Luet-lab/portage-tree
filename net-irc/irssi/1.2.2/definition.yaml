@@ -1,12 +1,38 @@
 category: net-irc
 conflicts: []
 description: A modular textUI IRC client with IPv6 support
+id: 0
 license: GPL-2
 name: irssi
 requires:
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: 2.6.0
+- 
+  category: net-proxy
+  description: ""
+  id: 0
+  license: ""
+  name: dante
+  
+  version: 1.1.18
+- 
+  category: sec-policy
+  description: ""
+  id: 0
+  license: ""
+  name: selinux-irc
+  
+  version: ""
+- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: ncurses
   
@@ -14,34 +40,7 @@ requires:
 - 
   category: dev-libs
   description: ""
-  license: ""
-  name: glib
-  
-  version: 2.6.0
-- 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libotr
-  
-  version: 4.1.0
-- 
-  category: dev-lang
-  description: ""
-  license: ""
-  name: perl
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-irc
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: openssl
   
@@ -49,6 +48,7 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libressl
   
@@ -56,17 +56,27 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgcrypt
   
   version: 1.2.0
 - 
-  category: net-proxy
+  category: net-libs
   description: ""
+  id: 0
   license: ""
-  name: dante
+  name: libotr
   
-  version: 1.1.18
+  version: 4.1.0
+- 
+  category: dev-lang
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  
+  version: ""
 uri:
 - https://github.com/irssi/irssi/releases/download/1.2.2/irssi-1.2.2.tar.xz
 use_flags:

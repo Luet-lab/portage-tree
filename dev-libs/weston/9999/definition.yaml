@@ -1,19 +1,38 @@
 category: dev-libs
 conflicts: []
 description: Wayland reference compositor
+id: 0
 license: MIT CC-BY-SA-3.0
 name: weston
 requires:
 - 
   category: media-libs
   description: ""
+  id: 0
+  license: ""
+  name: libpng
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
   license: ""
   name: mesa
+  
+  version: "17.1"
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gstreamer
   
   version: ""
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: dbus
   
@@ -21,20 +40,39 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libXcursor
+  name: libxkbcommon
   
-  version: ""
+  version: 0.5.0
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "209"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: wayland
+  
+  version: 1.17.0
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libdrm
+  name: pixman
   
-  version: 2.4.68
+  version: 0.25.2
 - 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: colord
   
@@ -42,62 +80,47 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: cairo[X,xcb(+)]
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: wayland
-  
-  version: 1.17.0
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: jpeg
-  
-  version: ""
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: pambase
+  name: pango
   
   version: ""
 - 
   category: media-libs
   description: ""
+  id: 0
+  license: ""
+  name: mesa
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-base
+  
+  version: ""
+- 
+  category: media-libs
+  description: ""
+  id: 0
   license: ""
   name: lcms
   
   version: ""
 - 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: freerdp
-  
-  version: 2.0.0_rc2
-- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: libxkbcommon
+  name: libdrm
   
-  version: 0.5.0
+  version: 2.4.68
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: mtdev
   
@@ -105,34 +128,39 @@ requires:
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: pango
-  
-  version: ""
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: libxcb
   
   version: "1.9"
 - 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: jpeg
+  
+  version: ""
+- 
   category: x11-misc
   description: ""
+  id: 0
   license: ""
   name: xkeyboard-config
   
   version: ""
 - 
-  category: media-libs
+  category: media-video
   description: ""
+  id: 0
   license: ""
-  name: gst-plugins-base
+  name: pipewire
   
-  version: ""
+  version: "0.2"
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -140,80 +168,83 @@ requires:
 - 
   category: x11-base
   description: ""
+  id: 0
   license: ""
   name: xorg-server
   
   version: ""
 - 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libinput
-  
-  version: 0.8.0
-- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: cairo
   
   version: 1.11.3
 - 
-  category: virtual
+  category: net-misc
   description: ""
+  id: 0
   license: ""
-  name: udev
+  name: freerdp
   
-  version: "136"
+  version: 2.0.0_rc2
 - 
-  category: media-libs
+  category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: mesa
-  
-  version: "17.1"
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: pipewire
-  
-  version: "0.2"
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: gstreamer
+  name: cairo[X,xcb(+)]
   
   version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: libinput
+  
+  version: 0.8.0
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: wayland-protocols
   
   version: "1.18"
 - 
-  category: media-libs
+  category: sys-auth
   description: ""
+  id: 0
   license: ""
-  name: libpng
+  name: pambase
   
   version: ""
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: pixman
+  name: libXcursor
   
-  version: 0.25.2
+  version: ""
 - 
-  category: sys-apps
+  category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: systemd
+  name: libwebp
   
-  version: "209"
+  version: ""
+- 
+  category: virtual
+  description: ""
+  id: 0
+  license: ""
+  name: udev
+  
+  version: "136"
 uri: []
 use_flags:
 - colord

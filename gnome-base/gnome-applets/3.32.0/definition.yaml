@@ -1,40 +1,78 @@
 category: gnome-base
 conflicts: []
 description: Applets for the GNOME Flashback Panel
+id: 0
 license: GPL-2+ FDL-1.1
 name: gnome-applets
 requires:
 - 
-  category: gnome-base
+  category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: gnome-panel
+  name: gtk+
   
-  version: 3.24.1
+  version: 3.20.0
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libnotify
   
   version: "0.7"
 - 
-  category: gnome-base
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: libgtop
+  name: dbus-glib
   
-  version: 2.11.92
+  version: "0.74"
 - 
-  category: sys-power
+  category: x11-themes
   description: ""
+  id: 0
   license: ""
-  name: upower
+  name: adwaita-icon-theme
   
-  version: 0.9.4
+  version: 3.14.0
+- 
+  category: sys-auth
+  description: ""
+  id: 0
+  license: ""
+  name: polkit
+  
+  version: "0.97"
+- 
+  category: x11-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libwnck
+  
+  version: 3.14.1
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  
+  version: 1.1.2
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libgweather
+  
+  version: 3.28.0
 - 
   category: gnome-extra
   description: ""
+  id: 0
   license: ""
   name: gucharmap
   
@@ -42,41 +80,7 @@ requires:
 - 
   category: x11-libs
   description: ""
-  license: ""
-  name: gtk+
-  
-  version: 3.20.0
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: 1.1.2
-- 
-  category: x11-themes
-  description: ""
-  license: ""
-  name: adwaita-icon-theme
-  
-  version: 3.14.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libxml2
-  
-  version: 2.5.0
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libgweather
-  
-  version: 3.28.0
-- 
-  category: x11-libs
-  description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -84,31 +88,43 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: glib
   
   version: 2.44.0
 - 
-  category: x11-libs
+  category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: libwnck
+  name: gnome-panel
   
-  version: 3.14.1
+  version: 3.24.1
+- 
+  category: gnome-base
+  description: ""
+  id: 0
+  license: ""
+  name: libgtop
+  
+  version: 2.11.92
+- 
+  category: sys-power
+  description: ""
+  id: 0
+  license: ""
+  name: upower
+  
+  version: 0.9.4
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: dbus-glib
+  name: libxml2
   
-  version: "0.74"
-- 
-  category: sys-auth
-  description: ""
-  license: ""
-  name: polkit
-  
-  version: "0.97"
+  version: 2.5.0
 uri: []
 use_flags:
 - ipv6

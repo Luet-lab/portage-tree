@@ -1,26 +1,54 @@
 category: media-gfx
 conflicts: []
 description: Simple document scanning utility
+id: 0
 license: GPL-3+
 name: simple-scan
 requires:
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libwebp
+  
+  version: ""
+- 
+  category: x11-misc
+  description: ""
+  id: 0
+  license: ""
+  name: xdg-utils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: glib
+  
+  version: "2.38"
+- 
+  category: x11-misc
+  description: ""
+  id: 0
+  license: ""
+  name: colord
+  
+  version: 0.1.24
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: gtk+
+  name: cairo
   
-  version: "3.22"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: zlib
-  
-  version: 1.2.3.1
+  version: ""
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: gdk-pixbuf
   
@@ -28,41 +56,15 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libgusb
   
   version: 0.2.7
 - 
-  category: x11-misc
-  description: ""
-  license: ""
-  name: colord
-  
-  version: 0.1.24
-- 
-  category: media-libs
-  description: ""
-  license: ""
-  name: libwebp
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.38"
-- 
-  category: x11-libs
-  description: ""
-  license: ""
-  name: cairo
-  
-  version: ""
-- 
   category: media-gfx
   description: ""
+  id: 0
   license: ""
   name: sane-backends
   
@@ -70,17 +72,27 @@ requires:
 - 
   category: virtual
   description: ""
+  id: 0
   license: ""
   name: jpeg
   
   version: ""
 - 
-  category: x11-misc
+  category: x11-libs
   description: ""
+  id: 0
   license: ""
-  name: xdg-utils
+  name: gtk+
   
-  version: ""
+  version: "3.22"
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  
+  version: 1.2.3.1
 uri: []
 use_flags:
 - colord

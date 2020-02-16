@@ -1,68 +1,54 @@
 category: media-video
 conflicts: []
 description: A cheesy program to take pictures and videos from your webcam
+id: 0
 license: GPL-2+
 name: cheese
 requires:
 - 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libcanberra
+  
+  version: "0.26"
+- 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libXtst
   
   version: ""
 - 
-  category: media-libs
+  category: media-plugins
   description: ""
+  id: 0
   license: ""
-  name: clutter-gst
+  name: gst-plugins-v4l2
   
-  version: ""
-- 
-  category: media-video
-  description: ""
-  license: ""
-  name: gnome-video-effects
-  
-  version: ""
+  version: "1.4"
 - 
   category: dev-libs
   description: ""
-  license: ""
-  name: gobject-introspection
-  
-  version: 0.6.7
-- 
-  category: dev-libs
-  description: ""
+  id: 0
   license: ""
   name: glib
   
   version: 2.39.90
 - 
-  category: gnome-base
-  description: ""
-  license: ""
-  name: gnome-desktop
-  
-  version: 2.91.6
-- 
   category: media-libs
   description: ""
+  id: 0
   license: ""
-  name: gst-plugins-good
+  name: clutter-gst
   
-  version: "1.4"
+  version: ""
 - 
   category: media-plugins
   description: ""
-  license: ""
-  name: gst-plugins-jpeg
-  
-  version: "1.4"
-- 
-  category: media-plugins
-  description: ""
+  id: 0
   license: ""
   name: gst-plugins-vpx
   
@@ -70,13 +56,7 @@ requires:
 - 
   category: media-libs
   description: ""
-  license: ""
-  name: libcanberra
-  
-  version: "0.26"
-- 
-  category: media-libs
-  description: ""
+  id: 0
   license: ""
   name: clutter-gtk
   
@@ -84,6 +64,7 @@ requires:
 - 
   category: x11-libs
   description: ""
+  id: 0
   license: ""
   name: libX11
   
@@ -91,17 +72,51 @@ requires:
 - 
   category: media-libs
   description: ""
+  id: 0
   license: ""
   name: gst-plugins-bad
   
   version: "1.4"
 - 
-  category: media-plugins
+  category: gnome-base
   description: ""
+  id: 0
   license: ""
-  name: gst-plugins-v4l2
+  name: gnome-desktop
+  
+  version: 2.91.6
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  
+  version: 0.6.7
+- 
+  category: media-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-good
   
   version: "1.4"
+- 
+  category: media-plugins
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-jpeg
+  
+  version: "1.4"
+- 
+  category: media-video
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-video-effects
+  
+  version: ""
 uri: []
 use_flags:
 - +introspection

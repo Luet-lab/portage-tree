@@ -1,40 +1,30 @@
 category: net-analyzer
 conflicts: []
 description: The de facto standard for intrusion detection/prevention
+id: 0
 license: GPL-2
 name: snort
 requires:
 - 
   category: net-libs
   description: ""
-  license: ""
-  name: libtirpc
-  
-  version: ""
-- 
-  category: sec-policy
-  description: ""
-  license: ""
-  name: selinux-snort
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
+  id: 0
   license: ""
   name: libpcap
   
   version: 1.3.0
 - 
-  category: sys-libs
+  category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: zlib
+  name: libpcre
   
-  version: ""
+  version: "8.33"
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libdnet
   
@@ -42,6 +32,7 @@ requires:
 - 
   category: net-libs
   description: ""
+  id: 0
   license: ""
   name: libnsl
   
@@ -49,24 +40,43 @@ requires:
 - 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: glibc[rpc(-)]
+  name: zlib
   
   version: ""
 - 
   category: net-libs
   description: ""
+  id: 0
+  license: ""
+  name: libtirpc
+  
+  version: ""
+- 
+  category: sec-policy
+  description: ""
+  id: 0
+  license: ""
+  name: selinux-snort
+  
+  version: ""
+- 
+  category: net-libs
+  description: ""
+  id: 0
   license: ""
   name: daq
   
   version: 2.0.2
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: libpcre
+  name: glibc[rpc(-)]
   
-  version: "8.33"
+  version: ""
 uri:
 - https://www.snort.org/downloads/archive/snort/snort-2.9.8.3.tar.gz
 use_flags:

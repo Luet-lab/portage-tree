@@ -1,19 +1,14 @@
 category: sys-auth
 conflicts: []
 description: PAM interface for the S/Key authentication system
+id: 0
 license: GPL-2+
 name: pam_skey
 requires:
 - 
-  category: net-libs
-  description: ""
-  license: ""
-  name: libnsl
-  
-  version: ""
-- 
   category: sys-libs
   description: ""
+  id: 0
   license: ""
   name: pam
   
@@ -21,10 +16,19 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: skey
   
   version: 1.1.5-r4
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libnsl
+  
+  version: ""
 uri:
 - http://dkorunic.net/tarballs/pam_skey-1.1.5.tar.gz
 - https://dev.gentoo.org/~ulm/distfiles/pam_skey-1.1.5-patches-6.tar.xz

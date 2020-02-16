@@ -1,12 +1,22 @@
 category: net-analyzer
 conflicts: []
 description: Nagios Service Check Acceptor
+id: 0
 license: GPL-2
 name: nsca
 requires:
 - 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libmcrypt
+  
+  version: 2.5.1-r4
+- 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: tcp-wrappers
   
@@ -14,17 +24,11 @@ requires:
 - 
   category: sys-apps
   description: ""
+  id: 0
   license: ""
   name: openrc
   
   version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: libmcrypt
-  
-  version: 2.5.1-r4
 uri:
 - mirror://sourceforge/nagios/nsca-2.7.2.tar.gz
 use_flags:

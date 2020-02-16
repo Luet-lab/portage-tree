@@ -1,89 +1,134 @@
 category: net-misc
 conflicts: []
 description: A set of co-operative tools that make networking simple and straightforward
+id: 0
 license: GPL-2+
 name: networkmanager
 requires:
 - 
-  category: net-libs
+  category: virtual
   description: ""
+  id: 0
   license: ""
-  name: libndp
+  name: libudev
   
-  version: ""
-- 
-  category: net-wireless
-  description: ""
-  license: ""
-  name: bluez
-  
-  version: "5"
-- 
-  category: net-firewall
-  description: ""
-  license: ""
-  name: iptables
-  
-  version: ""
+  version: "175"
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
-  name: dhcpcd
+  name: ofono
   
   version: ""
 - 
-  category: dev-libs
+  category: sys-libs
   description: ""
+  id: 0
   license: ""
-  name: nss
+  name: libselinux
   
-  version: "3.11"
+  version: ""
 - 
-  category: net-libs
+  category: sys-process
   description: ""
+  id: 0
   license: ""
-  name: gnutls
-  
-  version: "2.12"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: libteam
-  
-  version: "1.9"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: dbus
-  
-  version: "1.2"
-- 
-  category: net-misc
-  description: ""
-  license: ""
-  name: iputils
+  name: audit
   
   version: ""
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
-  name: elogind
+  name: consolekit
   
-  version: "219"
+  version: 1.0.0
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: gnutls
+  
+  version: "2.12"
+- 
+  category: net-dialup
+  description: ""
+  id: 0
+  license: ""
+  name: ppp
+  
+  version: 2.4.5
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: gobject-introspection
+  name: glib
   
-  version: 0.10.3
+  version: "2.40"
+- 
+  category: net-libs
+  description: ""
+  id: 0
+  license: ""
+  name: libndp
+  
+  version: ""
+- 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  
+  version: ""
 - 
   category: dev-libs
   description: ""
+  id: 0
+  license: ""
+  name: newt
+  
+  version: 0.52.15
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: jansson
+  
+  version: ""
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: iputils
+  
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: jansson
+  
+  version: "2.5"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
   license: ""
   name: libgcrypt
   
@@ -91,62 +136,55 @@ requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
-  name: ofono
+  name: libteam
   
-  version: ""
+  version: "1.9"
 - 
-  category: sys-apps
+  category: net-wireless
   description: ""
+  id: 0
   license: ""
-  name: systemd
+  name: bluez
   
-  version: "209"
-- 
-  category: acct-group
-  description: ""
-  license: ""
-  name: plugdev
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: dbus-glib
-  
-  version: "0.100"
-- 
-  category: sys-apps
-  description: ""
-  license: ""
-  name: util-linux
-  
-  version: ""
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: ""
+  version: "5"
 - 
   category: net-dns
   description: ""
+  id: 0
   license: ""
   name: dnsmasq
   
   version: ""
 - 
-  category: net-wireless
+  category: net-misc
   description: ""
+  id: 0
   license: ""
-  name: wpa_supplicant
+  name: dhcpcd
   
-  version: 0.7.3-r3
+  version: ""
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: nss
+  
+  version: "3.11"
+- 
+  category: net-dns
+  description: ""
+  id: 0
+  license: ""
+  name: openresolv
+  
+  version: ""
 - 
   category: net-wireless
   description: ""
+  id: 0
   license: ""
   name: iwd
   
@@ -154,6 +192,7 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
   name: polkit
   
@@ -161,6 +200,7 @@ requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
@@ -168,87 +208,83 @@ requires:
 - 
   category: sys-auth
   description: ""
+  id: 0
   license: ""
-  name: consolekit
+  name: elogind
   
-  version: 1.0.0
+  version: "219"
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
-  name: jansson
+  name: gobject-introspection
   
-  version: ""
-- 
-  category: sys-process
-  description: ""
-  license: ""
-  name: audit
-  
-  version: ""
+  version: 0.10.3
 - 
   category: net-misc
   description: ""
-  license: ""
-  name: dhcp
-  
-  version: "4"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: jansson
-  
-  version: "2.5"
-- 
-  category: net-dns
-  description: ""
-  license: ""
-  name: openresolv
-  
-  version: ""
-- 
-  category: virtual
-  description: ""
-  license: ""
-  name: libudev
-  
-  version: "175"
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: newt
-  
-  version: 0.52.15
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: libselinux
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  license: ""
-  name: glib
-  
-  version: "2.40"
-- 
-  category: net-misc
-  description: ""
+  id: 0
   license: ""
   name: modemmanager
   
   version: 0.7.991
 - 
-  category: net-dialup
+  category: acct-group
   description: ""
+  id: 0
   license: ""
-  name: ppp
+  name: plugdev
   
-  version: 2.4.5
+  version: ""
+- 
+  category: net-wireless
+  description: ""
+  id: 0
+  license: ""
+  name: wpa_supplicant
+  
+  version: 0.7.3-r3
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  
+  version: "1.2"
+- 
+  category: dev-libs
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-glib
+  
+  version: "0.100"
+- 
+  category: net-firewall
+  description: ""
+  id: 0
+  license: ""
+  name: iptables
+  
+  version: ""
+- 
+  category: net-misc
+  description: ""
+  id: 0
+  license: ""
+  name: dhcp
+  
+  version: "4"
+- 
+  category: sys-apps
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  
+  version: "209"
 uri: []
 use_flags:
 - audit

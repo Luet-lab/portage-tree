@@ -1,12 +1,22 @@
 category: app-accessibility
 conflicts: []
 description: Combination editor, browser, and mail client that is 100% text based
+id: 0
 license: GPL-2
 name: edbrowse
 requires:
 - 
+  category: sys-libs
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  
+  version: "6.0"
+- 
   category: dev-lang
   description: ""
+  id: 0
   license: ""
   name: duktape
   
@@ -14,6 +24,7 @@ requires:
 - 
   category: dev-db
   description: ""
+  id: 0
   license: ""
   name: unixODBC
   
@@ -21,6 +32,7 @@ requires:
 - 
   category: app-text
   description: ""
+  id: 0
   license: ""
   name: tidy-html5
   
@@ -28,6 +40,7 @@ requires:
 - 
   category: net-misc
   description: ""
+  id: 0
   license: ""
   name: curl
   
@@ -35,17 +48,11 @@ requires:
 - 
   category: dev-libs
   description: ""
+  id: 0
   license: ""
   name: libpcre
   
   version: "7.8"
-- 
-  category: sys-libs
-  description: ""
-  license: ""
-  name: readline
-  
-  version: "6.0"
 uri:
 - https://github.com/CMB/edbrowse/archive/v3.7.5.1.tar.gz -> edbrowse-3.7.5.1.tar.gz
 use_flags:
