@@ -1,19 +1,15 @@
 category: net-ftp
 conflicts:
-- 
+  
   category: net-ftp
-  description: ""
   id: 0
-  license: ""
-  name: atftp
+  name: netkit-tftp
   
   version: ""
-- 
+  
   category: net-ftp
-  description: ""
   id: 0
-  license: ""
-  name: netkit-tftp
+  name: atftp
   
   version: ""
 description: port of the OpenBSD TFTP server
@@ -21,28 +17,22 @@ id: 0
 license: BSD-4
 name: tftp-hpa
 requires:
-- 
-  category: sys-libs
-  description: ""
+  
+  category: sec-policy
   id: 0
-  license: ""
+  name: selinux-tftp
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
   name: readline
   
   version: ""
-- 
-  category: sys-apps
-  description: ""
-  id: 0
-  license: ""
-  name: tcp-wrappers
   
-  version: ""
-- 
-  category: sec-policy
-  description: ""
+  category: sys-apps
   id: 0
-  license: ""
-  name: selinux-tftp
+  name: tcp-wrappers
   
   version: ""
 uri:

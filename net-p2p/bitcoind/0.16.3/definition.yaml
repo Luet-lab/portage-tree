@@ -5,84 +5,76 @@ id: 0
 license: MIT
 name: bitcoind
 requires:
-- 
-  category: dev-libs
-  description: ""
+  
+  category: net-libs
   id: 0
-  license: ""
+  name: zeromq
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
   name: boost
   
   version: 1.52.0
-- 
-  category: virtual
-  description: ""
-  id: 0
-  license: ""
-  name: bitcoin-leveldb
   
-  version: ""
-- 
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
-  name: openssl
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libressl
-  
-  version: ""
-- 
-  category: net-libs
-  description: ""
-  id: 0
-  license: ""
-  name: miniupnpc
-  
-  version: 1.9.20150916
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
-  name: libevent
-  
-  version: ""
-- 
-  category: dev-libs
-  description: ""
-  id: 0
-  license: ""
   name: libsecp256k1
   
   version: 0.0.0_pre20151118
-- 
+  
   category: dev-libs
-  description: ""
   id: 0
-  license: ""
   name: univalue
   
   version: ""
-- 
-  category: sys-libs
-  description: ""
+  
+  category: virtual
   id: 0
-  license: ""
-  name: db
+  name: bitcoin-leveldb
   
   version: ""
-- 
-  category: net-libs
-  description: ""
+  
+  category: dev-libs
   id: 0
-  license: ""
-  name: zeromq
+  name: openssl
+  
+  version: ""
+  
+  category: net-libs
+  id: 0
+  name: miniupnpc
+  
+  version: 1.9.20150916
+  
+  category: acct-group
+  id: 0
+  name: bitcoin
+  
+  version: ""
+  
+  category: acct-user
+  id: 0
+  name: bitcoin
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libevent
+  
+  version: ""
+  
+  category: dev-libs
+  id: 0
+  name: libressl
+  
+  version: ""
+  
+  category: sys-libs
+  id: 0
+  name: db
   
   version: ""
 uri:
@@ -92,7 +84,6 @@ uri:
   -> bitcoin-0.16.3.knots20180918.patches.tar.xz
 use_flags:
 - +asm
-- +bitcoin_policy_rbf
 - examples
 - knots
 - libressl
