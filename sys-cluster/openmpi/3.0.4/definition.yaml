@@ -2,7 +2,7 @@ category: sys-cluster
 conflicts:
   category: sys-cluster
   id: 0
-  name: mpich
+  name: mpich2
   version: ""
   category: sys-cluster
   id: 0
@@ -10,7 +10,7 @@ conflicts:
   version: ""
   category: sys-cluster
   id: 0
-  name: mpich2
+  name: mpich
   version: ""
   category: sys-cluster
   id: 0
@@ -23,36 +23,12 @@ name: openmpi
 requires:
   category: dev-libs
   id: 0
-  name: libevent
-  version: 2.0.22
-  category: dev-libs
-  id: 0
   name: libltdl
-  version: ""
-  category: sys-fabric
-  id: 0
-  name: ofed
   version: ""
   category: sys-cluster
   id: 0
   name: knem
   version: ""
-  category: sys-cluster
-  id: 0
-  name: torque
-  version: ""
-  category: sys-fabric
-  id: 0
-  name: librdmacm
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: 1.2.8-r1
-  category: dev-util
-  id: 0
-  name: nvidia-cuda-toolkit
-  version: 6.5.19-r1
   category: sys-fabric
   id: 0
   name: infinipath-psm
@@ -61,10 +37,34 @@ requires:
   id: 0
   name: jre
   version: "1.6"
+  category: sys-fabric
+  id: 0
+  name: ofed
+  version: ""
   category: sys-cluster
   id: 0
   name: slurm
   version: ""
+  category: sys-fabric
+  id: 0
+  name: librdmacm
+  version: ""
+  category: sys-cluster
+  id: 0
+  name: torque
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libevent
+  version: 2.0.22
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: 1.2.8-r1
+  category: dev-util
+  id: 0
+  name: nvidia-cuda-toolkit
+  version: 6.5.19-r1
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-3.0.4.tar.bz2
 use_flags:

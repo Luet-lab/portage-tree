@@ -6,6 +6,10 @@ license: Apache-2.0 Apache-2.0-with-LLVM-exceptions Boost-1.0 BSD BSD-2 CC0-1.0 
   ISC MIT MPL-2.0 Unlicense WTFPL-2 ZLIB
 name: alacritty
 requires:
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
   category: x11-libs
   id: 0
   name: libxcb
@@ -18,17 +22,13 @@ requires:
   id: 0
   name: libXcursor
   version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
   category: virtual
   id: 0
   name: opengl
   version: ""
   category: media-libs
   id: 0
-  name: fontconfig
+  name: freetype
   version: ""
   category: sys-libs
   id: 0
@@ -36,11 +36,11 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXrandr
+  name: libXi
   version: ""
-  category: media-libs
+  category: x11-libs
   id: 0
-  name: freetype
+  name: libXrandr
   version: ""
 uri:
 - https://github.com/jwilm/alacritty/archive/v0.4.1.tar.gz -> alacritty-0.4.1.tar.gz

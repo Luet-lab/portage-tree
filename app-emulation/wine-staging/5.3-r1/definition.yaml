@@ -9,89 +9,41 @@ id: 0
 license: LGPL-2.1
 name: wine-staging
 requires:
-  category: media-plugins
+  category: media-libs
   id: 0
-  name: gst-plugins-meta
+  name: libgphoto2
   version: ""
   category: virtual
   id: 0
   name: jpeg
   version: ""
-  category: media-libs
+  category: app-emulation
   id: 0
-  name: libv4l
+  name: vkd3d
   version: ""
-  category: net-print
+  category: dev-lang
   id: 0
-  name: cups
-  version: ""
-  category: media-sound
-  id: 0
-  name: pulseaudio
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-wine
-  version: ""
-  category: media-libs
-  id: 0
-  name: lcms
+  name: perl
   version: ""
   category: x11-libs
   id: 0
-  name: libXrandr
-  version: ""
-  category: app-emulation
-  id: 0
-  name: faudio
-  version: ""
-  category: net-nds
-  id: 0
-  name: openldap
-  version: ""
-  category: net-fs
-  id: 0
-  name: samba[netapi(+),]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libxslt
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXfixes
-  version: ""
-  category: media-gfx
-  id: 0
-  name: sane-backends
-  version: ""
-  category: app-eselect
-  id: 0
-  name: eselect-wine
-  version: "0.3"
-  category: app-emulation
-  id: 0
-  name: wine-gecko
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libgcrypt
-  version: ""
-  category: app-emulation
-  id: 0
-  name: wine-mono
+  name: libXcursor
   version: ""
   category: virtual
   id: 0
-  name: krb5
+  name: opencl
   version: ""
-  category: media-libs
+  category: x11-libs
   id: 0
-  name: fontconfig
+  name: cairo
+  version: ""
+  category: dev-perl
+  id: 0
+  name: XML-Simple
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXi
   version: ""
   category: dev-libs
   id: 0
@@ -101,81 +53,9 @@ requires:
   id: 0
   name: gtk+
   version: ""
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: libva[X,]
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXinerama
-  version: ""
-  category: dev-perl
-  id: 0
-  name: XML-Simple
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: ""
-  category: virtual
-  id: 0
-  name: opengl
-  version: ""
-  category: media-libs
-  id: 0
-  name: freetype
-  version: 2.0.0
-  category: x11-libs
-  id: 0
-  name: libXcursor
-  version: ""
-  category: media-libs
-  id: 0
-  name: libpng
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXcomposite
-  version: ""
-  category: games-emulation
-  id: 0
-  name: dosbox
-  version: 0.74_p20160629
-  category: dev-db
-  id: 0
-  name: unixODBC
-  version: ""
-  category: virtual
-  id: 0
-  name: libudev
-  version: ""
-  category: sys-devel
-  id: 0
-  name: gettext
-  version: ""
-  category: media-libs
-  id: 0
-  name: openal
-  version: ""
-  category: virtual
-  id: 0
-  name: opencl
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsdl2
-  version: ""
-  category: x11-libs
-  id: 0
-  name: cairo
-  version: ""
-  category: net-fs
-  id: 0
-  name: samba
-  version: 3.0.25
-  category: net-libs
-  id: 0
-  name: libcapi
+  name: libxml2
   version: ""
   category: media-libs
   id: 0
@@ -183,31 +63,79 @@ requires:
   version: ""
   category: virtual
   id: 0
-  name: glu
+  name: krb5
   version: ""
-  category: dev-lang
+  category: media-plugins
   id: 0
-  name: perl
+  name: gst-plugins-meta
+  version: ""
+  category: media-libs
+  id: 0
+  name: libv4l
+  version: ""
+  category: sys-auth
+  id: 0
+  name: rtkit
   version: ""
   category: x11-libs
   id: 0
-  name: libXi
+  name: libXext
   version: ""
+  category: x11-libs
+  id: 0
+  name: libXcomposite
+  version: ""
+  category: media-sound
+  id: 0
+  name: pulseaudio
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libgcrypt
+  version: ""
+  category: net-libs
+  id: 0
+  name: libcapi
+  version: ""
+  category: sys-devel
+  id: 0
+  name: gettext
+  version: ""
+  category: media-libs
+  id: 0
+  name: mesa
+  version: "13"
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: "5.2"
+  category: dev-db
+  id: 0
+  name: unixODBC
+  version: ""
+  category: media-libs
+  id: 0
+  name: libpng
+  version: ""
+  category: sys-apps
+  id: 0
+  name: attr
+  version: ""
+  category: virtual
+  id: 0
+  name: libudev
+  version: ""
+  category: net-fs
+  id: 0
+  name: samba
+  version: 3.0.25
   category: sys-fs
   id: 0
   name: udisks
   version: ""
-  category: media-sound
+  category: x11-libs
   id: 0
-  name: mpg123
-  version: 1.5.0
-  category: media-sound
-  id: 0
-  name: gsm
-  version: ""
-  category: app-emulation
-  id: 0
-  name: vkd3d
+  name: libXfixes
   version: ""
   category: media-libs
   id: 0
@@ -215,47 +143,119 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libxml2
+  name: libxslt
+  version: ""
+  category: app-emulation
+  id: 0
+  name: wine-gecko
+  version: ""
+  category: virtual
+  id: 0
+  name: glu
+  version: ""
+  category: media-sound
+  id: 0
+  name: gsm
   version: ""
   category: media-libs
   id: 0
-  name: alsa-lib
+  name: lcms
   version: ""
-  category: sys-auth
+  category: net-fs
   id: 0
-  name: rtkit
+  name: samba[netapi(+),]
   version: ""
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: "5.2"
   category: net-libs
   id: 0
   name: libpcap
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
+  version: ""
+  category: virtual
+  id: 0
+  name: opengl
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsdl2
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: 2.0.0
+  category: games-emulation
+  id: 0
+  name: dosbox
+  version: 0.74_p20160629
+  category: app-emulation
+  id: 0
+  name: wine-mono
+  version: ""
+  category: net-nds
+  id: 0
+  name: openldap
+  version: ""
+  category: media-sound
+  id: 0
+  name: mpg123
+  version: 1.5.0
+  category: net-print
+  id: 0
+  name: cups
+  version: ""
+  category: media-gfx
+  id: 0
+  name: sane-backends
   version: ""
   category: net-libs
   id: 0
   name: gnutls
   version: ""
-  category: media-libs
+  category: x11-libs
   id: 0
-  name: mesa
-  version: "13"
-  category: media-libs
-  id: 0
-  name: libgphoto2
+  name: libXinerama
   version: ""
-  category: sys-apps
+  category: media-libs
   id: 0
-  name: attr
+  name: openal
   version: ""
   category: app-emulation
   id: 0
   name: wine-desktop-common
   version: ""
+  category: sec-policy
+  id: 0
+  name: selinux-wine
+  version: ""
+  category: media-libs
+  id: 0
+  name: alsa-lib
+  version: ""
+  category: app-emulation
+  id: 0
+  name: faudio
+  version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
   category: x11-libs
   id: 0
-  name: libXxf86vm
+  name: libva[X,]
+  version: ""
+  category: app-eselect
+  id: 0
+  name: eselect-wine
+  version: "0.3"
+  category: x11-libs
+  id: 0
+  name: libXrandr
   version: ""
 uri:
 - https://dl.winehq.org/wine/source/.x/wine-5.3.tar.xz

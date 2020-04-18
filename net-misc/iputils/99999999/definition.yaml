@@ -4,26 +4,30 @@ conflicts:
   id: 0
   name: arping
   version: ""
-  category: net-analyzer
-  id: 0
-  name: traceroute
-  version: ""
   category: net-misc
   id: 0
   name: rarpd
+  version: ""
+  category: net-analyzer
+  id: 0
+  name: traceroute
   version: ""
 description: Network monitoring tools including ping and ping6
 id: 0
 license: BSD GPL-2+ rdisc
 name: iputils
 requires:
+  category: sys-libs
+  id: 0
+  name: libcap
+  version: ""
   category: net-dns
   id: 0
   name: libidn2
   version: ""
-  category: dev-libs
+  category: sys-devel
   id: 0
-  name: openssl
+  name: gettext
   version: ""
   category: dev-libs
   id: 0
@@ -37,13 +41,9 @@ requires:
   id: 0
   name: libressl
   version: ""
-  category: sys-devel
+  category: dev-libs
   id: 0
-  name: gettext
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libcap
+  name: openssl
   version: ""
 use_flags:
 - +arping

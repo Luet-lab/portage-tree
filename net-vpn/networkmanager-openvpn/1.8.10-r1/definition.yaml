@@ -5,6 +5,14 @@ id: 0
 license: GPL-2+
 name: networkmanager-openvpn
 requires:
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.32"
+  category: net-misc
+  id: 0
+  name: networkmanager
+  version: 1.7.0
   category: net-vpn
   id: 0
   name: openvpn
@@ -21,14 +29,6 @@ requires:
   id: 0
   name: gtk+
   version: "3.4"
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.32"
-  category: net-misc
-  id: 0
-  name: networkmanager
-  version: 1.7.0
 use_flags:
 - gtk
 - test

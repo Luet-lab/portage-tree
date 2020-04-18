@@ -5,42 +5,18 @@ id: 0
 license: BSD GPL-2
 name: openssh
 requires:
-  category: sys-auth
-  id: 0
-  name: pambase
-  version: "20081028"
   category: acct-group
   id: 0
   name: sshd
-  version: ""
-  category: sys-process
-  id: 0
-  name: audit
   version: ""
   category: net-libs
   id: 0
   name: ldns[ecdsa,ssl(+)]
   version: ""
-  category: net-misc
-  id: 0
-  name: lksctp-tools
-  version: ""
   category: dev-libs
   id: 0
-  name: openssl
+  name: libressl
   version: ""
-  category: net-libs
-  id: 0
-  name: ldns
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libselinux
-  version: "1.28"
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: 1.1.0g
   category: virtual
   id: 0
   name: libcrypt
@@ -49,25 +25,45 @@ requires:
   id: 0
   name: pam
   version: ""
+  category: virtual
+  id: 0
+  name: krb5
+  version: ""
+  category: sys-auth
+  id: 0
+  name: pambase
+  version: "20081028"
+  category: dev-libs
+  id: 0
+  name: libedit
+  version: ""
   category: sys-libs
   id: 0
-  name: zlib
-  version: 1.2.3
+  name: libselinux
+  version: "1.28"
+  category: acct-user
+  id: 0
+  name: sshd
+  version: ""
+  category: sys-process
+  id: 0
+  name: audit
+  version: ""
   category: sys-apps
   id: 0
   name: shadow
   version: ""
-  category: acct-user
+  category: net-libs
   id: 0
-  name: sshd
+  name: ldns
   version: ""
   category: net-libs
   id: 0
   name: ldns[-ecdsa,ssl(+)]
   version: ""
-  category: dev-libs
+  category: net-misc
   id: 0
-  name: libedit
+  name: lksctp-tools
   version: ""
   category: dev-libs
   id: 0
@@ -75,12 +71,16 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libressl
-  version: ""
-  category: virtual
+  name: openssl
+  version: 1.1.0g
+  category: dev-libs
   id: 0
-  name: krb5
+  name: openssl
   version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: 1.2.3
   category: x11-apps
   id: 0
   name: xauth

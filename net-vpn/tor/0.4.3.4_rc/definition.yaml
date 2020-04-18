@@ -5,9 +5,9 @@ id: 0
 license: BSD GPL-2
 name: tor
 requires:
-  category: acct-group
+  category: sys-libs
   id: 0
-  name: tor
+  name: libcap
   version: ""
   category: app-text
   id: 0
@@ -17,14 +17,30 @@ requires:
   id: 0
   name: openssl
   version: ""
-  category: dev-libs
-  id: 0
-  name: libressl
-  version: ""
   category: sys-libs
   id: 0
   name: libseccomp
   version: 2.4.1
+  category: dev-libs
+  id: 0
+  name: libevent
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: app-arch
+  id: 0
+  name: zstd
+  version: ""
+  category: acct-group
+  id: 0
+  name: tor
+  version: ""
+  category: app-crypt
+  id: 0
+  name: libscrypt
+  version: ""
   category: sec-policy
   id: 0
   name: selinux-tor
@@ -37,29 +53,13 @@ requires:
   id: 0
   name: xz-utils
   version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
   category: dev-libs
   id: 0
-  name: libevent
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libcap
-  version: ""
-  category: app-crypt
-  id: 0
-  name: libscrypt
+  name: libressl
   version: ""
   category: sys-apps
   id: 0
   name: systemd
-  version: ""
-  category: app-arch
-  id: 0
-  name: zstd
   version: ""
 uri:
 - https://www.torproject.org/dist/tor-.tar.gz

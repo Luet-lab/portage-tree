@@ -5,6 +5,14 @@ id: 0
 license: GPL-2+
 name: sound-juicer
 requires:
+  category: app-text
+  id: 0
+  name: iso-codes
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.49.5
   category: app-cdr
   id: 0
   name: brasero
@@ -12,10 +20,6 @@ requires:
   category: gnome-base
   id: 0
   name: gsettings-desktop-schemas
-  version: ""
-  category: media-libs
-  id: 0
-  name: gstreamer
   version: ""
   category: media-plugins
   id: 0
@@ -25,10 +29,6 @@ requires:
   id: 0
   name: gvfs
   version: ""
-  category: app-text
-  id: 0
-  name: iso-codes
-  version: ""
   category: x11-libs
   id: 0
   name: gtk+
@@ -37,14 +37,6 @@ requires:
   id: 0
   name: libcanberra
   version: ""
-  category: media-libs
-  id: 0
-  name: musicbrainz
-  version: 5.0.1
-  category: dev-libs
-  id: 0
-  name: glib
-  version: 2.49.5
   category: sys-apps
   id: 0
   name: dbus
@@ -53,6 +45,14 @@ requires:
   id: 0
   name: libdiscid
   version: 0.4.0
+  category: media-libs
+  id: 0
+  name: musicbrainz
+  version: 5.0.1
+  category: media-libs
+  id: 0
+  name: gstreamer
+  version: ""
 use_flags:
 - debug
 - flac

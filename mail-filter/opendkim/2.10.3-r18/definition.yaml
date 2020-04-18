@@ -5,29 +5,29 @@ id: 0
 license: BSD GPL-2 Sendmail-Open-Source
 name: opendkim
 requires:
+  category: sys-libs
+  id: 0
+  name: db
+  version: "3.2"
+  category: net-nds
+  id: 0
+  name: openldap
+  version: ""
   category: dev-libs
   id: 0
-  name: libmemcached
+  name: cyrus-sasl
   version: ""
   category: net-dns
   id: 0
   name: unbound
   version: 1.4.1
-  category: net-dns
+  category: acct-user
   id: 0
-  name: dnssec-root
+  name: opendkim
   version: ""
   category: sys-process
   id: 0
   name: psmisc
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-dkim
-  version: ""
-  category: net-nds
-  id: 0
-  name: openldap
   version: ""
   category: dev-db
   id: 0
@@ -43,20 +43,20 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: cyrus-sasl
+  name: libmemcached
+  version: ""
+  category: net-dns
+  id: 0
+  name: dnssec-root
   version: ""
   category: net-libs
   id: 0
   name: ldns
   version: ""
-  category: acct-user
+  category: sec-policy
   id: 0
-  name: opendkim
+  name: selinux-dkim
   version: ""
-  category: sys-libs
-  id: 0
-  name: db
-  version: "3.2"
 uri:
 - https://downloads.sourceforge.net/project/opendkim/opendkim-2.10.3.tar.gz
 use_flags:

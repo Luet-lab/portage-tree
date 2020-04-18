@@ -7,28 +7,20 @@ name: libblockdev
 requires:
   category: sys-fs
   id: 0
-  name: lvm2
-  version: ""
+  name: cryptsetup
+  version: 1.6.7
   category: sys-fs
   id: 0
-  name: dmraid
+  name: lvm2
   version: ""
   category: dev-libs
   id: 0
-  name: nss
-  version: 3.18.0
+  name: libyaml
+  version: ""
   category: dev-libs
   id: 0
   name: libbytesize
   version: ""
-  category: sys-apps
-  id: 0
-  name: kmod
-  version: "19"
-  category: sys-apps
-  id: 0
-  name: util-linux
-  version: "2.27"
   category: sys-block
   id: 0
   name: parted
@@ -37,10 +29,14 @@ requires:
   id: 0
   name: volume_key
   version: ""
+  category: dev-libs
+  id: 0
+  name: nss
+  version: 3.18.0
   category: sys-fs
   id: 0
-  name: cryptsetup
-  version: 1.6.7
+  name: dmraid
+  version: ""
   category: virtual
   id: 0
   name: udev
@@ -49,10 +45,14 @@ requires:
   id: 0
   name: glib
   version: 2.42.2
-  category: dev-libs
+  category: sys-apps
   id: 0
-  name: libyaml
-  version: ""
+  name: kmod
+  version: "19"
+  category: sys-apps
+  id: 0
+  name: util-linux
+  version: "2.27"
 uri:
 - https://github.com/storaged-project/libblockdev/releases/download/2.22-1/libblockdev-2.22.tar.gz
 use_flags:

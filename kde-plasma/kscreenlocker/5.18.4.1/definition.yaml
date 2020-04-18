@@ -5,21 +5,13 @@ id: 0
 license: GPL-2
 name: kscreenlocker
 requires:
-  category: dev-qt
-  id: 0
-  name: qtdeclarative
-  version: 5.12.3
   category: kde-frameworks
   id: 0
-  name: kpackage
+  name: kcmutils
   version: 5.66.0
   category: kde-frameworks
   id: 0
-  name: kxmlgui
-  version: 5.66.0
-  category: kde-frameworks
-  id: 0
-  name: knotifications
+  name: kconfig
   version: 5.66.0
   category: x11-libs
   id: 0
@@ -27,40 +19,52 @@ requires:
   version: ""
   category: kde-frameworks
   id: 0
-  name: kcmutils
+  name: kdeclarative
   version: 5.66.0
   category: kde-frameworks
   id: 0
-  name: kcoreaddons
+  name: kwindowsystem
   version: 5.66.0
-  category: dev-qt
+  category: sys-libs
   id: 0
-  name: qtgui
-  version: 5.12.3
-  category: dev-qt
-  id: 0
-  name: qtnetwork
-  version: 5.12.3
-  category: x11-libs
-  id: 0
-  name: libxcb
+  name: pam
   version: ""
-  category: kde-frameworks
-  id: 0
-  name: kconfigwidgets
-  version: 5.66.0
   category: dev-qt
   id: 0
-  name: qtdbus
+  name: qtwidgets
   version: 5.12.3
+  category: kde-frameworks
+  id: 0
+  name: kidletime
+  version: 5.66.0
+  category: kde-frameworks
+  id: 0
+  name: kpackage
+  version: 5.66.0
   category: x11-libs
   id: 0
   name: libX11
   version: ""
-  category: sys-libs
+  category: x11-libs
   id: 0
-  name: libseccomp
+  name: libxcb
   version: ""
+  category: x11-libs
+  id: 0
+  name: xcb-util-keysyms
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: kcoreaddons
+  version: 5.66.0
+  category: kde-frameworks
+  id: 0
+  name: kcrash
+  version: 5.66.0
+  category: kde-frameworks
+  id: 0
+  name: knotifications
+  version: 5.66.0
   category: dev-qt
   id: 0
   name: qtx11extras
@@ -69,45 +73,21 @@ requires:
   id: 0
   name: wayland
   version: ""
-  category: kde-frameworks
-  id: 0
-  name: ktextwidgets
-  version: 5.66.0
   category: dev-qt
   id: 0
-  name: qtwidgets
+  name: qtgui
   version: 5.12.3
-  category: sys-auth
+  category: dev-qt
   id: 0
-  name: consolekit
-  version: ""
-  category: sys-libs
-  id: 0
-  name: pam
-  version: ""
+  name: qtnetwork
+  version: 5.12.3
   category: kde-frameworks
   id: 0
-  name: kconfig
+  name: kconfigwidgets
   version: 5.66.0
   category: kde-frameworks
   id: 0
-  name: kcrash
-  version: 5.66.0
-  category: kde-frameworks
-  id: 0
-  name: solid
-  version: 5.66.0
-  category: x11-libs
-  id: 0
-  name: xcb-util-keysyms
-  version: ""
-  category: kde-frameworks
-  id: 0
-  name: kidletime
-  version: 5.66.0
-  category: kde-frameworks
-  id: 0
-  name: kwindowsystem
+  name: kglobalaccel
   version: 5.66.0
   category: kde-frameworks
   id: 0
@@ -119,12 +99,32 @@ requires:
   version: 5.66.0
   category: kde-frameworks
   id: 0
-  name: kdeclarative
+  name: kxmlgui
   version: 5.66.0
   category: kde-frameworks
   id: 0
-  name: kglobalaccel
+  name: solid
   version: 5.66.0
+  category: sys-auth
+  id: 0
+  name: consolekit
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libseccomp
+  version: ""
+  category: kde-frameworks
+  id: 0
+  name: ktextwidgets
+  version: 5.66.0
+  category: dev-qt
+  id: 0
+  name: qtdbus
+  version: 5.12.3
+  category: dev-qt
+  id: 0
+  name: qtdeclarative
+  version: 5.12.3
 use_flags:
 - consolekit
 - +pam

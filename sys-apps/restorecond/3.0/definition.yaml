@@ -9,6 +9,14 @@ id: 0
 license: GPL-2
 name: restorecond
 requires:
+  category: sys-libs
+  id: 0
+  name: libselinux
+  version: "3.0"
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: ""
   category: dev-libs
   id: 0
   name: libpcre
@@ -21,14 +29,6 @@ requires:
   id: 0
   name: libsepol
   version: "3.0"
-  category: sys-libs
-  id: 0
-  name: libselinux
-  version: "3.0"
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: ""
 uri:
 - https://github.com/SELinuxProject/selinux/releases/download/20191204/restorecond-3.0.tar.gz
 use_flags:

@@ -6,53 +6,29 @@ license: Apache-2.0 Boost-1.0 BSD BSD-1 BSD-2 CC0-1.0 LGPL-3 MIT public-domain u
   ZLIB
 name: rspamd
 requires:
-  category: acct-group
+  category: sci-libs
   id: 0
-  name: rspamd
+  name: openblas
   version: ""
-  category: app-arch
+  category: dev-lang
   id: 0
-  name: zstd
-  version: ""
-  category: sys-apps
-  id: 0
-  name: file
+  name: luajit
   version: ""
   category: dev-lua
   id: 0
   name: lpeg
   version: ""
-  category: dev-lang
+  category: dev-libs
   id: 0
-  name: lua
+  name: openssl
   version: ""
   category: dev-libs
   id: 0
-  name: libressl
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libev
-  version: ""
-  category: dev-libs
-  id: 0
-  name: hyperscan
-  version: ""
-  category: dev-libs
-  id: 0
-  name: jemalloc
+  name: libpcre[jit=]
   version: ""
   category: acct-user
   id: 0
   name: rspamd
-  version: ""
-  category: dev-libs
-  id: 0
-  name: icu
   version: ""
   category: dev-libs
   id: 0
@@ -66,13 +42,29 @@ requires:
   id: 0
   name: libnsl
   version: ""
-  category: sci-libs
-  id: 0
-  name: openblas
-  version: ""
   category: dev-lang
   id: 0
-  name: luajit
+  name: lua
+  version: ""
+  category: app-arch
+  id: 0
+  name: zstd
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libev
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libpcre2[jit=]
+  version: ""
+  category: dev-libs
+  id: 0
+  name: jemalloc
   version: ""
   category: dev-lua
   id: 0
@@ -80,11 +72,19 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: openssl
+  name: libressl
+  version: ""
+  category: sys-apps
+  id: 0
+  name: file
   version: ""
   category: dev-libs
   id: 0
-  name: libpcre[jit=]
+  name: hyperscan
+  version: ""
+  category: acct-group
+  id: 0
+  name: rspamd
   version: ""
   category: dev-db
   id: 0
@@ -92,7 +92,7 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libpcre2[jit=]
+  name: icu
   version: ""
 uri:
 - https://github.com/rspamd/rspamd/archive/2.5.tar.gz -> rspamd-2.5.tar.gz

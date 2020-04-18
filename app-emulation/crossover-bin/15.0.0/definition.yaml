@@ -13,49 +13,29 @@ id: 0
 license: CROSSOVER-3
 name: crossover-bin
 requires:
-  category: sys-devel
+  category: sys-libs
   id: 0
-  name: gettext[abi_x86_32(-)]
+  name: glibc
   version: ""
-  category: virtual
+  category: net-print
   id: 0
-  name: glu[abi_x86_32(-)]
+  name: cups[abi_x86_32(-)]
   version: ""
   category: media-libs
   id: 0
   name: libpng
   version: ""
-  category: media-libs
+  category: media-gfx
   id: 0
-  name: mesa[abi_x86_32(-)]
+  name: sane-backends[abi_x86_32(-)]
   version: ""
-  category: media-libs
+  category: dev-lang
   id: 0
-  name: freetype-2.0.0[abi_x86_32(-)]
+  name: perl
   version: ""
   category: media-sound
   id: 0
-  name: gsm[abi_x86_32(-)]
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXext[abi_x86_32(-)]
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libxcb[abi_x86_32(-)]
-  version: ""
-  category: app-arch
-  id: 0
-  name: unzip
-  version: ""
-  category: dev-util
-  id: 0
-  name: desktop-file-utils
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libSM[abi_x86_32(-)]
+  name: mpg123-1.5.0[abi_x86_32(-)]
   version: ""
   category: x11-libs
   id: 0
@@ -65,17 +45,21 @@ requires:
   id: 0
   name: libXi[abi_x86_32(-)]
   version: ""
-  category: x11-libs
+  category: net-libs
   id: 0
-  name: libXxf86vm[abi_x86_32(-)]
+  name: libcapi[abi_x86_32(-)]
   version: ""
-  category: net-print
+  category: dev-libs
   id: 0
-  name: cups[abi_x86_32(-)]
+  name: openssl
   version: ""
-  category: media-libs
+  category: sys-apps
   id: 0
-  name: lcms
+  name: util-linux[abi_x86_32(-)]
+  version: ""
+  category: sys-devel
+  id: 0
+  name: gettext[abi_x86_32(-)]
   version: ""
   category: media-libs
   id: 0
@@ -83,31 +67,27 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: alsa-lib[abi_x86_32(-)]
-  version: ""
-  category: net-libs
-  id: 0
-  name: libcapi[abi_x86_32(-)]
+  name: openal[abi_x86_32(-)]
   version: ""
   category: virtual
   id: 0
-  name: jpeg[abi_x86_32(-)]
-  version: ""
-  category: media-sound
-  id: 0
-  name: mpg123-1.5.0[abi_x86_32(-)]
-  version: ""
-  category: media-gfx
-  id: 0
-  name: sane-backends[abi_x86_32(-)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
+  name: glu[abi_x86_32(-)]
   version: ""
   category: media-libs
   id: 0
-  name: libv4l[abi_x86_32(-)]
+  name: alsa-lib[abi_x86_32(-)]
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86vm[abi_x86_32(-)]
+  version: ""
+  category: media-sound
+  id: 0
+  name: gsm[abi_x86_32(-)]
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype-2.0.0[abi_x86_32(-)]
   version: ""
   category: sys-libs
   id: 0
@@ -119,43 +99,63 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libX11[abi_x86_32(-)]
+  name: libXext[abi_x86_32(-)]
   version: ""
   category: x11-libs
   id: 0
-  name: libXrandr[abi_x86_32(-)]
-  version: ""
-  category: sys-libs
-  id: 0
-  name: glibc
+  name: libxcb[abi_x86_32(-)]
   version: ""
   category: media-libs
   id: 0
-  name: openal[abi_x86_32(-)]
+  name: lcms
   version: ""
   category: virtual
   id: 0
-  name: opengl[abi_x86_32(-)]
+  name: jpeg[abi_x86_32(-)]
+  version: ""
+  category: sys-libs
+  id: 0
+  name: ncurses-compat
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libSM[abi_x86_32(-)]
   version: ""
   category: x11-libs
   id: 0
   name: libXdmcp[abi_x86_32(-)]
   version: ""
-  category: dev-lang
+  category: x11-libs
   id: 0
-  name: perl
+  name: libXrandr[abi_x86_32(-)]
+  version: ""
+  category: app-arch
+  id: 0
+  name: unzip
   version: ""
   category: net-nds
   id: 0
   name: openldap[abi_x86_32(-)]
   version: ""
-  category: sys-apps
+  category: media-libs
   id: 0
-  name: util-linux[abi_x86_32(-)]
+  name: mesa[abi_x86_32(-)]
   version: ""
-  category: sys-libs
+  category: dev-util
   id: 0
-  name: ncurses-compat
+  name: desktop-file-utils
+  version: ""
+  category: virtual
+  id: 0
+  name: opengl[abi_x86_32(-)]
+  version: ""
+  category: media-libs
+  id: 0
+  name: libv4l[abi_x86_32(-)]
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11[abi_x86_32(-)]
   version: ""
 use_flags:
 - +capi

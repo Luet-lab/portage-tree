@@ -5,9 +5,17 @@ id: 0
 license: LGPL-2.1
 name: spice
 requires:
-  category: sys-libs
+  category: media-libs
   id: 0
-  name: zlib
+  name: gstreamer
+  version: ""
+  category: media-libs
+  id: 0
+  name: gst-plugins-base
+  version: ""
+  category: virtual
+  id: 0
+  name: jpeg
   version: ""
   category: x11-libs
   id: 0
@@ -15,19 +23,11 @@ requires:
   version: 0.17.7
   category: dev-libs
   id: 0
-  name: openssl
-  version: ""
-  category: dev-libs
-  id: 0
   name: libressl
   version: ""
   category: app-arch
   id: 0
   name: lz4
-  version: ""
-  category: media-libs
-  id: 0
-  name: opus
   version: ""
   category: app-emulation
   id: 0
@@ -37,14 +37,6 @@ requires:
   id: 0
   name: cyrus-sasl
   version: ""
-  category: media-libs
-  id: 0
-  name: gstreamer
-  version: ""
-  category: media-libs
-  id: 0
-  name: gst-plugins-base
-  version: ""
   category: dev-lang
   id: 0
   name: orc
@@ -53,9 +45,17 @@ requires:
   id: 0
   name: glib
   version: "2.22"
-  category: virtual
+  category: sys-libs
   id: 0
-  name: jpeg
+  name: zlib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: ""
+  category: media-libs
+  id: 0
+  name: opus
   version: ""
 use_flags:
 - gstreamer

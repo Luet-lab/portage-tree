@@ -1,9 +1,5 @@
 category: sys-fs
 conflicts:
-  category: sys-fs
-  id: 0
-  name: udev
-  version: ""
   category: <sys-libs
   id: 0
   name: glibc
@@ -16,6 +12,10 @@ conflicts:
   id: 0
   name: selinux-base
   version: 2.20120725-r10
+  category: sys-fs
+  id: 0
+  name: udev
+  version: ""
   category: sys-apps
   id: 0
   name: gentoo-systemd-integration
@@ -37,10 +37,6 @@ requires:
   id: 0
   name: libselinux
   version: 2.1.9
-  category: acct-group
-  id: 0
-  name: render
-  version: ""
   category: sys-apps
   id: 0
   name: util-linux
@@ -56,6 +52,10 @@ requires:
   category: acct-group
   id: 0
   name: kvm
+  version: ""
+  category: acct-group
+  id: 0
+  name: render
   version: ""
 uri:
 - https://dev.gentoo.org/~blueness/eudev/eudev-3.2.9.tar.gz

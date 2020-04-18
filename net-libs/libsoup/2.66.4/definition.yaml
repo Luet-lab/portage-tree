@@ -5,6 +5,14 @@ id: 0
 license: LGPL-2.1+
 name: libsoup
 requires:
+  category: net-fs
+  id: 0
+  name: samba
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.38"
   category: dev-db
   id: 0
   name: sqlite
@@ -25,14 +33,6 @@ requires:
   id: 0
   name: gobject-introspection
   version: "1.54"
-  category: net-fs
-  id: 0
-  name: samba
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.38"
 use_flags:
 - gssapi
 - gtk-doc

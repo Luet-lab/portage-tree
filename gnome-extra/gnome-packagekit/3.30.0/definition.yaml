@@ -5,6 +5,14 @@ id: 0
 license: GPL-2
 name: gnome-packagekit
 requires:
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: "42"
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.32"
   category: x11-libs
   id: 0
   name: gtk+
@@ -17,14 +25,6 @@ requires:
   id: 0
   name: polkit
   version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: "42"
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.32"
 use_flags:
 - systemd
 - test

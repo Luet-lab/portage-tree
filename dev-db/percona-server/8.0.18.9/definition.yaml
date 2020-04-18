@@ -2,15 +2,15 @@ category: dev-db
 conflicts:
   category: dev-db
   id: 0
+  name: mariadb-galera
+  version: ""
+  category: dev-db
+  id: 0
   name: mysql
   version: ""
   category: dev-db
   id: 0
   name: mariadb
-  version: ""
-  category: dev-db
-  id: 0
-  name: mariadb-galera
   version: ""
   category: dev-db
   id: 0
@@ -21,33 +21,13 @@ id: 0
 license: GPL-2
 name: percona-server
 requires:
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libevent
-  version: ""
   category: net-misc
   id: 0
   name: curl
   version: ""
-  category: sys-libs
+  category: sec-policy
   id: 0
-  name: zlib
-  version: 1.2.3
-  category: dev-libs
-  id: 0
-  name: libressl
-  version: ""
-  category: sys-process
-  id: 0
-  name: procps
-  version: ""
-  category: sys-process
-  id: 0
-  name: numactl
+  name: selinux-mysql
   version: ""
   category: acct-user
   id: 0
@@ -57,46 +37,58 @@ requires:
   id: 0
   name: mysql-init-scripts
   version: ""
-  category: acct-group
-  id: 0
-  name: mysql
-  version: ""
-  category: dev-libs
-  id: 0
-  name: jemalloc
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libaio
-  version: ""
-  category: sys-libs
-  id: 0
-  name: pam
-  version: ""
-  category: dev-util
-  id: 0
-  name: google-perftools
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-mysql
-  version: ""
   category: app-arch
   id: 0
   name: lz4
   version: 0_p131
+  category: dev-util
+  id: 0
+  name: google-perftools
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: 1.2.3
   category: dev-libs
   id: 0
   name: openssl
   version: 1.0.0
   category: dev-libs
   id: 0
-  name: icu
+  name: libevent
   version: ""
   category: dev-libs
   id: 0
   name: protobuf
   version: "3.8"
+  category: dev-libs
+  id: 0
+  name: libaio
+  version: ""
+  category: sys-process
+  id: 0
+  name: procps
+  version: ""
+  category: sys-process
+  id: 0
+  name: numactl
+  version: ""
+  category: acct-group
+  id: 0
+  name: mysql
+  version: ""
+  category: sys-libs
+  id: 0
+  name: ncurses
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: icu
+  version: ""
   category: net-libs
   id: 0
   name: libtirpc
@@ -104,6 +96,14 @@ requires:
   category: app-text
   id: 0
   name: mecab
+  version: ""
+  category: dev-libs
+  id: 0
+  name: jemalloc
+  version: ""
+  category: sys-libs
+  id: 0
+  name: pam
   version: ""
 uri:
 - https://www.percona.com/downloads/Percona-Server-/Percona-Server-/source/tarball/percona-server-.tar.gz

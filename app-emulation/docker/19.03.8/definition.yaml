@@ -9,34 +9,6 @@ id: 0
 license: Apache-2.0
 name: docker
 requires:
-  category: net-firewall
-  id: 0
-  name: iptables
-  version: "1.4"
-  category: acct-group
-  id: 0
-  name: docker
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libseccomp
-  version: 2.2.1
-  category: app-arch
-  id: 0
-  name: xz-utils
-  version: "4.9"
-  category: sys-process
-  id: 0
-  name: tini
-  version: 0.18.0
-  category: dev-libs
-  id: 0
-  name: libltdl
-  version: ""
-  category: app-emulation
-  id: 0
-  name: docker-proxy
-  version: 0.8.0_p20191011
   category: sys-fs
   id: 0
   name: lvm2
@@ -45,22 +17,50 @@ requires:
   id: 0
   name: libapparmor
   version: ""
-  category: dev-vcs
+  category: dev-libs
   id: 0
-  name: git
-  version: "1.7"
+  name: libltdl
+  version: ""
   category: app-emulation
   id: 0
   name: containerd
   version: 1.2.13
+  category: app-emulation
+  id: 0
+  name: docker-proxy
+  version: 0.8.0_p20191011
   category: dev-db
   id: 0
   name: sqlite
   version: 3.7.9
   category: sys-process
   id: 0
+  name: tini
+  version: 0.18.0
+  category: sys-libs
+  id: 0
+  name: libseccomp
+  version: 2.2.1
+  category: dev-vcs
+  id: 0
+  name: git
+  version: "1.7"
+  category: acct-group
+  id: 0
+  name: docker
+  version: ""
+  category: net-firewall
+  id: 0
+  name: iptables
+  version: "1.4"
+  category: sys-process
+  id: 0
   name: procps
   version: ""
+  category: app-arch
+  id: 0
+  name: xz-utils
+  version: "4.9"
 uri:
 - https://github.com/docker/docker-ce/archive/v19.03.8.tar.gz -> docker-19.03.8.tar.gz
 use_flags:

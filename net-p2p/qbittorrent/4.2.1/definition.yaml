@@ -5,14 +5,18 @@ id: 0
 license: GPL-2
 name: qbittorrent
 requires:
+  category: net-libs
+  id: 0
+  name: libtorrent-rasterbar
+  version: 1.2.0
   category: dev-qt
   id: 0
-  name: qtgui
+  name: qtsvg
   version: ""
-  category: dev-libs
+  category: dev-qt
   id: 0
-  name: boost
-  version: 1.62.0-r1
+  name: qtwidgets
+  version: ""
   category: dev-qt
   id: 0
   name: qtcore
@@ -25,13 +29,13 @@ requires:
   id: 0
   name: qtxml
   version: ""
-  category: net-libs
-  id: 0
-  name: libtorrent-rasterbar
-  version: 1.2.0
   category: sys-libs
   id: 0
   name: zlib
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtdbus
   version: ""
   category: dev-libs
   id: 0
@@ -39,16 +43,12 @@ requires:
   version: ""
   category: dev-qt
   id: 0
-  name: qtsvg
+  name: qtgui
   version: ""
-  category: dev-qt
+  category: dev-libs
   id: 0
-  name: qtwidgets
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtdbus
-  version: ""
+  name: boost
+  version: 1.62.0-r1
 uri:
 - https://github.com/qbittorrent/qBittorrent/archive/release-4.2.1.tar.gz -> qbittorrent-4.2.1.tar.gz
 use_flags:

@@ -9,162 +9,62 @@ id: 0
 license: LGPL-2.1
 name: libvirt
 requires:
-  category: app-misc
-  id: 0
-  name: scrub
-  version: ""
-  category: sys-fs
-  id: 0
-  name: fuse
-  version: ""
-  category: sys-cluster
-  id: 0
-  name: ceph
-  version: ""
-  category: net-firewall
-  id: 0
-  name: iptables
-  version: 1.4.10
-  category: net-analyzer
-  id: 0
-  name: wireshark
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libxml2
-  version: 2.7.6
-  category: net-misc
-  id: 0
-  name: curl
-  version: 7.18.0
-  category: net-libs
-  id: 0
-  name: libssh
-  version: ""
-  category: sys-auth
-  id: 0
-  name: polkit
-  version: "0.9"
-  category: sys-fs
-  id: 0
-  name: zfs
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libpciaccess
-  version: 0.10.9
-  category: net-firewall
-  id: 0
-  name: firewalld
-  version: 0.6.3
-  category: dev-libs
-  id: 0
-  name: cyrus-sasl
-  version: ""
   category: sys-libs
   id: 0
-  name: libselinux
-  version: 2.0.85
-  category: dev-libs
-  id: 0
-  name: libnl
+  name: ncurses
   version: ""
-  category: net-analyzer
-  id: 0
-  name: openbsd-netcat
-  version: 1.105-r1
   category: sys-libs
   id: 0
   name: libapparmor
   version: ""
-  category: net-libs
+  category: dev-libs
   id: 0
-  name: libpcap
-  version: 1.0.0
-  category: sys-process
-  id: 0
-  name: audit
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libcap-ng
+  name: libnl
   version: ""
   category: dev-libs
   id: 0
-  name: libgcrypt
+  name: cyrus-sasl
   version: ""
-  category: sys-devel
+  category: sys-process
   id: 0
-  name: gettext
+  name: numad
   version: ""
   category: sys-libs
   id: 0
   name: readline
   version: ""
-  category: virtual
+  category: sys-fs
   id: 0
-  name: udev
+  name: fuse
   version: ""
-  category: net-libs
+  category: net-misc
   id: 0
-  name: libiscsi
-  version: 1.18.0
-  category: sys-process
+  name: curl
+  version: 7.18.0
+  category: sys-fs
   id: 0
-  name: numad
-  version: ""
-  category: net-libs
-  id: 0
-  name: libtirpc
-  version: ""
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: 1.0.25
-  category: app-emulation
-  id: 0
-  name: xen-tools
-  version: ""
-  category: sys-cluster
-  id: 0
-  name: glusterfs
-  version: 3.4.1
-  category: sys-block
-  id: 0
-  name: open-iscsi
-  version: ""
-  category: net-libs
-  id: 0
-  name: libssh2
-  version: ""
-  category: net-libs
-  id: 0
-  name: rpcsvc-proto
-  version: ""
-  category: app-emulation
-  id: 0
-  name: qemu
-  version: 1.5.0
-  category: sys-apps
-  id: 0
-  name: util-linux
-  version: "2.17"
-  category: sys-libs
-  id: 0
-  name: ncurses
+  name: lvm2[-device-mapper-only(-)]
   version: ""
   category: net-fs
   id: 0
   name: nfs-utils
   version: ""
+  category: sys-process
+  id: 0
+  name: numactl
+  version: 2.0.2
+  category: sys-block
+  id: 0
+  name: open-iscsi
+  version: ""
+  category: app-emulation
+  id: 0
+  name: qemu
+  version: 1.5.0
   category: sys-block
   id: 0
   name: parted
   version: "1.8"
-  category: sys-fs
-  id: 0
-  name: lvm2[-device-mapper-only(-)]
-  version: ""
   category: dev-libs
   id: 0
   name: yajl
@@ -173,54 +73,154 @@ requires:
   id: 0
   name: dnsmasq
   version: ""
+  category: net-libs
+  id: 0
+  name: libssh2
+  version: ""
+  category: sys-cluster
+  id: 0
+  name: glusterfs
+  version: 3.4.1
+  category: net-firewall
+  id: 0
+  name: ebtables
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libgcrypt
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: 1.0.25
+  category: net-libs
+  id: 0
+  name: libiscsi
+  version: 1.18.0
   category: sys-apps
   id: 0
-  name: dmidecode
+  name: iproute2
   version: ""
-  category: sys-process
+  category: net-libs
   id: 0
-  name: numactl
-  version: 2.0.2
+  name: rpcsvc-proto
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libcap-ng
+  version: ""
+  category: net-firewall
+  id: 0
+  name: firewalld
+  version: 0.6.3
+  category: sys-fs
+  id: 0
+  name: lvm2-2.02.48-r2[-device-mapper-only(-)]
+  version: ""
+  category: acct-group
+  id: 0
+  name: libvirt
+  version: ""
+  category: net-analyzer
+  id: 0
+  name: wireshark
+  version: ""
+  category: virtual
+  id: 0
+  name: udev
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libselinux
+  version: 2.0.85
+  category: net-libs
+  id: 0
+  name: libtirpc
+  version: ""
+  category: net-misc
+  id: 0
+  name: radvd
+  version: ""
+  category: acct-user
+  id: 0
+  name: qemu
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.48.0
+  category: sys-apps
+  id: 0
+  name: util-linux
+  version: "2.17"
+  category: sys-devel
+  id: 0
+  name: gettext
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
   category: dev-util
   id: 0
   name: systemtap
   version: ""
   category: sys-apps
   id: 0
-  name: dbus
+  name: dmidecode
   version: ""
-  category: acct-user
+  category: net-firewall
   id: 0
-  name: qemu
+  name: iptables
+  version: 1.4.10
+  category: net-libs
+  id: 0
+  name: libssh
   version: ""
-  category: acct-group
-  id: 0
-  name: libvirt
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: 2.48.0
   category: app-emulation
   id: 0
   name: xen
   version: 4.6.0
+  category: dev-libs
+  id: 0
+  name: libxml2
+  version: 2.7.6
+  category: app-emulation
+  id: 0
+  name: xen-tools
+  version: ""
+  category: net-libs
+  id: 0
+  name: libpcap
+  version: 1.0.0
+  category: sys-cluster
+  id: 0
+  name: ceph
+  version: ""
+  category: sys-process
+  id: 0
+  name: audit
+  version: ""
+  category: sys-auth
+  id: 0
+  name: polkit
+  version: "0.9"
+  category: x11-libs
+  id: 0
+  name: libpciaccess
+  version: 0.10.9
   category: sys-fs
   id: 0
-  name: lvm2-2.02.48-r2[-device-mapper-only(-)]
+  name: zfs
   version: ""
-  category: net-firewall
+  category: app-misc
   id: 0
-  name: ebtables
+  name: scrub
   version: ""
-  category: net-misc
+  category: net-analyzer
   id: 0
-  name: radvd
-  version: ""
-  category: sys-apps
-  id: 0
-  name: iproute2
-  version: ""
+  name: openbsd-netcat
+  version: 1.105-r1
 use_flags:
 - apparmor
 - audit

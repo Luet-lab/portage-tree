@@ -5,13 +5,9 @@ id: 0
 license: GPL-3
 name: tvheadend
 requires:
-  category: sys-apps
+  category: media-libs
   id: 0
-  name: dbus
-  version: ""
-  category: media-tv
-  id: 0
-  name: linuxtv-dvb-apps
+  name: libdvbcsa
   version: ""
   category: media-video
   id: 0
@@ -23,15 +19,19 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: uriparser
-  version: ""
-  category: net-dns
-  id: 0
-  name: avahi
+  name: openssl
   version: ""
   category: sys-libs
   id: 0
   name: zlib
+  version: ""
+  category: media-tv
+  id: 0
+  name: dtv-scan-tables
+  version: ""
+  category: media-tv
+  id: 0
+  name: xmltv
   version: ""
   category: virtual
   id: 0
@@ -39,23 +39,23 @@ requires:
   version: ""
   category: media-tv
   id: 0
-  name: xmltv
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
+  name: linuxtv-dvb-apps
   version: ""
   category: dev-libs
   id: 0
   name: libressl
   version: ""
-  category: media-tv
+  category: dev-libs
   id: 0
-  name: dtv-scan-tables
+  name: uriparser
   version: ""
-  category: media-libs
+  category: net-dns
   id: 0
-  name: libdvbcsa
+  name: avahi
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
   version: ""
 uri:
 - https://github.com/tvheadend/tvheadend/archive/v4.2.8.tar.gz -> tvheadend-4.2.8.tar.gz

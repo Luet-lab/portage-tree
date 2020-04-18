@@ -5,6 +5,22 @@ id: 0
 license: Apache-2.0
 name: erlang
 requires:
+  category: x11-libs
+  id: 0
+  name: wxGTK
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: dev-db
+  id: 0
+  name: unixODBC
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: 0.9.7d
   category: app-editors
   id: 0
   name: emacs
@@ -13,30 +29,10 @@ requires:
   id: 0
   name: jdk
   version: "1.8"
-  category: dev-lang
+  category: net-misc
   id: 0
-  name: tk
+  name: lksctp-tools
   version: ""
-  category: x11-libs
-  id: 0
-  name: wxGTK
-  version: ""
-  category: acct-user
-  id: 0
-  name: epmd
-  version: ""
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: 0.9.7d
   category: dev-libs
   id: 0
   name: libressl
@@ -49,13 +45,17 @@ requires:
   id: 0
   name: epmd
   version: ""
-  category: dev-db
+  category: acct-user
   id: 0
-  name: unixODBC
+  name: epmd
   version: ""
-  category: net-misc
+  category: sys-libs
   id: 0
-  name: lksctp-tools
+  name: ncurses
+  version: ""
+  category: dev-lang
+  id: 0
+  name: tk
   version: ""
 uri:
 - https://github.com/erlang/otp/archive/OTP-22.3.tar.gz -> erlang-22.3.tar.gz

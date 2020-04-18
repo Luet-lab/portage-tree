@@ -1,5 +1,9 @@
 category: sys-fs
 conflicts:
+  category: <sec-policy
+  id: 0
+  name: selinux-base
+  version: 2.20120725-r10
   category: <sys-libs
   id: 0
   name: glibc
@@ -16,10 +20,6 @@ conflicts:
   id: 0
   name: gentoo-systemd-integration
   version: ""
-  category: <sec-policy
-  id: 0
-  name: selinux-base
-  version: 2.20120725-r10
 description: Linux dynamic and persistent device naming support (aka userspace devfs)
 id: 0
 license: LGPL-2.1 MIT GPL-2
@@ -27,15 +27,11 @@ name: udev
 requires:
   category: acct-group
   id: 0
-  name: dialout
-  version: ""
-  category: acct-group
-  id: 0
-  name: lp
-  version: ""
-  category: acct-group
-  id: 0
   name: tty
+  version: ""
+  category: acct-group
+  id: 0
+  name: audio
   version: ""
   category: acct-group
   id: 0
@@ -45,53 +41,57 @@ requires:
   id: 0
   name: render
   version: ""
-  category: acct-group
-  id: 0
-  name: video
-  version: ""
-  category: sys-apps
-  id: 0
-  name: acl
-  version: ""
-  category: sys-apps
-  id: 0
-  name: kmod
-  version: "16"
-  category: sys-libs
-  id: 0
-  name: libselinux
-  version: 2.1.9
-  category: acct-group
-  id: 0
-  name: input
-  version: ""
-  category: acct-group
-  id: 0
-  name: audio
-  version: ""
-  category: acct-group
-  id: 0
-  name: disk
-  version: ""
-  category: acct-group
-  id: 0
-  name: kvm
-  version: ""
-  category: acct-group
-  id: 0
-  name: tape
-  version: ""
-  category: sys-apps
-  id: 0
-  name: util-linux
-  version: "2.30"
   category: sys-libs
   id: 0
   name: libcap
   version: ""
   category: acct-group
   id: 0
+  name: lp
+  version: ""
+  category: acct-group
+  id: 0
+  name: tape
+  version: ""
+  category: acct-group
+  id: 0
+  name: video
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libselinux
+  version: 2.1.9
+  category: acct-group
+  id: 0
   name: kmem
+  version: ""
+  category: sys-apps
+  id: 0
+  name: kmod
+  version: "16"
+  category: acct-group
+  id: 0
+  name: dialout
+  version: ""
+  category: acct-group
+  id: 0
+  name: input
+  version: ""
+  category: acct-group
+  id: 0
+  name: kvm
+  version: ""
+  category: sys-apps
+  id: 0
+  name: util-linux
+  version: "2.30"
+  category: sys-apps
+  id: 0
+  name: acl
+  version: ""
+  category: acct-group
+  id: 0
+  name: disk
   version: ""
 uri:
 - https://github.com/systemd/systemd/archive/v243/systemd-243.tar.gz

@@ -1,49 +1,29 @@
 category: net-print
 conflicts:
-  category: net-print
-  id: 0
-  name: foomatic-filters
-  version: ""
   category: <=net-print
   id: 0
   name: cups
   version: 1.5.9999
+  category: net-print
+  id: 0
+  name: foomatic-filters
+  version: ""
 description: Cups filters
 id: 0
 license: MIT GPL-2
 name: cups-filters
 requires:
-  category: net-print
+  category: sys-libs
   id: 0
-  name: cups
-  version: 1.7.3
-  category: net-nds
-  id: 0
-  name: openldap
-  version: ""
-  category: media-libs
-  id: 0
-  name: tiff
-  version: ""
-  category: media-libs
-  id: 0
-  name: freetype
-  version: ""
-  category: media-libs
-  id: 0
-  name: lcms
-  version: ""
-  category: sys-devel
-  id: 0
-  name: bc
+  name: zlib
   version: ""
   category: app-text
   id: 0
   name: mupdf
   version: ""
-  category: net-dns
+  category: media-libs
   id: 0
-  name: avahi
+  name: tiff
   version: ""
   category: app-text
   id: 0
@@ -53,17 +33,37 @@ requires:
   id: 0
   name: fontconfig
   version: ""
-  category: app-text
+  category: media-libs
   id: 0
-  name: ghostscript-gpl
-  version: "9.09"
+  name: freetype
+  version: ""
+  category: net-print
+  id: 0
+  name: cups
+  version: 1.7.3
+  category: sys-devel
+  id: 0
+  name: bc
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
   category: media-libs
   id: 0
   name: libpng
   version: ""
-  category: sys-libs
+  category: app-text
   id: 0
-  name: zlib
+  name: ghostscript-gpl
+  version: "9.09"
+  category: net-dns
+  id: 0
+  name: avahi
+  version: ""
+  category: media-libs
+  id: 0
+  name: lcms
   version: ""
   category: sys-apps
   id: 0
@@ -73,13 +73,13 @@ requires:
   id: 0
   name: jpeg
   version: ""
+  category: net-nds
+  id: 0
+  name: openldap
+  version: ""
   category: dev-lang
   id: 0
   name: perl
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
   version: ""
 use_flags:
 - dbus

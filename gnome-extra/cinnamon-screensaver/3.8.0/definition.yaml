@@ -9,13 +9,9 @@ id: 0
 license: GPL-2+
 name: cinnamon-screensaver
 requires:
-  category: net-libs
-  id: 0
-  name: webkit-gtk
-  version: ""
   category: x11-libs
   id: 0
-  name: libxklavier
+  name: libX11
   version: ""
   category: x11-libs
   id: 0
@@ -25,9 +21,21 @@ requires:
   id: 0
   name: libXxf86misc
   version: ""
+  category: net-libs
+  id: 0
+  name: webkit-gtk
+  version: ""
+  category: x11-themes
+  id: 0
+  name: adwaita-icon-theme
+  version: ""
   category: sys-auth
   id: 0
   name: elogind
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXinerama
   version: ""
   category: sys-libs
   id: 0
@@ -37,26 +45,34 @@ requires:
   id: 0
   name: gtk+
   version: 3.1.4
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: "31"
   category: gnome-extra
   id: 0
   name: cinnamon-desktop
   version: 2.6.3
+  category: gnome-base
+  id: 0
+  name: gsettings-desktop-schemas
+  version: 0.1.7
+  category: x11-libs
+  id: 0
+  name: libxklavier
+  version: ""
   category: x11-libs
   id: 0
   name: libXrandr
   version: ""
   category: x11-libs
   id: 0
-  name: libXinerama
+  name: libXScrnSaver
   version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
+  version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: "31"
   category: dev-libs
   id: 0
   name: glib
@@ -69,26 +85,10 @@ requires:
   id: 0
   name: dbus-glib
   version: "0.78"
-  category: x11-libs
+  category: sys-apps
   id: 0
-  name: libX11
+  name: dbus
   version: ""
-  category: x11-libs
-  id: 0
-  name: libXScrnSaver
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXxf86vm
-  version: ""
-  category: x11-themes
-  id: 0
-  name: adwaita-icon-theme
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gsettings-desktop-schemas
-  version: 0.1.7
 uri:
 - https://github.com/linuxmint/cinnamon-screensaver/archive/3.8.0.tar.gz -> cinnamon-screensaver-3.8.0.tar.gz
 use_flags:

@@ -5,9 +5,45 @@ id: 0
 license: GPL-3+
 name: vinagre
 requires:
+  category: app-emulation
+  id: 0
+  name: spice-protocol
+  version: ""
+  category: net-misc
+  id: 0
+  name: spice-gtk-0.5[gtk3(+)]
+  version: ""
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: ""
+  category: net-misc
+  id: 0
+  name: freerdp
+  version: "1.1"
   category: x11-libs
   id: 0
-  name: cairo
+  name: vte
+  version: "0.20"
+  category: net-libs
+  id: 0
+  name: gtk-vnc-0.4.3[gtk3(+)]
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.32.0
+  category: dev-libs
+  id: 0
+  name: libxml2
+  version: 2.6.31
+  category: net-libs
+  id: 0
+  name: telepathy-glib
+  version: 0.11.6
+  category: app-crypt
+  id: 0
+  name: libsecret
   version: ""
   category: x11-themes
   id: 0
@@ -21,46 +57,10 @@ requires:
   id: 0
   name: gtk+
   version: 3.9.6
-  category: net-libs
-  id: 0
-  name: gtk-vnc-0.4.3[gtk3(+)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libxml2
-  version: 2.6.31
-  category: net-misc
-  id: 0
-  name: freerdp
-  version: "1.1"
   category: x11-libs
   id: 0
-  name: vte
-  version: "0.20"
-  category: app-emulation
-  id: 0
-  name: spice-protocol
+  name: cairo
   version: ""
-  category: net-misc
-  id: 0
-  name: spice-gtk-0.5[gtk3(+)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: 2.32.0
-  category: app-crypt
-  id: 0
-  name: libsecret
-  version: ""
-  category: net-libs
-  id: 0
-  name: telepathy-glib
-  version: 0.11.6
 use_flags:
 - rdp
 - +ssh

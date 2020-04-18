@@ -11,20 +11,32 @@ name: shadow
 requires:
   category: sys-libs
   id: 0
-  name: pam
-  version: ""
+  name: libselinux
+  version: "1.28"
   category: sys-libs
   id: 0
   name: libsemanage
-  version: ""
-  category: sys-apps
-  id: 0
-  name: attr
   version: ""
   category: sys-auth
   id: 0
   name: pambase
   version: "20150213"
+  category: virtual
+  id: 0
+  name: libcrypt
+  version: ""
+  category: sys-libs
+  id: 0
+  name: cracklib
+  version: 2.7-r3
+  category: virtual
+  id: 0
+  name: libintl
+  version: ""
+  category: sys-auth
+  id: 0
+  name: skey
+  version: ""
   category: sys-apps
   id: 0
   name: acl
@@ -35,24 +47,12 @@ requires:
   version: "2.6"
   category: sys-libs
   id: 0
-  name: cracklib
-  version: 2.7-r3
-  category: virtual
-  id: 0
-  name: libintl
+  name: pam
   version: ""
-  category: virtual
+  category: sys-apps
   id: 0
-  name: libcrypt
+  name: attr
   version: ""
-  category: sys-auth
-  id: 0
-  name: skey
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libselinux
-  version: "1.28"
 uri:
 - https://github.com/shadow-maint/shadow/releases/download/4.8.1/shadow-4.8.1.tar.xz
 use_flags:

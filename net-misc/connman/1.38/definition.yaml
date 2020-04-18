@@ -5,34 +5,38 @@ id: 0
 license: GPL-2
 name: connman
 requires:
-  category: sys-apps
+  category: net-misc
   id: 0
-  name: dbus
-  version: 1.2.24
-  category: sys-libs
-  id: 0
-  name: readline
+  name: ofono
   version: ""
-  category: net-libs
-  id: 0
-  name: libnftnl
-  version: 1.0.4
   category: net-vpn
   id: 0
   name: openconnect
   version: ""
-  category: net-dialup
+  category: net-libs
   id: 0
-  name: pptpclient
+  name: gnutls
   version: ""
   category: dev-libs
   id: 0
   name: glib
   version: "2.16"
-  category: net-vpn
+  category: sys-apps
   id: 0
-  name: openvpn
+  name: dbus
+  version: 1.2.24
+  category: net-wireless
+  id: 0
+  name: bluez
   version: ""
+  category: net-dialup
+  id: 0
+  name: xl2tpd
+  version: ""
+  category: net-firewall
+  id: 0
+  name: iptables
+  version: 1.4.8
   category: net-vpn
   id: 0
   name: vpnc
@@ -41,38 +45,34 @@ requires:
   id: 0
   name: wpa_supplicant
   version: "2.0"
-  category: net-wireless
+  category: sys-auth
   id: 0
-  name: bluez
-  version: ""
-  category: net-firewall
-  id: 0
-  name: iptables
-  version: 1.4.8
-  category: net-wireless
-  id: 0
-  name: iwd
+  name: polkit
   version: ""
   category: net-dialup
   id: 0
-  name: xl2tpd
+  name: pptpclient
+  version: ""
+  category: sys-libs
+  id: 0
+  name: readline
+  version: ""
+  category: net-wireless
+  id: 0
+  name: iwd
   version: ""
   category: net-libs
   id: 0
   name: libmnl
   version: 1.0.0
-  category: net-misc
+  category: net-vpn
   id: 0
-  name: ofono
-  version: ""
-  category: sys-auth
-  id: 0
-  name: polkit
+  name: openvpn
   version: ""
   category: net-libs
   id: 0
-  name: gnutls
-  version: ""
+  name: libnftnl
+  version: 1.0.4
 uri:
 - https://www.kernel.org/pub/linux/network/connman/connman-1.38.tar.xz
 use_flags:

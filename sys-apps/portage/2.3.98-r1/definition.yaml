@@ -2,12 +2,12 @@ category: sys-apps
 conflicts:
   category: <app-portage
   id: 0
-  name: repoman
-  version: 2.3.10
-  category: <app-portage
-  id: 0
   name: gentoolkit
   version: 0.4.6
+  category: <app-portage
+  id: 0
+  name: repoman
+  version: 2.3.10
   category: <app-admin
   id: 0
   name: logrotate
@@ -17,10 +17,22 @@ id: 0
 license: GPL-2
 name: portage
 requires:
+  category: app-crypt
+  id: 0
+  name: gnupg-2.2.4-r2[ssl(-)]
+  version: ""
   category: sys-apps
   id: 0
-  name: util-linux
-  version: ""
+  name: sed
+  version: 4.0.5
+  category: app-portage
+  id: 0
+  name: gemato
+  version: "14"
+  category: app-crypt
+  id: 0
+  name: openpgp-keys-gentoo-release
+  version: "20180706"
   category: sys-libs
   id: 0
   name: libselinux
@@ -33,38 +45,22 @@ requires:
   id: 0
   name: eselect
   version: "1.2"
-  category: app-crypt
-  id: 0
-  name: openpgp-keys-gentoo-release
-  version: "20180706"
-  category: app-crypt
-  id: 0
-  name: gnupg-2.2.4-r2[ssl(-)]
-  version: ""
   category: sys-apps
   id: 0
   name: sandbox
   version: "2.2"
+  category: dev-lang
+  id: 0
+  name: python-exec
+  version: ""
   category: app-shells
   id: 0
   name: bash
   version: ""
   category: sys-apps
   id: 0
-  name: sed
-  version: 4.0.5
-  category: sys-apps
-  id: 0
-  name: install-xattr
-  version: "0.3"
-  category: dev-lang
-  id: 0
-  name: python-exec
+  name: util-linux
   version: ""
-  category: app-portage
-  id: 0
-  name: gemato
-  version: "14"
   category: sys-freebsd
   id: 0
   name: freebsd-bin
@@ -73,6 +69,10 @@ requires:
   id: 0
   name: pax-utils
   version: 0.1.17
+  category: sys-apps
+  id: 0
+  name: install-xattr
+  version: "0.3"
 use_flags:
 - apidoc
 - build

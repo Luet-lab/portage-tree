@@ -8,79 +8,19 @@ name: php
 requires:
   category: dev-libs
   id: 0
-  name: gmp
-  version: ""
-  category: dev-libs
-  id: 0
-  name: icu
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libedit
-  version: ""
-  category: dev-db
-  id: 0
-  name: freetds
-  version: ""
-  category: dev-db
-  id: 0
-  name: oracle-instantclient-basic
-  version: ""
-  category: dev-libs
-  id: 0
   name: libxml2
   version: 2.7.6
-  category: sys-apps
+  category: sec-policy
   id: 0
-  name: acl
+  name: selinux-phpfpm
   version: ""
-  category: virtual
+  category: app-arch
   id: 0
-  name: jpeg
-  version: 0-r3
-  category: dev-libs
-  id: 0
-  name: libzip
-  version: 1.2.0
-  category: sys-libs
-  id: 0
-  name: gdbm
-  version: 1.8.0
-  category: virtual
-  id: 0
-  name: libiconv
-  version: ""
-  category: dev-libs
-  id: 0
-  name: cyrus-sasl
-  version: ""
-  category: dev-libs
-  id: 0
-  name: oniguruma
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: 1.2.0.4
-  category: app-crypt
-  id: 0
-  name: argon2
-  version: ""
-  category: app-text
-  id: 0
-  name: enchant
-  version: "2.0"
-  category: media-libs
-  id: 0
-  name: libpng
-  version: ""
-  category: sys-devel
-  id: 0
-  name: gettext
+  name: bzip2
   version: ""
   category: dev-db
   id: 0
-  name: libiodbc
+  name: firebird
   version: ""
   category: dev-db
   id: 0
@@ -90,70 +30,34 @@ requires:
   id: 0
   name: postgresql
   version: ""
-  category: dev-db
-  id: 0
-  name: sqlite
-  version: 3.7.6.3
-  category: dev-libs
-  id: 0
-  name: libpcre2
-  version: "10.30"
-  category: www-servers
-  id: 0
-  name: apache[apache2_modules_unixd(+),threads=]
-  version: ""
-  category: virtual
-  id: 0
-  name: mta
-  version: ""
-  category: media-libs
-  id: 0
-  name: freetype
-  version: "2"
   category: x11-libs
   id: 0
   name: libXpm
   version: ""
-  category: net-analyzer
-  id: 0
-  name: net-snmp
-  version: "5.2"
-  category: dev-db
-  id: 0
-  name: lmdb
-  version: ""
-  category: dev-db
-  id: 0
-  name: qdbm
-  version: ""
-  category: dev-util
-  id: 0
-  name: lcov
-  version: ""
-  category: sys-libs
-  id: 0
-  name: readline
-  version: ""
   category: sys-apps
   id: 0
-  name: systemd
+  name: acl
   version: ""
-  category: sys-libs
+  category: app-crypt
   id: 0
-  name: db
+  name: argon2
   version: ""
-  category: app-arch
+  category: sys-devel
   id: 0
-  name: bzip2
+  name: gettext
   version: ""
-  category: net-misc
+  category: dev-db
   id: 0
-  name: curl
-  version: 7.10.5
-  category: dev-libs
+  name: sqlite
+  version: 3.7.6.3
+  category: dev-db
   id: 0
-  name: libressl
+  name: oracle-instantclient-basic
   version: ""
+  category: app-text
+  id: 0
+  name: aspell
+  version: "0.50"
   category: dev-db
   id: 0
   name: tokyocabinet
@@ -162,18 +66,90 @@ requires:
   id: 0
   name: libxslt
   version: ""
-  category: sec-policy
+  category: dev-libs
   id: 0
-  name: selinux-phpfpm
+  name: libffi
+  version: 3.0.11
+  category: virtual
+  id: 0
+  name: jpeg
+  version: 0-r3
+  category: dev-libs
+  id: 0
+  name: gmp
+  version: ""
+  category: virtual
+  id: 0
+  name: libiconv
+  version: ""
+  category: virtual
+  id: 0
+  name: mta
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: 1.2.0.4
+  category: sys-libs
+  id: 0
+  name: db
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libedit
+  version: ""
+  category: dev-libs
+  id: 0
+  name: oniguruma
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libzip
+  version: 1.2.0
+  category: media-libs
+  id: 0
+  name: libwebp
+  version: ""
+  category: dev-util
+  id: 0
+  name: lcov
+  version: ""
+  category: media-libs
+  id: 0
+  name: libpng
+  version: ""
+  category: sys-libs
+  id: 0
+  name: gdbm
+  version: 1.8.0
+  category: dev-libs
+  id: 0
+  name: icu
+  version: ""
+  category: dev-libs
+  id: 0
+  name: cyrus-sasl
   version: ""
   category: dev-db
   id: 0
-  name: firebird
+  name: libiodbc
   version: ""
+  category: net-analyzer
+  id: 0
+  name: net-snmp
+  version: "5.2"
   category: dev-libs
   id: 0
   name: openssl
   version: 1.0.1
+  category: dev-libs
+  id: 0
+  name: libpcre2
+  version: "10.30"
+  category: net-misc
+  id: 0
+  name: curl
+  version: 7.10.5
   category: virtual
   id: 0
   name: krb5
@@ -182,6 +158,22 @@ requires:
   id: 0
   name: openldap
   version: 1.2.11
+  category: app-text
+  id: 0
+  name: enchant
+  version: "2.0"
+  category: dev-db
+  id: 0
+  name: qdbm
+  version: ""
+  category: sys-libs
+  id: 0
+  name: readline
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
   category: dev-libs
   id: 0
   name: mm
@@ -190,21 +182,29 @@ requires:
   id: 0
   name: libsodium
   version: ""
-  category: app-text
-  id: 0
-  name: aspell
-  version: "0.50"
   category: media-libs
   id: 0
-  name: libwebp
-  version: ""
-  category: dev-libs
+  name: freetype
+  version: "2"
+  category: sys-apps
   id: 0
-  name: libffi
-  version: 3.0.11
+  name: systemd
+  version: ""
+  category: www-servers
+  id: 0
+  name: apache[apache2_modules_unixd(+),threads=]
+  version: ""
   category: virtual
   id: 0
   name: imap-c-client-2[kerberos=,ssl=]
+  version: ""
+  category: dev-db
+  id: 0
+  name: lmdb
+  version: ""
+  category: dev-db
+  id: 0
+  name: freetds
   version: ""
 uri:
 - https://www.php.net/distributions/php-7.4.4.tar.xz

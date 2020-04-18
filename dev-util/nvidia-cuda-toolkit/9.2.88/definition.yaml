@@ -5,14 +5,6 @@ id: 0
 license: NVIDIA-CUDA
 name: nvidia-cuda-toolkit
 requires:
-  category: sys-devel
-  id: 0
-  name: gcc
-  version: "8"
-  category: x11-drivers
-  id: 0
-  name: nvidia-drivers-396.24[X,uvm]
-  version: ""
   category: sys-libs
   id: 0
   name: libtermcap-compat
@@ -25,6 +17,14 @@ requires:
   id: 0
   name: jre
   version: "1.6"
+  category: sys-devel
+  id: 0
+  name: gcc
+  version: "8"
+  category: x11-drivers
+  id: 0
+  name: nvidia-drivers-396.24[X,uvm]
+  version: ""
 uri:
 - https://developer.nvidia.com/compute/cuda//Prod/local_installers/cuda_9.2.88_396.26_linux
   -> cuda_9.2.88_396.26_linux.run

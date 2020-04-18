@@ -5,9 +5,17 @@ id: 0
 license: GPL-2
 name: rng-tools
 requires:
+  category: sec-policy
+  id: 0
+  name: selinux-rngd
+  version: ""
   category: dev-libs
   id: 0
-  name: jansson
+  name: openssl
+  version: ""
+  category: sys-fs
+  id: 0
+  name: sysfsutils
   version: ""
   category: dev-libs
   id: 0
@@ -25,21 +33,13 @@ requires:
   id: 0
   name: argp-standalone
   version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-rngd
-  version: ""
-  category: sys-fs
-  id: 0
-  name: sysfsutils
-  version: ""
   category: app-crypt
   id: 0
   name: jitterentropy
   version: ""
   category: dev-libs
   id: 0
-  name: openssl
+  name: jansson
   version: ""
 uri:
 - https://github.com/nhorman/rng-tools/archive/v6.10.tar.gz -> rng-tools-6.10.tar.gz

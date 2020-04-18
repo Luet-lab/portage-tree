@@ -4,13 +4,17 @@ description: Network abstraction library for the Qt5 framework
 id: 0
 name: qtnetwork
 requires:
+  category: net-misc
+  id: 0
+  name: connman
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtcore
+  version: 5.14.2
   category: sys-libs
   id: 0
   name: zlib
-  version: ""
-  category: virtual
-  id: 0
-  name: krb5
   version: ""
   category: net-libs
   id: 0
@@ -20,25 +24,21 @@ requires:
   id: 0
   name: lksctp-tools
   version: ""
-  category: net-misc
-  id: 0
-  name: connman
-  version: ""
-  category: net-misc
-  id: 0
-  name: networkmanager
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtcore
-  version: 5.14.2
   category: dev-qt
   id: 0
   name: qtdbus
   version: 5.14.2
+  category: virtual
+  id: 0
+  name: krb5
+  version: ""
   category: dev-libs
   id: 0
   name: openssl
+  version: ""
+  category: net-misc
+  id: 0
+  name: networkmanager
   version: ""
 use_flags:
 - bindist

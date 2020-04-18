@@ -5,6 +5,14 @@ id: 0
 license: LGPL-2.1+
 name: libpeas
 requires:
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: 3.0.0
+  category: dev-util
+  id: 0
+  name: glade
+  version: 3.9.1
   category: dev-lua
   id: 0
   name: lgi
@@ -25,14 +33,6 @@ requires:
   id: 0
   name: gobject-introspection
   version: "1.39"
-  category: x11-libs
-  id: 0
-  name: gtk+
-  version: 3.0.0
-  category: dev-util
-  id: 0
-  name: glade
-  version: 3.9.1
 use_flags:
 - glade
 - +gtk

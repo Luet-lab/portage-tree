@@ -2,7 +2,7 @@ category: sys-cluster
 conflicts:
   category: sys-cluster
   id: 0
-mpi
+  name: pmix
   version: ""
   category: sys-cluster
   id: 0
@@ -10,21 +10,21 @@ mpi
   version: ""
   category: sys-cluster
   id: 0
-  name: mpich2
+mpi
   version: ""
   category: sys-cluster
   id: 0
-  name: pmix
+  name: mpich2
   version: ""
 description: A high-performance message passing library (MPI)
 id: 0
 license: BSD
 name: openmpi
 requires:
-  category: virtual
+  category: dev-libs
   id: 0
-  name: jre
-  version: "1.6"
+  name: libevent
+  version: 2.0.22
   category: dev-libs
   id: 0
   name: libltdl
@@ -33,22 +33,30 @@ requires:
   id: 0
   name: zlib
   version: 1.2.8-r1
-  category: sys-cluster
-  id: 0
-  name: slurm
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libevent
-  version: 2.0.22
-  category: sys-fabric
-  id: 0
-  name: infinipath-psm
-  version: ""
   category: sys-fabric
   id: 0
   name: ofed
   version: ""
+  category: sys-cluster
+  id: 0
+  name: knem
+  version: ""
+  category: sys-fabric
+  id: 0
+  name: infinipath-psm
+  version: ""
+  category: sys-cluster
+  id: 0
+  name: slurm
+  version: ""
+  category: sys-fabric
+  id: 0
+  name: librdmacm
+  version: ""
+  category: virtual
+  id: 0
+  name: jre
+  version: "1.6"
   category: sys-cluster
   id: 0
   name: torque
@@ -57,14 +65,6 @@ requires:
   id: 0
   name: nvidia-cuda-toolkit
   version: 6.5.19-r1
-  category: sys-cluster
-  id: 0
-  name: knem
-  version: ""
-  category: sys-fabric
-  id: 0
-  name: librdmacm
-  version: ""
 uri:
 - http://www.open-mpi.org/software/ompi/v/downloads/openmpi-3.1.4.tar.bz2
 use_flags:

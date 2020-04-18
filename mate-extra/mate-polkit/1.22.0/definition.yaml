@@ -6,6 +6,10 @@ id: 0
 license: LGPL-2+
 name: mate-polkit
 requires:
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.36"
   category: sys-auth
   id: 0
   name: polkit
@@ -30,10 +34,6 @@ requires:
   id: 0
   name: accountsservice
   version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.36"
 use_flags:
 - accountsservice
 - appindicator

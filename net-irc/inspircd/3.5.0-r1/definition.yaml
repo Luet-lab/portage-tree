@@ -5,6 +5,14 @@ id: 0
 license: GPL-2
 name: inspircd
 requires:
+  category: dev-libs
+  id: 0
+  name: re2
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: ""
   category: net-libs
   id: 0
   name: mbedtls
@@ -13,17 +21,9 @@ requires:
   id: 0
   name: mysql-connector-c
   version: ""
-  category: dev-lang
-  id: 0
-  name: perl
-  version: ""
   category: dev-libs
   id: 0
-  name: libgcrypt
-  version: ""
-  category: net-nds
-  id: 0
-  name: openldap
+  name: libpcre
   version: ""
   category: dev-db
   id: 0
@@ -37,17 +37,21 @@ requires:
   id: 0
   name: inspircd
   version: ""
-  category: acct-user
-  id: 0
-  name: inspircd
-  version: ""
   category: dev-libs
   id: 0
   name: libmaxminddb
   version: ""
-  category: dev-libs
+  category: dev-db
   id: 0
-  name: re2
+  name: postgresql
+  version: ""
+  category: acct-user
+  id: 0
+  name: inspircd
+  version: ""
+  category: dev-lang
+  id: 0
+  name: perl
   version: ""
   category: net-libs
   id: 0
@@ -55,15 +59,11 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libpcre
+  name: libgcrypt
   version: ""
-  category: dev-db
+  category: net-nds
   id: 0
-  name: postgresql
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
+  name: openldap
   version: ""
 uri:
 - https://github.com/inspircd/inspircd/archive/v3.5.0.tar.gz -> inspircd-3.5.0.tar.gz

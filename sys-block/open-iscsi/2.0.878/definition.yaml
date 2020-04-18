@@ -8,19 +8,11 @@ name: open-iscsi
 requires:
   category: sys-apps
   id: 0
-  name: kmod
+  name: systemd
   version: ""
-  category: sys-kernel
+  category: sys-fs
   id: 0
-  name: linux-headers
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: ""
-  category: sys-block
-  id: 0
-  name: open-isns
+  name: lsscsi
   version: ""
   category: sys-fabric
   id: 0
@@ -30,17 +22,25 @@ requires:
   id: 0
   name: libressl
   version: ""
-  category: sys-apps
+  category: sys-kernel
   id: 0
-  name: systemd
+  name: linux-headers
   version: ""
-  category: sys-fs
+  category: dev-libs
   id: 0
-  name: lsscsi
+  name: openssl
   version: ""
   category: sys-apps
   id: 0
   name: util-linux
+  version: ""
+  category: sys-apps
+  id: 0
+  name: kmod
+  version: ""
+  category: sys-block
+  id: 0
+  name: open-isns
   version: ""
 uri:
 - https://github.com/open-iscsi/open-iscsi/archive/2.0.878.tar.gz -> open-iscsi-2.0.878.tar.gz

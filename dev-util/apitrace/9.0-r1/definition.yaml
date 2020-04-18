@@ -5,10 +5,6 @@ id: 0
 license: MIT
 name: apitrace
 requires:
-  category: sys-process
-  id: 0
-  name: procps
-  version: ""
   category: dev-qt
   id: 0
   name: qtcore
@@ -27,7 +23,15 @@ requires:
   version: 1.1.1
   category: media-libs
   id: 0
-  name: libpng
+  name: mesa[egl,gles1,gles2,X(+),]
+  version: ""
+  category: media-libs
+  id: 0
+  name: waffle
+  version: 1.6.0-r1
+  category: sys-process
+  id: 0
+  name: procps
   version: ""
   category: x11-libs
   id: 0
@@ -35,23 +39,19 @@ requires:
   version: ""
   category: dev-qt
   id: 0
-  name: qtgui
-  version: ""
-  category: dev-qt
-  id: 0
   name: qtwidgets
   version: ""
   category: media-libs
   id: 0
-  name: mesa[egl,gles1,gles2,X(+),]
+  name: libpng
   version: ""
-  category: media-libs
-  id: 0
-  name: waffle
-  version: 1.6.0-r1
   category: sys-libs
   id: 0
   name: zlib
+  version: ""
+  category: dev-qt
+  id: 0
+  name: qtgui
   version: ""
 uri:
 - https://github.com/apitrace/apitrace/archive/9.0.tar.gz -> apitrace-9.0.tar.gz

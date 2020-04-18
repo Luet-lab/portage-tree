@@ -5,10 +5,22 @@ id: 0
 license: GPL-2
 name: dracut
 requires:
+  category: sys-apps
+  id: 0
+  name: coreutils[xattr(-)]
+  version: ""
   category: sys-libs
   id: 0
-  name: libsepol
+  name: fts-standalone
   version: ""
+  category: app-shells
+  id: 0
+  name: bash
+  version: "4.0"
+  category: sys-apps
+  id: 0
+  name: kmod
+  version: "23"
   category: sys-apps
   id: 0
   name: util-linux
@@ -27,28 +39,16 @@ requires:
   version: ""
   category: sys-libs
   id: 0
-  name: fts-standalone
+  name: libselinux
   version: ""
   category: sys-libs
   id: 0
-  name: libselinux
+  name: libsepol
   version: ""
   category: app-arch
   id: 0
   name: cpio
   version: ""
-  category: app-shells
-  id: 0
-  name: bash
-  version: "4.0"
-  category: sys-apps
-  id: 0
-  name: coreutils[xattr(-)]
-  version: ""
-  category: sys-apps
-  id: 0
-  name: kmod
-  version: "23"
 use_flags:
 - selinux
 version: "9999"

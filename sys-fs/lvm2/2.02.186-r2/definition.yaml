@@ -1,13 +1,13 @@
 category: sys-fs
 conflicts:
-  category: <sys-apps
-  id: 0
-  name: openrc
-  version: "0.11"
   category: <sys-fs
   id: 0
   name: cryptsetup
   version: 1.1.2
+  category: <sys-apps
+  id: 0
+  name: openrc
+  version: "0.11"
   category: '!sys-fs'
   id: 0
   name: lvm-user
@@ -17,21 +17,33 @@ id: 0
 license: GPL-2
 name: lvm2
 requires:
-  category: sys-apps
+  category: dev-libs
   id: 0
-  name: util-linux
-  version: "2.16"
-  category: sys-block
-  id: 0
-  name: thin-provisioning-tools
-  version: 0.3.0
+  name: libaio[static-libs?]
+  version: ""
   category: sys-apps
   id: 0
   name: systemd
   version: "205"
+  category: sys-apps
+  id: 0
+  name: baselayout
+  version: "2.2"
+  category: sys-apps
+  id: 0
+  name: util-linux
+  version: "2.16"
+  category: sys-apps
+  id: 0
+  name: makedev
+  version: ""
+  category: sys-block
+  id: 0
+  name: thin-provisioning-tools
+  version: 0.3.0
   category: dev-libs
   id: 0
-  name: libaio[static-libs?]
+  name: libaio
   version: ""
   category: sys-libs
   id: 0
@@ -45,18 +57,6 @@ requires:
   id: 0
   name: libudev
   version: "208"
-  category: sys-apps
-  id: 0
-  name: baselayout
-  version: "2.2"
-  category: sys-apps
-  id: 0
-  name: makedev
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libaio
-  version: ""
 use_flags:
 - readline
 - static

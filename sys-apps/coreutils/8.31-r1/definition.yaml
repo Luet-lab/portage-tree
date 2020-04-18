@@ -1,49 +1,49 @@
 category: sys-apps
 conflicts:
-  category: sys-apps
-  id: 0
-  name: util-linux
-  version: ""
-  category: sys-process
-  id: 0
-  name: procps
-  version: ""
   category: <sys-apps
   id: 0
   name: util-linux
   version: "2.13"
   category: sys-apps
   id: 0
-  name: stat
+  name: mktemp
   version: ""
   category: sys-apps
   id: 0
   name: net-tools
   version: ""
-  category: app-misc
+  category: sys-apps
   id: 0
-  name: realpath
+  name: util-linux
+  version: ""
+  category: sys-apps
+  id: 0
+  name: stat
   version: ""
   category: net-mail
   id: 0
   name: base64
   version: ""
-  category: <net-fs
+  category: sys-process
   id: 0
-  name: netatalk
-  version: 2.0.3-r4
-  category: sys-apps
-  id: 0
-  name: mktemp
+  name: procps
   version: ""
-  category: <app-forensics
+  category: app-misc
   id: 0
-  name: tct
-  version: 1.18-r1
+  name: realpath
+  version: ""
   category: <sys-apps
   id: 0
   name: sandbox
   version: 2.10-r4
+  category: <app-forensics
+  id: 0
+  name: tct
+  version: 1.18-r1
+  category: <net-fs
+  id: 0
+  name: netatalk
+  version: 2.0.3-r4
 description: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 id: 0
 license: GPL-3
@@ -51,15 +51,15 @@ name: coreutils
 requires:
   category: sys-libs
   id: 0
-  name: libselinux
+  name: libcap
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gmp
   version: ""
   category: sys-apps
   id: 0
   name: acl
-  version: ""
-  category: virtual
-  id: 0
-  name: libintl
   version: ""
   category: sys-apps
   id: 0
@@ -67,11 +67,11 @@ requires:
   version: ""
   category: sys-libs
   id: 0
-  name: libcap
+  name: libselinux
   version: ""
-  category: dev-libs
+  category: virtual
   id: 0
-  name: gmp
+  name: libintl
   version: ""
 uri:
 - mirror://gnu/coreutils/coreutils-8.31.tar.xz

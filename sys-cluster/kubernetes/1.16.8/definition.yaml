@@ -2,6 +2,14 @@ category: sys-cluster
 conflicts:
   category: sys-cluster
   id: 0
+  name: kubelet
+  version: ""
+  category: sys-cluster
+  id: 0
+  name: kubeadm
+  version: ""
+  category: sys-cluster
+  id: 0
   name: kubectl
   version: ""
   category: sys-cluster
@@ -10,11 +18,7 @@ conflicts:
   version: ""
   category: sys-cluster
   id: 0
-  name: kubeadm
-  version: ""
-  category: sys-cluster
-  id: 0
-  name: kubelet
+  name: kube-apiserver
   version: ""
   category: sys-cluster
   id: 0
@@ -23,10 +27,6 @@ conflicts:
   category: sys-cluster
   id: 0
   name: kube-scheduler
-  version: ""
-  category: sys-cluster
-  id: 0
-  name: kube-apiserver
   version: ""
 description: production-grade container orchestration
 id: 0
@@ -35,7 +35,23 @@ name: kubernetes
 requires:
   category: acct-user
   id: 0
+  name: kube-apiserver
+  version: ""
+  category: acct-group
+  id: 0
   name: kube-scheduler
+  version: ""
+  category: acct-user
+  id: 0
+  name: kube-controller-manager
+  version: ""
+  category: acct-user
+  id: 0
+  name: kube-scheduler
+  version: ""
+  category: acct-group
+  id: 0
+  name: kube-apiserver
   version: ""
   category: acct-group
   id: 0
@@ -44,22 +60,6 @@ requires:
   category: net-firewall
   id: 0
   name: conntrack-tools
-  version: ""
-  category: acct-group
-  id: 0
-  name: kube-apiserver
-  version: ""
-  category: acct-group
-  id: 0
-  name: kube-scheduler
-  version: ""
-  category: acct-user
-  id: 0
-  name: kube-apiserver
-  version: ""
-  category: acct-user
-  id: 0
-  name: kube-controller-manager
   version: ""
 uri:
 - https://github.com/kubernetes/kubernetes/archive/v1.16.8.tar.gz -> kubernetes-1.16.8.tar.gz

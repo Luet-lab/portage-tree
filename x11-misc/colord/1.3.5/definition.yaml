@@ -1,34 +1,30 @@
 category: x11-misc
 conflicts:
-  category: media-gfx
-  id: 0
-  name: shared-color-profiles
-  version: ""
   category: <=media-gfx
   id: 0
   name: colorhug-client
   version: 0.1.13
+  category: media-gfx
+  id: 0
+  name: shared-color-profiles
+  version: ""
 description: System service to accurately color manage input and output devices
 id: 0
 license: GPL-2+
 name: colord
 requires:
-  category: dev-libs
-  id: 0
-  name: glib
-  version: 2.44.0
-  category: media-gfx
-  id: 0
-  name: sane-backends
-  version: ""
   category: sys-apps
   id: 0
-  name: dbus
-  version: ""
-  category: virtual
+  name: systemd
+  version: "44"
+  category: dev-db
   id: 0
-  name: udev
+  name: sqlite
   version: ""
+  category: media-libs
+  id: 0
+  name: lcms
+  version: "2.6"
   category: media-gfx
   id: 0
   name: argyllcms
@@ -37,10 +33,14 @@ requires:
   id: 0
   name: gobject-introspection
   version: 0.9.8
+  category: sys-auth
+  id: 0
+  name: polkit
+  version: "0.104"
   category: sys-apps
   id: 0
-  name: systemd
-  version: "44"
+  name: dbus
+  version: ""
   category: dev-libs
   id: 0
   name: libgudev
@@ -51,20 +51,20 @@ requires:
   version: ""
   category: dev-libs
   id: 0
+  name: glib
+  version: 2.44.0
+  category: media-gfx
+  id: 0
+  name: sane-backends
+  version: ""
+  category: virtual
+  id: 0
+  name: udev
+  version: ""
+  category: dev-libs
+  id: 0
   name: libgusb-0.2.7[introspection?,]
   version: ""
-  category: dev-db
-  id: 0
-  name: sqlite
-  version: ""
-  category: media-libs
-  id: 0
-  name: lcms
-  version: "2.6"
-  category: sys-auth
-  id: 0
-  name: polkit
-  version: "0.104"
 uri:
 - https://www.freedesktop.org/software/colord/releases/colord-1.3.5.tar.xz
 use_flags:

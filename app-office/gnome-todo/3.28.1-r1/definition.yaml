@@ -5,6 +5,10 @@ id: 0
 license: GPL-3+
 name: gnome-todo
 requires:
+  category: gnome-extra
+  id: 0
+  name: evolution-data-server
+  version: 3.33.1
   category: net-libs
   id: 0
   name: rest
@@ -29,10 +33,6 @@ requires:
   id: 0
   name: libpeas
   version: "1.17"
-  category: gnome-extra
-  id: 0
-  name: evolution-data-server
-  version: 3.33.1
 use_flags:
 - gtk-doc
 - +introspection

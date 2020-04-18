@@ -5,13 +5,25 @@ id: 0
 license: Spotify
 name: spotify
 requires:
-  category: net-print
+  category: dev-libs
   id: 0
-  name: cups
+  name: nss
   version: ""
   category: x11-libs
   id: 0
-  name: libXtst
+  name: libXScrnSaver
+  version: ""
+  category: gnome-base
+  id: 0
+  name: gconf
+  version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: net-print
+  id: 0
+  name: cups
   version: ""
   category: dev-python
   id: 0
@@ -21,17 +33,9 @@ requires:
   id: 0
   name: gnome-integration-spotify
   version: ""
-  category: media-libs
+  category: net-misc
   id: 0
-  name: alsa-lib
-  version: ""
-  category: media-libs
-  id: 0
-  name: mesa[X(+)]
-  version: ""
-  category: media-sound
-  id: 0
-  name: pulseaudio
+  name: curl[ssl,curl_ssl_openssl]
   version: ""
   category: x11-libs
   id: 0
@@ -41,9 +45,9 @@ requires:
   id: 0
   name: libnotify
   version: ""
-  category: dev-libs
+  category: media-sound
   id: 0
-  name: nss
+  name: pulseaudio
   version: ""
   category: gnome-extra
   id: 0
@@ -51,27 +55,23 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: fontconfig
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXScrnSaver
-  version: ""
-  category: dev-python
-  id: 0
-  name: pygobject
-  version: ""
-  category: gnome-base
-  id: 0
-  name: gconf
+  name: alsa-lib
   version: ""
   category: media-libs
   id: 0
   name: harfbuzz
   version: ""
-  category: net-misc
+  category: media-libs
   id: 0
-  name: curl[ssl,curl_ssl_openssl]
+  name: mesa[X(+)]
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: dev-python
+  id: 0
+  name: pygobject
   version: ""
 use_flags:
 - libnotify

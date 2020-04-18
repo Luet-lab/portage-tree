@@ -5,13 +5,25 @@ id: 0
 license: GPL-2
 name: fio
 requires:
+  category: sys-process
+  id: 0
+  name: numactl
+  version: ""
+  category: sys-fabric
+  id: 0
+  name: librdmacm
+  version: ""
   category: sys-cluster
   id: 0
   name: ceph
   version: ""
   category: sys-fabric
   id: 0
-  name: librdmacm
+  name: libibverbs
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
   version: ""
   category: x11-libs
   id: 0
@@ -32,18 +44,6 @@ requires:
   category: dev-libs
   id: 0
   name: glib
-  version: ""
-  category: sys-process
-  id: 0
-  name: numactl
-  version: ""
-  category: sys-fabric
-  id: 0
-  name: libibverbs
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
   version: ""
 uri:
 - http://brick.kernel.dk/snaps/fio-2.16.tar.bz2

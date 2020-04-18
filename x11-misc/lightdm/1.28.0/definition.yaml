@@ -5,22 +5,30 @@ id: 0
 license: GPL-3 LGPL-3
 name: lightdm
 requires:
-  category: sys-process
+  category: x11-libs
   id: 0
-  name: audit
+  name: libX11
   version: ""
+  category: sys-apps
+  id: 0
+  name: accountsservice
+  version: ""
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  version: "1"
   category: dev-qt
   id: 0
   name: qtcore
   version: ""
   category: dev-qt
   id: 0
+  name: qtdbus
+  version: ""
+  category: dev-qt
+  id: 0
   name: qtgui
   version: ""
-  category: sys-auth
-  id: 0
-  name: pambase
-  version: 20101024-r2
   category: dev-libs
   id: 0
   name: glib
@@ -37,22 +45,14 @@ requires:
   id: 0
   name: libxklavier
   version: "5"
-  category: x11-libs
+  category: sys-process
   id: 0
-  name: libX11
+  name: audit
   version: ""
-  category: sys-apps
+  category: sys-auth
   id: 0
-  name: accountsservice
-  version: ""
-  category: dev-libs
-  id: 0
-  name: gobject-introspection
-  version: "1"
-  category: dev-qt
-  id: 0
-  name: qtdbus
-  version: ""
+  name: pambase
+  version: 20101024-r2
 uri:
 - https://github.com/CanonicalLtd/lightdm/releases/download/1.28.0/lightdm-1.28.0.tar.xz
 - mirror://gentoo/introspection-20110205.m4.tar.bz2

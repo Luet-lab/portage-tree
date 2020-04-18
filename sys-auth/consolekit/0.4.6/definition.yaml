@@ -5,14 +5,10 @@ id: 0
 license: GPL-2
 name: consolekit
 requires:
-  category: sys-libs
+  category: virtual
   id: 0
-  name: zlib
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
+  name: udev
+  version: "200"
   category: sys-apps
   id: 0
   name: coreutils[acl?]
@@ -20,6 +16,18 @@ requires:
   category: sec-policy
   id: 0
   name: selinux-consolekit
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.38.2-r1
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: sys-apps
+  id: 0
+  name: acl
   version: ""
   category: sys-auth
   id: 0
@@ -29,18 +37,10 @@ requires:
   id: 0
   name: dbus-glib
   version: "0.100"
-  category: dev-libs
+  category: sys-libs
   id: 0
-  name: glib
-  version: 2.38.2-r1
-  category: sys-apps
-  id: 0
-  name: acl
+  name: zlib
   version: ""
-  category: virtual
-  id: 0
-  name: udev
-  version: "200"
   category: sys-libs
   id: 0
   name: pam

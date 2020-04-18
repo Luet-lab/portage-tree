@@ -9,38 +9,18 @@ id: 0
 license: Apache-2.0
 name: cups
 requires:
-  category: sys-apps
-  id: 0
-  name: acl
-  version: ""
-  category: sys-libs
-  id: 0
-  name: pam
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
-  category: net-dns
-  id: 0
-  name: avahi
-  version: 0.6.31-r2
-  category: acct-group
-  id: 0
-  name: lp
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-cups
-  version: ""
   category: app-text
   id: 0
   name: libpaper
   version: ""
-  category: virtual
+  category: sys-libs
   id: 0
-  name: krb5
-  version: 0-r1
+  name: zlib
+  version: ""
+  category: sys-apps
+  id: 0
+  name: acl
+  version: ""
   category: net-libs
   id: 0
   name: gnutls
@@ -49,9 +29,13 @@ requires:
   id: 0
   name: xdg-utils
   version: ""
-  category: sys-libs
+  category: acct-group
   id: 0
-  name: zlib
+  name: lp
+  version: ""
+  category: sys-apps
+  id: 0
+  name: xinetd
   version: ""
   category: sys-apps
   id: 0
@@ -59,7 +43,23 @@ requires:
   version: 1.6.18-r1
   category: virtual
   id: 0
+  name: krb5
+  version: 0-r1
+  category: sys-libs
+  id: 0
+  name: pam
+  version: ""
+  category: virtual
+  id: 0
   name: libusb
+  version: ""
+  category: net-dns
+  id: 0
+  name: avahi
+  version: 0.6.31-r2
+  category: sec-policy
+  id: 0
+  name: selinux-cups
   version: ""
   category: sys-apps
   id: 0
@@ -67,7 +67,7 @@ requires:
   version: ""
   category: sys-apps
   id: 0
-  name: xinetd
+  name: systemd
   version: ""
 uri:
 - https://github.com/apple/cups/releases/download/v2.3.1/cups-2.3.1-source.tar.gz

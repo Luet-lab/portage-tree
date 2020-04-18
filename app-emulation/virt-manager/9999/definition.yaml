@@ -9,33 +9,29 @@ id: 0
 license: GPL-2
 name: virt-manager
 requires:
+  category: app-emulation
+  id: 0
+  name: libvirt-glib
+  version: 1.0.0
+  category: sys-libs
+  id: 0
+  name: libosinfo
+  version: 0.2.10
   category: gnome-base
   id: 0
   name: dconf
+  version: ""
+  category: net-libs
+  id: 0
+  name: gtk-vnc-0.3.8[gtk3(+),introspection]
   version: ""
   category: net-misc
   id: 0
   name: x11-ssh-askpass
   version: ""
-  category: x11-libs
-  id: 0
-  name: gtksourceview
-  version: ""
-  category: sys-auth
-  id: 0
-  name: polkit
-  version: ""
   category: app-cdr
   id: 0
   name: cdrtools
-  version: ""
-  category: app-emulation
-  id: 0
-  name: libvirt-glib
-  version: 1.0.0
-  category: net-libs
-  id: 0
-  name: gtk-vnc-0.3.8[gtk3(+),introspection]
   version: ""
   category: x11-libs
   id: 0
@@ -43,12 +39,16 @@ requires:
   version: ""
   category: x11-libs
   id: 0
+  name: gtksourceview
+  version: ""
+  category: x11-libs
+  id: 0
   name: vte
   version: ""
-  category: sys-libs
+  category: sys-auth
   id: 0
-  name: libosinfo
-  version: 0.2.10
+  name: polkit
+  version: ""
 use_flags:
 - gtk
 - policykit

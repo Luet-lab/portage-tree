@@ -7,28 +7,8 @@ name: bitcoind
 requires:
   category: dev-libs
   id: 0
-  name: libressl
-  version: ""
-  category: net-libs
-  id: 0
-  name: miniupnpc
-  version: 1.9.20150916
-  category: sys-libs
-  id: 0
-  name: db
-  version: ""
-  category: dev-libs
-  id: 0
-  name: boost
-  version: 1.52.0
-  category: dev-libs
-  id: 0
-  name: libevent
-  version: ""
-  category: dev-libs
-  id: 0
-  name: univalue
-  version: 1.0.4
+  name: libsecp256k1
+  version: 0.1_pre20170321
   category: virtual
   id: 0
   name: bitcoin-leveldb
@@ -39,11 +19,31 @@ requires:
   version: ""
   category: net-libs
   id: 0
+  name: miniupnpc
+  version: 1.9.20150916
+  category: sys-libs
+  id: 0
+  name: db
+  version: ""
+  category: net-libs
+  id: 0
   name: zeromq
   version: ""
   category: acct-group
   id: 0
   name: bitcoin
+  version: ""
+  category: dev-libs
+  id: 0
+  name: boost
+  version: 1.52.0
+  category: dev-libs
+  id: 0
+  name: univalue
+  version: 1.0.4
+  category: dev-libs
+  id: 0
+  name: libressl
   version: ""
   category: acct-user
   id: 0
@@ -51,8 +51,8 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libsecp256k1
-  version: 0.1_pre20170321
+  name: libevent
+  version: ""
 uri:
 - https://github.com/bitcoin/bitcoin/archive/58ba7c314d552cea8cb024960a8504577aee586f.tar.gz
   -> bitcoin-v0.19.1.tar.gz

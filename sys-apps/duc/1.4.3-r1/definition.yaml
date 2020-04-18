@@ -5,17 +5,9 @@ id: 0
 license: GPL-2
 name: duc
 requires:
-  category: dev-libs
-  id: 0
-  name: leveldb
-  version: ""
-  category: sys-libs
-  id: 0
-  name: ncurses
-  version: ""
   category: x11-libs
   id: 0
-  name: pango
+  name: cairo[X]
   version: ""
   category: x11-libs
   id: 0
@@ -25,9 +17,13 @@ requires:
   id: 0
   name: glfw
   version: "3.0"
-  category: dev-db
+  category: dev-libs
   id: 0
-  name: sqlite
+  name: leveldb
+  version: ""
+  category: sys-libs
+  id: 0
+  name: ncurses
   version: ""
   category: dev-db
   id: 0
@@ -39,11 +35,15 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: cairo[X]
+  name: pango
   version: ""
   category: x11-libs
   id: 0
   name: pango[X]
+  version: ""
+  category: dev-db
+  id: 0
+  name: sqlite
   version: ""
 uri:
 - https://github.com/zevv/duc/releases/download/1.4.3/duc-1.4.3.tar.gz

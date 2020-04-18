@@ -5,13 +5,13 @@ id: 0
 license: GPL-2
 name: suricata
 requires:
-  category: dev-libs
+  category: acct-group
   id: 0
-  name: libbpf
-  version: 0.0.6
-  category: app-arch
+  name: suricata
+  version: ""
+  category: net-libs
   id: 0
-  name: lz4
+  name: libnfnetlink
   version: ""
   category: net-libs
   id: 0
@@ -21,17 +21,33 @@ requires:
   id: 0
   name: libcap-ng
   version: ""
-  category: net-libs
+  category: dev-libs
   id: 0
-  name: libnetfilter_queue
+  name: libbpf
+  version: 0.0.6
+  category: dev-lang
+  id: 0
+  name: luajit
   version: ""
   category: dev-libs
   id: 0
   name: libyaml
   version: ""
-  category: dev-util
+  category: net-libs
   id: 0
-  name: nvidia-cuda-toolkit
+  name: libnet
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libmaxminddb
+  version: ""
+  category: dev-libs
+  id: 0
+  name: hiredis
+  version: ""
+  category: acct-user
+  id: 0
+  name: suricata
   version: ""
   category: dev-libs
   id: 0
@@ -41,42 +57,6 @@ requires:
   id: 0
   name: nss
   version: ""
-  category: app-admin
-  id: 0
-  name: logrotate
-  version: ""
-  category: dev-lang
-  id: 0
-  name: lua
-  version: ""
-  category: dev-lang
-  id: 0
-  name: luajit
-  version: ""
-  category: net-libs
-  id: 0
-  name: libnetfilter_log
-  version: ""
-  category: acct-group
-  id: 0
-  name: suricata
-  version: ""
-  category: dev-libs
-  id: 0
-  name: jansson
-  version: ""
-  category: dev-libs
-  id: 0
-  name: hiredis
-  version: ""
-  category: net-libs
-  id: 0
-  name: libnfnetlink
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nspr
-  version: ""
   category: net-libs
   id: 0
   name: libhtp
@@ -85,17 +65,37 @@ requires:
   id: 0
   name: file
   version: ""
+  category: dev-util
+  id: 0
+  name: nvidia-cuda-toolkit
+  version: ""
+  category: app-admin
+  id: 0
+  name: logrotate
+  version: ""
   category: dev-libs
   id: 0
-  name: libmaxminddb
+  name: jansson
   version: ""
-  category: acct-user
+  category: dev-libs
   id: 0
-  name: suricata
+  name: nspr
+  version: ""
+  category: dev-lang
+  id: 0
+  name: lua
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
   version: ""
   category: net-libs
   id: 0
-  name: libnet
+  name: libnetfilter_log
+  version: ""
+  category: net-libs
+  id: 0
+  name: libnetfilter_queue
   version: ""
 uri:
 - https://www.openinfosecfoundation.org/download/suricata-5.0.2.tar.gz

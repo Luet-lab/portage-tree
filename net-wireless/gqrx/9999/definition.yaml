@@ -7,10 +7,6 @@ name: gqrx
 requires:
   category: dev-qt
   id: 0
-  name: qtnetwork
-  version: ""
-  category: dev-qt
-  id: 0
   name: qtsvg
   version: ""
   category: dev-qt
@@ -21,6 +17,10 @@ requires:
   id: 0
   name: pulseaudio
   version: ""
+  category: net-wireless
+  id: 0
+  name: gr-osmosdr
+  version: 0.1.0
   category: dev-qt
   id: 0
   name: qtcore
@@ -29,9 +29,9 @@ requires:
   id: 0
   name: qtgui
   version: ""
-  category: dev-libs
+  category: dev-qt
   id: 0
-  name: boost
+  name: qtnetwork
   version: ""
   category: media-libs
   id: 0
@@ -41,10 +41,10 @@ requires:
   id: 0
   name: gnuradio
   version: 3.7_rc
-  category: net-wireless
+  category: dev-libs
   id: 0
-  name: gr-osmosdr
-  version: 0.1.0
+  name: boost
+  version: ""
 use_flags:
 - gr-audio
 - portaudio

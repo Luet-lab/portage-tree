@@ -4,38 +4,142 @@ conflicts:
   id: 0
   name: udev
   version: ""
-  category: net-dns
+  category: sys-fs
   id: 0
-  name: openresolv
+  name: eudev
   version: ""
   category: sys-auth
   id: 0
   name: nss-myhostname
   version: ""
-  category: sys-fs
+  category: net-dns
   id: 0
-  name: eudev
+  name: openresolv
   version: ""
 description: System and service manager for Linux
 id: 0
 license: GPL-2 LGPL-2.1 MIT public-domain
 name: systemd
 requires:
-  category: sys-fs
+  category: acct-group
   id: 0
-  name: cryptsetup
-  version: "1.6"
+  name: render
+  version: ""
+  category: acct-group
+  id: 0
+  name: video
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxkbcommon
+  version: 0.4.1
+  category: acct-group
+  id: 0
+  name: audio
+  version: ""
+  category: sys-libs
+  id: 0
+  name: pam
+  version: ""
+  category: acct-group
+  id: 0
+  name: cdrom
+  version: ""
+  category: sys-apps
+  id: 0
+  name: kmod
+  version: "15"
+  category: acct-group
+  id: 0
+  name: disk
+  version: ""
+  category: sys-apps
+  id: 0
+  name: acl
+  version: ""
+  category: net-libs
+  id: 0
+  name: libmicrohttpd
+  version: 0.9.33
+  category: acct-user
+  id: 0
+  name: systemd-resolve
+  version: ""
+  category: acct-group
+  id: 0
+  name: kmem
+  version: ""
+  category: acct-user
+  id: 0
+  name: systemd-network
+  version: ""
+  category: sys-apps
+  id: 0
+  name: baselayout
+  version: "2.2"
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
+  version: 0_p131
+  category: sys-apps
+  id: 0
+  name: sysvinit
+  version: ""
+  category: sys-apps
+  id: 0
+  name: util-linux
+  version: "2.30"
+  category: app-arch
+  id: 0
+  name: bzip2
+  version: ""
   category: sys-libs
   id: 0
   name: libselinux
   version: ""
   category: acct-group
   id: 0
-  name: utmp
+  name: adm
+  version: ""
+  category: sys-process
+  id: 0
+  name: audit
+  version: "2"
+  category: sys-apps
+  id: 0
+  name: util-linux[kill(-)]
+  version: ""
+  category: dev-libs
+  id: 0
+  name: elfutils
+  version: "0.158"
+  category: acct-group
+  id: 0
+  name: wheel
   version: ""
   category: acct-group
   id: 0
-  name: input
+  name: tty
+  version: ""
+  category: sys-apps
+  id: 0
+  name: coreutils[kill(-)]
+  version: ""
+  category: net-dns
+  id: 0
+  name: libidn2
+  version: ""
+  category: net-firewall
+  id: 0
+  name: iptables
+  version: ""
+  category: acct-group
+  id: 0
+  name: systemd-journal
   version: ""
   category: acct-user
   id: 0
@@ -43,55 +147,39 @@ requires:
   version: ""
   category: sys-libs
   id: 0
-  name: pam
+  name: libapparmor
   version: ""
-  category: net-misc
+  category: app-arch
   id: 0
-  name: curl
-  version: ""
-  category: acct-group
+  name: xz-utils
+  version: 5.0.5-r1
+  category: acct-user
   id: 0
-  name: audio
-  version: ""
-  category: acct-group
-  id: 0
-  name: dialout
+  name: systemd-journal-remote
   version: ""
   category: sys-process
   id: 0
   name: procps[kill(+)]
   version: ""
-  category: sys-libs
+  category: sys-fs
   id: 0
-  name: libcap
-  version: ""
-  category: media-gfx
-  id: 0
-  name: qrencode
-  version: ""
-  category: sys-apps
-  id: 0
-  name: sysvinit
-  version: ""
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: 3.5.3
-  category: app-arch
-  id: 0
-  name: bzip2
-  version: ""
-  category: sys-process
-  id: 0
-  name: audit
-  version: "2"
-  category: net-dns
-  id: 0
-  name: libidn2
-  version: ""
+  name: cryptsetup
+  version: "1.6"
   category: acct-group
   id: 0
-  name: kmem
+  name: utmp
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libseccomp
+  version: 2.3.3
+  category: acct-group
+  id: 0
+  name: dialout
+  version: ""
+  category: sec-policy
+  id: 0
+  name: selinux-base-policy
   version: ""
   category: acct-group
   id: 0
@@ -101,130 +189,42 @@ requires:
   id: 0
   name: systemd-timesync
   version: ""
-  category: sys-apps
-  id: 0
-  name: baselayout
-  version: "2.2"
-  category: sys-apps
-  id: 0
-  name: util-linux[kill(-)]
-  version: ""
-  category: sys-apps
-  id: 0
-  name: acl
-  version: ""
   category: sys-libs
   id: 0
-  name: zlib
+  name: libcap
   version: ""
-  category: sys-apps
-  id: 0
-  name: kmod
-  version: "15"
-  category: sys-libs
-  id: 0
-  name: libapparmor
-  version: ""
-  category: app-arch
-  id: 0
-  name: lz4
-  version: 0_p131
   category: dev-libs
   id: 0
   name: libpcre2
   version: ""
-  category: acct-user
-  id: 0
-  name: systemd-journal-remote
-  version: ""
-  category: sys-apps
-  id: 0
-  name: util-linux
-  version: "2.30"
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: 3.1.4
   category: acct-group
   id: 0
-  name: adm
+  name: input
   version: ""
-  category: acct-group
-  id: 0
-  name: video
-  version: ""
-  category: app-arch
-  id: 0
-  name: xz-utils
-  version: 5.0.5-r1
-  category: acct-group
-  id: 0
-  name: render
-  version: ""
-  category: sys-apps
-  id: 0
-  name: coreutils[kill(-)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: elfutils
-  version: "0.158"
-  category: sys-libs
-  id: 0
-  name: libseccomp
-  version: 2.3.3
   category: acct-group
   id: 0
   name: kvm
   version: ""
-  category: acct-user
+  category: net-misc
   id: 0
-  name: systemd-resolve
+  name: curl
   version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: 3.1.4
+  category: media-gfx
+  id: 0
+  name: qrencode
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: 3.5.3
   category: dev-libs
   id: 0
   name: libgcrypt
   version: 1.4.5
-  category: net-libs
-  id: 0
-  name: libmicrohttpd
-  version: 0.9.33
-  category: x11-libs
-  id: 0
-  name: libxkbcommon
-  version: 0.4.1
-  category: acct-group
-  id: 0
-  name: cdrom
-  version: ""
-  category: acct-group
-  id: 0
-  name: systemd-journal
-  version: ""
-  category: acct-user
-  id: 0
-  name: systemd-network
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-base-policy
-  version: ""
-  category: net-firewall
-  id: 0
-  name: iptables
-  version: ""
-  category: acct-group
-  id: 0
-  name: tty
-  version: ""
-  category: acct-group
-  id: 0
-  name: wheel
-  version: ""
-  category: acct-group
-  id: 0
-  name: disk
-  version: ""
 uri:
 - https://github.com/systemd/systemd/archive/v243/systemd-243.tar.gz
 use_flags:

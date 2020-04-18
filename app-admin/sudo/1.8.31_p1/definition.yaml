@@ -5,25 +5,25 @@ id: 0
 license: ISC BSD
 name: sudo
 requires:
-  category: sys-auth
+  category: dev-libs
   id: 0
-  name: skey
-  version: 1.1.5-r1
-  category: app-misc
+  name: libgcrypt
+  version: ""
+  category: dev-libs
   id: 0
-  name: editor-wrapper
-  version: "3"
-  category: virtual
-  id: 0
-  name: editor
+  name: openssl
   version: ""
   category: sys-libs
   id: 0
   name: zlib
   version: ""
-  category: dev-libs
+  category: sys-libs
   id: 0
-  name: libressl
+  name: pam
+  version: ""
+  category: sys-auth
+  id: 0
+  name: pambase
   version: ""
   category: virtual
   id: 0
@@ -32,15 +32,27 @@ requires:
   category: net-nds
   id: 0
   name: openldap
-  version: 2.1.30-r1
-  category: net-nds
-  id: 0
-  name: openldap
   version: ""
   category: sys-auth
   id: 0
   name: sssd
   version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
+  category: virtual
+  id: 0
+  name: editor
+  version: ""
+  category: net-nds
+  id: 0
+  name: openldap
+  version: 2.1.30-r1
+  category: sys-auth
+  id: 0
+  name: skey
+  version: 1.1.5-r1
   category: dev-lang
   id: 0
   name: perl
@@ -53,22 +65,10 @@ requires:
   id: 0
   name: cyrus-sasl
   version: ""
-  category: dev-libs
+  category: app-misc
   id: 0
-  name: libgcrypt
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: ""
-  category: sys-auth
-  id: 0
-  name: pambase
-  version: ""
-  category: sys-libs
-  id: 0
-  name: pam
-  version: ""
+  name: editor-wrapper
+  version: "3"
 uri:
 - https://www.sudo.ws/sudo/dist/sudo-1.8.31.tar.gz
 - ftp://ftp.sudo.ws/pub/sudo/sudo-1.8.31.tar.gz

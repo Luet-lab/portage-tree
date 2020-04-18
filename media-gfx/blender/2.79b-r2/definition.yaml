@@ -5,25 +5,21 @@ id: 0
 license: '|| ( GPL-2 BL )'
 name: blender
 requires:
+  category: media-libs
+  id: 0
+  name: openexr
+  version: 2.2.0
+  category: media-libs
+  id: 0
+  name: libsdl2
+  version: ""
+  category: virtual
+  id: 0
+  name: glu
+  version: ""
   category: virtual
   id: 0
   name: libintl
-  version: ""
-  category: media-libs
-  id: 0
-  name: opencolorio
-  version: ""
-  category: sys-devel
-  id: 0
-  name: llvm
-  version: ""
-  category: media-gfx
-  id: 0
-  name: openvdb[,-abi3-compat(-),abi4-compat(+)]
-  version: ""
-  category: media-libs
-  id: 0
-  name: osl
   version: ""
   category: virtual
   id: 0
@@ -31,23 +27,47 @@ requires:
   version: ""
   category: media-video
   id: 0
-  name: libav
-  version: "11.3"
+  name: ffmpeg
+  version: ""
+  category: virtual
+  id: 0
+  name: libiconv
+  version: ""
+  category: dev-util
+  id: 0
+  name: nvidia-cuda-toolkit
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86vm
+  version: ""
+  category: media-libs
+  id: 0
+  name: opencolorio
+  version: ""
   category: media-libs
   id: 0
   name: openjpeg
   version: ""
   category: media-libs
   id: 0
-  name: openimageio
-  version: 1.7.0
+  name: ilmbase
+  version: 2.2.0
+  category: media-libs
+  id: 0
+  name: libpng
+  version: ""
+  category: media-video
+  id: 0
+  name: libav
+  version: "11.3"
+  category: app-misc
+  id: 0
+  name: spacenavd
+  version: ""
   category: dev-libs
   id: 0
   name: libspnav
-  version: ""
-  category: virtual
-  id: 0
-  name: libiconv
   version: ""
   category: dev-libs
   id: 0
@@ -55,15 +75,11 @@ requires:
   version: 1.5.2
   category: media-libs
   id: 0
-  name: libsdl2
+  name: libsndfile
   version: ""
   category: media-libs
   id: 0
-  name: libpng
-  version: ""
-  category: virtual
-  id: 0
-  name: jpeg
+  name: glew
   version: ""
   category: media-libs
   id: 0
@@ -73,13 +89,9 @@ requires:
   id: 0
   name: fftw
   version: ""
-  category: media-libs
+  category: media-gfx
   id: 0
-  name: tiff
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsamplerate
+  name: openvdb[,-abi3-compat(-),abi4-compat(+)]
   version: ""
   category: dev-cpp
   id: 0
@@ -87,55 +99,27 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: libsndfile
+  name: freetype
   version: ""
   category: virtual
   id: 0
-  name: glu
+  name: jpeg
   version: ""
-  category: dev-util
+  category: virtual
   id: 0
-  name: nvidia-cuda-toolkit
-  version: ""
-  category: media-libs
-  id: 0
-  name: openexr
-  version: 2.2.0
-  category: media-libs
-  id: 0
-  name: glew
+  name: jack
   version: ""
   category: media-libs
   id: 0
-  name: opensubdiv
-  version: 3.3.0
+  name: tiff
+  version: ""
   category: dev-util
   id: 0
   name: valgrind
   version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXxf86vm
-  version: ""
-  category: media-libs
-  id: 0
-  name: openal
-  version: ""
-  category: media-libs
-  id: 0
-  name: ilmbase
-  version: 2.2.0
   category: dev-libs
   id: 0
   name: lzo
-  version: ""
-  category: media-libs
-  id: 0
-  name: freetype
   version: ""
   category: sys-libs
   id: 0
@@ -145,25 +129,41 @@ requires:
   id: 0
   name: libX11
   version: ""
-  category: virtual
+  category: sys-devel
   id: 0
-  name: opencl
+  name: llvm
   version: ""
-  category: media-video
+  category: media-libs
   id: 0
-  name: ffmpeg
+  name: osl
   version: ""
-  category: virtual
+  category: media-libs
   id: 0
-  name: jack
+  name: openimageio
+  version: 1.7.0
+  category: media-libs
+  id: 0
+  name: opensubdiv
+  version: 3.3.0
+  category: media-libs
+  id: 0
+  name: libsamplerate
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXi
   version: ""
   category: dev-libs
   id: 0
   name: jemalloc
   version: ""
-  category: app-misc
+  category: media-libs
   id: 0
-  name: spacenavd
+  name: openal
+  version: ""
+  category: virtual
+  id: 0
+  name: opencl
   version: ""
 uri:
 - https://download.blender.org/source/blender-2.79b.tar.gz

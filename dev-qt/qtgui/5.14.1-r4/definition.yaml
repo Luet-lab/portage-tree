@@ -2,19 +2,19 @@ category: dev-qt
 conflicts:
   category: <dev-qt
   id: 0
-  name: qtvirtualkeyboard
-  version: 5.14.0
-  category: <dev-qt
-  id: 0
   name: qtimageformats
   version: 5.14.0
   category: <dev-qt
   id: 0
-  name: qtsvg
+  name: qtvirtualkeyboard
   version: 5.14.0
   category: <dev-qt
   id: 0
   name: qtwayland
+  version: 5.14.0
+  category: <dev-qt
+  id: 0
+  name: qtsvg
   version: 5.14.0
 description: The GUI module and platform plugins for the Qt5 framework
 id: 0
@@ -24,26 +24,6 @@ requires:
   id: 0
   name: gtk-update-icon-cache
   version: ""
-  category: dev-util
-  id: 0
-  name: vulkan-headers
-  version: ""
-  category: x11-libs
-  id: 0
-  name: xcb-util-image
-  version: ""
-  category: x11-libs
-  id: 0
-  name: xcb-util-keysyms
-  version: ""
-  category: dev-qt
-  id: 0
-  name: qtcore
-  version: 5.14.1
-  category: media-libs
-  id: 0
-  name: fontconfig
-  version: ""
   category: media-libs
   id: 0
   name: libpng
@@ -52,22 +32,22 @@ requires:
   id: 0
   name: tslib
   version: "1.21"
-  category: media-libs
+  category: dev-qt
   id: 0
-  name: freetype
-  version: 2.6.1
-  category: virtual
+  name: qtnetwork
+  version: 5.14.1
+  category: x11-libs
   id: 0
-  name: libudev
+  name: libICE
   version: ""
-  category: media-libs
+  category: x11-libs
   id: 0
-  name: mesa
+  name: xcb-util-wm
   version: ""
-  category: dev-libs
+  category: dev-qt
   id: 0
-  name: libinput
-  version: ""
+  name: qtcore
+  version: 5.14.1
   category: dev-qt
   id: 0
   name: qtdbus
@@ -78,27 +58,43 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libxcb
-  version: "1.12"
-  category: media-libs
-  id: 0
-  name: harfbuzz
-  version: 1.6.0
-  category: x11-libs
-  id: 0
-  name: libdrm
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libSM
+  name: xcb-util-image
   version: ""
   category: dev-libs
   id: 0
   name: glib
   version: ""
-  category: sys-libs
+  category: media-libs
   id: 0
-  name: zlib
+  name: freetype
+  version: 2.6.1
+  category: media-libs
+  id: 0
+  name: mesa
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxkbcommon-0.5.0[X]
+  version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libinput
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxkbcommon
+  version: 0.5.0
+  category: x11-libs
+  id: 0
+  name: libxcb
+  version: "1.12"
+  category: x11-libs
+  id: 0
+  name: xcb-util-keysyms
   version: ""
   category: x11-libs
   id: 0
@@ -106,36 +102,40 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: xcb-util-wm
+  name: libdrm
   version: ""
-  category: x11-libs
+  category: virtual
   id: 0
-  name: libICE
+  name: libudev
   version: ""
   category: x11-libs
   id: 0
   name: libX11
   version: ""
-  category: x11-libs
+  category: media-libs
   id: 0
-  name: libxkbcommon-0.5.0[X]
-  version: ""
+  name: harfbuzz
+  version: 1.6.0
   category: virtual
   id: 0
   name: opengl
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libSM
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
   version: ""
   category: sys-libs
   id: 0
   name: mtdev
   version: ""
-  category: x11-libs
+  category: dev-util
   id: 0
-  name: libxkbcommon
-  version: 0.5.0
-  category: dev-qt
-  id: 0
-  name: qtnetwork
-  version: 5.14.1
+  name: vulkan-headers
+  version: ""
 use_flags:
 - accessibility
 - dbus

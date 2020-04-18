@@ -9,85 +9,17 @@ id: 0
 license: BSD
 name: chromium
 requires:
-  category: dev-libs
+  category: media-libs
   id: 0
-  name: libxml2
-  version: 2.9.4-r3
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXfixes
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXtst
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-chromium
-  version: ""
-  category: dev-libs
-  id: 0
-  name: expat
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libxslt
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nspr
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
+  name: opus
+  version: 1.3.1
   category: sys-apps
   id: 0
   name: pciutils
   version: ""
-  category: media-libs
-  id: 0
-  name: libjpeg-turbo
-  version: ""
-  category: media-sound
-  id: 0
-  name: pulseaudio
-  version: ""
   category: x11-libs
   id: 0
-  name: libXdamage
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: 1.6.0
-  category: media-libs
-  id: 0
-  name: libwebp
-  version: 0.4.0
-  category: virtual
-  id: 0
-  name: ttf-fonts
-  version: ""
-  category: dev-libs
-  id: 0
-  name: re2
-  version: 0.2019.08.01
-  category: x11-libs
-  id: 0
-  name: gtk+
-  version: ""
-  category: x11-libs
-  id: 0
-  name: pango
-  version: ""
-  category: virtual
-  id: 0
-  name: opengl
+  name: libXfixes
   version: ""
   category: virtual
   id: 0
@@ -97,33 +29,49 @@ requires:
   id: 0
   name: at-spi2-atk
   version: "2.26"
-  category: dev-libs
+  category: media-libs
   id: 0
-  name: glib
+  name: libjpeg-turbo
+  version: ""
+  category: media-sound
+  id: 0
+  name: pulseaudio
   version: ""
   category: media-libs
   id: 0
   name: openh264
   version: 1.6.0
-  category: media-libs
-  id: 0
-  name: opus
-  version: 1.3.1
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXScrnSaver
-  version: ""
   category: x11-libs
   id: 0
   name: libXcursor
   version: ""
   category: x11-libs
   id: 0
-  name: libXrandr
+  name: libXi
+  version: 1.6.0
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: expat
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: ""
+  category: media-libs
+  id: 0
+  name: harfbuzz
+  version: 2.4.0
+  category: app-arch
+  id: 0
+  name: snappy
+  version: ""
+  category: media-libs
+  id: 0
+  name: flac
   version: ""
   category: app-arch
   id: 0
@@ -133,49 +81,29 @@ requires:
   id: 0
   name: icu
   version: "65"
-  category: media-libs
-  id: 0
-  name: fontconfig
-  version: ""
-  category: media-libs
-  id: 0
-  name: harfbuzz
-  version: 2.4.0
-  category: media-libs
-  id: 0
-  name: libvpx
-  version: 1.8.2
   category: virtual
   id: 0
   name: udev
   version: ""
-  category: x11-libs
-  id: 0
-  name: libXrender
-  version: ""
-  category: x11-misc
-  id: 0
-  name: xdg-utils
-  version: ""
   category: dev-libs
   id: 0
-  name: nss
-  version: "3.26"
+  name: libxml2
+  version: 2.9.4-r3
   category: media-libs
   id: 0
-  name: libpng
+  name: alsa-lib
+  version: 1.0.19
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
   version: ""
   category: x11-libs
   id: 0
-  name: libXcomposite
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gdk-pixbuf
-  version: ""
-  category: app-arch
-  id: 0
-  name: snappy
+  name: gtk+
   version: ""
   category: net-print
   id: 0
@@ -185,14 +113,46 @@ requires:
   id: 0
   name: atk
   version: "2.26"
-  category: media-libs
+  category: dev-libs
   id: 0
-  name: alsa-lib
-  version: 1.0.19
-  category: media-libs
-  id: 0
-  name: freetype
+  name: glib
   version: ""
+  category: media-libs
+  id: 0
+  name: libwebp
+  version: 0.4.0
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXcomposite
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrandr
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXext
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrender
+  version: ""
+  category: x11-misc
+  id: 0
+  name: xdg-utils
+  version: ""
+  category: virtual
+  id: 0
+  name: opengl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: nss
+  version: "3.26"
   category: media-video
   id: 0
   name: ffmpeg
@@ -201,13 +161,53 @@ requires:
   id: 0
   name: cairo
   version: ""
+  category: dev-libs
+  id: 0
+  name: nspr
+  version: ""
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXdamage
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: virtual
+  id: 0
+  name: ttf-fonts
+  version: ""
+  category: sec-policy
+  id: 0
+  name: selinux-chromium
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libxslt
+  version: ""
+  category: dev-libs
+  id: 0
+  name: re2
+  version: 0.2019.08.01
   category: media-libs
   id: 0
-  name: flac
-  version: ""
-  category: sys-libs
+  name: libvpx
+  version: 1.8.2
+  category: media-libs
   id: 0
-  name: zlib
+  name: libpng
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXScrnSaver
+  version: ""
+  category: x11-libs
+  id: 0
+  name: pango
   version: ""
 uri:
 - https://commondatastorage.googleapis.com/chromium-browser-official/chromium-81.0.4044.113.tar.xz

@@ -5,21 +5,25 @@ id: 0
 license: BSD-2 GPL-2 LGPL-2.1 ZLIB
 name: efl
 requires:
-  category: app-i18n
+  category: dev-libs
   id: 0
-  name: ibus
+  name: check
   version: ""
-  category: sys-libs
+  category: sys-apps
   id: 0
-  name: libunwind
-  version: ""
-  category: media-libs
-  id: 0
-  name: tiff
+  name: dbus
   version: ""
   category: media-libs
   id: 0
-  name: libpng
+  name: freetype
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxkbcommon
+  version: ""
+  category: net-misc
+  id: 0
+  name: curl
   version: ""
   category: x11-libs
   id: 0
@@ -27,47 +31,71 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXinerama
+  name: libXdamage
   version: ""
-  category: media-libs
+  category: x11-libs
   id: 0
-  name: fontconfig
+  name: libXpresent
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXcursor
+  version: ""
+  category: sys-auth
+  id: 0
+  name: elogind
   version: ""
   category: virtual
   id: 0
   name: opengl
   version: ""
-  category: dev-libs
+  category: gnome-base
   id: 0
-  name: libressl
+  name: librsvg
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXinerama
+  version: ""
+  category: media-libs
+  id: 0
+  name: gstreamer
+  version: ""
+  category: sci-physics
+  id: 0
+  name: bullet
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsndfile
+  version: ""
+  category: media-libs
+  id: 0
+  name: giflib
   version: ""
   category: virtual
   id: 0
   name: jpeg
   version: ""
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXrender
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
-  category: media-libs
-  id: 0
-  name: libwebp
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXScrnSaver
-  version: ""
   category: dev-libs
   id: 0
   name: wayland
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
   version: ""
   category: dev-libs
   id: 0
@@ -77,49 +105,41 @@ requires:
   id: 0
   name: libspectre
   version: ""
-  category: gnome-base
+  category: x11-libs
   id: 0
-  name: librsvg
+  name: libXdmcp
   version: ""
-  category: net-libs
+  category: media-libs
   id: 0
-  name: libvncserver
+  name: libraw
   version: ""
-  category: dev-libs
+  category: dev-lang
   id: 0
-  name: check
+  name: mono
+  version: ""
+  category: app-i18n
+  id: 0
+  name: scim
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXpm
   version: ""
   category: x11-libs
   id: 0
   name: libxkbcommon[X]
   version: ""
-  category: dev-lang
+  category: net-misc
   id: 0
-  name: luajit
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
+  name: connman
   version: ""
   category: media-libs
   id: 0
-  name: freetype
+  name: mesa
   version: ""
-  category: virtual
+  category: x11-libs
   id: 0
-  name: libudev
-  version: ""
-  category: media-libs
-  id: 0
-  name: gst-plugins-base
-  version: ""
-  category: net-dns
-  id: 0
-  name: avahi
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
+  name: libdrm
   version: ""
   category: x11-libs
   id: 0
@@ -127,27 +147,79 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libxkbcommon
-  version: ""
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: ""
-  category: dev-libs
-  id: 0
-  name: hyphen
+  name: libXScrnSaver
   version: ""
   category: media-libs
   id: 0
-  name: openjpeg
+  name: gst-plugins-base
   version: ""
-  category: dev-lang
+  category: app-i18n
   id: 0
-  name: lua
+  name: ibus
+  version: ""
+  category: media-video
+  id: 0
+  name: vlc
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrender
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: ""
+  category: media-libs
+  id: 0
+  name: tiff
+  version: ""
+  category: x11-libs
+  id: 0
+  name: tslib
+  version: ""
+  category: media-libs
+  id: 0
+  name: libwebp
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXi
+  version: ""
+  category: virtual
+  id: 0
+  name: libudev
+  version: ""
+  category: media-libs
+  id: 0
+  name: libsdl2
+  version: ""
+  category: media-libs
+  id: 0
+  name: libv4l
+  version: ""
+  category: media-libs
+  id: 0
+  name: xine-lib
+  version: ""
+  category: net-dns
+  id: 0
+  name: avahi
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: media-sound
+  id: 0
+  name: pulseaudio
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
+  version: ""
+  category: net-libs
+  id: 0
+  name: libvncserver
   version: ""
   category: app-text
   id: 0
@@ -155,119 +227,19 @@ requires:
   version: ""
   category: media-libs
   id: 0
-  name: mesa
-  version: ""
-  category: media-libs
-  id: 0
-  name: gstreamer
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXpresent
-  version: ""
-  category: app-i18n
-  id: 0
-  name: scim
-  version: ""
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXdamage
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXrandr
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXtst
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libdrm
-  version: ""
-  category: dev-lang
-  id: 0
-  name: mono
-  version: ""
-  category: media-libs
-  id: 0
-  name: libraw
-  version: ""
-  category: media-sound
-  id: 0
-  name: pulseaudio
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsdl2
-  version: ""
-  category: media-video
-  id: 0
-  name: vlc
-  version: ""
-  category: media-libs
-  id: 0
-  name: xine-lib
-  version: ""
-  category: media-libs
-  id: 0
-  name: giflib
+  name: libpng
   version: ""
   category: dev-libs
   id: 0
   name: libinput
   version: ""
-  category: sys-auth
+  category: dev-libs
   id: 0
-  name: elogind
+  name: hyphen
   version: ""
-  category: app-arch
+  category: dev-lang
   id: 0
-  name: lz4
-  version: ""
-  category: net-misc
-  id: 0
-  name: curl
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXdmcp
-  version: ""
-  category: sci-physics
-  id: 0
-  name: bullet
-  version: ""
-  category: media-libs
-  id: 0
-  name: libv4l
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: ""
-  category: media-libs
-  id: 0
-  name: libsndfile
-  version: ""
-  category: x11-libs
-  id: 0
-  name: tslib
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXcursor
-  version: ""
-  category: net-misc
-  id: 0
-  name: connman
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXpm
+  name: luajit
   version: ""
   category: x11-libs
   id: 0
@@ -277,6 +249,34 @@ requires:
   id: 0
   name: rlottie
   version: 0.0.1_pre20191101
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libunwind
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrandr
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: ""
+  category: media-libs
+  id: 0
+  name: openjpeg
+  version: ""
+  category: dev-lang
+  id: 0
+  name: lua
+  version: ""
 uri:
 - https://download.enlightenment.org/rel/libs/efl/efl-1.23.3.tar.xz
 use_flags:

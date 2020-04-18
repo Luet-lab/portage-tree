@@ -9,33 +9,49 @@ id: 0
 license: GPL-2+ HPND LGPL-2+
 name: mate-screensaver
 requires:
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: "0.30"
+  category: gnome-base
+  id: 0
+  name: gnome-keyring
+  version: ""
   category: mate-base
   id: 0
   name: libmatekbd
   version: 1.17.0
-  category: x11-libs
+  category: sys-apps
   id: 0
-  name: cairo
+  name: shadow
   version: ""
   category: x11-libs
   id: 0
-  name: libxklavier
+  name: libXScrnSaver
   version: ""
   category: x11-libs
   id: 0
   name: pango
   version: ""
-  category: sys-libs
+  category: mate-base
   id: 0
-  name: pam
-  version: ""
-  category: gnome-base
+  name: mate-session-manager
+  version: "1.6"
+  category: dev-libs
   id: 0
-  name: dconf
+  name: glib
+  version: "2.50"
+  category: mate-base
+  id: 0
+  name: mate-menus
+  version: 1.21.0
+  category: x11-libs
+  id: 0
+  name: libXrandr
   version: ""
   category: virtual
   id: 0
-  name: opengl
+  name: libintl
   version: ""
   category: mate-base
   id: 0
@@ -43,7 +59,23 @@ requires:
   version: 1.17.0
   category: x11-libs
   id: 0
-  name: libXrandr
+  name: gdk-pixbuf
+  version: "2.14"
+  category: x11-libs
+  id: 0
+  name: cairo
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXxf86misc
+  version: ""
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: "0.71"
+  category: gnome-base
+  id: 0
+  name: dconf
   version: ""
   category: x11-libs
   id: 0
@@ -53,10 +85,26 @@ requires:
   id: 0
   name: elogind
   version: ""
-  category: dev-libs
+  category: x11-libs
   id: 0
-  name: glib
-  version: "2.50"
+  name: libXext
+  version: ""
+  category: sys-auth
+  id: 0
+  name: consolekit
+  version: ""
+  category: virtual
+  id: 0
+  name: opengl
+  version: ""
+  category: sys-libs
+  id: 0
+  name: pam
+  version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: ""
   category: x11-libs
   id: 0
   name: libX11
@@ -67,60 +115,12 @@ requires:
   version: "3.22"
   category: x11-libs
   id: 0
-  name: libXScrnSaver
+  name: libxklavier
   version: ""
-  category: virtual
-  id: 0
-  name: libintl
-  version: ""
-  category: x11-libs
-  id: 0
-  name: gdk-pixbuf
-  version: "2.14"
   category: x11-libs
   id: 0
   name: libnotify
   version: "0.7"
-  category: gnome-base
-  id: 0
-  name: gnome-keyring
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
-  category: sys-auth
-  id: 0
-  name: consolekit
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: "0.71"
-  category: sys-apps
-  id: 0
-  name: shadow
-  version: ""
-  category: mate-base
-  id: 0
-  name: mate-menus
-  version: 1.21.0
-  category: x11-libs
-  id: 0
-  name: libXxf86misc
-  version: ""
-  category: mate-base
-  id: 0
-  name: mate-session-manager
-  version: "1.6"
-  category: sys-apps
-  id: 0
-  name: dbus
-  version: "0.30"
 use_flags:
 - X
 - debug

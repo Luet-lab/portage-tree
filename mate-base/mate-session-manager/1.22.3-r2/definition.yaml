@@ -9,6 +9,10 @@ id: 0
 license: GPL-2+ GPL-3+ HPND LGPL-2+ LGPL-2.1+
 name: mate-session-manager
 requires:
+  category: dev-libs
+  id: 0
+  name: dbus-glib
+  version: "0.76"
   category: x11-libs
   id: 0
   name: gtk+
@@ -17,33 +21,9 @@ requires:
   id: 0
   name: libX11
   version: ""
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
   category: sys-auth
   id: 0
-  name: consolekit
-  version: 0.9.2
-  category: gnome-base
-  id: 0
-  name: gnome-keyring
-  version: ""
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: "0.76"
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.50"
-  category: x11-libs
-  id: 0
-  name: gdk-pixbuf
+  name: elogind
   version: ""
   category: x11-libs
   id: 0
@@ -51,11 +31,55 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXrender
+  name: libXtst
+  version: ""
+  category: x11-libs
+  id: 0
+  name: pango
+  version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
   version: ""
   category: x11-misc
   id: 0
   name: xdg-user-dirs
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.50"
+  category: x11-libs
+  id: 0
+  name: libICE
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libSM
+  version: ""
+  category: sys-auth
+  id: 0
+  name: consolekit
+  version: 0.9.2
+  category: x11-libs
+  id: 0
+  name: xtrans
+  version: ""
+  category: x11-apps
+  id: 0
+  name: xdpyinfo
+  version: ""
+  category: x11-misc
+  id: 0
+  name: xdg-user-dirs-gtk
+  version: ""
+  category: gnome-base
+  id: 0
+  name: gnome-keyring
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libxslt
   version: ""
   category: sys-apps
   id: 0
@@ -63,43 +87,19 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libICE
+  name: gdk-pixbuf
   version: ""
   category: x11-libs
   id: 0
-  name: pango
+  name: libXext
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXrender
   version: ""
   category: virtual
   id: 0
   name: libintl
-  version: ""
-  category: x11-libs
-  id: 0
-  name: xtrans
-  version: ""
-  category: x11-misc
-  id: 0
-  name: xdg-user-dirs-gtk
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libxslt
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libSM
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXtst
-  version: ""
-  category: sys-auth
-  id: 0
-  name: elogind
-  version: ""
-  category: x11-apps
-  id: 0
-  name: xdpyinfo
   version: ""
 use_flags:
 - debug

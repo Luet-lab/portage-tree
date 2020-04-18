@@ -2,19 +2,7 @@ category: mail-mta
 conflicts:
   category: mail-mta
   id: 0
-mailer
-  version: ""
-  category: mail-mta
-  id: 0
-  name: msmtp
-  version: ""
-  category: mail-mta
-  id: 0
-  name: courier
-  version: ""
-  category: mail-mta
-  id: 0
-  name: exim
+  name: opensmtpd
   version: ""
   category: mail-mta
   id: 0
@@ -26,11 +14,15 @@ mailer
   version: ""
   category: mail-mta
   id: 0
-  name: opensmtpd
+  name: courier
   version: ""
   category: mail-mta
   id: 0
-  name: qmail-ldap
+  name: esmtp
+  version: ""
+  category: mail-mta
+  id: 0
+  name: msmtp
   version: ""
   category: mail-mta
   id: 0
@@ -38,11 +30,19 @@ mailer
   version: ""
   category: mail-mta
   id: 0
-  name: mini-qmail
+  name: exim
   version: ""
   category: mail-mta
   id: 0
-  name: esmtp
+  name: qmail-ldap
+  version: ""
+  category: mail-mta
+  id: 0
+mailer
+  version: ""
+  category: mail-mta
+  id: 0
+  name: mini-qmail
   version: ""
 description: qmail -- a secure, reliable, efficient, simple message transfer agent
 id: 0
@@ -51,63 +51,55 @@ name: netqmail
 requires:
   category: acct-user
   id: 0
-  name: qmailp
-  version: ""
-  category: virtual
-  id: 0
-  name: checkpassword
-  version: ""
-  category: acct-user
-  id: 0
   name: qmaild
-  version: ""
-  category: acct-user
-  id: 0
-  name: qmailr
   version: ""
   category: acct-user
   id: 0
   name: qmailq
   version: ""
-  category: net-mail
+  category: acct-user
   id: 0
-  name: queue-repair
+  name: alias
   version: ""
   category: acct-user
   id: 0
-  name: qmaill
+  name: qmailp
   version: ""
   category: net-dns
   id: 0
   name: libidn2
   version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: "1.1"
-  category: net-mail
-  id: 0
-  name: cmd5checkpw
-  version: "0.30"
-  category: sys-apps
-  id: 0
-  name: groff
-  version: ""
   category: sys-apps
   id: 0
   name: ucspi-tcp
   version: ""
-  category: virtual
+  category: net-mail
   id: 0
-  name: daemontools
+  name: cmd5checkpw
+  version: "0.30"
+  category: acct-group
+  id: 0
+  name: qmail
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: "1.1"
+  category: sys-apps
+  id: 0
+  name: ucspi-ssl
   version: ""
   category: acct-group
   id: 0
   name: nofiles
   version: ""
-  category: acct-user
+  category: net-mail
   id: 0
-  name: alias
+  name: queue-repair
   version: ""
   category: acct-user
   id: 0
@@ -117,17 +109,25 @@ requires:
   id: 0
   name: gentoo-functions
   version: ""
-  category: acct-group
-  id: 0
-  name: qmail
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libressl
-  version: ""
   category: sys-apps
   id: 0
-  name: ucspi-ssl
+  name: groff
+  version: ""
+  category: virtual
+  id: 0
+  name: checkpassword
+  version: ""
+  category: acct-user
+  id: 0
+  name: qmaill
+  version: ""
+  category: acct-user
+  id: 0
+  name: qmailr
+  version: ""
+  category: virtual
+  id: 0
+  name: daemontools
   version: ""
 uri:
 - mirror://qmail/netqmail-1.06.tar.gz

@@ -5,53 +5,17 @@ id: 0
 license: GPL-2+
 name: mutter
 requires:
-  category: dev-libs
+  category: gnome-base
   id: 0
-  name: libgudev
-  version: "232"
-  category: x11-libs
-  id: 0
-  name: libSM
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXcursor
-  version: ""
-  category: media-libs
-  id: 0
-  name: libcanberra
-  version: "0.26"
-  category: dev-libs
-  id: 0
-  name: libwacom
-  version: "0.13"
-  category: dev-libs
-  id: 0
-  name: gobject-introspection
-  version: "1.54"
-  category: x11-libs
-  id: 0
-  name: gdk-pixbuf
+  name: gnome-settings-daemon
   version: ""
   category: dev-libs
   id: 0
-  name: glib
-  version: 2.61.1
-  category: media-libs
-  id: 0
-  name: mesa[X(+),egl]
-  version: ""
+  name: wayland-protocols
+  version: "1.18"
   category: x11-libs
   id: 0
   name: libdrm
-  version: ""
-  category: sys-apps
-  id: 0
-  name: systemd
-  version: ""
-  category: x11-base
-  id: 0
-  name: xorg-server
   version: ""
   category: gnome-base
   id: 0
@@ -59,55 +23,19 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXcomposite
-  version: "0.4"
-  category: x11-libs
-  id: 0
-  name: libxkbfile
+  name: libICE
   version: ""
   category: dev-libs
   id: 0
-  name: wayland
-  version: 1.13.0
-  category: sys-auth
-  id: 0
-  name: elogind
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXau
-  version: ""
-  category: virtual
-  id: 0
-  name: libudev
-  version: 232-r1
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: ""
-  category: dev-libs
-  id: 0
-  name: fribidi
-  version: 1.0.0
-  category: x11-libs
-  id: 0
-  name: libXtst
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libxkbcommon-0.4.3[X]
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libXinerama
-  version: ""
+  name: libwacom
+  version: "0.13"
   category: dev-libs
   id: 0
   name: libinput
   version: "1.4"
   category: x11-libs
   id: 0
-  name: libXdamage
+  name: libxkbfile
   version: ""
   category: x11-misc
   id: 0
@@ -115,7 +43,7 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libXrender
+  name: libxkbcommon-0.4.3[X]
   version: ""
   category: x11-libs
   id: 0
@@ -123,35 +51,31 @@ requires:
   version: 1.5.0
   category: media-libs
   id: 0
-  name: mesa
-  version: "10.3"
+  name: libcanberra
+  version: "0.26"
   category: x11-libs
   id: 0
-  name: libXfixes
-  version: "3"
-  category: x11-libs
-  id: 0
-  name: libXi
-  version: 1.7.4
-  category: x11-libs
-  id: 0
-  name: libICE
+  name: libxcb
   version: ""
-  category: x11-libs
+  category: x11-base
   id: 0
-  name: startup-notification
-  version: "0.7"
-  category: gnome-extra
-  id: 0
-  name: zenity
+  name: xorg-server
   version: ""
+  category: dev-libs
+  id: 0
+  name: fribidi
+  version: 1.0.0
   category: x11-libs
   id: 0
   name: cairo-1.14[X]
   version: ""
-  category: gnome-base
+  category: x11-libs
   id: 0
-  name: gnome-settings-daemon
+  name: libXcursor
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXdamage
   version: ""
   category: x11-libs
   id: 0
@@ -159,12 +83,88 @@ requires:
   version: ""
   category: x11-libs
   id: 0
-  name: libxcb
+  name: libXcomposite
+  version: "0.4"
+  category: x11-libs
+  id: 0
+  name: libXi
+  version: 1.7.4
+  category: x11-libs
+  id: 0
+  name: libXau
   version: ""
   category: dev-libs
   id: 0
-  name: wayland-protocols
-  version: "1.18"
+  name: wayland
+  version: 1.13.0
+  category: x11-libs
+  id: 0
+  name: libXrender
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libXinerama
+  version: ""
+  category: media-libs
+  id: 0
+  name: mesa
+  version: "10.3"
+  category: dev-libs
+  id: 0
+  name: gobject-introspection
+  version: "1.54"
+  category: gnome-extra
+  id: 0
+  name: zenity
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libSM
+  version: ""
+  category: x11-libs
+  id: 0
+  name: startup-notification
+  version: "0.7"
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.61.1
+  category: x11-libs
+  id: 0
+  name: libXfixes
+  version: "3"
+  category: x11-libs
+  id: 0
+  name: libXtst
+  version: ""
+  category: virtual
+  id: 0
+  name: libudev
+  version: 232-r1
+  category: x11-libs
+  id: 0
+  name: gdk-pixbuf
+  version: ""
+  category: media-libs
+  id: 0
+  name: mesa[X(+),egl]
+  version: ""
+  category: sys-apps
+  id: 0
+  name: systemd
+  version: ""
+  category: sys-auth
+  id: 0
+  name: elogind
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libgudev
+  version: "232"
 uri:
 - https://dev.gentoo.org/~leio/distfiles/-patchset.tar.xz
 use_flags:

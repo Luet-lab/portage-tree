@@ -5,6 +5,10 @@ id: 0
 license: BSD
 name: rpcbind
 requires:
+  category: sec-policy
+  id: 0
+  name: selinux-rpcbind
+  version: ""
   category: net-libs
   id: 0
   name: libtirpc
@@ -16,10 +20,6 @@ requires:
   category: sys-apps
   id: 0
   name: tcp-wrappers
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-rpcbind
   version: ""
 uri:
 - mirror://sourceforge/rpcbind/rpcbind-1.2.5.tar.bz2

@@ -9,10 +9,14 @@ id: 0
 license: GPL-2+ LGPL-2.1+ FDL-1.1
 name: libcryptui
 requires:
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: libSM
-  version: ""
+  name: dbus-glib
+  version: "0.72"
+  category: app-crypt
+  id: 0
+  name: gpgme
+  version: "1"
   category: app-crypt
   id: 0
   name: gnupg
@@ -25,6 +29,10 @@ requires:
   id: 0
   name: libnotify
   version: "0.7"
+  category: dev-libs
+  id: 0
+  name: glib
+  version: "2.32"
   category: app-crypt
   id: 0
   name: gcr
@@ -33,18 +41,10 @@ requires:
   id: 0
   name: libICE
   version: ""
-  category: app-crypt
+  category: x11-libs
   id: 0
-  name: gpgme
-  version: "1"
-  category: dev-libs
-  id: 0
-  name: glib
-  version: "2.32"
-  category: dev-libs
-  id: 0
-  name: dbus-glib
-  version: "0.72"
+  name: libSM
+  version: ""
 use_flags:
 - debug
 - +introspection

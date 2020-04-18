@@ -2,23 +2,11 @@ category: mail-mta
 conflicts:
   category: mail-mta
   id: 0
-  name: mini-qmail
-  version: ""
-  category: mail-mta
-  id: 0
-  name: opensmtpd
-  version: ""
-  category: <mail-mta
-  id: 0
-  name: ssmtp
-  version: 2.64-r2
-  category: '>=mail-mta'
-  id: 0
-  name: ssmtp
-  version: 2.64-r2
-  category: mail-mta
-  id: 0
   name: exim
+  version: ""
+  category: mail-mta
+  id: 0
+  name: mini-qmail
   version: ""
   category: mail-mta
   id: 0
@@ -26,11 +14,15 @@ conflicts:
   version: ""
   category: mail-mta
   id: 0
-  name: courier
+  name: postfix
   version: ""
   category: mail-mta
   id: 0
-  name: sendmail
+  name: opensmtpd
+  version: ""
+  category: mail-mta
+  id: 0
+  name: courier
   version: ""
   category: mail-mta
   id: 0
@@ -42,8 +34,16 @@ mailer
   version: ""
   category: mail-mta
   id: 0
-  name: postfix
+  name: sendmail
   version: ""
+  category: <mail-mta
+  id: 0
+  name: ssmtp
+  version: 2.64-r2
+  category: '>=mail-mta'
+  id: 0
+  name: ssmtp
+  version: 2.64-r2
   category: mail-mta
   id: 0
   name: qmail-ldap
@@ -53,29 +53,9 @@ id: 0
 license: GPL-3
 name: msmtp
 requires:
-  category: app-crypt
-  id: 0
-  name: libsecret
-  version: ""
-  category: acct-group
-  id: 0
-  name: msmtpd
-  version: ""
-  category: virtual
-  id: 0
-  name: gsasl
-  version: ""
   category: net-libs
   id: 0
   name: gnutls[idn?]
-  version: ""
-  category: virtual
-  id: 0
-  name: libintl
-  version: ""
-  category: net-dns
-  id: 0
-  name: libidn2
   version: ""
   category: net-mail
   id: 0
@@ -84,6 +64,26 @@ requires:
   category: acct-user
   id: 0
   name: msmtpd
+  version: ""
+  category: virtual
+  id: 0
+  name: libintl
+  version: ""
+  category: acct-group
+  id: 0
+  name: msmtpd
+  version: ""
+  category: net-dns
+  id: 0
+  name: libidn2
+  version: ""
+  category: app-crypt
+  id: 0
+  name: libsecret
+  version: ""
+  category: virtual
+  id: 0
+  name: gsasl
   version: ""
 uri:
 - https://marlam.de/msmtp/releases/msmtp-1.8.7.tar.xz

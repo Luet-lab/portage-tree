@@ -2,15 +2,47 @@ category: mail-mta
 conflicts:
   category: mail-mta
   id: 0
-  name: qmail-ldap
+  name: mini-qmail
   version: ""
   category: mail-mta
   id: 0
-  name: msmtp
+mailer
+  version: ""
+  category: mail-mta
+  id: 0
+  name: opensmtpd
+  version: ""
+  category: net-mail
+  id: 0
+  name: vacation
+  version: ""
+  category: mail-mta
+  id: 0
+  name: qmail-ldap
+  version: ""
+  category: <mail-mta
+  id: 0
+  name: ssmtp
+  version: 2.64-r2
+  category: '>=mail-mta'
+  id: 0
+  name: ssmtp
+  version: 2.64-r2
+  category: mail-mta
+  id: 0
+  name: esmtp
   version: ""
   category: mail-mta
   id: 0
   name: netqmail
+  version: ""
+  category: mail-mta
+  id: 0
+  name: exim
+  version: ""
+  category: mail-mta
+  id: 0
+  name: msmtp
   version: ""
   category: mail-mta
   id: 0
@@ -20,47 +52,23 @@ conflicts:
   id: 0
   name: courier
   version: ""
-  category: mail-mta
-  id: 0
-  name: esmtp
-  version: ""
-  category: mail-mta
-  id: 0
-  name: exim
-  version: ""
-  category: mail-mta
-  id: 0
-  name: opensmtpd
-  version: ""
-  category: '>=mail-mta'
-  id: 0
-  name: ssmtp
-  version: 2.64-r2
-  category: mail-mta
-  id: 0
-mailer
-  version: ""
-  category: net-mail
-  id: 0
-  name: vacation
-  version: ""
-  category: mail-mta
-  id: 0
-  name: mini-qmail
-  version: ""
-  category: <mail-mta
-  id: 0
-  name: ssmtp
-  version: 2.64-r2
 description: Widely-used Mail Transport Agent (MTA)
 id: 0
 license: Sendmail GPL-2
 name: sendmail
 requires:
-  category: sys-libs
+  category: net-mail
   id: 0
-  name: db
-  version: "3.2"
+  name: mailbase
+  version: ""
+  category: sys-apps
+  id: 0
+  name: tcp-wrappers
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
   category: net-mail
   id: 0
   name: mailbase
@@ -69,29 +77,21 @@ requires:
   id: 0
   name: openldap
   version: ""
-  category: net-mail
+  category: sys-libs
   id: 0
-  name: mailbase
-  version: ""
-  category: dev-libs
-  id: 0
-  name: cyrus-sasl
-  version: 2.1.10
-  category: sys-apps
-  id: 0
-  name: tcp-wrappers
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: ""
+  name: db
+  version: "3.2"
   category: sys-devel
   id: 0
   name: m4
   version: ""
   category: dev-libs
   id: 0
-  name: libressl
+  name: cyrus-sasl
+  version: 2.1.10
+  category: dev-libs
+  id: 0
+  name: openssl
   version: ""
 uri:
 - ftp://ftp.sendmail.org/pub/sendmail/sendmail.8.15.2.tar.gz

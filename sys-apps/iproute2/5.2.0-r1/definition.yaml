@@ -9,25 +9,29 @@ id: 0
 license: GPL-2
 name: iproute2
 requires:
-  category: dev-libs
-  id: 0
-  name: libbsd
-  version: ""
   category: sys-libs
   id: 0
   name: libcap
   version: ""
-  category: sys-libs
+  category: net-firewall
   id: 0
-  name: db
+  name: iptables
+  version: 1.4.20
+  category: net-dialup
+  id: 0
+  name: linux-atm
   version: ""
   category: sys-libs
   id: 0
   name: libselinux
   version: ""
-  category: net-dialup
+  category: sys-libs
   id: 0
-  name: linux-atm
+  name: db
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libbsd
   version: ""
   category: net-libs
   id: 0
@@ -37,10 +41,6 @@ requires:
   id: 0
   name: libelf
   version: ""
-  category: net-firewall
-  id: 0
-  name: iptables
-  version: 1.4.20
 uri:
 - https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.2.0.tar.xz
 use_flags:

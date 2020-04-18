@@ -2,15 +2,11 @@ category: sys-cluster
 conflicts:
   category: sys-cluster
   id: 0
-  name: kubeadm
-  version: ""
-  category: sys-cluster
-  id: 0
   name: kube-proxy
   version: ""
   category: sys-cluster
   id: 0
-  name: kube-controller-manager
+  name: kubeadm
   version: ""
   category: sys-cluster
   id: 0
@@ -18,7 +14,11 @@ conflicts:
   version: ""
   category: sys-cluster
   id: 0
-  name: kubelet
+  name: kube-controller-manager
+  version: ""
+  category: sys-cluster
+  id: 0
+  name: kube-scheduler
   version: ""
   category: sys-cluster
   id: 0
@@ -26,7 +26,7 @@ conflicts:
   version: ""
   category: sys-cluster
   id: 0
-  name: kube-scheduler
+  name: kubelet
   version: ""
 description: production-grade container orchestration
 id: 0
@@ -35,25 +35,25 @@ name: kubernetes
 requires:
   category: acct-user
   id: 0
-  name: kube-scheduler
+  name: kube-apiserver
   version: ""
   category: acct-group
   id: 0
   name: kube-controller-manager
+  version: ""
+  category: acct-user
+  id: 0
+  name: kube-controller-manager
+  version: ""
+  category: acct-user
+  id: 0
+  name: kube-scheduler
   version: ""
   category: net-firewall
   id: 0
   name: conntrack-tools
   version: ""
   category: acct-group
-  id: 0
-  name: kube-apiserver
-  version: ""
-  category: acct-user
-  id: 0
-  name: kube-controller-manager
-  version: ""
-  category: acct-user
   id: 0
   name: kube-apiserver
   version: ""

@@ -5,14 +5,6 @@ id: 0
 license: GPL-2
 name: snort
 requires:
-  category: net-libs
-  id: 0
-  name: libnsl
-  version: ""
-  category: sys-libs
-  id: 0
-  name: glibc[rpc(-)]
-  version: ""
   category: sec-policy
   id: 0
   name: selinux-snort
@@ -21,13 +13,13 @@ requires:
   id: 0
   name: libpcap
   version: 1.3.0
-  category: dev-libs
-  id: 0
-  name: libdnet
-  version: ""
   category: sys-libs
   id: 0
   name: zlib
+  version: ""
+  category: sys-libs
+  id: 0
+  name: glibc[rpc(-)]
   version: ""
   category: net-libs
   id: 0
@@ -45,6 +37,14 @@ requires:
   id: 0
   name: libpcre
   version: "8.33"
+  category: dev-libs
+  id: 0
+  name: libdnet
+  version: ""
+  category: net-libs
+  id: 0
+  name: libnsl
+  version: ""
 uri:
 - https://www.snort.org/downloads/archive/snort/snort-2.9.16.tar.gz
 use_flags:

@@ -4,6 +4,14 @@ description: X11 video capture stream plugin for GStreamer
 id: 0
 name: gst-plugins-ximagesrc
 requires:
+  category: media-libs
+  id: 0
+  name: gst-plugins-base
+  version: 1.14.5
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: 1.6.2
   category: x11-libs
   id: 0
   name: libXdamage
@@ -16,14 +24,6 @@ requires:
   id: 0
   name: libXfixes
   version: 5.0.1
-  category: media-libs
-  id: 0
-  name: gst-plugins-base
-  version: 1.14.5
-  category: x11-libs
-  id: 0
-  name: libX11
-  version: 1.6.2
 use_flags:
 - ""
 version: 1.14.5

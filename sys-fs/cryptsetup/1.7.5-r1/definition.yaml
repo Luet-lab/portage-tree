@@ -5,9 +5,17 @@ id: 0
 license: GPL-2+
 name: cryptsetup
 requires:
+  category: virtual
+  id: 0
+  name: libudev
+  version: ""
   category: dev-libs
   id: 0
-  name: libgcrypt
+  name: popt[static-libs(+)]
+  version: ""
+  category: dev-libs
+  id: 0
+  name: nettle-2.4[static-libs(+)]
   version: ""
   category: dev-libs
   id: 0
@@ -15,23 +23,15 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libressl
-  version: ""
-  category: dev-libs
-  id: 0
-  name: nettle
-  version: "2.4"
-  category: virtual
-  id: 0
-  name: libudev
+  name: libpwquality[static-libs(+)]
   version: ""
   category: sys-apps
   id: 0
-  name: util-linux[static-libs(+)]
+  name: util-linux
   version: ""
-  category: dev-libs
+  category: sys-fs
   id: 0
-  name: nettle-2.4[static-libs(+)]
+  name: lvm2[static-libs(+)]
   version: ""
   category: virtual
   id: 0
@@ -39,15 +39,15 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: libgpg-error
-  version: ""
-  category: dev-libs
-  id: 0
-  name: popt
-  version: ""
-  category: dev-libs
-  id: 0
   name: libpwquality
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libressl
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libgpg-error
   version: ""
   category: sys-fs
   id: 0
@@ -55,24 +55,24 @@ requires:
   version: ""
   category: dev-libs
   id: 0
-  name: popt[static-libs(+)]
-  version: ""
-  category: sys-fs
-  id: 0
-  name: lvm2[static-libs(+)]
+  name: libgpg-error[static-libs(+)]
   version: ""
   category: sys-apps
   id: 0
-  name: util-linux
+  name: util-linux[static-libs(+)]
   version: ""
   category: dev-libs
   id: 0
-  name: libgpg-error[static-libs(+)]
+  name: libgcrypt
   version: ""
   category: dev-libs
   id: 0
-  name: libpwquality[static-libs(+)]
+  name: popt
   version: ""
+  category: dev-libs
+  id: 0
+  name: nettle
+  version: "2.4"
 uri:
 - https://www.kernel.org/pub/linux/utils/cryptsetup/v/cryptsetup-1.7.5.tar.xz
 use_flags:

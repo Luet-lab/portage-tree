@@ -5,6 +5,10 @@ id: 0
 license: GPL-2
 name: gnome-user-share
 requires:
+  category: www-apache
+  id: 0
+  name: mod_dnssd
+  version: "0.6"
   category: www-servers
   id: 0
   name: apache-2.2[apache2_modules_dav,apache2_modules_dav_fs,apache2_modules_authn_file,apache2_modules_auth_digest,apache2_modules_authz_groupfile]
@@ -33,10 +37,6 @@ requires:
   id: 0
   name: libcanberra
   version: ""
-  category: www-apache
-  id: 0
-  name: mod_dnssd
-  version: "0.6"
 use_flags:
 - ""
 version: 3.32.0.1

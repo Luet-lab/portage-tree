@@ -9,17 +9,41 @@ id: 0
 license: OPENLDAP GPL-2
 name: openldap
 requires:
-  category: virtual
+  category: dev-db
   id: 0
-  name: krb5
+  name: lmdb
+  version: 0.9.18
+  category: dev-db
+  id: 0
+  name: libiodbc
   version: ""
   category: dev-libs
   id: 0
   name: libgcrypt
   version: 1.5.3
+  category: sys-apps
+  id: 0
+  name: tcp-wrappers
+  version: ""
+  category: dev-lang
+  id: 0
+  name: perl
+  version: ""
   category: dev-libs
   id: 0
-  name: cyrus-sasl
+  name: openssl
+  version: ""
+  category: sec-policy
+  id: 0
+  name: selinux-ldap
+  version: ""
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: 2.12.23-r6
+  category: dev-libs
+  id: 0
+  name: libressl
   version: ""
   category: sys-devel
   id: 0
@@ -29,41 +53,13 @@ requires:
   id: 0
   name: e2fsprogs-libs
   version: ""
-  category: dev-db
-  id: 0
-  name: unixODBC
-  version: ""
-  category: dev-lang
-  id: 0
-  name: perl
-  version: ""
-  category: sec-policy
-  id: 0
-  name: selinux-ldap
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libressl
-  version: ""
-  category: dev-db
-  id: 0
-  name: lmdb
-  version: 0.9.18
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: ""
   category: sys-libs
   id: 0
   name: db
   version: "6.0"
-  category: net-libs
+  category: virtual
   id: 0
-  name: gnutls
-  version: 2.12.23-r6
-  category: sys-apps
-  id: 0
-  name: tcp-wrappers
+  name: krb5
   version: ""
   category: dev-libs
   id: 0
@@ -71,7 +67,11 @@ requires:
   version: 1.0.1h-r2
   category: dev-db
   id: 0
-  name: libiodbc
+  name: unixODBC
+  version: ""
+  category: dev-libs
+  id: 0
+  name: cyrus-sasl
   version: ""
 use_flags:
 - crypt

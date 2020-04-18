@@ -5,22 +5,6 @@ id: 0
 license: GPL-2
 name: consolekit
 requires:
-  category: sys-apps
-  id: 0
-  name: acl
-  version: ""
-  category: app-admin
-  id: 0
-  name: cgmanager
-  version: ""
-  category: virtual
-  id: 0
-  name: udev
-  version: "200"
-  category: sys-apps
-  id: 0
-  name: coreutils[acl?]
-  version: ""
   category: dev-libs
   id: 0
   name: glib
@@ -29,14 +13,14 @@ requires:
   id: 0
   name: gettext
   version: "0.19"
-  category: sys-apps
+  category: virtual
   id: 0
-  name: dbus
-  version: ""
-  category: x11-libs
+  name: udev
+  version: "200"
+  category: sys-auth
   id: 0
-  name: libX11
-  version: ""
+  name: polkit
+  version: "0.110"
   category: sys-libs
   id: 0
   name: pam
@@ -45,18 +29,34 @@ requires:
   id: 0
   name: pm-utils
   version: ""
+  category: app-admin
+  id: 0
+  name: cgmanager
+  version: ""
+  category: sys-apps
+  id: 0
+  name: dbus
+  version: ""
   category: sys-libs
   id: 0
   name: zlib
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libX11
+  version: ""
+  category: sys-apps
+  id: 0
+  name: acl
   version: ""
   category: sys-libs
   id: 0
   name: libnih
   version: 1.0.2
-  category: sys-auth
+  category: sys-apps
   id: 0
-  name: polkit
-  version: "0.110"
+  name: coreutils[acl?]
+  version: ""
   category: sec-policy
   id: 0
   name: selinux-consolekit

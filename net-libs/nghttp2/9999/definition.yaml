@@ -7,16 +7,12 @@ name: nghttp2
 requires:
   category: dev-libs
   id: 0
-  name: openssl
-  version: 1.0.2
-  category: dev-libs
-  id: 0
-  name: libressl
+  name: boost
   version: ""
   category: dev-libs
   id: 0
-  name: jemalloc
-  version: ""
+  name: libev
+  version: "4.15"
   category: sys-libs
   id: 0
   name: zlib
@@ -31,7 +27,11 @@ requires:
   version: 2.7.7
   category: dev-libs
   id: 0
-  name: boost
+  name: openssl
+  version: 1.0.2
+  category: dev-libs
+  id: 0
+  name: libressl
   version: ""
   category: dev-libs
   id: 0
@@ -39,8 +39,8 @@ requires:
   version: "2.5"
   category: dev-libs
   id: 0
-  name: libev
-  version: "4.15"
+  name: jemalloc
+  version: ""
 use_flags:
 - cxx
 - debug

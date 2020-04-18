@@ -7,11 +7,11 @@ name: image_cb_detector
 requires:
   category: dev-ros
   id: 0
-  name: message_filters
+  name: roscpp
   version: ""
   category: dev-ros
   id: 0
-  name: sensor_msgs
+  name: calibration_msgs
   version: ""
   category: dev-libs
   id: 0
@@ -21,17 +21,13 @@ requires:
   id: 0
   name: cv_bridge
   version: ""
+  category: media-libs
+  id: 0
+  name: opencv
+  version: ""
   category: dev-ros
   id: 0
   name: image_transport
-  version: ""
-  category: dev-ros
-  id: 0
-  name: roscpp
-  version: ""
-  category: dev-ros
-  id: 0
-  name: calibration_msgs
   version: ""
   category: dev-ros
   id: 0
@@ -41,9 +37,13 @@ requires:
   id: 0
   name: actionlib
   version: ""
-  category: media-libs
+  category: dev-ros
   id: 0
-  name: opencv
+  name: message_filters
+  version: ""
+  category: dev-ros
+  id: 0
+  name: sensor_msgs
   version: ""
 use_flags:
 - ""

@@ -5,6 +5,14 @@ id: 0
 license: LGPL-2+
 name: gconf
 requires:
+  category: sys-auth
+  id: 0
+  name: polkit
+  version: ""
+  category: dev-libs
+  id: 0
+  name: glib
+  version: 2.34.3
   category: dev-libs
   id: 0
   name: dbus-glib
@@ -25,14 +33,6 @@ requires:
   id: 0
   name: openldap
   version: 2.4.38-r1
-  category: sys-auth
-  id: 0
-  name: polkit
-  version: ""
-  category: dev-libs
-  id: 0
-  name: glib
-  version: 2.34.3
 use_flags:
 - debug
 - +introspection

@@ -8,10 +8,18 @@ description: Mail::Box connector via IMAP4
 id: 0
 name: Mail-Box-IMAP4
 requires:
+  category: virtual
+  id: 0
+  name: perl-Digest-MD5
+  version: ""
   category: dev-perl
   id: 0
   name: Mail-Box
   version: "3"
+  category: dev-perl
+  id: 0
+  name: Mail-IMAPClient
+  version: ""
   category: dev-perl
   id: 0
   name: Mail-Message
@@ -22,7 +30,11 @@ requires:
   version: "3"
   category: virtual
   id: 0
-  name: perl-Digest-MD5
+  name: perl-Scalar-List-Utils
+  version: ""
+  category: dev-perl
+  id: 0
+  name: TimeDate
   version: ""
   category: dev-perl
   id: 0
@@ -31,18 +43,6 @@ requires:
   category: virtual
   id: 0
   name: perl-File-Spec
-  version: ""
-  category: dev-perl
-  id: 0
-  name: Mail-IMAPClient
-  version: ""
-  category: virtual
-  id: 0
-  name: perl-Scalar-List-Utils
-  version: ""
-  category: dev-perl
-  id: 0
-  name: TimeDate
   version: ""
 use_flags:
 - test

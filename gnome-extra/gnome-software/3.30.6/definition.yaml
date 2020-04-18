@@ -5,13 +5,37 @@ id: 0
 license: GPL-2+
 name: gnome-software
 requires:
+  category: app-admin
+  id: 0
+  name: packagekit-base
+  version: 1.1.0
+  category: gnome-base
+  id: 0
+  name: gsettings-desktop-schemas
+  version: 3.11.5
+  category: x11-libs
+  id: 0
+  name: gtk+
+  version: 3.22.4
+  category: gnome-base
+  id: 0
+  name: gnome-desktop
+  version: 3.18.0
+  category: sys-auth
+  id: 0
+  name: polkit
+  version: ""
   category: app-crypt
   id: 0
   name: libsecret
   version: ""
-  category: sys-auth
+  category: net-libs
   id: 0
-  name: polkit
+  name: libsoup
+  version: 2.52.0
+  category: app-text
+  id: 0
+  name: gspell
   version: ""
   category: sys-apps
   id: 0
@@ -19,48 +43,24 @@ requires:
   version: 1.0.3
   category: dev-libs
   id: 0
-  name: json-glib
-  version: 1.2.0
-  category: gnome-base
-  id: 0
-  name: gnome-desktop
-  version: 3.18.0
-  category: app-text
-  id: 0
-  name: gspell
-  version: ""
-  category: app-admin
-  id: 0
-  name: packagekit-base
-  version: 1.1.0
-  category: dev-libs
-  id: 0
   name: libgudev
   version: ""
-  category: gnome-base
-  id: 0
-  name: gsettings-desktop-schemas
-  version: 3.11.5
   category: x11-libs
   id: 0
   name: gdk-pixbuf
   version: 2.32.0
-  category: net-libs
-  id: 0
-  name: libsoup
-  version: 2.52.0
-  category: dev-libs
-  id: 0
-  name: appstream-glib
-  version: 0.7.14
   category: dev-libs
   id: 0
   name: glib
   version: "2.56"
-  category: x11-libs
+  category: dev-libs
   id: 0
-  name: gtk+
-  version: 3.22.4
+  name: json-glib
+  version: 1.2.0
+  category: dev-libs
+  id: 0
+  name: appstream-glib
+  version: 0.7.14
 use_flags:
 - +firmware
 - gnome

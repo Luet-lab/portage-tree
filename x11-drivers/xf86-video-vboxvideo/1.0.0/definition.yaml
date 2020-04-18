@@ -8,6 +8,10 @@ description: VirtualBox guest video driver
 id: 0
 name: xf86-video-vboxvideo
 requires:
+  category: x11-libs
+  id: 0
+  name: libpciaccess
+  version: ""
   category: x11-base
   id: 0
   name: xorg-server
@@ -15,10 +19,6 @@ requires:
   category: x11-libs
   id: 0
   name: libXcomposite
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libpciaccess
   version: ""
 use_flags:
 - ""

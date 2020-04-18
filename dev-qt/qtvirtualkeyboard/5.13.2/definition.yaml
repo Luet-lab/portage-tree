@@ -4,6 +4,14 @@ description: Customizable input framework and virtual keyboard for Qt
 id: 0
 name: qtvirtualkeyboard
 requires:
+  category: app-text
+  id: 0
+  name: hunspell
+  version: ""
+  category: x11-libs
+  id: 0
+  name: libxcb
+  version: ""
   category: dev-qt
   id: 0
   name: qtcore
@@ -20,14 +28,6 @@ requires:
   id: 0
   name: qtsvg
   version: 5.13.2
-  category: app-text
-  id: 0
-  name: hunspell
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libxcb
-  version: ""
 use_flags:
 - handwriting
 - +spell

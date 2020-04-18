@@ -5,18 +5,6 @@ id: 0
 license: GPL-3
 name: asymptote
 requires:
-  category: dev-python
-  id: 0
-  name: pycson
-  version: ""
-  category: virtual
-  id: 0
-  name: latex-base
-  version: ""
-  category: sys-libs
-  id: 0
-  name: readline
-  version: 4.3-r5
   category: media-gfx
   id: 0
   name: imagemagick
@@ -33,13 +21,17 @@ requires:
   id: 0
   name: fftw
   version: 3.0.1
-  category: sci-libs
+  category: dev-python
   id: 0
-  name: gsl
+  name: numpy
+  version: ""
+  category: dev-python
+  id: 0
+  name: pycson
   version: ""
   category: media-libs
   id: 0
-  name: mesa[X(+)]
+  name: glm
   version: ""
   category: media-libs
   id: 0
@@ -49,10 +41,22 @@ requires:
   id: 0
   name: dvisvgm
   version: ""
-  category: gnome-base
+  category: dev-libs
   id: 0
-  name: librsvg
-  version: "2.40"
+  name: libsigsegv
+  version: ""
+  category: virtual
+  id: 0
+  name: latex-base
+  version: ""
+  category: sys-libs
+  id: 0
+  name: readline
+  version: 4.3-r5
+  category: sci-libs
+  id: 0
+  name: gsl
+  version: ""
   category: dev-texlive
   id: 0
   name: texlive-latexextra
@@ -67,24 +71,20 @@ requires:
   version: 5.4-r5
   category: media-libs
   id: 0
-  name: freeglut
+  name: mesa[X(+)]
   version: ""
   category: media-libs
   id: 0
-  name: glm
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libsigsegv
+  name: freeglut
   version: ""
   category: dev-python
   id: 0
   name: PyQt5
   version: ""
-  category: dev-python
+  category: gnome-base
   id: 0
-  name: numpy
-  version: ""
+  name: librsvg
+  version: "2.40"
 use_flags:
 - +boehm-gc
 - doc

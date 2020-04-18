@@ -4,6 +4,14 @@ description: Perl Interface to the Domain Name System
 id: 0
 name: Net-DNS
 requires:
+  category: virtual
+  id: 0
+  name: perl-Digest-SHA
+  version: 5.230.0
+  category: virtual
+  id: 0
+  name: perl-IO-Socket-IP
+  version: 0.380.0
   category: dev-perl
   id: 0
   name: Digest-BubbleBabble
@@ -14,12 +22,16 @@ requires:
   version: 1.0.0
   category: virtual
   id: 0
-  name: perl-Digest-MD5
-  version: 2.130.0
+  name: perl-Scalar-List-Utils
+  version: 1.250.0
+  category: dev-perl
+  id: 0
+  name: Digest-HMAC
+  version: 1.30.0
   category: virtual
   id: 0
-  name: perl-Digest-SHA
-  version: 5.230.0
+  name: perl-Digest-MD5
+  version: 2.130.0
   category: virtual
   id: 0
   name: perl-File-Spec
@@ -32,22 +44,10 @@ requires:
   id: 0
   name: perl-Time-Local
   version: 1.190.0
-  category: virtual
-  id: 0
-  name: perl-IO-Socket-IP
-  version: 0.380.0
   category: dev-perl
   id: 0
   name: Net-LibIDN
   version: 0.120.0
-  category: virtual
-  id: 0
-  name: perl-Scalar-List-Utils
-  version: 1.250.0
-  category: dev-perl
-  id: 0
-  name: Digest-HMAC
-  version: 1.30.0
 use_flags:
 - +ipv6
 - test

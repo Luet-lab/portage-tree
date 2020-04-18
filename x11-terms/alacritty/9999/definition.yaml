@@ -6,17 +6,13 @@ license: Apache-2.0 Apache-2.0-with-LLVM-exceptions Boost-1.0 BSD BSD-2 CC0-1.0 
   ISC MIT MPL-2.0 Unlicense WTFPL-2 ZLIB
 name: alacritty
 requires:
-  category: media-libs
+  category: sys-libs
   id: 0
-  name: fontconfig
+  name: zlib
   version: ""
-  category: media-libs
+  category: sys-libs
   id: 0
-  name: freetype
-  version: ""
-  category: dev-libs
-  id: 0
-  name: wayland
+  name: ncurses
   version: ""
   category: x11-libs
   id: 0
@@ -30,17 +26,21 @@ requires:
   id: 0
   name: libXrandr
   version: ""
+  category: media-libs
+  id: 0
+  name: fontconfig
+  version: ""
+  category: media-libs
+  id: 0
+  name: freetype
+  version: ""
   category: x11-libs
   id: 0
   name: libxcb
   version: ""
-  category: sys-libs
+  category: dev-libs
   id: 0
-  name: zlib
-  version: ""
-  category: sys-libs
-  id: 0
-  name: ncurses
+  name: wayland
   version: ""
 use_flags:
 - wayland

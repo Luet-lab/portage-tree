@@ -4,6 +4,10 @@ description: Controls the keyboard layout of a running X server
 id: 0
 name: setxkbmap
 requires:
+  category: x11-misc
+  id: 0
+  name: xkeyboard-config
+  version: ""
   category: x11-libs
   id: 0
   name: libxkbfile
@@ -11,10 +15,6 @@ requires:
   category: x11-libs
   id: 0
   name: libX11
-  version: ""
-  category: x11-misc
-  id: 0
-  name: xkeyboard-config
   version: ""
 use_flags:
 - ""

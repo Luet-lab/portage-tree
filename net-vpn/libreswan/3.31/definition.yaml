@@ -11,11 +11,19 @@ name: libreswan
 requires:
   category: dev-libs
   id: 0
+  name: nss[utils(+)]
+  version: ""
+  category: dev-libs
+  id: 0
   name: nspr
   version: ""
   category: sys-libs
   id: 0
-  name: libselinux
+  name: libseccomp
+  version: ""
+  category: net-nds
+  id: 0
+  name: openldap
   version: ""
   category: sys-apps
   id: 0
@@ -29,29 +37,21 @@ requires:
   id: 0
   name: nss
   version: "3.42"
-  category: sys-kernel
+  category: net-libs
   id: 0
-  name: linux-headers
-  version: "4.19"
+  name: ldns
+  version: ""
+  category: sys-libs
+  id: 0
+  name: pam
+  version: ""
   category: sys-apps
   id: 0
   name: iproute2
   version: ""
-  category: dev-libs
-  id: 0
-  name: libevent
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libseccomp
-  version: ""
   category: sec-policy
   id: 0
   name: selinux-ipsec
-  version: ""
-  category: sys-libs
-  id: 0
-  name: libcap-ng
   version: ""
   category: net-misc
   id: 0
@@ -61,22 +61,22 @@ requires:
   id: 0
   name: unbound
   version: 1.9.1-r1
-  category: net-libs
+  category: sys-libs
   id: 0
-  name: ldns
-  version: ""
-  category: net-nds
-  id: 0
-  name: openldap
+  name: libcap-ng
   version: ""
   category: sys-libs
   id: 0
-  name: pam
+  name: libselinux
   version: ""
   category: dev-libs
   id: 0
-  name: nss[utils(+)]
+  name: libevent
   version: ""
+  category: sys-kernel
+  id: 0
+  name: linux-headers
+  version: "4.19"
 uri:
 - https://download.libreswan.org/libreswan-3.31.tar.gz
 use_flags:

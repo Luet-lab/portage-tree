@@ -8,13 +8,13 @@ conflicts:
   id: 0
   name: udev
   version: ""
-  category: sys-fs
-  id: 0
-  name: eudev
-  version: ""
   category: net-dns
   id: 0
   name: openresolv
+  version: ""
+  category: sys-fs
+  id: 0
+  name: eudev
   version: ""
 description: System and service manager for Linux
 id: 0
@@ -23,95 +23,27 @@ name: systemd
 requires:
   category: acct-group
   id: 0
-  name: utmp
+  name: kvm
   version: ""
-  category: net-libs
+  category: acct-user
   id: 0
-  name: gnutls
-  version: 3.6.0
-  category: net-firewall
+  name: systemd-journal-remote
+  version: ""
+  category: sys-apps
   id: 0
-  name: iptables
+  name: coreutils[kill(-)]
   version: ""
   category: sys-libs
   id: 0
   name: libselinux
   version: ""
-  category: acct-group
+  category: sys-apps
   id: 0
-  name: kvm
+  name: sysvinit
   version: ""
   category: app-arch
   id: 0
-  name: lz4
-  version: 0_p131
-  category: acct-user
-  id: 0
-  name: systemd-resolve
-  version: ""
-  category: sys-process
-  id: 0
-  name: audit
-  version: "2"
-  category: dev-libs
-  id: 0
-  name: libgcrypt
-  version: 1.4.5
-  category: sys-apps
-  id: 0
-  name: util-linux[kill(-)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: libpcre2
-  version: ""
-  category: media-gfx
-  id: 0
-  name: qrencode
-  version: ""
-  category: acct-group
-  id: 0
-  name: kmem
-  version: ""
-  category: acct-group
-  id: 0
-  name: dialout
-  version: ""
-  category: sys-process
-  id: 0
-  name: procps[kill(+)]
-  version: ""
-  category: sys-apps
-  id: 0
-  name: acl
-  version: ""
-  category: net-misc
-  id: 0
-  name: curl
-  version: ""
-  category: acct-group
-  id: 0
-  name: tape
-  version: ""
-  category: acct-group
-  id: 0
-  name: systemd-journal
-  version: ""
-  category: dev-libs
-  id: 0
-  name: openssl
-  version: 1.1.0
-  category: app-arch
-  id: 0
-  name: xz-utils
-  version: 5.0.5-r1
-  category: sys-libs
-  id: 0
-  name: libseccomp
-  version: 2.3.3
-  category: acct-group
-  id: 0
-  name: audio
+  name: bzip2
   version: ""
   category: acct-group
   id: 0
@@ -119,123 +51,191 @@ requires:
   version: ""
   category: acct-group
   id: 0
-  name: video
-  version: ""
-  category: acct-user
-  id: 0
-  name: systemd-timesync
-  version: ""
-  category: app-arch
-  id: 0
-  name: bzip2
-  version: ""
-  category: app-crypt
-  id: 0
-  name: p11-kit
+  name: tape
   version: ""
   category: sys-fs
   id: 0
   name: cryptsetup
   version: 2.0.1
-  category: net-dns
-  id: 0
-  name: libidn2
-  version: ""
   category: acct-user
   id: 0
-  name: systemd-coredump
-  version: ""
-  category: sys-apps
-  id: 0
-  name: baselayout
-  version: "2.2"
-  category: sys-apps
-  id: 0
-  name: coreutils[kill(-)]
-  version: ""
-  category: dev-libs
-  id: 0
-  name: elfutils
-  version: "0.158"
-  category: acct-group
-  id: 0
-  name: input
-  version: ""
-  category: net-libs
-  id: 0
-  name: gnutls
-  version: 3.1.4
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: ""
-  category: sys-libs
-  id: 0
-  name: pam
-  version: ""
-  category: acct-group
-  id: 0
-  name: tty
-  version: ""
-  category: acct-user
-  id: 0
-  name: systemd-journal-remote
-  version: ""
-  category: acct-user
-  id: 0
-  name: systemd-network
+  name: systemd-resolve
   version: ""
   category: sec-policy
   id: 0
   name: selinux-base-policy
   version: ""
+  category: sys-process
+  id: 0
+  name: audit
+  version: "2"
   category: sys-libs
   id: 0
-  name: libcap
+  name: pam
   version: ""
-  category: sys-libs
+  category: media-gfx
   id: 0
-  name: libapparmor
+  name: qrencode
+  version: ""
+  category: acct-group
+  id: 0
+  name: tty
   version: ""
   category: net-libs
   id: 0
-  name: libmicrohttpd
-  version: 0.9.33
-  category: dev-libs
-  id: 0
-  name: libpwquality
-  version: ""
-  category: x11-libs
-  id: 0
-  name: libxkbcommon
-  version: 0.4.1
+  name: gnutls
+  version: 3.1.4
   category: acct-group
   id: 0
-  name: render
+  name: input
+  version: ""
+  category: acct-user
+  id: 0
+  name: systemd-network
   version: ""
   category: sys-apps
   id: 0
   name: util-linux
   version: "2.30"
+  category: net-libs
+  id: 0
+  name: gnutls
+  version: 3.6.0
+  category: dev-libs
+  id: 0
+  name: openssl
+  version: 1.1.0
+  category: net-libs
+  id: 0
+  name: libmicrohttpd
+  version: 0.9.33
+  category: net-dns
+  id: 0
+  name: libidn2
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libseccomp
+  version: 2.3.3
   category: acct-group
   id: 0
-  name: adm
+  name: disk
+  version: ""
+  category: acct-user
+  id: 0
+  name: systemd-coredump
+  version: ""
+  category: app-arch
+  id: 0
+  name: lz4
+  version: 0_p131
+  category: acct-group
+  id: 0
+  name: video
+  version: ""
+  category: sys-apps
+  id: 0
+  name: util-linux[kill(-)]
+  version: ""
+  category: acct-group
+  id: 0
+  name: kmem
+  version: ""
+  category: acct-group
+  id: 0
+  name: utmp
+  version: ""
+  category: acct-group
+  id: 0
+  name: systemd-journal
+  version: ""
+  category: sys-apps
+  id: 0
+  name: acl
+  version: ""
+  category: acct-group
+  id: 0
+  name: render
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libcap
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libgcrypt
+  version: 1.4.5
+  category: app-arch
+  id: 0
+  name: xz-utils
+  version: 5.0.5-r1
+  category: x11-libs
+  id: 0
+  name: libxkbcommon
+  version: 0.4.1
+  category: sys-apps
+  id: 0
+  name: baselayout
+  version: "2.2"
+  category: net-firewall
+  id: 0
+  name: iptables
+  version: ""
+  category: sys-process
+  id: 0
+  name: procps[kill(+)]
+  version: ""
+  category: net-misc
+  id: 0
+  name: curl
   version: ""
   category: sys-apps
   id: 0
   name: kmod
   version: "15"
+  category: app-crypt
+  id: 0
+  name: p11-kit
+  version: ""
+  category: acct-group
+  id: 0
+  name: audio
+  version: ""
+  category: acct-user
+  id: 0
+  name: systemd-timesync
+  version: ""
+  category: sys-libs
+  id: 0
+  name: libapparmor
+  version: ""
+  category: dev-libs
+  id: 0
+  name: elfutils
+  version: "0.158"
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libpcre2
+  version: ""
+  category: dev-libs
+  id: 0
+  name: libpwquality
+  version: ""
   category: acct-group
   id: 0
   name: wheel
   version: ""
   category: acct-group
   id: 0
-  name: disk
+  name: adm
   version: ""
-  category: sys-apps
+  category: acct-group
   id: 0
-  name: sysvinit
+  name: dialout
   version: ""
 uri:
 - https://github.com/systemd/systemd/archive/v245/systemd-245.tar.gz

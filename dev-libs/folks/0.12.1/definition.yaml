@@ -5,9 +5,13 @@ id: 0
 license: LGPL-2.1+
 name: folks
 requires:
-  category: sys-libs
+  category: net-wireless
   id: 0
-  name: readline
+  name: bluez
+  version: "5"
+  category: net-im
+  id: 0
+  name: telepathy-mission-control
   version: ""
   category: dev-libs
   id: 0
@@ -21,17 +25,13 @@ requires:
   id: 0
   name: gobject-introspection
   version: "1.54"
-  category: gnome-extra
-  id: 0
-  name: evolution-data-server
-  version: 3.13.90
-  category: gnome-extra
-  id: 0
-  name: evolution-data-server
-  version: "3.33"
   category: dev-libs
   id: 0
   name: libxml2
+  version: ""
+  category: sys-libs
+  id: 0
+  name: readline
   version: ""
   category: dev-libs
   id: 0
@@ -41,14 +41,14 @@ requires:
   id: 0
   name: telepathy-glib
   version: 0.19.9
-  category: net-wireless
+  category: gnome-extra
   id: 0
-  name: bluez
-  version: "5"
-  category: net-im
+  name: evolution-data-server
+  version: 3.13.90
+  category: gnome-extra
   id: 0
-  name: telepathy-mission-control
-  version: ""
+  name: evolution-data-server
+  version: "3.33"
 use_flags:
 - bluetooth
 - eds

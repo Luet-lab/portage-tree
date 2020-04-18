@@ -9,58 +9,26 @@ id: 0
 license: GPL-2+ LGPL-2+
 name: gst-plugins-base
 requires:
+  category: media-libs
+  id: 0
+  name: graphene
+  version: 1.4.0
+  category: dev-lang
+  id: 0
+  name: orc
+  version: 0.4.24
   category: dev-libs
   id: 0
   name: glib
   version: 2.40.0
   category: media-libs
   id: 0
-  name: libogg
-  version: 1.3.0
-  category: dev-lang
-  id: 0
-  name: orc
-  version: 0.4.24
-  category: x11-libs
-  id: 0
-  name: libXext
-  version: 1.3.2
-  category: x11-libs
-  id: 0
-  name: libdrm
-  version: 2.4.55
-  category: virtual
-  id: 0
-  name: jpeg
-  version: ""
-  category: app-text
-  id: 0
-  name: iso-codes
-  version: ""
-  category: media-libs
-  id: 0
   name: alsa-lib
   version: 1.0.27.2
-  category: x11-libs
-  id: 0
-  name: libXv
-  version: 1.0.10
-  category: x11-libs
-  id: 0
-  name: libdrm
-  version: ""
   category: dev-libs
   id: 0
-  name: libgudev
-  version: "147"
-  category: media-libs
-  id: 0
-  name: libpng
-  version: ""
-  category: sys-libs
-  id: 0
-  name: zlib
-  version: 1.2.8-r1
+  name: gobject-introspection
+  version: 1.31.1
   category: media-libs
   id: 0
   name: tremor
@@ -69,30 +37,62 @@ requires:
   id: 0
   name: pango
   version: 1.36.3
-  category: media-libs
-  id: 0
-  name: libvorbis
-  version: 1.3.3-r1
   category: dev-libs
   id: 0
-  name: gobject-introspection
-  version: 1.31.1
+  name: libgudev
+  version: "147"
+  category: x11-libs
+  id: 0
+  name: libdrm
+  version: 2.4.55
+  category: app-text
+  id: 0
+  name: iso-codes
+  version: ""
   category: media-libs
   id: 0
   name: libtheora
   version: 1.1.1
+  category: media-libs
+  id: 0
+  name: libvorbis
+  version: 1.3.3-r1
+  category: x11-libs
+  id: 0
+  name: libXext
+  version: 1.3.2
+  category: x11-libs
+  id: 0
+  name: libXv
+  version: 1.0.10
+  category: media-libs
+  id: 0
+  name: libpng
+  version: ""
+  category: media-libs
+  id: 0
+  name: libogg
+  version: 1.3.0
   category: x11-libs
   id: 0
   name: libX11
   version: 1.6.2
+  category: x11-libs
+  id: 0
+  name: libdrm
+  version: ""
   category: dev-libs
   id: 0
   name: wayland
   version: ""
-  category: media-libs
+  category: virtual
   id: 0
-  name: graphene
-  version: 1.4.0
+  name: jpeg
+  version: ""
+  category: sys-libs
+  id: 0
+  name: zlib
+  version: 1.2.8-r1
 use_flags:
 - alsa
 - +egl
